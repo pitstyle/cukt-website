@@ -6,12 +6,12 @@ const projects = await getCollection('cukt');
 const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ?? 99));
 ---
 
-<Base title="Archiwum C.U.K.T." description="23 projekty Centralnego Urzędu Kultury Technicznej (1992-2001+)">
+<Base title="ARCHIWUM CUKT" description="23 projekty Centralnego Urzadu Kultury Technicznej (1992-2001+)">
   <section class="archive-header">
     <div class="container">
-      <h1 class="glow">Archiwum C.U.K.T.</h1>
-      <p class="subtitle">Centralny Urząd Kultury Technicznej — 23 projekty, 1992–2001+</p>
-      <p class="dim">Wyrzykowski — Jurkowski — Popek</p>
+      <h1>ARCHIWUM CUKT</h1>
+      <p class="subtitle">23 PROJEKTY / 1992–2001+</p>
+      <p class="dim">WYRZYKOWSKI / JURKOWSKI / POPEK</p>
     </div>
   </section>
 
@@ -34,23 +34,26 @@ const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ??
 <style>
   .archive-header {
     padding: var(--space-2xl) 0 var(--space-xl);
-    border-bottom: 1px solid var(--crt-border);
+    border-bottom: 1px solid var(--border);
   }
 
   .archive-header h1 {
-    letter-spacing: 4px;
+    color: var(--red);
     margin-bottom: var(--space-sm);
   }
 
   .subtitle {
-    color: var(--crt-cyan);
-    font-size: 1rem;
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
     margin-bottom: var(--space-xs);
   }
 
   .dim {
-    color: var(--crt-text-dim);
-    font-size: 0.85rem;
+    color: var(--white-dim);
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
   }
 
   .archive-list {
@@ -58,7 +61,7 @@ const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ??
   }
 
   .card-number {
-    color: var(--crt-green-dim);
+    color: var(--red-dim);
     font-size: 0.75rem;
     display: block;
     margin-bottom: var(--space-xs);

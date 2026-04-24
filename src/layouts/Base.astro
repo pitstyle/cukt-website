@@ -2,10 +2,9 @@
 interface Props {
   title: string;
   description?: string;
-  mode?: 'crt' | 'clean';
 }
 
-const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej', mode = 'crt' } = Astro.props;
+const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej' } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -14,21 +13,19 @@ const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej'
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />
-  <title>{title} | cukt.click</title>
+  <title>{title} | CUKTAI</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
-<body class={mode === 'clean' ? 'clean' : ''}>
+<body>
   <nav class="nav">
     <div class="container nav-inner">
-      <a href="/" class="nav-logo">
-        <span class="glow">C.U.K.T.</span><span class="nav-ai">AI</span>
-      </a>
+      <a href="/" class="nav-logo">CUKTAI</a>
       <div class="nav-links">
-        <a href="/archive">Archiwum</a>
-        <a href="/personal">Projekty</a>
-        <a href="/tags">Tagi</a>
-        <a href="/live">Live</a>
-        <a href="/about">Info</a>
+        <a href="/archive">ARCHIWUM</a>
+        <a href="/personal">PROJEKTY</a>
+        <a href="/tags">TAGI</a>
+        <a href="/live">LIVE</a>
+        <a href="/about">INFO</a>
       </div>
       <button class="nav-toggle" aria-label="Menu">///</button>
     </div>
@@ -42,12 +39,13 @@ const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej'
     <div class="container">
       <div class="footer-inner">
         <div>
-          <span class="glow">C.U.K.T.</span> Centralny Urząd Kultury Technicznej<br />
-          <span class="footer-dim">est. 1992 Gdańsk — Wyrzykowski, Jurkowski, Popek</span>
+          <span class="footer-title">CUKTAI</span><br />
+          <span class="footer-dim">CENTRALNY URZAD KULTURY TECHNICZNEJ</span><br />
+          <span class="footer-dim">WYRZYKOWSKI / JURKOWSKI / POPEK</span>
         </div>
         <div class="footer-right">
-          <span class="footer-dim">CUKTAI v0.01-beta</span><br />
-          <a href="https://instagram.com/wiktoriacukt">@wiktoriacukt</a>
+          <a href="https://instagram.com/wiktoriacukt">@WIKTORIACUKT</a><br />
+          <a href="https://instagram.com/_transformizm">@_TRANSFORMIZM</a>
         </div>
       </div>
     </div>
@@ -62,7 +60,7 @@ const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej'
       z-index: 100;
       background: rgba(10, 10, 10, 0.95);
       backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--crt-border);
+      border-bottom: 1px solid var(--border);
       padding: var(--space-sm) 0;
     }
 
@@ -74,40 +72,34 @@ const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej'
 
     .nav-logo {
       font-size: 1.25rem;
-      font-weight: 700;
-      letter-spacing: 2px;
-    }
-
-    .nav-ai {
-      color: var(--crt-cyan);
-      font-size: 0.8rem;
-      vertical-align: super;
-      margin-left: 2px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--red) !important;
+      text-transform: uppercase;
     }
 
     .nav-links {
       display: flex;
       gap: var(--space-lg);
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
     }
 
     .nav-links a {
-      color: var(--crt-text-dim);
+      color: var(--white-dim);
       transition: color 0.2s;
     }
 
     .nav-links a:hover {
-      color: var(--crt-green);
-      text-shadow: 0 0 8px rgba(0, 230, 0, 0.3);
+      color: var(--white);
     }
 
     .nav-toggle {
       display: none;
       background: none;
-      border: 1px solid var(--crt-border);
-      color: var(--crt-green);
+      border: 1px solid var(--border);
+      color: var(--red);
       font-family: var(--font-mono);
       font-size: 1.2rem;
       cursor: pointer;
@@ -115,10 +107,11 @@ const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej'
     }
 
     .footer {
-      border-top: 1px solid var(--crt-border);
+      border-top: 1px solid var(--border);
       padding: var(--space-xl) 0;
       margin-top: var(--space-2xl);
-      font-size: 0.85rem;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
     }
 
     .footer-inner {
@@ -127,12 +120,21 @@ const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej'
       align-items: flex-end;
     }
 
+    .footer-title {
+      color: var(--red);
+      font-weight: 800;
+      font-size: 1rem;
+      letter-spacing: 3px;
+    }
+
     .footer-dim {
-      color: var(--crt-text-dim);
+      color: var(--white-dim);
+      font-size: 0.75rem;
     }
 
     .footer-right {
       text-align: right;
+      text-transform: uppercase;
     }
 
     @media (max-width: 768px) {

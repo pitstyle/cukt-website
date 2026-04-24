@@ -5,7 +5,7 @@ import Base from '../../layouts/Base.astro';
 <Base title="Live" description="Aktywność systemu CUKTAI w czasie rzeczywistym">
   <section class="header">
     <div class="container">
-      <h1 class="glow">Live Feed</h1>
+      <h1 >Live Feed</h1>
       <p class="subtitle">Aktywność systemu CUKTAI</p>
     </div>
   </section>
@@ -33,11 +33,11 @@ import Base from '../../layouts/Base.astro';
 <style>
   .header {
     padding: var(--space-2xl) 0 var(--space-xl);
-    border-bottom: 1px solid var(--crt-border);
+    border-bottom: 1px solid var(--border);
   }
 
   .subtitle {
-    color: var(--crt-text-dim);
+    color: var(--white-dim);
   }
 
   .feed {
@@ -49,19 +49,19 @@ import Base from '../../layouts/Base.astro';
   }
 
   .feed-section h2 {
-    color: var(--crt-green);
+    color: var(--red);
     margin-bottom: var(--space-md);
     font-size: 1.1rem;
   }
 
   .agent-status {
-    border: 1px solid var(--crt-border);
+    border: 1px solid var(--border);
     padding: var(--space-md);
   }
 
   .agent-line {
     padding: var(--space-sm) 0;
-    border-bottom: 1px solid var(--crt-border);
+    border-bottom: 1px solid var(--border);
     font-size: 0.9rem;
   }
 
@@ -69,13 +69,13 @@ import Base from '../../layouts/Base.astro';
     border-bottom: none;
   }
 
-  .status-ok { color: var(--crt-green); }
-  .status-warn { color: var(--crt-amber); }
+  .status-ok { color: var(--green); }
+  .status-warn { color: var(--red); }
 
   .pending {
     font-size: 0.9rem;
-    color: var(--crt-text-dim);
+    color: var(--white-dim);
     padding: var(--space-md);
-    border: 1px dashed var(--crt-border);
+    border: 1px dashed var(--border);
   }
 </style>
