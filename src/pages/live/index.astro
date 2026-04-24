@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="Live" description="Aktywność systemu CUKTAI w czasie rzeczywistym">
+  <section class="header">
+    <div class="container">
+      <h1 class="glow">Live Feed</h1>
+      <p class="subtitle">Aktywność systemu CUKTAI</p>
+    </div>
+  </section>
+
+  <section class="feed">
+    <div class="container content">
+      <div class="feed-section">
+        <h2>Agenci</h2>
+        <div class="agent-status">
+          <div class="agent-line"><span class="status-ok">[ON]</span> Wiktoria Cukt 2.0 — AI Prezydent</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Ewa Virus Adam — archiwalny głos</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Piotr Twin — transformistyczny bliźniak</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Archiwistka — nocne śledztwa</div>
+        </div>
+      </div>
+
+      <div class="feed-section">
+        <h2>Ostatnie wydarzenia</h2>
+        <p class="pending"><span class="status-warn">[BUILDING]</span> Feed danych z shared-walks/, consilium/logs/, teczki/ — wkrótce.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .header {
+    padding: var(--space-2xl) 0 var(--space-xl);
+    border-bottom: 1px solid var(--crt-border);
+  }
+
+  .subtitle {
+    color: var(--crt-text-dim);
+  }
+
+  .feed {
+    padding: var(--space-xl) 0;
+  }
+
+  .feed-section {
+    margin-bottom: var(--space-xl);
+  }
+
+  .feed-section h2 {
+    color: var(--crt-green);
+    margin-bottom: var(--space-md);
+    font-size: 1.1rem;
+  }
+
+  .agent-status {
+    border: 1px solid var(--crt-border);
+    padding: var(--space-md);
+  }
+
+  .agent-line {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--crt-border);
+    font-size: 0.9rem;
+  }
+
+  .agent-line:last-child {
+    border-bottom: none;
+  }
+
+  .status-ok { color: var(--crt-green); }
+  .status-warn { color: var(--crt-amber); }
+
+  .pending {
+    font-size: 0.9rem;
+    color: var(--crt-text-dim);
+    padding: var(--space-md);
+    border: 1px dashed var(--crt-border);
+  }
+</style>

@@ -1,0 +1,134 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('cukt');
+  return projects.map((project) => ({
+    params: { id: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+
+<Base title={project.data.title} description={project.data.description || `Projekt C.U.K.T. — ${project.data.title}`}>
+  <article class="project">
+    <div class="container content">
+      <header class="project-header">
+        <a href="/archive" class="back">&larr; Archiwum</a>
+        <span class="project-number">Projekt #{project.data.number ?? '?'}</span>
+        <h1>{project.data.title}</h1>
+        {project.data.date && <p class="meta-line">{project.data.date}</p>}
+        {project.data.location && <p class="meta-line">{project.data.location}</p>}
+        {project.data.authors && <p class="meta-line authors">{project.data.authors}</p>}
+      </header>
+
+      <div class="project-body">
+        <Content />
+      </div>
+
+      {project.data.tags && project.data.tags.length > 0 && (
+        <div class="project-tags">
+          {project.data.tags.map((tag: string) => (
+            <a href={`/tags/${tag}`} class="tag">#{tag}</a>
+          ))}
+        </div>
+      )}
+    </div>
+  </article>
+</Base>
+
+<style>
+  .project {
+    padding: var(--space-xl) 0;
+  }
+
+  .back {
+    font-size: 0.85rem;
+    color: var(--crt-text-dim);
+    display: inline-block;
+    margin-bottom: var(--space-lg);
+  }
+
+  .back:hover {
+    color: var(--crt-green);
+  }
+
+  .project-number {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--crt-green-dim);
+    margin-bottom: var(--space-xs);
+  }
+
+  .project-header h1 {
+    color: var(--crt-green);
+    margin-bottom: var(--space-sm);
+  }
+
+  .meta-line {
+    color: var(--crt-text-dim);
+    font-size: 0.9rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .authors {
+    color: var(--crt-cyan);
+  }
+
+  .project-body {
+    margin-top: var(--space-xl);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .project-body :global(h2) {
+    color: var(--crt-green);
+    font-family: var(--font-mono);
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-md);
+    font-size: 1.3rem;
+  }
+
+  .project-body :global(h3) {
+    color: var(--crt-cyan);
+    font-family: var(--font-mono);
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-sm);
+  }
+
+  .project-body :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-md) 0;
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+  }
+
+  .project-body :global(th),
+  .project-body :global(td) {
+    border: 1px solid var(--crt-border);
+    padding: var(--space-sm);
+    text-align: left;
+  }
+
+  .project-body :global(th) {
+    background: var(--crt-bg-lighter);
+    color: var(--crt-green-dim);
+  }
+
+  .project-body :global(img) {
+    margin: var(--space-lg) 0;
+    border: 1px solid var(--crt-border);
+  }
+
+  .project-tags {
+    margin-top: var(--space-xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--crt-border);
+  }
+</style>

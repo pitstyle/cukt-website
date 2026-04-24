@@ -1,0 +1,164 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  mode?: 'crt' | 'clean';
+}
+
+const { title, description = 'C.U.K.T. — Centralny Urząd Kultury Technicznej', mode = 'crt' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} | cukt.click</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body class={mode === 'clean' ? 'clean' : ''}>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo">
+        <span class="glow">C.U.K.T.</span><span class="nav-ai">AI</span>
+      </a>
+      <div class="nav-links">
+        <a href="/archive">Archiwum</a>
+        <a href="/personal">Projekty</a>
+        <a href="/tags">Tagi</a>
+        <a href="/live">Live</a>
+        <a href="/about">Info</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">///</button>
+    </div>
+  </nav>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <span class="glow">C.U.K.T.</span> Centralny Urząd Kultury Technicznej<br />
+          <span class="footer-dim">est. 1992 Gdańsk — Wyrzykowski, Jurkowski, Popek</span>
+        </div>
+        <div class="footer-right">
+          <span class="footer-dim">CUKTAI v0.01-beta</span><br />
+          <a href="https://instagram.com/wiktoriacukt">@wiktoriacukt</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    @import '../styles/global.css';
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 10, 10, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--crt-border);
+      padding: var(--space-sm) 0;
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .nav-ai {
+      color: var(--crt-cyan);
+      font-size: 0.8rem;
+      vertical-align: super;
+      margin-left: 2px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--space-lg);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .nav-links a {
+      color: var(--crt-text-dim);
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--crt-green);
+      text-shadow: 0 0 8px rgba(0, 230, 0, 0.3);
+    }
+
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: 1px solid var(--crt-border);
+      color: var(--crt-green);
+      font-family: var(--font-mono);
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 4px 8px;
+    }
+
+    .footer {
+      border-top: 1px solid var(--crt-border);
+      padding: var(--space-xl) 0;
+      margin-top: var(--space-2xl);
+      font-size: 0.85rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .footer-dim {
+      color: var(--crt-text-dim);
+    }
+
+    .footer-right {
+      text-align: right;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-toggle { display: block; }
+      .footer-inner { flex-direction: column; gap: var(--space-md); }
+      .footer-right { text-align: left; }
+    }
+  </style>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle?.addEventListener('click', () => {
+      const expanded = links?.style.display === 'flex';
+      if (links) {
+        links.style.display = expanded ? 'none' : 'flex';
+        links.style.flexDirection = 'column';
+        links.style.position = 'absolute';
+        links.style.top = '100%';
+        links.style.left = '0';
+        links.style.right = '0';
+        links.style.background = 'rgba(10,10,10,0.98)';
+        links.style.padding = '1rem 2rem';
+      }
+    });
+  </script>
+</body>
+</html>

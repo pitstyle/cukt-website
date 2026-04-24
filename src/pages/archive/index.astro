@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const projects = await getCollection('cukt');
+const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ?? 99));
+---
+
+<Base title="Archiwum C.U.K.T." description="23 projekty Centralnego Urzędu Kultury Technicznej (1992-2001+)">
+  <section class="archive-header">
+    <div class="container">
+      <h1 class="glow">Archiwum C.U.K.T.</h1>
+      <p class="subtitle">Centralny Urząd Kultury Technicznej — 23 projekty, 1992–2001+</p>
+      <p class="dim">Wyrzykowski — Jurkowski — Popek</p>
+    </div>
+  </section>
+
+  <section class="archive-list">
+    <div class="container">
+      <div class="grid-projects">
+        {sorted.map((project) => (
+          <a href={`/archive/${project.id}`} class="project-card">
+            <span class="card-number">#{project.data.number ?? '?'}</span>
+            <h3>{project.data.title}</h3>
+            <p class="meta">{project.data.date}</p>
+            {project.data.authors && <p class="meta">{project.data.authors}</p>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .archive-header {
+    padding: var(--space-2xl) 0 var(--space-xl);
+    border-bottom: 1px solid var(--crt-border);
+  }
+
+  .archive-header h1 {
+    letter-spacing: 4px;
+    margin-bottom: var(--space-sm);
+  }
+
+  .subtitle {
+    color: var(--crt-cyan);
+    font-size: 1rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .dim {
+    color: var(--crt-text-dim);
+    font-size: 0.85rem;
+  }
+
+  .archive-list {
+    padding: var(--space-xl) 0;
+  }
+
+  .card-number {
+    color: var(--crt-green-dim);
+    font-size: 0.75rem;
+    display: block;
+    margin-bottom: var(--space-xs);
+  }
+</style>

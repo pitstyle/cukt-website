@@ -1,0 +1,209 @@
+/* cukt.click — CRT Terminal Aesthetic */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* CRT palette */
+  --crt-green: #00e600;
+  --crt-green-dim: #007a00;
+  --crt-green-glow: #33ff33;
+  --crt-cyan: #00e6ff;
+  --crt-amber: #ffb000;
+  --crt-red: #ff3333;
+  --crt-bg: #0a0a0a;
+  --crt-bg-lighter: #111111;
+  --crt-border: #1a1a1a;
+  --crt-text: #c8c8c8;
+  --crt-text-dim: #666666;
+
+  /* Clean palette (for portfolio sections) */
+  --clean-bg: #fafafa;
+  --clean-text: #1a1a1a;
+  --clean-text-dim: #666666;
+  --clean-accent: #da4444;
+  --clean-border: #e0e0e0;
+
+  /* Typography */
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-sans: 'Space Grotesk', -apple-system, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  --space-2xl: 8rem;
+
+  --max-width: 1200px;
+  --content-width: 800px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* ── CRT mode (default — CUKTAI sections) ── */
+
+body {
+  font-family: var(--font-mono);
+  background: var(--crt-bg);
+  color: var(--crt-text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* CRT scanline overlay */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  z-index: 9999;
+}
+
+/* ── Links ── */
+
+a {
+  color: var(--crt-green);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--crt-green-glow);
+  text-shadow: 0 0 8px rgba(0, 230, 0, 0.4);
+}
+
+/* ── CRT glow text ── */
+
+.glow {
+  text-shadow: 0 0 10px rgba(0, 230, 0, 0.6), 0 0 20px rgba(0, 230, 0, 0.3);
+}
+
+.glow-cyan {
+  color: var(--crt-cyan);
+  text-shadow: 0 0 10px rgba(0, 230, 255, 0.6), 0 0 20px rgba(0, 230, 255, 0.3);
+}
+
+/* ── Typography ── */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: 2.5rem; line-height: 1.1; }
+h2 { font-size: 1.75rem; line-height: 1.2; }
+h3 { font-size: 1.25rem; line-height: 1.3; }
+
+p {
+  margin-bottom: var(--space-md);
+  max-width: 65ch;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Layout helpers ── */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.content {
+  max-width: var(--content-width);
+}
+
+/* ── Clean mode (portfolio sections) ── */
+
+.clean {
+  background: var(--clean-bg);
+  color: var(--clean-text);
+  font-family: var(--font-sans);
+}
+
+.clean a {
+  color: var(--clean-accent);
+}
+
+.clean a:hover {
+  text-shadow: none;
+  text-decoration: underline;
+}
+
+/* ── Grid ── */
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-lg);
+}
+
+/* ── Project card ── */
+
+.project-card {
+  border: 1px solid var(--crt-border);
+  padding: var(--space-lg);
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.project-card:hover {
+  border-color: var(--crt-green-dim);
+  background: var(--crt-bg-lighter);
+}
+
+.project-card h3 {
+  color: var(--crt-green);
+  margin-bottom: var(--space-sm);
+}
+
+.project-card .meta {
+  color: var(--crt-text-dim);
+  font-size: 0.85rem;
+  margin-bottom: var(--space-sm);
+}
+
+/* ── Tags ── */
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border: 1px solid var(--crt-green-dim);
+  color: var(--crt-green);
+  margin-right: var(--space-xs);
+  margin-bottom: var(--space-xs);
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.35rem; }
+  .container { padding: 0 var(--space-md); }
+  .grid-projects { grid-template-columns: 1fr; }
+}

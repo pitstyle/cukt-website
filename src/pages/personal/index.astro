@@ -1,0 +1,75 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+let projects: any[] = [];
+try {
+  projects = await getCollection('personal');
+} catch { /* collection empty until content added */ }
+const sorted = projects.sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+---
+
+<Base title="Projekty Osobiste" description="Piotr Wyrzykowski / Peter Style — projekty artystyczne">
+  <section class="header">
+    <div class="container">
+      <h1>Piotr Wyrzykowski<br /><span class="alias">Peter Style</span></h1>
+      <p class="subtitle">Projekty osobiste — performance, wideo, instalacja, sztuka interaktywna</p>
+    </div>
+  </section>
+
+  <section class="list">
+    <div class="container">
+      {sorted.length > 0 ? (
+        <div class="grid-projects">
+          {sorted.map((project) => (
+            <a href={`/personal/${project.id}`} class="project-card">
+              <h3>{project.data.title}</h3>
+              {project.data.date && <p class="meta">{project.data.date}</p>}
+              {project.data.description && <p class="desc">{project.data.description}</p>}
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="pending"><span class="status-warn">[PENDING]</span> Treści w przygotowaniu — korekta Bielik w toku.</p>
+      )}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .header {
+    padding: var(--space-2xl) 0 var(--space-xl);
+    border-bottom: 1px solid var(--crt-border);
+  }
+
+  .header h1 {
+    color: var(--crt-cyan);
+    margin-bottom: var(--space-sm);
+  }
+
+  .alias {
+    color: var(--crt-text-dim);
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    color: var(--crt-text-dim);
+    font-size: 0.9rem;
+  }
+
+  .list {
+    padding: var(--space-xl) 0;
+  }
+
+  .desc {
+    font-size: 0.85rem;
+    color: var(--crt-text-dim);
+    font-family: var(--font-sans);
+  }
+
+  .pending {
+    font-size: 1rem;
+    padding: var(--space-lg);
+    border: 1px dashed var(--crt-border);
+  }
+</style>
