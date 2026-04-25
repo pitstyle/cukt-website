@@ -10,16 +10,16 @@ tags: ["body", "performance", "technology"]
 
 # TESTY NA CYBORGA — Bytów
 
-Testy na Cyborga to cykliczny wieloletni projekt w formie biurokratycznej akcji gdzie publiczność jest zmuszona do przejścia określonych form “inwigilacji” i cczynności zbliżonych do kontroli bezpieczeństwa na lotniskach. Koncepcja oparta na teście Voight Kampffa z Blade Runner. Najczęściej w połączeniu z wersją Technopery.  W większości przypadków zachowane wypełnione papierowe testy, skany “łap” z pieczątkami i numerami, zapisy video.
+Cyborg Tests is a recurring multi-year project in the form of a bureaucratic action where the audience is forced to undergo specific forms of “surveillance” and procedures resembling airport security checks. The concept is based on the Voight-Kampff test from Blade Runner. Most often combined with a version of Technopera. In most cases, completed paper tests, scans of “paws” with stamps and numbers, and video recordings have been preserved.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 28 czerwca 1996
 - **Miejsce:** Zamek, Bytów (w ramach festiwalu CASTLE OF IMAGINATION)
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
 - **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
-## Katalog archiwaliów (2 pozycji)
+## Archive Catalog (2 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
 

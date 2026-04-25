@@ -10,9 +10,9 @@ tags: ["technology", "performance"]
 
 # Technopera podczas festiwalu: „OSTRANENIE 97”
 
-Prezentacja Technopery na festiwalu Ostranenie w Dessau. Dokumentacja w ramach archiwum Technopery.
+Presentation of Technopera at the Ostranenie festival in Dessau. Documentation as part of the Technopera archive.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1997
 - **Miejsce:** Dessau, Niemcy

@@ -10,16 +10,16 @@ tags: ["body", "performance", "technology"]
 
 # TESTY NA CYBORGA — Warszawa CSW Zamek Ujazdowski
 
-Akcja “Testy na Cyborga” w CSW. Widzowie wypełniali formularze Testu na Cyborga wersja 03. Zachowana korespondencja z dyrektorem Krukowskim. Wersja Technopery i liveact Scnnera.
+The “Cyborg Tests” action at CSW. Viewers filled out Cyborg Test version 03 forms. Correspondence with director Krukowski has been preserved. Included a version of Technopera and a live act by Scnner.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 14 września 1996
 - **Miejsce:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
 - **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
-## Katalog archiwaliów (7 pozycji)
+## Archive Catalog (7 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
 

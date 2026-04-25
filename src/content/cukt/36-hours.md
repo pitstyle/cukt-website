@@ -10,15 +10,15 @@ tags: ["performance", "institution"]
 
 # 36 HOURS
 
-36-godzinna akcja artystyczna w Fortach Gdańskich. Projekt o charakterze performance/instalacji. Zachowany obiekt — instalacja z rowerem treningowym i ręcznikami z nadrukami, zawierająca billboard z jednego z pierwszych przykładów cenzury politycznej w RP (napis: “Cenzura — amputacja fragmentu ciała”). Ukryte instalacje interwencję w przestrzeń klubu.
+A 36-hour art action at Forty in Gdansk. A project combining performance and installation. A surviving object — an installation with an exercise bike and printed towels, incorporating a billboard from one of the first examples of political censorship in Poland (inscription: “Censorship — amputation of a body part”). Hidden installations as interventions into the club space.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** wrzesień 1995
 - **Miejsce:** Forty, Gdańsk
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski
 
-## Katalog archiwaliów (10 pozycji)
+## Archive Catalog (10 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

@@ -14,69 +14,69 @@ tags: ["performance", "institution", "technology"]
 
 # SZTUKA TO PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI — W PRZYBLIŻENIU 120 GODZIN MEGA TECHNO OBECNOŚCI
 
-## Opis projektu
+## Project Description
 
-Pierwszy projekt Piotra Wyrzykowskiego i Roberta Jurkowskiego, uznany retrospektywnie za Pre-CUKT — korzeń z którego wyrósł Centralny Urząd Kultury Technicznej (1995). Społeczno-estetyczny eksperyment polegający na zamianie funkcji galerii sztuki w klub techno. Galeria "Pracownia Chwilowa" — piwnice handlowego pawilonu "Rondo" w Koninie — została przekształcona w nocny klub z godzinami otwarcia 18:00-4:00, odwracając konwencję galerii (10:00-18:00).
+The first project by Piotr Wyrzykowski and Robert Jurkowski, retrospectively recognized as Pre-CUKT — the root from which the Central Bureau of Technical Culture (1995) grew. A socio-aesthetic experiment consisting of converting an art gallery into a techno club. The gallery "Pracownia Chwilowa" (Temporary Studio) — located in the basement of the "Rondo" commercial pavilion in Konin — was transformed into a nightclub with opening hours 18:00-4:00, inverting the gallery convention (10:00-18:00).
 
-Mieszkańcy Konina nie zostali powiadomieni o zamianie funkcji. To był celowy element strategii artystycznej: **ukrycie dzieła sztuki w formie klubu techno**. Ludzie przyszli na "techno", a znaleźli się wewnątrz instalacji sztuki współczesnej — wśród fosforyzujących napisów filozoficznych, kolumny z miodem i amfetaminą, oraz hipertekstu wmiksowanego na żywo w muzykę.
+The residents of Konin were not informed about the change of function. This was a deliberate element of the artistic strategy: **hiding the artwork in the form of a techno club**. People came for "techno" and found themselves inside a contemporary art installation — surrounded by phosphorescent philosophical inscriptions, a column containing honey and amphetamine, and hypertext mixed live into the music.
 
-Projekt miał trwać ok. 120 godzin (12 dni), ale został zamknięty po 7 dniach z powodu zagrożenia bezpieczeństwa. Lokalne grupy przestępcze ("półświadkowie Konina") próbowały przejąć kontrolę nad przestrzenią — doszło do rywalizacji między dwoma grupami gangsterskimi. Ostatnie 5 dni (9-13 XII) przeznaczono jako "bufor bezpieczeństwa" na rozładowanie sytuacji. Po wyjeździe organizatorów drzwi galerii zostały podpalone przez nieznanych sprawców — na drzwiach umieszczono kopię listu pożegnalnego z 9 XII. Akt ten został zinterpretowany jako rytualne ofiarowanie przestrzeni.
+The project was intended to last approximately 120 hours (12 days) but was shut down after 7 days due to security threats. Local criminal groups ("Konin's underworld") attempted to take control of the space — a rivalry between two gangs erupted. The final 5 days (9-13 December) were designated as a "safety buffer" to defuse the situation. After the organizers departed, the gallery doors were set on fire by unknown perpetrators — a copy of the farewell letter from 9 December was placed on the doors. This act was interpreted as a ritual offering of the space.
 
-## Instalacje i obiekty
+## Installations and Objects
 
-### Czerwona kolumna z żłobieniami (Robert Jurkowski)
-Centralny obiekt projektu — cylindryczna rzeźba z pionowymi żłobieniami, pomalowana farbą fosforyzującą (pomarańcz). U podstawy kolumny znajdował się mały fragment z naczyniem zawierającym miód i amfetaminę, podświetlony lampą od spodu — dawał efekt świetlny i zapachowy. Obiekt multisensoryczny łączący wzrok (fosforyzacja), zapach (miód) i skojarzenia (amfetamina). Widoczny na wielu zdjęciach archiwalnych (cukt0007.tif, cukt0007a.tif, kolumnaMiki01.jpg).
+### Red Column with Grooves (Robert Jurkowski)
+The central object of the project — a cylindrical sculpture with vertical grooves, painted with phosphorescent paint (orange). At the base of the column there was a small section with a vessel containing honey and amphetamine, lit from below by a lamp — producing both a light and olfactory effect. A multisensory object combining sight (phosphorescence), smell (honey), and associations (amphetamine). Visible in many archival photographs (cukt0007.tif, cukt0007a.tif, kolumnaMiki01.jpg).
 
-### Sala z fosforyzującymi napisami (Piotr Wyrzykowski)
-Instalacja przestrzenna — ciemna sala z fosforyzującymi napisami na ścianach. Teksty stanowiły "hipertekst Piotra" — system sprzecznych twierdzeń o sztuce:
-- "Każdy artysta ma rację." / "Żaden artysta nie ma racji."
-- "Ciało przechodzi od formy do formy zmieniając percepcję."
-- "Artysta jest w stanie przejąć na siebie część agresji i nienawiści, strachu i uwielbienia czasu współczesnego."
-- "SZTUKA = PRZESTRZEŃ KULTOWA"
+### Room with Phosphorescent Inscriptions (Piotr Wyrzykowski)
+A spatial installation — a dark room with phosphorescent inscriptions on the walls. The texts constituted "Piotr's hypertext" — a system of contradictory statements about art:
+- "Every artist is right." / "No artist is right."
+- "The body passes from form to form, changing perception."
+- "An artist is capable of absorbing some of the aggression and hatred, fear and adoration of the contemporary era."
+- "ART = CULT SPACE"
 
-Hipertekst był wmiksowywany na żywo w muzykę z kaset — łącząc warstwę tekstową z dźwiękową w jeden multimedialny strumień.
+The hypertext was mixed live into music from cassettes — merging the textual and sonic layers into a single multimedia stream.
 
-### Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (2016)
-Re-konstrukcja 22 lata po wydarzeniu. Wymiary: 150x45 cm. Obecnie w Muzeum Sztuki Nowoczesnej w Warszawie (status do ustalenia).
+### Lightbox "NO ARTIST IS RIGHT" (2016)
+A reconstruction 22 years after the event. Dimensions: 150x45 cm. Currently at the Museum of Modern Art in Warsaw (status to be confirmed).
 
-## Koncepcja i znaczenie
+## Concept and Significance
 
-**Zamiana funkcji jako strategia artystyczna.** Projekt nie był festiwalem techno — był performatywną interwencją polegającą na zamianie funkcji instytucji. Galeria stała się klubem, godziny odwrócono, a publiczność nie wiedziała, że uczestniczy w dziele sztuki. To była strategia, którą CUKT rozwijał w kolejnych projektach: ukrywanie sztuki konceptualnej pod formą dostępną masowo.
+**Function swap as artistic strategy.** The project was not a techno festival — it was a performative intervention based on swapping the function of an institution. The gallery became a club, hours were reversed, and the audience did not know they were participating in an artwork. This was the strategy CUKT would develop in subsequent projects: concealing conceptual art beneath a mass-accessible form.
 
-**Multisensoryczność.** Doświadczenie totalne angażujące wszystkie zmysły: wzrok (fosforyzujące napisy, kolumna), słuch (techno + hipertekst na żywo), zapach (miód i amfetamina w kolumnie). Nie można było "obejrzeć" tego projektu — trzeba było w nim być.
+**Multisensory experience.** A total experience engaging all the senses: sight (phosphorescent inscriptions, column), hearing (techno + live hypertext), smell (honey and amphetamine in the column). One could not "view" this project — one had to be inside it.
 
-**Lokalne zaangażowanie i konflikt.** Projekt wywołał głębokie utożsamienie lokalnej społeczności Konina z przestrzenią. Jak pisze dokument zamykający: "Głębokie utożsamienie się części społeczeństwa Konina z powołanym przez nas miejscem i wynikająca z tego potężna aktywność i zainteresowanie poszczególnych nieformalnych grup młodzieżowych oraz tzw. półświadka Konina, niejako wymusiła decyzję zakończenia naszej obecności." Gangsterzy próbowali przejąć kontrolę — dwie rywalizujące grupy, sytuacja groźna, wymuszająca wcześniejsze zamknięcie.
+**Local engagement and conflict.** The project provoked deep identification of the local Konin community with the space. As the closing document states: "The deep identification of part of Konin's society with the place we established, and the resulting powerful activity and interest of various informal youth groups and Konin's so-called underworld, effectively forced the decision to end our presence." Gangsters attempted to seize control — two rival groups, a dangerous situation, forcing an early closure.
 
-**Rytualne zakończenie.** Podpalenie drzwi po wyjeździe autorów, z kopią listu na drzwiach — interpretowane jako ofiara złożona, rytuał przejścia. Przestrzeń została oddana i zniszczona jednocześnie.
+**Ritual ending.** The burning of the doors after the authors' departure, with a copy of the letter on the doors — interpreted as a sacrificial offering, a rite of passage. The space was simultaneously surrendered and destroyed.
 
-## Dane podstawowe
+## Basic Data
 
-- **Pełny tytuł:** "W przybliżeniu 120 godzin megatechno obecności"
-- **Hasło:** SZTUKA = PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI
+- **Full title:** "Approximately 120 Hours of Megatechno Presence"
+- **Slogan:** ART = CULT SPACE OR THERE IS NO ART
 - **Data:** 2-13 XII 1994 (działalność: 2-8 XII, bufor: 9-13 XII)
-- **Godziny:** 18:00-4:00
+- **Hours:** 18:00-4:00
 - **Miejsce:** Pawilon "Rondo", ul. Przemysłowa 9, Konin; "Pracownia Chwilowa" (piwnice)
-- **Organizatorzy:** Agencja Artystyczna MUZA i Pracownia "Chwilowa"
-- **Autorzy:** Piotr Wyrzykowski, Robert Jurkowski
-- **Projekt graficzny:** Anna Nizio
-- **Obecni:** Arek Woźniak (kurator), Wojciech Zamiara (artysta), lokalna młodzież Konina
-- **Status:** Pre-CUKT (pieczątka CUKT z 10.09.1996 — retrospektywne uznanie)
+- **Organizers:** Agencja Artystyczna MUZA and Pracownia "Chwilowa"
+- **Authors:** Piotr Wyrzykowski, Robert Jurkowski
+- **Graphic design:** Anna Nizio
+- **Present:** Arek Wozniak (curator), Wojciech Zamiara (artist), local Konin youth
+- **Status:** Pre-CUKT (CUKT stamp from 10.09.1996 — retrospective recognition)
 
-## Rozpoznane osoby
+## Identified Persons
 
-| Osoba | Rola | Pewność |
-|-------|------|---------|
-| Piotr Wyrzykowski | Współautor, hipertekst, organizacja | potwierdzone |
-| Robert Jurkowski | Współautor, kolumna, organizacja | potwierdzone |
-| Anna Nizio | Projekt graficzny plakatu | potwierdzone |
-| Arek Woźniak | Kurator, obecny na zdjęciach | potwierdzone |
-| Wojciech Zamiara | Artysta, obecny na zdjęciach | potwierdzone |
+| Person | Role | Certainty |
+|--------|------|-----------|
+| Piotr Wyrzykowski | Co-author, hypertext, organization | confirmed |
+| Robert Jurkowski | Co-author, column, organization | confirmed |
+| Anna Nizio | Poster graphic design | confirmed |
+| Arek Woźniak | Curator, present in photographs | confirmed |
+| Wojciech Zamiara | Artist, present in photographs | confirmed |
 
-## Katalog archiwaliów (49 pozycji)
+## Archive Catalog (49 items)
 
 Źródło: raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/
 
-### Dokumenty (4)
+### Documents (4)
 | Plik | Opis | Tag |
 |------|------|-----|
 | plakat.jpg | Plakat z hasłem, datami, ikonami BHP | GOOD_PHOTO |
@@ -84,12 +84,12 @@ Re-konstrukcja 22 lata po wydarzeniu. Wymiary: 150x45 cm. Obecnie w Muzeum Sztuk
 | zapro_02.jpg | Zaproszenie — szczegóły organizacyjne | GOOD_PHOTO |
 | IMG_0956.jpg | Dokument zamknięcia z 8-9.XII.1994, pieczątka CUKT 1996 | PHOTO_OF_ORIGINAL |
 
-### Fotografie — stykówki Krotulskiego (35)
+### Photographs — Krotulski contact sheets (35)
 | Pliki | Opis | Tag |
 |-------|------|-----|
 | img064-img091, img096-img098, img125 | Stykówki z negatywów — wnętrza, ludzie, instalacje, teksty na ścianach | SCAN_READY |
 
-### Negatywy — skany TIF (6)
+### Negatives — TIF scans (6)
 | Plik | Opis | Tag |
 |------|------|-----|
 | Antyelekcja0006.tif | Dwie osoby, ciemne pomieszczenie, lampy | SCAN_READY |
@@ -97,7 +97,7 @@ Re-konstrukcja 22 lata po wydarzeniu. Wymiary: 150x45 cm. Obecnie w Muzeum Sztuk
 | cukt0007.tif, cukt0007a.tif | Czerwona kolumna z żłobieniami, osoba w tle | SCAN_READY |
 | cukt0008.tif | Grupa w galerii, teksty filozoficzne na ścianach | SCAN_READY |
 
-### Fotografie — Konin (5)
+### Photographs — Konin (5)
 | Plik | Opis | Tag |
 |------|------|-----|
 | konin_01.jpg | Młodzież w galerii, disco kula, teksty na ścianach | GOOD_PHOTO |
@@ -106,27 +106,27 @@ Re-konstrukcja 22 lata po wydarzeniu. Wymiary: 150x45 cm. Obecnie w Muzeum Sztuk
 | konin_04.jpg | Ludzie w linii, ciemna ściana z napisami | GOOD_PHOTO |
 | kolumnaMiki01.jpg | Czerwona kolumna — selektywna kolorystyka | GOOD_PHOTO |
 
-### Obiekty (2)
+### Objects (2)
 | Plik | Opis | Tag |
 |------|------|-----|
 | 120h_lightbox01.jpg | Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (2016, 150x45cm) | GOOD_PHOTO |
 | 120h_lightbox01 Medium.jpeg | Lightbox — mniejsza wersja | GOOD_PHOTO |
 
-## Do skanowania
+## To Be Scanned
 
 1. **IMG_0956.jpg** — dokument oryginalny (aktualnie foto telefonem)
 2. **6 plików TIF** — negatywy, możliwe lepsze skany w wyższej rozdzielczości
 3. **35 stykówek** — skany od Krotulskiego, lepsze skany z negatywów
 4. **Brakujące klatki:** img092-095, img100-124
 
-## Powiązania z innymi projektami
+## Connections to Other Projects
 
-- **Antyelekcja Technodemonstracja (1995)** — kontynuacja strategii zamiany funkcji
-- **CUKT (1995-)** — 120h uznane retrospektywnie jako Pre-CUKT
-- **Lightbox (2016)** — re-konstrukcja hasła 22 lata później, MSN Warszawa
+- **Antyelection Technodemonstration (1995)** — continuation of the function-swap strategy
+- **CUKT (1995-)** — 120h retrospectively recognized as Pre-CUKT
+- **Lightbox (2016)** — reconstruction of the slogan 22 years later, MSN Warsaw
 
-## Źródła
+## Sources
 
-- Archiwum CUKTAI: 49 plików w raw/archive-usb/
-- Wyjaśnienia Piotra Wyrzykowskiego, 2026-04-19
-- Teczka śledcza Nocnego Archiwisty, 2026-04-19
+- CUKTAI Archive: 49 files in raw/archive-usb/
+- Explanations by Piotr Wyrzykowski, 2026-04-19
+- Night Archivist investigation file, 2026-04-19

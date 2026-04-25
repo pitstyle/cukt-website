@@ -10,9 +10,9 @@ tags: ["performance", "technology"]
 
 # VIRUS
 
-Indywidualny live act muzyczny Vrius’a z CUKT z 1995 roku. Zachowane logo projektu VIRUS jako część systemu identyfikacji wizualnej CUKT.
+An individual musical live act by Virus from CUKT, dating from 1995. The VIRUS project logo has been preserved as part of the CUKT visual identity system.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1995
 - **Miejsce:** Forty, Gdańsk

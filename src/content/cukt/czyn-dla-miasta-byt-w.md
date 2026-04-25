@@ -10,15 +10,15 @@ tags: ["performance", "institution"]
 
 # CZYN DLA MIASTA BYTÓW / CASTLE OF IMAGINATION
 
-CUKT przeprowadził akcję remontową w Bytowie — urzędnicy w kombinezonach z logo CUKT remontowali domki turystyczne w ramach festiwalu. Projekt był jednocześnie prapremierą Technopery. Akcja opisana w Kurierze Bytowskim (reportaż napisany przez CUKT) i Flash Art. Zamontowano tablicę pamiątkową na jednym z wyremontowanych domków. Dodatkow w ramach prac zostały odmalowane pasy na jezdni prowadzące do ośrodka turystycznego. Ważnym jest podpisanie oficjalnego porozumienia z władzami miasta Bytów i CUKT.
+CUKT carried out a renovation action in Bytow — officers in overalls with the CUKT logo renovated tourist cabins as part of a festival. The project also served as the premiere of Technopera. The action was covered in Kurier Bytowski (a report written by CUKT) and Flash Art. A commemorative plaque was installed on one of the renovated cabins. Additionally, road markings leading to the tourist center were repainted. An important element was the signing of an official agreement between the Bytow city authorities and CUKT.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 28 czerwca 1996
 - **Miejsce:** Bytów
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio
 
-## Katalog archiwaliów (15 pozycji)
+## Archive Catalog (15 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

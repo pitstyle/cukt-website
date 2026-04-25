@@ -10,9 +10,9 @@ tags: ["technology", "performance"]
 
 # Technopera 4.0b w ramach festiwalu PUSH — 3D PARTY EXPERIENCE / THE BANFF CENTRE
 
-Prezentacja Technopery w Kanadzie. Dokumentacja w ramach archiwum Technopery (wideo i fotografie z Banff).
+Presentation of Technopera in Canada. Documentation as part of the Technopera archive (video and photographs from Banff).
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1997
 - **Miejsce:** The Banff Centre, Banff, Kanada

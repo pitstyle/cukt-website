@@ -10,15 +10,15 @@ tags: ["performance", "institution"]
 
 # DZIEŃ SZTUKI — Zielona Góra
 
-Prezentacja przygotowana specjalnie dla urzędników Urzędu Marszałkowskiego prezentując idee Dnia Sztuki i Wiktorię Cukt.
+A presentation prepared specifically for officials of the Marshal's Office, introducing the ideas behind Art Day and Wiktoria Cukt.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 22 lutego 2000
 - **Miejsce:** Urząd Marszałkowski, Zielona Góra
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski, Maciej Sienkiewicz, Paweł Paulus Mazur
 
-## Katalog archiwaliów (3 pozycji)
+## Archive Catalog (3 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

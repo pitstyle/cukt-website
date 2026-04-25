@@ -10,15 +10,15 @@ tags: ["technology", "performance", "video"]
 
 # TECHNOPERA (1996–1997)
 
-Technopera to kluczowy projekt CUKT — multimedialne dzieło łączące performance, instalację wideo, muzykę elektroniczną i libretto audiowizualne. Projekt był wystawiany wielokrotnie w Polsce i za granicą. Libretto Technopery istnieje w formie audiowizualnej (217 plików wideo z tekstami i samplem AV). Wersja video była pokazywana m.in. w telewizji Polskiej. Projekt był planowany do realizacji w Gdańsku (budynek NOT) — nie doszło do skutku. Kontynuowany od roku 2024.
+Technopera is a key CUKT project — a multimedia work combining performance, video installation, electronic music, and an audiovisual libretto. The project was presented multiple times in Poland and abroad. The Technopera libretto exists in audiovisual form (217 video files with texts and AV samples). The video version was broadcast on Polish television, among other venues. The project was planned for realization in Gdansk (NOT building) but did not materialize. Continued from 2024.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1996–1998 (premiery: Zielona Góra 1996, Warszawa CSW Ujazdowski 1996, Dessau 1997, Wrocław WRO 1997, Banff Kanada 1997, Budapeszt)
 - **Miejsce:** ?
 - **Autorzy:** libretto: Piotr Wyrzykowski, Artur Kozdrowski,
 
-## Katalog archiwaliów (21 pozycji)
+## Archive Catalog (21 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

@@ -10,9 +10,9 @@ tags: ["technology", "performance"]
 
 # N.T.S.C. - Nowa Techno Scena
 
-Wczesna akcja CUKT związana z grupą NTSC - Nowa Techno Scena. To równoległa do CUKT organizacja gromadząca grupy i wykonawców muzyki Techno. Konstytucji NTSC (1995) oraz kasety audio z nagraniami NTSC przygotowanymi do wydania (ok. 60 min).
+An early CUKT action related to the NTSC group — Nowa Techno Scena (New Techno Stage). This was an organization parallel to CUKT, gathering techno music groups and performers. Materials include the NTSC Constitution (1995) and audio cassettes with NTSC recordings prepared for release (approx. 60 min).
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1995
 - **Miejsce:** Forty, Gdańsk

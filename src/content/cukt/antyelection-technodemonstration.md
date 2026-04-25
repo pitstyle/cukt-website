@@ -10,15 +10,15 @@ tags: ["performance", "institution", "identity"]
 
 # ANTYELECTION TECHNODEMONSTRATION / ANTYELEKCJA TECHNODEMONSTRACJA
 
-Akcja artystyczna w dniu II tury wyborów prezydenckich w Polsce (4.11.1995). CUKT zorganizował alternatywne “wybory” z własną urną, mównicą, kartami do głosowania i balonami z hasłem “Bądź sobą jestem tobą”. Wywiad z urzędnikami CUKT ukazał się w Gazecie Wyborczej (5.11.1995).
+An art action held on the day of the second round of the Polish presidential election (4.11.1995). CUKT organized alternative “elections” with their own ballot box, podium, voting cards, and balloons with the slogan “Be yourself I am you.” An interview with CUKT officers was published in Gazeta Wyborcza (5.11.1995).
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 4 listopada 1995
 - **Miejsce:** Forty, Gdańsk (oraz Kijów)
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski, Joanna L.
 
-## Katalog archiwaliów (27 pozycji)
+## Archive Catalog (27 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

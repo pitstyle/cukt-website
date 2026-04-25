@@ -10,15 +10,15 @@ tags: ["performance"]
 
 # YOUNG POLISH SCULPTURE / OROŃSKO
 
-Udział w wystawie Młodej Rzeźby Polskiej. CUKT przeprowadził akcję mailartową z Ministerstwem Kultury. Zachowana korespondencja z CRP Orońsko i Urzędem Miasta Gdańska ws. dofinansowania.
+Participation in the Young Polish Sculpture exhibition. CUKT carried out a mail art action with the Ministry of Culture. Correspondence with CRP Oronsko and the Gdansk City Office regarding funding has been preserved.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 20 stycznia 1996
 - **Miejsce:** Centrum Rzeźby Polskiej, Orońsko
 - **Autorzy:** Piotr Wyrzykowski, Robert Jurkowski, Jacek Niegoda
 
-## Katalog archiwaliów (6 pozycji)
+## Archive Catalog (6 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

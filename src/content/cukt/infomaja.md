@@ -10,15 +10,15 @@ tags: ["technology", "institution"]
 
 # INFOMAJA — POLISH TECHNICAL CULTURE OF THE 90’S
 
-Wystawa zbiorowa prezentująca polską kulturę techniczną lat 90. CUKT uczestniczył jako jeden z podmiotów. Zachowana dokumentacja organizacyjna wystawy.
+A group exhibition presenting Polish technical culture of the 1990s. CUKT participated as one of the exhibiting entities. Organizational documentation from the exhibition has been preserved.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 13 grudnia 1996
 - **Miejsce:** Dom Kultury Kolejarza, Tczew
 - **Autorzy:** Kurator: Piotr Wyrzykowski,
 
-## Katalog archiwaliów (12 pozycji)
+## Archive Catalog (12 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

@@ -10,31 +10,31 @@ tags: ["technology", "institution", "performance"]
 
 # LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
 
-Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+CUKT performance as part of the LAB 6 exhibition — an International Media Art Exhibition. Live sculpture: Mikolaj Jurkowski and Daniela along with a PC computer displaying the CUKT website. Preserved designs for an unrealized CUKT Office.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1997
 - **Miejsce:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
 
-## Katalog archiwaliów (2 pozycji)
+## Archive Catalog (2 items)
 
 Źródło: CUKT Archiwum_01-2.odt
 
-### fotografie
+### Photographs
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | 2 pliki | Odbitki kolor | - | 2 | 1997 |
 
-### projekty
+### Projects
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | 8 plików | Papier, pismo odręczne długopisem, rysunki ołówkie | A4 | 8 | 1997 |
 
-## Archiwalia (opis z Knowledge Base)
+## Archival Materials (description from Knowledge Base)
 
-- Dokumentacja fotograficzna: odbitki kolor (2 fotografie)
-- Projekty: zapotrzebowanie materiałowo-sprzętowe oraz projekty Biura CUKT niezrealizowane w ramach wystawy (8 kart, pismo odręczne, rysunki ołówkiem)
+- Photographic documentation: color prints (2 photographs)
+- Projects: material and equipment requirements, and unrealized CUKT Office designs from the exhibition (8 sheets, handwritten notes, pencil drawings)

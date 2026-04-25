@@ -10,9 +10,9 @@ tags: ["performance", "identity"]
 
 # ROLAND MILLER AND FOUR CUKT OFFICERS
 
-Wspólny projekt z artystą Rolandem Millerem. Brak szczegółowej dokumentacji archiwalnej w katalogu — projekt odnotowany w CV.
+A collaborative project with artist Roland Miller. No detailed archival documentation in the catalog — the project is recorded in the CV.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1995
 - **Miejsce:** Mózg, Bydgoszcz

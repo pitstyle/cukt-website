@@ -10,15 +10,15 @@ tags: ["performance", "body", "technology"]
 
 # HERE PERFORMANCE / TESTY NA CYBORGA — Galeria S, Toruń
 
-Performance z cyklu “Testy na Cyborga” — akcja polegająca na przeprowadzaniu testów psychologicznych/biurokratycznych wśród widzów. Widzowie wypełniali formularze “Testu niedokończonych zdań”. Uzyskiwali swój numer identyfikacyjny i pieczęć na ciele. Instalacja: stół do ping ponga nagłośniony, mapa Europy narysowan krędą.
+A performance from the “Cyborg Tests” series — an action involving psychological/bureaucratic testing of the audience. Viewers filled out “Unfinished Sentences Test” forms, received their identification numbers, and had stamps placed on their bodies. Installation: an amplified ping-pong table, a map of Europe drawn in chalk.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1995
 - **Miejsce:** Galeria S, Toruń
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
 
-## Katalog archiwaliów (37 pozycji)
+## Archive Catalog (37 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 

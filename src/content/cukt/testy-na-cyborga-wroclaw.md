@@ -10,16 +10,16 @@ tags: ["body", "performance", "technology"]
 
 # TESTY NA CYBORGA — Wrocław
 
-(brak opisu)
+(no description available)
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1996
 - **Miejsce:** Wrocław, Teatr na Świebodzkim ?
 - **Autorzy:** ?
 - **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
-## Katalog archiwaliów (33 pozycji)
+## Archive Catalog (33 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
 

@@ -10,44 +10,44 @@ tags: ["identity", "institution", "performance"]
 
 # WIKTORIA CUKT — Kampania Wyborcza
 
-Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wybory prezydenckie 2000 roku. Projekt był rozbudowaną kampanią wyborczą z wiecami, biurami wyborczymi, materiałami propagandowymi, stroną WWW i zbieraniem postulatów od obywateli. Wizerunek Wiktorii Cukt zaczerpnięty z reklamy farby do włosów Schwarzkopf Igora. Kampania obejmowała całą Polskę i Berlin. Projekt stał się jednym z najważniejszych dzieł CUKT, wielokrotnie prezentowanym na wystawach międzynarodowych. Kontynuacja projektu w formie Wiktorii Cukt 2.0 od roku 2024.
+Wiktoria Cukt is a fictional candidate for President of the Republic of Poland created by CUKT for the 2000 presidential election. The project was an elaborate election campaign complete with rallies, campaign offices, propaganda materials, a website, and collection of citizen demands. The image of Wiktoria Cukt was taken from a Schwarzkopf Igora hair dye advertisement. The campaign covered all of Poland and Berlin. The project became one of CUKT's most important works, presented multiple times at international exhibitions. The project continues as Wiktoria Cukt 2.0 from 2024.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 2000–2001 (kampania: 2000, wystawy: 2000–2001)
 - **Miejsce:** ?
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Ewertowski, Maciej Sienkiewicz
 
-## Katalog archiwaliów (64 pozycji)
+## Archive Catalog (64 items)
 
 Źródło: CUKT Archiwum_01-2.odt
 
-### Audio/Radio
+### Audio / Radio
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | Radio Zielona Góra.mp3 | plik cyfrowy | 11min 50 sek | 1 | 2000 |
 
-### Audio/Wiktoria Orędzie
+### Audio / Wiktoria Address
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | Wiktoria Przemowienie.wav | plik cyfrowy | 4min 43sek | 1 | 2000 |
 
-### Audio/Wiktoria Sample
+### Audio / Wiktoria Sample
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | 12 plików | pliki cyfrowe | - | 12 | 2000 |
 
-### Dokumenty
+### Documents
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | poparcie_01.jpg poparcie_05.jpg | Papier, wydruk laserowy, odręczne pismo | A4 | 20 | 2000 |
 | 36 plików cyfrowych | - | - | 36 | 2000 |
 
-### Druki/druki _CSW_Laznia
+### Prints / CSW Laznia prints
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -57,13 +57,13 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | 20181011_130243.jpg poster.tif | Papier, druk ofset kolor | 60cm x 43cm | 20 | - |
 | zaproszenie_Laznia.jpg zapro_awers.jpg | plik cyfrowy | - | - | - |
 
-### Druki/druki_berlin
+### Prints / Berlin prints
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | 9 plików | pliki cyfrowe | - | 9 | 2000 |
 
-### Druki/druki_inne
+### Prints / Other prints
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -73,7 +73,7 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | IMG_6673.jog | folia, druk laser | 7cm x 5,5cm | 10 | 2000 |
 | IMG_6674.jpg | folia, druk laser | 20cm x 10cm | 1 | 2000 |
 
-### Foto Dokumentacja/2000 01 - Gdańsk Biuro Wiktorii/otwarcie biura
+### Photo Documentation / 2000 01 - Gdansk Wiktoria Office / office opening
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -81,85 +81,85 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | 20181012_133725.jpg ... 20181012_134030. | slady małoobrazkowe | - | - | 2000 |
 | 20181012_134740.jpg … Gdansk NCK 14 | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 01 - Gdańsk Biuro Wiktorii/zamkniecie biura
+### Photo Documentation / 2000 01 - Gdansk Wiktoria Office / office closing
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | 16 plików | pliki cyfrowe | - | 16 | 2000 |
 
-### Foto Dokumentacja/2000 02 - Zielona Góra BWA Wiec
+### Photo Documentation / 2000 02 - Zielona Gora BWA Rally
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 03 - Warszawa Zachęta Biuro Wiktorii
+### Photo Documentation / 2000 03 - Warsaw Zacheta Wiktoria Office
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 04 - Kraków Klub Miasto Krakoff Wiec
+### Photo Documentation / 2000 04 - Krakow Klub Miasto Krakoff Rally
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 05 - Poznań Galeria Arsenał Biuro Wiec
+### Photo Documentation / 2000 05 - Poznan Galeria Arsenal Office Rally
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 05 - Wrocław
+### Photo Documentation / 2000 05 - Wroclaw
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | 2 | 2000 |
 
-### Foto Dokumentacja/2000 06 - Białystok Galeria Arsenał Wiec
+### Photo Documentation / 2000 06 - Bialystok Galeria Arsenal Rally
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 07 - Bydgoszcz Wiec
+### Photo Documentation / 2000 07 - Bydgoszcz Rally
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | 2 | 2000 |
 
-### Foto Dokumentacja/2000 09 - Berlin Instytut Polski Biuro Wiktorii
+### Photo Documentation / 2000 09 - Berlin Polish Institute Wiktoria Office
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 10 - Łódź Muzeum Sztuki Wystawa
+### Photo Documentation / 2000 10 - Lodz Museum of Art Exhibition
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2000 03 - 2000 12 - Gdańsk CSW Łaźnia Wystawa
+### Photo Documentation / 2000 03 - 2000 12 - Gdansk CSW Laznia Exhibition
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2000 |
 
-### Foto Dokumentacja/2001 02 Chicago
+### Photo Documentation / 2001 02 Chicago
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | negatyw + odbitki | - | - | 2001 |
 
-### Foto Dokumentacja/2009 - Wiedeń MUMOK - Gender Check/foto_dokumentacja
+### Photo Documentation / 2009 - Vienna MUMOK - Gender Check / photo documentation
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | pliki cyfrowe | - | - | 2009 |
 
-### Foto Dokumentacja/2009 - Wiedeń MUMOK - Gender Check/inne_artefakty
+### Photo Documentation / 2009 - Vienna MUMOK - Gender Check / other artifacts
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -168,49 +168,49 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | CES.tif CES3.jpg | wydruk cyfrowy naklejony na PCV | 50cm x 150cm | 1 | - |
 | projekt-general01.pdf | plik cyfrowy | - | - | 2009 |
 
-### Foto Dokumentacja/2010 - Warszawa Zachęta - Gender Check
+### Photo Documentation / 2010 - Warsaw Zacheta - Gender Check
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | pliki cyfrowe | - | 3 | 2010 |
 
-### Foto Dokumentacja/2012 – Warszawa Muzeum Narodowe WYWYŻSZENI
+### Photo Documentation / 2012 - Warsaw National Museum EXALTED
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | pliki cyfrowe | - | - | 2012 |
 
-### Foto Dokumentacja/FOTO na kapie 60cm x 50cm
+### Photo Documentation / Photos mounted on board 60cm x 50cm
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | Odbitki foto naklejone na kapę | 60cmx 50cm | 12 | 2000 |
 
-### Foto Dokumentacja/FOTO na kapie 75cm x 50cm
+### Photo Documentation / Photos mounted on board 75cm x 50cm
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | Odbitki foto naklejone na kapę | 75cmx 50cm | 4 | 2005 |
 
-### GAZETY
+### Newspapers
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | papier druk ofset | - | około 50 | 2000 |
 
-### GAZETY/doc
+### Newspapers / doc
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | pliki cyfrowe | - | - | 2000 |
 
-### GAZETY/gazety_300dpi_02
+### Newspapers / newspapers_300dpi_02
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
 | pliki | pliki cyfrowe | - | - | 2000 |
 
-### inne artefakty
+### Other artifacts
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -218,7 +218,7 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | 20181011_104236.jpg | Ebonit grawerowany | 15cm x 10cm | 1 | 2000 |
 | podpis.jpg | plik cyfrowy | - | 1 | - |
 
-### obiekty
+### Objects
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -282,7 +282,7 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | www001.bmp www001.bmp | zrzut z ekranu ze strony WWW z transmisją wideo na | - | 2 | 2000 |
 | WWW Wiktoria2018 | Pliki html - strona WWWKampani Wiktori Cukt | około 6,3 MB, 3 | 1 | 2000 |
 
-### (główny)
+### (main)
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
@@ -291,13 +291,13 @@ Wiktoria Cukt to fikcyjna kandydatka na Prezydenta RP stworzona przez CUKT na wy
 | Gdansk NCK 04.jpg | Tkanina PCV, nadruk solwentowy kolor | 450cm x 300cm | 1 | 2000 |
 | Wiki_krzak_01.tif Wiki_krzak_02.tif | Papier , druk | 400cm x 200cm | 1 | 2000 |
 
-## Archiwalia (opis z Knowledge Base)
+## Archival Materials (description from Knowledge Base)
 
-- Obiekty artystyczne:
-- Druki i materiały kampanijne:
-- Dokumenty:
-- Dokumentacja fotograficzna ze wszystkich lokalizacji kampanii (negatywy, odbitki, pliki cyfrowe):
-- Dokumentacja audio:
-- Dokumentacja wideo:
+- Art objects:
+- Prints and campaign materials:
+- Documents:
+- Photographic documentation from all campaign locations (negatives, prints, digital files):
+- Audio documentation:
+- Video documentation:
 - WWW:
-- Materiały prasowe:
+- Press materials:

@@ -10,16 +10,16 @@ tags: ["body", "performance", "technology"]
 
 # TESTY NA CYBORGA — Dusseldorf / DELIKATESY AVANTGARDE
 
-Akcja CUKT w Niemczech — rozbudowana wersja “Testów na Cyborga” (wersja TO-06). Projekt obejmował stanowiska testowe, testy orientacyjne, ksero dłoni, umowy z widzami, worek z piaskiem 1/10 deklarowanej wagi. Zachowana recenzja Tomasza Pryby.
+A CUKT action in Germany — an expanded version of “Cyborg Tests” (version TO-06). The project included testing stations, orientation tests, hand photocopies, contracts with viewers, and a sandbag weighing 1/10 of the declared body weight. A review by Tomasz Pryba has been preserved.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** 1 października 1996
 - **Miejsce:** Kunstraum, Dusseldorf, Niemcy
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
 - **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
-## Katalog archiwaliów (19 pozycji)
+## Archive Catalog (19 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
 

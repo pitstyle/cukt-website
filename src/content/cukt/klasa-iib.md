@@ -10,15 +10,15 @@ tags: ["institution", "identity"]
 
 # KLASA IIB — PUBLIC RELATION / CSW Łaźnia Gdańsk + Muzeum Sztuki Łódź
 
-Prezentacja obiektu “Klasa IIb” — instalacji zbudowanej z 14 blejtramów z płótnem malowanym i tapetowanym (535×360 cm). Obiekt prezentowany w CSW Łaźnia i Muzeum Sztuki w Łodzi. Fotografia grupowa klasy IIb z Urzędnikiem CUKT jako element instalacji (wydruk solwentowy na tkaninie PCV, 280×20 cm). Klasa IIB jest kopią jednej z klas z liceum GLA z Gdynii gdzie odbył się “Dzień Sztuki”.
+Presentation of the object “Klasa IIb” — an installation built from 14 stretcher frames with painted and wallpapered canvas (535x360 cm). The object was exhibited at CSW Laznia and the Museum of Art in Lodz. A group photograph of class IIb with a CUKT Officer as an element of the installation (solvent print on PVC fabric, 280x20 cm). Klasa IIB is a replica of one of the classrooms from the GLA high school in Gdynia where “Art Day” took place.
 
-## Dane podstawowe
+## Basic Data
 
 - **Data:** maj 1999
 - **Miejsce:** CSW Łaźnia, Gdańsk; Muzeum Sztuki, Łódź
 - **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski.
 
-## Katalog archiwaliów (9 pozycji)
+## Archive Catalog (9 items)
 
 Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
 
