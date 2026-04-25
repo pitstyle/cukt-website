@@ -1,6 +1,7 @@
 ---
 title: "Defenders"
 order: 16
+tags: ["performance", "identity"]
 ---
 
 # Defenders

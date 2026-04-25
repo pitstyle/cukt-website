@@ -5,6 +5,7 @@ number: 22
 date: "22 lutego 2000"
 location: "Urząd Marszałkowski, Zielona Góra"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski, Maciej Sienkiewicz, Paweł Paulus Mazur"
+tags: ["performance", "institution"]
 ---
 
 # DZIEŃ SZTUKI — Zielona Góra

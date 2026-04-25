@@ -5,6 +5,7 @@ number: 5
 date: "1995"
 location: "Galeria S, Toruń"
 related: "[[testy-na-cyborga-torun]], [[testy-na-cyborga-bytow]], [[testy-na-cyborga-warszawa-csw]], [[testy-na-cyborga-dusseldorf]], [[testy-na-cyborga-wroclaw]], [[testy-na-cyborga-zielona-gora]]"
+tags: ["body", "performance", "technology"]
 ---
 
 # HERE PERFORMANCE / TESTY NA CYBORGA — Galeria S, Toruń

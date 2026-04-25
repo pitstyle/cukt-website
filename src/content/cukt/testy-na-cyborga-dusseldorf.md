@@ -5,6 +5,7 @@ number: 10
 date: "1 października 1996"
 location: "Kunstraum, Dusseldorf, Niemcy"
 related: "[[testy-na-cyborga-torun]], [[testy-na-cyborga-bytow]], [[testy-na-cyborga-warszawa-csw]], [[testy-na-cyborga-dusseldorf]], [[testy-na-cyborga-wroclaw]], [[testy-na-cyborga-zielona-gora]]"
+tags: ["body", "performance", "technology"]
 ---
 
 # TESTY NA CYBORGA — Dusseldorf / DELIKATESY AVANTGARDE

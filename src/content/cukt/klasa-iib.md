@@ -5,6 +5,7 @@ number: 21
 date: "maj 1999"
 location: "CSW Łaźnia, Gdańsk; Muzeum Sztuki, Łódź"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski."
+tags: ["institution", "identity"]
 ---
 
 # KLASA IIB — PUBLIC RELATION / CSW Łaźnia Gdańsk + Muzeum Sztuki Łódź

@@ -5,6 +5,7 @@ number: 4
 date: "wrzesień 1995"
 location: "Forty, Gdańsk"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski"
+tags: ["performance", "institution"]
 ---
 
 # 36 HOURS

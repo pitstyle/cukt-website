@@ -5,6 +5,7 @@ number: 5
 date: "1995"
 location: "Galeria S, Toruń"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski"
+tags: ["performance", "body", "technology"]
 ---
 
 # HERE PERFORMANCE / TESTY NA CYBORGA — Galeria S, Toruń

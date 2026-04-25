@@ -1,6 +1,7 @@
 ---
 title: "MobileArt"
 order: 10
+tags: ["technology", "performance"]
 ---
 
 # MobileArt

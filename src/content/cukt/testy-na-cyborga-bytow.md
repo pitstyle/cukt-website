@@ -5,6 +5,7 @@ number: 8
 date: "28 czerwca 1996"
 location: "Zamek, Bytów (w ramach festiwalu CASTLE OF IMAGINATION)"
 related: "[[testy-na-cyborga-torun]], [[testy-na-cyborga-bytow]], [[testy-na-cyborga-warszawa-csw]], [[testy-na-cyborga-dusseldorf]], [[testy-na-cyborga-wroclaw]], [[testy-na-cyborga-zielona-gora]]"
+tags: ["body", "performance", "technology"]
 ---
 
 # TESTY NA CYBORGA — Bytów

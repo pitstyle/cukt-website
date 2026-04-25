@@ -1,6 +1,7 @@
 ---
 title: "Concert for..."
 order: 5
+tags: ["video", "performance"]
 ---
 
 # Concert for...

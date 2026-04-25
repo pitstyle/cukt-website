@@ -5,6 +5,7 @@ number: 11
 date: "1996"
 location: "Wrocław, Teatr na Świebodzkim ?"
 related: "[[testy-na-cyborga-torun]], [[testy-na-cyborga-bytow]], [[testy-na-cyborga-warszawa-csw]], [[testy-na-cyborga-dusseldorf]], [[testy-na-cyborga-wroclaw]], [[testy-na-cyborga-zielona-gora]]"
+tags: ["body", "performance", "technology"]
 ---
 
 # TESTY NA CYBORGA — Wrocław

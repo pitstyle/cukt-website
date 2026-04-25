@@ -5,6 +5,7 @@ number: 23
 date: "2000–2001 (kampania: 2000, wystawy: 2000–2001)"
 location: ""
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Ewertowski, Maciej Sienkiewicz"
+tags: ["identity", "institution", "performance"]
 ---
 
 # WIKTORIA CUKT — Kampania Wyborcza

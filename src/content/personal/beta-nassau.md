@@ -1,6 +1,7 @@
 ---
 title: "Beta Nassau"
 order: 3
+tags: ["video"]
 ---
 
 # Beta Nassau

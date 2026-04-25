@@ -5,6 +5,7 @@ number: 6
 date: "4 listopada 1995"
 location: "Forty, Gdańsk (oraz Kijów)"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski, Joanna L."
+tags: ["performance", "institution", "identity"]
 ---
 
 # ANTYELECTION TECHNODEMONSTRATION / ANTYELEKCJA TECHNODEMONSTRACJA

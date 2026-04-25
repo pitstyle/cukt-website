@@ -5,6 +5,7 @@ number: 16
 date: "13 grudnia 1996"
 location: "Dom Kultury Kolejarza, Tczew"
 authors: "Kurator: Piotr Wyrzykowski,"
+tags: ["technology", "institution"]
 ---
 
 # INFOMAJA — POLISH TECHNICAL CULTURE OF THE 90’S

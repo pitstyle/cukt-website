@@ -5,6 +5,7 @@ number: 18
 date: "1997"
 location: "Dessau, Niemcy"
 authors: "libretto: Piotr Wyrzykowski, Artur Kozdrowski,"
+tags: ["technology", "performance"]
 ---
 
 # Technopera podczas festiwalu: „OSTRANENIE 97”

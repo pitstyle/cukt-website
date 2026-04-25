@@ -1,6 +1,7 @@
 ---
 title: "Selfimmolation"
 order: 11
+tags: ["performance", "body"]
 ---
 
 # Selfimmolation

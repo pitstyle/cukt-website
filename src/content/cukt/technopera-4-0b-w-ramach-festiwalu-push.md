@@ -5,6 +5,7 @@ number: 19
 date: "1997"
 location: "The Banff Centre, Banff, Kanada"
 authors: "libreto: Piotr Wyrzykowski, Artur Kozdrowski,"
+tags: ["technology", "performance"]
 ---
 
 # Technopera 4.0b w ramach festiwalu PUSH — 3D PARTY EXPERIENCE / THE BANFF CENTRE

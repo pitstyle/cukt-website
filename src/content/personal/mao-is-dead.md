@@ -1,6 +1,7 @@
 ---
 title: "Mao is Dead"
 order: 12
+tags: ["performance", "identity"]
 ---
 
 # Mao is Dead

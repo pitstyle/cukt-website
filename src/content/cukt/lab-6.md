@@ -5,6 +5,7 @@ number: 17
 date: "1997"
 location: "Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela"
+tags: ["technology", "institution", "performance"]
 ---
 
 # LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski

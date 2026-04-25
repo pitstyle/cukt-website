@@ -5,6 +5,7 @@ number: 9
 date: "14 września 1996"
 location: "Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa"
 related: "[[testy-na-cyborga-torun]], [[testy-na-cyborga-bytow]], [[testy-na-cyborga-warszawa-csw]], [[testy-na-cyborga-dusseldorf]], [[testy-na-cyborga-wroclaw]], [[testy-na-cyborga-zielona-gora]]"
+tags: ["body", "performance", "technology"]
 ---
 
 # TESTY NA CYBORGA — Warszawa CSW Zamek Ujazdowski

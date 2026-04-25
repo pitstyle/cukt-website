@@ -5,6 +5,7 @@ number: 13
 date: "20 stycznia 1996"
 location: "Centrum Rzeźby Polskiej, Orońsko"
 authors: "Piotr Wyrzykowski, Robert Jurkowski, Jacek Niegoda"
+tags: ["performance"]
 ---
 
 # YOUNG POLISH SCULPTURE / OROŃSKO

@@ -1,6 +1,7 @@
 ---
 title: "Water Memory"
 order: 8
+tags: ["video", "technology"]
 ---
 
 # Water Memory

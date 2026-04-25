@@ -5,6 +5,7 @@ number: 7
 date: "1995"
 location: "Mózg, Bydgoszcz"
 authors: "Piotr Wyrzykowski i urzędnicy CUKT"
+tags: ["performance", "identity"]
 ---
 
 # ROLAND MILLER AND FOUR CUKT OFFICERS

@@ -5,6 +5,7 @@ number: 15
 date: "1996–1998 (premiery: Zielona Góra 1996, Warszawa CSW Ujazdowski 1996, Dessau 1997, Wrocław WRO 1997, Banff Kanada 1997, Budapeszt)"
 location: ""
 authors: "libretto: Piotr Wyrzykowski, Artur Kozdrowski,"
+tags: ["technology", "performance", "video"]
 ---
 
 # TECHNOPERA (1996–1997)

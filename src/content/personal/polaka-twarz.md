@@ -1,6 +1,7 @@
 ---
 title: "Polaka Twarz"
 order: 2
+tags: ["video", "identity"]
 ---
 
 # Polaka Twarz

@@ -1,6 +1,7 @@
 ---
 title: "KHODA. Transformizm"
 order: 1
+tags: ["video", "body", "identity"]
 ---
 
 # KHODA. Transformizm

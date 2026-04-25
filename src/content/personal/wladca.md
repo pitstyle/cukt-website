@@ -1,6 +1,7 @@
 ---
 title: "Władca"
 order: 9
+tags: ["video", "performance", "body"]
 ---
 
 # Władca

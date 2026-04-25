@@ -1,6 +1,7 @@
 ---
 title: "Atomic Love"
 order: 4
+tags: ["video", "performance"]
 ---
 
 # Atomic Love

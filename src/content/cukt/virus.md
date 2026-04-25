@@ -5,6 +5,7 @@ number: 3
 date: "1995"
 location: "Forty, Gdańsk"
 authors: "Virus (Adam Popek vel EWA)"
+tags: ["performance", "technology"]
 ---
 
 # VIRUS

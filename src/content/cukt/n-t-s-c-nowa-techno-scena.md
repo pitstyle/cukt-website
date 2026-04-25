@@ -5,6 +5,7 @@ number: 2
 date: "1995"
 location: "Forty, Gdańsk"
 authors: "urzędnicy CUKT"
+tags: ["technology", "performance"]
 ---
 
 # N.T.S.C. - Nowa Techno Scena

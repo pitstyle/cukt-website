@@ -5,6 +5,7 @@ number: 12
 date: "1996"
 location: "Estrada, Zielona Góra"
 related: "[[testy-na-cyborga-torun]], [[testy-na-cyborga-bytow]], [[testy-na-cyborga-warszawa-csw]], [[testy-na-cyborga-dusseldorf]], [[testy-na-cyborga-wroclaw]], [[testy-na-cyborga-zielona-gora]]"
+tags: ["body", "performance", "technology"]
 ---
 
 # TESTY NA CYBORGA — Zielona Góra / TECHNOPERA 3.0 PRO

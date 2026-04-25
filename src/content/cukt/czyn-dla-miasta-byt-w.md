@@ -5,6 +5,7 @@ number: 14
 date: "28 czerwca 1996"
 location: "Bytów"
 authors: "Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio"
+tags: ["performance", "institution"]
 ---
 
 # CZYN DLA MIASTA BYTÓW / CASTLE OF IMAGINATION

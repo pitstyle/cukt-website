@@ -9,6 +9,7 @@ graphic_design: "Anna Nizio"
 duration: "7 dni działalności (2-8 XII 1994) + 5 dni bufor bezpieczeństwa (9-13 XII 1994)"
 status: "Pre-CUKT — uznany retrospektywnie przez CUKT (pieczątka z 10.09.1996)"
 enriched_by: "Nocny Archiwista, 2026-04-19"
+tags: ["performance", "institution", "technology"]
 ---
 
 # SZTUKA TO PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI — W PRZYBLIŻENIU 120 GODZIN MEGA TECHNO OBECNOŚCI

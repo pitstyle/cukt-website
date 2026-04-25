@@ -1,6 +1,7 @@
 ---
 title: "Zoriana Blyskavka"
 order: 14
+tags: ["performance", "identity"]
 ---
 
 # Zoriana Blyskavka
