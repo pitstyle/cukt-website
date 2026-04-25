@@ -21,13 +21,20 @@ const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej
     <div class="container nav-inner">
       <a href="/" class="nav-logo">CUKTAI</a>
       <div class="nav-links">
-        <a href="/archive">ARCHIWUM</a>
-        <a href="/personal">PROJEKTY</a>
-        <a href="/tags">TAGI</a>
+        <a href="/archive" data-pl="ARCHIWUM" data-en="ARCHIVE">ARCHIVE</a>
+        <a href="/personal" data-pl="PROJEKTY" data-en="PROJECTS">PROJECTS</a>
+        <a href="/tags" data-pl="TAGI" data-en="TAGS">TAGS</a>
         <a href="/live">LIVE</a>
-        <a href="/about">INFO</a>
+        <a href="/about" data-pl="INFO" data-en="ABOUT">ABOUT</a>
       </div>
-      <button class="nav-toggle" aria-label="Menu">///</button>
+      <div class="nav-right">
+        <button class="lang-switch" id="lang-toggle" aria-label="Switch language">
+          <span class="lang-opt active" data-lang="en">EN</span>
+          <span class="lang-sep">/</span>
+          <span class="lang-opt" data-lang="pl">PL</span>
+        </button>
+        <button class="nav-toggle" aria-label="Menu">///</button>
+      </div>
     </div>
   </nav>
 
@@ -74,7 +81,7 @@ const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej
       font-size: 1.25rem;
       font-weight: 800;
       letter-spacing: 3px;
-      color: var(--red) !important;
+      color: var(--white) !important;
       text-transform: uppercase;
     }
 
@@ -93,6 +100,35 @@ const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej
 
     .nav-links a:hover {
       color: var(--white);
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: var(--space-md);
+    }
+
+    .lang-switch {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--white-dim);
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      padding: 3px 8px;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .lang-opt { transition: color 0.2s; }
+    .lang-opt.active { color: var(--white); }
+    .lang-sep { color: var(--border); }
+
+    .lang-switch:hover {
+      border-color: var(--white-dim);
     }
 
     .nav-toggle {
@@ -146,6 +182,7 @@ const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej
   </style>
 
   <script>
+    // Mobile menu toggle
     const toggle = document.querySelector('.nav-toggle');
     const links = document.querySelector('.nav-links');
     toggle?.addEventListener('click', () => {
@@ -161,6 +198,39 @@ const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej
         links.style.padding = '1rem 2rem';
       }
     });
+
+    // Language switch
+    const langToggle = document.getElementById('lang-toggle');
+    const langOpts = document.querySelectorAll('.lang-opt');
+
+    function setLang(lang: string) {
+      langOpts.forEach(opt => {
+        opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
+      });
+
+      // Update nav links
+      document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+        const text = el.getAttribute(`data-${lang}`);
+        if (text) el.textContent = text;
+      });
+
+      // Update translatable content
+      document.querySelectorAll('[data-pl][data-en]:not(.nav-links a)').forEach(el => {
+        const text = el.getAttribute(`data-${lang}`);
+        if (text) el.textContent = text;
+      });
+
+      localStorage.setItem('cuktai-lang', lang);
+    }
+
+    langToggle?.addEventListener('click', () => {
+      const current = localStorage.getItem('cuktai-lang') || 'en';
+      setLang(current === 'en' ? 'pl' : 'en');
+    });
+
+    // Restore saved lang
+    const saved = localStorage.getItem('cuktai-lang');
+    if (saved) setLang(saved);
   </script>
 </body>
 </html>
