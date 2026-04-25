@@ -45,3 +45,10 @@ Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 | 43 pliki | pliki cyfrowe, wydruki papier, | A4 | 50 | 96-98 |
 | 217 plików wideo | pliki video, avi | 720x576 | 217 | 95-97 |
 | Folder Libretto z WRO | pliki video podzielone | 720x576 | 23 | 97 |
+
+## Gallery
+
+![](/uploads/4/6/4/1/4641121/8174712.jpg)
+![](/uploads/4/6/4/1/4641121/force_orig.jpg)
+![](/uploads/4/6/4/1/4641121/dessau-02.jpg)
+![](/uploads/4/6/4/1/4641121/dessau-04_orig.jpg)

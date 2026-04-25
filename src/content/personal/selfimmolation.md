@@ -33,8 +33,8 @@ Exhibition: "Sobreexposition", MAC, Chille, 2016.
 [caption: Installation, exhibition: "Close Stranger", 2015]
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png?1728811446) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/6746864.jpg?299) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/2560179_orig.jpg) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/2912905_orig.jpg) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/6585608_orig.png) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![](/uploads/4/6/4/1/4641121/6746864.jpg)
+![](/uploads/4/6/4/1/4641121/2560179_orig.jpg)
+![](/uploads/4/6/4/1/4641121/2912905_orig.jpg)
+![](/uploads/4/6/4/1/4641121/6585608_orig.png)

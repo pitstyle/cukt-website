@@ -13,4 +13,4 @@ Multichannel video installation, interactive movie script, work in progress, 202
 ## Pol's Face / Polaka Twarz
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png?1728811446) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)

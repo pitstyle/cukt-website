@@ -27,9 +27,9 @@ Young Ukraine
 ## young Ukraine 2014
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png?1728811446) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/__8475286.jpg) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/__1918837.png) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![](/uploads/4/6/4/1/4641121/__8475286.jpg)
+![](/uploads/4/6/4/1/4641121/__1918837.png)
 
 ## Videos
 - [https://www.youtube.com/embed/XlyiyJho3S4?wmode=opaque](https://www.youtube.com/embed/XlyiyJho3S4?wmode=opaque)

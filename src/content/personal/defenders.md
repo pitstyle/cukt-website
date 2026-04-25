@@ -17,4 +17,4 @@ The simple phrase by Marx adequately had been his own way to succinctly describe
 ## "They do not know it, but they are doing it."
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png%3F1728811446) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)

@@ -32,5 +32,5 @@ Performance "1"
 ## Serhij Żadan "Anarchy in the UKR".
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png?1728811446) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/2608625.jpg) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![](/uploads/4/6/4/1/4641121/2608625.jpg)

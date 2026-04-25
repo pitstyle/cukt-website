@@ -27,4 +27,4 @@ więcej / more
 ## How to educate the ruler - discovered parts of the handbook
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png?1728811446) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)

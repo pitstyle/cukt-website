@@ -13,7 +13,7 @@ Atomic Love - see more.
 ## Atomic Love
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png%3F1728811446) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
 
 ## Videos
 - https://www.youtube.com/embed/2wtcdHJf9us?wmode=opaque

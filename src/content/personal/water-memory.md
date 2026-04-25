@@ -41,12 +41,12 @@ Working on application - screenshot.
 ## Water Memory, 2013.
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png%3F1728811446) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/5031414_orig.jpg) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/3219799.jpg%3F868) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/9187035.jpg%3F895) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/4394592_orig.jpg) -- NEEDS CAPTION
-- [](uploads/4/6/4/1/4641121/7592687_orig.png) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![](/uploads/4/6/4/1/4641121/5031414_orig.jpg)
+![](/uploads/4/6/4/1/4641121/3219799.jpg)
+![](/uploads/4/6/4/1/4641121/9187035.jpg)
+![](/uploads/4/6/4/1/4641121/4394592_orig.jpg)
+![](/uploads/4/6/4/1/4641121/7592687_orig.png)
 
 ## Videos
 - [https://www.youtube.com/embed/5wbItsMuKCA?wmode=opaque](https://www.youtube.com/embed/5wbItsMuKCA?wmode=opaque)

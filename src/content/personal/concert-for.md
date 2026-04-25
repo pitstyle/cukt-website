@@ -21,7 +21,7 @@ Performance documentation / Dokumentacja performance
 ## Concert for Cinema Projectors / Koncert na projektory kinowe
 
 ## Images
-- [](uploads/4/6/4/1/4641121/published/transformizm01.png%3F1728811446) -- NEEDS CAPTION
+![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
 
 ## Videos
 - [https://player.vimeo.com/video/17801750](https://player.vimeo.com/video/17801750)
