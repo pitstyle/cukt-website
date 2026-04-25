@@ -91,6 +91,20 @@ const sorted = projects.sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 9
     margin-bottom: var(--space-xs);
   }
 
+  .project-card {
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  .project-card h3 {
+    color: var(--white);
+  }
+
+  .project-card:hover h3 {
+    color: var(--red);
+  }
+
   @media (max-width: 768px) {
     .page-title { font-size: 14vw; }
     .page-sub { font-size: 3vw; }
