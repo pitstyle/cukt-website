@@ -2,41 +2,41 @@
 import Base from '../layouts/Base.astro';
 ---
 
-<Base title="Info" description="Piotr Wyrzykowski — artysta, badacz, wykładowca. CUKTAI — system autonomicznej AI.">
+<Base title="ABOUT" description="Piotr Wyrzykowski — artist, researcher, lecturer. CUKTAI — autonomous AI system.">
   <section class="about">
     <div class="container content">
-      <h1>Piotr Wyrzykowski</h1>
-      <p class="alias">Peter Style</p>
+      <h1>PIOTR WYRZYKOWSKI</h1>
+      <p class="alias">PETER STYLE</p>
 
       <div class="bio">
         <p>
-          Artysta, badacz, wykładowca. Współzałożyciel C.U.K.T. (Centralny Urząd Kultury Technicznej, 1992).
-          Twórca koncepcji transformizmu — teorii artystycznej łączącej ciało, technologię i tożsamość.
+          Artist, researcher, lecturer. Co-founder of C.U.K.T. (Centralny Urzad Kultury Technicznej, 1992).
+          Creator of Transformism — an artistic theory connecting body, technology, and identity.
         </p>
         <p>
-          Kierownik Katedry Specjalizacji Artystycznych, Akademia Sztuk Pięknych w Gdańsku.
-          Wykładowca Nowych Mediów i Narracji Wideo, Polsko-Japońska Akademia Technik Komputerowych.
+          Head of Department of Artistic Specializations, Academy of Fine Arts in Gdansk.
+          Lecturer in New Media and Video Narrative, Polish-Japanese Academy of Information Technology.
         </p>
       </div>
 
       <div class="section">
         <h2>CUKTAI</h2>
         <p>
-          Autonomiczny Urząd Kultury Technicznej — system sztucznej inteligencji transformujący
-          archiwum C.U.K.T. w wielogłosową sieć agentów. Konferencja trwająca cały rok 2026.
+          Autonomous Bureau of Technical Culture — an AI system transforming
+          the C.U.K.T. archive into a multi-voice agent network. Year-long conference, 2026.
         </p>
         <p>
-          <span class="label">Hasło:</span> Moja pamięć w Twojej głowie<br />
-          <span class="label">Faza:</span> 4.6 — Podświadomość (beta)<br />
-          <span class="label">Agenci:</span> Wiktoria Cukt 2.0, Ewa Virus Adam, Piotr Twin, Archiwistka
+          <span class="label">MOTTO:</span> My memory in your head<br />
+          <span class="label">PHASE:</span> 4.6 — Subconsciousness (beta)<br />
+          <span class="label">AGENTS:</span> Wiktoria Cukt 2.0, Ewa Virus Adam, Peter Twin, Archiwistka
         </p>
       </div>
 
       <div class="section">
-        <h2>Kontakt</h2>
+        <h2 data-en="CONTACT" data-pl="KONTAKT">CONTACT</h2>
         <p>
-          <a href="https://instagram.com/wiktoriacukt">@wiktoriacukt</a> (Instagram)<br />
-          <a href="https://instagram.com/_transformizm">@_transformizm</a> (Instagram)
+          <a href="https://instagram.com/wiktoriacukt">@WIKTORIACUKT</a><br />
+          <a href="https://instagram.com/_transformizm">@_TRANSFORMIZM</a>
         </p>
       </div>
     </div>
@@ -44,9 +44,7 @@ import Base from '../layouts/Base.astro';
 </Base>
 
 <style>
-  .about {
-    padding: var(--space-2xl) 0;
-  }
+  .about { padding: var(--space-2xl) 0; }
 
   .about h1 {
     color: var(--red);
@@ -59,13 +57,11 @@ import Base from '../layouts/Base.astro';
     margin-bottom: var(--space-xl);
   }
 
-  .bio {
-    margin-bottom: var(--space-xl);
-  }
+  .bio { margin-bottom: var(--space-xl); }
 
   .bio p {
     font-family: var(--font-mono);
-    font-size: 1.05rem;
+    font-size: 0.85rem;
     line-height: 1.8;
   }
 
@@ -82,13 +78,20 @@ import Base from '../layouts/Base.astro';
 
   .section p {
     font-family: var(--font-mono);
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 1.8;
   }
 
   .label {
-    color: var(--white);
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
+    color: var(--white-dim);
+    font-size: 0.8rem;
   }
 </style>
+
+<script>
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const text = el.getAttribute(`data-${lang}`);
+    if (text) el.textContent = text;
+  });
+</script>

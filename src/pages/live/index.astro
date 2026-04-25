@@ -2,29 +2,29 @@
 import Base from '../../layouts/Base.astro';
 ---
 
-<Base title="Live" description="Aktywność systemu CUKTAI w czasie rzeczywistym">
+<Base title="LIVE" description="CUKTAI system activity in real time">
   <section class="header">
     <div class="container">
-      <h1 >Live Feed</h1>
-      <p class="subtitle">Aktywność systemu CUKTAI</p>
+      <h1 data-en="LIVE FEED" data-pl="LIVE FEED">LIVE FEED</h1>
+      <p class="subtitle" data-en="CUKTAI system activity" data-pl="Aktywnosc systemu CUKTAI">CUKTAI system activity</p>
     </div>
   </section>
 
   <section class="feed">
     <div class="container content">
       <div class="feed-section">
-        <h2>Agenci</h2>
+        <h2 data-en="AGENTS" data-pl="AGENCI">AGENTS</h2>
         <div class="agent-status">
-          <div class="agent-line"><span class="status-ok">[ON]</span> Wiktoria Cukt 2.0 — AI Prezydent</div>
-          <div class="agent-line"><span class="status-ok">[ON]</span> Ewa Virus Adam — archiwalny głos</div>
-          <div class="agent-line"><span class="status-ok">[ON]</span> Piotr Twin — transformistyczny bliźniak</div>
-          <div class="agent-line"><span class="status-ok">[ON]</span> Archiwistka — nocne śledztwa</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Wiktoria Cukt 2.0 — AI President</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Ewa Virus Adam — archive voice</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Peter Twin — systemic thinker</div>
+          <div class="agent-line"><span class="status-ok">[ON]</span> Archiwistka — night investigator</div>
         </div>
       </div>
 
       <div class="feed-section">
-        <h2>Ostatnie wydarzenia</h2>
-        <p class="pending"><span class="status-warn">[BUILDING]</span> Feed danych z shared-walks/, consilium/logs/, teczki/ — wkrótce.</p>
+        <h2 data-en="RECENT EVENTS" data-pl="OSTATNIE WYDARZENIA">RECENT EVENTS</h2>
+        <p class="pending" data-en="[BUILDING] Walk data feed coming soon." data-pl="[BUILDING] Feed danych wkrotce.">[BUILDING] Walk data feed coming soon.</p>
       </div>
     </div>
   </section>
@@ -36,17 +36,12 @@ import Base from '../../layouts/Base.astro';
     border-bottom: 1px solid var(--border);
   }
 
-  .subtitle {
-    color: var(--white-dim);
-  }
+  .header h1 { color: var(--red); }
+  .subtitle { color: var(--white-dim); }
 
-  .feed {
-    padding: var(--space-xl) 0;
-  }
+  .feed { padding: var(--space-xl) 0; }
 
-  .feed-section {
-    margin-bottom: var(--space-xl);
-  }
+  .feed-section { margin-bottom: var(--space-xl); }
 
   .feed-section h2 {
     color: var(--red);
@@ -62,20 +57,26 @@ import Base from '../../layouts/Base.astro';
   .agent-line {
     padding: var(--space-sm) 0;
     border-bottom: 1px solid var(--border);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
-  .agent-line:last-child {
-    border-bottom: none;
-  }
+  .agent-line:last-child { border-bottom: none; }
 
   .status-ok { color: var(--green); }
   .status-warn { color: var(--red); }
 
   .pending {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--white-dim);
     padding: var(--space-md);
     border: 1px dashed var(--border);
   }
 </style>
+
+<script>
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const text = el.getAttribute(`data-${lang}`);
+    if (text) el.textContent = text;
+  });
+</script>

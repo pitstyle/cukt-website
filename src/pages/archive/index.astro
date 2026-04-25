@@ -6,11 +6,11 @@ const projects = await getCollection('cukt');
 const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ?? 99));
 ---
 
-<Base title="ARCHIWUM CUKT" description="23 projekty Centralnego Urzadu Kultury Technicznej (1992-2001+)">
+<Base title="CUKT ARCHIVE" description="23 projects by Centralny Urzad Kultury Technicznej (1992-2001+)">
   <section class="archive-header">
     <div class="container">
-      <h1>ARCHIWUM CUKT</h1>
-      <p class="subtitle">23 PROJEKTY / 1992–2001+</p>
+      <h1 data-en="CUKT ARCHIVE" data-pl="ARCHIWUM CUKT">CUKT ARCHIVE</h1>
+      <p class="subtitle" data-en="23 PROJECTS / 1992–2001+" data-pl="23 PROJEKTY / 1992–2001+">23 PROJECTS / 1992–2001+</p>
       <p class="dim">WYRZYKOWSKI / JURKOWSKI / POPEK</p>
     </div>
   </section>
@@ -18,12 +18,12 @@ const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ??
   <section class="archive-list">
     <div class="container">
       <div class="grid-projects">
-        {sorted.map((project) => (
+        {sorted.map((project, i) => (
           <a href={`/archive/${project.id}`} class="project-card">
-            <span class="card-number">#{project.data.number ?? '?'}</span>
+            <span class="card-number">{String(i + 1).padStart(2, '0')}</span>
             <h3>{project.data.title}</h3>
             <p class="meta">{project.data.date}</p>
-            {project.data.authors && <p class="meta">{project.data.authors}</p>}
+            {project.data.authors && <p class="meta authors">{project.data.authors}</p>}
           </a>
         ))}
       </div>
@@ -62,8 +62,26 @@ const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ??
 
   .card-number {
     color: var(--red-dim);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
     display: block;
     margin-bottom: var(--space-xs);
   }
+
+  .project-card h3 {
+    color: var(--white);
+  }
+
+  .authors {
+    color: var(--white-dim);
+  }
 </style>
+
+<script>
+  // Apply saved language on load
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const text = el.getAttribute(`data-${lang}`);
+    if (text) el.textContent = text;
+  });
+</script>

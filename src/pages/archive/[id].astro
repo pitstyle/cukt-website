@@ -18,7 +18,7 @@ const { Content } = await render(project);
   <article class="project">
     <div class="container content">
       <header class="project-header">
-        <a href="/archive" class="back">&larr; ARCHIWUM</a>
+        <a href="/archive" class="back" data-en="&larr; ARCHIVE" data-pl="&larr; ARCHIWUM">&larr; ARCHIVE</a>
         <span class="project-number">#{project.data.number ?? '?'}</span>
         <h1>{project.data.title}</h1>
         {project.data.date && <p class="meta-line">{project.data.date}</p>}

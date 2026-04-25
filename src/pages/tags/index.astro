@@ -2,11 +2,11 @@
 import Base from '../../layouts/Base.astro';
 ---
 
-<Base title="Tagi" description="Wątki łączące projekty C.U.K.T. i prace osobiste Piotra Wyrzykowskiego">
+<Base title="TAGS" description="Narrative threads connecting C.U.K.T. projects and personal works">
   <section class="header">
     <div class="container">
-      <h1 >Tagi / Wątki</h1>
-      <p class="subtitle">Narracja przekrojowa — wątki łączące oba archiwa</p>
+      <h1 data-en="TAGS / THREADS" data-pl="TAGI / WATKI">TAGS / THREADS</h1>
+      <p class="subtitle" data-en="Cross-narrative — threads connecting both archives" data-pl="Narracja przekrojowa — watki laczace oba archiwa">Cross-narrative — threads connecting both archives</p>
     </div>
   </section>
 
@@ -14,31 +14,31 @@ import Base from '../../layouts/Base.astro';
     <div class="container">
       <div class="grid-projects">
         <div class="project-card">
-          <h3>#ciało</h3>
+          <h3>#BODY</h3>
           <p class="desc">Testy na Cyborga, There Is No Body, Cyborg's Sex Manual, Manhunt</p>
         </div>
         <div class="project-card">
-          <h3>#instytucja</h3>
+          <h3>#INSTITUTION</h3>
           <p class="desc">Wiktoria Cukt, Antyelekcja, CUKTAI, Fundacja Bot</p>
         </div>
         <div class="project-card">
-          <h3>#technologia</h3>
+          <h3>#TECHNOLOGY</h3>
           <p class="desc">Technopera, N.T.S.C., Lab 6, Mobile Art, CUKTAI</p>
         </div>
         <div class="project-card">
-          <h3>#tożsamość</h3>
+          <h3>#IDENTITY</h3>
           <p class="desc">Wiktoria Cukt, Polaka Twarz, Zoriana, Ewa Virus</p>
         </div>
         <div class="project-card">
-          <h3>#performance</h3>
-          <p class="desc">120h, HERE Performance, Przysięga Prezydenta, Concert for</p>
+          <h3>#PERFORMANCE</h3>
+          <p class="desc">120h, HERE Performance, Przysiega Prezydenta, Concert for</p>
         </div>
         <div class="project-card">
-          <h3>#wideo</h3>
+          <h3>#VIDEO</h3>
           <p class="desc">Beta Nassau, Atomic Love, KHODA, Video Art</p>
         </div>
       </div>
-      <p class="pending"><span class="status-warn">[IN PROGRESS]</span> System tagów w budowie — powiązania między projektami.</p>
+      <p class="pending" data-en="[IN PROGRESS] Tag system under construction." data-pl="[IN PROGRESS] System tagow w budowie.">[IN PROGRESS] Tag system under construction.</p>
     </div>
   </section>
 </Base>
@@ -49,13 +49,11 @@ import Base from '../../layouts/Base.astro';
     border-bottom: 1px solid var(--border);
   }
 
-  .subtitle {
-    color: var(--white-dim);
-  }
+  .header h1 { color: var(--red); }
 
-  .tags-grid {
-    padding: var(--space-xl) 0;
-  }
+  .subtitle { color: var(--white-dim); }
+
+  .tags-grid { padding: var(--space-xl) 0; }
 
   .desc {
     font-size: 0.85rem;
@@ -69,3 +67,11 @@ import Base from '../../layouts/Base.astro';
     color: var(--white-dim);
   }
 </style>
+
+<script>
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const text = el.getAttribute(`data-${lang}`);
+    if (text) el.textContent = text;
+  });
+</script>
