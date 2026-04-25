@@ -14,13 +14,13 @@ A presentation prepared specifically for officials of the Marshal's Office, intr
 
 ## Basic Data
 
-- **Data:** 22 lutego 2000
-- **Miejsce:** Urząd Marszałkowski, Zielona Góra
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski, Maciej Sienkiewicz, Paweł Paulus Mazur
+- **Date:** 22 lutego 2000
+- **Location:** Urząd Marszałkowski, Zielona Góra
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski, Maciej Sienkiewicz, Paweł Paulus Mazur
 
 ## Archive Catalog (3 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

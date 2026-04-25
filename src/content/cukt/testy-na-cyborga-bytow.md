@@ -14,14 +14,14 @@ Cyborg Tests is a recurring multi-year project in the form of a bureaucratic act
 
 ## Basic Data
 
-- **Data:** 28 czerwca 1996
-- **Miejsce:** Zamek, Bytów (w ramach festiwalu CASTLE OF IMAGINATION)
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
-- **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
+- **Date:** 28 czerwca 1996
+- **Location:** Zamek, Bytów (w ramach festiwalu CASTLE OF IMAGINATION)
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
+- **Series:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
 ## Archive Catalog (2 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/1995 2017 Testy na Cyborga/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

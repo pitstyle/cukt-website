@@ -53,9 +53,9 @@ A reconstruction 22 years after the event. Dimensions: 150x45 cm. Currently at t
 
 - **Full title:** "Approximately 120 Hours of Megatechno Presence"
 - **Slogan:** ART = CULT SPACE OR THERE IS NO ART
-- **Data:** 2-13 XII 1994 (działalność: 2-8 XII, bufor: 9-13 XII)
+- **Date:** 2-13 XII 1994 (działalność: 2-8 XII, bufor: 9-13 XII)
 - **Hours:** 18:00-4:00
-- **Miejsce:** Pawilon "Rondo", ul. Przemysłowa 9, Konin; "Pracownia Chwilowa" (piwnice)
+- **Location:** Pawilon "Rondo", ul. Przemysłowa 9, Konin; "Pracownia Chwilowa" (piwnice)
 - **Organizers:** Agencja Artystyczna MUZA and Pracownia "Chwilowa"
 - **Authors:** Piotr Wyrzykowski, Robert Jurkowski
 - **Graphic design:** Anna Nizio
@@ -74,7 +74,7 @@ A reconstruction 22 years after the event. Dimensions: 150x45 cm. Currently at t
 
 ## Archive Catalog (49 items)
 
-Źródło: raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/
+Source: raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/
 
 ### Documents (4)
 | Plik | Opis | Tag |

@@ -14,6 +14,6 @@ Presentation of Technopera at the Ostranenie festival in Dessau. Documentation a
 
 ## Basic Data
 
-- **Data:** 1997
-- **Miejsce:** Dessau, Niemcy
-- **Autorzy:** libretto: Piotr Wyrzykowski, Artur Kozdrowski,
+- **Date:** 1997
+- **Location:** Dessau, Niemcy
+- **Authors:** libretto: Piotr Wyrzykowski, Artur Kozdrowski,

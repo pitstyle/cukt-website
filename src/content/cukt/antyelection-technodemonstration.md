@@ -14,13 +14,13 @@ An art action held on the day of the second round of the Polish presidential ele
 
 ## Basic Data
 
-- **Data:** 4 listopada 1995
-- **Miejsce:** Forty, Gdańsk (oraz Kijów)
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski, Joanna L.
+- **Date:** 4 listopada 1995
+- **Location:** Forty, Gdańsk (oraz Kijów)
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski, Joanna L.
 
 ## Archive Catalog (27 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

@@ -14,6 +14,6 @@ An individual musical live act by Virus from CUKT, dating from 1995. The VIRUS p
 
 ## Basic Data
 
-- **Data:** 1995
-- **Miejsce:** Forty, Gdańsk
-- **Autorzy:** Virus (Adam Popek vel EWA)
+- **Date:** 1995
+- **Location:** Forty, Gdańsk
+- **Authors:** Virus (Adam Popek vel EWA)

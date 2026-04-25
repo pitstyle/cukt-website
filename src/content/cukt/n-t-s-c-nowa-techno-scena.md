@@ -14,6 +14,6 @@ An early CUKT action related to the NTSC group — Nowa Techno Scena (New Techno
 
 ## Basic Data
 
-- **Data:** 1995
-- **Miejsce:** Forty, Gdańsk
-- **Autorzy:** urzędnicy CUKT
+- **Date:** 1995
+- **Location:** Forty, Gdańsk
+- **Authors:** urzędnicy CUKT

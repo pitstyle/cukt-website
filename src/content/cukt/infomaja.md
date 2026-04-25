@@ -14,13 +14,13 @@ A group exhibition presenting Polish technical culture of the 1990s. CUKT partic
 
 ## Basic Data
 
-- **Data:** 13 grudnia 1996
-- **Miejsce:** Dom Kultury Kolejarza, Tczew
-- **Autorzy:** Kurator: Piotr Wyrzykowski,
+- **Date:** 13 grudnia 1996
+- **Location:** Dom Kultury Kolejarza, Tczew
+- **Authors:** Kurator: Piotr Wyrzykowski,
 
 ## Archive Catalog (12 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

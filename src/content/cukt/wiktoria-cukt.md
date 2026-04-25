@@ -14,13 +14,13 @@ Wiktoria Cukt is a fictional candidate for President of the Republic of Poland c
 
 ## Basic Data
 
-- **Data:** 2000–2001 (kampania: 2000, wystawy: 2000–2001)
-- **Miejsce:** ?
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Ewertowski, Maciej Sienkiewicz
+- **Date:** 2000–2001 (kampania: 2000, wystawy: 2000–2001)
+- **Location:** ?
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Ewertowski, Maciej Sienkiewicz
 
 ## Archive Catalog (64 items)
 
-Źródło: CUKT Archiwum_01-2.odt
+Source: CUKT Archiwum_01-2.odt
 
 ### Audio / Radio
 

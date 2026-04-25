@@ -14,13 +14,13 @@ Presentation of the object “Klasa IIb” — an installation built from 14 str
 
 ## Basic Data
 
-- **Data:** maj 1999
-- **Miejsce:** CSW Łaźnia, Gdańsk; Muzeum Sztuki, Łódź
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski.
+- **Date:** maj 1999
+- **Location:** CSW Łaźnia, Gdańsk; Muzeum Sztuki, Łódź
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski.
 
 ## Archive Catalog (9 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

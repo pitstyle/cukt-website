@@ -14,14 +14,14 @@ tags: ["body", "performance", "technology"]
 
 ## Basic Data
 
-- **Data:** 1996
-- **Miejsce:** Wrocław, Teatr na Świebodzkim ?
-- **Autorzy:** ?
-- **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
+- **Date:** 1996
+- **Location:** Wrocław, Teatr na Świebodzkim ?
+- **Authors:** ?
+- **Series:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
 ## Archive Catalog (33 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/1995 2017 Testy na Cyborga/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

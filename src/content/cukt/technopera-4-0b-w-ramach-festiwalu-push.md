@@ -14,6 +14,6 @@ Presentation of Technopera in Canada. Documentation as part of the Technopera ar
 
 ## Basic Data
 
-- **Data:** 1997
-- **Miejsce:** The Banff Centre, Banff, Kanada
-- **Autorzy:** libreto: Piotr Wyrzykowski, Artur Kozdrowski,
+- **Date:** 1997
+- **Location:** The Banff Centre, Banff, Kanada
+- **Authors:** libreto: Piotr Wyrzykowski, Artur Kozdrowski,

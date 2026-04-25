@@ -14,13 +14,13 @@ CUKT performance as part of the LAB 6 exhibition — an International Media Art 
 
 ## Basic Data
 
-- **Data:** 1997
-- **Miejsce:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+- **Date:** 1997
+- **Location:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
 
 ## Archive Catalog (2 items)
 
-Źródło: CUKT Archiwum_01-2.odt
+Source: CUKT Archiwum_01-2.odt
 
 ### Photographs
 

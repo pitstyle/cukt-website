@@ -14,13 +14,13 @@ Participation in the Young Polish Sculpture exhibition. CUKT carried out a mail 
 
 ## Basic Data
 
-- **Data:** 20 stycznia 1996
-- **Miejsce:** Centrum Rzeźby Polskiej, Orońsko
-- **Autorzy:** Piotr Wyrzykowski, Robert Jurkowski, Jacek Niegoda
+- **Date:** 20 stycznia 1996
+- **Location:** Centrum Rzeźby Polskiej, Orońsko
+- **Authors:** Piotr Wyrzykowski, Robert Jurkowski, Jacek Niegoda
 
 ## Archive Catalog (6 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

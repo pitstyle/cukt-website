@@ -14,13 +14,13 @@ A 36-hour art action at Forty in Gdansk. A project combining performance and ins
 
 ## Basic Data
 
-- **Data:** wrzesień 1995
-- **Miejsce:** Forty, Gdańsk
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski
+- **Date:** wrzesień 1995
+- **Location:** Forty, Gdańsk
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski
 
 ## Archive Catalog (10 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

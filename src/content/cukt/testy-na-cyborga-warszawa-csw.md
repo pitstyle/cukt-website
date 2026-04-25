@@ -14,14 +14,14 @@ The “Cyborg Tests” action at CSW. Viewers filled out Cyborg Test version 03 
 
 ## Basic Data
 
-- **Data:** 14 września 1996
-- **Miejsce:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
-- **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
+- **Date:** 14 września 1996
+- **Location:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
+- **Series:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
 ## Archive Catalog (7 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/1995 2017 Testy na Cyborga/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

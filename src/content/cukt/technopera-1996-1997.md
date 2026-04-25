@@ -14,13 +14,13 @@ Technopera is a key CUKT project — a multimedia work combining performance, vi
 
 ## Basic Data
 
-- **Data:** 1996–1998 (premiery: Zielona Góra 1996, Warszawa CSW Ujazdowski 1996, Dessau 1997, Wrocław WRO 1997, Banff Kanada 1997, Budapeszt)
-- **Miejsce:** ?
-- **Autorzy:** libretto: Piotr Wyrzykowski, Artur Kozdrowski,
+- **Date:** 1996–1998 (premiery: Zielona Góra 1996, Warszawa CSW Ujazdowski 1996, Dessau 1997, Wrocław WRO 1997, Banff Kanada 1997, Budapeszt)
+- **Location:** ?
+- **Authors:** libretto: Piotr Wyrzykowski, Artur Kozdrowski,
 
 ## Archive Catalog (21 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

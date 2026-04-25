@@ -14,6 +14,6 @@ A collaborative project with artist Roland Miller. No detailed archival document
 
 ## Basic Data
 
-- **Data:** 1995
-- **Miejsce:** Mózg, Bydgoszcz
-- **Autorzy:** Piotr Wyrzykowski i urzędnicy CUKT
+- **Date:** 1995
+- **Location:** Mózg, Bydgoszcz
+- **Authors:** Piotr Wyrzykowski i urzędnicy CUKT

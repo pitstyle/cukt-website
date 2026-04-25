@@ -14,13 +14,13 @@ CUKT carried out a renovation action in Bytow — officers in overalls with the 
 
 ## Basic Data
 
-- **Data:** 28 czerwca 1996
-- **Miejsce:** Bytów
-- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio
+- **Date:** 28 czerwca 1996
+- **Location:** Bytów
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio
 
 ## Archive Catalog (15 items)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|

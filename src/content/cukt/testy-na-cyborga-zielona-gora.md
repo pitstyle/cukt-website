@@ -14,14 +14,14 @@ tags: ["body", "performance", "technology"]
 
 ## Basic Data
 
-- **Data:** 1996
-- **Miejsce:** Estrada, Zielona Góra
-- **Autorzy:** ?
-- **Cykl:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
+- **Date:** 1996
+- **Location:** Estrada, Zielona Góra
+- **Authors:** ?
+- **Series:** [[Testy na Cyborga]] — realizowane w wielu miastach 1995–2017
 
 ## Archive Catalog (1 item)
 
-Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/
+Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/1995 2017 Testy na Cyborga/
 
 | Plik | Opis | Format | Ilość | Rok |
 |------|------|--------|-------|-----|
