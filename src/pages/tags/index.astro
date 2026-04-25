@@ -34,8 +34,10 @@ import Base from '../../layouts/Base.astro';
   @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
   .page-sub { font-size: 1.5vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
   .tags-grid { padding: var(--space-xl) 0; }
+  .project-card { display: block; text-decoration: none; color: var(--white); }
+  .project-card h3 { color: var(--white) !important; }
+  .project-card:hover h3 { color: var(--red) !important; }
   .desc { font-size: 0.85rem; color: var(--white-dim); }
-  .pending { margin-top: var(--space-xl); font-size: 0.85rem; color: var(--white-dim); }
   @media (max-width: 768px) { .page-title{font-size:14vw;} .page-sub{font-size:3vw;} }
 </style>
 

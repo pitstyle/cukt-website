@@ -144,6 +144,20 @@ const total = cuktProjects.length + personalProjects.length;
     margin-bottom: var(--space-xs);
   }
 
+  .project-card {
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  .project-card h3 {
+    color: var(--white) !important;
+  }
+
+  .project-card:hover h3 {
+    color: var(--red) !important;
+  }
+
   @media (max-width: 768px) {
     .page-title { font-size: 14vw; }
     .page-sub { font-size: 3vw; }
