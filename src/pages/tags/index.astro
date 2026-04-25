@@ -3,75 +3,46 @@ import Base from '../../layouts/Base.astro';
 ---
 
 <Base title="TAGS" description="Narrative threads connecting C.U.K.T. projects and personal works">
-  <section class="header">
+  <section class="page-hero">
     <div class="container">
-      <h1 data-en="TAGS / THREADS" data-pl="TAGI / WATKI">TAGS / THREADS</h1>
-      <p class="subtitle" data-en="Cross-narrative — threads connecting both archives" data-pl="Narracja przekrojowa — watki laczace oba archiwa">Cross-narrative — threads connecting both archives</p>
+      <h1 class="page-title" id="page-glitch" data-text="TAGS" data-en="TAGS" data-pl="TAGI">TAGS</h1>
+      <p class="page-sub" data-en="CROSS-NARRATIVE THREADS" data-pl="NARRACJA PRZEKROJOWA">CROSS-NARRATIVE THREADS</p>
     </div>
   </section>
 
   <section class="tags-grid">
     <div class="container">
       <div class="grid-projects">
-        <div class="project-card">
-          <h3>#BODY</h3>
-          <p class="desc">Testy na Cyborga, There Is No Body, Cyborg's Sex Manual, Manhunt</p>
-        </div>
-        <div class="project-card">
-          <h3>#INSTITUTION</h3>
-          <p class="desc">Wiktoria Cukt, Antyelekcja, CUKTAI, Fundacja Bot</p>
-        </div>
-        <div class="project-card">
-          <h3>#TECHNOLOGY</h3>
-          <p class="desc">Technopera, N.T.S.C., Lab 6, Mobile Art, CUKTAI</p>
-        </div>
-        <div class="project-card">
-          <h3>#IDENTITY</h3>
-          <p class="desc">Wiktoria Cukt, Polaka Twarz, Zoriana, Ewa Virus</p>
-        </div>
-        <div class="project-card">
-          <h3>#PERFORMANCE</h3>
-          <p class="desc">120h, HERE Performance, Przysiega Prezydenta, Concert for</p>
-        </div>
-        <div class="project-card">
-          <h3>#VIDEO</h3>
-          <p class="desc">Beta Nassau, Atomic Love, KHODA, Video Art</p>
-        </div>
+        <div class="project-card"><h3>#BODY</h3><p class="desc">Testy na Cyborga, There Is No Body, Cyborg's Sex Manual, Manhunt</p></div>
+        <div class="project-card"><h3>#INSTITUTION</h3><p class="desc">Wiktoria Cukt, Antyelekcja, CUKTAI, Fundacja Bot</p></div>
+        <div class="project-card"><h3>#TECHNOLOGY</h3><p class="desc">Technopera, N.T.S.C., Lab 6, Mobile Art, CUKTAI</p></div>
+        <div class="project-card"><h3>#IDENTITY</h3><p class="desc">Wiktoria Cukt, Polaka Twarz, Zoriana, Ewa Virus</p></div>
+        <div class="project-card"><h3>#PERFORMANCE</h3><p class="desc">120h, HERE Performance, Przysiega Prezydenta, Concert for</p></div>
+        <div class="project-card"><h3>#VIDEO</h3><p class="desc">Beta Nassau, Atomic Love, KHODA, Video Art</p></div>
       </div>
-      <p class="pending" data-en="[IN PROGRESS] Tag system under construction." data-pl="[IN PROGRESS] System tagow w budowie.">[IN PROGRESS] Tag system under construction.</p>
+      <p class="pending">[IN PROGRESS]</p>
     </div>
   </section>
 </Base>
 
 <style>
-  .header {
-    padding: var(--space-2xl) 0 var(--space-xl);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .header h1 { color: var(--red); }
-
-  .subtitle { color: var(--white-dim); }
-
+  .page-hero { padding: 6vw 0 4vw; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .page-title { font-size: 10vw; font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.9; position: relative; }
+  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
+  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
+  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
+  @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
+  @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
+  .page-sub { font-size: 1.5vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
   .tags-grid { padding: var(--space-xl) 0; }
-
-  .desc {
-    font-size: 0.85rem;
-    color: var(--white-dim);
-    font-family: var(--font-mono);
-  }
-
-  .pending {
-    margin-top: var(--space-xl);
-    font-size: 0.9rem;
-    color: var(--white-dim);
-  }
+  .desc { font-size: 0.85rem; color: var(--white-dim); }
+  .pending { margin-top: var(--space-xl); font-size: 0.85rem; color: var(--white-dim); }
+  @media (max-width: 768px) { .page-title{font-size:14vw;} .page-sub{font-size:3vw;} }
 </style>
 
 <script>
-  const lang = localStorage.getItem('cuktai-lang') || 'en';
-  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
-    const text = el.getAttribute(`data-${lang}`);
-    if (text) el.textContent = text;
-  });
+  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
+  function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
+  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);setInterval(()=>scramble(t,t.getAttribute('data-text')||tx,600),12000+Math.random()*8000);}
+  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v){el.textContent=v;if(el.hasAttribute('data-text'))el.setAttribute('data-text',v);}});
 </script>

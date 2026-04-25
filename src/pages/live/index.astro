@@ -3,10 +3,10 @@ import Base from '../../layouts/Base.astro';
 ---
 
 <Base title="LIVE" description="CUKTAI system activity in real time">
-  <section class="header">
+  <section class="page-hero">
     <div class="container">
-      <h1 data-en="LIVE FEED" data-pl="LIVE FEED">LIVE FEED</h1>
-      <p class="subtitle" data-en="CUKTAI system activity" data-pl="Aktywnosc systemu CUKTAI">CUKTAI system activity</p>
+      <h1 class="page-title" id="page-glitch" data-text="LIVE FEED">LIVE FEED</h1>
+      <p class="page-sub" data-en="CUKTAI SYSTEM ACTIVITY" data-pl="AKTYWNOSC SYSTEMU CUKTAI">CUKTAI SYSTEM ACTIVITY</p>
     </div>
   </section>
 
@@ -24,59 +24,36 @@ import Base from '../../layouts/Base.astro';
 
       <div class="feed-section">
         <h2 data-en="RECENT EVENTS" data-pl="OSTATNIE WYDARZENIA">RECENT EVENTS</h2>
-        <p class="pending" data-en="[BUILDING] Walk data feed coming soon." data-pl="[BUILDING] Feed danych wkrotce.">[BUILDING] Walk data feed coming soon.</p>
+        <p class="pending">[BUILDING] Walk data feed coming soon.</p>
       </div>
     </div>
   </section>
 </Base>
 
 <style>
-  .header {
-    padding: var(--space-2xl) 0 var(--space-xl);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .header h1 { color: var(--red); }
-  .subtitle { color: var(--white-dim); }
+  .page-hero { padding: 6vw 0 4vw; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .page-title { font-size: 10vw; font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.9; position: relative; }
+  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
+  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
+  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
+  @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
+  @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
+  .page-sub { font-size: 1.5vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
 
   .feed { padding: var(--space-xl) 0; }
-
   .feed-section { margin-bottom: var(--space-xl); }
-
-  .feed-section h2 {
-    color: var(--red);
-    margin-bottom: var(--space-md);
-    font-size: 1.1rem;
-  }
-
-  .agent-status {
-    border: 1px solid var(--border);
-    padding: var(--space-md);
-  }
-
-  .agent-line {
-    padding: var(--space-sm) 0;
-    border-bottom: 1px solid var(--border);
-    font-size: 0.85rem;
-  }
-
+  .feed-section h2 { color: var(--red); margin-bottom: var(--space-md); font-size: 1.1rem; }
+  .agent-status { border: 1px solid var(--border); padding: var(--space-md); }
+  .agent-line { padding: var(--space-sm) 0; border-bottom: 1px solid var(--border); font-size: 0.85rem; }
   .agent-line:last-child { border-bottom: none; }
-
   .status-ok { color: var(--green); }
-  .status-warn { color: var(--red); }
-
-  .pending {
-    font-size: 0.85rem;
-    color: var(--white-dim);
-    padding: var(--space-md);
-    border: 1px dashed var(--border);
-  }
+  .pending { font-size: 0.85rem; color: var(--white-dim); padding: var(--space-md); border: 1px dashed var(--border); }
+  @media (max-width: 768px) { .page-title{font-size:14vw;} .page-sub{font-size:3vw;} }
 </style>
 
 <script>
-  const lang = localStorage.getItem('cuktai-lang') || 'en';
-  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
-    const text = el.getAttribute(`data-${lang}`);
-    if (text) el.textContent = text;
-  });
+  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
+  function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
+  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);setInterval(()=>scramble(t,t.getAttribute('data-text')||tx,600),12000+Math.random()*8000);}
+  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v){el.textContent=v;if(el.hasAttribute('data-text'))el.setAttribute('data-text',v);}});
 </script>
