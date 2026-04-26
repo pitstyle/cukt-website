@@ -1,6 +1,6 @@
 ---
-title: "36 HOURS"
-project: "36 HOURS"
+title: "36 Hours"
+project: "36 Hours"
 type: "teczka"
 date: "2026-04-20"
 status: "W TOKU"
