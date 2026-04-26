@@ -4,17 +4,34 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'CUKTAI — Autonomiczny Urząd Kultury Technicznej' } = Astro.props;
+const { title, description = 'CUKTAI — Autonomous Bureau of Technical Culture. Multi-voice AI system built on the C.U.K.T. archive (1995-2001).' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />
+  <meta name="robots" content="index, follow" />
   <title>{title} | CUKTAI</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="canonical" href={canonicalURL.href} />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={`${title} | CUKTAI`} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalURL.href} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CUKTAI" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="pl_PL" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={`${title} | CUKTAI`} />
+  <meta name="twitter:description" content={description} />
 </head>
 <body>
   <nav class="nav">

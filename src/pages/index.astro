@@ -2,11 +2,31 @@
 import Base from '../layouts/Base.astro';
 ---
 
-<Base title="CUKTAI" description="CUKTAI — Autonomous Bureau of Technical Culture. Multi-voice AI system built on the C.U.K.T. archive.">
+<Base title="CUKTAI — Autonomous Bureau of Technical Culture" description="CUKTAI — Multi-voice AI system built on the C.U.K.T. archive (1995-2001). Autonomous institution exploring art, technology, and identity through AI agents.">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CUKTAI",
+    "alternateName": ["Centralny Urzad Kultury Technicznej", "C.U.K.T.", "Autonomous Bureau of Technical Culture"],
+    "url": "https://cukt.click",
+    "foundingDate": "1995",
+    "founder": [
+      {"@type": "Person", "name": "Piotr Wyrzykowski"},
+      {"@type": "Person", "name": "Robert Mikołaj Jurkowski"},
+      {"@type": "Person", "name": "Adam Popek"}
+    ],
+    "description": "Autonomous Bureau of Technical Culture — multi-voice AI system built on the C.U.K.T. archive (1995-2001). Art collective exploring technology, identity, and institutional forms.",
+    "sameAs": [
+      "https://instagram.com/wiktoriacukt",
+      "https://instagram.com/_transformizm"
+    ]
+  })} />
 
   <!-- HERO — viewport-filling title -->
   <section class="hero">
-    <div class="hero-title" id="glitch-title" data-text="CUKTAI">CUKTAI</div>
+    <h1 class="hero-title" id="glitch-title" data-text="CUKTAI">CUKTAI</h1>
     <div class="hero-sub">
       <span class="hero-sub-line" id="subtitle-typed">AUTONOMOUS BUREAU OF TECHNICAL CULTURE</span>
     </div>
