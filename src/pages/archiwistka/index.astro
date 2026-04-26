@@ -7,32 +7,24 @@ const karty = all.filter(d => d.data.type === 'karta').sort((a, b) => b.data.dat
 const teczki = all.filter(d => d.data.type === 'teczka').sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
 
-<Base title="ARCHIWISTKA" description="Nocny Archiwista CUKT — investigation files and project cards">
+<Base title="ARCHIWISTKA" description="Night Investigator — investigation files and project cards from the CUKT archive">
   <section class="page-hero">
     <div class="container">
-      <h1 class="page-title" id="page-glitch" data-text="ARCHIWISTKA">ARCHIWISTKA</h1>
-      <p class="page-sub" data-en="NIGHT INVESTIGATOR — TECZKI & PROJECT CARDS" data-pl="NOCNY ARCHIWISTA — TECZKI I KARTY PROJEKTÓW">NIGHT INVESTIGATOR — TECZKI & PROJECT CARDS</p>
-    </div>
-  </section>
-
-  <section class="arch-intro">
-    <div class="container content">
-      <p class="intro-text" data-en="Archiwistka works while everyone sleeps. Each night — one project. Each project — an investigation file (teczka) and a factual project card (karta). Zero interpretation in cards. Only facts." data-pl="Archiwistka pracuje gdy wszyscy śpią. Każda noc — jeden projekt. Każdy projekt — teczka śledcza i karta projektu. Zero interpretacji w kartach. Tylko fakty.">Archiwistka works while everyone sleeps. Each night — one project. Each project — an investigation file (teczka) and a factual project card (karta). Zero interpretation in cards. Only facts.</p>
+      <h1 class="page-title" id="page-glitch" data-text="ARCHIWISTKA" data-en="ARCHIWISTKA" data-pl="ARCHIWISTKA">ARCHIWISTKA</h1>
+      <p class="page-sub" data-en={`${teczki.length} TECZKI / ${karty.length} KARTY`} data-pl={`${teczki.length} TECZKI / ${karty.length} KARTY`}>{teczki.length} TECZKI / {karty.length} KARTY</p>
     </div>
   </section>
 
   {karty.length > 0 && (
-    <section class="arch-section">
+    <section class="archive-list">
       <div class="container">
-        <h2 class="section-label" data-en="PROJECT CARDS" data-pl="KARTY PROJEKTÓW">PROJECT CARDS</h2>
-        <p class="section-desc" data-en="Facts only. Publication ready." data-pl="Tylko fakty. Gotowe do publikacji.">Facts only. Publication ready.</p>
+        <h2 class="section-head" data-en="PROJECT CARDS" data-pl="KARTY PROJEKTÓW">PROJECT CARDS</h2>
         <div class="grid-projects">
-          {karty.map(doc => (
-            <a href={`/archiwistka/${doc.id}`} class="project-card karta-card">
-              <span class="card-type">KARTA</span>
+          {karty.map((doc, i) => (
+            <a href={`/archiwistka/${doc.id}`} class="project-card">
+              <span class="card-number">KARTA</span>
               <h3>{doc.data.title}</h3>
               <p class="meta">{doc.data.date}</p>
-              <span class="card-status">{doc.data.status}</span>
             </a>
           ))}
         </div>
@@ -40,86 +32,151 @@ const teczki = all.filter(d => d.data.type === 'teczka').sort((a, b) => b.data.d
     </section>
   )}
 
-  <section class="arch-section">
+  <section class="archive-list">
     <div class="container">
-      <h2 class="section-label" data-en="INVESTIGATION FILES" data-pl="TECZKI ŚLEDCZE">INVESTIGATION FILES</h2>
-      <p class="section-desc" data-en="Deep dives. Evidence, hypotheses, gaps." data-pl="Pogłębione badania. Dowody, hipotezy, białe plamy.">Deep dives. Evidence, hypotheses, gaps.</p>
-      {teczki.length > 0 ? (
-        <div class="grid-projects">
-          {teczki.map(doc => (
-            <a href={`/archiwistka/${doc.id}`} class="project-card teczka-card">
-              <span class="card-type teczka-type">TECZKA</span>
-              <h3>{doc.data.title}</h3>
-              <p class="meta">{doc.data.date}</p>
-              <span class="card-status status-progress">{doc.data.status}</span>
-            </a>
-          ))}
-        </div>
-      ) : (
-        <p class="pending">[AWAITING] No investigation files yet.</p>
-      )}
-    </div>
-  </section>
-
-  <section class="arch-stats">
-    <div class="container">
-      <div class="stats-bar">
-        <div class="stat"><span class="stat-val">{all.length}</span><span class="stat-label" data-en="TOTAL" data-pl="ŁĄCZNIE">TOTAL</span></div>
-        <div class="stat"><span class="stat-val">{karty.length}</span><span class="stat-label">KARTY</span></div>
-        <div class="stat"><span class="stat-val">{teczki.length}</span><span class="stat-label">TECZKI</span></div>
-        <div class="stat"><span class="stat-val green">{all.filter(d => d.data.status === 'COMPLETE' || d.data.status === 'KOMPLETNA').length}</span><span class="stat-label" data-en="COMPLETE" data-pl="KOMPLETNE">COMPLETE</span></div>
+      <h2 class="section-head" data-en="INVESTIGATION FILES" data-pl="TECZKI ŚLEDCZE">INVESTIGATION FILES</h2>
+      <div class="grid-projects">
+        {teczki.map((doc, i) => (
+          <a href={`/archiwistka/${doc.id}`} class="project-card">
+            <span class="card-number">{String(i + 1).padStart(2, '0')}</span>
+            <h3>{doc.data.title}</h3>
+            <p class="meta">{doc.data.date} — {doc.data.status}</p>
+          </a>
+        ))}
       </div>
     </div>
   </section>
 </Base>
 
 <style>
-  .page-hero { padding: 6vw 0 4vw; border-bottom: 1px solid var(--border); overflow: hidden; }
-  .page-title { font-size: 10vw; font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.9; position: relative; }
-  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
-  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
-  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
-  @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
-  @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
-  .page-sub { font-size: 1.5vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
+  .page-hero {
+    padding: 6vw 0 4vw;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
 
-  .arch-intro { padding: var(--space-xl) 0 var(--space-lg); }
-  .intro-text { color: var(--white-dim); font-size: 0.9rem; line-height: 1.8; border-left: 3px solid var(--green); padding-left: var(--space-md); }
+  .page-title {
+    font-size: 10vw;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: var(--red);
+    line-height: 0.9;
+    position: relative;
+  }
 
-  .arch-section { padding: var(--space-lg) 0 var(--space-xl); }
-  .section-label { color: var(--green); font-size: 1rem; letter-spacing: 0.2em; margin-bottom: var(--space-xs); }
-  .section-desc { color: var(--white-dim); font-size: 0.8rem; margin-bottom: var(--space-lg); }
+  .page-title::before,
+  .page-title::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-  .karta-card { border-color: var(--green-dim); }
-  .karta-card:hover { border-color: var(--green); }
-  .teczka-card { border-color: var(--border); }
+  .page-title::before {
+    color: var(--green);
+    animation: page-glitch-1 8s infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    opacity: 0;
+  }
 
-  .card-type { display: block; font-size: 0.65rem; letter-spacing: 0.15em; color: var(--green); margin-bottom: var(--space-xs); }
-  .teczka-type { color: var(--red); }
+  .page-title::after {
+    color: var(--white);
+    animation: page-glitch-2 6s infinite 2s;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    opacity: 0;
+  }
 
-  .card-status { display: inline-block; font-size: 0.65rem; letter-spacing: 0.1em; color: var(--white-dim); margin-top: var(--space-sm); padding: 2px 6px; border: 1px solid var(--border); }
-  .status-progress { color: var(--red); border-color: var(--red-dim); }
+  @keyframes page-glitch-1 {
+    0%, 95% { opacity: 0; transform: translate(0); }
+    96% { opacity: 0.6; transform: translate(-2px, 1px); }
+    97% { opacity: 0.4; transform: translate(2px, -1px); }
+    98% { opacity: 0.7; transform: translate(-1px, -1px); }
+    99%, 100% { opacity: 0; transform: translate(0); }
+  }
 
-  .arch-stats { padding: var(--space-lg) 0; border-top: 1px solid var(--border); }
-  .stats-bar { display: flex; gap: var(--space-xl); }
-  .stat { display: flex; flex-direction: column; align-items: center; }
-  .stat-val { font-size: 2rem; font-weight: 800; color: var(--white); }
-  .stat-val.green { color: var(--green); }
-  .stat-label { font-size: 0.65rem; letter-spacing: 0.15em; color: var(--white-dim); margin-top: var(--space-xs); }
+  @keyframes page-glitch-2 {
+    0%, 93% { opacity: 0; transform: translate(0); }
+    94% { opacity: 0.5; transform: translate(2px, -2px); }
+    95% { opacity: 0.3; transform: translate(-2px, 1px); }
+    96% { opacity: 0.6; transform: translate(1px, -1px); }
+    97%, 100% { opacity: 0; transform: translate(0); }
+  }
 
-  .pending { font-size: 0.85rem; color: var(--white-dim); padding: var(--space-md); border: 1px dashed var(--border); }
+  .page-sub {
+    font-size: 1.5vw;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: var(--white-dim);
+    margin-top: var(--space-md);
+  }
+
+  .archive-list {
+    padding: var(--space-xl) 0;
+  }
+
+  .section-head {
+    color: var(--red);
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .card-number {
+    color: var(--red-dim);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: var(--space-xs);
+  }
+
+  .project-card h3 {
+    color: var(--white);
+  }
 
   @media (max-width: 768px) {
     .page-title { font-size: 14vw; }
     .page-sub { font-size: 3vw; }
-    .stats-bar { gap: var(--space-lg); }
-    .stat-val { font-size: 1.5rem; }
   }
 </style>
 
 <script>
-  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
-  function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
-  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);setInterval(()=>scramble(t,t.getAttribute('data-text')||tx,600),12000+Math.random()*8000);}
-  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v){el.textContent=v;if(el.hasAttribute('data-text'))el.setAttribute('data-text',v);}});
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
+
+  function scramble(el: Element, finalText: string, duration = 1200) {
+    const len = finalText.length;
+    let frame = 0;
+    const totalFrames = duration / 30;
+    const interval = setInterval(() => {
+      let result = '';
+      for (let i = 0; i < len; i++) {
+        const progress = frame / totalFrames;
+        const charProgress = i / len;
+        if (progress > charProgress + 0.3) result += finalText[i];
+        else result += chars[Math.floor(Math.random() * chars.length)];
+      }
+      el.textContent = result;
+      frame++;
+      if (frame > totalFrames) { el.textContent = finalText; clearInterval(interval); }
+    }, 30);
+  }
+
+  const title = document.getElementById('page-glitch');
+  if (title) {
+    const text = title.textContent || '';
+    setTimeout(() => scramble(title, text, 1000), 200);
+    setInterval(() => scramble(title, title.getAttribute('data-text') || text, 600), 12000 + Math.random() * 8000);
+  }
+
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const text = el.getAttribute(`data-${lang}`);
+    if (text) {
+      el.textContent = text;
+      if (el.hasAttribute('data-text')) el.setAttribute('data-text', text);
+    }
+  });
 </script>
