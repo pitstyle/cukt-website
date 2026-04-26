@@ -2,3 +2,9 @@ User-agent: *
 Allow: /
 
 Sitemap: https://cukt.click/sitemap-index.xml
+
+# Content Signals (draft-romm-aipref-contentsignals)
+# AI training: no (our archive content is not for training)
+# Search indexing: yes (we want to be found)
+# AI input/retrieval: yes (agents can reference our content)
+Content-Signal: ai-train=no, search=yes, ai-input=yes

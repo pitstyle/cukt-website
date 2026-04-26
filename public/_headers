@@ -1,0 +1,9 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/
+  Link: </llms.txt>; rel="service-doc"; title="LLM site description"
+  Link: </sitemap-index.xml>; rel="sitemap"
+  Link: </robots.txt>; rel="robots"
