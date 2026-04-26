@@ -3,7 +3,7 @@ title: "Antyelekcja — Technodemonstracja"
 project: "Antyelekcja — Technodemonstracja"
 type: "teczka"
 date: "2026-04-25"
-status: "W TOKU"
+status: "W PROGRESIE"
 ---
 
 # TECZKA ŚLEDCZA: Antyelekcja (1995)

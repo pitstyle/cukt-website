@@ -3,7 +3,7 @@ title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
 date: "2026-04-19"
-status: "W TOKU"
+status: "ZAKOŃCZONO (wyjaśnienia od Piotra 2026-04-19)"
 ---
 
 TECZKA ŚLEDCZA: 120h Mega Techno Obecności (RE-ŚLEDZTWO ZAKOŃCZONE - AKTUALIZACJA)

@@ -3,7 +3,7 @@ title: "Testy na Cyborga — Düsseldorf"
 project: "Testy na Cyborga — Düsseldorf"
 type: "teczka"
 date: "2026-04-24"
-status: "W TOKU"
+status: "IN PROGRESS"
 ---
 
 # TECZKA ŚLEDCZA: TESTY NA CYBORGA — Dusseldorf / DELIKATESY AVANTGARDE

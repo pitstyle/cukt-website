@@ -3,7 +3,7 @@ title: "Testy na Cyborga — Wrocław"
 project: "Testy na Cyborga — Wrocław"
 type: "teczka"
 date: "2026-04-25"
-status: "W TOKU"
+status: "IN PROGRESS"
 ---
 
 TECZKA ŚLEDCZA: TESTY NA CYBORGA — WROCŁAW

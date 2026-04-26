@@ -3,7 +3,7 @@ title: "Czyn dla miasta Bytów"
 project: "Czyn dla miasta Bytów"
 type: "teczka"
 date: "2026-04-25"
-status: "KOMPLETNA"
+status: "KOMPLETNA DOKUMENTACJA"
 ---
 
 TECZKA ŚLEDCZA: Czyn dla miasta Bytów (1996)

@@ -3,7 +3,7 @@ title: "Technopera 1996-1997"
 project: "Technopera 1996-1997"
 type: "karta"
 date: "2026-04-25"
-status: "KOMPLETNA"
+status: "W TOKU"
 ---
 
 # PROJECT CARD: TECHNOPERA (1996–1997)

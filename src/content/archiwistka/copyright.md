@@ -3,7 +3,7 @@ title: "Copyright"
 project: "Copyright"
 type: "teczka"
 date: "2026-04-25"
-status: "W TOKU"
+status: "IN PROGRESS"
 ---
 
 # TECZKA ŚLEDCZA: Copyright

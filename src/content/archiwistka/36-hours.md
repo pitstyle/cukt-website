@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-04-20"
+date: "2026-04-25"
 status: "W TOKU"
 ---
 
