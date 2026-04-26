@@ -29,4 +29,15 @@ const personal = defineCollection({
   }),
 });
 
-export const collections = { cukt, personal };
+const archiwistka = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/archiwistka' }),
+  schema: z.object({
+    title: z.string(),
+    project: z.string().optional(),
+    type: z.enum(['teczka', 'karta']),
+    date: z.string(),
+    status: z.string(),
+  }),
+});
+
+export const collections = { cukt, personal, archiwistka };
