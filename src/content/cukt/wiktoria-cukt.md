@@ -304,7 +304,7 @@ Source: CUKT Archiwum_01-2.odt
 
 ## Gallery
 
-![](/uploads/4/6/4/1/4641121/cukt-logo-old-white-copy_1.png)
-![](/uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg)
-![](/uploads/4/6/4/1/4641121/published/ces3-copy.jpg)
-![](/uploads/4/6/4/1/4641121/3218941_orig.jpg)
+![WIKTORIA CUKT — Kampania Wyborcza — cukt logo old white copy](/uploads/4/6/4/1/4641121/cukt-logo-old-white-copy_1.png)
+![WIKTORIA CUKT — Kampania Wyborcza — wiktoria 2 0 01a s](/uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg)
+![WIKTORIA CUKT — Kampania Wyborcza — ces3 copy](/uploads/4/6/4/1/4641121/published/ces3-copy.jpg)
+![WIKTORIA CUKT — Kampania Wyborcza — 3218941](/uploads/4/6/4/1/4641121/3218941_orig.jpg)

@@ -51,5 +51,5 @@ Gdański Dom Literatury - performans na żywo Zoriany Blyskavki i moje wprowadze
 ## Zoriana Blyskavka - Ukrainian Futuristic Poetess
 
 ## Images
-![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
-![](/uploads/4/6/4/1/4641121/published/dall-e-2024-11-14-11-15-07-a-close-up-portrait-of-zoriana-blyskawka-a-fierce-ukrainian-futurist-poet-styled-in-the-1920s-avant-garde-with-her-face-centered-and-surrounded-by-a.webp)
+![Zoriana Blyskavka — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![Zoriana Blyskavka — dall e 2024 11 14 11 15 07 a close up portrait of zoriana blyskawka a fierce ukrainian futurist poet styled in the 1920s avant garde with her face centered and surrounded by a](/uploads/4/6/4/1/4641121/published/dall-e-2024-11-14-11-15-07-a-close-up-portrait-of-zoriana-blyskawka-a-fierce-ukrainian-futurist-poet-styled-in-the-1920s-avant-garde-with-her-face-centered-and-surrounded-by-a.webp)

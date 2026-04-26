@@ -48,7 +48,7 @@ Source: CUKT Archiwum_01-2.odt | SSD Path: raw/archive-usb/
 
 ## Gallery
 
-![](/uploads/4/6/4/1/4641121/8174712.jpg)
-![](/uploads/4/6/4/1/4641121/force_orig.jpg)
-![](/uploads/4/6/4/1/4641121/dessau-02.jpg)
-![](/uploads/4/6/4/1/4641121/dessau-04_orig.jpg)
+![TECHNOPERA (1996–1997) — 8174712](/uploads/4/6/4/1/4641121/8174712.jpg)
+![TECHNOPERA (1996–1997) — force](/uploads/4/6/4/1/4641121/force_orig.jpg)
+![TECHNOPERA (1996–1997) — dessau 02](/uploads/4/6/4/1/4641121/dessau-02.jpg)
+![TECHNOPERA (1996–1997) — dessau 04](/uploads/4/6/4/1/4641121/dessau-04_orig.jpg)

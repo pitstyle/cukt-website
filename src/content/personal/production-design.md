@@ -59,7 +59,7 @@ Więcej? Zażądaj pdf / More? Download the pdf
 ## Production design
 
 ## Images
-![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![Production Design — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)
 
 ## Videos
 - https://www.youtube.com/embed/i1Zm53CQB3g?wmode=opaque

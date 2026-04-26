@@ -15,5 +15,5 @@ więcej / more
 ## Manhunt
 
 ## Images
-![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
-![](/uploads/4/6/4/1/4641121/1707453.jpg)
+![Manhunt — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![Manhunt — 1707453](/uploads/4/6/4/1/4641121/1707453.jpg)

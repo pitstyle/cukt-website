@@ -29,8 +29,8 @@ SYNTHETIC STORM: B&#321;YSKAWKA + PIOTR AT KUNSTHAL AARHUS &#9889;&#129302;&#988
 ### ZORIANA BLYSKAVKA PERFORMANCE
 
 #### Images
-![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
-![](/uploads/4/6/4/1/4641121/published/wyrzykowski-aarhus-large.jpeg)
+![Zoriana_Aarhus — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![Zoriana_Aarhus — wyrzykowski aarhus large](/uploads/4/6/4/1/4641121/published/wyrzykowski-aarhus-large.jpeg)
 
 #### Videos
 - [https://www.youtube.com/embed/B5qZmBGP7Bs?wmode=opaque](https://www.youtube.com/embed/B5qZmBGP7Bs?wmode=opaque)

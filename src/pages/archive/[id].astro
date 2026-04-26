@@ -14,7 +14,20 @@ const { project } = Astro.props;
 const { Content } = await render(project);
 ---
 
-<Base title={project.data.title} description={project.data.description || `C.U.K.T. project — ${project.data.title}`}>
+<Base title={`${project.data.title} — C.U.K.T. Archive`} description={project.data.description || `${project.data.title} — C.U.K.T. project${project.data.date ? ` (${project.data.date})` : ''}${project.data.authors ? ` by ${project.data.authors}` : ''}.`}>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": project.data.title,
+    "url": `https://cukt.click/archive/${project.id}/`,
+    "dateCreated": project.data.date || undefined,
+    "creator": (project.data.authors || "Piotr Wyrzykowski, Robert Jurkowski, Adam Popek").split(",").map((a: string) => ({ "@type": "Person", "name": a.trim() })),
+    "description": project.data.description || `C.U.K.T. project — ${project.data.title}`,
+    "isPartOf": { "@type": "CreativeWorkSeries", "name": "C.U.K.T. Archive", "url": "https://cukt.click/archive/" },
+    "keywords": project.data.tags || []
+  })} />
+
   <section class="page-hero">
     <div class="container">
       <a href="/archive" class="back" data-en="&larr; ARCHIVE" data-pl="&larr; ARCHIWUM">&larr; ARCHIVE</a>

@@ -14,7 +14,19 @@ const { project } = Astro.props;
 const { Content } = await render(project);
 ---
 
-<Base title={project.data.title} description={project.data.description || `${project.data.title} — Piotr Wyrzykowski`}>
+<Base title={`${project.data.title} — Piotr Wyrzykowski`} description={project.data.description || `${project.data.title}${project.data.date ? ` (${project.data.date})` : ''} — art project by Piotr Wyrzykowski (Peter Style).`}>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": project.data.title,
+    "url": `https://cukt.click/personal/${project.id}/`,
+    "dateCreated": project.data.date || undefined,
+    "creator": { "@type": "Person", "name": "Piotr Wyrzykowski", "alternateName": "Peter Style" },
+    "description": project.data.description || `${project.data.title} — art project by Piotr Wyrzykowski`,
+    "keywords": project.data.tags || []
+  })} />
+
   <section class="page-hero">
     <div class="container">
       <a href="/personal" class="back" data-en="&larr; PROJECTS" data-pl="&larr; PROJEKTY">&larr; PROJECTS</a>

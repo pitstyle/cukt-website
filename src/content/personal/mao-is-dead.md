@@ -32,5 +32,5 @@ Performance "1"
 ## Serhij Żadan "Anarchy in the UKR".
 
 ## Images
-![](/uploads/4/6/4/1/4641121/published/transformizm01.png)
-![](/uploads/4/6/4/1/4641121/2608625.jpg)
+![Mao is Dead — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)
+![Mao is Dead — 2608625](/uploads/4/6/4/1/4641121/2608625.jpg)

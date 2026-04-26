@@ -14,8 +14,8 @@ Beta Nassau 4 channel video
 ## Beta Nassau
 
 ## Images
-![](/uploads/4/6/4/1/4641121/published/transformizm01.png)  
-![](/uploads/4/6/4/1/4641121/4031044.jpg)
+![Beta Nassau — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)  
+![Beta Nassau — 4031044](/uploads/4/6/4/1/4641121/4031044.jpg)
 
 ## Videos
 - [https://player.vimeo.com/video/17568659?badge=0&autopause=0&player_id=0&app_id=58479](https://player.vimeo.com/video/17568659?badge=0&autopause=0&player_id=0&app_id=58479)
