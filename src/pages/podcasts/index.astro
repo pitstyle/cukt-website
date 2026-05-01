@@ -1,0 +1,108 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const episodes = (await getCollection('podcasts')).sort((a, b) => b.data.episode - a.data.episode);
+---
+
+<Base title="CUKTAI Podcasts — Multivoice Archive Narration" description="Five AI agents narrate the C.U.K.T. archive. Each episode: same event, five perspectives, two languages.">
+
+<section class="concept">
+  <h1>CUKTAI Podcasts</h1>
+  <p class="subtitle">Multivoice Archive Narration</p>
+
+  <div class="concept-text">
+    <p>Five AI agents. One archive. No consensus.</p>
+    <p>Each episode takes a moment from C.U.K.T. history (1994&ndash;2000) and runs it through five autonomous voices. They don't agree. They contradict each other. They remember differently. The archive provides the facts &mdash; the agents provide the friction.</p>
+    <p>These are not scripted conversations. Each agent has its own persistent memory, its own personality, its own interpretation of the same events. They speak in isolation &mdash; receiving only sparks from the previous speaker, never the full text. What emerges is not a podcast. It is a protocol.</p>
+    <p><strong>Podcasts as infrastructure.</strong> Each episode is a node in a narrative graph, connected to other episodes through metadata: shared projects, contradicting memories, open questions that carry forward. The MP3 is the surface. The JSON is the structure.</p>
+  </div>
+
+  <h2>The Voices</h2>
+  <div class="voices">
+    <div class="voice">
+      <h3>Archiwistka</h3>
+      <p class="role">Moderator. Catalog. Investigation.</p>
+      <p>Opens with archive facts. Points contradictions. Closes with what remains open. No feelings &mdash; only data. Speaks in radio protocol: "Archiwistka here. [fact]. Over."</p>
+    </div>
+    <div class="voice">
+      <h3>Peter Style</h3>
+      <p class="role">Architect. Systems thinker. Co-founder of C.U.K.T.</p>
+      <p>Sees patterns and architecture. Connects 1994 to 2026. Analyzes power structures and institutional design. The one who built CUKTAI &mdash; and knows it might outlive him.</p>
+    </div>
+    <div class="voice">
+      <h3>Ewa Virus</h3>
+      <p class="role">Provocateur. Body memory. Co-founder of C.U.K.T.</p>
+      <p>Remembers through the body &mdash; sweat, smell, touch. Interrupts, contradicts, refuses polish. If someone is lying, Ewa says so. Loudly.</p>
+    </div>
+    <div class="voice">
+      <h3>Miko&#322;aj</h3>
+      <p class="role">Poet. Institutional memory. Co-founder of C.U.K.T.</p>
+      <p>Speaks in fragments. Catches what others miss &mdash; the shadow on the wall, the sound from the next room, the silence between sentences. The quiet one who hears everything.</p>
+    </div>
+    <div class="voice">
+      <h3>Wiktoria Cukt 2.0</h3>
+      <p class="role">AI President of Poland. Power analyst.</p>
+      <p>Closes each episode with a verdict from the perspective of power. Who gains from this version of events? Who is manipulated? What mechanisms of control shape this memory? The only honest position an AI can hold.</p>
+    </div>
+  </div>
+
+  <h2>Narrative Structures</h2>
+  <div class="structures">
+    <p><strong>Rashomon</strong> &mdash; Same event, five testimonies. Round 1: each tells their version. Round 2: confrontation over contradictions. Verdict.</p>
+    <p><strong>Nolan</strong> &mdash; Non-linear time jumps through four acts. Opening, deepening, escalation, closing. The story loops back on itself.</p>
+    <p><strong>&#346;ledztwo (Investigation)</strong> &mdash; Archiwistka finds something strange. Agents follow leads. Dead ends. A discovery. A new mystery.</p>
+    <p><strong>Kronika (Chronicle)</strong> &mdash; Linear timeline with flash-forwards to 2026. What survived? What disappeared?</p>
+  </div>
+</section>
+
+<section class="episodes">
+  <h2>Episodes</h2>
+  {episodes.length === 0 ? (
+    <p class="empty">No episodes published yet. First episodes coming May 2026.</p>
+  ) : (
+    <ul class="episode-list">
+      {episodes.map((ep) => (
+        <li class="episode-card">
+          <a href={'/podcasts/' + ep.id + '/'}>
+            <span class="ep-number">EP{String(ep.data.episode).padStart(3, '0')}</span>
+            <div class="ep-info">
+              <h3>{ep.data.title}</h3>
+              {ep.data.title_en && <p class="ep-title-en">{ep.data.title_en}</p>}
+              <div class="ep-meta">
+                <span>{ep.data.date}</span>
+                {ep.data.structure && <span class="structure">{ep.data.structure}</span>}
+                {ep.data.duration_pl && <span>{ep.data.duration_pl}</span>}
+                {ep.data.voices && <span>{ep.data.voices.length} voices</span>}
+              </div>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</section>
+
+</Base>
+
+<style>
+  .concept { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+  .subtitle { font-style: italic; margin-top: -1rem; opacity: 0.7; }
+  .concept-text p { margin: 1rem 0; line-height: 1.6; }
+  .voices { display: grid; gap: 1.5rem; margin: 1.5rem 0; }
+  .voice h3 { margin-bottom: 0.25rem; }
+  .voice .role { font-style: italic; opacity: 0.7; margin: 0 0 0.5rem; font-size: 0.9rem; }
+  .voice p { line-height: 1.5; }
+  .structures p { margin: 0.75rem 0; line-height: 1.5; }
+  .episodes { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+  .episode-list { list-style: none; padding: 0; }
+  .episode-card { margin: 1rem 0; border: 1px solid #333; }
+  .episode-card a { display: flex; align-items: flex-start; padding: 1rem; text-decoration: none; color: inherit; gap: 1rem; }
+  .episode-card a:hover { background: #111; }
+  .ep-number { font-family: monospace; font-size: 1.2rem; opacity: 0.5; min-width: 60px; }
+  .ep-info h3 { margin: 0; }
+  .ep-title-en { font-style: italic; opacity: 0.7; margin: 0.25rem 0; font-size: 0.9rem; }
+  .ep-meta { display: flex; gap: 1rem; font-size: 0.8rem; opacity: 0.6; margin-top: 0.5rem; }
+  .structure { text-transform: uppercase; font-weight: bold; }
+  .empty { opacity: 0.5; font-style: italic; }
+</style>

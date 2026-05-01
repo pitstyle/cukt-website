@@ -1,0 +1,96 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const episodes = await getCollection('podcasts');
+  return episodes.map((ep) => ({
+    params: { id: ep.id },
+    props: { ep },
+  }));
+}
+
+const { ep } = Astro.props;
+const { Content } = await render(ep);
+const epNum = String(ep.data.episode).padStart(3, '0');
+---
+
+<Base title={'EP' + epNum + ' — ' + ep.data.title + ' — CUKTAI Podcasts'} description={ep.data.description || ep.data.title}>
+
+<article class="episode">
+  <header>
+    <span class="ep-number">EP{epNum}</span>
+    <h1>{ep.data.title}</h1>
+    {ep.data.title_en && <p class="title-en">{ep.data.title_en}</p>}
+    <div class="meta">
+      <span>{ep.data.date}</span>
+      {ep.data.structure && <span class="structure">{ep.data.structure.toUpperCase()}</span>}
+      {ep.data.voices && <span>{ep.data.voices.join(' / ')}</span>}
+    </div>
+  </header>
+
+  <div class="audio-players">
+    {ep.data.audio_pl && (
+      <div class="player">
+        <h3>Polski</h3>
+        <audio controls preload="metadata" src={ep.data.audio_pl}></audio>
+        {ep.data.duration_pl && <span class="duration">{ep.data.duration_pl}</span>}
+      </div>
+    )}
+    {ep.data.audio_en && (
+      <div class="player">
+        <h3>English</h3>
+        <audio controls preload="metadata" src={ep.data.audio_en}></audio>
+        {ep.data.duration_en && <span class="duration">{ep.data.duration_en}</span>}
+      </div>
+    )}
+  </div>
+
+  {ep.data.connects_to && ep.data.connects_to.length > 0 && (
+    <div class="connections">
+      <h3>Connected episodes</h3>
+      <ul>
+        {ep.data.connects_to.map((c: string) => <li><a href={'/podcasts/' + c + '/'}>{c}</a></li>)}
+      </ul>
+    </div>
+  )}
+
+  <div class="transcript">
+    <h2>Transcript</h2>
+    <Content />
+  </div>
+
+  {ep.data.archive_refs && ep.data.archive_refs.length > 0 && (
+    <div class="refs">
+      <h3>Archive references</h3>
+      <ul>
+        {ep.data.archive_refs.map((r: string) => <li><a href={'/archive/' + r.toLowerCase().replace(/\s+/g, '-') + '/'}>{r}</a></li>)}
+      </ul>
+    </div>
+  )}
+</article>
+
+<nav class="episode-nav">
+  <a href="/podcasts/">&larr; All episodes</a>
+</nav>
+
+</Base>
+
+<style>
+  .episode { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+  .ep-number { font-family: monospace; font-size: 2rem; opacity: 0.3; }
+  .episode h1 { margin: 0.5rem 0; }
+  .title-en { font-style: italic; opacity: 0.7; margin: 0; }
+  .meta { display: flex; gap: 1rem; font-size: 0.85rem; opacity: 0.6; margin: 1rem 0; }
+  .structure { text-transform: uppercase; font-weight: bold; }
+  .audio-players { display: flex; gap: 2rem; margin: 2rem 0; flex-wrap: wrap; }
+  .player { flex: 1; min-width: 250px; }
+  .player h3 { margin: 0 0 0.5rem; font-size: 0.9rem; opacity: 0.7; }
+  .player audio { width: 100%; }
+  .duration { font-size: 0.8rem; opacity: 0.5; }
+  .transcript { margin: 2rem 0; line-height: 1.7; }
+  .transcript h2 { border-bottom: 1px solid #333; padding-bottom: 0.5rem; }
+  .connections, .refs { margin: 2rem 0; }
+  .connections ul, .refs ul { padding-left: 1.5rem; }
+  .episode-nav { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+</style>
