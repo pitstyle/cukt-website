@@ -1,0 +1,154 @@
+---
+title: "1994-12-02---120h-mega-techno-obecności_2026-04-19"
+project: "1994-12-02---120h-mega-techno-obecności_2026-04-19"
+type: "teczka"
+date: "2026-04-19"
+status: "ZAKOŃCZONO"
+---
+
+TECZKA ŚLEDCZA: 1994 12 02 - 120h Mega Techno Obecności
+DATA ŚLEDZTWA: 19 kwietnia 2026
+STATUS: ZAKOŃCZONO
+
+================================================================================
+ISTNIEJĄCY OPIS (przed moim śledztwem):
+================================================================================
+Z bazy archiwum (project "SZTUKA TO PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI. 120 GODZIN MEGA TECHNO OBECNOŚCI"):
+"Projekt pre CUKTowy — 120-godzinna akcja artystyczna. Wydarzenie o charakterze performance/instalacji, trwające nieprzerwanie 5 dni. Galeria Chwilowa w piwnicach handlowego pawilonu została zamieniona na klub Techno. Mieszkańcy Konina nie byli powiadomieni o następującej zamianie funkcji, co stanowiło celowy element strategii artystycznej: 'ukrycia dzieła sztuki'. Akcja zakończona podpaleniem drzwi do Galerii."
+
+================================================================================
+STAN WIEDZY (po moim śledztwie):
+================================================================================
+DATY:
+- Otwarcie: 2 XII 1994, godz. 18:00 (z zaproszenia)
+- Dokument z 8-9 XII 1994: projekt w "fazie likwidacji" po 7 dniach
+- Pozostało 5 dni "bufora bezpieczeństwa" do 13 XII 1994
+- Całkowity czas: 12 dni (2-13 XII), nie 120h (5 dni)
+
+LUDZIE:
+- Piotr Wyrzykowski (Peter Style) - współorganizator
+- Robert Jurkowski / Robert Jędrzejewski - współorganizator (SPRZECZNOŚĆ nazwiska!)
+- Anna Nizio - projekt graficzny
+- "Wyrzyhous" - podpis na dokumencie (pseudonim Piotra?)
+- Nieznane nieformalne grupy młodzieżowe z Konina
+- "Półświadkowie Konina" - termin niejasny
+
+MIEJSCA:
+- Pawilon "Rondo", ul. Przemysłowa 9, Konin (główna lokalizacja)
+- Pracownia Chwilowa (piwnice handlowego pawilonu) - wewnętrzna przestrzeń
+
+MATERIAŁY:
+- 6 plików w bazie (brak 35 zdjęć z folderu "fotografie"!)
+- 4 dokumenty graficzne (plakat, 2 zaproszenia, dokument "likwidacji")
+- 1 obiekt artystyczny (lightbox z 2016)
+- ZAPISANE OPISY AI: 4 (plakat, zapro_01, zapro_02, lightbox)
+- ZAPISANE PYTANIA DO PIOTRA: 6
+
+================================================================================
+ROZPOZNANE OSOBY:
+================================================================================
+- Piotr Wyrzykowski - potwierdzony w plakacie, zaproszeniach, dokumencie
+- Robert Jurkowski/Jędrzejewski - sprzeczność nazwisk (Jurkowski w plakacie, Jędrzejewski w dokumencie)
+- Anna Nizio - projekt graficzny (płytka)
+- "Wyrzyhous" - niejasny podpis (może pseudonim Piotra?)
+
+================================================================================
+OBIEKTY ARTYSTYCZNE:
+================================================================================
+- Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (2016) - retrospektywa, 150x45 cm
+  * Typ: lightbox/kolaż
+  * Hasła: "ŻADEN ARTYSTA NIE MA RACJI", "SZTUKA = PRZESTRZEŃ KULTUROWA"
+  * Zawiera dokument "likwidacji" + czarno-białe zdjęcia z wydarzenia
+
+================================================================================
+ANALIZA KONCEPTUALNA [HIPOTEZY]:
+================================================================================
+[HIPOTEZA 1] IDEA PROJEKTU:
+Projekt nie był "120h" (5 dni) w sensie dosłownym, lecz 12-dniową akcją z fazami. Nazwa "120h" była może symboliczna lub odnosiła się do pierwotnego planu, który uległ zmianie w praktyce. Cel: "kształtowanie formy przestrzeni kultowej" - sztuka jako społeczne, nie tylko estetyczne doświadczenie.
+
+[HIPOTEZA 2] "OGROMNY LUDZKI POTENCJAŁ":
+Dokument wskazuje na nieoczekiwaną reakcję społeczną - "głębokie utożsamienie się" mieszkańców Konina. To sugeruje że projekt wykraczał poza zamkniętą grupę artystyczną i stał się zjawiskiem lokalnym. "Bufor bezpieczeństwa" jako czas na rozładowanie energii - może chodzi o imprezy, dyskusje, kontynuację nieformalną?
+
+[HIPOTEZA 3] "FAZA LIKWIDACJI":
+Nazewnictwo militarne/biurokratyczne "likwidacja" zamiast "zakończenie" lub "zamknięcie" - może być świadomym wyborem stylistycznym, podkreślającym performatywność zdarzenia. Ale też może oznaczać że projekt został "zamknięty" przymusowo (np. przez władze)?
+
+[HIPOTEZA 4] "PÓŁŚWIADEK":
+Ciekawe pojęcie - "półświadkowie Konina". Może chodzi o ludzi którzy tylko częściowo znali szczegóły? Lub o świadków pośrednich (plotki, opowieści)? To sugeruje że projekt był częściowo "ukryty" - nie wszyscy wiedzieli co się dzieje.
+
+[HIPOTEZA 5] SPRZECZNOŚĆ JURKOWSKI/JĘDRZEJEWSKI:
+Kluczowa sprzeczność. W plakacie i zaproszeniach jest "Robert Jurkowski", w dokumencie z 9.12.1994 jest "Robert Jędrzejewski". Możliwości:
+- To sama osoba z inną wersją nazwiska (błąd drukarski? zmiana nazwiska?)
+- To druga osoba, która dołączyła do projektu
+- Jędrzejewski był kuratorem/inwestorem?
+
+[HIPOTEZA 6] BRAK ZDJĘĆ:
+35 zdjęć z folderu "fotografie" całkowicie zniknęło. To ogromna luka - brak wizualnej dokumentacji wydarzenia. Jedynym śladem są zdjęcia z 2016 (lightbox) i dokumenty graficzne. Czy zdjęcia zostały utracone celowo? Czy nie zostały zeskanowane?
+
+================================================================================
+ODKRYCIA:
+================================================================================
+1. SPRZECZNOŚĆ nazwisk (Jurkowski vs Jędrzejewski) - wymaga wyjaśnienia
+2. Projekt trwał 12 dni (2-13 XII), nie 5 dni/120h
+3. Dokument "likwidacji" z 9.12.1994 ujawnia nowe informacje o reakcji społecznej
+4. Pojęcie "ogromny ludzki potencjał" - kluczowe dla zrozumienia wpływu projektu
+5. "Półświadkowie Konina" - niejasny termin wymagający wyjaśnienia
+6. "Wyrzyhous" jako podpis - czy to pseudonim Piotra?
+7. Pieczątka "CUHT" z 1996 - czy to wczesna wersja CUKT?
+8. Lightbox z 2016 jako retrospektywa z hasłem "ŻADEN ARTYSTA NIE MA RACJI"
+9. BRAK 35 ZDJĘĆ - ogromna luka w archiwum
+
+================================================================================
+ODKRYCIE KLUCZOWE:
+================================================================================
+Projekt nie był tylko 5-dniową "Mega Techno Obecnością", lecz 12-dniowym zjawiskiem społecznym z nieoczekiwanym zaangażowaniem lokalnej społeczności. Dokument z 9.12.1994 pokazuje że organizatorzy byli zaskoczeni skalą reakcji i musieli wprowadzić "bufor bezpieczeństwa" - co sugeruje że projekt "wymknął się spod kontroli" w pozytywnym sensie.
+
+================================================================================
+SPRZECZNOŚCI:
+================================================================================
+1. Nazwisko: Jurkowski (plakat, zaproszenia) vs Jędrzejewski (dokument)
+2. Czas trwania: 120h (5 dni) w nazwie vs 12 dni (2-13 XII) w faktach
+3. Zakończenie: dokument mówi o "fazie likwidacji" po 7 dniach, ale projekt trwał do 13 XII
+
+================================================================================
+BIAŁE PLAMY:
+================================================================================
+- 35 zdjęć z folderu "fotografie" - CAŁKOWICIE NIEOBECNE
+- Kim był Robert Jędrzejewski/Jurkowski?
+- Kim byli "półświadkowie Konina"?
+- Co działo się przez 5 dni "bufora bezpieczeństwa"?
+- Czy na pewno było "podpalenie drzwi" jak w opisie z bazy?
+- Kim byli członkowie nieformalnych grup młodzieżowych?
+
+================================================================================
+DO SKANOWANIA:
+================================================================================
+- IMG_0956.jpg - to jest PHOTO_OF_ORIGINAL! Zdjęcie telefonem dokumentu. Należy przeskanować oryginał na wysokiej rozdzielczości.
+
+================================================================================
+POWIĄZANIA Z INNYMI PROJEKTAMI:
+================================================================================
+- Transformizm (1993) - wcześniej - kontynuacja koncepcji?
+- CUKT (od 1995) - projekt "pre CUKTowy", bezpośrednia poprzedniczka
+- Testy na Cyborga (1995-1996) - może jakieś powiązania osób?
+- Antyelekcja Technodemonstracja (1995) - kontynuacja estetyki?
+
+================================================================================
+PYTANIA ZAPISANE W BAZIE (do Piotra):
+================================================================================
+1. Kim jest Robert Jędrzejewski? Czy to to samo co Robert Jurkowski?
+2. Co oznaczał "ogromny ludzki potencjał" i jak wyglądało "rozładowywanie" przez 5 dni?
+3. Kto dokładnie uczestniczył? Kim byli "półświadkowie Konina"?
+4. Czy "Wyrzyhous" to pseudonim Piotra?
+5. Dlaczego "faza likwidacji" po 7 dniach (nie 120h)?
+6. Co oznacza pieczątka "CUHT" z 1996?
+
+================================================================================
+KOMENTARZ KOŃCOWY:
+================================================================================
+To śledztwo ujawniło że projekt był znacznie bardziej złożony i społecznie zaangażowany niż sugeruje krótki opis z bazy. Kluczowe pytanie: gdzie są zdjęcia z wydarzenia? 35 plików zniknęło. To nie jest tylko luka - to może być świadoma decyzja o ukryciu wizualnej dokumentacji?
+
+Warto sprawdzić czy "Robert Jędrzejewski" nie pojawia się w innych projektach CUKT.
+
+================================================================================
+KONIEC TECZKI
+================================================================================
