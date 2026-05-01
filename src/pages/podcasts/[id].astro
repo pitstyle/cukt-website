@@ -46,25 +46,24 @@ const epNum = String(ep.data.episode).padStart(3, '0');
     )}
   </div>
 
+  <div class="transcript">
+    <Content />
+  </div>
+
   {ep.data.connects_to && ep.data.connects_to.length > 0 && (
     <div class="connections">
       <h3>Connected episodes</h3>
       <ul>
-        {ep.data.connects_to.map((c: string) => <li><a href={'/podcasts/' + c + '/'}>{c}</a></li>)}
+        {ep.data.connects_to.map((c: string) => <li><a href={'/podcasts/' + c.toLowerCase() + '/'}>{c}</a></li>)}
       </ul>
     </div>
   )}
-
-  <div class="transcript">
-    <h2>Transcript</h2>
-    <Content />
-  </div>
 
   {ep.data.archive_refs && ep.data.archive_refs.length > 0 && (
     <div class="refs">
       <h3>Archive references</h3>
       <ul>
-        {ep.data.archive_refs.map((r: string) => <li><a href={'/archive/' + r.toLowerCase().replace(/\s+/g, '-') + '/'}>{r}</a></li>)}
+        {ep.data.archive_refs.map((r: string) => <li>{r}</li>)}
       </ul>
     </div>
   )}
