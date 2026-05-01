@@ -40,4 +40,26 @@ const archiwistka = defineCollection({
   }),
 });
 
-export const collections = { cukt, personal, archiwistka };
+
+const podcasts = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/podcasts' }),
+  schema: z.object({
+    title: z.string(),
+    title_en: z.string().optional(),
+    episode: z.number(),
+    date: z.string(),
+    structure: z.enum(['rashomon', 'nolan', 'kronika', 'sledztwo']).optional(),
+    duration_pl: z.string().optional(),
+    duration_en: z.string().optional(),
+    audio_pl: z.string().optional(),
+    audio_en: z.string().optional(),
+    voices: z.array(z.string()).optional(),
+    archive_refs: z.array(z.string()).optional(),
+    connects_to: z.array(z.string()).optional(),
+    tags: z.array(z.string()).optional(),
+    description: z.string().optional(),
+    description_en: z.string().optional(),
+  }),
+});
+
+export const collections = { cukt, personal, archiwistka, podcasts };
