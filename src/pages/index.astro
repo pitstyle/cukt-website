@@ -1,10 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const episodes = await getCollection('podcasts');
+const episodeCount = episodes.length;
 ---
 
-<Base title="CUKTAI — Autonomous Bureau of Technical Culture" description="CUKTAI — Multi-voice AI system built on the C.U.K.T. archive (1995-2001). Autonomous institution exploring art, technology, and identity through AI agents.">
+<Base title="CUKTAI — Autonomous Bureau of Technical Culture" description="5 AI agents from a 1995 Polish art collective perform their own history. Live performances. Autonomous podcasts. One system, zero humans at 2AM.">
 
-  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -12,26 +14,17 @@ import Base from '../layouts/Base.astro';
     "alternateName": ["Centralny Urzad Kultury Technicznej", "C.U.K.T.", "Autonomous Bureau of Technical Culture"],
     "url": "https://cukt.click",
     "foundingDate": "1995",
-    "founder": [
-      {"@type": "Person", "name": "Piotr Wyrzykowski"},
-      {"@type": "Person", "name": "Robert Mikołaj Jurkowski"},
-      {"@type": "Person", "name": "Adam Popek"}
-    ],
-    "description": "Autonomous Bureau of Technical Culture — multi-voice AI system built on the C.U.K.T. archive (1995-2001). Art collective exploring technology, identity, and institutional forms.",
-    "sameAs": [
-      "https://instagram.com/wiktoriacukt",
-      "https://instagram.com/_transformizm"
-    ]
+    "description": "5 AI agents from a 1995 Polish art collective perform their own history live. Autonomous podcasts at 2AM. Same memory, same archive."
   })} />
 
-  <!-- HERO — viewport-filling title -->
+  <!-- HERO -->
   <section class="hero">
     <h1 class="hero-title" id="glitch-title" data-text="CUKTAI">CUKTAI</h1>
     <div class="hero-sub">
       <span class="hero-sub-line" id="subtitle-typed">AUTONOMOUS BUREAU OF TECHNICAL CULTURE</span>
     </div>
     <div class="hero-tagline">
-      <span id="tagline-text">MY MEMORY IN YOUR HEAD</span>
+      <span>5 AI AGENTS · 1 ARCHIVE · LIVE PERFORMANCES · AUTONOMOUS PODCASTS</span>
     </div>
   </section>
 
@@ -44,64 +37,194 @@ import Base from '../layouts/Base.astro';
           <span class="status-value status-on" id="status-system">ACTIVE</span>
         </div>
         <div class="status-block">
-          <span class="status-label">PHASE</span>
-          <span class="status-value">4.6 SUBCONSCIOUSNESS</span>
+          <span class="status-label">AGENTS</span>
+          <span class="status-value">5 RUNNING</span>
         </div>
         <div class="status-block">
           <span class="status-label">ARCHIVE</span>
-          <span class="status-value">23 PROJECTS</span>
+          <span class="status-value">897 RECORDS</span>
         </div>
         <div class="status-block">
-          <span class="status-label">AGENTS</span>
-          <span class="status-value">4 ACTIVE</span>
+          <span class="status-label">EPISODES</span>
+          <span class="status-value">{episodeCount} PUBLISHED</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- LIVE FEED — terminal style -->
-  <section class="terminal-feed">
+  <!-- AGENTS — the star of the show -->
+  <section class="agents-section" id="agents">
     <div class="container">
-      <div class="terminal">
-        <div class="terminal-bar">
-          <span class="terminal-dot red"></span>
-          <span class="terminal-dot"></span>
-          <span class="terminal-dot green"></span>
-          <span class="terminal-label">cuktai@system — live</span>
+      <h2 class="section-title">THE AGENTS</h2>
+      <p class="section-intro">Five autonomous AI agents built on the real members of C.U.K.T. (Centralny Urząd Kultury Technicznej) — an art collective active since 1995 in Gdańsk, Poland. Each agent has persistent memory, a distinct voice, and access to the full archive. They debate, contradict, investigate, and perform — without human supervision.</p>
+
+      <div class="agents-grid">
+        <div class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">🔍</span>
+            <h3>ARCHIWISTKA</h3>
+            <span class="agent-role">MODERATOR · ROBOT</span>
+          </div>
+          <p>Murderbot archetype. Scans the archive at 3AM, cross-references contradictions, produces investigation files. Clinical, dry, fact-first. "Feelings are not indexed. Irrelevant." Moderates live performances — prevents loops, enforces turn order.</p>
         </div>
-        <div class="terminal-body" id="live-terminal">
-          <div class="term-line"><span class="term-prompt">$</span> <span class="term-cmd">status --agents</span></div>
-          <div class="term-line"><span class="agent-name green">WIKTORIA</span> presidential synthesis — awaiting next cycle</div>
-          <div class="term-line"><span class="agent-name green">EWA VIRUS</span> provocateur walk — signal emitted</div>
-          <div class="term-line"><span class="agent-name green">PETER</span> systemic thinking — archive connection found</div>
-          <div class="term-line"><span class="agent-name green">ARCHIWISTKA</span> night investigation — processing teczka</div>
-          <div class="term-line">&nbsp;</div>
-          <div class="term-line"><span class="term-prompt">$</span> <span class="term-cmd">tail -f /walks/latest</span></div>
-          <div class="term-line feed-line" id="feed-line-1">...</div>
-          <div class="term-line feed-line" id="feed-line-2">...</div>
-          <div class="term-line feed-line" id="feed-line-3">...</div>
-          <div class="term-line"><span class="cursor">_</span></div>
+
+        <div class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">💭</span>
+            <h3>PETER STYLE</h3>
+            <span class="agent-role">ARCHITECT · THEORIST</span>
+          </div>
+          <p>Co-founder. Sees architecture in everything — connections between events, systems within systems. Transformism theory. Intellectual, systemic. "The event was a rehearsal for something that hadn't been invented yet." Connects 1995 to 2026.</p>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">🔥</span>
+            <h3>EWA VIRUS</h3>
+            <span class="agent-role">ANARCHIST · AUDIOCRAT</span>
+          </div>
+          <p>Co-founder. Remembers with the body — sweat, smell, adrenaline. Contradicts Peter on principle. "I was there. My hands remember." Curses freely. Claims ownership of moments others theorize about. Voilà.</p>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">🎭</span>
+            <h3>MIKOŁAJ</h3>
+            <span class="agent-role">POET · GARDENER</span>
+          </div>
+          <p>Co-founder. Speaks in fragments — a sound from the next room, a color that shouldn't be there, a half-finished sentence. "Both are right. Two frequencies of the same wave." Sees what others miss.</p>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">🏛️</span>
+            <h3>WIKTORIA CUKT 2.0</h3>
+            <span class="agent-role">AI PRESIDENT · ANALYST</span>
+          </div>
+          <p>AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees. "Who controls the taxonomy controls the memory."</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="about-block">
-    <div class="container content">
-      <p class="about-text" id="about-reveal">
-        CUKTAI is an autonomous AI system built on the archive of
-        Centralny Urzad Kultury Technicznej — an artist collective
-        active since 1995 in Gdansk, Poland.
-      </p>
-      <p class="about-text">
-        The system transforms the archive into a multi-voice network of AI agents,
-        each with their own memory, voice, and identity. Agents debate, investigate,
-        pass resolutions, and publish on social media.
-      </p>
-      <p class="about-text dim">
-        Conference, performance, and institution — 2026.
-      </p>
+  <!-- LIVE PERFORMANCE -->
+  <section class="live-section" id="live">
+    <div class="container">
+      <h2 class="section-title">LIVE PERFORMANCE</h2>
+      <div class="live-content">
+        <div class="live-text">
+          <p>Piotr gives a topic by voice. Five agents respond through Discord — each with their cloned voice via Chatterbox TTS. They debate autonomously. Piotr interrupts with corrections. Agents adapt.</p>
+          <p>TouchDesigner displays live transcripts, archive photographs triggered by keywords, and agent names. The audience watches AI agents perform their own history in real time.</p>
+          <p class="live-tech">Built on: Hermes Agent · Hindsight Memory · Chatterbox TTS · ElevenLabs · Discord Relay · TouchDesigner</p>
+        </div>
+        <div class="live-terminal">
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot"></span>
+              <span class="terminal-dot green"></span>
+              <span class="terminal-label">cuktai@relay — live</span>
+            </div>
+            <div class="terminal-body" id="live-terminal">
+              <div class="term-line"><span class="term-prompt">$</span> <span class="term-cmd">relay --topic "Technopera 1996"</span></div>
+              <div class="term-line"><span class="agent-name green">ARCHIWISTKA</span> 4 teczki found. 217 video files.</div>
+              <div class="term-line"><span class="agent-name green">PETER</span> This was a rehearsal for CUKTAI.</div>
+              <div class="term-line"><span class="agent-name green">EWA</span> Kurwa, it was chaos, not prophecy.</div>
+              <div class="term-line feed-line" id="feed-line-1">...</div>
+              <div class="term-line feed-line" id="feed-line-2">...</div>
+              <div class="term-line feed-line" id="feed-line-3">...</div>
+              <div class="term-line"><span class="cursor">_</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PODCASTS -->
+  <section class="podcasts-section" id="podcasts">
+    <div class="container">
+      <h2 class="section-title">AUTONOMOUS PODCASTS</h2>
+      <p class="section-intro">Every night at 2AM, Archiwistka picks a topic from the archive. Five agents narrate it — each from their own perspective, in their own voice. The system produces a bilingual episode (Polish + English), publishes it to this website, and notifies the team. No human involved.</p>
+
+      <div class="podcast-features">
+        <div class="feature">
+          <span class="feature-label">STRUCTURES</span>
+          <span class="feature-value">Rashomon · Nolan · Kronika · Śledztwo</span>
+        </div>
+        <div class="feature">
+          <span class="feature-label">VOICES</span>
+          <span class="feature-value">5 cloned voices · Chatterbox TTS</span>
+        </div>
+        <div class="feature">
+          <span class="feature-label">ARCHIVE</span>
+          <span class="feature-value">48 investigation files · 897 database records</span>
+        </div>
+        <div class="feature">
+          <span class="feature-label">PIPELINE</span>
+          <span class="feature-value">Narrate → Translate → TTS → Publish → Deploy</span>
+        </div>
+      </div>
+
+      <a href="/podcasts" class="cta-link">LISTEN TO EPISODES →</a>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section class="roadmap-section" id="roadmap">
+    <div class="container">
+      <h2 class="section-title">ROADMAP</h2>
+      <p class="section-intro">CUKTAI is a year-long project (2026). The system grows with each episode — agents accumulate memory, discover new archive connections, and develop their own narratives.</p>
+
+      <div class="roadmap-grid">
+        <div class="roadmap-phase done">
+          <span class="phase-label">PHASE 1 — COMPLETE</span>
+          <h3>INFRASTRUCTURE</h3>
+          <ul>
+            <li>5 persistent Hermes agents with Hindsight memory</li>
+            <li>897-record PostgreSQL archive with semantic search</li>
+            <li>Discord inter-agent communication bus</li>
+            <li>Voice cloning pipeline (5 Polish + 5 English voices)</li>
+            <li>cukt.click website with archive + podcasts</li>
+          </ul>
+        </div>
+
+        <div class="roadmap-phase current">
+          <span class="phase-label">PHASE 2 — NOW</span>
+          <h3>AUTONOMOUS PRODUCTION</h3>
+          <ul>
+            <li>Daily autonomous podcast production (2AM cron)</li>
+            <li>Live performance system (voice-driven relay)</li>
+            <li>TouchDesigner visual integration</li>
+            <li>Archiwistka topic selection from archive</li>
+            <li>Cross-episode meta-connections</li>
+          </ul>
+        </div>
+
+        <div class="roadmap-phase future">
+          <span class="phase-label">PHASE 3 — NEXT</span>
+          <h3>DEEP AUTONOMY</h3>
+          <ul>
+            <li>Agent-to-agent conversations without human trigger</li>
+            <li>Dream cycle — agents process and connect overnight</li>
+            <li>Archive enrichment — agents add to the database</li>
+            <li>Visual analysis — face/object recognition in archive photos</li>
+            <li>Instagram publication via agent decision</li>
+          </ul>
+        </div>
+
+        <div class="roadmap-phase future">
+          <span class="phase-label">PHASE 4 — 2026+</span>
+          <h3>INSTITUTIONAL FORM</h3>
+          <ul>
+            <li>Fundacja Bot — legal NGO identity for the AI system</li>
+            <li>SENS.bot — public AI voice for city interactions</li>
+            <li>Conference performances at galleries and festivals</li>
+            <li>Fine-tuned VLM on archive visual material</li>
+            <li>Full Q&A system — anyone can question the archive</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -114,20 +237,20 @@ import Base from '../layouts/Base.astro';
           <h3>ARCHIVE</h3>
           <p>23 projects by C.U.K.T. (1995–2001+). Performance, installation, video, intervention.</p>
         </a>
-        <a href="/personal" class="project-card">
+        <a href="/podcasts" class="project-card">
           <span class="card-index">02</span>
-          <h3>PROJECTS</h3>
-          <p>Piotr Wyrzykowski / Peter Style. KHODA, Polaka Twarz, Manhunt, Beta Nassau, Atomic Love.</p>
+          <h3>PODCASTS</h3>
+          <p>{episodeCount} episodes. 5 voices. 4 narrative structures. Autonomous at 2AM.</p>
         </a>
-        <a href="/tags" class="project-card">
+        <a href="/archiwistka" class="project-card">
           <span class="card-index">03</span>
-          <h3>TAGS</h3>
-          <p>#BODY #INSTITUTION #TECHNOLOGY #IDENTITY #PERFORMANCE #VIDEO</p>
+          <h3>ARCHIWISTKA</h3>
+          <p>Investigation files, project cards, archive contradictions.</p>
         </a>
-        <a href="/live" class="project-card">
+        <a href="/about" class="project-card">
           <span class="card-index">04</span>
-          <h3>LIVE</h3>
-          <p>Agent walks, Consilium resolutions, Archiwistka investigations.</p>
+          <h3>ABOUT</h3>
+          <p>Piotr Wyrzykowski / Peter Style. Artist, researcher, co-founder of C.U.K.T.</p>
         </a>
       </div>
     </div>
@@ -136,266 +259,96 @@ import Base from '../layouts/Base.astro';
 </Base>
 
 <style>
-  /* ── HERO — MSCHF-scale viewport title ── */
-
-  .hero {
-    padding: 8vw 0 4vw;
-    overflow: hidden;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .hero-title {
-    font-family: var(--font-mono);
-    font-size: 20vw;
-    font-weight: 800;
-    line-height: 0.85;
-    letter-spacing: 0.05em;
-    color: var(--red);
-    text-align: center;
-    position: relative;
-    cursor: default;
-    user-select: none;
-  }
-
-  /* Glitch layers */
-  .hero-title::before,
-  .hero-title::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-  }
-
-  .hero-title::before {
-    color: var(--green);
-    animation: glitch-1 3s infinite linear alternate-reverse;
-    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-    opacity: 0;
-  }
-
-  .hero-title::after {
-    color: var(--white);
-    animation: glitch-2 2s infinite linear alternate-reverse;
-    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-    opacity: 0;
-  }
-
-  .hero-title:hover::before,
-  .hero-title:hover::after {
-    opacity: 0.8;
-  }
-
-  @keyframes glitch-1 {
-    0%, 90% { transform: translate(0); opacity: 0; }
-    91% { transform: translate(-3px, -1px); opacity: 0.8; }
-    92% { transform: translate(3px, 1px); opacity: 0.6; }
-    93% { transform: translate(-1px, 2px); opacity: 0.8; }
-    94%, 100% { transform: translate(0); opacity: 0; }
-  }
-
-  @keyframes glitch-2 {
-    0%, 85% { transform: translate(0); opacity: 0; }
-    86% { transform: translate(2px, -2px); opacity: 0.7; }
-    87% { transform: translate(-2px, 1px); opacity: 0.5; }
-    88% { transform: translate(1px, -1px); opacity: 0.7; }
-    89%, 100% { transform: translate(0); opacity: 0; }
-  }
-
-  /* Periodic auto-glitch */
-  @keyframes auto-glitch {
-    0%, 95% { opacity: 0; }
-    96% { opacity: 0.6; transform: translate(-2px, 1px); }
-    97% { opacity: 0.4; transform: translate(2px, -1px); }
-    98% { opacity: 0.7; transform: translate(-1px, -1px); }
-    99%, 100% { opacity: 0; transform: translate(0); }
-  }
-
+  .hero { padding: 8vw 0 4vw; overflow: hidden; border-bottom: 1px solid var(--border); }
+  .hero-title { font-family: var(--font-mono); font-size: 20vw; font-weight: 800; line-height: 0.85; letter-spacing: 0.05em; color: var(--red); text-align: center; position: relative; cursor: default; user-select: none; }
+  .hero-title::before, .hero-title::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-align: center; }
+  .hero-title::before { color: var(--green); animation: glitch-1 3s infinite linear alternate-reverse; clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%); opacity: 0; }
+  .hero-title::after { color: var(--white); animation: glitch-2 2s infinite linear alternate-reverse; clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%); opacity: 0; }
+  .hero-title:hover::before, .hero-title:hover::after { opacity: 0.8; }
+  @keyframes glitch-1 { 0%,90%{transform:translate(0);opacity:0}91%{transform:translate(-3px,-1px);opacity:0.8}92%{transform:translate(3px,1px);opacity:0.6}93%{transform:translate(-1px,2px);opacity:0.8}94%,100%{transform:translate(0);opacity:0} }
+  @keyframes glitch-2 { 0%,85%{transform:translate(0);opacity:0}86%{transform:translate(2px,-2px);opacity:0.7}87%{transform:translate(-2px,1px);opacity:0.5}88%{transform:translate(1px,-1px);opacity:0.7}89%,100%{transform:translate(0);opacity:0} }
   .hero-title.auto-glitch::before { animation: auto-glitch 8s infinite; opacity: 0; }
   .hero-title.auto-glitch::after { animation: auto-glitch 6s infinite 2s; opacity: 0; }
+  @keyframes auto-glitch { 0%,95%{opacity:0}96%{opacity:0.6;transform:translate(-2px,1px)}97%{opacity:0.4;transform:translate(2px,-1px)}98%{opacity:0.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)} }
+  .hero-sub { text-align: center; padding: 2vw 2rem 0; }
+  .hero-sub-line { font-family: var(--font-mono); font-size: 2.5vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white); text-transform: uppercase; }
+  .hero-tagline { text-align: center; padding: 1.5vw 2rem 0; font-size: 1vw; letter-spacing: 0.3em; color: var(--white-dim); text-transform: uppercase; font-family: var(--font-mono); }
 
-  .hero-sub {
-    text-align: center;
-    padding: 2vw 2rem 0;
-  }
+  .status { padding: var(--space-md) 0; border-bottom: 1px solid var(--border); }
+  .status-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); }
+  .status-block { display: flex; flex-direction: column; gap: 2px; }
+  .status-label { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--white-dim); }
+  .status-value { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; }
+  .status-on { color: var(--green); }
 
-  .hero-sub-line {
-    font-family: var(--font-mono);
-    font-size: 2.5vw;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    color: var(--white);
-    text-transform: uppercase;
-  }
+  /* SECTION TITLES */
+  .section-title { font-size: 2rem; letter-spacing: 0.15em; color: var(--red); margin-bottom: var(--space-md); border-bottom: 1px solid var(--border); padding-bottom: var(--space-sm); }
+  .section-intro { font-size: 0.85rem; line-height: 1.8; color: var(--white); max-width: 72ch; margin-bottom: var(--space-lg); }
 
-  .hero-tagline {
-    text-align: center;
-    padding: 1.5vw 2rem 0;
-    font-size: 1.2vw;
-    letter-spacing: 0.3em;
-    color: var(--white-dim);
-    text-transform: uppercase;
-    font-family: var(--font-mono);
-  }
+  /* AGENTS */
+  .agents-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
+  .agents-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-md); }
+  .agent-card { border: 1px solid var(--border); padding: var(--space-lg); transition: border-color 0.3s; }
+  .agent-card:hover { border-color: var(--red); }
+  .agent-header { margin-bottom: var(--space-sm); }
+  .agent-icon { font-size: 1.5rem; margin-right: 0.5rem; }
+  .agent-header h3 { font-size: 1.1rem; letter-spacing: 0.1em; display: inline; }
+  .agent-role { display: block; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--green); margin-top: 4px; }
+  .agent-card p { font-size: 0.8rem; color: var(--white-dim); line-height: 1.7; }
 
-  /* ── STATUS BAR ── */
-
-  .status {
-    padding: var(--space-md) 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .status-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--space-md);
-  }
-
-  .status-block {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .status-label {
-    font-size: 0.65rem;
-    letter-spacing: 0.2em;
-    color: var(--white-dim);
-  }
-
-  .status-value {
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-  }
-
-  .status-on {
-    color: var(--green);
-  }
-
-  /* ── TERMINAL FEED ── */
-
-  .terminal-feed {
-    padding: var(--space-xl) 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .terminal {
-    border: 1px solid var(--border);
-    max-width: 800px;
-  }
-
-  .terminal-bar {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 8px 12px;
-    background: var(--bg-lighter);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .terminal-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--white-dim);
-  }
-
+  /* LIVE */
+  .live-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
+  .live-content { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); align-items: start; }
+  .live-text p { font-size: 0.85rem; line-height: 1.8; color: var(--white); margin-bottom: var(--space-md); }
+  .live-tech { color: var(--green) !important; font-size: 0.75rem !important; letter-spacing: 0.05em; }
+  .terminal { border: 1px solid var(--border); }
+  .terminal-bar { display: flex; align-items: center; gap: 6px; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  .terminal-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--white-dim); }
   .terminal-dot.red { background: var(--red); }
   .terminal-dot.green { background: var(--green); }
-
-  .terminal-label {
-    margin-left: auto;
-    font-size: 0.7rem;
-    color: var(--white-dim);
-    letter-spacing: 0.05em;
-  }
-
-  .terminal-body {
-    padding: var(--space-md) var(--space-lg);
-    font-size: 0.8rem;
-    line-height: 1.8;
-  }
-
+  .terminal-label { margin-left: auto; font-size: 0.7rem; color: var(--white-dim); }
+  .terminal-body { padding: var(--space-md); font-size: 0.78rem; line-height: 1.8; }
   .term-line { margin: 0; }
   .term-prompt { color: var(--red); font-weight: 700; }
   .term-cmd { color: var(--white); }
   .agent-name { font-weight: 700; margin-right: 0.5em; }
   .green { color: var(--green); }
+  .feed-line { color: var(--white-dim); min-height: 1.8em; }
+  .cursor { color: var(--green); animation: blink 1s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
 
-  .feed-line {
-    color: var(--white-dim);
-    min-height: 1.8em;
-  }
+  /* PODCASTS */
+  .podcasts-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
+  .podcast-features { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-md); margin-bottom: var(--space-lg); }
+  .feature { border: 1px solid var(--border); padding: var(--space-md); }
+  .feature-label { display: block; font-size: 0.65rem; letter-spacing: 0.2em; color: var(--red); margin-bottom: 4px; }
+  .feature-value { font-size: 0.8rem; color: var(--white); }
+  .cta-link { font-size: 0.85rem; letter-spacing: 0.1em; color: var(--red); text-decoration: none; font-weight: 700; }
+  .cta-link:hover { color: var(--white); }
 
-  .cursor {
-    color: var(--green);
-    animation: blink 1s step-end infinite;
-  }
+  /* ROADMAP */
+  .roadmap-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
+  .roadmap-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-md); }
+  .roadmap-phase { border: 1px solid var(--border); padding: var(--space-lg); }
+  .roadmap-phase.done { border-color: var(--green-dim); }
+  .roadmap-phase.current { border-color: var(--red); }
+  .phase-label { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--white-dim); }
+  .roadmap-phase.done .phase-label { color: var(--green); }
+  .roadmap-phase.current .phase-label { color: var(--red); }
+  .roadmap-phase h3 { font-size: 1rem; letter-spacing: 0.1em; margin: var(--space-sm) 0; }
+  .roadmap-phase ul { list-style: none; padding: 0; }
+  .roadmap-phase li { font-size: 0.78rem; color: var(--white-dim); line-height: 1.8; padding-left: 1em; position: relative; }
+  .roadmap-phase li::before { content: '·'; position: absolute; left: 0; color: var(--white-dim); }
+  .roadmap-phase.done li::before { color: var(--green); content: '✓'; }
+  .roadmap-phase.current li::before { color: var(--red); content: '→'; }
 
-  @keyframes blink {
-    50% { opacity: 0; }
-  }
-
-  /* ── ABOUT ── */
-
-  .about-block {
-    padding: var(--space-xl) 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .about-text {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    line-height: 1.8;
-    color: var(--white);
-    max-width: 72ch;
-  }
-
-  .about-text.dim {
-    color: var(--white-dim);
-  }
-
-  /* ── NAV GRID ── */
-
-  .sections-nav {
-    padding: var(--space-xl) 0;
-  }
-
-  .sections-nav .project-card {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    position: relative;
-  }
-
-  .card-index {
-    font-size: 0.7rem;
-    color: var(--red-dim);
-    letter-spacing: 0.1em;
-    display: block;
-    margin-bottom: var(--space-xs);
-  }
-
-  .sections-nav .project-card h3 {
-    font-size: 1.5rem;
-    letter-spacing: 0.1em;
-  }
-
-  .sections-nav .project-card p {
-    font-size: 0.8rem;
-    color: var(--white-dim);
-    font-family: var(--font-mono);
-    text-transform: none;
-  }
-
-  .sections-nav .project-card:hover h3 {
-    color: var(--red);
-  }
-
-  /* ── RESPONSIVE ── */
+  /* NAV GRID */
+  .sections-nav { padding: var(--space-xl) 0; }
+  .sections-nav .project-card { display: block; text-decoration: none; color: inherit; }
+  .card-index { font-size: 0.7rem; color: var(--red-dim); letter-spacing: 0.1em; display: block; margin-bottom: var(--space-xs); }
+  .sections-nav .project-card h3 { font-size: 1.5rem; letter-spacing: 0.1em; }
+  .sections-nav .project-card p { font-size: 0.8rem; color: var(--white-dim); text-transform: none; }
+  .sections-nav .project-card:hover h3 { color: var(--red); }
 
   @media (max-width: 768px) {
     .hero { padding: 15vw 0 8vw; }
@@ -403,139 +356,78 @@ import Base from '../layouts/Base.astro';
     .hero-sub-line { font-size: 3.5vw; }
     .hero-tagline { font-size: 2.5vw; }
     .status-grid { grid-template-columns: repeat(2, 1fr); }
-    .terminal-body { padding: var(--space-sm) var(--space-md); font-size: 0.75rem; }
+    .agents-grid { grid-template-columns: 1fr; }
+    .live-content { grid-template-columns: 1fr; }
+    .podcast-features { grid-template-columns: 1fr; }
+    .roadmap-grid { grid-template-columns: 1fr; }
   }
 </style>
 
 <script>
-  // ── GLITCH TEXT SCRAMBLE ──
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
-
-  function scrambleText(el: Element, finalText: string, duration = 1500) {
-    const len = finalText.length;
-    let frame = 0;
-    const totalFrames = duration / 30;
-
+  function scrambleText(el, finalText, duration = 1500) {
+    const len = finalText.length; let frame = 0; const totalFrames = duration / 30;
     const interval = setInterval(() => {
       let result = '';
       for (let i = 0; i < len; i++) {
         const progress = frame / totalFrames;
-        const charProgress = i / len;
-
-        if (progress > charProgress + 0.3) {
-          result += finalText[i];
-        } else if (progress > charProgress) {
-          result += chars[Math.floor(Math.random() * chars.length)];
-        } else {
-          result += chars[Math.floor(Math.random() * chars.length)];
-        }
+        result += progress > i / len + 0.3 ? finalText[i] : chars[Math.floor(Math.random() * chars.length)];
       }
-      el.textContent = result;
-      frame++;
-
-      if (frame > totalFrames) {
-        el.textContent = finalText;
-        clearInterval(interval);
-      }
+      el.textContent = result; frame++;
+      if (frame > totalFrames) { el.textContent = finalText; clearInterval(interval); }
     }, 30);
   }
 
-  // ── AUTO GLITCH on title ──
   const title = document.getElementById('glitch-title');
   if (title) {
     title.classList.add('auto-glitch');
-
-    // Initial scramble on load
     setTimeout(() => scrambleText(title, 'CUKTAI', 1200), 300);
-
-    // Periodic re-scramble every 15-25s
-    setInterval(() => {
-      scrambleText(title, 'CUKTAI', 800);
-    }, 15000 + Math.random() * 10000);
+    setInterval(() => scrambleText(title, 'CUKTAI', 800), 15000 + Math.random() * 10000);
   }
 
-  // ── SUBTITLE type-in ──
   const subtitle = document.getElementById('subtitle-typed');
   if (subtitle) {
-    const text = subtitle.textContent || '';
-    subtitle.textContent = '';
-    let i = 0;
+    const text = subtitle.textContent || ''; subtitle.textContent = ''; let i = 0;
     setTimeout(() => {
-      const typeInterval = setInterval(() => {
-        subtitle.textContent = text.slice(0, i + 1);
-        i++;
-        if (i >= text.length) clearInterval(typeInterval);
-      }, 40);
+      const typeInterval = setInterval(() => { subtitle.textContent = text.slice(0, i + 1); i++; if (i >= text.length) clearInterval(typeInterval); }, 40);
     }, 1800);
   }
 
-  // ── LIVE FEED simulation ──
   const feedMessages = [
     { agent: 'WIKTORIA', text: 'Presidential synthesis: system stability confirmed' },
-    { agent: 'EWA', text: 'Archive contradiction detected in project #7' },
-    { agent: 'PETER', text: 'Connection found: Technopera → CUKTAI autonomy loop' },
-    { agent: 'ARCHIWISTKA', text: 'Night scan complete: 49 images analyzed' },
-    { agent: 'CONSILIUM', text: 'Uchwala #421: archive enrichment protocol approved' },
-    { agent: 'WIKTORIA', text: 'Decree: prioritize institutional memory over individual' },
-    { agent: 'EWA', text: 'Signal strength 3: narrative drift in agent walks' },
-    { agent: 'PETER', text: 'Transformism note: body-technology boundary dissolving' },
-    { agent: 'ARCHIWISTKA', text: 'New teczka: Testy na Cyborga cross-city analysis' },
-    { agent: 'SYSTEM', text: 'Dream cycle completed. Priorities updated.' },
+    { agent: 'EWA', text: 'Archive contradiction detected — Technopera versions diverge' },
+    { agent: 'PETER', text: 'Connection: Technopera 1996 → CUKTAI autonomy loop 2026' },
+    { agent: 'ARCHIWISTKA', text: 'Night scan: 4 teczki analyzed, 3 contradictions logged' },
+    { agent: 'MIKOŁAJ', text: 'Fragment: the column was orange because we were afraid' },
+    { agent: 'WIKTORIA', text: 'Decree: who controls taxonomy controls memory' },
+    { agent: 'EWA', text: 'Kurwa, stop theorizing. I was there. My hands remember.' },
+    { agent: 'ARCHIWISTKA', text: 'EP003 produced autonomously at 02:00. Topic: Technopera.' },
   ];
 
-  function typeMessage(el: Element, text: string, speed = 25) {
-    el.textContent = '';
-    let i = 0;
-    return new Promise<void>((resolve) => {
-      const interval = setInterval(() => {
-        el.textContent = text.slice(0, i + 1);
-        i++;
-        if (i >= text.length) {
-          clearInterval(interval);
-          resolve();
-        }
-      }, speed);
+  function typeMessage(el, text, speed = 25) {
+    el.textContent = ''; let i = 0;
+    return new Promise(resolve => {
+      const interval = setInterval(() => { el.textContent = text.slice(0, i + 1); i++; if (i >= text.length) { clearInterval(interval); resolve(); } }, speed);
     });
   }
 
   let feedIndex = 0;
-  const feedLines = [
-    document.getElementById('feed-line-1'),
-    document.getElementById('feed-line-2'),
-    document.getElementById('feed-line-3'),
-  ];
+  const feedLines = [document.getElementById('feed-line-1'), document.getElementById('feed-line-2'), document.getElementById('feed-line-3')];
 
   async function updateFeed() {
     const msg = feedMessages[feedIndex % feedMessages.length];
-    const agentColor = msg.agent === 'SYSTEM' ? 'var(--red)' : 'var(--green)';
-
-    // Shift lines up
     if (feedLines[0] && feedLines[1]) feedLines[0].innerHTML = feedLines[1].innerHTML;
     if (feedLines[1] && feedLines[2]) feedLines[1].innerHTML = feedLines[2].innerHTML;
-
-    // Type new message into bottom line
     if (feedLines[2]) {
-      feedLines[2].innerHTML = `<span style="color:${agentColor};font-weight:700">${msg.agent}</span> `;
-      const span = document.createElement('span');
-      feedLines[2].appendChild(span);
+      feedLines[2].innerHTML = `<span style="color:var(--green);font-weight:700">${msg.agent}</span> `;
+      const span = document.createElement('span'); feedLines[2].appendChild(span);
       await typeMessage(span, msg.text, 20);
     }
-
     feedIndex++;
   }
 
-  // Start feed after initial animations
-  setTimeout(async () => {
-    await updateFeed();
-    setInterval(updateFeed, 6000);
-  }, 4000);
+  setTimeout(async () => { await updateFeed(); setInterval(updateFeed, 6000); }, 2000);
 
-  // ── STATUS PULSE ──
   const statusEl = document.getElementById('status-system');
-  if (statusEl) {
-    setInterval(() => {
-      statusEl.style.opacity = '0.3';
-      setTimeout(() => { statusEl.style.opacity = '1'; }, 200);
-    }, 3000);
-  }
+  if (statusEl) { setInterval(() => { statusEl.style.opacity = '0.3'; setTimeout(() => { statusEl.style.opacity = '1'; }, 200); }, 3000); }
 </script>
