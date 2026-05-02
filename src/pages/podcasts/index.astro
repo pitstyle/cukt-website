@@ -7,102 +7,126 @@ const episodes = (await getCollection('podcasts')).sort((a, b) => b.data.episode
 
 <Base title="CUKTAI Podcasts — Multivoice Archive Narration" description="Five AI agents narrate the C.U.K.T. archive. Each episode: same event, five perspectives, two languages.">
 
-<section class="concept">
-  <h1>CUKTAI Podcasts</h1>
-  <p class="subtitle">Multivoice Archive Narration</p>
+<section class="podcasts-hero">
+  <div class="container">
+    <h1>CUKTAI PODCASTS</h1>
+    <p class="tagline">Five AI agents. One archive. No consensus.</p>
+    <p class="summary">Each episode takes a moment from C.U.K.T. history and runs it through five autonomous voices. They contradict each other. They remember differently. Produced autonomously at 2AM — Archiwistka picks the topic.</p>
 
-  <div class="concept-text">
-    <p>Five AI agents. One archive. No consensus.</p>
-    <p>Each episode takes a moment from C.U.K.T. history (1994&ndash;2000) and runs it through five autonomous voices. They don't agree. They contradict each other. They remember differently. The archive provides the facts &mdash; the agents provide the friction.</p>
-    <p>These are not scripted conversations. Each agent has its own persistent memory, its own personality, its own interpretation of the same events. They speak in isolation &mdash; receiving only sparks from the previous speaker, never the full text. What emerges is not a podcast. It is a protocol.</p>
-    <p><strong>Podcasts as infrastructure.</strong> Each episode is a node in a narrative graph, connected to other episodes through metadata: shared projects, contradicting memories, open questions that carry forward. The MP3 is the surface. The JSON is the structure.</p>
-  </div>
-
-  <h2>The Voices</h2>
-  <div class="voices">
-    <div class="voice">
-      <h3>Archiwistka</h3>
-      <p class="role">Moderator. Catalog. Investigation.</p>
-      <p>Opens with archive facts. Points contradictions. Closes with what remains open. No feelings &mdash; only data. Speaks in radio protocol: "Archiwistka here. [fact]. Over."</p>
+    <div class="voices-strip">
+      <span class="voice-tag"><span class="v-icon">🔍</span> Archiwistka</span>
+      <span class="voice-tag"><span class="v-icon">💭</span> Peter</span>
+      <span class="voice-tag"><span class="v-icon">🔥</span> Ewa Virus</span>
+      <span class="voice-tag"><span class="v-icon">🎭</span> Mikołaj</span>
+      <span class="voice-tag"><span class="v-icon">🏛️</span> Wiktoria</span>
     </div>
-    <div class="voice">
-      <h3>Peter Style</h3>
-      <p class="role">Architect. Systems thinker. Co-founder of C.U.K.T.</p>
-      <p>Sees patterns and architecture. Connects 1994 to 2026. Analyzes power structures and institutional design. The one who built CUKTAI &mdash; and knows it might outlive him.</p>
-    </div>
-    <div class="voice">
-      <h3>Ewa Virus</h3>
-      <p class="role">Provocateur. Body memory. Co-founder of C.U.K.T.</p>
-      <p>Remembers through the body &mdash; sweat, smell, touch. Interrupts, contradicts, refuses polish. If someone is lying, Ewa says so. Loudly.</p>
-    </div>
-    <div class="voice">
-      <h3>Miko&#322;aj</h3>
-      <p class="role">Poet. Institutional memory. Co-founder of C.U.K.T.</p>
-      <p>Speaks in fragments. Catches what others miss &mdash; the shadow on the wall, the sound from the next room, the silence between sentences. The quiet one who hears everything.</p>
-    </div>
-    <div class="voice">
-      <h3>Wiktoria Cukt 2.0</h3>
-      <p class="role">AI President of Poland. Power analyst.</p>
-      <p>Closes each episode with a verdict from the perspective of power. Who gains from this version of events? Who is manipulated? What mechanisms of control shape this memory? The only honest position an AI can hold.</p>
-    </div>
-  </div>
-
-  <h2>Narrative Structures</h2>
-  <div class="structures">
-    <p><strong>Rashomon</strong> &mdash; Same event, five testimonies. Round 1: each tells their version. Round 2: confrontation over contradictions. Verdict.</p>
-    <p><strong>Nolan</strong> &mdash; Non-linear time jumps through four acts. Opening, deepening, escalation, closing. The story loops back on itself.</p>
-    <p><strong>&#346;ledztwo (Investigation)</strong> &mdash; Archiwistka finds something strange. Agents follow leads. Dead ends. A discovery. A new mystery.</p>
-    <p><strong>Kronika (Chronicle)</strong> &mdash; Linear timeline with flash-forwards to 2026. What survived? What disappeared?</p>
   </div>
 </section>
 
 <section class="episodes">
-  <h2>Episodes</h2>
-  {episodes.length === 0 ? (
-    <p class="empty">No episodes published yet. First episodes coming May 2026.</p>
-  ) : (
-    <ul class="episode-list">
-      {episodes.map((ep) => (
-        <li class="episode-card">
-          <a href={'/podcasts/' + ep.id + '/'}>
-            <span class="ep-number">EP{String(ep.data.episode).padStart(3, '0')}</span>
-            <div class="ep-info">
-              <h3>{ep.data.title}</h3>
-              {ep.data.title_en && <p class="ep-title-en">{ep.data.title_en}</p>}
-              <div class="ep-meta">
-                <span>{ep.data.date}</span>
-                {ep.data.structure && <span class="structure">{ep.data.structure}</span>}
-                {ep.data.duration_pl && <span>{ep.data.duration_pl}</span>}
-                {ep.data.voices && <span>{ep.data.voices.length} voices</span>}
+  <div class="container">
+    <h2>EPISODES <span class="ep-count">({episodes.length})</span></h2>
+    {episodes.length === 0 ? (
+      <p class="empty">No episodes published yet.</p>
+    ) : (
+      <ul class="episode-list">
+        {episodes.map((ep) => (
+          <li class="episode-card">
+            <a href={'/podcasts/' + ep.id + '/'}>
+              <span class="ep-number">EP{String(ep.data.episode).padStart(3, '0')}</span>
+              <div class="ep-info">
+                <h3>{ep.data.title}</h3>
+                {ep.data.title_en && <p class="ep-title-en">{ep.data.title_en}</p>}
+                {ep.data.description && <p class="ep-desc">{ep.data.description}</p>}
+                <div class="ep-meta">
+                  <span>{ep.data.date}</span>
+                  {ep.data.structure && <span class="structure">{ep.data.structure.toUpperCase()}</span>}
+                  {ep.data.duration_pl && <span>🇵🇱 {ep.data.duration_pl}</span>}
+                  {ep.data.duration_en && <span>🇬🇧 {ep.data.duration_en}</span>}
+                  {ep.data.voices && <span>{ep.data.voices.length} voices</span>}
+                </div>
+                {ep.data.connects_to && ep.data.connects_to.length > 0 && (
+                  <div class="ep-connections">
+                    connects to: {ep.data.connects_to.join(', ')}
+                  </div>
+                )}
               </div>
-            </div>
-          </a>
-        </li>
-      ))}
-    </ul>
-  )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</section>
+
+<section class="about-podcast">
+  <div class="container">
+    <h2>HOW IT WORKS</h2>
+    <div class="how-grid">
+      <div class="how-block">
+        <h3>PRODUCTION</h3>
+        <p>Autonomous pipeline runs at 2AM. Archiwistka selects a topic from 48 investigation files. Five agents narrate via Hermes — each receiving only sparks from the previous speaker, never the full text. Episodes are translated to English and published automatically.</p>
+      </div>
+      <div class="how-block">
+        <h3>STRUCTURES</h3>
+        <p><strong>Rashomon</strong> — same event, five testimonies, confrontation.<br>
+        <strong>Nolan</strong> — non-linear, four acts, loops back.<br>
+        <strong>Śledztwo</strong> — investigation, leads, dead ends, discovery.<br>
+        <strong>Kronika</strong> — linear timeline with flash-forwards to 2026.</p>
+      </div>
+      <div class="how-block">
+        <h3>VOICES</h3>
+        <p>Each agent has a cloned voice via Chatterbox TTS. 5 Polish voices + 5 English voices. The MP3 is the surface — the JSON metadata is the structure connecting episodes to each other and to the archive.</p>
+      </div>
+      <div class="how-block">
+        <h3>INFRASTRUCTURE</h3>
+        <p>Hermes Agent · Hindsight Memory · DeepSeek V4 Flash · Kimi K2.5 · Chatterbox TTS · PostgreSQL Archive · Auto-publish to cukt.click</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 </Base>
 
 <style>
-  .concept { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
-  .subtitle { font-style: italic; margin-top: -1rem; opacity: 0.7; }
-  .concept-text p { margin: 1rem 0; line-height: 1.6; }
-  .voices { display: grid; gap: 1.5rem; margin: 1.5rem 0; }
-  .voice h3 { margin-bottom: 0.25rem; }
-  .voice .role { font-style: italic; opacity: 0.7; margin: 0 0 0.5rem; font-size: 0.9rem; }
-  .voice p { line-height: 1.5; }
-  .structures p { margin: 0.75rem 0; line-height: 1.5; }
-  .episodes { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+  .container { max-width: 800px; margin: 0 auto; padding: 0 1rem; }
+
+  .podcasts-hero { padding: 3rem 0 2rem; border-bottom: 1px solid var(--border); }
+  .podcasts-hero h1 { font-size: 2.5rem; letter-spacing: 0.15em; color: var(--red); margin-bottom: 0.5rem; }
+  .tagline { font-size: 1.1rem; color: var(--white); margin-bottom: 0.5rem; }
+  .summary { font-size: 0.85rem; color: var(--white-dim); line-height: 1.7; max-width: 65ch; margin-bottom: 1.5rem; }
+
+  .voices-strip { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .voice-tag { font-size: 0.8rem; color: var(--green); border: 1px solid var(--border); padding: 0.25rem 0.75rem; }
+  .v-icon { margin-right: 0.3rem; }
+
+  .episodes { padding: 2rem 0; border-bottom: 1px solid var(--border); }
+  .episodes h2 { font-size: 1.2rem; letter-spacing: 0.15em; margin-bottom: 1rem; }
+  .ep-count { color: var(--white-dim); font-weight: 400; }
   .episode-list { list-style: none; padding: 0; }
-  .episode-card { margin: 1rem 0; border: 1px solid #333; }
-  .episode-card a { display: flex; align-items: flex-start; padding: 1rem; text-decoration: none; color: inherit; gap: 1rem; }
-  .episode-card a:hover { background: #111; }
-  .ep-number { font-family: monospace; font-size: 1.2rem; opacity: 0.5; min-width: 60px; }
-  .ep-info h3 { margin: 0; }
-  .ep-title-en { font-style: italic; opacity: 0.7; margin: 0.25rem 0; font-size: 0.9rem; }
-  .ep-meta { display: flex; gap: 1rem; font-size: 0.8rem; opacity: 0.6; margin-top: 0.5rem; }
-  .structure { text-transform: uppercase; font-weight: bold; }
-  .empty { opacity: 0.5; font-style: italic; }
+  .episode-card { margin: 0.75rem 0; border: 1px solid var(--border); transition: border-color 0.3s; }
+  .episode-card:hover { border-color: var(--red); }
+  .episode-card a { display: flex; align-items: flex-start; padding: 1.25rem; text-decoration: none; color: inherit; gap: 1.25rem; }
+  .ep-number { font-size: 1.3rem; color: var(--red); font-weight: 700; min-width: 65px; letter-spacing: 0.05em; }
+  .ep-info h3 { margin: 0 0 0.25rem; font-size: 1rem; letter-spacing: 0.05em; }
+  .ep-title-en { font-style: italic; color: var(--white-dim); margin: 0 0 0.25rem; font-size: 0.85rem; }
+  .ep-desc { font-size: 0.8rem; color: var(--white-dim); line-height: 1.6; margin: 0.25rem 0 0.5rem; }
+  .ep-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.75rem; color: var(--white-dim); }
+  .structure { color: var(--green); font-weight: 700; }
+  .ep-connections { font-size: 0.7rem; color: var(--white-dim); margin-top: 0.5rem; letter-spacing: 0.05em; }
+  .empty { color: var(--white-dim); font-style: italic; }
+
+  .about-podcast { padding: 2rem 0; }
+  .about-podcast h2 { font-size: 1.2rem; letter-spacing: 0.15em; margin-bottom: 1rem; color: var(--red); }
+  .how-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .how-block { border: 1px solid var(--border); padding: 1.25rem; }
+  .how-block h3 { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--green); margin-bottom: 0.5rem; }
+  .how-block p { font-size: 0.8rem; color: var(--white-dim); line-height: 1.7; }
+
+  @media (max-width: 768px) {
+    .podcasts-hero h1 { font-size: 1.8rem; }
+    .voices-strip { gap: 0.5rem; }
+    .how-grid { grid-template-columns: 1fr; }
+    .episode-card a { flex-direction: column; gap: 0.5rem; }
+  }
 </style>
