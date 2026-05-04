@@ -185,6 +185,93 @@ const accentColor = isKarta ? 'green' : 'red';
   @media (max-width: 768px) {
     .page-title { font-size: 10vw; }
   }
+
+  /* ─── DOSSIER FORMAT: CUKTAI teczka styling ─── */
+
+  /* ASCII logo header — code block at the top */
+  .project-body :global(pre:first-of-type) {
+    color: var(--red);
+    font-size: 0.55rem;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    border: 1px solid var(--red-dim);
+    padding: var(--space-md);
+    margin-bottom: var(--space-lg);
+    background: rgba(180, 30, 30, 0.05);
+    overflow-x: auto;
+    text-align: center;
+  }
+
+  /* Signature footer — last code block */
+  .project-body :global(pre:last-of-type) {
+    color: var(--white-dim);
+    font-size: 0.75rem;
+    border: none;
+    border-top: 1px solid var(--border);
+    padding: var(--space-md) 0;
+    margin-top: var(--space-xl);
+    background: none;
+    text-align: right;
+  }
+
+  /* Section separators — hr tags from --- */
+  .project-body :global(hr) {
+    border: none;
+    border-top: 2px solid var(--red-dim);
+    margin: var(--space-xl) 0;
+    opacity: 0.4;
+  }
+
+  /* Fact sheet tables — clean, no outer border */
+  .project-body :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-md) 0;
+    font-size: 0.8rem;
+  }
+
+  .project-body :global(td:first-child) {
+    width: 160px;
+    color: var(--white-dim);
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .project-body :global(td:last-child) {
+    color: var(--white);
+  }
+
+  .project-body :global(th) {
+    display: none;
+  }
+
+  /* Discovery/evidence blocks */
+  .project-body :global(blockquote) {
+    border-left: 3px solid var(--red);
+    padding-left: var(--space-md);
+    margin: var(--space-md) 0;
+    color: var(--white-dim);
+    font-style: normal;
+  }
+
+  /* Cross-reference links */
+  .project-body :global(a) {
+    color: var(--green);
+    text-decoration: none;
+    border-bottom: 1px solid var(--green-dim);
+  }
+
+  .project-body :global(a:hover) {
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  @media (max-width: 768px) {
+    .project-body :global(pre:first-of-type) {
+      font-size: 0.35rem;
+      padding: var(--space-sm);
+    }
+  }
 </style>
 
 <script>
