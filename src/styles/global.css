@@ -167,3 +167,20 @@ img {
   .container { padding: 0 var(--space-lg); }
   .grid-projects { grid-template-columns: 1fr; }
 }
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-img {
+  height: 24px;
+  width: auto;
+  display: block;
+  filter: brightness(1);
+  transition: filter 0.2s;
+}
+
+.nav-logo-img:hover {
+  filter: brightness(1.3);
+}
