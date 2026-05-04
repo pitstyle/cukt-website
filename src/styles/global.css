@@ -164,6 +164,6 @@ img {
 @media (max-width: 768px) {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.35rem; }
-  .container { padding: 0 var(--space-md); }
+  .container { padding: 0 var(--space-lg); }
   .grid-projects { grid-template-columns: 1fr; }
 }

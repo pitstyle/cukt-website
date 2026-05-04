@@ -21,10 +21,15 @@ const teczki = all.filter(d => d.data.type === 'teczka').sort((a, b) => b.data.d
         <h2 class="section-head" data-en="PROJECT CARDS" data-pl="KARTY PROJEKTÓW">PROJECT CARDS</h2>
         <div class="grid-projects">
           {karty.map((doc, i) => (
-            <a href={`/archiwistka/${doc.id}`} class="project-card">
-              <span class="card-number">KARTA</span>
+            <a href={`/archiwistka/${doc.id}`} class="teczka-card karta">
+              <div class="teczka-header">
+                <span class="teczka-num">K{String(i + 1).padStart(2, 0)}</span>
+                <span class="teczka-status">{doc.data.date}</span>
+              </div>
               <h3>{doc.data.title}</h3>
-              <p class="meta">{doc.data.date}</p>
+              <div class="teczka-meta">
+                <span class="teczka-type">KARTA PROJEKTU</span>
+              </div>
             </a>
           ))}
         </div>
@@ -135,6 +140,86 @@ const teczki = all.filter(d => d.data.type === 'teczka').sort((a, b) => b.data.d
 
   .project-card h3 {
     color: var(--white);
+  }
+
+  /* ─── Teczka cards ─── */
+
+  .teczka-card {
+    display: block;
+    border: 1px solid var(--border);
+    padding: var(--space-lg);
+    transition: border-color 0.3s;
+    text-decoration: none;
+    color: var(--white);
+    position: relative;
+  }
+
+  .teczka-card:hover {
+    border-color: var(--red);
+  }
+
+  .teczka-card.karta:hover {
+    border-color: var(--green);
+  }
+
+  .teczka-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-sm);
+  }
+
+  .teczka-num {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--red-dim);
+    letter-spacing: 0.05em;
+  }
+
+  .karta .teczka-num {
+    color: var(--green-dim);
+  }
+
+  .teczka-status {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: var(--white-dim);
+    padding: 2px 8px;
+    border: 1px solid var(--border);
+    text-transform: uppercase;
+  }
+
+  .teczka-card h3 {
+    color: var(--white) !important;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-sm);
+  }
+
+  .teczka-card:hover h3 {
+    color: var(--red) !important;
+  }
+
+  .karta:hover h3 {
+    color: var(--green) !important;
+  }
+
+  .teczka-meta {
+    display: flex;
+    gap: var(--space-md);
+    font-size: 0.75rem;
+    color: var(--white-dim);
+  }
+
+  .teczka-type {
+    color: var(--red-dim);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  .karta .teczka-type {
+    color: var(--green-dim);
   }
 
   @media (max-width: 768px) {
