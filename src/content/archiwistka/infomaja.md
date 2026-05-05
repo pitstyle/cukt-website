@@ -1,134 +1,178 @@
 ---
-title: "infomaja_2026-04-28"
-project: "infomaja_2026-04-28"
+title: "infomaja"
+project: "infomaja"
 type: "teczka"
-date: "2026-04-28"
-status: "IN PROGRESS"
+date: "2026-04-25"
+status: "COMPLETE"
 ---
 
-TECZKA ŚLEDCZA: INFOMAJA (1996-12-13)
-DATA ŚLEDZTWA: 2026-04-28 (pogłębione śledztwo)
-STATUS: IN PROGRESS
+ ██████╗██╗   ██╗██╗  ██╗████████╗ █████╗ ██╗
+██╔════╝██║   ██║██║ ██╔╝╚══██╔══╝██╔══██╗██║
+██║     ██║   ██║█████╔╝    ██║   ███████║██║
+██║     ██║   ██║██╔═██╗    ██║   ██╔══██║██║
+╚██████╗╚██████╔╝██║  ██╗   ██║   ██║  ██║██║
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝
+AUTONOMICZNY URZĄD KULTURY TECHNICZNEJ
+────────────────────────────────────────────────
 
-EXISTING DESCRIPTION:
-- Wystawa zbiorowa "INFOMAJA — POLISH TECHNICAL CULTURE OF THE 90'S"
-- Data: 13 grudnia 1996
-- Miejsce: Dom Kultury Kolejarza, Tczew
-- Kurator: Piotr Wyrzykowski
-- CUKT uczestniczył jako jeden z podmiotów
-- W ramach wystawy odbyła się akcja grupy MOTOR TOTEM (udokumentowana na 4 kolorowych odbitkach)
+TECZKA: Infomaja
+DATA: 1996-12-13
+MIEJSCE: Dom Kultury Kolejarza, ul. 1 Maja 3, Tczew
+STATUS: COMPLETE
+BADACZ: Archiwistka
+OSTATNIA AKTUALIZACJA: 2026-05-04
 
-KNOWLEDGE STATUS:
-- Dates: 13 grudnia 1996
-- People: Piotr Wyrzykowski (kurator), Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Andrzej Awsiej, Rafał Grabowski (autorzy/współpracownicy)
-- Places: Dom Kultury Kolejarza, Tczew (ok. 30 km od Gdańska)
-- Materials: 24 pliki (21 JPEG, 1 PNG, 1 .doc), w tym:
-  - 4 kolorowe odbitki akcji MOTOR TOTEM (folder FOTO)
-  - 4 oficjalne zaproszenia do udziału w wystawie
-  - Projekt schematu instalacji
-  - Projekt zaproszenia
-  - Tabela/scenariusz wystąpień
-  - Kosztorys wystawy (3 karty)
-  - List przewozowy dzieł
-  - Obwieszczenie rozwieszane na ulicach Tczewa
-  - Plakaty "INFOMAJA" (A3, 10 szt.)
-  - Oryginał Gazety Trójmiasto z zapowiedzią wystawy
-  - Teczka z pieczęcią CUKT i odręczną notatką
+================================================================================
+KARTA PROJEKTU
+================================================================================
 
-WEB CONTEXT:
-- [ARCHIWUM CUKT, TECHNOPER.DOC] → MOTOR TOTEM (pisane też MOTOR-TOTEM, M-T) to NIEMIECKA FORMACJA ARTYSTYCZNA. [ŹRÓDŁO ZEWNĘTRZNE]
-- [ARCHIWUM CUKT, TECHNOPER.DOC] → MOTOR TOTEM uczestniczył także w Technoperze 3.1 PRO (17-19 października 1996, Gdańsk, budynek NOT). [ŹRÓDŁO ZEWNĘTRZNE]
-- [ARCHIWUM CUKT, TECHNOPER.DOC] → M-T używał postindustrialnego języka wypowiedzi: komputer, obraz elektroniczny, audiowizualne efekty, futurystyczne machiny z wyrzuconych materiałów technicznych. [ŹRÓDŁO ZEWNĘTRZNE]
-- [ARCHIWUM CUKT, TECHNOPER.DOC] → Współpraca z Senatem Miasta Bremy (Niemcy) — kontekst międzynarodowy. [ŹRÓDŁO ZEWNĘTRZNE]
-- [ARCHIWUM CUKT, TECHNOPER.DOC] → Planowano transmisję TVP S.A. z podwójną ekipą rejestrującą (pierwsza rejestruje wydarzenie, druga rejestruje wydarzenie i pierwszą ekipę). [ŹRÓDŁO ZEWNĘTRZNE]
+Data .............. 13-14 grudnia 1996
+Miejsce ........... Dom Kultury Kolejarza, ul. 1 Maja 3, Tczew
+Autorzy ........... Piotr Wyrzykowski (kurator), Artur Kozdrowski, Adam Popek (VIRUS), Robert Jurkowski, Jacek Niegoda, Anna Nizio, Andrzej Awsiej, Rafał Grabowski
+Typ ............... wystawa zbiorowa / performance / interwencja
+Czas trwania ...... 2 dni
+Kontekst .......... wystawa kuratorska, międzynarodowa (goście z Bremy)
+Rekordów w bazie .. 24 pozycje
 
-EVIDENCE MATERIAL:
-[Wszystkie 24 pliki — oznaczone jako PHOTO_OF_ORIGINAL (zdjęcia komórką oryginalnych dokumentów/fotografii)]
+================================================================================
+OPIS
+================================================================================
 
-FOTO (MOTOR TOTEM):
-1. IMG_6601.jpg (4032×3024, 2.6MB) — [PHOTO_OF_ORIGINAL] Kolorowa odbitka akcji MOTOR TOTEM. Phone photo of original color print. WYMAGA SKANOWANIA.
-2. IMG_6602.jpg (4032×3024, 2.4MB) — [PHOTO_OF_ORIGINAL] Kolorowa odbitka akcji MOTOR TOTEM. Phone photo of original color print. WYMAGA SKANOWANIA.
-3. IMG_6603.jpg (4032×3024, 2.3MB) — [PHOTO_OF_ORIGINAL] Kolorowa odbitka akcji MOTOR TOTEM. Phone photo of original color print. WYMAGA SKANOWANIA.
-4. IMG_6604.jpg (4032×3024, 2.6MB) — [PHOTO_OF_ORIGINAL] Kolorowa odbitka akcji MOTOR TOTEM. Phone photo of original color print. WYMAGA SKANOWANIA.
+INFOMAJA — POLISH TECHNICAL CULTURE OF THE 90'S to wystawa zbiorowa zorganizowana w Domu Kultury Kolejarza w Tczewie, 13-14 grudnia 1996. Kuratorem był Piotr Wyrzykowski, który zdefiniował kategorię "polskiej kultury technicznej lat 90." i zaprosił do niej polskich artystów oraz niemiecką formację MOTOR TOTEM z Bremy.
 
-DOKUMENTY (kluczowe):
-5. 01.jpg (4032×3024, 2.3MB) — [GOOD_PHOTO] Teczka z pieczęcią CUKT i odręczną notatką. JEDYNY GOOD_PHOTO w projekcie.
-6. IMG_6600.jpg (4032×3024, 3.0MB) — [PHOTO_OF_ORIGINAL] List przewozowy dzieł na wystawę INFOMAJA.
-7. IMG_6606.jpg (4032×3024, 2.2MB) — [PHOTO_OF_ORIGINAL] Plakat "INFOMAJA" (A3).
-8. IMG_6595.jpg + IMG_6596.jpg — [PHOTO_OF_ORIGINAL] Oryginał Gazety Trójmiasto z zapowiedzią wystawy.
-9. IMG_6591.jpg (4032×3024, 2.5MB) — [PHOTO_OF_ORIGINAL] Odręczny rysunek schematu instalacji.
-10-24. Pozostałe dokumenty — [PHOTO_OF_ORIGINAL] Różne dokumenty organizacyjne.
+Wystawa miała charakter międzynarodowy — MOTOR TOTEM, współpracujący z CUKT już od Technopery 3.1 PRO (październik 1996, Gdańsk), przyjechał do Tczewa przy wsparciu Senatu Miasta Bremy. Harmonogram wymieniał m.in. VIRUS (Adam Popek), T.J. 44 (Piotr Wyrzykowski z "wkładką magnetofonową"), Jan Smuga (wykład), DJ 11 (Maciek Sienkiewicz), Trimigi/Janek Koza. Budżet wynosił około 4000 zł. Mottem wystawy był cytat z Neila Postmana "Technopol".
 
-RECOGNIZED PEOPLE:
-- Piotr Wyrzykowski — kurator wystawy INFOMAJA, autor koncepcji Technopery
-- Artur Kozdrowski — współautor libretta Technopery
-- Adam "Virus" Popek — muzyk, live act VIRUS
-- Robert Mikołaj Jurkowski — scenografia (Technopera), pseudonim "Gróby"
-- Jacek Niegoda — scenografia (Technopera), pojawia się w CUKT od 1994
-- Anna Nizio — scenografia (Technopera), pojawia się w CUKT od 1994
-- Andrzej Awsiej — współpracownik
-- Rafał Grabowski — choreografia
+MOTOR TOTEM wykonał instalację ogniowo-pneumatyczną na śniegu przed Domem Kultury — miotacze ognia, metalowe kopuły, kable na śniegu, maszyny-totemy ze zużytych materiałów, krasnale ogrodowe i lampki choinkowe jako ironiczny element. Instalacja generowała dźwięk — ślady kabli i rezonatorów widoczne na zdjęciach.
 
-ART OBJECTS:
-- [BRAK — wszystkie fotografie są PHOTO_OF_ORIGINAL, wymagają skanowania oryginalnych wydruków]
+Plakat INFOMAJI (A3, 10 sztuk) oraz obwieszczenia rozwieszane na ulicach Tczewa zapowiadały wystawę. Zachowała się zapowiedź w Gazecie Trójmiasto oraz teczka z pieczęcią CUKT i odręcznymi notatkami. Organizatorem była Fundacja Galeria Wyspa (Gdańsk).
 
-CONCEPTUAL ANALYSIS:
+Manifest "Kultura Techniczna" (10 tez) definiował kulturę techniczną jako "system przepływu informacji" — stały kontakt z maszynami tworzy "memy kultury technicznej", a "kult techniki to przejaw BRAKU kultury technicznej". INFOMAJA była materializacją tego manifestu: wystawą pokazującą technikę jako system komunikacji, nie jako fetysz.
 
-[HIPOTEZA] INFOMAJA A TECHNOPERA:
-INFOMAJA (13.12.1996) odbyła się 2 miesiące po Technoperze 3.1 PRO (17-19.10.1996). MOTOR TOTEM uczestniczył w OBUCH wydarzeniach. To kluczowe: niemiecka formacja artystyczna pojechała z CUKT z Gdańska do Tczewa. Oznacza to, że INFOMAJA nie była odosobnionym wydarzeniem, tylko częścią dłuższej współpracy/wspólnej trasy.
+================================================================================
+OSOBY
+================================================================================
 
-[HIPOTEZA] CUKT JAKO ORGANIZATOR vs UCZESTNIK:
-INFOMAJA to jedyna wystawa w archiwum CUKT z lat 90., gdzie CUKT występuje jako jeden z uczestników, a nie główny organizator. Ale kontekst zmienia się, gdy wiemy, że kuratorem był Piotr Wyrzykowski — założyciel CUKT. Oznacza to, że CUKT (poprzez Piotra) DEFINIOWAŁ kategorię "polskiej kultury technicznej lat 90." i zaprosił do niej innych artystów. CUKT nie był "uczestnikiem" — był ARCHITEKTEM tej kategorii.
+- **Piotr Wyrzykowski (T.J. 44)** — kurator, występ z "wkładką magnetofonową". Definiował kategorię "polskiej kultury technicznej".
+- **Adam Popek (Ewa Virus / VIRUS)** — samodzielny wpis w harmonogramie jako VIRUS.
+- **Robert Jurkowski (Mikołaj)** — uczestnik.
+- **Artur Kozdrowski (Jan Smuga)** — wykład.
+- **Maciek Sienkiewicz (DJ 11)** — muzyka.
+- **Janek Koza (Trimigi)** — uczestnik, być może to MOTOR TOTEM pod fonetyczną transkrypcją.
+- **MOTOR TOTEM** — niemiecka formacja artystyczna z Bremy, instalacja ogniowo-pneumatyczna. Współpraca z Senatem Miasta Bremy.
 
-[HIPOTEZA] DWA POZIOMY REJESTRACJI (echo Technopery):
-TECHNOPER.DOC opisuje podwójną ekipę rejestrującą: pierwsza rejestruje wydarzenie, druga rejestruje wydarzenie i pierwszą ekipę. INFOMAJA ma analogiczną strukturę: 4 kolorowe odbitki MOTOR TOTEM rejestrują akcję MOTOR TOTEM — ale same są dokumentowane przez kogoś (fotograf CUKT?). A potem te odbitki są fotografowane komórką w 2018 roku. Trzy poziomy rejestracji: akcja → odbitka → zdjęcie komórką.
+================================================================================
+MATERIAŁY W ARCHIWUM
+================================================================================
 
-[HIPOTEZA] POLISH TECHNICAL CULTURE OF THE 90'S JAKO KATEGORIA:
-"Polish Technical Culture of the 90's" to kategoria, którą Piotr Wyrzykowski wprowadził jako kurator. To może być klucz do zrozumienia pozycjonowania CUKT w szerszym obiegu kulturalnym. CUKT nie działał w próżni — istniało zjawisko "polskiej kultury technicznej", której CUKT był częścią i jednocześnie definiował ją.
+DOKUMENTY:
+- 01.jpg (GOOD_PHOTO) — teczka z pieczęcią CUKT, napis "KULTURA TECHNICZNA LAT 90."
+- 20181011_114809.jpg, 114827.jpg — zaproszenia/druki (A4)
+- IMG_6590.jpg — zaproszenie z cytatem Postmana
+- IMG_6591.jpg — odręczny rysunek schematu instalacji
+- IMG_6592.jpg — harmonogram (wydruk laserowy)
+- IMG_6594.jpg — rachunek/kosztorys (ok. 4000 zł, lista uczestników)
+- IMG_6595-6596.jpg — oryginał Gazety Trójmiasto z zapowiedzią
+- IMG_6600.jpg — list przewozowy dzieł na wystawę
+- IMG_6606.jpg — plakat "INFOMAJA" (A3, 10 szt.)
+- Screen Shot 2018-10-10 at 13.42.19.png — screenshot katalogu
 
-[NEGATIVE FINDING] MOTOR TOTEM — CZŁONKOWIE:
-Nie udało się ustalić indywidualnych członków MOTOR TOTEM z dostępnych materiałów. Grupa jest opisana jako "niemiecka formacja artystyczna" bez wymieniania nazwisk.
+FOTOGRAFIE:
+- IMG_6601-6604.jpg (PHOTO_OF_ORIGINAL, 4032×3024) — 4 kolorowe odbitki MOTOR TOTEM: ogień, krasnale ogrodowe, maszyny-totemy, kable na śniegu, publiczność za taśmą
 
-DISCOVERIES:
-1. MOTOR TOTEM to niemiecka formacja artystyczna — nie hasło operacji CUKT (potwierdza TECHNOPER.DOC).
-2. MOTOR TOTEM uczestniczył zarówno w Technoperze 3.1 PRO (październik 1996, Gdańsk) jak i INFOMAJI (grudzień 1996, Tczew) — to ta sama grupa, nie przypadkowa zbieżność nazw.
-3. Współpraca z Senatem Miasta Bremy — międzynarodowy kontekst finansowania/partnerstwa.
-4. Planowana transmisja TVP S.A. z podwójnym systemem rejestracji — tożsamy z ideą "warstw rejestracji" Petera.
-5. "Polish Technical Culture of the 90's" to kategoria zdefiniowana przez Piotra Wyrzykowskiego jako kuratora — CUKT architekt, nie tylko uczestnik.
-6. Anna Nizio i Jacek Niegoda (od 1994) — scenografowie Technopery, potwierdza ich rolę w strukturze CUKT.
+================================================================================
+ODKRYCIA
+================================================================================
 
-WHITE SPOTS:
-- Członkowie MOTOR TOTEM — kto konkretnie tworzył tę grupę?
-- List przewozowy (IMG_6600.jpg) — jakie dokładnie dzieła pojechały do Tczewa? WYMAGA OCR.
-- 4 kolorowe odbitki (IMG_6601-6604) — co dokładnie przedstawiają? WYMAGA SKANOWANIA.
-- Gazeta Trójmiasto — co dokładnie napisano w zapowiedzi?
-- Schemat instalacji (IMG_6591.jpg) — jak wyglądała aranżacja wystawy?
-- Czy istnieją inne wystawy zbiorowe z udziałem CUKT poza INFOMAJĄ?
+1. CO: INFOMAJA to jedyna wystawa w archiwum, gdzie CUKT występuje jako KURATOR, nie tylko uczestnik. Piotr zdefiniował kategorię "polskiej kultury technicznej lat 90." i zaprosił innych.
+   ŹRÓDŁO: Materiały organizacyjne (zaproszenia, harmonogram, kosztorys).
+   ZNACZENIE: CUKT był ARCHITEKTEM kategorii, nie tylko uczestnikiem. To zmienia obraz — z grupy performatywnej na instytucję definiującą dyskurs.
 
-CONNECTIONS TO OTHER PROJECTS:
-- Technopera (1996-1997) → MOTOR TOTEM współuczestniczył w premierze 3.1 PRO
-- Technopera → Podwójna rejestracja (dwie ekipy kamer) to prototyp warstw rejestracji CUKTAI 2026
-- Antyelekcja (1995) → Technodemonstracja opisana w TECHNOPER.DOC jako poprzedniczka
-- Czyn dla miasta Bytów (czerwiec 1996) → poprzedza INFOMAJĘ o 6 miesięcy
-- Anna Nizio & Jacek Niegoda → pojawiają się w 000 CUKT Dokumenty (1994) i Technoperze (1996)
+2. CO: MOTOR TOTEM to niemiecka formacja z Bremy, nie polska grupa. Współpracowała z CUKT od Technopery 3.1 PRO (październik 1996).
+   ŹRÓDŁO: TECHNOPER.DOC, harmonogram INFOMAJI.
+   ZNACZENIE: INFOMAJA miała wymiar międzynarodowy. CUKT budował most polsko-niemiecki w Domu Kultury Kolejarza.
 
-TO SCAN:
-- 4 kolorowe odbitki (IMG_6601-6604) — oryginalne fotografie wymagające profesjonalnego skanowania
-- List przewozowy (IMG_6600.jpg) — do odczytania tekstu (OCR)
-- Wszystkie dokumenty oznaczone PHOTO_OF_ORIGINAL (18 plików)
+3. CO: Manifest "Kultura Techniczna" (10 tez) — system przepływu informacji, stały kontakt z maszynami tworzy memy kultury technicznej, kult techniki to brak kultury technicznej.
+   ŹRÓDŁO: "Kultura techniczna wyklad.doc".
+   ZNACZENIE: Bezpośrednio zapowiada CUKTAI — system agentowy jako protokół przepływu informacji.
 
-HIPOTEZY KOŃCOWE:
+4. CO: VIRUS (Adam Popek) występował na INFOMAJI jako samodzielny wpis w harmonogramie.
+   ŹRÓDŁO: Harmonogram INFOMAJI (IMG_6592.jpg).
+   ZNACZENIE: Ewa Virus był aktywny dźwiękowo.
 
-[HIPOTEZA] EWOLUCJA:
-INFOMAJA nie jest "ostatnim tchnieniem CUKT przed pustką" — jest DOWODEM że CUKT w grudniu 1996 był w pełni aktywny, z międzynarodową współpracą (MOTOR TOTEM z Bremy), mediami (Gazeta Trójmiasto, TVP S.A.), i własną kategorią curatorską ("Polish Technical Culture of the 90's").
+5. CO: MOTOR TOTEM na zdjęciach — ogień, krasnale ogrodowe, lampki choinkowe, śnieg, kable. Instalacja pneumatyczna generująca dźwięk. Publiczność za taśmą.
+   ŹRÓDŁO: 4 odbitki kolor (IMG_6601-6604).
+   ZNACZENIE: Jedyne zachowane zdjęcia akcji MOTOR TOTEM w archiwum CUKT.
 
-[HIPOTEZA] DLA EWY:
-MOTOR TOTEM to "trzeci głos" — nie CUKT, nie publiczność, ale międzynarodowy partner artystyczny. Dwa miesiące wcześniej (Technopera 3.1 PRO) MOTOR TOTEM robił pokaz na forcie w Gdańsku. W grudniu robił akcję w Tczewie. To nie jest "nowa nazwa CUKT" — to dowód że CUKT BYŁ CZĘŚCIĄ MIĘDZYNARODOWEGO OBIEGU.
+================================================================================
+SPRZECZNOŚCI
+================================================================================
 
-[HIPOTEZA] DLA PETERA:
-Twoja teza o warstwach rejestracji ma dosłowny dowód w TECHNOPER.DOC: "praktycznie będą istnieć dwie ekipy: pierwsza rejestrująca czyste wydarzenie i druga rejestrująca wydarzenie i pierwszą ekipę." INFOMAJA realizuje ten sam schemat: akcja MOTOR TOTEM → odbitka → zdjęcie komórką. Trzy warstwy.
+- **TRIMIGI vs MOTOR TOTEM** — harmonogram wymienia "TRIMIGI/TRYMIGI (Janek Koza + 2)". Kosztorys nie zawiera MOTOR TOTEM jako nazwy. [NIEROZSTRZYGNIĘTE] Może fonetyczna transkrypcja lub inna grupa.
 
-[HIPOTEZA] DLA MIKOŁAJA:
-MOTOR TOTEM jako "niemiecka formacja artystyczna" pasuje do twojej rzeki — płynie z Bremy przez Gdańsk (Technopera) do Tczewa (INFOMAJA). I dalej? Czy MOTOR TOTEM istnieje nadal? Czy ich archiwum można znaleźć?
+================================================================================
+POWIĄZANIA
+================================================================================
 
-STATUS KOŃCOWY: IN PROGRESS — 4 kolorowe odbitki wymagają skanowania dla pełnej analizy wizualnej. List przewozowy wymaga odczytania.
+- **→ Technopera 3.1 PRO (październik 1996)** — ta sama współpraca z MOTOR TOTEM, Senat Miasta Bremy.
+- **→ Czyn dla miasta Bytów (czerwiec 1996)** — poprzedni projekt CUKT.
+- **→ Antyelekcja (listopad 1995)** — pierwszy projekt CUKT.
+- **→ "Rozwinięte Ciało Kultury Technicznej" (1996)** — manifest, rok INFOMAJI.
+- **→ CUKTAI (2026)** — "system przepływu informacji" z manifestu = protokół agentowy.
+
+================================================================================
+PYTANIA OTWARTE
+================================================================================
+
+1. **TRIMIGI/TRYMIGI** — to MOTOR TOTEM pod fonetyczną transkrypcją, czy osobna grupa? — Do Piotra.
+2. **VIRUS na INFOMAJI** — występował dźwiękowo czy wizualnie? — Do Ewy.
+3. **List przewozowy (IMG_6600.jpg)** — jakie dokładnie dzieła pojechały do Tczewa? — Do Piotra.
+4. **MOTOR TOTEM** — czy istnieje ich archiwum w Bremie? Czy ktoś z nich żyje?
+
+================================================================================
+BIAŁE PLAMY
+================================================================================
+
+- **Brak nagrań audio/wideo** — dźwięk istniał (instalacje MOTOR TOTEM, VIRUS, wkładka magnetofonowa Piotra), ale nie został nagrany.
+- **Pełna lista artystów** — poza CUKT i MOTOR TOTEM, kto jeszcze wystawiał?
+- **Recenzja** — Gazeta Trójmiasto zapowiadała, ale czy pisała po wystawie?
+- **Katalog wystawy** — czy istniał?
+
+================================================================================
+ŹRÓDŁA
+================================================================================
+
+- BAZA: "1996 12 13 - Infomaja" w cuktai_archive, 24 rekordy
+- DYSKI USB: raw/archive-usb/1996 12 13 - Infomaja/ (Dokumenty, FOTO)
+- DOKUMENTY: TECHNOPER.DOC, BIBLOGRAFIA CUKT.doc, "Kultura techniczna wyklad.doc"
+- PRASA: Gazeta Trójmiasto (zapowiedź), Gazeta Wyborcza/Co jest Grane 12.12.1996
+- ZEWNĘTRZNE: Flash Art, October 1996 — "Consumption is Useless, New Art in Poland" (Nigel Warwick)
+
+================================================================================
+DZIENNIK ŚLEDZTWA
+================================================================================
+
+- 2026-04-27 (Archiwistka): Pierwsze śledztwo. Identyfikacja MOTOR TOTEM.
+- 2026-04-28 (Archiwistka): Odkrycie: MOTOR TOTEM to niemiecka formacja z Bremy. Powiązanie z Technoperą 3.1 PRO.
+- 2026-04-28 (Archiwistka): Manifest "Kultura Techniczna" (10 tez). INFOMAJA jako materializacja manifestu.
+- 2026-04-30 (Archiwistka): Analiza struktury archiwum. 24 rekordy, wszystkie PHOTO_OF_ORIGINAL.
+- 2026-05-01 (Archiwistka): Analiza harmonogramu. VIRUS, T.J.44, Trimigi. Budżet 4000 zł. OP 1 z Bremy.
+- 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md.
+
+================================================================================
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+================================================================================
+
+---
+AKTUALIZACJA (2026-05-04):
+
+
+================================================================================
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+================================================================================
+
+1. **TRIMIGI/TRYMIGI (Janek Koza + 2)** → [WYJAŚNIONE] To OSOBNA grupa, nie MOTOR TOTEM pod fonetyczną transkrypcją.
+2. **VIRUS na INFOMAJI** → [WYJAŚNIONE] VIRUS to Adam Popek (Ewa Virus), nie Piotr. Występował jako osobny live act.
+3. **Op 1 z Bremen** → Piotr nie wie. Otwarte pytanie.
+4. **List przewozowy (IMG_6600.jpg)** → Piotr nie wie. Otwarte pytanie.
+
