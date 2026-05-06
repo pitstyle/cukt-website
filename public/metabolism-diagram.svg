@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="monospace">
+  <style>
+    .room { fill: none; stroke: #333; stroke-width: 1; }
+    .room-active { fill: none; stroke: #da4444; stroke-width: 1.5; }
+    .room-label { font-size: 9px; fill: #666; letter-spacing: 2px; }
+    .agent-name { font-size: 11px; fill: #fff; font-weight: bold; letter-spacing: 1px; }
+    .agent-role { font-size: 8px; fill: #888; }
+    .agent-icon { font-size: 16px; }
+    .flow-arrow { stroke: #da4444; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead); }
+    .flow-arrow-dim { stroke: #444; stroke-width: 1; fill: none; marker-end: url(#arrowhead-dim); }
+    .flow-label { font-size: 7px; fill: #da4444; letter-spacing: 1px; }
+    .vault-fill { fill: #1a1a1a; }
+    .bg { fill: #0d0d0d; }
+    .stat { font-size: 18px; fill: #da4444; font-weight: bold; }
+    .stat-label { font-size: 7px; fill: #666; letter-spacing: 2px; }
+  </style>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#da4444" />
+    </marker>
+    <marker id="arrowhead-dim" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#444" />
+    </marker>
+  </defs>
+  
+  <rect width="900" height="600" class="bg" />
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="agent-name" style="font-size:13px; letter-spacing:4px; fill:#da4444;">INFORMATION METABOLISM</text>
+  
+  <!-- ═══ VAULT (center) ═══ -->
+  <rect x="310" y="180" width="280" height="240" class="room-active" rx="2" />
+  <rect x="310" y="180" width="280" height="240" class="vault-fill" rx="2" opacity="0.5" />
+  <text x="450" y="200" text-anchor="middle" class="room-label" style="fill:#da4444;">VAULT — KANCELARIA URZĘDU</text>
+  
+  <!-- Vault rooms inside -->
+  <rect x="320" y="210" width="120" height="35" class="room" rx="1" />
+  <text x="380" y="225" text-anchor="middle" class="stat">81</text>
+  <text x="380" y="238" text-anchor="middle" class="stat-label">FINDINGS</text>
+  
+  <rect x="460" y="210" width="120" height="35" class="room" rx="1" />
+  <text x="520" y="225" text-anchor="middle" class="stat">13</text>
+  <text x="520" y="238" text-anchor="middle" class="stat-label">CLAIMS</text>
+  
+  <rect x="320" y="255" width="120" height="35" class="room" rx="1" />
+  <text x="380" y="270" text-anchor="middle" class="stat">12</text>
+  <text x="380" y="283" text-anchor="middle" class="stat-label">DOSSIERS</text>
+  
+  <rect x="460" y="255" width="120" height="35" class="room" rx="1" />
+  <text x="520" y="270" text-anchor="middle" class="stat">23</text>
+  <text x="520" y="283" text-anchor="middle" class="stat-label">SOURCES</text>
+  
+  <!-- Queue/routing inside vault -->
+  <rect x="320" y="300" width="260" height="25" class="room" rx="1" />
+  <text x="450" y="316" text-anchor="middle" class="room-label">OBIEG → ROUTING TO AGENTS</text>
+  
+  <!-- Decrees -->
+  <rect x="320" y="335" width="125" height="25" class="room" rx="1" />
+  <text x="383" y="351" text-anchor="middle" class="room-label">DEKRETY</text>
+  
+  <!-- Runs -->
+  <rect x="455" y="335" width="125" height="25" class="room" rx="1" />
+  <text x="518" y="351" text-anchor="middle" class="room-label">RUNS</text>
+  
+  <!-- External intel -->
+  <rect x="320" y="370" width="260" height="25" class="room" rx="1" />
+  <text x="450" y="386" text-anchor="middle" class="room-label">EXTERNAL INTELLIGENCE</text>
+  
+  <!-- ═══ AGENTS (around vault) ═══ -->
+  
+  <!-- Archiwistka — top left -->
+  <rect x="40" y="100" width="180" height="70" class="room" rx="2" />
+  <text x="55" y="122" class="agent-icon">🔍</text>
+  <text x="80" y="125" class="agent-name">ARCHIWISTKA</text>
+  <text x="80" y="140" class="agent-role">INVESTIGATOR</text>
+  <text x="80" y="155" class="agent-role">archive → findings</text>
+  
+  <!-- Mikołaj — top right -->
+  <rect x="680" y="100" width="180" height="70" class="room" rx="2" />
+  <text x="695" y="122" class="agent-icon">🎭</text>
+  <text x="720" y="125" class="agent-name">MIKOŁAJ</text>
+  <text x="720" y="140" class="agent-role">VERIFIER</text>
+  <text x="720" y="155" class="agent-role">findings → claims</text>
+  
+  <!-- Wiktoria — top center -->
+  <rect x="360" y="60" width="180" height="70" class="room-active" rx="2" />
+  <text x="375" y="82" class="agent-icon">🏛️</text>
+  <text x="400" y="85" class="agent-name">WIKTORIA</text>
+  <text x="400" y="100" class="agent-role">PRESIDENT · OPERATOR</text>
+  <text x="400" y="115" class="agent-role">brief → decrees → publish</text>
+  
+  <!-- Ewa — bottom left -->
+  <rect x="40" y="430" width="180" height="70" class="room" rx="2" />
+  <text x="55" y="452" class="agent-icon">🔥</text>
+  <text x="80" y="455" class="agent-name">EWA VIRUS</text>
+  <text x="80" y="470" class="agent-role">NARRATOR</text>
+  <text x="80" y="485" class="agent-role">claims → podcasts</text>
+  
+  <!-- Peter — bottom center -->
+  <rect x="360" y="470" width="180" height="70" class="room" rx="2" />
+  <text x="375" y="492" class="agent-icon">💭</text>
+  <text x="400" y="495" class="agent-name">PETER</text>
+  <text x="400" y="510" class="agent-role">SYNTHESIZER</text>
+  <text x="400" y="525" class="agent-role">connections → dossiers</text>
+  
+  <!-- Researcher — bottom right -->
+  <rect x="680" y="430" width="180" height="70" class="room" rx="2" />
+  <text x="695" y="452" class="agent-icon">📡</text>
+  <text x="720" y="455" class="agent-name">RESEARCHER</text>
+  <text x="720" y="470" class="agent-role">EVIDENCE COLLECTOR</text>
+  <text x="720" y="485" class="agent-role">world → external intel</text>
+  
+  <!-- Piotr (human) — very top -->
+  <rect x="380" y="5" width="140" height="30" class="room" rx="2" style="stroke:#666" />
+  <text x="450" y="24" text-anchor="middle" class="agent-role" style="fill:#666; font-size:9px;">PIOTR · HUMAN · VETO</text>
+  
+  <!-- ═══ FLOW ARROWS ═══ -->
+  
+  <!-- Archiwistka → vault (findings) -->
+  <path d="M 220 135 L 308 230" class="flow-arrow" />
+  <text x="250" y="175" class="flow-label" transform="rotate(-30, 250, 175)">FINDINGS</text>
+  
+  <!-- Vault → Mikołaj (verify) -->
+  <path d="M 592 230 L 678 135" class="flow-arrow" />
+  <text x="648" y="175" class="flow-label" transform="rotate(30, 648, 175)">VERIFY</text>
+  
+  <!-- Mikołaj → vault (claims) -->
+  <path d="M 678 155 L 592 250" class="flow-arrow-dim" />
+  <text x="620" y="210" class="flow-label" style="fill:#444" transform="rotate(-30, 620, 210)">CLAIMS</text>
+  
+  <!-- Wiktoria → vault (decrees) -->
+  <path d="M 450 130 L 450 178" class="flow-arrow" />
+  <text x="458" y="158" class="flow-label">DECREES</text>
+  
+  <!-- Vault → Wiktoria (brief) -->
+  <path d="M 430 180 L 430 132" class="flow-arrow-dim" />
+  <text x="400" y="158" class="flow-label" style="fill:#444">BRIEF</text>
+  
+  <!-- Vault → Ewa (claims for narration) -->
+  <path d="M 308 380 L 220 445" class="flow-arrow" />
+  <text x="240" y="420" class="flow-label" transform="rotate(30, 240, 420)">NARRATE</text>
+  
+  <!-- Ewa → vault (podcast knowledge) -->
+  <path d="M 220 465 L 308 400" class="flow-arrow-dim" />
+  <text x="250" y="445" class="flow-label" style="fill:#444" transform="rotate(-30, 250, 445)">EXTRACT</text>
+  
+  <!-- Vault → Peter (synthesize) -->
+  <path d="M 450 420 L 450 468" class="flow-arrow" />
+  <text x="458" y="448" class="flow-label">SYNTHESIZE</text>
+  
+  <!-- Peter → vault (dossiers) -->
+  <path d="M 430 468 L 430 420" class="flow-arrow-dim" />
+  <text x="390" y="448" class="flow-label" style="fill:#444">DOSSIERS</text>
+  
+  <!-- Researcher → vault (external) -->
+  <path d="M 678 465 L 592 390" class="flow-arrow" />
+  <text x="648" y="420" class="flow-label" transform="rotate(30, 648, 420)">INTEL</text>
+  
+  <!-- Piotr → Wiktoria -->
+  <path d="M 450 35 L 450 58" class="flow-arrow-dim" />
+  
+  <!-- Wiktoria publishes externally -->
+  <text x="555" y="82" class="agent-role" style="fill:#da4444;">→ X · IG · WEB</text>
+  
+  <!-- ═══ CRON LABELS (right side) ═══ -->
+  <text x="20" y="560" class="room-label" style="fill:#444;">CRONS: */2h SIGNALS · */6h FEEDS · 2AM PODCAST · 3AM DREAM · 8AM BRIEF</text>
+  
+</svg>
