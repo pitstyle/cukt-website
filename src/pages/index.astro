@@ -116,7 +116,7 @@ const episodeCount = episodes.length;
 
       
       <div class="metabolism-diagram">
-        <img src="/metabolism-diagram.svg" alt="CUKTAI Information Metabolism — architectural diagram showing vault, 6 agents, and information routing" style="width:100%; max-width:900px; margin: 0 auto var(--space-xl); display:block;" />
+        <img src="/metabolism-diagram.svg" alt="CUKTAI Information Metabolism — architectural diagram showing vault, 6 agents, and information routing" class="diagram-img" id="metabolism-img" />
       </div>
       <div class="metabolism-flow">
         <div class="flow-step">
@@ -551,6 +551,12 @@ const episodeCount = episodes.length;
   @media(max-width:768px) { .chat-overlay{bottom:0;right:0;left:0} .chat-window{width:100%;max-height:60vh} }
 
 
+  
+  /* Diagram */
+  .diagram-img { width:100%; max-width:900px; margin:0 auto var(--space-xl); display:block; cursor:pointer; transition: transform 0.3s; }
+  .diagram-img.enlarged { position:fixed; top:0; left:0; width:100vw; height:100vh; max-width:none; object-fit:contain; z-index:999; background:rgba(0,0,0,0.95); margin:0; padding:2rem; box-sizing:border-box; }
+  @media(max-width:768px) { .diagram-img { cursor:zoom-in; } }
+
   /* METABOLISM */
   .metabolism-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
   .metabolism-flow { display: flex; flex-direction: column; gap: 0; margin-bottom: var(--space-xl); }
@@ -638,6 +644,14 @@ const episodeCount = episodes.length;
   }
 
   setTimeout(async () => { await updateFeed(); setInterval(updateFeed, 6000); }, 2000);
+
+  
+  const diagImg = document.getElementById('metabolism-img');
+  if (diagImg) {
+    diagImg.addEventListener('click', () => {
+      diagImg.classList.toggle('enlarged');
+    });
+  }
 
   const statusEl = document.getElementById('status-system');
   if (statusEl) { setInterval(() => { statusEl.style.opacity = '0.3'; setTimeout(() => { statusEl.style.opacity = '1'; }, 200); }, 3000); }
