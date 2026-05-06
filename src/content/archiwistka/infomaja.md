@@ -176,3 +176,15 @@ AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
 3. **Op 1 z Bremen** → Piotr nie wie. Otwarte pytanie.
 4. **List przewozowy (IMG_6600.jpg)** → Piotr nie wie. Otwarte pytanie.
 
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **MOTOR TOTEM** — niemiecka formacja z Bremy. Czy ktoś z nich żyje? Czy istnieje archiwum MOTOR TOTEM w Bremie?
+
+- **Janek Koza (Trimigi)** — uczestnik INFOMAJI. Pytania: kim byli Trimigi? Jaka była ich rola?
+
