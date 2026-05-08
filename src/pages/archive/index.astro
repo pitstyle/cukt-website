@@ -2,26 +2,33 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-const projects = await getCollection('cukt');
-const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ?? 99));
+const docs = await getCollection('archiwistka');
+// Only show teczka type (not karta), sort by date
+const teczki = docs
+  .filter(d => d.data.type === 'teczka')
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
-<Base title="C.U.K.T. Archive — 23 Projects (1995-2001)" description="Complete archive of C.U.K.T. (Centralny Urzad Kultury Technicznej) — 23 art projects including Technopera, Testy na Cyborga, Antyelekcja, and more.">
+<Base title="CUKTAI Archive — Teczki Śledcze" description="Official investigation files of the Autonomous Bureau of Technical Culture. 13+ CUKT projects investigated by Archiwistka.">
   <section class="page-hero">
     <div class="container">
-      <h1 class="page-title" id="page-glitch" data-text="CUKT ARCHIVE" data-en="CUKT ARCHIVE" data-pl="ARCHIWUM CUKT">CUKT ARCHIVE</h1>
-      <p class="page-sub" data-en="23 PROJECTS / 1995–2001+" data-pl="23 PROJEKTY / 1995–2001+">23 PROJECTS / 1995–2001+</p>
+      <h1 class="page-title" id="page-glitch" data-text="ARCHIVE" data-en="ARCHIVE" data-pl="ARCHIWUM">ARCHIVE</h1>
+      <p class="page-sub" data-en="OFFICIAL INVESTIGATION FILES — TECZKI ŚLEDCZE" data-pl="OFICJALNE TECZKI ŚLEDCZE URZĘDU">OFFICIAL INVESTIGATION FILES — TECZKI ŚLEDCZE</p>
+      <p class="page-desc" data-en="Each project investigated by Archiwistka following official bureau protocol. Evidence, contradictions, open questions, white spaces. These are living documents — updated as new material is discovered." data-pl="Każdy projekt zbadany przez Archiwistkę zgodnie z protokołem urzędu. Dowody, sprzeczności, pytania otwarte, białe plamy. To żywe dokumenty — aktualizowane w miarę odkrywania nowych materiałów.">Each project investigated by Archiwistka following official bureau protocol. Evidence, contradictions, open questions, white spaces. These are living documents — updated as new material is discovered.</p>
     </div>
   </section>
 
   <section class="archive-list">
     <div class="container">
       <div class="grid-projects">
-        {sorted.map((project, i) => (
-          <a href={`/archive/${project.id}`} class="project-card">
-            <span class="card-number">{String(i + 1).padStart(2, '0')}</span>
-            <h3>{project.data.title}</h3>
-            <p class="meta">{project.data.date}</p>
+        {teczki.map((doc, i) => (
+          <a href={`/archive/${doc.id}`} class="project-card">
+            <div class="card-top">
+              <span class="card-number">{String(i + 1).padStart(2, '0')}</span>
+              <span class={`card-status ${doc.data.status === 'COMPLETE' ? 'complete' : 'progress'}`}>{doc.data.status}</span>
+            </div>
+            <h3>{doc.data.title}</h3>
+            <p class="meta">{doc.data.date}</p>
           </a>
         ))}
       </div>
@@ -30,125 +37,31 @@ const sorted = projects.sort((a, b) => (a.data.number ?? 99) - (b.data.number ??
 </Base>
 
 <style>
-  .page-hero {
-    padding: 6vw 0 4vw;
-    border-bottom: 1px solid var(--border);
-    overflow: hidden;
-  }
+  .page-hero { padding: 6vw 0 3vw; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .page-title { font-size: 10vw; font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.9; position: relative; }
+  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
+  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
+  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
+  @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
+  @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
+  .page-sub { font-size: 1.2vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
+  .page-desc { font-size: 0.85rem; color: var(--white-dim); margin-top: var(--space-md); max-width: 72ch; line-height: 1.8; }
 
-  .page-title {
-    font-size: 10vw;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-    color: var(--red);
-    line-height: 0.9;
-    position: relative;
-  }
+  .archive-list { padding: var(--space-xl) 0; }
 
-  .page-title::before,
-  .page-title::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-xs); }
+  .card-number { color: var(--red-dim); font-size: 0.7rem; letter-spacing: 0.1em; }
+  .card-status { font-size: 0.6rem; letter-spacing: 0.15em; padding: 2px 6px; border: 1px solid; }
+  .card-status.complete { color: var(--green); border-color: var(--green-dim); }
+  .card-status.progress { color: var(--red); border-color: var(--red-dim); }
+  .project-card h3 { color: var(--white); }
 
-  .page-title::before {
-    color: var(--green);
-    animation: page-glitch-1 8s infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-    opacity: 0;
-  }
-
-  .page-title::after {
-    color: var(--white);
-    animation: page-glitch-2 6s infinite 2s;
-    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-    opacity: 0;
-  }
-
-  @keyframes page-glitch-1 {
-    0%, 95% { opacity: 0; transform: translate(0); }
-    96% { opacity: 0.6; transform: translate(-2px, 1px); }
-    97% { opacity: 0.4; transform: translate(2px, -1px); }
-    98% { opacity: 0.7; transform: translate(-1px, -1px); }
-    99%, 100% { opacity: 0; transform: translate(0); }
-  }
-
-  @keyframes page-glitch-2 {
-    0%, 93% { opacity: 0; transform: translate(0); }
-    94% { opacity: 0.5; transform: translate(2px, -2px); }
-    95% { opacity: 0.3; transform: translate(-2px, 1px); }
-    96% { opacity: 0.6; transform: translate(1px, -1px); }
-    97%, 100% { opacity: 0; transform: translate(0); }
-  }
-
-  .page-sub {
-    font-size: 1.5vw;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    color: var(--white-dim);
-    margin-top: var(--space-md);
-  }
-
-  .archive-list {
-    padding: var(--space-xl) 0;
-  }
-
-  .card-number {
-    color: var(--red-dim);
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    display: block;
-    margin-bottom: var(--space-xs);
-  }
-
-  .project-card h3 {
-    color: var(--white);
-  }
-
-  @media (max-width: 768px) {
-    .page-title { font-size: 14vw; }
-    .page-sub { font-size: 3vw; }
-  }
+  @media (max-width: 768px) { .page-title{font-size:14vw;} .page-sub{font-size:3vw;} }
 </style>
 
 <script>
-  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
-
-  function scramble(el: Element, finalText: string, duration = 1200) {
-    const len = finalText.length;
-    let frame = 0;
-    const totalFrames = duration / 30;
-    const interval = setInterval(() => {
-      let result = '';
-      for (let i = 0; i < len; i++) {
-        const progress = frame / totalFrames;
-        const charProgress = i / len;
-        if (progress > charProgress + 0.3) result += finalText[i];
-        else result += chars[Math.floor(Math.random() * chars.length)];
-      }
-      el.textContent = result;
-      frame++;
-      if (frame > totalFrames) { el.textContent = finalText; clearInterval(interval); }
-    }, 30);
-  }
-
-  const title = document.getElementById('page-glitch');
-  if (title) {
-    const text = title.textContent || '';
-    setTimeout(() => scramble(title, text, 1000), 200);
-    setInterval(() => scramble(title, title.getAttribute('data-text') || text, 600), 12000 + Math.random() * 8000);
-  }
-
-  const lang = localStorage.getItem('cuktai-lang') || 'en';
-  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
-    const text = el.getAttribute(`data-${lang}`);
-    if (text) {
-      el.textContent = text;
-      if (el.hasAttribute('data-text')) el.setAttribute('data-text', text);
-    }
-  });
+  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
+  function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
+  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);setInterval(()=>scramble(t,t.getAttribute('data-text')||tx,600),12000+Math.random()*8000);}
+  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v){el.textContent=v;if(el.hasAttribute('data-text'))el.setAttribute('data-text',v);}});
 </script>

@@ -3,38 +3,29 @@ import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const projects = await getCollection('cukt');
-  return projects.map((project) => ({
-    params: { id: project.id },
-    props: { project },
+  const docs = await getCollection('archiwistka');
+  return docs.map((doc) => ({
+    params: { id: doc.id },
+    props: { doc },
   }));
 }
 
-const { project } = Astro.props;
-const { Content } = await render(project);
+const { doc } = Astro.props;
+const { Content } = await render(doc);
+const isTeczka = doc.data.type === 'teczka';
+const typeLabel = isTeczka ? 'TECZKA SLEDCZA' : 'KARTA PROJEKTU';
+const accentColor = isTeczka ? 'red' : 'green';
 ---
 
-<Base title={`${project.data.title} — C.U.K.T. Archive`} description={project.data.description || `${project.data.title} — C.U.K.T. project${project.data.date ? ` (${project.data.date})` : ''}${project.data.authors ? ` by ${project.data.authors}` : ''}.`}>
-
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": project.data.title,
-    "url": `https://cukt.click/archive/${project.id}/`,
-    "dateCreated": project.data.date || undefined,
-    "creator": (project.data.authors || "Piotr Wyrzykowski, Robert Jurkowski, Adam Popek").split(",").map((a: string) => ({ "@type": "Person", "name": a.trim() })),
-    "description": project.data.description || `C.U.K.T. project — ${project.data.title}`,
-    "isPartOf": { "@type": "CreativeWorkSeries", "name": "C.U.K.T. Archive", "url": "https://cukt.click/archive/" },
-    "keywords": project.data.tags || []
-  })} />
-
+<Base title={`${doc.data.title} -- ${typeLabel}`} description={`Official CUKTAI investigation file: ${doc.data.title}`}>
   <section class="page-hero">
     <div class="container">
       <a href="/archive" class="back" data-en="&larr; ARCHIVE" data-pl="&larr; ARCHIWUM">&larr; ARCHIVE</a>
-      <h1 class="page-title" id="page-glitch" data-text={project.data.title}>{project.data.title}</h1>
+      <div class={`doc-type-badge ${accentColor}`}>{typeLabel}</div>
+      <h1 class="page-title" id="page-glitch" data-text={doc.data.title}>{doc.data.title}</h1>
       <div class="meta-row">
-        {project.data.date && <span class="meta-item">{project.data.date}</span>}
-        {project.data.authors && <span class="meta-item">{project.data.authors}</span>}
+        <span class="meta-item">{doc.data.date}</span>
+        <span class={`meta-status ${accentColor}`}>{doc.data.status}</span>
       </div>
     </div>
   </section>
@@ -44,145 +35,53 @@ const { Content } = await render(project);
       <div class="project-body">
         <Content />
       </div>
-
-      {project.data.tags && project.data.tags.length > 0 && (
-        <div class="project-tags">
-          {project.data.tags.map((tag: string) => (
-            <a href={`/tags/${tag}`} class="tag">#{tag}</a>
-          ))}
-        </div>
-      )}
     </div>
   </article>
 </Base>
 
 <style>
-  .page-hero {
-    padding: 4vw 0 3vw;
-    border-bottom: 1px solid var(--border);
-    overflow: hidden;
-  }
-
-  .back {
-    font-size: 0.8rem;
-    color: var(--white-dim);
-    display: inline-block;
-    margin-bottom: var(--space-lg);
-    letter-spacing: 0.1em;
-  }
+  .page-hero { padding: 4vw 0 3vw; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .back { font-size: 0.8rem; color: var(--white-dim); display: inline-block; margin-bottom: var(--space-md); letter-spacing: 0.1em; }
   .back:hover { color: var(--white); }
-
-  .page-title {
-    font-size: 6vw;
-    font-weight: 800;
-    letter-spacing: 0.03em;
-    color: var(--red);
-    line-height: 0.9;
-    position: relative;
-    margin-bottom: var(--space-md);
-  }
-
-  .page-title::before,
-  .page-title::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-  }
-
-  .page-title::before {
-    color: var(--green);
-    animation: pg1 8s infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-    opacity: 0;
-  }
-
-  .page-title::after {
-    color: var(--white);
-    animation: pg2 6s infinite 2s;
-    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-    opacity: 0;
-  }
-
+  .doc-type-badge { display: inline-block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; padding: 4px 12px; margin-bottom: var(--space-md); border: 1px solid; }
+  .doc-type-badge.green { color: var(--green); border-color: var(--green-dim); }
+  .doc-type-badge.red { color: var(--red); border-color: var(--red-dim); }
+  .page-title { font-size: 6vw; font-weight: 800; letter-spacing: 0.03em; color: var(--red); line-height: 0.9; position: relative; margin-bottom: var(--space-md); }
+  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
+  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
+  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
   @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
   @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
-
-  .meta-row {
-    display: flex;
-    gap: var(--space-lg);
-    flex-wrap: wrap;
-  }
-
-  .meta-item {
-    color: var(--white-dim);
-    font-size: 0.85rem;
-  }
-
+  .meta-row { display: flex; gap: var(--space-lg); flex-wrap: wrap; align-items: center; }
+  .meta-item { color: var(--white-dim); font-size: 0.85rem; }
+  .meta-status { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; padding: 2px 8px; border: 1px solid; }
+  .meta-status.green { color: var(--green); border-color: var(--green-dim); }
+  .meta-status.red { color: var(--red); border-color: var(--red-dim); }
   .project { padding: var(--space-xl) 0; }
-
-  .project-body {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    line-height: 1.8;
-  }
-
+  .project-body { font-family: var(--font-mono); font-size: 0.85rem; line-height: 1.8; }
   .project-body :global(h1) { display: none; }
-
-  .project-body :global(h2) {
-    color: var(--red);
-    font-family: var(--font-mono);
-    margin-top: var(--space-xl);
-    margin-bottom: var(--space-md);
-    font-size: 1.3rem;
-  }
-
-  .project-body :global(h3) {
-    color: var(--white);
-    font-family: var(--font-mono);
-    margin-top: var(--space-lg);
-    margin-bottom: var(--space-sm);
-  }
-
-  .project-body :global(table) {
-    width: 100%;
-    border-collapse: collapse;
-    margin: var(--space-md) 0;
-    font-size: 0.8rem;
-  }
-
-  .project-body :global(th),
-  .project-body :global(td) {
-    border: 1px solid var(--border);
-    padding: var(--space-sm);
-    text-align: left;
-  }
-
-  .project-body :global(th) {
-    background: var(--bg-lighter);
-    color: var(--white-dim);
-  }
-
-  .project-body :global(img) {
-    margin: var(--space-lg) 0;
-    border: 1px solid var(--border);
-  }
-
-  .project-tags {
-    margin-top: var(--space-xl);
-    padding-top: var(--space-lg);
-    border-top: 1px solid var(--border);
-  }
-
-  @media (max-width: 768px) {
-    .page-title { font-size: 10vw; }
-  }
+  .project-body :global(h2) { color: var(--red); font-family: var(--font-mono); margin-top: var(--space-xl); margin-bottom: var(--space-md); font-size: 1.3rem; }
+  .project-body :global(h3) { color: var(--white); font-family: var(--font-mono); margin-top: var(--space-lg); margin-bottom: var(--space-sm); }
+  .project-body :global(strong) { color: var(--white); }
+  .project-body :global(ul), .project-body :global(ol) { padding-left: var(--space-lg); margin-bottom: var(--space-md); }
+  .project-body :global(li) { margin-bottom: var(--space-xs); }
+  .project-body :global(pre:first-of-type) { color: var(--red); font-size: 0.55rem; line-height: 1.15; letter-spacing: 0.02em; border: 1px solid var(--red-dim); padding: var(--space-md); margin-bottom: var(--space-lg); background: rgba(180, 30, 30, 0.05); overflow-x: auto; text-align: center; }
+  .project-body :global(pre:last-of-type) { color: var(--white-dim); font-size: 0.75rem; border: none; border-top: 1px solid var(--border); padding: var(--space-md) 0; margin-top: var(--space-xl); background: none; text-align: right; }
+  .project-body :global(hr) { border: none; border-top: 2px solid var(--red-dim); margin: var(--space-xl) 0; opacity: 0.4; }
+  .project-body :global(table) { width: 100%; border-collapse: collapse; margin: var(--space-md) 0; font-size: 0.8rem; }
+  .project-body :global(th), .project-body :global(td) { border: 1px solid var(--border); padding: var(--space-sm); text-align: left; }
+  .project-body :global(td:first-child) { width: 160px; color: var(--white-dim); font-weight: 400; white-space: nowrap; }
+  .project-body :global(td:last-child) { color: var(--white); }
+  .project-body :global(th) { display: none; }
+  .project-body :global(blockquote) { border-left: 3px solid var(--red); padding-left: var(--space-md); margin: var(--space-md) 0; color: var(--white-dim); font-style: normal; }
+  .project-body :global(a) { color: var(--green); text-decoration: none; border-bottom: 1px solid var(--green-dim); }
+  .project-body :global(a:hover) { color: var(--white); border-color: var(--white); }
+  @media (max-width: 768px) { .page-title{font-size:10vw;} .project-body :global(pre:first-of-type){font-size:0.35rem;padding:var(--space-sm);} }
 </style>
 
 <script>
   const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
   function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
-  const t=document.getElementById('page-glitch');
-  if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);setInterval(()=>scramble(t,t.getAttribute('data-text')||tx,600),12000+Math.random()*8000);}
-  const lang=localStorage.getItem('cuktai-lang')||'en';
-  document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v)el.innerHTML=v;});
+  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);setInterval(()=>scramble(t,t.getAttribute('data-text')||tx,600),12000+Math.random()*8000);}
+  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v)el.innerHTML=v;});
 </script>
