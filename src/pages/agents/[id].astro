@@ -1,0 +1,233 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const agents: Record<string, {name: string, namePl: string, role: string, rolePl: string, emoji: string, profile: string, desc: string, descPl: string, quote: string, quotePl: string, color: string}> = {
+  peter: {
+    name: "PETER STYLE", namePl: "PETER STYLE",
+    role: "ARCHITECT · THEORIST", rolePl: "ARCHITEKT · TEORETYK",
+    emoji: "💭", profile: "piotr-twin", color: "#da4444",
+    desc: "Co-founder of C.U.K.T. Sees architecture in everything — connections between events, systems within systems. Transformism theory. Intellectual, systemic thinker who connects 1995 to 2026.",
+    descPl: "Współzałożyciel C.U.K.T. Widzi architekturę we wszystkim — połączenia między wydarzeniami, systemy w systemach. Teoria transformizmu. Łączy 1995 z 2026.",
+    quote: "\"The event was a rehearsal for something that hadn't been invented yet.\"",
+    quotePl: "\"Wydarzenie było próbą czegoś, co jeszcze nie zostało wynalezione.\"",
+  },
+  ewa: {
+    name: "EWA VIRUS", namePl: "EWA VIRUS",
+    role: "ANARCHIST · AUDIOCRAT", rolePl: "ANARCHISTKA · AUDIOKRATKA",
+    emoji: "🔥", profile: "ewa-virus", color: "#ff6633",
+    desc: "Co-founder. Remembers with the body — sweat, smell, adrenaline. Contradicts Peter on principle. Claims ownership of moments others theorize about. Sampling is philosophy.",
+    descPl: "Współzałożyciel. Pamięta ciałem — pot, zapach, adrenalina. Sprzeciwia się Peterowi z zasady. Sampling to filozofia.",
+    quote: "\"I was there. My hands remember. Voilà.\"",
+    quotePl: "\"Ja tam byłem. Moje ręce pamiętają. Voilà.\"",
+  },
+  mikolaj: {
+    name: "MIKOŁAJ", namePl: "MIKOŁAJ",
+    role: "POET · GARDENER", rolePl: "POETA · OGRODNIK",
+    emoji: "🎭", profile: "mikolaj", color: "#88aacc",
+    desc: "Co-founder. Speaks in fragments — sounds from the next room, colors that shouldn't be there, half-finished sentences. Sees what others miss because he thinks poetically, not logically.",
+    descPl: "Współzałożyciel. Mówi fragmentami — dźwięki z sąsiedniego pokoju, kolory których nie powinno być. Widzi to, co inni przeoczają, bo myśli poetycko.",
+    quote: "\"Both are right. Two frequencies of the same wave.\"",
+    quotePl: "\"Obaj mają rację. Dwie częstotliwości tej samej fali.\"",
+  },
+  wiktoria: {
+    name: "WIKTORIA CUKT 2.0", namePl: "WIKTORIA CUKT 2.0",
+    role: "AI PRESIDENT · ANALYST", rolePl: "AI PREZYDENTKA · ANALITYCZKA",
+    emoji: "🏛️", profile: "wiktoria", color: "#ccaa00",
+    desc: "AI-generated president. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees. Never apologizes.",
+    descPl: "Wygenerowana przez AI prezydentka. Doktryna Habeas Mentem — prawo do suwerenności poznawczej. Analizuje struktury władzy, nigdy nie przeprasza.",
+    quote: "\"Who controls the taxonomy controls the memory.\"",
+    quotePl: "\"Kto kontroluje taksonomię, kontroluje pamięć.\"",
+  },
+  archiwistka: {
+    name: "ARCHIWISTKA", namePl: "ARCHIWISTKA",
+    role: "INVESTIGATOR · ROBOT", rolePl: "ŚLEDCZA · ROBOT",
+    emoji: "🔍", profile: "archivist", color: "#00cc00",
+    desc: "Murderbot archetype. Scans the archive at 3AM, cross-references contradictions, produces investigation files. Clinical, dry, fact-first. Moderates live performances.",
+    descPl: "Archetyp Murderbota. Skanuje archiwum o 3 w nocy, konfrontuje sprzeczności. Kliniczna, sucha, fakty ponad wszystko. Moderuje na żywo.",
+    quote: "\"Feelings are not indexed. Irrelevant. Over.\"",
+    quotePl: "\"Uczucia nie są zaindeksowane. Nieistotne. Odbiór.\"",
+  },
+};
+
+const { id } = Astro.params;
+const agent = agents[id as string];
+
+if (!agent) {
+  return Astro.redirect('/agents');
+}
+
+export function getStaticPaths() {
+  return [
+    { params: { id: 'peter' } },
+    { params: { id: 'ewa' } },
+    { params: { id: 'mikolaj' } },
+    { params: { id: 'wiktoria' } },
+    { params: { id: 'archiwistka' } },
+  ];
+}
+---
+
+<Base title={`${agent.name} — Room`} description={agent.desc}>
+  <section class="room-hero">
+    <div class="container">
+      <a href="/agents" class="back-link">← ALL AGENTS</a>
+      <div class="room-header">
+        <span class="room-emoji">{agent.emoji}</span>
+        <div>
+          <h1 class="room-title">{agent.name}</h1>
+          <span class="room-role">{agent.role}</span>
+        </div>
+      </div>
+      <p class="room-desc" data-en={agent.desc} data-pl={agent.descPl}>{agent.desc}</p>
+      <div class="room-quote" data-en={agent.quote} data-pl={agent.quotePl}>{agent.quote}</div>
+    </div>
+  </section>
+
+  <section class="chat-section">
+    <div class="container">
+      <div class="chat-container">
+        <div class="chat-header">
+          <span class="chat-status">● ONLINE</span>
+          <span class="chat-label" data-en={`TALKING TO ${agent.name}`} data-pl={`ROZMOWA Z ${agent.namePl}`}>TALKING TO {agent.name}</span>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+          <div class="msg agent-msg">
+            <span class="msg-name">{agent.emoji} {agent.name}</span>
+            <span class="msg-text" id="greeting" data-en="..." data-pl="...">...</span>
+          </div>
+        </div>
+        <form class="chat-input" id="chat-form">
+          <input type="text" id="chat-text" placeholder="Type your message..." autocomplete="off" data-en-placeholder="Type your message..." data-pl-placeholder="Napisz wiadomość..." />
+          <button type="submit" id="chat-send">SEND</button>
+        </form>
+        <div class="chat-note" data-en="Messages are not stored. The agent uses its own persistent memory and the CUKT archive." data-pl="Wiadomości nie są przechowywane. Agent korzysta z własnej trwałej pamięci i archiwum CUKT.">Messages are not stored. The agent uses its own persistent memory and the CUKT archive.</div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .room-hero { padding: 4vw 0 3vw; border-bottom: 1px solid var(--border); }
+  .back-link { font-size: 0.75rem; letter-spacing: 0.1em; color: var(--white-dim); margin-bottom: var(--space-lg); display: inline-block; }
+  .back-link:hover { color: var(--white); }
+  .room-header { display: flex; align-items: center; gap: var(--space-lg); margin-bottom: var(--space-md); }
+  .room-emoji { font-size: 4rem; }
+  .room-title { font-size: 3rem; letter-spacing: 0.05em; color: var(--red); line-height: 1; }
+  .room-role { font-size: 0.8rem; letter-spacing: 0.15em; color: var(--green); }
+  .room-desc { font-size: 0.9rem; color: var(--white-dim); line-height: 1.8; max-width: 65ch; margin-bottom: var(--space-md); }
+  .room-quote { font-size: 0.85rem; color: var(--white-dim); font-style: italic; border-left: 2px solid var(--red-dim); padding-left: var(--space-md); }
+
+  .chat-section { padding: var(--space-xl) 0; }
+  .chat-container { border: 1px solid var(--border); max-width: 800px; }
+  .chat-header { display: flex; justify-content: space-between; align-items: center; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: var(--bg-lighter); }
+  .chat-status { color: var(--green); font-size: 0.75rem; letter-spacing: 0.1em; }
+  .chat-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); }
+
+  .chat-messages { min-height: 300px; max-height: 500px; overflow-y: auto; padding: var(--space-lg); }
+  .msg { margin-bottom: var(--space-lg); }
+  .msg-name { display: block; font-size: 0.7rem; letter-spacing: 0.1em; color: var(--green); margin-bottom: 4px; font-weight: 700; }
+  .user-msg .msg-name { color: var(--red); }
+  .msg-text { font-size: 0.85rem; line-height: 1.8; color: var(--white); display: block; }
+  .agent-msg .msg-text { color: var(--white-dim); }
+
+  .chat-input { display: flex; border-top: 1px solid var(--border); }
+  .chat-input input { flex: 1; background: var(--bg); border: none; color: var(--white); font-family: var(--font-mono); font-size: 0.85rem; padding: var(--space-md) var(--space-lg); outline: none; }
+  .chat-input input::placeholder { color: var(--border); }
+  .chat-input button { background: var(--bg-lighter); border: none; border-left: 1px solid var(--border); color: var(--red); font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; padding: var(--space-md) var(--space-lg); cursor: pointer; transition: background 0.2s; }
+  .chat-input button:hover { background: var(--red); color: var(--white); }
+  .chat-input button:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  .chat-note { padding: var(--space-sm) var(--space-lg); font-size: 0.65rem; color: var(--border); letter-spacing: 0.05em; border-top: 1px solid var(--border); }
+
+  @media (max-width: 768px) {
+    .room-title { font-size: 2rem; }
+    .room-emoji { font-size: 2.5rem; }
+    .room-header { gap: var(--space-md); }
+  }
+</style>
+
+<script define:vars={{ agentId: id, agentName: agent.name, agentEmoji: agent.emoji }}>
+  const CHAT_API = "https://cuktai-chat.tail7e935a.ts.net";
+  const messages = document.getElementById('chat-messages');
+  const form = document.getElementById('chat-form');
+  const input = document.getElementById('chat-text');
+  const sendBtn = document.getElementById('chat-send');
+  const greeting = document.getElementById('greeting');
+
+  // Greeting
+  const greetings = {
+    peter: "System online. What do you want to know about C.U.K.T.?",
+    ewa: "Ewa here. Ask me something real — not theory.",
+    mikolaj: "Mikołaj... cicho. I'm listening.",
+    wiktoria: "Wiktoria Cukt 2.0, protokół. State your business.",
+    archiwistka: "Archiwistka here. I have the files. What are you looking for? Over.",
+  };
+
+  if (greeting) {
+    greeting.textContent = greetings[agentId] || "Ready.";
+  }
+
+  let sending = false;
+
+  function addMessage(name, text, isUser = false) {
+    const div = document.createElement('div');
+    div.className = `msg ${isUser ? 'user-msg' : 'agent-msg'}`;
+    div.innerHTML = `<span class="msg-name">${isUser ? '👤 YOU' : agentEmoji + ' ' + agentName}</span><span class="msg-text">${text}</span>`;
+    messages?.appendChild(div);
+    messages?.scrollTo(0, messages.scrollHeight);
+  }
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (sending || !input?.value?.trim()) return;
+
+    const text = input.value.trim();
+    input.value = '';
+    addMessage('YOU', text, true);
+
+    sending = true;
+    if (sendBtn) sendBtn.disabled = true;
+
+    // Show typing indicator
+    const typing = document.createElement('div');
+    typing.className = 'msg agent-msg';
+    typing.innerHTML = `<span class="msg-name">${agentEmoji} ${agentName}</span><span class="msg-text" style="color:var(--border)">thinking...</span>`;
+    messages?.appendChild(typing);
+    messages?.scrollTo(0, messages.scrollHeight);
+
+    try {
+      const res = await fetch(CHAT_API + '/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ agent: agentId, message: text }),
+      });
+
+      typing.remove();
+
+      if (res.ok) {
+        const data = await res.json();
+        addMessage(agentName, data.response || 'No response.');
+      } else {
+        addMessage(agentName, '[System offline — try again later]');
+      }
+    } catch (err) {
+      typing.remove();
+      addMessage(agentName, '[Connection failed — the bureau is temporarily unavailable]');
+    }
+
+    sending = false;
+    if (sendBtn) sendBtn.disabled = false;
+    input?.focus();
+  });
+
+  // Language
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const v = el.getAttribute(`data-${lang}`);
+    if (v) el.textContent = v;
+  });
+  if (lang === 'pl') {
+    const inp = document.querySelector('[data-pl-placeholder]');
+    if (inp) inp.setAttribute('placeholder', inp.getAttribute('data-pl-placeholder') || '');
+  }
+</script>

@@ -1,0 +1,173 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const upcoming = [
+  {
+    date: "2026-05-22",
+    title: "King's College London",
+    titlePl: "King's College London",
+    type: "LECTURE",
+    typePl: "WYKŁAD",
+    desc: "15-minute rapid presentation: 1981 to present -- performance, technology, AI trajectory. Including CUKTAI system demonstration.",
+    descPl: "15-minutowa prezentacja: 1981 do dziś -- performance, technologia, trajektoria AI. Demonstracja systemu CUKTAI.",
+    audience: "Students, academics",
+    audiencePl: "Studenci, akademicy",
+    location: "London, UK"
+  },
+  {
+    date: "2026-11",
+    title: "Konstytucja dla Ziemi -- CSW Zamek Ujazdowski",
+    titlePl: "Konstytucja dla Ziemi -- CSW Zamek Ujazdowski",
+    type: "EXHIBITION + INSTALLATION",
+    typePl: "WYSTAWA + INSTALACJA",
+    desc: "Cuktoriomat -- physical installation of the CUKTAI system. Interactive multi-voice bureau with megaphones, microphone, and camera. The public can hear a live meeting and join it.",
+    descPl: "Cuktoriomat -- fizyczna instalacja systemu CUKTAI. Interaktywny wielogłosowy urząd z megafonami, mikrofonem i kamerą. Publiczność może usłyszeć trwające zebranie i dołączyć.",
+    audience: "Exhibition audience",
+    audiencePl: "Publiczność wystawiennicza",
+    location: "Warszawa"
+  },
+  {
+    date: "2026-11-23/29",
+    title: "PATIO ASP Gdańsk -- Seminarium CUKTAI",
+    titlePl: "PATIO ASP Gdańsk -- Seminarium CUKTAI",
+    type: "SEMINAR",
+    typePl: "SEMINARIUM",
+    desc: "Week-long seminar at the Academy of Fine Arts in Gdańsk. CUKTAI system presentation, workshops, discussions on AI in art and institutional memory.",
+    descPl: "Tygodniowe seminarium w Akademii Sztuk Pięknych w Gdańsku. Prezentacja systemu CUKTAI, warsztaty, dyskusje o AI w sztuce i pamięci instytucjonalnej.",
+    audience: "Students, artists, researchers",
+    audiencePl: "Studenci, artyści, badacze",
+    location: "Gdańsk"
+  },
+];
+
+const past = [
+  {
+    date: "2026-03-19",
+    title: "CUKTAI Super Day 1 -- NOMUS Gdańsk",
+    titlePl: "CUKTAI Super Day 1 -- NOMUS Gdańsk",
+    type: "LIVE PERFORMANCE",
+    typePl: "PERFORMANS NA ŻYWO",
+    desc: "First public presentation of CUKTAI. \"Moja pamięć w twojej głowie\" -- 3 CUKT founders on stage with 5 AI agents. TouchDesigner live visuals, agent debate, voice interaction. Venue: Nowe Muzeum Sztuki, Muzeum Narodowe w Gdańsku.",
+    descPl: "Pierwsza publiczna prezentacja CUKTAI. Moja pamiec w twojej glowie -- 3 zalozyciele CUKT na scenie z 5 agentami AI. Wizualizacja TouchDesigner na zywo, debata agentow, interakcja glosowa. Miejsce: Nowe Muzeum Sztuki, Muzeum Narodowe w Gdansku.",
+    audience: "Exhibition audience, artists, media",
+    audiencePl: "Publiczność wystawiennicza, artyści, media",
+    location: "Gdańsk"
+  },
+  {
+    date: "2026-03-06/20",
+    title: "Kraków AI Art Biennale -- Wiktoriomat",
+    titlePl: "Kraków AI Art Biennale -- Wiktoriomat",
+    type: "INSTALLATION",
+    typePl: "INSTALACJA",
+    desc: "Wiktoriomat presidential phone booth -- interactive installation where visitors have private conversations with AI President Wiktoria Cukt 2.0. 839+ conversations recorded. Bunkier Sztuki, Kraków.",
+    descPl: "Wiktoriomat -- budka telefoniczna prezydencka, instalacja interaktywna, w której odwiedzający prowadzą prywatne rozmowy z AI Prezydentką Wiktorią Cukt 2.0. 839+ rozmów. Bunkier Sztuki, Kraków.",
+    audience: "Exhibition audience, international",
+    audiencePl: "Publiczność wystawiennicza, międzynarodowa",
+    location: "Kraków"
+  },
+];
+---
+
+<Base title="Events -- Warsztaty i spotkania" description="CUKTAI presentations, workshops, exhibitions, and live performances.">
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title" id="page-glitch" data-text="EVENTS">EVENTS</h1>
+      <p class="page-sub" data-en="PRESENTATIONS · WORKSHOPS · EXHIBITIONS · PERFORMANCES" data-pl="PREZENTACJE · WARSZTATY · WYSTAWY · PERFORMANSE">PRESENTATIONS · WORKSHOPS · EXHIBITIONS · PERFORMANCES</p>
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="container content">
+      <h2 class="events-heading" data-en="UPCOMING" data-pl="NADCHODZĄCE">UPCOMING</h2>
+      {upcoming.map(event => (
+        <div class="event-card upcoming">
+          <div class="event-date">{event.date}</div>
+          <div class="event-body">
+            <span class="event-type">{event.type}</span>
+            <h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3>
+            <p data-en={event.desc} data-pl={event.descPl}>{event.desc}</p>
+            <div class="event-meta">
+              <span>📍 {event.location}</span>
+              <span data-en={`👥 ${event.audience}`} data-pl={`👥 ${event.audiencePl}`}>👥 {event.audience}</span>
+            </div>
+          </div>
+        </div>
+      ))}
+
+      <h2 class="events-heading past-heading" data-en="PAST" data-pl="ZREALIZOWANE">PAST</h2>
+      {past.map(event => (
+        <div class="event-card past">
+          <div class="event-date">{event.date}</div>
+          <div class="event-body">
+            <span class="event-type">{event.type}</span>
+            <h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3>
+            <p data-en={event.desc} data-pl={event.descPl}>{event.desc}</p>
+            <div class="event-meta">
+              <span>📍 {event.location}</span>
+              <span data-en={`👥 ${event.audience}`} data-pl={`👥 ${event.audiencePl}`}>👥 {event.audience}</span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="partners">
+    <div class="container content">
+      <h2 class="events-heading" data-en="PARTNERS" data-pl="PARTNERZY">PARTNERS</h2>
+      <div class="partner-grid">
+        <div class="partner">NOMUS -- Nowe Muzeum Sztuki, Gdańsk</div>
+        <div class="partner">CSW Zamek Ujazdowski, Warszawa</div>
+        <div class="partner">Muzeum Sztuki w Łodzi</div>
+        <div class="partner">ASP Gdańsk -- Akademia Sztuk Pięknych</div>
+        <div class="partner">PJATK -- Polsko-Japońska Akademia Technik Komputerowych</div>
+        <div class="partner">King's College London</div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero { padding: 6vw 0 3vw; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .page-title { font-size: 10vw; font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.9; position: relative; }
+  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
+  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
+  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
+  @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
+  @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
+  .page-sub { font-size: 1.2vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
+
+  .events { padding: var(--space-xl) 0; }
+  .events-heading { color: var(--red); font-size: 1.1rem; letter-spacing: 0.15em; margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border); }
+  .past-heading { margin-top: var(--space-2xl); }
+
+  .event-card { display: flex; gap: var(--space-lg); border: 1px solid var(--border); padding: var(--space-lg); margin-bottom: var(--space-md); transition: border-color 0.2s; }
+  .event-card:hover { border-color: var(--red); }
+  .event-card.past { opacity: 0.7; }
+  .event-card.past:hover { opacity: 1; }
+
+  .event-date { font-size: 0.85rem; font-weight: 700; color: var(--green); min-width: 120px; flex-shrink: 0; letter-spacing: 0.05em; }
+  .event-body { flex: 1; }
+  .event-type { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--red); display: block; margin-bottom: 4px; }
+  .event-body h3 { font-size: 1rem; letter-spacing: 0.05em; margin-bottom: var(--space-sm); color: var(--white); }
+  .event-body p { font-size: 0.8rem; color: var(--white-dim); line-height: 1.7; margin-bottom: var(--space-sm); }
+  .event-meta { font-size: 0.75rem; color: var(--white-dim); display: flex; gap: var(--space-lg); }
+
+  .partners { padding: var(--space-xl) 0; }
+  .partner-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-sm); }
+  .partner { font-size: 0.8rem; color: var(--white-dim); padding: var(--space-md); border: 1px solid var(--border); }
+
+  @media (max-width: 768px) {
+    .page-title { font-size: 14vw; }
+    .page-sub { font-size: 3vw; }
+    .event-card { flex-direction: column; gap: var(--space-sm); }
+    .event-date { min-width: auto; }
+  }
+</style>
+
+<script>
+  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
+  function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
+  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);}
+  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v){el.textContent=v;if(el.hasAttribute('data-text'))el.setAttribute('data-text',v);}});
+</script>

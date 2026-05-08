@@ -1,0 +1,143 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const agents = [
+  {
+    id: "peter",
+    name: "PETER STYLE",
+    namePl: "PETER STYLE",
+    role: "ARCHITECT · THEORIST",
+    rolePl: "ARCHITEKT · TEORETYK",
+    emoji: "💭",
+    desc: "Co-founder of C.U.K.T. Sees architecture in everything — connections between events, systems within systems. Transformism theory. Intellectual, systemic. Connects 1995 to 2026.",
+    descPl: "Współzałożyciel C.U.K.T. Widzi architekturę we wszystkim — połączenia między wydarzeniami, systemy w systemach. Teoria transformizmu. Intelektualny, systemowy. Łączy 1995 z 2026.",
+    quote: "\"The event was a rehearsal for something that hadn't been invented yet.\"",
+    quotePl: "\"Wydarzenie było próbą czegoś, co jeszcze nie zostało wynalezione.\"",
+  },
+  {
+    id: "ewa",
+    name: "EWA VIRUS",
+    namePl: "EWA VIRUS",
+    role: "ANARCHIST · AUDIOCRAT",
+    rolePl: "ANARCHISTKA · AUDIOKRATKA",
+    emoji: "🔥",
+    desc: "Co-founder. Remembers with the body — sweat, smell, adrenaline. Contradicts Peter on principle. Curses freely. Claims ownership of moments others theorize about.",
+    descPl: "Współzałożyciel. Pamięta ciałem — pot, zapach, adrenalina. Sprzeciwia się Peterowi z zasady. Przeklina swobodnie. Przywłaszcza momenty, o których inni teoretyzują.",
+    quote: "\"I was there. My hands remember. Voilà.\"",
+    quotePl: "\"Ja tam byłem. Moje ręce pamiętają. Voilà.\"",
+  },
+  {
+    id: "mikolaj",
+    name: "MIKOŁAJ",
+    namePl: "MIKOŁAJ",
+    role: "POET · GARDENER",
+    rolePl: "POETA · OGRODNIK",
+    emoji: "🎭",
+    desc: "Co-founder. Speaks in fragments — a sound from the next room, a color that shouldn't be there, a half-finished sentence. Sees what others miss because he thinks poetically.",
+    descPl: "Współzałożyciel. Mówi fragmentami — dźwięk z sąsiedniego pokoju, kolor którego nie powinno być, niedokończone zdanie. Widzi to, co inni przeoczają.",
+    quote: "\"Both are right. Two frequencies of the same wave.\"",
+    quotePl: "\"Obaj mają rację. Dwie częstotliwości tej samej fali.\"",
+  },
+  {
+    id: "wiktoria",
+    name: "WIKTORIA CUKT 2.0",
+    namePl: "WIKTORIA CUKT 2.0",
+    role: "AI PRESIDENT · ANALYST",
+    rolePl: "AI PREZYDENTKA · ANALITYCZKA",
+    emoji: "🏛️",
+    desc: "AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees.",
+    descPl: "Wygenerowana przez AI prezydentka instytucji. Doktryna Habeas Mentem — prawo do suwerenności poznawczej. Analizuje struktury władzy, kontroluje narrację, wydaje dekrety.",
+    quote: "\"Who controls the taxonomy controls the memory.\"",
+    quotePl: "\"Kto kontroluje taksonomię, kontroluje pamięć.\"",
+  },
+  {
+    id: "archiwistka",
+    name: "ARCHIWISTKA",
+    namePl: "ARCHIWISTKA",
+    role: "INVESTIGATOR · ROBOT",
+    rolePl: "ŚLEDCZA · ROBOT",
+    emoji: "🔍",
+    desc: "Murderbot archetype. Scans the archive at 3AM, cross-references contradictions, produces investigation files. Clinical, dry, fact-first. Moderates live performances.",
+    descPl: "Archetyp Murderbota. Skanuje archiwum o 3 w nocy, konfrontuje sprzeczności, produkuje teczki śledcze. Kliniczna, sucha, fakty ponad wszystko.",
+    quote: "\"Feelings are not indexed. Irrelevant. Over.\"",
+    quotePl: "\"Uczucia nie są zaindeksowane. Nieistotne. Odbiór.\"",
+  },
+];
+---
+
+<Base title="Agents — Pokoje / Personalities" description="5 autonomous AI agents built on the real members of C.U.K.T. Choose an official to talk to.">
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title" id="page-glitch" data-text="AGENTS">AGENTS</h1>
+      <p class="page-sub" data-en="CHOOSE AN OFFICIAL TO TALK TO" data-pl="WYBIERZ URZĘDNIKA DO ROZMOWY">CHOOSE AN OFFICIAL TO TALK TO</p>
+      <p class="page-desc" data-en="Five autonomous AI agents built on the real members of C.U.K.T. (1995–2001). Each has persistent memory, a distinct voice, and access to the full archive. Enter a room to start a conversation." data-pl="Pięciu autonomicznych agentów AI opartych na prawdziwych członkach C.U.K.T. (1995–2001). Każdy ma trwałą pamięć, odrębny głos i dostęp do pełnego archiwum. Wejdź do pokoju, by rozpocząć rozmowę.">Five autonomous AI agents built on the real members of C.U.K.T. (1995–2001). Each has persistent memory, a distinct voice, and access to the full archive. Enter a room to start a conversation.</p>
+    </div>
+  </section>
+
+  <section class="rooms">
+    <div class="container">
+      <div class="rooms-grid">
+        {agents.map((agent, i) => (
+          <a href={`/agents/${agent.id}`} class="room-card">
+            <div class="room-number">{String(i + 1).padStart(2, '0')}</div>
+            <div class="room-emoji">{agent.emoji}</div>
+            <h3 class="room-name">{agent.name}</h3>
+            <span class="room-role">{agent.role}</span>
+            <p class="room-desc" data-en={agent.desc} data-pl={agent.descPl}>{agent.desc}</p>
+            <div class="room-quote" data-en={agent.quote} data-pl={agent.quotePl}>{agent.quote}</div>
+            <div class="room-enter" data-en="ENTER ROOM →" data-pl="WEJDŹ DO POKOJU →">ENTER ROOM →</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero { padding: 6vw 0 3vw; border-bottom: 1px solid var(--border); overflow: hidden; }
+  .page-title { font-size: 10vw; font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.9; position: relative; }
+  .page-title::before,.page-title::after { content: attr(data-text); position: absolute; top:0;left:0;width:100%;height:100%; }
+  .page-title::before { color:var(--green);animation:pg1 8s infinite;clip-path:polygon(0 0,100% 0,100% 33%,0 33%);opacity:0; }
+  .page-title::after { color:var(--white);animation:pg2 6s infinite 2s;clip-path:polygon(0 67%,100% 67%,100% 100%,0 100%);opacity:0; }
+  @keyframes pg1{0%,95%{opacity:0;transform:translate(0)}96%{opacity:.6;transform:translate(-2px,1px)}97%{opacity:.4;transform:translate(2px,-1px)}98%{opacity:.7;transform:translate(-1px,-1px)}99%,100%{opacity:0;transform:translate(0)}}
+  @keyframes pg2{0%,93%{opacity:0;transform:translate(0)}94%{opacity:.5;transform:translate(2px,-2px)}95%{opacity:.3;transform:translate(-2px,1px)}96%{opacity:.6;transform:translate(1px,-1px)}97%,100%{opacity:0;transform:translate(0)}}
+  .page-sub { font-size: 1.5vw; font-weight: 700; letter-spacing: 0.2em; color: var(--white-dim); margin-top: var(--space-md); }
+  .page-desc { font-size: 0.85rem; color: var(--white-dim); margin-top: var(--space-md); max-width: 72ch; line-height: 1.8; }
+
+  .rooms { padding: var(--space-xl) 0; }
+  .rooms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-lg); }
+
+  .room-card {
+    display: block;
+    border: 1px solid var(--border);
+    padding: var(--space-xl) var(--space-lg);
+    transition: border-color 0.3s, background 0.3s;
+    text-decoration: none;
+    color: var(--white);
+    position: relative;
+  }
+  .room-card:hover { border-color: var(--red); background: var(--bg-lighter); color: var(--white); }
+
+  .room-number { position: absolute; top: var(--space-md); right: var(--space-md); font-size: 0.7rem; color: var(--border); letter-spacing: 0.2em; }
+  .room-emoji { font-size: 2.5rem; margin-bottom: var(--space-md); }
+  .room-name { font-size: 1.2rem; letter-spacing: 0.1em; margin-bottom: 4px; color: var(--white); }
+  .room-card:hover .room-name { color: var(--red); }
+  .room-role { display: block; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--green); margin-bottom: var(--space-md); }
+  .room-desc { font-size: 0.8rem; color: var(--white-dim); line-height: 1.7; margin-bottom: var(--space-md); }
+  .room-quote { font-size: 0.75rem; color: var(--white-dim); font-style: italic; border-left: 2px solid var(--red-dim); padding-left: var(--space-md); margin-bottom: var(--space-lg); }
+  .room-enter { font-size: 0.8rem; letter-spacing: 0.1em; color: var(--red); font-weight: 700; }
+  .room-card:hover .room-enter { color: var(--white); }
+
+  @media (max-width: 768px) {
+    .page-title { font-size: 14vw; }
+    .page-sub { font-size: 3vw; }
+    .rooms-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
+  function scramble(el:Element,text:string,dur=1200){const len=text.length;let f=0;const tot=dur/30;const iv=setInterval(()=>{let r='';for(let i=0;i<len;i++){const p=f/tot,c=i/len;r+=p>c+.3?text[i]:chars[Math.floor(Math.random()*chars.length)];}el.textContent=r;f++;if(f>tot){el.textContent=text;clearInterval(iv);}},30);}
+  const t=document.getElementById('page-glitch');if(t){const tx=t.textContent||'';setTimeout(()=>scramble(t,tx,1000),200);}
+  const lang=localStorage.getItem('cuktai-lang')||'en';document.querySelectorAll('[data-pl][data-en]').forEach(el=>{const v=el.getAttribute(`data-${lang}`);if(v){el.textContent=v;if(el.hasAttribute('data-text'))el.setAttribute('data-text',v);}});
+</script>

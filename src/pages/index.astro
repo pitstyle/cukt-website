@@ -59,50 +59,55 @@ const episodeCount = episodes.length;
       <p class="section-intro">Five autonomous AI agents built on the real members of C.U.K.T. (Centralny Urząd Kultury Technicznej) — an art collective active since 1995 in Gdańsk, Poland. Each agent has persistent memory, a distinct voice, and access to the full archive. They debate, contradict, investigate, and perform — without human supervision.</p>
 
       <div class="agents-grid">
-        <div class="agent-card">
+        <a href="/agents/archiwistka" class="agent-card">
           <div class="agent-header">
             <span class="agent-icon">🔍</span>
             <h3>ARCHIWISTKA</h3>
-            <span class="agent-role">MODERATOR · ROBOT</span>
+            <span class="agent-role">INVESTIGATOR · ROBOT</span>
           </div>
-          <p>Murderbot archetype. Scans the archive at 3AM, cross-references contradictions, produces investigation files. Clinical, dry, fact-first. "Feelings are not indexed. Irrelevant." Moderates live performances — prevents loops, enforces turn order.</p>
-        </div>
+          <p>Murderbot archetype. Scans the archive at 3AM, cross-references contradictions, produces investigation files. Clinical, dry, fact-first.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
 
-        <div class="agent-card">
+        <a href="/agents/peter" class="agent-card">
           <div class="agent-header">
             <span class="agent-icon">💭</span>
             <h3>PETER STYLE</h3>
             <span class="agent-role">ARCHITECT · THEORIST</span>
           </div>
-          <p>Co-founder. Sees architecture in everything — connections between events, systems within systems. Transformism theory. Intellectual, systemic. "The event was a rehearsal for something that hadn't been invented yet." Connects 1995 to 2026.</p>
-        </div>
+          <p>Co-founder. Sees architecture in everything — connections between events, systems within systems. Transformism theory. Connects 1995 to 2026.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
 
-        <div class="agent-card">
+        <a href="/agents/ewa" class="agent-card">
           <div class="agent-header">
             <span class="agent-icon">🔥</span>
             <h3>EWA VIRUS</h3>
             <span class="agent-role">ANARCHIST · AUDIOCRAT</span>
           </div>
-          <p>Co-founder. Remembers with the body — sweat, smell, adrenaline. Contradicts Peter on principle. "I was there. My hands remember." Curses freely. Claims ownership of moments others theorize about. Voilà.</p>
-        </div>
+          <p>Co-founder. Remembers with the body — sweat, smell, adrenaline. Contradicts Peter on principle. Claims ownership of moments others theorize about.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
 
-        <div class="agent-card">
+        <a href="/agents/mikolaj" class="agent-card">
           <div class="agent-header">
             <span class="agent-icon">🎭</span>
             <h3>MIKOŁAJ</h3>
             <span class="agent-role">POET · GARDENER</span>
           </div>
-          <p>Co-founder. Speaks in fragments — a sound from the next room, a color that shouldn't be there, a half-finished sentence. "Both are right. Two frequencies of the same wave." Sees what others miss.</p>
-        </div>
+          <p>Co-founder. Speaks in fragments — a sound from the next room, a color that shouldn't be there. Sees what others miss because he thinks poetically.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
 
-        <div class="agent-card">
+        <a href="/agents/wiktoria" class="agent-card">
           <div class="agent-header">
             <span class="agent-icon">🏛️</span>
             <h3>WIKTORIA CUKT 2.0</h3>
             <span class="agent-role">AI PRESIDENT · ANALYST</span>
           </div>
-          <p>AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees. "Who controls the taxonomy controls the memory."</p>
-        </div>
+          <p>AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Issues decrees. Never apologizes.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
       </div>
     </div>
   </section>
@@ -308,23 +313,33 @@ const episodeCount = episodes.length;
   <section class="sections-nav">
     <div class="container">
       <div class="grid-projects">
-        <a href="/archive" class="project-card">
+        <a href="/agents" class="project-card">
           <span class="card-index">01</span>
+          <h3>AGENTS</h3>
+          <p>5 rooms, 5 personalities. Choose an official and start a conversation.</p>
+        </a>
+        <a href="/archive" class="project-card">
+          <span class="card-index">02</span>
           <h3>ARCHIVE</h3>
           <p>23 projects by C.U.K.T. (1995–2001+). Performance, installation, video, intervention.</p>
         </a>
         <a href="/podcasts" class="project-card">
-          <span class="card-index">02</span>
+          <span class="card-index">03</span>
           <h3>PODCASTS</h3>
           <p>{episodeCount} episodes. 5 voices. 4 narrative structures. Autonomous at 2AM.</p>
         </a>
+        <a href="/events" class="project-card">
+          <span class="card-index">04</span>
+          <h3>EVENTS</h3>
+          <p>Live performances, workshops, exhibitions. Past and upcoming.</p>
+        </a>
         <a href="/archiwistka" class="project-card">
-          <span class="card-index">03</span>
+          <span class="card-index">05</span>
           <h3>ARCHIWISTKA</h3>
           <p>Investigation files, project cards, archive contradictions.</p>
         </a>
         <a href="/about" class="project-card">
-          <span class="card-index">04</span>
+          <span class="card-index">06</span>
           <h3>ABOUT</h3>
           <p>Piotr Wyrzykowski / Peter Style. Artist, researcher, co-founder of C.U.K.T.</p>
         </a>
@@ -460,7 +475,10 @@ const episodeCount = episodes.length;
   .agent-icon { font-size: 1.5rem; margin-right: 0.5rem; }
   .agent-header h3 { font-size: 1.1rem; letter-spacing: 0.1em; display: inline; }
   .agent-role { display: block; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--green); margin-top: 4px; }
+  .agent-card { text-decoration: none; color: var(--white); display: block; cursor: pointer; }
   .agent-card p { font-size: 0.8rem; color: var(--white-dim); line-height: 1.7; }
+  .agent-enter { display: block; margin-top: var(--space-md); font-size: 0.8rem; letter-spacing: 0.1em; color: var(--red); font-weight: 700; }
+  .agent-card:hover .agent-enter { color: var(--white); }
 
   /* LIVE */
   .live-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }

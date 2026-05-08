@@ -45,9 +45,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         <a href="/archive" data-pl="ARCHIWUM" data-en="ARCHIVE">ARCHIVE</a>
         <a href="/personal" data-pl="PROJEKTY" data-en="PROJECTS">PROJECTS</a>
         <a href="/tags" data-pl="TAGI" data-en="TAGS">TAGS</a>
+        <a href="/agents" data-pl="AGENCI" data-en="AGENTS">AGENTS</a>
         <a href="/archiwistka">ARCHIWISTKA</a>
         <a href="/podcasts" data-pl="PODCASTY" data-en="PODCASTS">PODCASTS</a>
-        <a href="/live">LIVE</a>
+        <a href="/events" data-pl="WYDARZENIA" data-en="EVENTS">EVENTS</a>
         <a href="/about" data-pl="INFO" data-en="ABOUT">ABOUT</a>
       </div>
       <div class="nav-right">
@@ -77,6 +78,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
           <a href="https://instagram.com/wiktoriacukt">@WIKTORIACUKT</a><br />
           <a href="https://instagram.com/_transformizm">@_TRANSFORMIZM</a>
         </div>
+      </div>
+      <div class="footer-mkidn">
+        <img src="/logo_mkidn.png" alt="Ministerstwo Kultury i Dziedzictwa Narodowego" class="mkidn-logo" />
+        <span class="mkidn-text">Zrealizowano w ramach stypendium Ministra Kultury i Dziedzictwa Narodowego</span>
       </div>
     </div>
   </footer>
@@ -194,6 +199,28 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     .footer-right {
       text-align: right;
       text-transform: uppercase;
+    }
+
+    .footer-mkidn {
+      display: flex;
+      align-items: center;
+      gap: var(--space-md);
+      margin-top: var(--space-xl);
+      padding-top: var(--space-lg);
+      border-top: 1px solid var(--border);
+    }
+
+    .mkidn-logo {
+      height: 48px;
+      width: auto;
+      flex-shrink: 0;
+    }
+
+    .mkidn-text {
+      font-size: 0.7rem;
+      color: var(--white-dim);
+      letter-spacing: 0.05em;
+      line-height: 1.5;
     }
 
     @media (max-width: 768px) {
