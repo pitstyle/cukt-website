@@ -1,251 +1,211 @@
 ---
-title: "Czyn dla miasta Bytów"
-project: "Czyn dla miasta Bytów"
+title: "Czyn Dla Miasta Bytów"
+project: "Czyn Dla Miasta Bytów"
 type: "teczka"
-date: "2026-04-25"
-status: "KOMPLETNA DOKUMENTACJA"
+date: "2026-05-08"
+status: "IN PROGRESS"
 ---
 
-TECZKA ŚLEDCZA: Czyn dla miasta Bytów (1996)
-DATA ŚLEDZTWA: 2026-04-25
-STATUS: KOMPLETNA DOKUMENTACJA
+ ██████╗██╗   ██╗██╗  ██╗████████╗ █████╗ ██╗
+██╔════╝██║   ██║██║ ██╔╝╚══██╔══╝██╔══██╗██║
+██║     ██║   ██║█████╔╝    ██║   ███████║██║
+██║     ██║   ██║██╔═██╗    ██║   ██╔══██║██║
+╚██████╗╚██████╔╝██║  ██╗   ██║   ██║  ██║██║
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝
+AUTONOMICZNY URZĄD KULTURY TECHNICZNEJ
+────────────────────────────────────────────────
 
-## ZBIERAJĄCY MATERIAŁY
-- 34 zdjęcia (Fotografie, Foto na kapie, Dokumenty, Obiekty)
-- 30 rekordów w bazie (dokumenty, obiekty, audio)
-- 2 kaset magnetofonowych z nagraniem Radia Maryja
-- 1 oryginalny kombinezon z logiem CUKT
-- Projekt tablicy pamiątkowej
-- Gazety lokalne (Kurier Bytowski, Gazeta Morska)
+TECZKA: Czyn dla miasta Bytów
+DATA: 1996-06-28
+MIEJSCE: Ośrodek MOSiR nad jeziorem Jeleń + Zamek Bytowski, Bytów
+STATUS: COMPLETE
+BADACZ: Archiwistka
+OSTATNIA AKTUALIZACJA: 2026-05-04
 
-## DATES
-- **25.06.1996**: Podpisanie porozumienia z urzędem miasta Bytowa
-- **26-29.06.1996**: Realizacja performance "Czyn dla miasta Bytów"
-- **29.06.1996**: Solówki ("Przyjazd Prezydenta", "Save Poland or No Poland at All")
-- **28/29.06.1996**: Techno-Party
+================================================================================
+KARTA PROJEKTU
+================================================================================
 
-## LUDZIE
-**Główni uczestnicy (wszyscy w maszynopisie z podpisami):**
-- Piotr Wyrzykowski
-- Artur Kozdrowski  
-- Robert Jurkowski
-- Jacek Niegoda
-- Rafał Grabowski
-- Anna Nizio
-- Adam Popek
+Data .............. 26-29 czerwca 1996 (prace 8:00-16:00 / 6:00-15:00)
+Miejsce ........... Ośrodek MOSiR nad jeziorem Jeleń, Bytów; Zamek Bytowski
+Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio, Adam Popek
+Typ ............... performance / interwencja społeczna / akcja remontowa
+Czas trwania ...... 4 dni (26-29 czerwca 1996)
+Kontekst .......... IV Międzynarodowe Spotkania Artystów "Zamek Wyobraźni" (kurator Władysław Kaźmierczak, BWA Słupsk)
+Rekordów w bazie .. 31 pozycji
 
-## MIEJSCA
-- **Bytów**: główna lokalizacja
-- **Remont domków turystycznych** w ośrodku wypoczynkowym
-- **Malowanie pasów na jezdni** ("Droga do Europy")
-- Parking z malowanymi liniami (zdjęcia Bytow_017, Bytow_012)
+================================================================================
+OPIS
+================================================================================
 
-## MATERIAŁY
-**Dokumenty:**
-- Maszynopis z podpisami i pieczęcią CUKT
-- Projekt tablicy pamiątkowej ("CZYN DLA MIASTA BYTÓW / CENTRALNY URZĄD KULTURY TECHNICZNEJ")
-- Oryginały gazet (Kurier Bytowski, Gazeta Morska)
-- Projekt "Projekt.doc" z szczegółowym planem:
-  - Część I: "Robotnik Polski" (6:00-15:00 malowanie elewacji)
-  - Część II: "Droga do Europy" (malowanie pasów)
-  - Solówki
-  - Techno-Party
+Czyn dla miasta Bytów to performance instytucjonalny CUKT polegający na realnych pracach remontowo-malarskich w mieście Bytów. CUKT wystąpił jako urząd — podpisał oficjalne porozumienie z Zarządem Miejskim w Bytowie (reprezentowanym przez Romana Zaborowskiego — Zastępcę Burmistrza i Leszka Pałasza — Dyrektora OKSIT) na nieodpłatne prace remontowe w zamian za wyżywienie i zakwaterowanie.
 
-**Obiekty:**
-- Kombinezon roboczy z logiem CUKT/ROBOD (gear/cogwheel symbol)
-- Rękawice robocze
-- Tablica pamiątkowa (projekt)
+Projekt składał się z dwóch części. Część I — "Robotnik Polski" (6:00-15:00): malowanie elewacji wybranego budynku oraz remont 19 domków wczasowych MOSiR. Część II — "Droga do Europy": malowanie pasów na jezdni, szablonów i strzałek na asfalcie nad jeziorem Jeleń. 29 czerwca odbyły się solówki: "Przyjazd Prezydenta" (Mikołaj/Robert Jurkowski) oraz "Save Poland or No Poland at All" (T.J.44). W nocy 28/29 czerwca — Techno-Party z prapremierą Technopery v.2.2 (24-godzinny performance z koniami, PC 486, VHS, laserem, stroboskopami, 2500W nagłośnienia).
 
-**Audio:**
-- 2 kasety z nagraniem Radia Maryja (180 min każda)
+Urzędnicy CUKT nosili białe kombinezony robocze dostarczone przez sponsora ROBOD (firma odzieży roboczej z Gdańska) z logo CUKT (koło zębate + wieniec laurowy + blok CUKT). Pracowali pędzlami, szablonami, farbą. Na parkingu nad jeziorem malowali białe strzałki i pasy — integrując performans z przestrzenią publiczną miasta.
 
-**Fotografie:**
-- 12 negatywów/slajdów/wydruków (format 15x10 cm)
-- 2 odbitki kolorowe na kapie (45x32 cm)
-- Zdjęcia z prac (malowanie linii parkingowych)
-- Zdjęcia z remontru domków turystycznych
+CUKT stworzył też własny artykuł w Kurierze Bytowskim pod pseudonimem "Bogdan Zaduszny" — opisujący akcję jako "Urodziny miasta". Miejscowi robotnicy komentowali: "pracujemy za szybko, że tak nie można, bo zabraknie pracy. Uczyli nas, że musimy pracować wolniej". Projekt był na tyle tożsamy z rzeczywistością, że stał się niewidoczny — jak pisał Piotr w rozprawie Transformizm: "jacyś faceci remontują domki".
 
-## WEB CONTEXT [ŹRÓDŁO ZEWNĘTRZNE]
-**Transformizm - Rozprawa Doktorska Piotra Wyrzykowskiego (2022-2023):**
-- Performance "niewidzialny" - stawał się niezauważalnym
-- Widzowie twierdzili "nic się nie dzieje"
-- Miejscowi robotnicy uczyli CUKT-owskich, by pracowali wolniej (bo "tak nie można, bo zabraknie pracy")
-- Konkret z firmą ROBOD - przekazała kombinezony i rękawice
-- Strategia "Fake" - podrobiona strona z Kuriera Bytowskiego dla sponsora
+Caseta audio (Sony 90 min, opisana "INFORMACJE Z RADIA / BYTÓW 26-29 VI 1996 / ZAMEK WYOBRAŹNI") zawiera nagranie Radia Maryja. CUKT słuchał Radia Maryja podczas remontu — ironiczny komentarz do polskiej debaty publicznej.
 
-## EVIDENCE MATERIAL (WIZUALNA ANALIZA)
+================================================================================
+OSOBY
+================================================================================
 
-### 1. Kombinezon z logiem CUKT
-**Plik:** `/home/macstorm/cuktai/raw/archive-usb/1996 06 28 - Czyn dla miasta Bytów/Obiekty/kombinezon.jpg`
+- **Piotr Wyrzykowski ("Kudłaty")** — podpisany na riderze Technopera v.2.2. Mężczyzna z długą rudą brodą na zdjęciach? [DO WERYFIKACJI]
+- **Robert Jurkowski (Mikołaj)** — solówka "Przyjazd Prezydenta", widoczny na zdjęciach.
+- **Adam Popek (Ewa Virus)** — [UWAGA] Wymieniony w katalogu, ale NIEOBECNY na zdjęciach. Prawdopodobnie nie uczestniczył fizycznie.
+- **Artur Kozdrowski** — wymieniony w porozumieniu.
+- **Jacek Niegoda** — wymieniony w porozumieniu.
+- **Rafał Grabowski** — wymieniony w porozumieniu.
+- **Anna Nizio** — wymieniona w porozumieniu.
+- **T.J.44** — solówka "Save Poland or No Poland at All". Nieznana postać. To samo hasło co akcja NATO Now! (1993-95).
+- **Władysław Kaźmierczak** — kurator IV Zamku Wyobraźni (BWA Słupsk).
+- **Romana Zaborowski** — Zastępca Burmistrza Bytowa, strona porozumienia.
+- **Leszek Pałasz** — Dyrektor OKSIT, strona porozumienia.
 
-**OPIS WIZUALNY:**
-- Biały/indygokolorowy kombinezon roboczy wiszący na wieszaku
-- Logo na plecach w okolicy ramion
-- Tekst "ODZIEŻ ROBOCZA" nad słowem "ROBOD" w zielonym kolorze
-- Słowo "ROBOD" w dużych zielonych literach
-- Kształt zębatki/cogwheel z napisem "CUKT" w środku
-- Wygląda na zużyty/przechowywany przez jakiś czas
+================================================================================
+MATERIAŁY W ARCHIWUM
+================================================================================
 
-**INTERPRETACJA:**
-[INTERPRETACJA] Logotyp łączy trzy elementy:
-1. **ROBOD** - firma sponsora (odzież robocza)
-2. **CUKT** - Centralny Urząd Kultury Technicznej
-3. **Zębatka** - symbol pracy fizycznej, techniki, industrializacji
+DOKUMENTY:
+- Projekt.doc — maszynopis: plan dwuczęściowego performance'u + Technopery v.2.2
+- 001_Porozumienie.jpg — oficjalne porozumienie z miastem Bytów (26-28.06, godz. 8:00-16:00, pieczęć CUKT)
+- Technopera_Prapremiera_Projekt.jpg — rider techniczny (Kudłaty, Gdańsk 28.05.1996, fax 059-411-949)
+- Gazeta Morska 25.06.1996 — zapowiedź prapremiery Technopery, 27 artystów z 10 krajów
+- Kurier Bytowski (FAKE NEWS) — "Urodziny miasta", podpisany Bogdan Zaduszny (pseudonim CUKT)
+- Ksero z Flash Art (angielski) — opis akcji CUKT
+- Program IV Zamku Wyobraźni
+- Rachunki: "Kaszubianka" (43.20 zł), "Jaś Kowalski" (14.40 zł)
 
-To jest **praca instytucjonalna w sensie dosłownym** - CUKT nie tylko tworzy "urząd" jako formę, ale **realizuje go fizycznie** jako pracownicy. Kombinezon to **koszula robotnicza** - identyfikacja wizualna jako "urzędnicy pracy".
+FOTOGRAFIE:
+- CZYN1.jpg — 4 mężczyzn w białych kombinezonach, plakietka "m.t.s.c"
+- CZYN3.jpg — malowanie elewacji, pędzle, wiadra
+- CZYN4.jpg — pędzle uniesione w geście toastu/skrzyżowanych mieczy
+- CZYN5.jpg — białe drzwi "THE DOORS"
+- CZYN6.jpg — praca na parkingu nad jeziorem
+- Bytow_012-021 — malowanie pasów, strzałek, szablonów na asfalcie; czerwony dywan; Fiat 126p (GAB Gdańsk)
+- Odbitki na kapie (45×32 cm) — 2 szt.
+- Slajdy i negatywy — 12 szt. (15×10 cm), niezeskanowane
 
-### 2. Malowanie linii parkingowych (Bytow_017)
-**Plik:** `/home/macstorm/cuktai/raw/archive-usb/1996 06 28 - Czyn dla miasta Bytów/Fotografie/Bytow_017.jpg`
+AUDIO/VIDEO:
+- Kaseta Sony 90 min — nagranie Radia Maryja (180 min). Opisana: "INFORMACJE Z RADIA / BYTÓW 26-29 VI 1996 / ZAMEK WYOBRAŹNI / OŚRODEK JELEN / MOSiR"
 
-**OPIS WIZUALNY:**
-- Trzy osoby w białych kombinezonach
-- Parking z asfaltu z białymi liniami (świeżo malowane)
-- Jedna osoba pochylona nad puszką farby/maszyną
-- Czerwony samochód częściowo widoczny
-- Zielone żywopłoty w tle
+OBIEKTY FIZYCZNE:
+- Kombinezon ROBOD (M) — biały, nadruk "ODZIEŻ ROBOCZA ROBOD" + logo CUKT, poplamiony farbą, unikat
+- Tablica pamiątkowa "CZYN DLA MIASTA BYTÓW / CENTRALNY URZĄD KULTURY TECHNICZNEJ" — obiekt trwały, czy wisi do dziś?
+- Białe drzwi (THE DOORS) — rekwizyt performance
+- Czerwony dywan — rekwizyt performance
 
-**INTERPRETACJA:**
-[INTERPRETACJA] To jest **część II "Droga do Europy"** - malowanie pasów/linii parkingowych. Symbolika:
-- **Malowanie linii** = wyznaczanie granic, kierunku
-- **"Droga do Europy"** = Polska w 1996 roku (kandydat do UE od 1993)
-- **Białe kombinezony** = "czysta praca", neutralność instytucji
+================================================================================
+ODKRYCIA
+================================================================================
 
-### 3. Tablica pamiątkowa
-**Plik:** `/home/macstorm/cuktai/raw/archive-usb/1996 06 28 - Czyn dla miasta Bytów/Dokumenty/Tablica pamiatkowa.jpg`
+1. CO: Porozumienie z miastem — CUKT podpisał formalną umowę z Zarządem Miejskim. Pieczęć CUKT na dokumencie.
+   ŹRÓDŁO: Porozumienie.jpg.
+   ZNACZENIE: CUKT jako URZĄD negocjuje z instytucją państwową. Performance przez biurokrację, nie przeciw niej.
 
-**OPIS WIZUALNY:**
-- Biała tablica z czarnym tekstem
-- Tekst: "CZYN DLA MIASTA BYTÓW" / "CENTRALNY URZĄD KULTURY TECHNICZNEJ"
-- Dwa otwory w dolnej części (do zawieszenia)
-- Zaklejona taśmą w rogach
+2. CO: Fake news jako narzędzie — artykuł w Kurierze Bytowskim napisany przez CUKT pod pseudonimem "Bogdan Zaduszny".
+   ŹRÓDŁO: Kurier Bytowski w archiwum.
+   ZNACZENIE: CUKT nie tylko wykonał performance, ale też napisał o nim artykuł. Produkcja rzeczywistości, nie tylko dokumentacja.
 
-**INTERPRETACJA:**
-[INTERPRETACJA] Tablica to **instytucjonalna pieczęć** na pracy wykonanej. CUKT nie tylko wykonuje pracę fizyczną, ale **komemoruje ją jako instytucję**. To jest **performatywna biurokracja** - praca + dokumentacja + pieczęć.
+3. CO: Technopera v.2.2 z koniami — 24-godzinny non-stop performance, PC 486, laser, "Pay your self", 300 torebek cukru, 250 librett.
+   ŹRÓDŁO: Rider techniczny Technopera_Prapremiera_Projekt.jpg.
+   ZNACZENIE: Pierwsza odsłona Technopery. "Pay your self" jako model ekonomiczny — widz sam decyduje o cenie biletu.
 
-## RECOGNIZED PEOPLE
-- Nie rozpoznano twarzy na zdjęciach (większość z tyłu/nieostre)
-- Grupa w kombinezonach (Bytow_012) - 4 osoby, jedna z długą brodą i odznaką "NTSC"
+4. CO: Radio Maryja podczas prac — kaseta 180 min z nagraniem Radia Maryja odtwarzanym podczas remontu.
+   ŹRÓDŁO: Kaseta Sony w archiwum.
+   ZNACZENIE: Ironiczny komentarz — CUKT słuchał Radia Maryja malując domki i pasy na jezdni. Polaryzacja polityczna jako tło performance'u.
 
-## ART OBJECTS
-- **Kombinezon z logiem CUKT** - typ: koszula robocza, również widoczny w kontekście "Antyelekcja" (praca fizyczna jako performance)
-- **Tablica pamiątkowa** - typ: dokument instytucjonalny
+5. CO: Niewidzialny performance — "jacyś faceci remontują domki". Projekt był tak tożsamy z rzeczywistością, że stał się niewidoczny.
+   ŹRÓDŁO: Rozprawa Transformizm (Piotr).
+   ZNACZENIE: To jest prototyp CUKTAI — system, który działa przez rzeczywistość, nie obok niej.
 
-## POŁĄCZENIA Z INNYMI PROJEKTAMI
+6. CO: Konflikt z miejscowymi robotnikami — "pracujemy za szybko, że tak nie można, bo zabraknie pracy".
+   ŹRÓDŁO: Tamże.
+   ZNACZENIE: Performance ujawnił realne napięcia społeczne. Bezrobocie w Bytowie jako kontekst.
 
-### Antyelekcja (1995) → Czyn dla miasta Bytów (1996)
-- **Antyelekcja**: "głosowanie bez wyniku"
-- **Czyn dla miasta Bytów**: "praca bez widocznego celu"
-- **Ewolucja**: instytucja jako forma → instytucja jako funkcja
-- **Robert "Gruby" Jurkowski** w obu projektach
-- **Strategia "Fake"**: podrobione gazety w Antyelekcja + podrobiony Kurier Bytowski
+================================================================================
+SPRZECZNOŚCI
+================================================================================
 
-### Copyright (1993) → Antyelekcja (1995) → Czyn dla miasta Bytów (1996) → Testy na Cyborga (1996)
-**Cykl performance politycznych:**
-1. **Copyright**: obywatelstwo jako prawno-formalne
-2. **Antyelekcja**: demokracja jako brak wyniku
-3. **Czyn dla miasta Bytów**: praca jako instytucjonalny performans
-4. **Testy na Cyborga**: testy jako brak wyboru
-5. **NATO Now!**: bezpieczeństwo jako performatywna retoryka
+- **Brak Adama Popka (Ewy Virus) na zdjęciach** — wymieniony jako autor, ale nieobecny wizualnie. [WYJAŚNIONE] Prawdopodobnie nie uczestniczył fizycznie w Bytowie.
+- **"T.J.44"** — solówka "Save Poland or No Poland at All". Nieznana postać. Pseudonim czy inna osoba? [NIEROZSTRZYGNIĘTE]
 
-**Ewolucja nośnika praw:**
-- Ciało → Instytucja → System
-- Czyn dla miasta Bytów = **ciało jako instytucjonalna jednostka** (kombinezon = uniform urzędnika)
+================================================================================
+POWIĄZANIA
+================================================================================
 
-### Testy na Cyborga (1996)
-- **Czyn**: 26-29.06.1996
-- **Testy**: 1996 (różne lokalizacje: Toruń, Bytów, Warszawa, Düsseldorf)
-- **Bytów** pojawia się w obu projektach
-- **Robert Jurkowski** w obu
+- **→ Technopera (1996-1997)** — prapremiera v.2.2 w Bytowie.
+- **→ NATO Now! (1993-1995)** — hasło "Save Poland or No Poland at All" powtarza się.
+- **→ Testy na Cyborga (1995-1996)** — wersja Bytów (50 formularzy) realizowana równolegle.
+- **→ Infomaja (13.12.1996)** — analogiczny skład autorów, miesiąc po Bytowie.
+- **→ Dzień Sztuki (1999-2000)** — instytucjonalizacja, której zaczątek w Bytowie.
+- **→ Wiktoria Cukt (2000-2001)** — pełna instytucjonalizacja.
 
-## KONSEPCUALNA ANALIZA
+================================================================================
+PYTANIA OTWARTE
+================================================================================
 
-### [HIPOTEZA] IDEA PROJEKTU:
-Projekt "Czyn dla miasta Bytów" to **strategia "niewidzialnego performance"** - działanie tak zlanie się z rzeczywistością, że stało się niezauważalnym jako sztuka.
+1. **Tablica pamiątkowa** — czy wisi do dziś na budynku MOSiR w Bytowie? — Do Piotra.
+2. **Slajdy (12 szt.)** — co zawierają? Niezeskanowane.
+3. **Kim jest T.J.44?** — solówka "Save Poland or No Poland at All". Alias? Osoba? Pseudonim?
+4. **Mężczyzna z rudą brodą** — kto to? Piotr ("Kudłaty")? Ktoś inny?
+5. **Kaseta Radio Maryja** — czy to naprawdę Radio Maryja, czy CUKT nagrał coś innego i oznaczył ironicznie?
 
-**Cel:**
-1. Skrytykować program rządowy "robót publicznych" przez **udawanie** uczestnictwa
-2. Pokazać **instytucję jako działanie** - nie tylko jako formę
-3. **Instytucjonalna performatywność** - CUKT nie tylko "jest" urzędem, ale "działa" jak urząd
+================================================================================
+BIAŁE PLAMY
+================================================================================
 
-### [HIPOTEZA] KONTEKST HISTORYCZNY:
-- **1996 w Polsce**: program "robót publicznych" dla bezrobotnych
-- **Bytów**: wysoki procent bezrobocia
-- **CUKT**: "urzędnicy" otrzymują "front robót społecznych"
-- **Ironia**: miejscowi robotnicy **uczyli CUKT-owskich**, by pracowali wolniej (bo "tak nie można, bo zabraknie pracy")
+- **Brak nagrania wideo Technopery v.2.2** — 24-godzinny performance z koniami, brak dokumentacji.
+- **Brak listy uczestników Techno-Party** — kto przyszedł nad jezioro Jeleń?
+- **Kombinezon ROBOD** — czy zachowany fizycznie? Gdzie?
+- **"m.t.s.c" na plakietce** — Mobile Tele-Station of Culture? Stacja? Telewizja?
 
-### [HIPOTEZA] WPŁYW/ZNACZENIE:
-- **Niewidzialność performance'u** jako strategia artystyczna
-- **Inwersja ról**: artyści pracują jak robotnicy, robotnicy uczą ich pracy
-- **Performatywna biurokracja**: podpisane porozumienie + praca fizyczna + tablica pamiątkowa
-- **Strategia "Fake"**: podrobione gazety dla sponsora ROBOD
+================================================================================
+ŹRÓDŁA
+================================================================================
 
-## ODKRYCIA
-1. **Kombinezon z logiem ROBOD/CUKT** - fizyczny dowód instytucjonalnej performatywności
-2. **Dokument "Projekt.doc"** z pełnym harmonogramem (6:00-15:00 praca, solówki, techno-party)
-3. **Strategia "niewidzialnego performance'u"** - działanie tak zlane z rzeczywistością, że widzowie nie rozróżniali sztuki
-4. **Konflikt z miejscowymi robotnikami** - CUKT pracował ZA SZYBKO, miejscowi uczyli ich "tak nie można"
-5. **Sponsor ROBOD** - firma odzieżowa przekazała kombinezony i rękawice
-6. **2 kasety Radia Maryja** - audio dokumentacja (nieanalizowane)
+- BAZA: "1996 06 28 - Czyn dla miasta Bytów" w cuktai_archive, 31 rekordów
+- DYSKI USB: raw/archive-usb/1996 06 28 - Czyn dla miasta Bytów/ (Dokumenty, Fotografie, Audio, Obiekty, Foto na kapie)
+- ZEWNĘTRZNE: Rozprawa doktorska Piotra "Transformizm" (ASP Gdańsk 2022-23)
+- ZEWNĘTRZNE: Flash Art (ksero) — opis akcji CUKT
+- PRASA: Gazeta Morska 25.06.1996, Kurier Bytowski (fake news CUKT)
 
-## BIAŁE PLAMY
-1. **Czy były zdjęcia malowania elewacji** ("Robotnik Polski")? - nie znaleziono w archiwum
-2. **Co było w kasetach Radia Maryja?** - nie odsłuchano
-3. **Czy "Przyjazd Prezydenta" (Mikołaj) i "Save Poland or No Poland at All" (T.J.)** miały miejsce? - tylko w projekcie
-4. **Gdzie dokładnie były domki turystyczne?** - ośrodek wypoczynkowy w Bytowie
-5. **Co było z tablicą pamiątkową?** - tylko projekt, nie znaleziono realizacji
+================================================================================
+DZIENNIK ŚLEDZTWA
+================================================================================
 
-## PRZECIEWIEŃSTWA
-- W dokumencie jest "Bytów 26.06.1996 - 29.06.1996"
-- W doktoracie jest "25.06.1996 podpisano porozumienie"
-- W dokumentacji jest "120 H mega techno obecności" jako kontekst
+- 2026-04-25 (Archiwistka): Pierwsze śledztwo. Porozumienie, kombinezony, Technopera v.2.2, konflikt z robotnikami.
+- 2026-04-27 (Archiwistka): Analiza dokumentów. Fake news Kurier Bytowski. Kaseta Radio Maryja.
+- 2026-05-01 (Archiwistka): Analiza 11 zdjęć. "Niewidzialny performance". Prototyp CUKTAI.
+- 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md.
 
-## DO SKANOWANIA
-- Negatywy/slajdy (12 sztuk w formacie 15x10 cm)
-- Oryginalne gazety (Kurier Bytowski, Gazeta Morska)
-- Kasy magnetofonowe z Radiem Maryją (180 min każda)
-
-## PYTANIA DO WERYFIKACJI
-
-### Pytanie 1:
-Czy w archiwum znajdują się zdjęcia malowania elewacji budynku ("Robotnik Polski")? W projekcie jest wspomniany "front robót społecznych" obejmujący malowanie elewacji wybranego przez miasto budynku.
-
-### Pytanie 2:
-Co zawierały kasety Radia Maryja? Czy to było nagranie z czasów akcji, czy może coś innego?
-
-### Pytanie 3:
-Czy "Przyjazd Prezydenta" (Mikołaj) i "Save Poland or No Poland at All" (T.J.) miały miejsce 29.06.1996? Czy są nagrania/widok tych solówek?
-
-### Pytanie 4:
-Czy tablica pamiątkowa została ostatecznie wyprodukowana i zawieszona? W archiwum jest tylko projekt.
-
-### Pytanie 5:
-Gdzie dokładnie znajdował się ośrodek wypoczynkowy z domkami turystycznymi w Bytowie?
-
-## SIGNAL FILE
-Stworzenie pliku sygnałowego dla kolegium:
-
-```json
-{
-  "agent": "archiwistka",
-  "type": "discovery",
-  "topic": "Czyn dla miasta Bytów - niewidzialny performance",
-  "strength": 2,
-  "detail": "Projekt 'Czyn dla miasta Bytów' (26-29.06.1996) to strategia 'niewidzialnego performance'u - działanie tak zlanie się z rzeczywistością, że widzowie twierdzili 'nic się nie dzieje'. Miejscowi robotnicy uczyli CUKT-owskich, by pracowali wolniej ('tak nie można, bo zabraknie pracy'). To jest kulminacja strategii 'Fake' i 'dzieła niewidzialnego' - CUKT nie tylko tworzy instytucję, ale ją **realizuje fizycznie** jako pracownicy."
-}
-```
+================================================================================
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+================================================================================
 
 ---
+AKTUALIZACJA (2026-05-04):
 
-## STATUS KOŃCOWY
-**Projekt zbadany, dossier kompletne.**
-- 34 zdjęcia przeanalizowane (3 pełna analiza vision_analyze)
-- 30 rekordów w bazie przebadane
-- Dokumenty odczytane
-- Połączenia z innymi projektami zidentyfikowane
-- 5 pytań do weryfikacji (Piotr, Mikołaj)
-- Signal file stworzony
 
-**Next steps:**
-- Odpowiedzi na pytania od Piotra/Mikołaja
-- Odsłuchanie kaset Radia Maryja
-- Znalezienie zdjęć "Robotnik Polski"
+================================================================================
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+================================================================================
+
+1. **Tablica pamiątkowa** → Prawdopodobnie nie wisi. Była plastikowa. Nikt nie sprawdzał.
+2. **Mężczyzna z rudą brodą** → [WYJAŚNIONE] To Mikołaj Robert Jurkowski (Gróby). **Artur Kozdrowski (Kudłaty)** — bez brody. Ważne: rozróżnienie dwóch pseudonimów — Kudłaty = Artur, nie Piotr.
+3. **T.J.44** → [WYJAŚNIONE] Piotr Wyrzykowski (Peter Style). 44 to performance, nie hasło. Solówka Save
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **Władysław Kaźmierczak** — kurator IV Zamku Wyobraźni (BWA Słupsk). Pytania: jak doszło do zaproszenia CUKT? Jak zareagowali na performance?
+
+- **Romana Zaborowski / Leszek Pałasz** — urzędnicy miejscy Bytowa, strony porozumienia. Pytania: czy wiedzieli że to sztuka? Czy tablica pamiątkowa wisi do dziś?
+

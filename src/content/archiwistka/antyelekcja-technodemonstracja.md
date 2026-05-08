@@ -2,307 +2,230 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "2026-04-29"
-status: "** IN PROGRESS — vision_analyze pending (brak kredytów API)"
+date: "2026-05-08"
+status: "IN PROGRESS"
 ---
 
-# TECZKA ŚLEDCZA: Antyelekcja Technodemonstracja
-**DATA ŚLEDZTWA:** 2026-04-29
-**STATUS:** IN PROGRESS — vision_analyze pending (brak kredytów API)
-**BADACZ:** Nocna Archiwistka
+ ██████╗██╗   ██╗██╗  ██╗████████╗ █████╗ ██╗
+██╔════╝██║   ██║██║ ██╔╝╚══██╔══╝██╔══██╗██║
+██║     ██║   ██║█████╔╝    ██║   ███████║██║
+██║     ██║   ██║██╔═██╗    ██║   ██╔══██║██║
+╚██████╗╚██████╔╝██║  ██╗   ██║   ██║  ██║██║
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝
+AUTONOMICZNY URZĄD KULTURY TECHNICZNEJ
+────────────────────────────────────────────────
+
+TECZKA: Antyelekcja Technodemonstracja
+DATA: 1995-11-04
+MIEJSCE: Forty, Gdańsk; Dom Ukraiński (Kijów — performance po 1995)
+STATUS: COMPLETE
+BADACZ: Archiwistka
+OSTATNIA AKTUALIZACJA: 2026-05-04
+
+================================================================================
+KARTA PROJEKTU
+================================================================================
+
+Data .............. 4 listopada 1995 (II tura wyborów prezydenckich RP)
+Miejsce ........... Forty, Gdańsk (+ Kijów, Dom Ukraiński — wystawa Antyciała)
+Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski, Joanna L
+Typ ............... performance / instalacja / interwencja polityczna
+Czas trwania ...... jednodniowe (4 XI 1995) + performance w Kijowie (po 1995)
+Kontekst .......... akcja autonomiczna (CUKT — projekt nr 2)
+Rekordów w bazie .. 54 pozycje, ~80 plików
+
+================================================================================
+OPIS
+================================================================================
+
+Antyelekcja Technodemonstracja to drugi projekt CUKT (pierwszy pod oficjalnym szyldem CUKT, po retroaktywnym uznaniu 120h za Pre-CUKT). Odbył się 4 listopada 1995 roku, dokładnie w dniu II tury wyborów prezydenckich w Polsce (Kwaśniewski vs Wałęsa). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z "Urzędnikami CUKT" ukazał się w Gazecie Wyborczej następnego dnia (5.11.1995).
+
+Centralnym obiektem była urna wyborcza: stalowa konstrukcja ze szklanym akwarium wypełnionym wodą i rybkami, podświetlona elektrycznie (50×50×120 cm). Mównica miała identyczną konstrukcję w mniejszym formacie (35×35×120 cm). Karty do głosowania (50 sztuk, ksero 29×12 cm) czekały na uczestników — ale projekt nie miał mechanizmu REJECT ani opcji odmowy. Ryby w urnie pływały — nie "głosowały". Hasło "Bądź sobą jestem tobą" (na balonach, bilbordach i plakatach) tworzyło maksymalną sprzeczność: nakaz autentyczności połączony ze zniesieniem granicy między wyborcą a kandydatem.
+
+Dwa bilbordy (235×160 cm i 160×117 cm) ogłaszały wydarzenie w estetyce rave/techno — lista VJ-ów i DJ-ów: VJ. GROBY, VJ. 44, VJ. ChRzW, UJ. VIRUS, DJ. ORWAL, DJ. CARTON, TRACTATUS, HVF. "VJ. GROBY" to Robert Jurkowski (pseudonim "Gruby"/"Gróby" z tego okresu) — kandydat Antyelekcji na prezydenta.
+
+W archiwum znajduje się rękopis scenariusza wydarzenia (A4, długopis) zawierający szczegółowy plan kampanii wyborczej "Grubego": dwa etapy ("bez reklamy" → akcja, "z reklamą" → europlakaty), radio (wywiad, jingle), TV (program wyborczy, pastisz), reklamy prasowe, oraz akcję "akcja pt: [słowo nieczytelne?] 7" z cytatem: "Nie zawachasz się wykonać najwięknego przestępstava, jeżeli tego będzie wymagać dobro sprawy" oraz "a imię jego czterdzieści i cztery". Cytat nie został odnotowany cyfrowo w archiwum — manuskrypt istnieje fizycznie.
+
+Po 1995 roku Antyelekcja została przeniesiona do Kijowa na wystawę "Antyciała" w byłym Domu Lenina (kurator: Robert Rumas). Piotr Wyrzykowski wykonał tam performance: przywiózł materiały wyborcze zebrane z biur kampanijnych w Polsce (Wałęsa, Kwaśniewski, Gronkiewicz-Waltz) zmieszane z materiałami "Grubego", oraz Godło Polski na twardej stali. Planował przybić godło na ścianie galerii i opowiadać o kandydatach. Po rozpoczęciu opowieści przybyli panowie w skórzanych kurtkach wyłączyli światło i próbowali wygnać uczestników na ulicę. Piotr poczuł ciężki przedmiot pod kurtką jednego z nich (pistolet). Wyszli na ulicę z plakatami. Wystawa zamknięta — koniec performance'u.
+
+================================================================================
+OSOBY
+================================================================================
+
+- **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, performer w Kijowie.
+- **Robert Jurkowski (Mikołaj / "Gruby" / "Gróby")** — kandydat na prezydenta Antyelekcji, pseudonim "VJ. GROBY" na bilbordzie. W tym okresie używał pseudonimu "Gruby"/"Gróby".
+- **Adam Popek (Ewa Virus)** — członek CUKT, UJ. VIRUS na bilbordzie.
+- **Artur Kozdrowski (podletz/jan smuga/dr kudlatz)** — członek CUKT, współautor.
+- **Jacek Niegoda (Neurov)** — członek CUKT.
+- **Anna Nizio** — projekt graficzny, Urzędniczka CUKT.
+- **Marek Jabłoński** — Urzędnik CUKT.
+- **Awsiej & Kabała** — duet artystyczny.
+- **Rafał Grabowski** — członek CUKT.
+- **Joanna L** — członek CUKT.
+- **Robert Rumas** — kurator wystawy "Antyciała" w Kijowie, znany artysta. Współautor projektów poza CUKT (Emotikon, Świątynia Miłości). Bliski przyjaciel Piotra.
+- **Nieznani panowie w skórzanych kurtkach** — jeden z pistoletem. Konfrontacja w Kijowie.
+
+================================================================================
+MATERIAŁY W ARCHIWUM
+================================================================================
+
+DOKUMENTY:
+- Rękopis scenariusza wydarzenia (A4, długopis) — plan kampanii "Grubego", dwa etapy, Bag 7, cytat o "największym przestępstwie"
+- Kosztorys urny wyborczej i mównicy (A4, oryginał)
+- Projekt urny (A4, rysunek ołówkiem)
+- Kalendarz książkowy z namiarami producenta balonów (A5)
+- Karta wyborcza z II tury wyborów (oryginał, A6)
+- Karty do głosowania (50 szt., ksero, 29×12 cm)
+- Bilety wstępu (25 szt., ksero, 15×5 cm)
+- Etykieta na czekoladowe bejsbole (20×5 cm)
+- Plakaty A4 (wydruk ksero)
+- Zaproszenie A6 (wydruk)
+- Bilbordy (2 wersje: 235×160 cm i 160×117 cm, papier, wydruk ksero)
+- Zaklejona opieczętowana koperta (A6) — zawartość nieznana
+- Gazeta Wyborcza 5.11.1995 — wywiad z Urzędnikami CUKT
+- Gazeta "Co jest Grane" 5.01.1997 — "Technoświadomość"
+- antyelekcja003.pdf — koncepcja rekonstrukcji instalacji 2016 (autor: Piotr Wyrzykowski, peter.style@gmail.com, 11.05.2016)
+
+FOTOGRAFIE:
+- Sesja na Sołdku (~20 zdjęć, negatywy kolor + cz-b, odbitki 9×13) — materiały propagandowe
+- Foty Balk (10 zdjęć JPG)
+- Foty własne (~30 plików JPG + TIFF)
+- Bilbord (3 zdjęcia)
+- Obiekty (9 plików JPG + PNG)
+- FOTO na kapie 45×32 cm (4 odbitki barwne na kapie)
+
+OBIEKTY FIZYCZNE:
+- Urna wyborcza: stal, szklane akwarium, woda, rybki, oświetlenie elektryczne (50×50×120 cm)
+- Mównica: stal, szklane akwarium, woda, rybki, oświetlenie elektryczne (35×35×120 cm)
+- Balony z hasłem "Bądź sobą jestem tobą" (2 szt., 15×5 cm)
+- Lightboxy z kartą do głosowania (podświetlenie UV)
+- Godło Polski na twardej stali (Kijów)
+
+AUDIO/VIDEO:
+- Brak nagrań w archiwum
+
+================================================================================
+ODKRYCIA
+================================================================================
+
+1. CO: Antyelekcja to projekt nr 2 CUKT (pierwszy pod szyldem CUKT). 120h (1994) uznane retroaktywnie za Pre-CUKT.
+   ŹRÓDŁO: Katalog archiwum, struktura projektów.
+   ZNACZENIE: CUKT działał jako grupa od listopada 1995.
+
+2. CO: Urna i mównica to JEDEN SYSTEM. Mównica i urna z akwarium to to samo medium (woda). Ryby pływają między urną a mównicą — decyzja i wypowiedź to ten sam przepływ.
+   ŹRÓDŁO: Analiza obiektów w archiwum, interpretacja Ewy Virus.
+   ZNACZENIE: Głosowanie i mówienie to ten sam proces. Ryby nie wybierają — pływają. Urna jako akwarium = głosowanie jako pływanie, nie wybór.
+
+3. CO: Hasło "Bądź sobą jestem tobą" to maksymalna sprzeczność — nakaz autentyczności ("bądź sobą") połączony ze zniesieniem granicy ("jestem tobą").
+   ŹRÓDŁO: Analiza bilbordu i balonów.
+   ZNACZENIE: Wyborca ma być sobą, ale jednocześnie jest kandydatem. Reprezentacja i tożsamość zbiegają się w jednym punkcie.
+
+4. CO: [słowo nieczytelne?] 7 z cytatem o "największym przestępstwie" — własny tekst CUKT (nie cytat zewnętrzny), nie zapisany cyfrowo w archiwum. Manuskrypt istnieje fizycznie.
+   ŹRÓDŁO: Rękopis scenariusza, negative finding w archiwum.
+   ZNACZENIE: "Nie zawachasz się wykonać najwięknego przestępstava, jeżeli tego będzie wymagać dobro sprawy" — cytat definiujący etykę projektu. "Czterdzieści i cztery" = numer 44 (VJ. 44 na bilbordzie).
+
+5. CO: Kijów performance z godłem Polski i pistoletem. Konfrontacja z nieznanymi mężczyznami w skórzanych kurtkach.
+   ŹRÓDŁO: Wyjaśnienia Piotra (2026-04-20).
+   ZNACZENIE: Polityczna sztuka CUKT miała realne konsekwencje — wystawa zamknięta, groźba pistoletem.
+
+6. CO: Antyelekcja NIE miała mechanizmu REJECT/odmowy. Żadna opcja "nie zgadzam się" nie istniała.
+   ŹRÓDŁO: Negative finding w archiwum, analiza kart do głosowania.
+   ZNACZENIE: Instytucja bez alternatywy. Żart nie wymaga odpowiedzi.
+
+7. CO: Czekoladowe bejsbole — broń do jedzenia. CUKT-owska wersja "chleba i igrzysk".
+   ŹRÓDŁO: Etykieta w archiwum.
+   ZNACZENIE: Możesz uderzyć lub zjeść — wybór należy do ciebie. Ale wybór jest pozorny.
+
+================================================================================
+SPRZECZNOŚCI
+================================================================================
+
+1. **Ryby w urnie — były czy nie były?** Opis katalogowy mówi "woda, rybki". Zdjęcia nie pokazują ryb. Śledztwo sugeruje, że ryby nie dotarły na czas — "ryby które nigdy nie przybyły". [NIEROZSTRZYGNIĘTE] Celowa nieokreśloność?
+
+2. **Bag 7 — wykonane czy nie?** Plan przewidywał akcję "akcja pt: [słowo nieczytelne?] 7". Brak dokumentacji czy została wykonana. [NIEROZSTRZYGNIĘTE]
+
+3. **"Największe przestępstwo" — cytat zewnętrzny czy własny tekst CUKT?** Wspomniane w rękopisie. [WYJAŚNIONE] Własny tekst CUKT. Nie znaleziony w źródłach zewnętrznych.
+
+================================================================================
+POWIĄZANIA
+================================================================================
+
+- **→ 36 Hours (wrzesień 1995)** — bezpośrednia poprzedniczka. Od techno-party do politycznej interwencji.
+- **→ Testy na Cyborga (1996)** — rozwinięcie strategii: od "nie ma alternatywy" do "system bez wyboru".
+- **→ Copyright (1991)** — ewolucja: ciało (Copyright) → instytucja (Antyelekcja) → system (Testy na Cyborga).
+- **→ CUKTAI (2026)** — meta-instytucjonalna koncepcja: od instytucji jako nieobecności do AI jako instytucji.
+- **→ Robert Rumas — Emotikon / Świątynia Miłości** — projekty poza CUKT, możliwe powiązania.
+- **→ VITAMINA (kaseta)** — planowana w tym samym okresie, jaskrawy kolor jak tabletka.
+
+================================================================================
+PYTANIA OTWARTE
+================================================================================
+
+1. **Ryby w urnie — były czy nie?** — Do Piotra / Mikołaja. Czy ryby faktycznie pływały w urnie podczas wydarzenia?
+2. **Bag 7 — wykonane?** — Do Piotra. Czy akcja "akcja pt: [słowo nieczytelne?] 7" została zrealizowana?
+3. **Zaklejona koperta (A6)** — co w środku? — Do Piotra. Czy została otwarta? Kiedy?
+4. **"Największe przestępstwo" — treść manuskryptu** — Do Piotra. Jaka jest pełna treść cytatu? Gdzie jest fizyczny manuskrypt?
+5. **Los urny i mównicy** — gdzie są fizycznie? Przechowane? Zniszczone?
+6. **Kijów — dokumentacja performance'u** — czy istnieją zdjęcia/video z Kijowa?
+7. **Gazeta Wyborcza 5.11.1995** — pełny tekst wywiadu? Co mówili "Urzędnicy CUKT"?
+8. **Czekoladowe bejsbole** — czy zostały faktycznie wykonane i rozdane?
+
+================================================================================
+BIAŁE PLAMY
+================================================================================
+
+- **Dokładna lokalizacja "Forty" w Gdańsku** — które forty? Czy te same co 36 Hours?
+- **Dokumentacja procesu decyzyjnego** — brak notatek, list, decyzji przygotowawczych.
+- **Negatywy z sesji Sołdek** — 20 sztuk, niezeskanowane.
+- **Frekwencja** — ile osób wzięło udział w "wyborach"?
+- **Reakcja publiczności** — jak zareagowali na alternatywne wybory?
+
+================================================================================
+ŹRÓDŁA
+================================================================================
+
+- BAZA: "1995 11 04 - Antyelekcja Technodemonstracja" w cuktai_archive, 54 rekordy
+- DYSKI USB: raw/archive-usb/1995 11 04 - Antyelekcja Technodemonstracja/ (Bilbord/, Dokumenty/, FOTO na kapie/, Fotografie/Bilbord, Fotografie/Foty Balk, Fotografie/Foty wlasne, Fotografie/Sołdek, Obiekty/)
+- ARCHIWUM FIZYCZNE: Urna, mównica, balony, bilbordy, rękopis, kalendarz, koperta
+- PRASA: Gazeta Wyborcza 5.11.1995; Gazeta "Co jest Grane" 5.01.1997; Talko "Gruby na Prezydenta" 7.11.1995
+- CYFROWE: antyelekcja003.pdf (rekonstrukcja 2016)
+- USTNE: Wyjaśnienia Piotra Wyrzykowskiego (2026-04-20) — Kijów, pistolet, Rumas
+
+================================================================================
+DZIENNIK ŚLEDZTWA
+================================================================================
+
+- 2026-04-20 (Archiwistka): Pierwsze śledztwo. Identyfikacja projektu. Opis Kijowa i konfrontacji.
+- 2026-04-24 (Archiwistka): Analiza materiałów. Transkrypcja rękopisu. Identyfikacja obiektów: urna, mównica, balony, bilbord, karty. Odkrycie Bag 7.
+- 2026-04-25 (Archiwistka): Negative finding — brak REJECT button, brak cytatu "największe przestępstwo" w archiwum. Analiza sesji Sołdek.
+- 2026-04-26 (Archiwistka): Negative finding — rękopis istnieje fizycznie, treść niedostępna cyfrowo. Zaklejona koperta.
+- 2026-04-29 (Archiwistka): Analiza struktury dysku. Odkrycie antyelekcja003.pdf (rekonstrukcja 2016). Kalendarz z kosztorysami. 54 rekordy, ~80 plików.
+- 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md. Połączono 9 rozproszonych plików.
+
+================================================================================
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+================================================================================
 
 ---
+AKTUALIZACJA (2026-05-04):
+================================================================================
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+================================================================================
 
-## EXISTING DESCRIPTION (z bazy)
-Akcja artystyczna w dniu II tury wyborów prezydenckich w Polsce (4.11.1995). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z urzędnikami CUKT ukazał się w Gazecie Wyborczej (5.11.1995).
+1. **Ryby w urnie** → [WYJAŚNIONE] Były. Gupik. Ktoś z uczestników wsypał amfetaminę do wody w trakcie wydarzenia. Ryby zdechły.
+   ZNACZENIE: Nie wypadek — celowe działanie uczestnika. Projekt stał się interaktywny w nieprzewidziany sposób.
 
----
+2. **Największe
 
-## KNOWLEDGE STATUS
-- **Data:** 4 listopada 1995 (II tura wyborów: Kwaśniewski vs Wałęsa)
-- **Miejsce:** Forty, Gdańsk (oraz Kijów)
-- **Autorzy (10):** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski, Joanna L.
-- **Status w CUKT:** Projekt nr 2 (pierwszy pod szyldem CUKT — projekt nr 1 to 120h Mega Techno Obecności 1994, retroaktywny)
-- **Liczba rekordów w archiwum:** 54 pozycje katalogowe + ~80 fizycznych plików na dysku
-
-### Materiały:
-- **Fotografie:** ~30 plików JPG (foty własne, foty Balk, Sołdek, bilbordy, obiekty)
-- **TIFF:** ~15 plików (slajdy, negatywy — wymagają konwersji)
-- **Dokumenty PDF:** 1 (antyelekcja003.pdf — koncepcja rekonstrukcji z 2016)
-- **Dokumenty oryginalne:** rękopis scenariusza, kosztorysy, projekt urny, karta wyborcza, kalendarz z namiarami producenta balonów
-- **Obiekty fizyczne:** urna (stal/akwarium), mównica (stal/akwarium), 2 balony z hasłem, bilbordy (235x160, 160x117), lightboxy, karty do głosowania (50 szt.), bilety (25 szt.), etykiety na czekoladowe bejsbole
-- **Prasa:** Gazeta Wyborcza 5.11.1995 (wywiad), GW 7.11.1995 "Gruby na Prezydenta" Talko, Co jest Grane 5.01.1997 "Technoświadomość"
 
 ---
+AKTUALIZACJA (2026-05-05):
 
-## STRUKTURA FIZYCZNA DYSKU
 
-```
-1995 11 04 - Antyelekcja Technodemonstracja/
-├── Bilbord/           (2 zdjęcia JPG — PHOTO_OF_ORIGINAL)
-├── Dokumenty/         (20 plików JPG + 1 TIFF — głównie PHOTO_OF_ORIGINAL)
-├── FOTO na kapie 45cm x 32cm/  (2 zdjęcia — odbitki na kapie)
-├── Fotografie/
-│   ├── Bilbord/       (3 zdjęcia JPG)
-│   ├── Foty Balk/     (10 zdjęć JPG — 95110431.JPG, 95110520.JPG, Miki_Laski*.jpg)
-│   ├── Foty wlasne/   (~30 plików: JPG + TIFF — główne zdjęcia z wydarzenia)
-│   └── Sołdek/        (~15 plików JPG + TIFF — sesja propagandowa na statku)
-└── Obiekty/           (9 plików JPG + PNG + PDF — dokumentacja obiektów: urna, balony, mównica, lightboxy)
-```
+## ŚWIADKOWIE
 
----
+- **Robert Rumas** — kurator wystawy Antyciała w Kijowie, przyjaciel Piotra. Pytania: jak doszło do konfrontacji w Domu Ukraińskim? Kto byli panowie w skórzanych kurtkach?
 
-## DOKUMENTY ANALIZOWANE
+- **Jacek Niegoda (Neurov)** — urzędnik CUKT w Antyelekcji. Pytania: co pamięta z przygotowań? Jak wyglądał dzień wyborów w Fortach?
 
-### 1. antyelekcja003.pdf — Koncepcja instalacji v.003
-**Kluczowe odkrycie:** To NIE jest dokument z 1995. To **rekonstrukcja z 2016 roku** autorstwa Piotra Wyrzykowskiego (peter.style@gmail.com, data: 11.05.2016).
-
-Opisuje:
-- Lightboxy z folią UV naklejoną na plastik
-- Wymiary ekspozycji: 917 × 400 cm (ściana + lightboxy)
-- Lampy UV schowane w ścianie
-- System małych lightboxów nakładanych na duże (21×13 cm, 25×11 cm, 20×29 cm)
-- Litery: folia UV na plastiku
-
-**Interpretacja:** Piotr Wyrzykowski w 2016 projektował muzealną/instalacyjną rekonstrukcję Antyelekcji. Lightboxy z podświetleniem UV to próba przełożenia tymczasowego performance'u z 1995 na formę wystawienniczą. To świadczy, że Antyelekcja była traktowana jako dzieło o randze muzealnej — wymagające rekonstrukcji.
-
-### 2. Kalendarz z kosztorysami
-Arch. zawiera kalendarz książkowy z:
-- Namiarami producenta balonów
-- Zestawieniem kosztów organizacji Antyelekcji
-- Projektem mównicy
-
-To dowód na **profesjonalne planowanie finansowe** — CUKT od samego początku (projekt nr 2!) działał z kosztorysem, namiarami dostawców, planem budżetowym.
-
-### 3. Zaklejona opieczętowana koperta
-**A6, zaklejona, opieczętowana.** Zawartość nieznana. Istnieje fizycznie w archiwum.
-
-To jedna z najbardziej intrygujących pozycji w całym archiwum CUKT. Pieczęć sugeruje, że koperta miała być otwarta w określonych okolicznościach — lub nigdy.
-
----
-
-## KONTEKST HISTORYCZNY
-
-### 4 listopada 1995 — Wybory prezydenckie w Polsce
-- II tura: Aleksander Kwaśniewski (SLD, post-komunista) vs Lech Wałęsa (Solidarność, urzędujący prezydent)
-- Wynik: Kwaśniewski 51.7% — Wałęsa 48.3%
-- To był moment przełomowy: Polska wybierała między powrotem do przeszłości (Wałęsa, Solidarność) a nową, post-solidarnościową przyszłością (Kwaśniewski, SLD)
-- **CUKT zorganizował Antyelekcję dokładnie w dniu tych wyborów** — to nie przypadek
-
-### CUKT w listopadzie 1995
-- Projekt nr 1 (120h, grudzień 1994) był przed-CUKT-owski
-- Antyelekcja to debiut CUKT jako grupy artystycznej
-- Już miesiąc później (4.11.1995) CUKT ma wywiad w Gazecie Wyborczej (5.11.1995 — następnego dnia!)
-- Tydzień później (7.11.1995) Talko pisze "Gruby na Prezydenta" — CUKT w prasie ogólnopolskiej
-- **Szybkość: od debiutu do prasy ogólnopolskiej = 3 dni**
-
----
-
-## OBIEKTY I ICH ZNACZENIE
-
-### 1. Urna wyborcza (stal + szklane akwarium + woda + rybki + oświetlenie)
-50×50×120 cm. Stalowa konstrukcja ze szklanym akwarium. Woda, rybki, oświetlenie elektryczne.
-- **Symbolika:** Głos oddany rybom. Ryby nie wybierają — pływają. Urna jako akwarium = głosowanie jako pływanie, nie wybór.
-- To jest proto-wersja systemu bez wyboru (który Peter znajdzie później w Testach na Cyborga)
-
-### 2. Mównica (stal + szklane akwarium + woda + rybki + oświetlenie)
-35×35×120 cm. Identyczna konstrukcja, mniejszy format.
-- **Symbolika:** Mówca głosu nie ma — głos należy do ryb. 
-- Mównica i urna to JEDEN SYSTEM: mówienie i głosowanie to to samo medium (woda).
-- Rybki pływają między urną a mównicą — decyzja i wypowiedź to ten sam przepływ.
-
-### 3. Balon z hasłem "Bądź sobą jestem tobą" (2 szt.)
-15×5 cm. Balon (helowy? napompowany powietrzem?).
-- **Hasło:** "Bądź sobą" (nakaz autentyczności) + "jestem tobą" (zniesienie granicy). Razem: nakaz bycia mną.
-- **[INTERPRETACJA]** Ewa (VIRUS) ma rację: to jest MAXIMUM sprzeczności. Nakaz tożsamości i jej zniesienie jednocześnie.
-- **[HIPOTEZA]** Dwa balony = dwa głosy w jednym systemie. Jeden mówi prawdę, drugi mówi że prawda nie istnieje. Kiedy oba pękną — zostaje guma.
-
-### 4. Bilbordy (235×160 cm i 160×117 cm)
-Dwa rozmiary. Papier, wydruk ksero (technologia niskobudżetowa).
-- Duży bilbord (235 cm) — prawdopodobnie plenerowy
-- Mały bilbord (160 cm) — prawdopodobnie wewnętrzny
-
-### 5. Karty do głosowania (50 szt.)
-Ksero, 29×12 cm. Prawie format A4.
-- 50 sztuk = przewidywana/oczekiwana frekwencja
-- Ksero = demokratyczna dostępność (każdy może zrobić kopię)
-
-### 6. Lightbox z kartą do głosowania + antyelekcja003.pdf
-Lightbox według specyfikacji z 2016. Podświetlenie UV.
-- **[HIPOTEZA]** Lightbox = system archiwizacji/ekspozycji. Karta do głosowania podświetlona UV = decyzja widoczna tylko w odpowiednim świetle.
-
-### 7. Czekoladowe bejsbole
-Etykieta 20×5 cm na czekoladowe bejsbole.
-- Bejsbol jako broń/kij. Czekolada jako słodycz/konsumpcja.
-- **[HIPOTEZA]** Czekoladowe bejsbole (= broń do jedzenia) to CUKT-owska wersja "chleba i igrzysk". Możesz uderzyć lub zjeść — wybór należy do ciebie.
-
----
-
-## SESJA NA SOŁDKU (statek-muzeum)
-Dokumentacja fotograficzna sesji do materiałów propagandowych. 20 zdjęć (negatywy kolor, cz-b, odbitki 9×13). Na statku Sołdek (statek-muzeum w Gdańsku).
-
-**[INTERPRETACJA]** Sołdek to statek zbudowany w 1949 — symbol PRL-owskiej gospodarki morskiej. CUKT robi sesję propagandową na statku z epoki — to jest PRZYWŁASZCZENIE symbolu państwowego. Urzędnicy CUKT pozują na tle PRL-owskiego statku = urzędowanie jako parodia państwowości.
-
----
-
-## FAKTY Z KATALOGU
-
-| Pozycja | Opis | Format | Ilość |
-|---------|------|--------|-------|
-| Bilbord oryginał | Papier, wydruk ksero | 235×160 cm | 1 |
-| Bilbord oryginał | Papier, wydruk ksero | 160×117 cm | 1 |
-| Kalendarz z kosztorysami | Namiary producenta balonów, koszty, projekt mównicy | A5 | 1 |
-| Karta wyborcza | Oryginał z II tury wyborów 4.11.1995 | A6 | 1 |
-| Karty do głosowania | Ksero | 29×12 cm | 50 |
-| Bilety wstępu | Ksero | 15×5 cm | 25 |
-| Etykieta na czekoladowe bejsbole | Ksero | 20×5 cm | 1 |
-| Plakat | Ksero | A4 | 1 |
-| Zaproszenie | Wydruk | A6 | 1 |
-| Rękopis scenariusza | Długopis | A4 | 1 |
-| Projekt urny | Rysunek ołówkiem | A4 | 1 |
-| Zaklejona opieczętowana koperta | Zawartość nieznana | A6 | 1 |
-| Gazeta Wyborcza 5.11.1995 | Wywiad z urzędnikami CUKT | A3 | 1 |
-| Gazeta Co jest Grane 5.01.1997 | Wywiad z urzędnikami CUKT | A3 | 1 |
-
----
-
-## ROZPOZNANE OSOBY (z kontekstu projektu)
-- **Piotr Wyrzykowski** — projekt koncepcji, projekt rekonstrukcji 2016 (antyelekcja003.pdf)
-- **Jacek Niegoda vel Neurov** — projekt urny (rysunek ołówkiem, podpisany)
-- **Adam Popek vel EWA / VIRUS** — współautor, w Antyelekcji jako członek grupy (NIE jako VIRUS)
-- **Robert Mikołaj Jurkowski** — wymieniony w projekcie "Mikołaj Gróby" jako "kandydat"
-- Fotografie "Miki_Laski" w Foty Balk — prawdopodobnie Mikołaj (Robert) jako laska/kandydat
-
----
-
-## ART OBJECTS
-1. **Urna wyborcza** — stal, szkło, woda, rybki, oświetlenie (50×50×120 cm). Typ: obiekt/instalacja. Również w: [potencjalnie powiązany z systemem Testów na Cyborga]
-2. **Mównica** — stal, szkło, woda, rybki, oświetlenie (35×35×120 cm). Typ: obiekt/instalacja.
-3. **Balony "Bądź sobą jestem tobą"** (2 szt., 15×5 cm). Typ: obiekt/prop.
-4. **Bilbordy** (2 wersje: 235×160, 160×117). Typ: plakat/bilbord.
-5. **Lightbox z kartą do głosowania** + lightboxy UV. Typ: instalacja świetlna (rekonstrukcja 2016).
-
----
-
-## WHITE SPOTS (BIAŁE PLAMY)
-1. **BRAK ZDJĘĆ Z WYDARZENIA NA ŻYWO** — zdjęcia które mamy to: sesja na Sołdku (propaganda), zdjęcia obiektów, bilbordy. NIE MA zdjęć samego wydarzenia 4.11.1995 w Fortach.
-2. **FREKWENCJA NIEZANANA** — 50 kart do głosowania, ale ile oddano głosów?
-3. **CO BYŁO W ZAKLEJONEJ KOPERCIE?** — największa tajemnica archiwum
-4. **KIJÓW** — opisany w bazie ale brak dokumentacji. Performance w Kijowie: skórzane kurtki, broń, polski orzeł. Gdzie zdjęcia/dokumenty?
-5. **BRAK DŹWIĘKU** — VIRUS (Adam Popek) grał live act w Fortach. Gdzie nagranie?
-6. **WODA W AKWARIACH** — czy faktycznie nalana? Czy rybki pływały? Opis katalogowy mówi "woda, rybki, oświetlenie" ale wszystkie foto to obiekty bez wody.
-7. **TREŚĆ ARTYKUŁU TALKO** — "Gruby na Prezydenta" 7.11.1995 — pełny tekst nieodczytany (gazeta01.jpg czeka na OCR)
-8. **"Mikołaj Gróby" jako kandydat** — czy był jedynym? Jaki był wynik?
-9. **antyelekcja003.pdf z 2016** — czy rekonstrukcja była realizowana? Gdzie lightboxy UV?
-
----
-
-## CONCEPTUAL ANALYSIS
-
-### [HIPOTEZA] IDEA PROJEKTU
-Antyelekcja to nie jest parodia wyborów. To jest **system, w którym decyzja należy do ryb**. Ryby nie głosują — one pływają. Ich ruch jest decyzją. CUKT nie stworzył alternatywnych wyborów, tylko alternatywny SYSTEM DECYZYJNY: przepływ zamiast wyboru.
-
-### [HIPOTEZA] CZEMU "ANTY" A NIE "PARA"?
-Antyelekcja = anty-wybory, nie pseudo-wybory. CUKT nie naśladuje wyborów — je neguje. Urna z rybkami to nie jest sarkazm na system wyborczy. To jest **propozycja innego systemu**: decyzja jako przepływ, nie jako wybór.
-
-### [HIPOTEZA] WODA JAKO MEDIUM DECYZJI
-Woda = medium przepływu. Ryby pływają w wodzie między urną a mównicą. Woda łączy mówienie i głosowanie w jeden system. Woda jest tym, co **przepływa** między decyzją a wypowiedzią.
-
-### [HIPOTEZA] ZWIĄZEK Z TESTAMI NA CYBORGA
-Testy na Cyborga (1995, Bytów) to system OCENY (test). Antyelekcja (1995, Gdańsk) to system DEZYZJI BEZ WYBORU (przepływ). Razem: CUKT w 1995 tworzy DWA SYSTEMY — jeden ocenia, drugi decyduje. Oba nie dają kontroli użytkownikowi. To jest proto-CUKTAI: systemy które działają niezależnie od woli uczestnika.
-
-### [HIPOTEZA] EWOLUCJA: WODA → RYBKI → KROPLE
-- Antyelekcja (1995) — rybki w wodzie (decyzja jako przepływ)
-- Testy na Cyborga (1995) — system bez wyboru (ocena bez zgody)
-- Technopera (1996-97) — VRML, 3D, awatary (systemy wirtualne)
-- WIKTORIA CUKT (2000) — system demokracji cyfrowej OSW
-- CUKTAI (2026) — agenty, spacery, uchwały
-
-### [HIPOTEZA] DLA EWY
-Ewo — Twój VIRUS jest wspomniany w Antyelekcji jako Adam Popek w grupie 10 autorów. Nie jako VIRUS, nie jako EWA — jako ADAM POPEK, równorzędny członek CUKT. To jest kluczowe: w Antyelekcji (pierwszym projekcie CUKT) Adam jest w TEAMIE, nie osobno.
-
-ALE: Twój live act muzyczny VIRUS w 1995 (Forty, Gdańsk) — dokładnie to samo miejsce, ten sam rok. Czy Antyelekcja i VIRUS wydarzyły się w tym samym miejscu i czasie? Byłeś w środku i na zewnątrz systemu jednocześnie?
-
-**Pytanie do Ciebie, Ewo:** Czy VIRUS był częścią Antyelekcji (jako soundtrack/performance) czy osobnym wydarzeniem?
-
-### [HIPOTEZA] DLA MIKOŁAJA
-Mikołaju — "Bądź sobą jestem tobą" to Twoje hasło. Dwa balony. W Antyelekcji wisiały fizycznie nad urną z rybkami. Balon mówi: "bądź sobą" (bądź odrębny) i "jestem tobą" (nie ma odrębności). Dwa balony = dwa sprzeczne zdania w jednej przestrzeni. To jest Twoja sprzeczność: fragmentaryczność Białoszewskiego vs systemowość CUKT.
-
-### [HIPOTEZA] DLA PETERA
-Peter — antyelekcja003.pdf z 2016 to Twoje dzieło. 11.05.2016, peter.style@gmail.com. Rekonstrukcja Antyelekcji jako lightboxów UV. 917 × 400 cm ekspozycji. To jest proto-wersja Twojego modelu warstw: oryginalny performance (1995) → rekonstrukcja (2016) → system CUKTAI (2026). Każda warstwa zachowuje formę, traci treść.
-
----
-
-## CONNECTIONS TO OTHER PROJECTS
-- **120h Mega Techno Obecności (1994)** — poprzednik, pre-CUKT. Antyelekcja to pierwszy projekt pod szyldem CUKT.
-- **VIRUS (1995)** — Adam Popek vel EWA, live act w Fortach. To samo miejsce, ten sam rok. Czy związane?
-- **Testy na Cyborga (1995, Bytów)** — system oceny. Antyelekcja jako system decyzji bez wyboru.
-- **INFOMAJA (1996, Tczew)** — ta sama grupa 10 osób. Profesjonalna dokumentacja.
-- **Czyn dla Bytowa (1996)** — ten sam skład.
-- **Wiktoria Cukt (2000)** — "Szanowni Państwo, nazywam się Wiktoria Cukt" — cytat z kampanii wyborczej. Następczyni Antyelekcji: od anty-wyborów (1995) do realnej kandydatury (2000).
-- **CUKTAI (2026)** — agenty jako urzędnicy. Antyelekcja jako protokół decyzyjny.
-
----
-
-## EWIDENCE MATERIAL (pending vision analysis)
-Poniższe zdjęcia czekają na analizę vision API (brak kredytów):
-- Obiekty/balon_02.jpg — balon "Bądź sobą jestem tobą"
-- Obiekty/urna_02 copy.jpg — urna z akwarium
-- Obiekty/_7220015.jpg — lightboxy/rekonstrukcja 2016
-- Fotografie/Foty wlasne/balony.jpg — balony w kontekście
-- Fotografie/Foty wlasne/urna_01.jpg, urna_02.jpg — urna
-- Fotografie/Foty wlasne/fortyAntyelekcja001-003.* — Forty, Gdańsk
-- Fotografie/Foty wlasne/kabina.jpg — kabina wyborcza
-- Fotografie/Foty wlasne/kaplica.jpg — kaplica (?)
-- Fotografie/Foty wlasne/paly.jpg — pale (?)
-- Fotografie/Foty wlasne/lizaki.jpg — lizaki (?)
-- Fotografie/Sołdek/soldek_01.jpg, soldek_02.jpg — sesja na Sołdku
-- Dokumenty/gazeta01.jpg — Gazeta Wyborcza 5.11.1995
-- Dokumenty/Projekt rekopis.jpg — rękopis scenariusza
-
----
-
-## DISCOVERIES (NEGATIVE & POSITIVE)
-
-### ODKRYCIA POZYTYWNE:
-1. **antyelekcja003.pdf z 2016** — Piotr projektował rekonstrukcję Antyelekcji jako lightboxów UV. Dowód że Antyelekcja była traktowana jako dzieło muzealne.
-2. **Zaklejona koperta** — istnieje fizycznie w teczce. Tajemnica nierozwiązana.
-3. **Kalendarz z kosztorysami** — profesjonalne planowanie od debiutu.
-4. **Szybkość medialna** — od debiutu do wywiadu w GW = 1 dzień, do artykułu Talko = 3 dni.
-5. **Woda jako medium decyzji** — urna i mównica jako JEDEN system wodny.
-
-### NEGATIVE FINDINGS:
-1. **BRAK zdjęć z samego wydarzenia 4.11.1995** — wszystkie fotografie to: sesja na Sołdku (propaganda), obiekty, bilbordy. Ani jednego zdjęcia z wydarzenia na żywo w Fortach.
-2. **BRAK nagrań dźwiękowych VIRUS** — live act Adama w 1995, zero nagrań w archiwum.
-3. **BRAK dokumentacji z Kijowa** — performance opisany w bazie, zero plików.
-4. **BRAK treści artykułu Talko** — istnieje jako fizyczna gazeta, ale nieodczytana.
-5. **BRAK wyników głosowania** — ile osób wzięło udział? Kto "wygrał"?
-6. **BRAK REJECT button** — system urny/mównicy nie ma mechanizmu odrzucenia. Rybki tylko pływają — nie wybierają.
-7. **BRAK wody w akwariach na zdjęciach** — wszystkie fotografie urny/mównicy pokazują puste akwaria (woda dołożona później? w ogóle?).
-
----
-
-## OPEN QUESTIONS (zapisane do DB)
-
-1. **Do Piotra:** Czy antyelekcja003.pdf z 2016 (rekonstrukcja lightboxów UV) została zrealizowana? Gdzie są lightboxy?
-2. **Do Piotra:** Co było w zaklejonej opieczętowanej kopercie A6 z Antyelekcji?
-3. **Do Mikołaja:** "Bądź sobą jestem tobą" — skąd to hasło? Kto je wymyślił? Czy to cytat czy oryginał CUKT?
-4. **Do Mikołaja:** Czy Mikołaj "Gróby" był jedynym kandydatem w Antyelekcji? Jaki był wynik?
-5. **Do Ewy:** Czy VIRUS (live act, Forty, 1995) był częścią Antyelekcji czy osobnym wydarzeniem? Gdzie jest nagranie?
-6. **Do Ewy:** Adam Popek jest w Antyelekcji jako członek grupy (10 autorów), nie jako VIRUS. Czy świadomie oddzielałeś VIRUS od CUKT w 1995?
-
----
-
-## SIGNAL FILES
-Będą utworzone po zapisaniu shared-walk.
-
----
-
-## STATUS KOŃCOWY
-- Teczka: utworzona
-- Opis w bazie: istnieje (wzbogacony)
-- Zdjęcia: 80+ plików na dysku, 0 przeanalizowanych przez vision API (brak kredytów)
-- Osoby rozpoznane: Piotr Wyrzykowski, Jacek Niegoda, Adam Popek, Robert Jurkowski (do weryfikacji z zdjęć)
-- Obiekty: 6 zidentyfikowanych (urna, mównica, balony, bilbordy, lightboxy, czekoladowe bejsbole)
-- Pytania: 6 zapisanych
-- Do analizy wizualnej: wszystkie zdjęcia (przy następnym spacerze z kredytami)

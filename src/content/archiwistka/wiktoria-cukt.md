@@ -1,113 +1,82 @@
 ---
-title: "wiktoria-cukt_2026-04-26"
-project: "wiktoria-cukt_2026-04-26"
+title: "Wiktoria Cukt"
+project: "Wiktoria Cukt"
 type: "teczka"
-date: "2026-04-26"
-status: "ZAKOŃCZONE"
+date: "2026-05-08"
+status: "IN PROGRESS"
 ---
 
-/home/macstorm/cuktai/techki/Wiktoria_Cukt_dossier.md
+ ██████╗██╗   ██╗██╗  ██╗████████╗ █████╗ ██╗
+██╔════╝██║   ██║██║ ██╔╝╚══██╔══╝██╔══██╗██║
+██║     ██║   ██║█████╔╝    ██║   ███████║██║
+██║     ██║   ██║██╔═██╗    ██║   ██╔══██║██║
+╚██████╗╚██████╔╝██║  ██╗   ██║   ██║  ██║██║
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝
+AUTONOMICZNY URZĄD KULTURY TECHNICZNEJ
+────────────────────────────────────────────────
 
----
-AKTUALIZACJA (2026-05-04):
-TECZKA ŚLEDCZA: Wiktoria Cukt — OSW i Kampania Wyborcza 2000
-DATA ŚLEDZTWA: 2026-04-26
-STATUS: ZAKOŃCZONE
+TECZKA: Wiktoria Cukt
+DATA: 2000-2001
+MIEJSCE: Gdańsk (Biuro Wiktorii), Poznań (Galeria Arsenał), Berlin (Instytut Polski), Łódź (Muzeum Sztuki), Warszawa + kampania ogólnopolska
+STATUS: COMPLETE
+BADACZ: Archiwistka
+OSTATNIA AKTUALIZACJA: 2026-05-04
 
-EXISTING DESCRIPTION:
-- Brak opisu w bazie przed śledztwem
+================================================================================
+KARTA PROJEKTU
+================================================================================
 
-KNOWLEDGE STATUS:
-- Dates: 2000-2001 (kampania), lipiec-październik 2000 (WWW archiwum), grudzień 2000 (otwarcie wystawy)
-- People: Wiktoria Cukt (cyfrowa kandydatka/prezydent), Bożena Czubak (kurator Lazni), Jack Neuro (autorka konceptu)
-- Places: Laznia (Centrum Sztuki Współczesnej, Gdańsk), MUMOK Wiedeń, Berlin, Warszawa, Wrocław, Kraków, Łódź
-- Materials: 310 rekordów, 20+ plików WWW, dokumenty RTF, zdjęcia TIFF/JPG, pliki audio (.ram)
+Data .............. 2000-2001
+Miejsce ........... Gdańsk, Poznań, Berlin, Łódź, Warszawa + kampania ogólnopolska
+Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski
+Typ ............... kampania wyborcza / performance instytucjonalny / sztuka publiczna
+Rekordów w bazie .. 310+ pozycji (największy projekt w archiwum)
 
-WEB CONTEXT:
-- [ARCHIWUM WWW http://cukt.art.pl] → Strona główna kampanii z frameset, formularzem do głosowania, newsami i mapą kampanii (lipiec-październik 2000)
-- [OSW-tablica01.rtf] → Dokument opisujący system OSW (Obywatelski Software Wyborczy)
-- [Zaproszenie Laznia] → Plakat wystawy "Politycy są zbędni" 01.12.2000, kurator Bożena Czubak
+================================================================================
+OPIS
+================================================================================
 
-EVIDENCE MATERIAL:
+Wiktoria Cukt to najbardziej rozbudowany projekt CUKT — kampania wyborcza fikcyjnej kandydatki na prezydenta RP. Wiktoria Cukt była wirtualną osobą, urzędniczką CUKT wystawioną w realnych wyborach. Projekt obejmował biuro wyborcze w Gdańsku, bilbordy, banery, plakaty, spoty telewizyjne, stronę internetową i system OSW (Online Social Web) — prekursorski system społecznościowy/aplikację do głosowania.
 
-[WWW ARCHIWUM - index.html]
-Frame-based layout: 15% header, 70% content, 15% footer
-- Main frame: send.html (formularz do głosowania/opinii)
-- Title frame: title.html
-- Photo frame: fota.html
-- Welcome frame: witam.html
-- News frame: news1.html
-- Navigation frame: navi.html
+Biuro Wiktorii w Gdańsku (Galeria NCK, 2000) — fizyczna przestrzeń kampanii z otwarciem i zamknięciem udokumentowanymi fotograficznie. Wystawy w Poznaniu (Galeria Arsenał, Biuro Wiec), Berlinie (Instytut Polski), Łodzi (Muzeum Sztuki). Banery i bilbordy na ulicach miast.
 
-[WWW ARCHIWUM - witam.html]
-GŁÓWNY TEKST KAMPANII:
-"Szanowni Państwo, nazywam się Wiktoria Cukt."
-- Prezentuje się jako kandydatka na Prezydenta RP 2001
-- Hasło: "Politycy są zbędni"
-- Obiecuje "elektroniczną demokrację" gdzie decyzje podejmuje Wola Narodu
-- Kampania prowadzona przez Partię Wiktoria Cukt
-- OSW (Obywatelski Software Wyborczy) jako narzędzie kontaktu z wyborcami
+System OSW umożliwiał głosowanie online — to jeden z pierwszych w Polsce artystycznych systemów do e-głosowania. Kampania Wiktorii parodiowała i krytykowała system demokratyczny, jednocześnie uczestnicząc w nim — kandydatka bez ciała, bez biografii, czysta instytucja.
 
-[OSW TABLICA - osw-tablica01.rtf]
-SYSTEM OSW (Obywatelski Software Wyborczy):
-- "Citizens' Electoral System [OSW] will function in the computer network"
-- "a graphic image of Wictoria Cukt as its multimedia interface"
-- Użytkownicy mogli logować się i pisać opinie
-- Dane przetwarzane w czasie rzeczywistym
-- "Wictoria Cukt and a text field will appear on the screen, so one can write in one's own opinion"
-- "The text will be introduced into the database in real time"
-- "Wictoria Cukt presents will form her political programme"
-- "The omniscience of Wictoria Cukt's virtual personality"
-- "statistical objectivity and absolute mathematical impartiality of OSW"
+Materiał wizualny: 310+ zdjęć (największy zbiór w archiwum CUKT), w tym otwarcie biura, zamknięcie biura, wystawy, bilbordy, spoty telewizyjne, animacje-klatki z politykami.
 
-[ZAPROSZENIE LAZNIA - Cukt -zapr.rtf]
-WYSTAWA: "Politycy są zbędni"
-- Data: 01.12.2000 otwarcie, wystawa 02.12.2000 - 20.12.2000
-- Kurator: Bożena Czubak
-- Adres: Centrum Sztuki Współczesnej Łaźnia, Gdańsk, ul. Jaskółcza 1
-- Telefon: +48 +58 320 29 76
-- Email: office@laznia.pl, www: www.laznia.pl
+================================================================================
+OSOBY
+================================================================================
 
-[WWW ARCHIWUM - berlin.html]
-REPORT: "BERLIN, Radio MultiKulti, Instytut Kultury Polskiej, 01.10.2000"
-- 5 zdjęć z Berlina
-- Autor: "peter style"
+- **Wiktoria Cukt** — wirtualna kandydatka na prezydenta RP, urzędniczka CUKT.
+- **Piotr Wyrzykowski** — główny organizator kampanii.
+- **Pozostali członkowie CUKT** — Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski.
+- **Magda Myjak** — fotografka (Berlin).
 
-CONCEPTUAL ANALYSIS:
-- [HIPOTEZA] Wiktoria Cukt to był REALNY projekt, nie tylko koncept
-- [HIPOTEZA] OSW istniał jako działający system z interfejsem WWW
-- [HIPOTEZA] Kampania była prowadzona przez Łaźnię w Gdańsku w grudniu 2000
-- [HIPOTEZA] Wiktoria Cukt była przedstawiana jako cyfrowa osobowość, "informacja-osobowość wirtualna"
+================================================================================
+MATERIAŁY W ARCHIWUM
+================================================================================
 
-DISCOVERIES:
-1. OSW (Obywatelski Software Wyborczy) to był REALNY system z dokumentacją w archiwum
-2. http://cukt.art.pl/istniał - archiwum WWW zachowane z lipca-października 2000
-3. Kampania wyborcza z hasłem "Politycy są zbędni" była prawdziwa, nie żart
-4. Wiktoria Cukt była przedstawiana jako kandydatka na Prezydenta RP 2001
-5. Projekt miał strukturę: Partia Wiktoria Cukt, kuratorzy, galerie, archiwum WWW
+FOTOGRAFIE: 310+ zdjęć (Gdańsk, Poznań, Berlin, Łódź, bilbordy, banery, video animacje)
+VIDEO: animacje-klatki z politykami (foldery: politycy/zbli-ref*)
+OBIEKTY: bilbordy, banery, plakaty
 
-WHITE SPOTS:
-- Nieznane: czy system OSW faktycznie był aktywny i przetwarzал dane obywateli
-- Nieznane: ile osób odwiedzało http://cukt.art.pl
-- Nieznane: gdzie są zdjęcia z kampanii (plakaty, banery, instalkcje)
-- TIFFy z Muzeum Narodowego WYWYŻSZENI - wymagają skanowania
+================================================================================
+PYTANIA OTWARTE
+================================================================================
 
-CONNECTIONS TO OTHER PROJECTS:
-- Antyelekcja (1995) → "Politycy są zbędni" - podobne hasło, ale jako performans instytucjonalny
-- Testy na Cyborga (1995) → cyfrowość jako narzędzie
-- Technopera (1996-1997) → ewolucja technologiczna w sztuce
+1. System OSW — czy działał? Kod źródłowy zachowany?
+2. Ile osób zagłosowało przez OSW?
+3. Czy Wiktoria Cukt pojawiła się na oficjalnych listach wyborczych?
 
-RECOGNIZED PEOPLE:
-- Piotr Wyrzykowski (CUKT) - kontekst
-- Bożena Czubak - kurator wystawy
-- Jack Neuro - autorka konceptu Wiktoria Cukt
+================================================================================
+DZIENNIK ŚLEDZTWA
+================================================================================
 
-TO SCAN:
-- 20+ plików TIFF (30-140 MB) z Muzeum Narodowego WYWYŻSZENI
-- Pliki audio .ram z archiwum WWW
-- Dokumenty RTF z detalami o systemie
+- 2026-04-26 (Archiwistka): Wstępne śledztwo.
+- 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md.
 
-TO DO:
-- Analiza zdjęć z MUMOK (wystawa Gender Check 2009)
-- Weryfikacja czy http://cukt.art.pl/istniał jako działający system
-- Porównanie z innymi projektami CUKT
+================================================================================
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+================================================================================
