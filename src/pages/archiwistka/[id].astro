@@ -210,20 +210,19 @@ const accentColor = isKarta ? 'green' : 'red';
 
   /* ASCII logo header — code block at the top */
   .project-body :global(pre:first-of-type) {
-    color: var(--red);
+    color: var(--white);
     font-size: clamp(0.3rem, 1.2vw, 0.55rem);
     line-height: 1.15;
     letter-spacing: 0;
-    border: 1px solid var(--red-dim);
-    padding: var(--space-md);
+    border: 1px solid var(--border);
+    padding: var(--space-lg) var(--space-xl);
     margin-bottom: var(--space-lg);
-    background: rgba(180, 30, 30, 0.05);
+    background: var(--bg);
     overflow-x: auto;
-    text-align: left;
-    width: fit-content;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    white-space: pre;
+    display: flex;
+    justify-content: center;
   }
 
   /* Signature footer — last code block */
@@ -292,8 +291,8 @@ const accentColor = isKarta ? 'green' : 'red';
 
   @media (max-width: 768px) {
     .project-body :global(pre:first-of-type) {
-      font-size: clamp(0.2rem, 2vw, 0.35rem);
-      padding: var(--space-sm);
+      font-size: clamp(0.18rem, 1.8vw, 0.32rem);
+      padding: var(--space-sm) var(--space-md);
     }
   }
 </style>
