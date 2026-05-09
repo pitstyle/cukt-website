@@ -33,6 +33,9 @@ const accentColor = isKarta ? 'green' : 'red';
   <article class="project">
     <div class="container content">
       <div class="project-body">
+        <div class="teczka-header">
+          <img src="/teczka-header.png" alt="CUKTAI — Autonomiczny Urząd Kultury Technicznej" />
+        </div>
         <Content />
       </div>
     </div>
@@ -208,32 +211,17 @@ const accentColor = isKarta ? 'green' : 'red';
 
   /* ─── DOSSIER FORMAT: CUKTAI teczka styling ─── */
 
-  /* ASCII logo header — code block at the top */
-  .project-body :global(pre:first-of-type) {
-    color: var(--white) !important;
-    font-size: clamp(0.3rem, 1.2vw, 0.55rem);
-    line-height: 1.15;
-    letter-spacing: 0;
-    border: 1px solid var(--border);
-    padding: var(--space-lg) var(--space-xl);
+  /* Teczka header — logo image */
+  .teczka-header {
     margin-bottom: var(--space-lg);
-    background: #000 !important;
-    overflow-x: auto;
   }
 
-  .project-body :global(pre:first-of-type code) {
+  .teczka-header img {
+    width: 100%;
+    max-width: 600px;
     display: block;
-    text-align: center;
-    background: transparent !important;
-  }
-
-  .project-body :global(pre:first-of-type .line) {
-    display: block;
-    text-align: center;
-  }
-
-  .project-body :global(pre:first-of-type span) {
-    color: var(--white) !important;
+    margin: 0 auto;
+    border: none !important;
   }
 
   /* Signature footer — last code block */
@@ -301,9 +289,8 @@ const accentColor = isKarta ? 'green' : 'red';
   }
 
   @media (max-width: 768px) {
-    .project-body :global(pre:first-of-type) {
-      font-size: clamp(0.18rem, 1.8vw, 0.32rem);
-      padding: var(--space-sm) var(--space-md);
+    .teczka-header img {
+      max-width: 100%;
     }
   }
 </style>
