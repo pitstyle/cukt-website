@@ -1,0 +1,95 @@
+{
+  "project": "120h Mega Techno Obecności",
+  "slug": "120h-mega-techno-obecnosci",
+  "processed": "2026-05-09T11:03:10.633695",
+  "images": [
+    {
+      "index": 1,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Dokumenty/plakat.jpg",
+      "source_name": "plakat.jpg",
+      "author": "Piotr Wyrzykowski",
+      "web_file": "01-plakat-web.jpg",
+      "print_file": "01-plakat-print.jpg",
+      "web_size": "1200x855",
+      "original_size": "3073x2190",
+      "permissions_status": "AUTHOR"
+    },
+    {
+      "index": 2,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120h/cukt0007a.tif",
+      "source_name": "cukt0007a.tif",
+      "author": "Piotr Wyrzykowski",
+      "web_file": "02-cukt0007a-web.jpg",
+      "print_file": "02-cukt0007a-print.jpg",
+      "web_size": "829x1200",
+      "original_size": "873x1263",
+      "permissions_status": "AUTHOR"
+    },
+    {
+      "index": 3,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120hNoweOdKrotulskiego/img073.jpg",
+      "source_name": "img073.jpg",
+      "author": "Krotulski",
+      "web_file": "03-img073-web.jpg",
+      "print_file": "03-img073-print.jpg",
+      "web_size": "1200x757",
+      "original_size": "3311x2088",
+      "permissions_status": "PENDING"
+    },
+    {
+      "index": 4,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120hNoweOdKrotulskiego/img079.jpg",
+      "source_name": "img079.jpg",
+      "author": "Krotulski",
+      "web_file": "04-img079-web.jpg",
+      "print_file": "04-img079-print.jpg",
+      "web_size": "1200x738",
+      "original_size": "3303x2031",
+      "permissions_status": "PENDING"
+    },
+    {
+      "index": 5,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120hNoweOdKrotulskiego/img081.jpg",
+      "source_name": "img081.jpg",
+      "author": "Krotulski",
+      "web_file": "05-img081-web.jpg",
+      "print_file": "05-img081-print.jpg",
+      "web_size": "1200x781",
+      "original_size": "3120x2031",
+      "permissions_status": "PENDING"
+    },
+    {
+      "index": 6,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120hNoweOdKrotulskiego/img085.jpg",
+      "source_name": "img085.jpg",
+      "author": "Krotulski",
+      "web_file": "06-img085-web.jpg",
+      "print_file": "06-img085-print.jpg",
+      "web_size": "750x1200",
+      "original_size": "2071x3312",
+      "permissions_status": "PENDING"
+    },
+    {
+      "index": 7,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120hNoweOdKrotulskiego/img089.jpg",
+      "source_name": "img089.jpg",
+      "author": "Krotulski",
+      "web_file": "07-img089-web.jpg",
+      "print_file": "07-img089-print.jpg",
+      "web_size": "724x1200",
+      "original_size": "1999x3311",
+      "permissions_status": "PENDING"
+    },
+    {
+      "index": 8,
+      "source": "/Volumes/cuktai/raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/Fotografie/120hNoweOdKrotulskiego/img098.jpg",
+      "source_name": "img098.jpg",
+      "author": "Krotulski",
+      "web_file": "08-img098-web.jpg",
+      "print_file": "08-img098-print.jpg",
+      "web_size": "1200x719",
+      "original_size": "3311x1984",
+      "permissions_status": "PENDING"
+    }
+  ]
+}

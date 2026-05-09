@@ -186,6 +186,26 @@ const accentColor = isKarta ? 'green' : 'red';
     .page-title { font-size: 10vw; }
   }
 
+  /* ─── ARCHIVE PHOTOS ─── */
+  .project-body :global(img) {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    margin: var(--space-sm) 0;
+    display: block;
+  }
+
+  .project-body :global(img + em),
+  .project-body :global(p > em:only-child) {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--white-dim);
+    margin-top: calc(var(--space-xs) * -1);
+    margin-bottom: var(--space-md);
+    font-style: normal;
+    opacity: 0.7;
+  }
+
   /* ─── DOSSIER FORMAT: CUKTAI teczka styling ─── */
 
   /* ASCII logo header — code block at the top */
