@@ -1,9 +1,9 @@
 ---
-title: "INFOMAJA — Polish Technical Culture of the 90s"
-project: "INFOMAJA — Polish Technical Culture of the 90s"
+title: "infomaja"
+project: "infomaja"
 type: "teczka"
-date: "1996-12-13"
-status: "IN PROGRESS"
+date: "2026-04-25"
+status: "W TOKU"
 ---
 
 ```
