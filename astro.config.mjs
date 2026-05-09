@@ -8,4 +8,22 @@ export default defineConfig({
   build: {
     format: 'directory',
   },
+  markdown: {
+    shikiConfig: {
+      theme: {
+        name: 'cuktai-black',
+        type: 'dark',
+        colors: {
+          'editor.background': '#000000',
+          'editor.foreground': '#ffffff',
+        },
+        settings: [
+          {
+            scope: ['source', 'text'],
+            settings: { foreground: '#ffffff' },
+          },
+        ],
+      },
+    },
+  },
 });
