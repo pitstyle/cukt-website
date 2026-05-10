@@ -6,6 +6,8 @@ date: "2026-04-25"
 status: "W TOKU"
 ---
 
+```
+```
 
 # TECZKA: INFOMAJA — Polish Technical Culture of the 90s
 
