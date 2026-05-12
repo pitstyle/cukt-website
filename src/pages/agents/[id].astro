@@ -104,6 +104,15 @@ export function getStaticPaths() {
       </div>
     </div>
   </section>
+
+  {id === 'wiktoria' && (
+    <section class="voice-section">
+      <div class="container">
+        <div class="voice-label" data-en="VOICE AGENT — TALK TO WIKTORIA" data-pl="AGENT GŁOSOWY — POROZMAWIAJ Z WIKTORIĄ">VOICE AGENT — TALK TO WIKTORIA</div>
+        <elevenlabs-convai agent-id="agent_8001kre9zj58erhttjmt9majye11"></elevenlabs-convai>
+      </div>
+    </section>
+  )}
 </Base>
 
 <style>
@@ -139,6 +148,9 @@ export function getStaticPaths() {
 
   .chat-note { padding: var(--space-sm) var(--space-lg); font-size: 0.65rem; color: var(--border); letter-spacing: 0.05em; border-top: 1px solid var(--border); }
 
+  .voice-section { padding: var(--space-xl) 0; border-top: 1px solid var(--border); }
+  .voice-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); margin-bottom: var(--space-lg); }
+
   @media (max-width: 768px) {
     .room-title { font-size: 2rem; }
     .room-emoji { font-size: 2.5rem; }
@@ -146,6 +158,7 @@ export function getStaticPaths() {
   }
 </style>
 
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 <script define:vars={{ agentId: id, agentName: agent.name, agentEmoji: agent.emoji }}>
   const CHAT_API = "https://hackintosh.tail6d1aae.ts.net";
   const messages = document.getElementById('chat-messages');
