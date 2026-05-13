@@ -222,25 +222,23 @@ export function getStaticPaths() {
         const data = await res.json();
         addMessage(agentName, data.response || 'No response.');
         // Play voice audio if available
-        if (data.audio_base64) {
-          try {
-            const audioBytes = Uint8Array.from(atob(data.audio_base64), c => c.charCodeAt(0));
-            const blob = new Blob([audioBytes], { type: 'audio/wav' });
-            const audioUrl = URL.createObjectURL(blob);
-            const audio = new Audio(audioUrl);
-            // Try autoplay first
-            audio.play().catch(() => {
-              // If autoplay blocked, add play button to last message
-              const lastMsg = messages?.querySelector('.msg:last-child .msg-text');
-              if (lastMsg) {
-                const btn = document.createElement('button');
-                btn.textContent = ' ▶ PLAY';
-                btn.style.cssText = 'background:none;border:1px solid var(--green,#0f0);color:var(--green,#0f0);font-family:monospace;font-size:0.75rem;padding:2px 8px;margin-left:8px;cursor:pointer;';
-                btn.onclick = () => { new Audio(audioUrl).play(); btn.textContent = ' ● PLAYING'; };
-                lastMsg.appendChild(btn);
-              }
-            });
-          } catch (e) { console.warn('Audio playback failed:', e); }
+        if (data.audio_url) {
+          const audioUrl = CHAT_API + data.audio_url;
+          const lastMsg = messages?.querySelector('.msg:last-child .msg-text');
+          if (lastMsg) {
+            const btn = document.createElement('button');
+            btn.textContent = ' ▶ PLAY';
+            btn.style.cssText = 'background:none;border:1px solid var(--green,#0f0);color:var(--green,#0f0);font-family:monospace;font-size:0.7rem;padding:2px 8px;margin-left:8px;cursor:pointer;letter-spacing:0.1em;';
+            btn.onclick = () => { 
+              const a = new Audio(audioUrl);
+              a.play();
+              btn.textContent = ' ■ PLAYING';
+              a.onended = () => { btn.textContent = ' ▶ REPLAY'; };
+            };
+            lastMsg.appendChild(btn);
+          }
+          // Also try autoplay
+          try { new Audio(audioUrl).play().catch(() => {}); } catch(e) {}
         }
       } else {
         addMessage(agentName, '[System offline — try again later]');
