@@ -209,7 +209,7 @@ export function getStaticPaths() {
     messages?.scrollTo(0, messages.scrollHeight);
 
     try {
-      const res = await fetch(CHAT_API + '/chat', {
+      const res = await fetch(CHAT_API + '/chat/voice', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ agent: agentId, message: text }),
@@ -220,6 +220,15 @@ export function getStaticPaths() {
       if (res.ok) {
         const data = await res.json();
         addMessage(agentName, data.response || 'No response.');
+        // Play voice audio if available
+        if (data.audio_base64) {
+          try {
+            const audioBytes = Uint8Array.from(atob(data.audio_base64), c => c.charCodeAt(0));
+            const blob = new Blob([audioBytes], { type: 'audio/wav' });
+            const audio = new Audio(URL.createObjectURL(blob));
+            audio.play().catch(() => {});
+          } catch (e) { console.warn('Audio playback failed:', e); }
+        }
       } else {
         addMessage(agentName, '[System offline — try again later]');
       }
