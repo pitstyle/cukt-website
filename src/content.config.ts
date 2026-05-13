@@ -48,7 +48,7 @@ const podcasts = defineCollection({
     title_en: z.string().optional(),
     episode: z.number(),
     date: z.string(),
-    structure: z.enum(['rashomon', 'nolan', 'kronika', 'sledztwo']).optional(),
+    structure: z.string().optional(),
     duration_pl: z.string().optional(),
     duration_en: z.string().optional(),
     audio_pl: z.string().optional(),
