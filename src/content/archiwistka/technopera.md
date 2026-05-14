@@ -2,10 +2,9 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "1996"
+status: "COMPLETE"
 ---
-
 
 TECZKA: Technopera
 DATA: 1996-1997
@@ -199,3 +198,62 @@ AKTUALIZACJA (2026-05-05):
 
 - **Operator VR w Banff** — niezidentyfikowany.
 
+
+
+---
+AKTUALIZACJA (2026-05-09):
+
+---
+AKTUALIZACJA (2026-05-09):
+ŹRÓDŁO: Śledztwo w archiwum (plakaty, foldery)
+
+## NOWE USTALENIA — MATERIAŁY W ARCHIWUM
+
+### Zielona Góra / Technopera 3.0 PRO
+Nowo zidentyfikowane materiały w folderze Technopera/druki/:
+- **ZielonaGora_6690.jpg** (4032×3024, iPhone 7, photo 2018-10-09) — fotografia plakatu Technopery 3.0 PRO, Zielona Góra, Estrada
+- **ZielonaGora_6689.jpg** (4032×3024, iPhone 7, photo 2018-10-09) — druga fotografia tego samego plakatu
+- **zielonaGora01.jpg** (4160×2340, LG-H650, photo 2018-10-11) — zbliżenie na plakat
+- **zielona_bilet.jpg** (1230×1774, Picasa) — bilet na Technoperę 3.0 PRO w Zielonej Górze
+
+### Wrocław / WRO Media Biennale
+Nowo zidentyfikowane materiały w folderze Technopera/druki/:
+- **WRO_6525.jpg** (4032×3024, iPhone 7, photo 2018-10-08, 2775 KB) — plakat/print Technopery na WRO 96 Media Biennale
+- Plakat potwierdza prezentację Technopery na 5. edycji WRO Media Art Biennale we Wrocławiu
+
+### KOREKTY W SEKCJI ŹRÓDŁA
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/WRO_6525.jpg
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/ZielonaGora_6690.jpg
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/ZielonaGora_6689.jpg
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/zielonaGora01.jpg
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/zielona_bilet.jpg
+
+### NOWE PYTANIA OTWARTE
+6. **Jakie były dokładne daty WRO Media Biennale 1996?** — 5. edycja. Plakat WRO_6525.jpg zawiera daty wizualnie. Do Piotra.
+7. **Jaka jest dokładna data Technopery 3.0 PRO w Zielonej Górze?** — plakat z-96.jpg + ZielonaGora_6690.jpg zawierają datę wizualnie. Do Piotra.
+
+
+---
+AKTUALIZACJA (2026-05-09):
+
+---
+AKTUALIZACJA (2026-05-09):
+ŹRÓDŁO: Piotr Wyrzykowski (odczyt z plakatów)
+
+## DATY USTALONE
+
+### Zielona Góra / Technopera 3.0 PRO
+- **Data:** 18 maja 1996 (18.05.96), godz. 21:00 – 8:00
+- **Miejsce:** Hala Estrady, Zielona Góra
+- **Charakter:** Nocny performance łączący Technoperę 3.0 PRO z Testami na Cyborga
+
+### Wrocław / WRO Media Biennale
+- **Data:** 4 maja 1996 (04.05.1996)
+- **Miejsce:** Teatr na Świebodzkim, Wrocław
+- **Kontekst:** WRO 96 Media Art Biennale (5. edycja)
+- **Wykonawcy:** Piotr Bikont (Man-Machine), Katarzyna Kleczka (śpiewaczka)
+
+## KOREKTY
+- Zielona Góra: DATA = 18.05.1996 (nie tylko "1996")
+- Wrocław: DATA = 04.05.1996 (nie tylko "1996")
+- Wrocław: lokalizacja potwierdzona — Teatr na Świebodzkim

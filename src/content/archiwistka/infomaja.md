@@ -1,8 +1,8 @@
 ---
-title: "infomaja"
-project: "infomaja"
+title: "INFOMAJA"
+project: "INFOMAJA"
 type: "teczka"
-date: "2026-04-25"
+date: "2026-05-08"
 status: "W TOKU"
 ---
 

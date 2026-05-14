@@ -2,10 +2,9 @@
 title: "Venom Underground"
 project: "Venom Underground"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "2026-05-05"
+status: "COMPLETE"
 ---
-
 
 TECZKA: Venom Underground
 DATA: lata 90. (dokładna data nieznana)

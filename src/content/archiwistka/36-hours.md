@@ -2,10 +2,9 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "1995"
+status: "COMPLETE"
 ---
-
 
 TECZKA: 36 Hours
 DATA: 1995-09

@@ -2,10 +2,9 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "1995"
+status: "COMPLETE"
 ---
-
 
 TECZKA: Antyelekcja Technodemonstracja
 DATA: 1995-11-04

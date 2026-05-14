@@ -1,11 +1,10 @@
 ---
-title: "000 Cukt Dokumenty"
-project: "000 Cukt Dokumenty"
+title: "000 CUKT Dokumenty"
+project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "1994"
+status: "COMPLETE"
 ---
-
 
 TECZKA: 000 CUKT Dokumenty
 DATA: 1994-2000

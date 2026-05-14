@@ -1,11 +1,10 @@
 ---
-title: "Testy Na Cyborga"
-project: "Testy Na Cyborga"
+title: "Testy na Cyborga"
+project: "Testy na Cyborga"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "1995"
+status: "COMPLETE"
 ---
-
 
 TECZKA: Testy na Cyborga
 DATA: 1995-2017 (cykl wielomiejscowy)
@@ -195,3 +194,137 @@ AKTUALIZACJA (2026-05-05):
 
 - **Tomasz Pryba** — recenzent (Kaarst, Niemcy). Pytania: czy pamięta akcję CUKT w Düsseldorfie? Gdzie można znaleźć jego publikację?
 
+
+
+---
+AKTUALIZACJA (2026-05-09):
+
+
+
+---
+AKTUALIZACJA (2026-05-09):
+
+---
+AKTUALIZACJA (2026-05-09):
+ŹRÓDŁO: Śledztwo w archiwum (plakaty, foldery, web archive)
+
+## NOWE USTALENIA — LOKALIZACJE 1996
+
+### Zielona Góra / Technopera 3.0 PRO (1996)
+- **Miejsce:** Estrada, Zielona Góra (potwierdzone przez plakat z-96.jpg w web archive)
+- **Plakat istnieje:** z-96.jpg (340×272 pix) w archiwum web (WWW/z serwera ICM/test/testy/), dostępny przez galerię zielona.html z odnośnikami do lat 1992-1999
+- **60 wypełnionych testów:** skany w folderze `1995 2017 - Testy na Cyborga/1996 Zielona Gora/` (01.JPG–60.JPG, 996×1403, grayscale)
+- **Video:** TestCyborgZielonaGoraCukt.mp4 (939 MB, 23 min 18 sek, MP4) w folderze Video/
+- **Bilet:** zielona_bilet.jpg (1230×1774, Picasa) w folderze Technopera/druki/
+- **Fotografie posterów:** ZielonaGora_6689.jpg, ZielonaGora_6690.jpg (4032×3024, iPhone 7, 2018), zielonaGora01.jpg (4160×2340, LG-H650, 2018)
+- **Stan daty:** dzień i miesiąc wciąż nieznane — plakat z-96.jpg zawiera datę wizualnie, wymaga OCR lub obejrzenia przez człowieka
+
+### Wrocław / WRO Media Biennale (1996)
+- **Potwierdzenie WRO Biennale:** Plakat/print WRO_6525.jpg (2775 KB, iPhone 7, photo 2018-10-08) w folderze Technopera/druki — Technopera prezentowana na 5. edycji WRO Media Art Biennale
+- **Folder archiwalny:** `1995 2017 - Testy na Cyborga/1996 Wroclaw/` — 60+ skanów testów (format A/B, zdjęcia testów wypełnionych)
+- **Anons prasowy:** "Co jest Grane" (A3, oryginał) — wymieniony w katalogu archiwaliów, prawdopodobnie zawiera datę wydarzenia
+- **Lokalizacja:** Teatr na Świebodzkim (?) — znak zapytania w dokumentacji pozostaje
+- **Stan daty:** konkretne dni festiwalu WRO 96 wciąż nieustalone w archiwum
+
+### KOREKTY W SEKCJI BIAŁE PLAMY
+- Poprzednio: "Dokładna data i lokalizacja Wrocław — tylko '1996', 'Teatr na Świebodzkim?' (niepewne)."
+- NOWE: Lokalizacja Wrocław potwierdzona przez WRO_6525.jpg (WRO Biennale) + folder "1996 Wroclaw" w archiwum. Teatr na Świebodzkim wciąż niepewny. Data dzienna wciąż nieznana.
+- NOWA BIAŁA PLAMA: Plakat z-96.jpg (Zielona Góra) zawiera datę wizualnie — wymaga obejrzenia
+
+### KOREKTY W SEKCJI ŹRÓDŁA
+- DYSKI USB: raw/archive-usb/1995 2017 - Testy na Cyborga/1996 Zielona Gora/
+- DYSKI USB: raw/archive-usb/1995 2017 - Testy na Cyborga/1996 Wroclaw/
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/WRO_6525.jpg (Wrocław/WRO)
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/ZielonaGora_6690.jpg, ZielonaGora_6689.jpg (plakat Zielona Góra)
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/zielona_bilet.jpg (bilet Zielona Góra)
+- DYSKI USB: raw/archive-usb/1995 2017 - Testy na Cyborga/Video/TestCyborgZielonaGoraCukt.mp4
+- WEB ARCHIVE: raw/archive-usb/WWW/z serwera ICM/z serwera ICM/test/testy/z-96.jpg (plakat Zielona Góra 1996)
+
+### NOWE PYTANIA OTWARTE
+6. **Jaka jest dokładna data wydarzenia w Zielonej Górze?** — plakat z-96.jpg zawiera datę wizualnie. Do Piotra: obejrzeć plakat.
+7. **Jakie były dokładne daty WRO Media Biennale 1996?** — 5. edycja, CUKT z Technoperą. Do Piotra: sprawdzić archiwa WRO.
+8. **Czy anons prasowy "Co jest Grane" z Wrocławia zawiera datę wydarzenia?** — wymieniony w katalogu. Do sprawdzenia.
+
+
+---
+AKTUALIZACJA (2026-05-09):
+
+---
+AKTUALIZACJA (2026-05-09):
+ŹRÓDŁO: Piotr Wyrzykowski (odczyt z plakatów)
+
+## DATY USTALONE
+
+### Zielona Góra / Technopera 3.0 PRO
+- **Data:** 18 maja 1996 (18.05.96)
+- **Godziny:** 21:00 – 8:00 (przez noc)
+- **Miejsce:** Hala Estrady, Zielona Góra (potwierdzone: Estrada, a nie scena plenerowa)
+- **60 wypełnionych testów** oddaje skalę wydarzenia — nocny performance z publicznością
+
+### Wrocław / WRO Media Biennale
+- **Data:** 4 maja 1996 (04.05.1996)
+- **Miejsce:** Teatr na Świebodzkim, Wrocław (potwierdzone — znak zapytania usunięty)
+- **Kontekst:** 5. edycja WRO Media Art Biennale
+- Anons prasowy "Co jest Grane" potwierdza datę
+
+## KOREKTY W KARCIE PROJEKTU
+- Zielona Góra: DATA = 18.05.1996 (nie tylko "1996")
+- Wrocław: DATA = 04.05.1996 (nie tylko "1996")
+- Wrocław: MIEJSCE = Teatr na Świebodzkim (potwierdzone, bez znaku zapytania)
+
+## KOREKTY W BIAŁYCH PLAMACH — USUNIĘTO
+- "Dokładna data i lokalizacja Wrocław" — ROZWIĄZANE: 04.05.1996, Teatr na Świebodzkim
+- "Plakat z-96.jpg (Zielona Góra) zawiera datę wizualnie" — ROZWIĄZANE: 18.05.1996
+
+## ZAKTUALIZOWANA KOLEJNOŚĆ 1996
+1. **04.05.1996** — Testy na Cyborga / Technopera — Wrocław, Teatr na Świebodzkim (WRO 96)
+2. **18.05.1996** — Testy na Cyborga / Technopera 3.0 PRO — Zielona Góra, Hala Estrady (21:00-8:00)
+3. **28.06.1996** — Czyn dla Miasta Bytów + prapremiera Technopery — Bytów
+4. **14.09.1996** — Testy na Cyborga + Technopera — Warszawa, CSW Zamek Ujazdowski
+5. **1-3.10.1996** — Testy na Cyborga / DELIKATESY AVANTGARDE — Düsseldorf
+6. **13.12.1996** — INFOMAJA — Tczew, DK Kolejarza
+
+
+---
+AKTUALIZACJA (2026-05-11):
+
+## AKTUALIZACJA (2026-05-11) — USTALENIA OD PIOTRA
+
+### TORUN 1995 — procedura potwierdzona
+- Sala ze stolami do wypelniania ankiet (Test niedokonczonych zdan)
+- Po wypelnieniu — Mikolaj + jeszcze jedna osoba steplowali uczestnikow pieczatka CUKT
+- Warunek: stempel dopiero po uzyskaniu wypelnionego testu
+- Brak opasek, wag, skanowania — forma najprostsza
+
+### WROCLAW i ZIELONA GORA (maj 1996) — procedura potwierdzona
+- Urzednicy na stanowisku: Mikolaj + Anna Nizio
+- Flow: wypelnienie testu → video skanowanie lap (dloni) → otrzymanie stempla + numeru
+- Forma posrednia miedzy Toruniem (sam test + stempel) a Dusseldorfem (3 stanowiska + wagi + kontrakty)
+- Pojawia sie element SKANOWANIA (dloni), ktory w Dusseldorfie bedzie rozwiniete jako fototechniczne badanie wewnetrznej powierzchni lewej dloni
+- Brak workow z piachem, brak kontraktow, brak opasek kolorowych
+
+### BYTOW (28.06.1996) — procedura potwierdzona
+- Blizszy Toruniowi niz Dusseldorfowi — prostsza forma, samo wypelnianie testow
+- 50 testow = wieksza skala niz Torun (34), mniejsza niz Warszawa (100) czy Dusseldorf (120)
+
+### WARSZAWA CSW (14.09.1996) — do wyśledzenia ze zdjec
+- Formularze A/B/C (3-czesciowe) sugeruja bardziej rozbudowana forme
+- 12 fotografii w archiwum (Wawa T 000-012) + 8 dokumentow
+- Do zbadania wizualnie — zdjecia moga ujawnic uklad stanowisk i personel
+
+### MAPA EWOLUCJI (po korekcie)
+Torun 1995:           test + stempel (Mikolaj + ktos)
+Wroclaw 05.1996:      test → skan lap → stempel + numer (Mikolaj + Anna Nizio)
+Zielona Gora 05.96:   test → skan lap → stempel + numer (Mikolaj + Anna Nizio)
+Bytow 06.1996:        test (uproszczona, blizsza Toruniowi)
+Warszawa 09.1996:     ? (do wysledzenia ze zdjec)
+Dusseldorf 10.1996:   3 stanowiska + 3 dni + kontrakty + wagi + opaski
+
+### ROZWIAZANE PYTANIA Z BAZY
+- Wroclaw/Zielona Gora — ktore stanowiska? → ROZWIAZANE: test → skan lap → stempel + numer
+- Bytow — blizszy Toruniowi czy Dusseldorfowi? → ROZWIAZANE: blizszy Toruniowi
+- Torun — kto steplowal? → ROZWIAZANE: Mikolaj + ktos jeszcze
+
+### NOWE PYTANIA
+- Kto byla ta druga osoba steplujaca w Toruniu? (Piotr? Artur? Jacek?)
+- Warszawa — co dokladnie widac na zdjeciach Wawa T 000-012?

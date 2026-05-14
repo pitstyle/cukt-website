@@ -1,11 +1,10 @@
 ---
-title: "Virus"
-project: "Virus"
+title: "VIRUS"
+project: "VIRUS"
 type: "teczka"
-date: "2026-05-08"
-status: "IN PROGRESS"
+date: "1995"
+status: "COMPLETE"
 ---
-
 
 TECZKA: VIRUS
 DATA: 1995
