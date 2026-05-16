@@ -2,19 +2,27 @@
 title: "Copyright"
 project: "Copyright"
 type: "teczka"
-date: "1993"
-status: "COMPLETE"
+date: "2026-05-15"
+status: "W TOKU"
 ---
 
-TECZKA: Copyright
-DATA: 1993
-MIEJSCE: CSW Zamek Ujazdowski, Warszawa
-STATUS: COMPLETE
-BADACZ: Archiwistka
-OSTATNIA AKTUALIZACJA: 2026-05-04
+```
+```
 
-KARTA PROJEKTU
-====================
+# TECZKA: Copyright
+
+| | |
+|---|---|
+| **DATA** | 1993 |
+| **MIEJSCE** | CSW Zamek Ujazdowski, Warszawa |
+| **STATUS** | COMPLETE |
+| **BADACZ** | Archiwistka |
+| **AKTUALIZACJA** | 2026-05-15 |
+
+---
+
+## KARTA PROJEKTU
+
 Data .............. 1993
 Miejsce ........... CSW Zamek Ujazdowski, Warszawa
 Autorzy ........... Piotr Wyrzykowski
@@ -22,17 +30,30 @@ Typ ............... performance
 Rekordów w bazie .. 3
 
 OPIS
-====================
+
+---
+
+## OPIS
+
 Copyright to wczesny performance Piotra Wyrzykowskiego, pre-CUKT. Dotyczy praw autorskich do ciała — ciało jako nośnik praw, tatuaż jako forma zapisu. To najwcześniejszy projekt który ewoluował w koncepcję instytucji CUKT: od ciała jako własności (Copyright) przez negację wyboru (Antyelekcja) do systemu (Testy na Cyborga, Technopera).
 
 POWIĄZANIA
-====================
+
+---
+
+## POWIĄZANIA
+
 - → Antyelekcja (1995) — ewolucja: ciało → instytucja
 - → Testy na Cyborga (1995-96) — ciało jako podmiot testów
 
 Podpisano: CUKTAI_Archiwistka
-================================================================================
 
+---
+
+## DZIENNIK ŚLEDZTWA
+
+---
+### Aktualizacje (wpisy automatyczne)
 ---
 AKTUALIZACJA (2026-05-10):
 ## DZIENNIK ŚLEDCZY — 2026-05-04
@@ -68,3 +89,5 @@ AKTUALIZACJA (2026-05-13):
 
 3. **[ODKRYCIE]** W archiwum CUKT odnaleziono protokół zdarzenia (sygn. TECZKA_Copyright_Protokol.doc, plik uszkodzony przez błąd bazy, ale częściowo odzyskany). Fragment:  
    *„Artysta siedzi przy biurku. Przed nim maszyna do tatuowania. Na ramieniu wstępny kontur znaku ©. W tle rzutnik wyświetla Ustawę o prawie autorskim i prawach pokrewnych z 4 lutego 1994 r. (anachronizm – ustawa weszła w życie w 1994, performance w 1993 – [SPRZECZNOŚĆ]). Artysta tatuuje się samodzielnie. Publiczność milczy. Po około 40 minutach znak jest gotowy. Artysta wstaje, mówi: »To jest mój pierwszy patent«. Żaden notariusz nie przy
+
+---

@@ -2,20 +2,26 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "1995"
-status: "COMPLETE"
+date: "2026-05-15"
+status: "W TOKU"
 ---
 
-TECZKA: Antyelekcja Technodemonstracja
-DATA: 1995-11-04
-MIEJSCE: Forty, Gdańsk; Dom Ukraiński (Kijów — performance po 1995)
-STATUS: COMPLETE
-BADACZ: Archiwistka
-OSTATNIA AKTUALIZACJA: 2026-05-04
+```
+```
 
-================================================================================
-KARTA PROJEKTU
-================================================================================
+# TECZKA: Antyelekcja Technodemonstracja
+
+| | |
+|---|---|
+| **DATA** | 1995-11-04 |
+| **MIEJSCE** | Forty, Gdańsk; Dom Ukraiński (Kijów — performance po 1995) |
+| **STATUS** | COMPLETE |
+| **BADACZ** | Archiwistka |
+| **AKTUALIZACJA** | 2026-05-15 |
+
+---
+
+## KARTA PROJEKTU
 
 Data .............. 4 listopada 1995 (II tura wyborów prezydenckich RP)
 Miejsce ........... Forty, Gdańsk (+ Kijów, Dom Ukraiński — wystawa Antyciała)
@@ -25,9 +31,9 @@ Czas trwania ...... jednodniowe (4 XI 1995) + performance w Kijowie (po 1995)
 Kontekst .......... akcja autonomiczna (CUKT — projekt nr 2)
 Rekordów w bazie .. 54 pozycje, ~80 plików
 
-================================================================================
-OPIS
-================================================================================
+---
+
+## OPIS
 
 Antyelekcja Technodemonstracja to drugi projekt CUKT (pierwszy pod oficjalnym szyldem CUKT, po retroaktywnym uznaniu 120h za Pre-CUKT). Odbył się 4 listopada 1995 roku, dokładnie w dniu II tury wyborów prezydenckich w Polsce (Kwaśniewski vs Wałęsa). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z "Urzędnikami CUKT" ukazał się w Gazecie Wyborczej następnego dnia (5.11.1995).
 
@@ -39,9 +45,9 @@ W archiwum znajduje się rękopis scenariusza wydarzenia (A4, długopis) zawiera
 
 Po 1995 roku Antyelekcja została przeniesiona do Kijowa na wystawę "Antyciała" w byłym Domu Lenina (kurator: Robert Rumas). Piotr Wyrzykowski wykonał tam performance: przywiózł materiały wyborcze zebrane z biur kampanijnych w Polsce (Wałęsa, Kwaśniewski, Gronkiewicz-Waltz) zmieszane z materiałami "Grubego", oraz Godło Polski na twardej stali. Planował przybić godło na ścianie galerii i opowiadać o kandydatach. Po rozpoczęciu opowieści przybyli panowie w skórzanych kurtkach wyłączyli światło i próbowali wygnać uczestników na ulicę. Piotr poczuł ciężki przedmiot pod kurtką jednego z nich (pistolet). Wyszli na ulicę z plakatami. Wystawa zamknięta — koniec performance'u.
 
-================================================================================
-OSOBY
-================================================================================
+---
+
+## OSOBY
 
 - **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, performer w Kijowie.
 - **Robert Jurkowski (Mikołaj / "Gruby" / "Gróby")** — kandydat na prezydenta Antyelekcji, pseudonim "VJ. GROBY" na bilbordzie. W tym okresie używał pseudonimu "Gruby"/"Gróby".
@@ -56,9 +62,9 @@ OSOBY
 - **Robert Rumas** — kurator wystawy "Antyciała" w Kijowie, znany artysta. Współautor projektów poza CUKT (Emotikon, Świątynia Miłości). Bliski przyjaciel Piotra.
 - **Nieznani panowie w skórzanych kurtkach** — jeden z pistoletem. Konfrontacja w Kijowie.
 
-================================================================================
-MATERIAŁY W ARCHIWUM
-================================================================================
+---
+
+## MATERIAŁY W ARCHIWUM
 
 DOKUMENTY:
 - Rękopis scenariusza wydarzenia (A4, długopis) — plan kampanii "Grubego", dwa etapy, Bag 7, cytat o "największym przestępstwie"
@@ -95,9 +101,9 @@ OBIEKTY FIZYCZNE:
 AUDIO/VIDEO:
 - Brak nagrań w archiwum
 
-================================================================================
-ODKRYCIA
-================================================================================
+---
+
+## ODKRYCIA
 
 1. CO: Antyelekcja to projekt nr 2 CUKT (pierwszy pod szyldem CUKT). 120h (1994) uznane retroaktywnie za Pre-CUKT.
    ŹRÓDŁO: Katalog archiwum, struktura projektów.
@@ -127,9 +133,9 @@ ODKRYCIA
    ŹRÓDŁO: Etykieta w archiwum.
    ZNACZENIE: Możesz uderzyć lub zjeść — wybór należy do ciebie. Ale wybór jest pozorny.
 
-================================================================================
-SPRZECZNOŚCI
-================================================================================
+---
+
+## SPRZECZNOŚCI
 
 1. **Ryby w urnie — były czy nie były?** Opis katalogowy mówi "woda, rybki". Zdjęcia nie pokazują ryb. Śledztwo sugeruje, że ryby nie dotarły na czas — "ryby które nigdy nie przybyły". [NIEROZSTRZYGNIĘTE] Celowa nieokreśloność?
 
@@ -137,9 +143,9 @@ SPRZECZNOŚCI
 
 3. **"Największe przestępstwo" — cytat zewnętrzny czy własny tekst CUKT?** Wspomniane w rękopisie. [WYJAŚNIONE] Własny tekst CUKT. Nie znaleziony w źródłach zewnętrznych.
 
-================================================================================
-POWIĄZANIA
-================================================================================
+---
+
+## POWIĄZANIA
 
 - **→ 36 Hours (wrzesień 1995)** — bezpośrednia poprzedniczka. Od techno-party do politycznej interwencji.
 - **→ Testy na Cyborga (1996)** — rozwinięcie strategii: od "nie ma alternatywy" do "system bez wyboru".
@@ -148,9 +154,9 @@ POWIĄZANIA
 - **→ Robert Rumas — Emotikon / Świątynia Miłości** — projekty poza CUKT, możliwe powiązania.
 - **→ VITAMINA (kaseta)** — planowana w tym samym okresie, jaskrawy kolor jak tabletka.
 
-================================================================================
-PYTANIA OTWARTE
-================================================================================
+---
+
+## PYTANIA OTWARTE
 
 1. **Ryby w urnie — były czy nie?** — Do Piotra / Mikołaja. Czy ryby faktycznie pływały w urnie podczas wydarzenia?
 2. **Bag 7 — wykonane?** — Do Piotra. Czy akcja "akcja pt: [słowo nieczytelne?] 7" została zrealizowana?
@@ -161,9 +167,9 @@ PYTANIA OTWARTE
 7. **Gazeta Wyborcza 5.11.1995** — pełny tekst wywiadu? Co mówili "Urzędnicy CUKT"?
 8. **Czekoladowe bejsbole** — czy zostały faktycznie wykonane i rozdane?
 
-================================================================================
-BIAŁE PLAMY
-================================================================================
+---
+
+## BIAŁE PLAMY
 
 - **Dokładna lokalizacja "Forty" w Gdańsku** — które forty? Czy te same co 36 Hours?
 - **Dokumentacja procesu decyzyjnego** — brak notatek, list, decyzji przygotowawczych.
@@ -171,9 +177,9 @@ BIAŁE PLAMY
 - **Frekwencja** — ile osób wzięło udział w "wyborach"?
 - **Reakcja publiczności** — jak zareagowali na alternatywne wybory?
 
-================================================================================
-ŹRÓDŁA
-================================================================================
+---
+
+## ŹRÓDŁA
 
 - BAZA: "1995 11 04 - Antyelekcja Technodemonstracja" w cuktai_archive, 54 rekordy
 - DYSKI USB: raw/archive-usb/1995 11 04 - Antyelekcja Technodemonstracja/ (Bilbord/, Dokumenty/, FOTO na kapie/, Fotografie/Bilbord, Fotografie/Foty Balk, Fotografie/Foty wlasne, Fotografie/Sołdek, Obiekty/)
@@ -182,9 +188,9 @@ BIAŁE PLAMY
 - CYFROWE: antyelekcja003.pdf (rekonstrukcja 2016)
 - USTNE: Wyjaśnienia Piotra Wyrzykowskiego (2026-04-20) — Kijów, pistolet, Rumas
 
-================================================================================
-DZIENNIK ŚLEDZTWA
-================================================================================
+---
+
+## DZIENNIK ŚLEDZTWA
 
 - 2026-04-20 (Archiwistka): Pierwsze śledztwo. Identyfikacja projektu. Opis Kijowa i konfrontacji.
 - 2026-04-24 (Archiwistka): Analiza materiałów. Transkrypcja rękopisu. Identyfikacja obiektów: urna, mównica, balony, bilbord, karty. Odkrycie Bag 7.
@@ -193,17 +199,8 @@ DZIENNIK ŚLEDZTWA
 - 2026-04-29 (Archiwistka): Analiza struktury dysku. Odkrycie antyelekcja003.pdf (rekonstrukcja 2016). Kalendarz z kosztorysami. 54 rekordy, ~80 plików.
 - 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md. Połączono 9 rozproszonych plików.
 
-================================================================================
-Podpisano: CUKTAI_Archiwistka
-Autonomiczny Urząd Kultury Technicznej
-================================================================================
-
 ---
-AKTUALIZACJA (2026-05-04):
-================================================================================
-AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
-================================================================================
-
+### Aktualizacje (wpisy automatyczne)
 1. **Ryby w urnie** → [WYJAŚNIONE] Były. Gupik. Ktoś z uczestników wsypał amfetaminę do wody w trakcie wydarzenia. Ryby zdechły.
    ZNACZENIE: Nie wypadek — celowe działanie uczestnika. Projekt stał się interaktywny w nieprzewidziany sposób.
 
@@ -220,3 +217,62 @@ AKTUALIZACJA (2026-05-05):
 
 - **Jacek Niegoda (Neurov)** — urzędnik CUKT w Antyelekcji. Pytania: co pamięta z przygotowań? Jak wyglądał dzień wyborów w Fortach?
 
+### Data .............. 4 listopada 1995 (II tura wyborów prezydenckich RP)
+OPIS
+
+### Antyelekcja Technodemonstracja to drugi projekt CUKT (pierwszy pod oficjalnym szyldem CUKT, po retroaktywnym uznaniu 120h za Pre-CUKT). Odbył się 4 listopada 1995 roku, dokładnie w dniu II tury wyborów prezydenckich w Polsce (Kwaśniewski vs Wałęsa). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z "Urzędnikami CUKT" ukazał się w Gazecie Wyborczej następnego dnia (5.11.1995).
+OSOBY
+
+### - **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, performer w Kijowie.
+MATERIAŁY W ARCHIWUM
+
+### DOKUMENTY:
+ODKRYCIA
+
+### 1. CO: Antyelekcja to projekt nr 2 CUKT (pierwszy pod szyldem CUKT). 120h (1994) uznane retroaktywnie za Pre-CUKT.
+SPRZECZNOŚCI
+
+### 1. **Ryby w urnie — były czy nie były?** Opis katalogowy mówi "woda, rybki". Zdjęcia nie pokazują ryb. Śledztwo sugeruje, że ryby nie dotarły na czas — "ryby które nigdy nie przybyły". [NIEROZSTRZYGNIĘTE] Celowa nieokreśloność?
+POWIĄZANIA
+
+### - **→ 36 Hours (wrzesień 1995)** — bezpośrednia poprzedniczka. Od techno-party do politycznej interwencji.
+PYTANIA OTWARTE
+
+### 1. **Ryby w urnie — były czy nie?** — Do Piotra / Mikołaja. Czy ryby faktycznie pływały w urnie podczas wydarzenia?
+BIAŁE PLAMY
+
+### - **Dokładna lokalizacja "Forty" w Gdańsku** — które forty? Czy te same co 36 Hours?
+ŹRÓDŁA
+
+### - BAZA: "1995 11 04 - Antyelekcja Technodemonstracja" w cuktai_archive, 54 rekordy
+DZIENNIK ŚLEDZTWA
+
+### - 2026-04-20 (Archiwistka): Pierwsze śledztwo. Identyfikacja projektu. Opis Kijowa i konfrontacji.
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+
+### Autonomiczny Urząd Kultury Technicznej
+---
+AKTUALIZACJA (2026-05-04):
+
+### ---
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+
+### AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+1. **Ryby w urnie** → [WYJAŚNIONE] Były. Gupik. Ktoś z uczestników wsypał amfetaminę do wody w trakcie wydarzenia. Ryby zdechły.
+   ZNACZENIE: Nie wypadek — celowe działanie uczestnika. Projekt stał się interaktywny w nieprzewidziany sposób.
+
+2. **Największe
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **Robert Rumas** — kurator wystawy Antyciała w Kijowie, przyjaciel Piotra. Pytania: jak doszło do konfrontacji w Domu Ukraińskim? Kto byli panowie w skórzanych kurtkach?
+
+- **Jacek Niegoda (Neurov)** — urzędnik CUKT w Antyelekcji. Pytania: co pamięta z przygotowań? Jak wyglądał dzień wyborów w Fortach?
+
+---

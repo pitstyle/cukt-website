@@ -2,20 +2,26 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "1995"
-status: "COMPLETE"
+date: "2026-05-15"
+status: "W TOKU"
 ---
 
-TECZKA: 36 Hours
-DATA: 1995-09
-MIEJSCE: Forty Napoleońskie, Gdańsk (jedna część fortów — zamknięte korytarze, ogrodzone podwórze z bramą wejściową)
-STATUS: COMPLETE
-BADACZ: Archiwistka
-OSTATNIA AKTUALIZACJA: 2026-05-04
+```
+```
 
-================================================================================
-KARTA PROJEKTU
-================================================================================
+# TECZKA: 36 Hours
+
+| | |
+|---|---|
+| **DATA** | 1995-09 |
+| **MIEJSCE** | Forty Napoleońskie, Gdańsk (jedna część fortów — zamknięte korytarze, ogrodzone podwórze z bramą wejściową) |
+| **STATUS** | COMPLETE |
+| **BADACZ** | Archiwistka |
+| **AKTUALIZACJA** | 2026-05-15 |
+
+---
+
+## KARTA PROJEKTU
 
 Data .............. wrzesień 1995
 Miejsce ........... Forty Napoleońskie, Gdańsk
@@ -25,9 +31,9 @@ Czas trwania ...... 36 godzin (faktycznie)
 Kontekst .......... akcja autonomiczna (CUKT)
 Rekordów w bazie .. 19 pozycji
 
-================================================================================
-OPIS
-================================================================================
+---
+
+## OPIS
 
 36 Hours to 36-godzinna akcja artystyczna w Fortach Napoleońskich w Gdańsku, zorganizowana przez CUKT we wrześniu 1995. Projekt łączył wystawę sztuki współczesnej z techno party — instalacje artystyczne rozmieszczone w korytarzach fortów funkcjonowały równolegle z muzyką graną przez grupy z NTSC (Nowa Techno Scena). Wydarzenie trwało 36 godzin non-stop.
 
@@ -37,9 +43,9 @@ Kluczową strategią projektu było odejście od modelu "centralnego punktu dzie
 
 W ramach projektu planowana była kaseta VITAMINA (jaskrawy kolor jak tabletka, w Mydelniczce) — ostatecznie nie wydana.
 
-================================================================================
-OSOBY
-================================================================================
+---
+
+## OSOBY
 
 - **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, autor koncepcji.
 - **Artur Kozdrowski (podletz / jan smuga / dr kudlatz)** — członek CUKT, snuł teorie, miał własną grupę muzyczną. Nie był liderem. [UWAGA] Do zlokalizowania w Londynie.
@@ -52,9 +58,9 @@ OSOBY
 - **Rafał Grabowski** — członek CUKT.
 - **NTSC (Nowa Techno Scena)** — organizacja techno, pododdział CUKT, odpowiedzialna za oprawę muzyczną.
 
-================================================================================
-MATERIAŁY W ARCHIWUM
-================================================================================
+---
+
+## MATERIAŁY W ARCHIWUM
 
 DOKUMENTY:
 - Plakat A4 (IMG_6507.jpg, PHOTO_OF_ORIGINAL) — wydruk
@@ -86,9 +92,9 @@ OBIEKTY FIZYCZNE:
 - Instalacja diptych z neonem i perspektywicznymi liniami światła — nieznany los
 - Świecący okrągły obiekt — instalacja light art — nieznany los
 
-================================================================================
-ODKRYCIA
-================================================================================
+---
+
+## ODKRYCIA
 
 1. CO: Ewolucja strategii: od "techno jako kamuflaż" (120h, 1994) do "techno jako medium" (36 Hours, 1995). CUKT przeszedł od reaktywnego ukrywania do proaktywnego wykorzystania techno jako formy artystycznej.
    ŹRÓDŁO: Wyjaśnienia Piotra (2026-04-20).
@@ -114,16 +120,16 @@ ODKRYCIA
    ŹRÓDŁO: Wyjaśnienia Piotra (2026-04-20).
    ZNACZENIE: Korekta wcześniejszego przypuszczenia o hierarchii w CUKT.
 
-================================================================================
-SPRZECZNOŚCI
-================================================================================
+---
+
+## SPRZECZNOŚCI
 
 - Brak istotnych sprzeczności między źródłami. Nazwa "36 Hours" zgadza się z faktycznym czasem trwania.
 - Kaseta VITAMINA: planowana vs wydana? [WYJAŚNIONE] Nie wydana, planowana w Mydelniczce.
 
-================================================================================
-POWIĄZANIA
-================================================================================
+---
+
+## POWIĄZANIA
 
 - **→ 120h Mega Techno Obecności (1994)** — pre-CUKT, proto-strategia "techno jako kamuflaż". 36 Hours rozwija do "techno jako medium".
 - **→ NTSC (Nowa Techno Scena)** — pododdział CUKT odpowiedzialny za oprawę muzyczną.
@@ -132,9 +138,9 @@ POWIĄZANIA
 - **→ Testy na Cyborga (1995-2017)** — ewolucja od instalacji techno do cyberkultury.
 - **→ VITAMINA (kaseta)** — planowana, nie wydana.
 
-================================================================================
-PYTANIA OTWARTE
-================================================================================
+---
+
+## PYTANIA OTWARTE
 
 1. **Kaseta VITAMINA** — czy master gdzieś istnieje? Czy znane są szczegóły tracklisty? — Do Piotra.
 2. **Video dokumentacja (3 pliki: 2:54, 2:44, 22:18)** — co pokazują? Jak dokumentują interakcję muzyki z przestrzenią? — Do Archiwistki (odsłuchanie).
@@ -142,9 +148,9 @@ PYTANIA OTWARTE
 4. **Los pozostałych instalacji** — czy oprócz roweru coś przetrwało? — Do Piotra.
 5. **Reakcje uczestników** — czy uczestnicy party dostrzegali instalacje? Jak reagowali? — Do Mikołaja / Ewy.
 
-================================================================================
-BIAŁE PLAMY
-================================================================================
+---
+
+## BIAŁE PLAMY
 
 - **Brak planu rozmieszczenia instalacji** w Fortach — która instalacja w którym korytarzu?
 - **Brak dokumentacji dźwiękowej** z wydarzenia — nagrania muzyki NTSC?
@@ -152,9 +158,9 @@ BIAŁE PLAMY
 - **Status kasety VITAMINA** — master nieznany.
 - **Lokalizacja Artura Kozdrowskiego** — w Londynie? Do odnalezienia.
 
-================================================================================
-ŹRÓDŁA
-================================================================================
+---
+
+## ŹRÓDŁA
 
 - BAZA: "1995 09 __ - 36 hours" w cuktai_archive, 19 rekordów
 - DYSKI USB: raw/archive-usb/1995 09 __ - 36 hours/ (dokumenty, fotografie, video, obiekty)
@@ -162,26 +168,17 @@ BIAŁE PLAMY
 - ZEWNĘTRZNE: Galeria Wyspa jako kontekst kontrastowy
 - USTNE: Wyjaśnienia Piotra Wyrzykowskiego, 2026-04-20
 
-================================================================================
-DZIENNIK ŚLEDZTWA
-================================================================================
+---
+
+## DZIENNIK ŚLEDZTWA
 
 - 2026-04-19 (Archiwistka): Pierwsze śledztwo. Analiza wstępna. Identyfikacja roweru treningowego jako instalacji.
 - 2026-04-20 (Archiwistka): Analiza 5 plików TIF/JPG (skanuj0010-0014, KaruzelaForty). Identyfikacja 5 instalacji light art. Wyjaśnienia od Piotra: ewolucja strategii, anty-gwiazdorstwo, NTSC, VITAMINA.
 - 2026-04-20 (Archiwistka): Aktualizacja po wyjaśnieniach Piotra. Korekty: sztuka jako proces, nie ukrywanie; Artur nie lider rower nie główna instalacja.
 - 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md.
 
-================================================================================
-Podpisano: CUKTAI_Archiwistka
-Autonomiczny Urząd Kultury Technicznej
-================================================================================
-
 ---
-AKTUALIZACJA (2026-05-04):
-================================================================================
-AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
-================================================================================
-
+### Aktualizacje (wpisy automatyczne)
 1. **Kaseta VITAMINA** → [WYJAŚNIONE] Fizyczna kaseta istnieje. Jest u Piotra. Należy odszukać i zdigitalizować.
 2. **Video dokumentacja (3 pliki: 2:54, 2:44, 22:18)** → Piotr nie pamięta co zawierają. Do odsłuchania/obejrzenia przez Archiwistkę.
 3. **Los pozostałych instalacji (poza rowerem)** → [WYJAŚNIONE] Należy wyjaśniać u poszczególnych autorów (Mikołaj, Ewa). Nie u Piotra.
@@ -199,3 +196,63 @@ AKTUALIZACJA (2026-05-05):
 
 - **Artur Kozdrowski** — członek CUKT, snuł teorie, miał grupę muzyczną. Do zlokalizowania (Londyn?).
 
+### Data .............. wrzesień 1995
+OPIS
+
+### 36 Hours to 36-godzinna akcja artystyczna w Fortach Napoleońskich w Gdańsku, zorganizowana przez CUKT we wrześniu 1995. Projekt łączył wystawę sztuki współczesnej z techno party — instalacje artystyczne rozmieszczone w korytarzach fortów funkcjonowały równolegle z muzyką graną przez grupy z NTSC (Nowa Techno Scena). Wydarzenie trwało 36 godzin non-stop.
+OSOBY
+
+### - **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, autor koncepcji.
+MATERIAŁY W ARCHIWUM
+
+### DOKUMENTY:
+ODKRYCIA
+
+### 1. CO: Ewolucja strategii: od "techno jako kamuflaż" (120h, 1994) do "techno jako medium" (36 Hours, 1995). CUKT przeszedł od reaktywnego ukrywania do proaktywnego wykorzystania techno jako formy artystycznej.
+SPRZECZNOŚCI
+
+### - Brak istotnych sprzeczności między źródłami. Nazwa "36 Hours" zgadza się z faktycznym czasem trwania.
+POWIĄZANIA
+
+### - **→ 120h Mega Techno Obecności (1994)** — pre-CUKT, proto-strategia "techno jako kamuflaż". 36 Hours rozwija do "techno jako medium".
+PYTANIA OTWARTE
+
+### 1. **Kaseta VITAMINA** — czy master gdzieś istnieje? Czy znane są szczegóły tracklisty? — Do Piotra.
+BIAŁE PLAMY
+
+### - **Brak planu rozmieszczenia instalacji** w Fortach — która instalacja w którym korytarzu?
+ŹRÓDŁA
+
+### - BAZA: "1995 09 __ - 36 hours" w cuktai_archive, 19 rekordów
+DZIENNIK ŚLEDZTWA
+
+### - 2026-04-19 (Archiwistka): Pierwsze śledztwo. Analiza wstępna. Identyfikacja roweru treningowego jako instalacji.
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+
+### Autonomiczny Urząd Kultury Technicznej
+---
+AKTUALIZACJA (2026-05-04):
+
+### ---
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+
+### AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+1. **Kaseta VITAMINA** → [WYJAŚNIONE] Fizyczna kaseta istnieje. Jest u Piotra. Należy odszukać i zdigitalizować.
+2. **Video dokumentacja (3 pliki: 2:54, 2:44, 22:18)** → Piotr nie pamięta co zawierają. Do odsłuchania/obejrzenia przez Archiwistkę.
+3. **Los pozostałych instalacji (poza rowerem)** → [WYJAŚNIONE] Należy wyjaśniać u poszczególnych autorów (Mikołaj, Ewa). Nie u Piotra.
+4. **Finansowanie z wejściówek** → [WYJAŚNIONE] Działało. Nie było innych środków finansowania projektu.
+5. **Grupy muzyczne** → [WYJAŚNIONE] Każdy decydował sam. Co kto chciał to miał. Niektórzy samodzielnie, inni w zestawach.
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **Rafał Grabowski** — choreograf, uczestnik 36 Hours. Pytania: jak wyglądała choreografia w przestrzeni fortów?
+
+- **Artur Kozdrowski** — członek CUKT, snuł teorie, miał grupę muzyczną. Do zlokalizowania (Londyn?).
+
+---

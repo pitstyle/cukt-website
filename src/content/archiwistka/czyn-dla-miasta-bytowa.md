@@ -2,20 +2,26 @@
 title: "Czyn dla miasta Bytów"
 project: "Czyn dla miasta Bytów"
 type: "teczka"
-date: "1996"
-status: "COMPLETE"
+date: "2026-05-15"
+status: "W TOKU"
 ---
 
-TECZKA: Czyn dla miasta Bytów
-DATA: 1996-06-28
-MIEJSCE: Ośrodek MOSiR nad jeziorem Jeleń + Zamek Bytowski, Bytów
-STATUS: COMPLETE
-BADACZ: Archiwistka
-OSTATNIA AKTUALIZACJA: 2026-05-04
+```
+```
 
-================================================================================
-KARTA PROJEKTU
-================================================================================
+# TECZKA: Czyn dla miasta Bytów
+
+| | |
+|---|---|
+| **DATA** | 1996-06-28 |
+| **MIEJSCE** | Ośrodek MOSiR nad jeziorem Jeleń + Zamek Bytowski, Bytów |
+| **STATUS** | COMPLETE |
+| **BADACZ** | Archiwistka |
+| **AKTUALIZACJA** | 2026-05-15 |
+
+---
+
+## KARTA PROJEKTU
 
 Data .............. 26-29 czerwca 1996 (prace 8:00-16:00 / 6:00-15:00)
 Miejsce ........... Ośrodek MOSiR nad jeziorem Jeleń, Bytów; Zamek Bytowski
@@ -25,9 +31,9 @@ Czas trwania ...... 4 dni (26-29 czerwca 1996)
 Kontekst .......... IV Międzynarodowe Spotkania Artystów "Zamek Wyobraźni" (kurator Władysław Kaźmierczak, BWA Słupsk)
 Rekordów w bazie .. 31 pozycji
 
-================================================================================
-OPIS
-================================================================================
+---
+
+## OPIS
 
 Czyn dla miasta Bytów to performance instytucjonalny CUKT polegający na realnych pracach remontowo-malarskich w mieście Bytów. CUKT wystąpił jako urząd — podpisał oficjalne porozumienie z Zarządem Miejskim w Bytowie (reprezentowanym przez Romana Zaborowskiego — Zastępcę Burmistrza i Leszka Pałasza — Dyrektora OKSIT) na nieodpłatne prace remontowe w zamian za wyżywienie i zakwaterowanie.
 
@@ -39,9 +45,9 @@ CUKT stworzył też własny artykuł w Kurierze Bytowskim pod pseudonimem "Bogda
 
 Caseta audio (Sony 90 min, opisana "INFORMACJE Z RADIA / BYTÓW 26-29 VI 1996 / ZAMEK WYOBRAŹNI") zawiera nagranie Radia Maryja. CUKT słuchał Radia Maryja podczas remontu — ironiczny komentarz do polskiej debaty publicznej.
 
-================================================================================
-OSOBY
-================================================================================
+---
+
+## OSOBY
 
 - **Piotr Wyrzykowski ("Kudłaty")** — podpisany na riderze Technopera v.2.2. Mężczyzna z długą rudą brodą na zdjęciach? [DO WERYFIKACJI]
 - **Robert Jurkowski (Mikołaj)** — solówka "Przyjazd Prezydenta", widoczny na zdjęciach.
@@ -55,9 +61,9 @@ OSOBY
 - **Romana Zaborowski** — Zastępca Burmistrza Bytowa, strona porozumienia.
 - **Leszek Pałasz** — Dyrektor OKSIT, strona porozumienia.
 
-================================================================================
-MATERIAŁY W ARCHIWUM
-================================================================================
+---
+
+## MATERIAŁY W ARCHIWUM
 
 DOKUMENTY:
 - Projekt.doc — maszynopis: plan dwuczęściowego performance'u + Technopery v.2.2
@@ -88,9 +94,9 @@ OBIEKTY FIZYCZNE:
 - Białe drzwi (THE DOORS) — rekwizyt performance
 - Czerwony dywan — rekwizyt performance
 
-================================================================================
-ODKRYCIA
-================================================================================
+---
+
+## ODKRYCIA
 
 1. CO: Porozumienie z miastem — CUKT podpisał formalną umowę z Zarządem Miejskim. Pieczęć CUKT na dokumencie.
    ŹRÓDŁO: Porozumienie.jpg.
@@ -116,16 +122,16 @@ ODKRYCIA
    ŹRÓDŁO: Tamże.
    ZNACZENIE: Performance ujawnił realne napięcia społeczne. Bezrobocie w Bytowie jako kontekst.
 
-================================================================================
-SPRZECZNOŚCI
-================================================================================
+---
+
+## SPRZECZNOŚCI
 
 - **Brak Adama Popka (Ewy Virus) na zdjęciach** — wymieniony jako autor, ale nieobecny wizualnie. [WYJAŚNIONE] Prawdopodobnie nie uczestniczył fizycznie w Bytowie.
 - **"T.J.44"** — solówka "Save Poland or No Poland at All". Nieznana postać. Pseudonim czy inna osoba? [NIEROZSTRZYGNIĘTE]
 
-================================================================================
-POWIĄZANIA
-================================================================================
+---
+
+## POWIĄZANIA
 
 - **→ Technopera (1996-1997)** — prapremiera v.2.2 w Bytowie.
 - **→ NATO Now! (1993-1995)** — hasło "Save Poland or No Poland at All" powtarza się.
@@ -134,9 +140,9 @@ POWIĄZANIA
 - **→ Dzień Sztuki (1999-2000)** — instytucjonalizacja, której zaczątek w Bytowie.
 - **→ Wiktoria Cukt (2000-2001)** — pełna instytucjonalizacja.
 
-================================================================================
-PYTANIA OTWARTE
-================================================================================
+---
+
+## PYTANIA OTWARTE
 
 1. **Tablica pamiątkowa** — czy wisi do dziś na budynku MOSiR w Bytowie? — Do Piotra.
 2. **Slajdy (12 szt.)** — co zawierają? Niezeskanowane.
@@ -144,18 +150,18 @@ PYTANIA OTWARTE
 4. **Mężczyzna z rudą brodą** — kto to? Piotr ("Kudłaty")? Ktoś inny?
 5. **Kaseta Radio Maryja** — czy to naprawdę Radio Maryja, czy CUKT nagrał coś innego i oznaczył ironicznie?
 
-================================================================================
-BIAŁE PLAMY
-================================================================================
+---
+
+## BIAŁE PLAMY
 
 - **Brak nagrania wideo Technopery v.2.2** — 24-godzinny performance z koniami, brak dokumentacji.
 - **Brak listy uczestników Techno-Party** — kto przyszedł nad jezioro Jeleń?
 - **Kombinezon ROBOD** — czy zachowany fizycznie? Gdzie?
 - **"m.t.s.c" na plakietce** — Mobile Tele-Station of Culture? Stacja? Telewizja?
 
-================================================================================
-ŹRÓDŁA
-================================================================================
+---
+
+## ŹRÓDŁA
 
 - BAZA: "1996 06 28 - Czyn dla miasta Bytów" w cuktai_archive, 31 rekordów
 - DYSKI USB: raw/archive-usb/1996 06 28 - Czyn dla miasta Bytów/ (Dokumenty, Fotografie, Audio, Obiekty, Foto na kapie)
@@ -163,28 +169,17 @@ BIAŁE PLAMY
 - ZEWNĘTRZNE: Flash Art (ksero) — opis akcji CUKT
 - PRASA: Gazeta Morska 25.06.1996, Kurier Bytowski (fake news CUKT)
 
-================================================================================
-DZIENNIK ŚLEDZTWA
-================================================================================
+---
+
+## DZIENNIK ŚLEDZTWA
 
 - 2026-04-25 (Archiwistka): Pierwsze śledztwo. Porozumienie, kombinezony, Technopera v.2.2, konflikt z robotnikami.
 - 2026-04-27 (Archiwistka): Analiza dokumentów. Fake news Kurier Bytowski. Kaseta Radio Maryja.
 - 2026-05-01 (Archiwistka): Analiza 11 zdjęć. "Niewidzialny performance". Prototyp CUKTAI.
 - 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md.
 
-================================================================================
-Podpisano: CUKTAI_Archiwistka
-Autonomiczny Urząd Kultury Technicznej
-================================================================================
-
 ---
-AKTUALIZACJA (2026-05-04):
-
-
-================================================================================
-AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
-================================================================================
-
+### Aktualizacje (wpisy automatyczne)
 1. **Tablica pamiątkowa** → Prawdopodobnie nie wisi. Była plastikowa. Nikt nie sprawdzał.
 2. **Mężczyzna z rudą brodą** → [WYJAŚNIONE] To Mikołaj Robert Jurkowski (Gróby). **Artur Kozdrowski (Kudłaty)** — bez brody. Ważne: rozróżnienie dwóch pseudonimów — Kudłaty = Artur, nie Piotr.
 3. **T.J.44** → [WYJAŚNIONE] Piotr Wyrzykowski (Peter Style). 44 to performance, nie hasło. Solówka Save
@@ -200,3 +195,61 @@ AKTUALIZACJA (2026-05-05):
 
 - **Romana Zaborowski / Leszek Pałasz** — urzędnicy miejscy Bytowa, strony porozumienia. Pytania: czy wiedzieli że to sztuka? Czy tablica pamiątkowa wisi do dziś?
 
+### Data .............. 26-29 czerwca 1996 (prace 8:00-16:00 / 6:00-15:00)
+OPIS
+
+### Czyn dla miasta Bytów to performance instytucjonalny CUKT polegający na realnych pracach remontowo-malarskich w mieście Bytów. CUKT wystąpił jako urząd — podpisał oficjalne porozumienie z Zarządem Miejskim w Bytowie (reprezentowanym przez Romana Zaborowskiego — Zastępcę Burmistrza i Leszka Pałasza — Dyrektora OKSIT) na nieodpłatne prace remontowe w zamian za wyżywienie i zakwaterowanie.
+OSOBY
+
+### - **Piotr Wyrzykowski ("Kudłaty")** — podpisany na riderze Technopera v.2.2. Mężczyzna z długą rudą brodą na zdjęciach? [DO WERYFIKACJI]
+MATERIAŁY W ARCHIWUM
+
+### DOKUMENTY:
+ODKRYCIA
+
+### 1. CO: Porozumienie z miastem — CUKT podpisał formalną umowę z Zarządem Miejskim. Pieczęć CUKT na dokumencie.
+SPRZECZNOŚCI
+
+### - **Brak Adama Popka (Ewy Virus) na zdjęciach** — wymieniony jako autor, ale nieobecny wizualnie. [WYJAŚNIONE] Prawdopodobnie nie uczestniczył fizycznie w Bytowie.
+POWIĄZANIA
+
+### - **→ Technopera (1996-1997)** — prapremiera v.2.2 w Bytowie.
+PYTANIA OTWARTE
+
+### 1. **Tablica pamiątkowa** — czy wisi do dziś na budynku MOSiR w Bytowie? — Do Piotra.
+BIAŁE PLAMY
+
+### - **Brak nagrania wideo Technopery v.2.2** — 24-godzinny performance z koniami, brak dokumentacji.
+ŹRÓDŁA
+
+### - BAZA: "1996 06 28 - Czyn dla miasta Bytów" w cuktai_archive, 31 rekordów
+DZIENNIK ŚLEDZTWA
+
+### - 2026-04-25 (Archiwistka): Pierwsze śledztwo. Porozumienie, kombinezony, Technopera v.2.2, konflikt z robotnikami.
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+
+### Autonomiczny Urząd Kultury Technicznej
+---
+AKTUALIZACJA (2026-05-04):
+
+### ---
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+
+### AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+1. **Tablica pamiątkowa** → Prawdopodobnie nie wisi. Była plastikowa. Nikt nie sprawdzał.
+2. **Mężczyzna z rudą brodą** → [WYJAŚNIONE] To Mikołaj Robert Jurkowski (Gróby). **Artur Kozdrowski (Kudłaty)** — bez brody. Ważne: rozróżnienie dwóch pseudonimów — Kudłaty = Artur, nie Piotr.
+3. **T.J.44** → [WYJAŚNIONE] Piotr Wyrzykowski (Peter Style). 44 to performance, nie hasło. Solówka Save
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **Władysław Kaźmierczak** — kurator IV Zamku Wyobraźni (BWA Słupsk). Pytania: jak doszło do zaproszenia CUKT? Jak zareagowali na performance?
+
+- **Romana Zaborowski / Leszek Pałasz** — urzędnicy miejscy Bytowa, strony porozumienia. Pytania: czy wiedzieli że to sztuka? Czy tablica pamiątkowa wisi do dziś?
+
+---
