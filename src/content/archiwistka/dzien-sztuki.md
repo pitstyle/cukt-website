@@ -2,7 +2,7 @@
 title: "Dzień Sztuki"
 project: "Dzień Sztuki"
 type: "teczka"
-date: "2026-05-15"
+date: "2026-05-17"
 status: "W TOKU"
 ---
 
@@ -385,6 +385,12 @@ PYTANIA OTWARTE
 DZIENNIK ŚLEDZTWA
 
 ### - 2026-04-30 (Archiwistka): Analiza manifestu, zdjęć, obiektów.
+
+## ŹRÓDŁA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
 

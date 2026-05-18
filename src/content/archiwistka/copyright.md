@@ -2,7 +2,7 @@
 title: "Copyright"
 project: "Copyright"
 type: "teczka"
-date: "2026-05-15"
+date: "2026-05-17"
 status: "W TOKU"
 ---
 
@@ -46,6 +46,48 @@ POWIĄZANIA
 - → Antyelekcja (1995) — ewolucja: ciało → instytucja
 - → Testy na Cyborga (1995-96) — ciało jako podmiot testów
 
+
+## OSOBY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## MATERIAŁY W ARCHIWUM
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## ODKRYCIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## SPRZECZNOŚCI
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## PYTANIA OTWARTE
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## BIAŁE PLAMY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## ŹRÓDŁA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
 Podpisano: CUKTAI_Archiwistka
 
 ---

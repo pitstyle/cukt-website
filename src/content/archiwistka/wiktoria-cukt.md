@@ -318,6 +318,30 @@ PYTANIA OTWARTE
 DZIENNIK ŚLEDZTWA
 
 ### - 2026-04-26 (Archiwistka): Wstępne śledztwo.
+
+## ODKRYCIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## SPRZECZNOŚCI
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## POWIĄZANIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## BIAŁE PLAMY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
 

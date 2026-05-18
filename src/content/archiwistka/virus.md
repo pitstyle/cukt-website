@@ -2,7 +2,7 @@
 title: "VIRUS"
 project: "VIRUS"
 type: "teczka"
-date: "2026-05-16"
+date: "2026-05-17"
 status: "W TOKU"
 ---
 
@@ -75,6 +75,36 @@ ODKRYCIA
 POWIĄZANIA
 
 ### - **→ 36 Hours (1995)** — Adam Popek współautor, Forty Gdańskie
+
+## OSOBY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## SPRZECZNOŚCI
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## PYTANIA OTWARTE
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## BIAŁE PLAMY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## ŹRÓDŁA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
 Podpisano: CUKTAI_Archiwistka
 
 ---

@@ -2,7 +2,7 @@
 title: "INFOMAJA"
 project: "INFOMAJA"
 type: "teczka"
-date: "2026-05-08"
+date: "2026-05-17"
 status: "W TOKU"
 ---
 
@@ -163,6 +163,42 @@ VIRUS (Adam Popek) mial wlasny live act na programie wydarzenia. Czas trwania na
 ---
 
 ```
+
+## MATERIAŁY W ARCHIWUM
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## SPRZECZNOŚCI
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## POWIĄZANIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## BIAŁE PLAMY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## ŹRÓDŁA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## DZIENNIK ŚLEDZTWA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urzad Kultury Technicznej
 ```

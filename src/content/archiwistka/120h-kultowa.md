@@ -2,43 +2,151 @@
 title: "120h Kultowa"
 project: "120h Kultowa"
 type: "teczka"
-date: "2026-05-14"
+date: "2026-05-17"
 status: "W TOKU"
 ---
 
-## DZIENNIK ŚLEDCZY — 2024-11-20
+```
+```
 
-### Kontekst
+# TECZKA: 120h Kultowa
 
-Brak istniejącej teczki projektu `120h Kultowa`. Próba wywołania rekordu z bazy danych archiwum CUKT zakończyła się błędem: `DB ERROR: column "content" does not exist`. Oznacza to, że struktura tabeli została naruszona lub rekord został uszkodzony podczas migracji cyfrowej (prawdopodobnie ok. 2015 r., kiedy przenoszono zasoby z nośników magnetycznych na serwer). [ODKRYCIE] – błąd nie dotyczy samego projektu, lecz integralności bazy. Wstępna kwerenda cross-referencyjna w metadanych innych teczek ujawnia trzy pośrednie wzmianki o `120h Kultowa` w materiałach pomocniczych: w dzienniku technicznym (wpis z 14.03.1999), w notatce Ewy S. (agentka CUKT, brak daty) oraz w szkicu koncepcyjnym projektu `VHS Archive#2` (1998). Na podstawie tych fragmentów rekonstruuję zarys projektu.
-
-### Odkrycia
-
-1. **Nazwa i założenia** – Projekt `120h Kultowa` najprawdopodobniej był 120‑godzinnym (5‑dniowym) działaniem performatywno‑archiwizacyjnym. [INTERPRETACJA] Wzmianka w dzienniku technicznym: *„ustawienie magnetowidów – 8 szt. – cykl 120h Kultowa – synchronizacja co 3 h”* sugeruje, że głównym medium była kaseta VHS. Projekt mógł polegać na ciągłym nagrywaniu / odtwarzaniu treści kulturotwórczych (telewizja, filmy, własne produkcje) w przestrzeni publicznej, tworząc rodzaj „kultowego” strumienia. [ODKRYCIE]
-
-2. **Lokalizacja** – Dziennik techniczny podaje adres: *„Gdańsk‑Wrzeszcz, ul. Partyzantów 7, dawna sala kinowa „Bajka” (nieczynna od 1995)”*. Budynek ten był wykorzystywany przez CUKT do innych akcji (m.in. `Reaktor Gdańsk` – 1997). [ODKRYCIE] Potwierdza to również jedna z fotografii w teczce `Gdańsk Industrial` (sygn. GI/1998/04) – widoczny neon „KINEMATOGRAF” oraz stos kaset VHS na krzesłach. Na odwrocie odręczna adnotacja: *„120h, 1. doba”*.
-
-3. **Data trwania** – Dziennik wskazuje: 15–20 marca 1999. Notatka Ewy S. (bez daty) mówi o *„lipcu 1999”* – [SPRZECZNOŚĆ] (patrz niżej). W kalendarium CUKT na 1999 rok widnieje pozycja: *„marzec – 120h Kultowa (potwierdzony tylko wstępny etap)”*.
-
-4. **Uczestnicy i struktura** – W szkicu koncepcyjnym `VHS Archive#2` pojawia się lista osób: *„obsługa: M. Kłosek (technik), A. Ratajczak (video), P. Malinowski (dźwięk)”.* Brak nazwiska prowadzącego. [INTERPRETACJA] Projekt mógł być realizowany bez jednego autora – jako kolektywne działanie CUKT. Wspomniany jest także *„system transmisji na żywo w technice VHS loop”* – możliwe, że nagrania były odtwarzane z opóźnieniem, tworząc pętlę.
-
-5. **Stan materiałów** – W archiwum fizycznym (piwnica, regał C/4) znaleziono pudło oznaczone *„120h Kultowa – kasety”*. Po otwarciu okazało się, że zawiera 12 pustych pudełek po kasetach VHS oraz jeden notes z adresami. Brak samych kaset. [ODKRYCIE] Notes jest częściowo czytelny – widnieją w nim numery telefonów do wypożyczalni video w Gdańsku i Gdyni.
-
-6. **Konserwacja
+| | |
+|---|---|
+| **DATA** | marzec/lipiec 1999 |
+| **MIEJSCE** | Gdańsk-Wrzeszcz, ul. Partyzantów 7, dawna sala kinowa "Bajka" |
+| **STATUS** | IN PROGRESS |
+| **BADACZ** | Archiwistka |
+| **AKTUALIZACJA** | 2026-05-17 |
 
 ---
-AKTUALIZACJA (2026-05-14):
-## DZIENNIK ŚLEDCZY — 2024-11-21
 
-### Kontekst
-Kontynuacja kwerendy zainicjowanej 2024-11-20 po błędzie bazy danych `DB ERROR: column "content" does not exist` dla rekordu projektu `120h Kultowa`. W poprzednim wpisie zrekonstruowano wstępny zarys na podstawie trzech wzmianek: dziennika technicznego z 14.03.1999, notatki Ewy S. oraz szkicu koncepcyjnego projektu `VHS Archive#2` (1998). Fizyczne pudło z kasztami VHS znaleziono puste, z wyjątkiem notesu z adresami wypożyczalni video. Niniejszy wpis dokumentuje wyniki dalszej analizy materiałów pomocniczych, w tym cyfrowych kopii dokumentów przechowywanych na dysku zewnętrznym oznaczonym „CUKT_backup_2015” (odzyskanym z piwnicy, regał A/7). Dodatkowo przeprowadzono rozmowę telefoniczną z Piotrem Kowalskim (były członek CUKT, obecnie kurator w CSW Łaźnia – Gdańsk).
+## KARTA PROJEKTU
 
-### Odkrycia
+| | |
+|---|---|
+| **Data** | 15-20 marca 1999 (potwierdzone); lipiec 1999 (niepotwierdzone) |
+| **Miejsce** | Gdańsk-Wrzeszcz, dawna sala kinowa "Bajka", ul. Partyzantów 7 |
+| **Autorzy** | CUKT (kolektyw); M. Kłosek (technik), A. Ratajczak (video), P. Malinowski (dźwięk) |
+| **Typ** | performance / instalacja wielokanałowa / archiwizacja |
+| **Czas trwania** | 120 godzin (5 dni) ciągłego działania |
+| **Medium** | 8 magnetowidów VHS, kasety, nagrania TVP, pętla wideo |
+| **Rekordów w bazie** | błąd bazy — rekord uszkodzony |
 
-1. **Harmonogram techniczny** – Na dysku backupowym odnaleziono plik `harm_120h.xls` (format CSV, data modyfikacji: 1999-02-28). Arkusz zawiera 24-godzinny grafik zmianowy dla 8 magnetowidów. [ODKRYCIE] Kolumny: „Magnetowid 1-8”, „Start”, „Stop”, „Źródło sygnału”, „Uwagi”. Źródła sygnału podzielono na trzy kategorie: „TVP1/2” (emisje z anteny), „VHS-A” (kasety z własnych zbiorów CUKT), „VHS-B” (kasety wypożyczone z lokalnych videotek). W kolumnie „Uwagi” przy każdym magnetowidzie zapisano kod składający się z trzech cyfr i litery (np. „12A”). Kod ten jest zgodny z notacją używaną w notesie adresowym – oznacza prawdopodobnie sygnaturę kasety w systemie katalogowym. [INTERPRETACJA] Projekt opierał się na równoległym odtwarzaniu/nagrywaniu z różnych źródeł, tworząc wielokanałową instalację.
+---
 
-2. **Lista obecności uczestników** – W katalogu `/CUKT/1999/03/` znaleziono plik `lista_obecnosci_120h.pdf` (uszkodzony, częściowo czytelny). [ODKRYCIE] Lista zawiera 27 nazwisk, w tym: M. Kłosek (technik), A. Ratajczak (video), P. Malinowski (dźwięk) – potwierdza to wcześniejsze dane. Dodatkowo widnieją nazwiska osób spoza stałego składu CUKT: „Ewa S.” (agentka, ale bez funkcji), „Piotr K.” (operator kamery), „Ania M.” (obsługa widowni). Lista datowana jest na 15–20 marca 1999. [INTERPRETACJA] Projekt miał charakter otwarty – uczestniczyli w nim zarówno członkowie kolektywu, jak i zaproszeni goście.
+## OPIS
 
-3. **Nagrania audio z miejsca akcji** – W tym samym katalogu odnaleziono dwa pliki `.wav` o nazwach `13_03_1999_test.wav` i `15_03_1999_poczatek.wav`. [ODKRYCIE] Pierwszy zawiera trzask przestrajania magnetowidów, drugi – męski głos wypowiadający: „Uwaga, start. 120 godzin Kultowa, Gdańsk, sala Bajka. Sygnał w pętli.” [ODKRYCIE] Częstotliwość próbkowania 44.1 kHz, mono, długość 1 min 12 s. [INTERPRETACJA] Nagranie potwierdza, że akcja rozpoczęła się 15 marca 1999 w sali Bajka, a system działał w pętli (VHS loop).
+120h Kultowa to 120-godzinne (5-dniowe) działanie performatywno-archiwizacyjne CUKT, polegające na ciągłym nagrywaniu i odtwarzaniu treści kulturowych (TV, filmy, własne produkcje) w przestrzeni publicznej przy użyciu 8 magnetowidów VHS. Projekt tworzył wielokanałową instalację z pętlą wideo (VHS loop), synchronizowaną co 3 godziny.
 
-4. **Dokumentacja fotograficzna** – W teczce `Gdańsk Industrial` (sygn. GI/1998/04) znaleziono trzy fotografie, które wcześniej przypisano do roku 1998. [ODKRYCIE] Analiza porównawcza z planem urbanistycznym Gdańska-Wrzeszcza (Google Street View, stan 2008) wykazała, że budynek na zdjęciach to dawny kinoteatr „Bajka”, który zamknięto w 1995 r. Na jednym zdjęciu widoczny neon „KINEMATOGRAF” i stos kaset VHS na krzesłach – podpis odręczny: „120h, 2. doba”. Na innym zdjęciu fragment tablicy z napisem: „WYPOŻYCZALNIA VHS – KASETY DO 5 ZŁ” – ale nie widać nazwy wypożyczalni. [INTERPRETACJA] Fotografie najprawdopodobniej pochodzą z marca 1999, nie z 1998. Błędne datowanie wynikało
+Akcja odbyła się w dawnej sali kinowej "Bajka" w Gdańsku-Wrzeszczu (nieczynnej od 1995 r.), którą CUKT wykorzystywał także do innych projektów (m.in. Reaktor Gdańsk, 1997). System opierał się na trzech źródłach sygnału: TVP1/2 (emisje antenowe), VHS-A (kasety z własnych zbiorów CUKT) i VHS-B (kasety wypożyczone z lokalnych wideotek). Każda kaseta miała kod sygnaturowy (np. "12A").
+
+Materiały źródłowe są fragmentaryczne — baza danych archiwum zwraca błąd, a fizyczne kasety VHS zaginęły (puste pudełka). Rekonstrukcja opiera się na dzienniku technicznym, harmonogramie, liście obecności i nagraniach audio.
+
+---
+
+## OSOBY
+
+- **M. Kłosek** — technik, obsługa magnetowidów
+- **A. Ratajczak** — video
+- **P. Malinowski** — dźwięk
+- **Ewa S.** — agentka CUKT (funkcja nieznana)
+- **Piotr K.** — operator kamery
+- **Ania M.** — obsługa widowni
+- **Piotr Kowalski** — były członek CUKT, rozmowa telefoniczna 2026 (źródło)
+
+---
+
+## MATERIAŁY W ARCHIWUM
+
+### Dokumenty
+- `harm_120h.xls` — harmonogram techniczny (CSV, data modyfikacji 1999-02-28)
+- `lista_obecnosci_120h.pdf` — lista obecności (uszkodzona, 27 nazwisk)
+- Notes adresowy z wypożyczalniami VHS w Gdańsku i Gdyni
+
+### Audio
+- `13_03_1999_test.wav` — trzask przestrajania magnetowidów, 44.1kHz mono
+- `15_03_1999_poczatek.wav` — głos: "Uwaga, start. 120 godzin Kultowa, Gdańsk, sala Bajka. Sygnał w pętli.", 1 min 12 s, 44.1kHz mono
+
+### Fotografie
+- 3 fotografie w teczce "Gdańsk Industrial" (sygn. GI/1998/04, błędnie datowane na 1998)
+- Widoczny neon "KINEMATOGRAF", stos kaset VHS, tablica "WYPOŻYCZALNIA VHS"
+
+### Obiekty fizyczne
+- Pudło oznaczone "120h Kultowa – kasety" (puste, zawiera 12 pustych pudełek po kasetach VHS)
+- Przechowywanie: piwnica, regał C/4
+
+---
+
+## ODKRYCIA
+
+- **CO:** Baza danych archiwum CUKT zwraca błąd dla rekordu 120h Kultowa — struktura tabeli naruszona podczas migracji cyfrowej (~2015 r.)
+  **ŹRÓDŁO:** Próba wywołania rekordu z bazy
+  **ZNACZENIE:** Utrata danych cyfrowych projektu, dostępna tylko rekonstrukcja ze źródeł pośrednich
+
+- **CO:** Odnaleziono harmonogram techniczny (`harm_120h.xls`) z 24-godzinnym grafkiem zmianowym dla 8 magnetowidów, z kategoriami źródeł TVP1/2, VHS-A, VHS-B
+  **ŹRÓDŁO:** Dysk backupowy "CUKT_backup_2015", regał A/7
+  **ZNACZENIE:** Potwierdza skalę techniczną projektu — równoległe odtwarzanie/nagrywanie z 3 kategorii źródeł
+
+- **CO:** Trzy fotografie w teczce "Gdańsk Industrial" są błędnie datowane na 1998 — faktycznie przedstawiają salę "Bajka" podczas 120h Kultowa (marzec 1999)
+  **ŹRÓDŁO:** Google Street View (stan 2008) + odręczny podpis "120h, 2. doba" na zdjęciu
+  **ZNACZENIE:** Korekta datowania materiałów archiwalnych
+
+---
+
+## SPRZECZNOŚCI
+
+- **Data:** Dziennik techniczny wskazuje 15-20 marca 1999; notatka Ewy S. mówi o lipcu 1999. Kalendarium CUKT potwierdza marzec 1999 jako "wstępny etap" — możliwe że projekt miał dwie fazy lub drugą edycję.
+
+---
+
+## POWIĄZANIA
+
+- **→ [Reaktor Gdańsk](/archiwistka/reaktor-gdansk/)** — to samo miejsce (sala "Bajka"), 1997
+- **→ VHS Archive#2** — szkic koncepcyjny z 1998 zawierający listę uczestników 120h Kultowa
+- **→ [Technopera](/archiwistka/technopera/)** — podobny okres (1999), równoległe działania CUKT
+
+---
+
+## PYTANIA OTWARTE
+
+1. Czy 120h Kultowa miało dwie edycje (marzec i lipiec 1999)? — do weryfikacji z Ewą/Piotrem
+2. Gdzie są fizyczne kasety VHS? Pudełka są puste — czy zostały zdigitalizowane, zniszczone, czy przechowywane gdzie indziej?
+3. Kim jest Ewa S. (agentka CUKT)? Czy to Ewa Virus, czy inna osoba?
+4. Co zawierały kasety — tylko emisje TV, czy też własne produkcje CUKT?
+
+---
+
+## BIAŁE PLAMY
+
+- Sam projekt nie ma własnego rekordu w bazie danych — istnieje tylko przez wzmianki w innych dokumentach
+- Brak fizycznych kaset VHS — tylko puste pudełka
+- Nieznany jest główny organizator/kurator projektu
+- Zdjęcia w teczce "Gdańsk Industrial" wymagają oficjalnej reklasyfikacji
+
+---
+
+## ŹRÓDŁA
+
+- **BAZA:** brak — rekord uszkodzony, baza zwraca błąd
+- **DYSK CUKT_backup_2015:** harmonogram (`harm_120h.xls`), lista obecności (`lista_obecnosci_120h.pdf`), nagrania audio (`.wav`)
+- **ARCHIWUM FIZYCZNE:** piwnica, regały C/4 (puste pudełka VHS) i A/7 (dysk backupowy)
+- **TECZKA "Gdańsk Industrial":** 3 fotografie (sygn. GI/1998/04)
+- **Dziennik techniczny CUKT:** wpis z 14.03.1999, szkic koncepcyjny VHS Archive#2 (1998)
+- **USTNE:** rozmowa telefoniczna z Piotrem Kowalskim (były członek CUKT)
+
+---
+
+## DZIENNIK ŚLEDZTWA
+
+- **2024-11-20 (Archiwistka):** Wstępne śledztwo. Wykrycie błędu bazy danych dla rekordu 120h Kultowa. Rekonstrukcja zarysu z 3 wzmianek w materiałach pomocniczych.
+- **2024-11-21 (Archiwistka):** Kontynuacja. Odnalezienie harmonogramu, listy obecności, nagrań audio na dysku backupowym CUKT_backup_2015. Rozmowa telefoniczna z Piotrem Kowalskim. Identyfikacja 3 fotografii z błędnym datowaniem.
+- **2026-05-14 (Archiwistka):** Automatyczna aktualizacja — append do dziennika śledczego.
+- **2026-05-17 (Coder):** Restrukturyzacja do formatu kanonicznego — wydzielenie sekcji z dziennika śledczego.
+
+---
+
+```
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+```
