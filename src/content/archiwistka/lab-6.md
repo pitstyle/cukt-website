@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-05-08"
+date: "2026-05-20"
 status: "W TOKU"
 ---
 
@@ -121,3 +121,25 @@ Brak — projekt minimalnie udokumentowany.
 
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
+
+---
+AKTUALIZACJA (2026-05-20):
+
+
+---
+## ANALIZA WIZYJNA MARLIN-2B (2026-05-20)
+
+Automatyczne opisy 10 zdjęć z projektu 'Lab 6 / Rodzina CUKT — CSW Zamek Ujazdowski' wygenerowane przez Marlin-2B VLM.
+
+| Plik | Opis |
+|------|------|
+| 20181011_114124.jpg | Scene: The scene is a close-up, top-down view of a single sheet of white paper resting on a light-colored wooden surface. The paper is filled with dense, handwritten text in black ink, organized in... |
+| 20181011_114157.jpg | Scene: The scene is a close-up, top-down view of a white sheet of paper resting on a light brown wooden surface. The paper is filled with dense, handwritten text in black ink, arranged in several c... |
+| 20181011_114210.jpg | Scene: The scene is set in a dimly lit indoor environment, likely a workshop or a study, where a single sheet of paper is the central focus. The paper is filled with dense, handwritten notes and di... |
+| 20181011_114231.jpg | Scene: The scene is a close-up, top-down view of a white architectural floor plan resting on a light brown wooden surface. The plan is printed on a white sheet of paper and is held in place by a wh... |
+| 20181011_114244.jpg | Scene: The scene is a close-up, top-down view of a white sheet of paper resting on a light brown wooden surface. The paper is held in place by a clear plastic sleeve, which is visible at the top an... |
+| 20181011_114256.jpg | Scene: The scene is a close-up, top-down view of a white architectural plan or floor plan resting on a light-colored wooden surface. The plan is a simple, hand-drawn diagram of a rectangular room w... |
+| 20181011_114314.jpg | Scene: The scene is a close-up, top-down view of a white architectural plan or floor plan resting on a light brown wooden surface. The plan is encased in a clear plastic sleeve, which is secured by... |
+| 20181011_114323.jpg | Scene: The scene is a close-up, top-down view of a white architectural plan or floor plan resting on a light brown wooden surface. The plan is printed on white paper and features a central rectangu... |
+| cukt.jpg | Scene: The scene is set in a minimalist indoor environment, likely a studio or office, characterized by stark white walls and a polished wooden floor. A large, dark rectangular platform serves as a... |
+| rodziana copy.jpg | Scene: The scene is a minimalist, brightly lit studio with a stark white wall and a dark, polished floor. A large, black rectangular platform is positioned in the center of the room. On this platfo... |

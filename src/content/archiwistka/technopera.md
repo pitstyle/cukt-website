@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-05-15"
+date: "2026-05-20"
 status: "W TOKU"
 ---
 
@@ -372,3 +372,76 @@ AKTUALIZACJA (2026-05-09):
 - Wrocław: lokalizacja potwierdzona — Teatr na Świebodzkim
 
 ---
+
+---
+AKTUALIZACJA (2026-05-20):
+
+---
+
+AKTUALIZACJA (2026-05-20):
+ZRODLO: Marlin-2B VLM (batch analysis of 105 media files)
+
+## ANALIZA MARLIN — MATERIALY W ARCHIWUM
+
+### Fotografie (4 pliki GIF)
+Zrodlo: opis Marlin-2B VLM
+
+- **DeadlyViruses.gif**: Studio telewizyjne, mezczyzna w garniturze, mustache — talk show lub wiadomosci.
+- **ItLooksLikeHeLostControl.gif**: Kadr medyczny/chirurgiczny, wysoki kontrast, ramie i dlonia na stole operacyjnym.
+- **OpenYourMind.gif**: Zblizenie twarzy mezczyzny o glebokiej teksturze skory — mozliwy makijaz efektowy/alien.
+- **OpenYourMind_s.gif**: Wnetrze piwniczne, minimalne oswietlenie, wilgotna skora twarzy.
+
+### Dokumenty (24 skany)
+Zrodlo: opis Marlin-2B VLM
+
+- **CUKT_techopera_schemat.png**: Diagram techniczny/schemat architektoniczny na czarnym tle. Rzad 25 identycznych figur ludzkich u gory.
+- **budapeszt0002a Large.jpeg**: Mezczyzna w niebieskim plaszczu i czapce — scena uliczna.
+- **budapeszt0003a Large.jpeg**: Szary metalowy slup z naklejkami (logo CUKT/Technopery?).
+- **budapeszt0004 Large.jpeg**: Ciemne wnetrze (bank/biuro), zielona poduszka/pulpit.
+- **IMG_6928.jpg**: Zolty formularz z odrecznymi notatkami.
+- **IMG_6937.jpg**: Strona w formacie scenariusza, czarna czcionka.
+- **IMG_6939.jpg**: Zolta kartka z powtarzajacym sie wzorem okraglych logo — CUKT logotyp.
+- **IMG_6948.jpg**: Formalny dokument w obcym jezyku.
+- **IMG_6971.jpg**: Fioletowa okladka dokumentu z czarnym okraglym emblematem (plakietka Technopery?).
+- **IMG_6972.jpg**: Zolta kartka z powtarzajacymi sie okraglymi logo — CUKT logotyp.
+- **LibrettoBanff_6956.jpg**: Szkic architektoniczny/projektowy na bialej kartce.
+- **LibrettoBanff_6957.jpg**: Strona magazynu, wysoki kontrast, surowy/industrialny charakter.
+- **LibrettoBanff_6962.jpg**: Ulotka/plakat na bialej kartce.
+- **LibrettoBanff_6967.jpg**: Druk z czarno-bialym zdjeciem mezczyzny w garniturze i kapeluszu.
++14 wiecej (pelna lista w cache Marlin)
+
+### Audio / Video (77 klipow)
+Zrodlo: opis Marlin-2B VLM (wybrane)
+
+- **0_Scena_1.avi** (18.8s): Stadion o zmierzchu, pomaranczowe niebo.
+- **0_scena_2.avi** (2.3s): Abstrakcyjna grafika cyfrowa — czarne tlo, biala siatka, pomaranczowa linia.
+- **0_scena_4.avi** (10.7s): Ciemne wnetrze sterowni/laboratorium.
+- **0_scena_5.avi** (11.3s): Minimalistyczny pokoj, niebieskie oswietlenie, wentylator sufitowy.
+- **A_brainavi.avi** (0.1s): Bialy tekst "Navigate your brain." na czarnym tle.
+- **Alien001.avi** (5.1s): Waski korytarz/wnetrze statku, niski klucz oswietlenia.
+- **BatelStat001.avi** (10.3s): Kosmos, planeta, statek/struktura — mapa kosmiczna.
+- **BatelStat002.avi** (4.8s): Kosmiczna pustka, delikatna poswiata.
+- **C_syspew.avi** (4.4s): Sfera w kosmicznej pustce, statek kosmiczny.
+- **CorTayl000.avi** (3.7s): Noc, ogromna kamienna struktura/schodki.
++67 wiecej (pelna lista w cache Marlin)
+
+### ODKRYCIA Z ANALIZY MARLIN
+
+Ponizsze ustalenia pochodza z automatycznej analizy wizyjnej Marlin-2B. Wymagaja weryfikacji przez czlowieka.
+
+- **BatelStat001.avi** — Zawiera mape/schemat. Do weryfikacji.
+- **BatelStat002.avi** — Zawiera mape/schemat. Do weryfikacji.
+- **black.avi** — Zawiera date. Do weryfikacji.
+- **monitors000.avi** — Zawiera dane. Do weryfikacji.
+- **IMG_6939.jpg** — Zawiera logotyp CUKT. Do weryfikacji.
+- **IMG_6972.jpg** — Zawiera logotyp CUKT. Do weryfikacji.
+- **LibrettoBanff_6956.jpg** — Zawiera mape/schemat. Do weryfikacji.
+- **LibrettoBanff_6957.jpg** — Zawiera logotyp. Do weryfikacji.
+- **LibrettoBanff_6962.jpg** — Zawiera logotyp. Do weryfikacji.
+- **LibrettoBanff_6967.jpg** — Zawiera logotyp. Do weryfikacji.
+
+---
+
+DZIENNIK SLEDZTWA
+
+- 2026-05-20 (Archiwistka): Batch Marlin-2B VLM — opisano 105 mediow dla projektu Technopera (4 fotografie GIF, 24 skany dokumentow, 77 klipow audio/wideo). Zidentyfikowano potencjalne mapy/schematy (BatelStat, LibrettoBanff), logotypy CUKT (IMG_6939, IMG_6972) oraz daty (black.avi).

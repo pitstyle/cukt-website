@@ -782,3 +782,27 @@ BIALE PLAMY — NOWE
 11. Karty do glosowania — ile wydrukowano, gdzie dystrybuowano?
 
 ---
+
+---
+AKTUALIZACJA (2026-05-20):
+
+
+---
+## ANALIZA WIZYJNA MARLIN-2B — WWW / Wiktoria (2026-05-20)
+
+Automatyczne opisy 12 assetów WWW z serwera ICM dla projektu Wiktoria Cukt.
+
+| Plik | Opis |
+|------|------|
+| bosw.gif | Scene: The scene is a minimalist digital environment featuring a stark black background that provides a high-contrast backdrop for the central text. The atmosphere is quiet and focused, characteris... |
+| kampa.gif | Scene: The scene is a minimalist digital environment featuring a single, prominent text graphic. The background is a solid, deep black, which provides a high-contrast backdrop for the central eleme... |
+| nhist.gif | Scene: The scene is a minimalist digital environment featuring a title card against a solid black background. The primary entity is the word "HISTORIA," rendered in a bold, sans-serif font with a d... |
+| nmedia.gif | Scene: The scene is a minimalist digital environment featuring a stark black background that serves as a canvas for a single graphic element. The primary entity is the word "MEDIA," rendered in a b... |
+| nosw.gif | Scene: The scene is a minimalist digital environment featuring a stark black background that provides a high-contrast backdrop for the central text. The atmosphere is quiet and focused, characteris... |
+| podpis02.gif | Scene: The scene is a close-up, top-down view of a dark, textured surface, likely a table or countertop, where a person is writing. The lighting is focused and somewhat dim, creating a moody atmosp... |
+| postu.gif | Scene: The scene is a static snapshot of a pitch-black environment, likely a void or a very dimly lit interior space. There are no visible entities, objects, or background features, creating a sens... |
+| title3.gif | Scene: The scene is a static graphic display featuring a title card against a solid black background. The text is rendered in a bold, sans-serif font with a metallic, blue-to-white gradient fill. T... |
+| wikt_video.gif | Scene: The scene is a static, high-contrast portrait of a woman with a sophisticated appearance, presented in a vintage, retro style. The woman has voluminous, styled reddish-brown hair and is wear... |
+| wiktoriaback.gif | Scene: The scene is a static, high-contrast portrait of a woman with a vintage, glamorous appearance. She is positioned centrally in the frame, facing the camera directly. Her hair is styled in a s... |
+| postu.gif | Scene: The scene is a static snapshot of a pitch-black environment, likely a void or a very dimly lit interior space. There are no visible entities, objects, or background features, creating a sens... |
+| wiktoriaback.gif | Scene: The scene is a static, high-contrast portrait of a woman with a vintage, glamorous appearance. She is positioned centrally in the frame, facing the camera directly. Her hair is styled in a s... |
