@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-05-20"
+date: "2026-05-25"
 status: "W TOKU"
 ---
 
