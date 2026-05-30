@@ -2,7 +2,7 @@
 title: "000 CUKT Dokumenty"
 project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-05-20"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -15,13 +15,13 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1994-2000 |
 | **MIEJSCE** | Gdańsk |
-| **STATUS** | COMPLETE |
+| **STATUS** | COMPLETE | REVIEW BY PIOTR WYRZYKOWSKI
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-17 |
 
 ---
 
-## KARTA PROJEKTU
+## KARTA PROJEKTU - UWAGA: TO NIE JEST PROJEKT W ZNACZENIU WYDARZENIA. JEST TO ZBIÓR OFICJALNYCH DOKUMENTÓW CUKT. 
 
 | | |
 |---|---|
@@ -35,7 +35,7 @@ status: "W TOKU"
 
 ## OPIS
 
-000 CUKT Dokumenty to zbiór dokumentów założycielskich i instytucjonalnych CUKT — pieczęcie, identyfikatory urzędników, papier firmowy, wizytówki, wzory dowodów, kwestionariusze, życiorysy, konstytucja NTSC, manifesty, korespondencja. CUKT od 1994 roku budował paralegalną infrastrukturę instytucjonalną jako formę działania artystycznego — "instytucja jako sztuka" (Transformizm 2022).
+000 CUKT Dokumenty to zbiór dokumentów założycielskich i instytucjonalnych CUKT — pieczęcie, identyfikatory urzędników, papier firmowy, wizytówki, wzory dowodów, kwestionariusze, życiorysy, konstytucja NTSC, manifesty, korespondencja. CUKT od 1995 roku budował para-legalną infrastrukturę instytucjonalną jako formę działania artystycznego — "instytucja jako sztuka" (Transformizm 2022).
 
 Sekcje: manifesty (Konstytucja NTSC, Manifest + CV CUKT), logo (CUKT, NTSC, VIRUS, PAKT), identyfikacja (identyfikatory urzędników, pieczęcie, kwestionariusze), druki (papier firmowy, dowody, zaproszenia), urzędnicy (25 fotografii), artefakty (medal CUKT, aktówka, kaseta audio NTSC, legitymacje PCK, książeczki wojskowe).
 

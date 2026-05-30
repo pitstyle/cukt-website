@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-05-20"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1997 |
 | **MIEJSCE** | Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa |
-| **STATUS** | STUB |
+| **STATUS** | STUB | REVIEW BY PIOTR WYRZYKOWSK
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -34,7 +34,7 @@ status: "W TOKU"
 
 ## OPIS
 
-Lab 6 / Rodzina CUKT to performance zrealizowany w 1997 roku w Centrum Sztuki Współczesnej Zamek Ujazdowski w Warszawie, w ramach LAB 6 — Międzynarodowej Wystawy Sztuki Mediów.
+Rodzina CUKT to performance zrealizowany w 1997 roku w Centrum Sztuki Współczesnej Zamek Ujazdowski w Warszawie, w ramach LAB 6 — Międzynarodowej Wystawy Sztuki Mediów.
 
 Akcja polegała na stworzeniu "żywej rzeźby": Mikołaj Jurkowski i Daniela (gościnnie) stanowili element instalacji wraz z komputerem PC wyświetlającym stronę WWW CUKT. Była to jedna z pierwszych prezentacji obecności CUKT w internecie.
 
@@ -44,10 +44,10 @@ Do projektu zachowały się projekty niezrealizowanego Biura CUKT — zapotrzebo
 
 ## OSOBY
 
-- **Piotr Wyrzykowski** — urzędnik-założyciel CUKT
-- **Artur Kozdrowski** (podletz / jan smuga / dr kudlatz) — urzędnik-założyciel
-- **Robert Jurkowski** — urzędnik-założyciel, uczestnik "żywej rzeźby"
-- **Jacek Niegoda** (Neurov) — urzędnik-założyciel
+- **Piotr Wyrzykowski** — urzędnik współ-założyciel CUKT
+- **Artur Kozdrowski** (podletz / jan smuga / dr kudlatz) — urzędnik współ-założyciel
+- **Robert Jurkowski** — urzędnik współ-założyciel, uczestnik "żywej rzeźby"
+- **Jacek Niegoda** (Neuro) — urzędnik współ-założyciel
 - **Daniela** — gościnnie, współuczestniczka "żywej rzeźby" [NIEPEŁNE DANE]
 
 ---
@@ -91,8 +91,8 @@ Brak — projekt minimalnie udokumentowany.
 ## PYTANIA OTWARTE
 
 1. Kim jest Daniela? (brak nazwiska w archiwum) — do Piotra/Mikołaja
-2. Czy strona WWW CUKT prezentowana na Lab 6 jest zachowana w archiwum? — do Piotra
-3. Czy projekty Biura CUKT zostały kiedykolwiek zrealizowane w innej formie? — do Piotra
+2. Czy strona WWW CUKT prezentowana na Lab 6 jest zachowana w archiwum? — do Piotra. - Niestety nie odnaleziona są pliki html, mojego autorstwa.
+3. Czy projekty Biura CUKT zostały kiedykolwiek zrealizowane w innej formie? — do Piotra - Nie. 
 
 ---
 
@@ -100,7 +100,7 @@ Brak — projekt minimalnie udokumentowany.
 
 - Tylko 2 fotografie — bardzo skąpa dokumentacja wizualna
 - Brak dokładnej daty w 1997 (miesiąc/dzień)
-- Brak katalogu/kuratora wystawy LAB 6
+- Brak katalogu/kuratora wystawy LAB 6 - Kurator wystawy: Ryszard Kluszczyński. 
 - Brak informacji o Danieli (nazwisko, rola)
 
 ---

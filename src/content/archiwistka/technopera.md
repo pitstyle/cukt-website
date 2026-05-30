@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-05-25"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -15,7 +15,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1996-1997 |
 | **MIEJSCE** | — |
-| **STATUS** | COMPLETE |
+| **STATUS** | wymaga napisania listy z datami i miejscami kolejnych wersji | REVIEW BY PIOTR WYRZYKOWSKI
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-15 |
 
@@ -25,7 +25,7 @@ status: "W TOKU"
 
 Data .............. 1996-1997 (wersje: 2.2, 3.0 PRO, 3.1 PRO, 4.0b, 4.0b VRML)
 Miejsce ........... Zielona Góra (Estrada), Gdańsk (NOT), Wrocław (WRO), Warszawa (CSW Zamek Ujazdowski), Dessau (Bauhaus/Ostranenie 97), Banff Centre Kanada (PUSH Festival), Budapeszt
-Autorzy ........... Piotr Wyrzykowski (libretto, wideo), Artur Kozdrowski (libretto), Adam Popek (muzyka), Robert Jurkowski (scenografia), Anna Nizio (scenografia), Jacek Niegoda (scenografia), Paweł Mazur (muzyka), Rafał Grabowski (choreografia). Współpraca: MOTOR-TOTEM (Brema), Piotr Bikont (Wrocław), Katarzyna Kleczka (Wrocław)
+Autorzy ........... Piotr Wyrzykowski (libretto, wideo), Artur Kozdrowski (libretto), Adam Popek (muzyka), Robert Jurkowski (testy na cyborga, rola MAN), Anna Nizio (scenografia), Maciej Sienkiewicz (Muzyka), Haleh Abghari (sopran, CYBORG), 
 Typ ............... multimedia performance / video opera / system interaktywny
 Czas trwania ...... Performance: 9h+; video: 217 plików AVI libretta (~120+ min)
 Kontekst .......... wystawy międzynarodowe: WRO, Ostranenie, PUSH Festival
@@ -41,9 +41,9 @@ Libretto Technopery 4.0 (autorzy: Piotr Wyrzykowski i Artur Kozdrowski) definiuj
 
 Akt II libretta zawiera Voight-Kampff test (bezpośrednie nawiązanie do Blade Runner) — łącząc Technoperę z Testami na Cyborga. Akt III: "Hack your brain".
 
-Technopera 3.1 PRO (Gdańsk, NOT, 17-19 października 1996) — 9-godzinny performance z systemem testów: ważenie → skanowanie twarzy → test kwalifikacyjny → numer → pieczęć → wstęp. Przemarsz roboto-maszyn przez Długą i Długi Targ. Pokaz MOTOR-TOTEM z organami spalinowymi i maszynami kroczącymi. Ekipa telewizyjna jako element performansu — trzy warstwy rejestracji. "Bierność prowokuje aktywność" — kluczowa fraza koncepcyjna.
+Technopera 3.1 PRO (Gdańsk, NOT, 17-19 października 1996) Wydarzenie zaprojektowane ze szczegółami ale w ostatnim momencie odwołane bez podania przyczyny. Najprawdopodobniej decyzja podjęta przez wczesnego dyrektora NCK Macieja Nowaka. 9-godzinny performance z systemem testów: ważenie → skanowanie twarzy → test kwalifikacyjny → numer → pieczęć → wstęp. Przemarsz roboto-maszyn przez Długą i Długi Targ. Pokaz MOTOR-TOTEM z organami spalinowymi i maszynami kroczącymi. Ekipa telewizyjna jako element performansu — trzy warstwy rejestracji. "Bierność prowokuje aktywność" — kluczowa fraza koncepcyjna.
 
-Technopera 4.0b (Banff Centre, Kanada, PUSH Festival 1997) — zrealizowana jako fizyczny performance z goglami VR, motion capture i śpiewaczką operową. Operator w goglach VR skanuje ruchy śpiewaczki czujnikiem ruchu. To pierwszy interfejs cyfrowy CUKT — łączący ciało, głos i technologię w jeden system. Wersja była planowana jako interaktywna opera VRML z awatarami i nielinearną narracją.
+Technopera 4.0b (Banff Centre, Kanada, PUSH Festival 1997) — zrealizowana jako fizyczny performance z live streaming oraz na żywo z pianistą i dwoma śpiewakami operowymi: Timothy Isherwood i Haleh Abghari (występowała w kolejnych wersjach).  Wersja była planowana jako interaktywna opera VRML z awatarami i nielinearną narracją. Muzyka live mix: Peter Style, reżyseria i scenografia: Piotr Wyrzykowski. 
 
 Konspekt Technopery 3.1 PRO opisuje widza jako aktywnego uczestnika: "Jego odczucia, zgoda lub niezgoda na wyznaczoną ścieżkę dojścia do sali widowiskowej stanowią podstawowy element całości". Telewizja obecna w trzech warstwach: rejestracja, aranżacja, fikcja fabularna.
 
@@ -53,20 +53,24 @@ Hasła Technopery: "Jeżeli tu jesteście to wiecie po co jesteście" oraz "Albo
 
 ## OSOBY
 
-- **Piotr Wyrzykowski (T.J.44)** — autor libretta, performer, wideo. Widoczny na zdjęciach z Banff.
-- **Artur Kozdrowski (Kudee/Dr Artur Kudlatz)** — współautor libretta. Wymieniony w zapotrzebowaniu technicznym.
-- **Adam Popek (Ewa Virus)** — muzyka, wideo. Wymieniony w zapotrzebowaniu technicznym 22.04.1996.
-- **Robert Jurkowski (Mikołaj/Gróby)** — scenografia. Wymieniony w zapotrzebowaniu.
-- **Anna Nizio (A.N.N.A.)** — scenografia.
-- **Jacek Niegoda** — scenografia.
-- **Paweł Mazur (Paulus)** — muzyka.
-- **Marek Jabłoński (Vitriol)** — wymieniony w zapotrzebowaniu.
-- **Rafał Grabowski** — choreografia.
-- **Piotr Bikont** — Man-Machine, Wrocławska Technopera. Mężczyzna z rudą brodą.
-- **Katarzyna Kleczka** — śpiewaczka, Wrocław.
+- **Piotr Wyrzykowski (T.J.44, Peter Style)** — autor libretta, performer, wideo. 
+- **Artur Kozdrowski (Kudeł/Dr Kudlatz, Jan Smuga)** — współautor libretta. Wymieniony w zapotrzebowaniu technicznym.
+- **Adam Popek (Ewa Virus)** — muzyka. Wymieniony w zapotrzebowaniu technicznym 22.04.1996.
+- **Robert Jurkowski (Mikołaj/Gróby)** — Performer. Wymieniony w zapotrzebowaniu.
+- **Haleh Abghari** — śpiewaczka, Wrocław, śpiewaczka w błękitnej sukience, Banff.
 - **MOTOR-TOTEM** — niemiecka formacja z Bremy, organy spalinowe, maszyny kroczące.
-- **Niezidentyfikowana performerka** — śpiewaczka w błękitnej sukience, Banff.
-- **Niezidentyfikowany operator VR** — Banff, gogle VR + czujnik ruchu.
+
+## DATY USTALONE
+
+### Zielona Góra / Technopera 3.0 PRO
+- **Data:** 18 maja 1996 (18.05.96), godz. 21:00 – 8:00
+- **Miejsce:** Hala Estrady, Zielona Góra
+- **Charakter:** Nocny performance łączący Technoperę 3.0 PRO z Testami na Cyborga
+
+### Wrocław / WRO Media Biennale
+- **Data:** 4 maja 1996 (04.05.1996)
+- **Miejsce:** Teatr na Świebodzkim, Wrocław
+- **Kontekst:** WRO 96 Media Art Biennale (5. edycja)
 
 ---
 
@@ -97,7 +101,6 @@ AUDIO/VIDEO:
 - 1 CD z muzyką
 
 OBIEKTY FIZYCZNE:
-- Gogle VR (HMD) — Banff 1997
 - Mikrofon Shure SM58
 - Monitor CRT — instalacja Budapeszt
 - Libretto fioletowe (fizyczne)
@@ -106,9 +109,9 @@ OBIEKTY FIZYCZNE:
 
 ## ODKRYCIA
 
-1. CO: Technopera 4.0b ZOSTAŁA ZREALIZOWANA w Banff Centre (Kanada, 1997) — z goglami VR, motion capture, śpiewaczką operową. To nie była tylko koncepcja VRML.
+1. CO: Technopera 4.0b ZOSTAŁA ZREALIZOWANA w Banff Centre (Kanada, 1997) — śpiewaczką operową. To nie była tylko koncepcja VRML.
    ŹRÓDŁO: Zdjęcia banf_03.jpg, banf_04.jpg (operator w goglach VR).
-   ZNACZENIE: Pierwszy interfejs cyfrowy CUKT. Łączy ciało, głos i technologię w jeden system.
+   ZNACZENIE:  głos i technologię w jeden system.
 
 2. CO: Postać BIT w libretto Technopery 4.0 = prototyp agenta CUKTAI. Definicja: "elementary particle, binder of a system, agent of transformation, guarantor of activity".
    ŹRÓDŁO: technopera_libretto_4_0.pdf.
@@ -134,7 +137,8 @@ OBIEKTY FIZYCZNE:
 
 ## SPRZECZNOŚCI
 
-- **NOT Gdańsk — odbyło się czy nie?** Konspekt 3.1 PRO istnieje, ale brak potwierdzenia realizacji. [NIEROZSTRZYGNIĘTE]
+- **NOT Gdańsk — odbyło się czy nie?** Konspekt 3.1 PRO istnieje, ale brak potwierdzenia realizacji.
+Nie odbyło się. (Piotr Wyrzykowski)
 
 ---
 
@@ -150,11 +154,9 @@ OBIEKTY FIZYCZNE:
 
 ## PYTANIA OTWARTE
 
-1. **Kim jest performerka w błękitnej sukience z Banff?** — śpiewaczka operowa, niezidentyfikowana.
-2. **Kim jest operator w goglach VR z Banff?** — niezidentyfikowany.
+1. **Kim jest performerka w błękitnej sukience z Banff?** — śpiewaczka operowa, Heleh Abghari 
 3. **Co jest na 2 dyskietkach Amiga?** — sample i animacje, wymagają odczytu.
 4. **Czy NOT Gdańsk (17-19.10.1996) faktycznie się odbył?** — konspekt istnieje, brak potwierdzenia.
-5. **Piotr Bikont — czy to ta sama osoba co mężczyzna z rudą brodą z Czynu dla Miasta Bytów?**
 
 ---
 
@@ -189,20 +191,6 @@ OBIEKTY FIZYCZNE:
 ---
 ### Aktualizacje (wpisy automatyczne)
 ---
-AKTUALIZACJA (2026-05-05):
-
-
-## ŚWIADKOWIE
-
-- **Piotr Bikont** — Man-Machine, Wrocławska Technopera. Pytania: jak wyglądała współpraca z CUKT? Co pamięta z performance'u?
-
-- **Katarzyna Kleczka** — śpiewaczka w Technoperze Wrocław. Pytania: jak wyglądał performance z perspektywy wykonawcy?
-
-- **Performerka w błękitnej sukience (Banff)** — niezidentyfikowana. Do ustalenia przez archiwum Banff Centre.
-
-- **Operator VR w Banff** — niezidentyfikowany.
-
-
 
 ---
 AKTUALIZACJA (2026-05-09):
@@ -257,10 +245,6 @@ AKTUALIZACJA (2026-05-09):
 - **Kontekst:** WRO 96 Media Art Biennale (5. edycja)
 - **Wykonawcy:** Piotr Bikont (Man-Machine), Katarzyna Kleczka (śpiewaczka)
 
-## KOREKTY
-- Zielona Góra: DATA = 18.05.1996 (nie tylko "1996")
-- Wrocław: DATA = 04.05.1996 (nie tylko "1996")
-- Wrocław: lokalizacja potwierdzona — Teatr na Świebodzkim
 
 ### Data .............. 1996-1997 (wersje: 2.2, 3.0 PRO, 3.1 PRO, 4.0b, 4.0b VRML)
 OPIS
@@ -271,112 +255,7 @@ OSOBY
 ### - **Piotr Wyrzykowski (T.J.44)** — autor libretta, performer, wideo. Widoczny na zdjęciach z Banff.
 MATERIAŁY W ARCHIWUM
 
-### DOKUMENTY:
-ODKRYCIA
 
-### 1. CO: Technopera 4.0b ZOSTAŁA ZREALIZOWANA w Banff Centre (Kanada, 1997) — z goglami VR, motion capture, śpiewaczką operową. To nie była tylko koncepcja VRML.
-SPRZECZNOŚCI
-
-### - **NOT Gdańsk — odbyło się czy nie?** Konspekt 3.1 PRO istnieje, ale brak potwierdzenia realizacji. [NIEROZSTRZYGNIĘTE]
-POWIĄZANIA
-
-### - **→ Czyn dla miasta Bytów (06.1996)** — prapremiera Technopery v.2.2 z końmi, PC 486.
-PYTANIA OTWARTE
-
-### 1. **Kim jest performerka w błękitnej sukience z Banff?** — śpiewaczka operowa, niezidentyfikowana.
-BIAŁE PLAMY
-
-### - **Brak recenzji prasowych** z żadnej lokalizacji — Gazeta Wyborcza? Flash Art? Lokalna prasa?
-ŹRÓDŁA
-
-### - BAZA: "1996 - 1997 - Technopera" w cuktai_archive, 49 rekordów
-DZIENNIK ŚLEDZTWA
-
-### - 2026-04-25 (Archiwistka): Pierwsze śledztwo. Libretto, 217 plików AVI, dyskietki Amiga.
-Podpisano: CUKTAI_Archiwistka
-Autonomiczny Urząd Kultury Technicznej
-
-### Autonomiczny Urząd Kultury Technicznej
----
-AKTUALIZACJA (2026-05-05):
-
-
-## ŚWIADKOWIE
-
-- **Piotr Bikont** — Man-Machine, Wrocławska Technopera. Pytania: jak wyglądała współpraca z CUKT? Co pamięta z performance'u?
-
-- **Katarzyna Kleczka** — śpiewaczka w Technoperze Wrocław. Pytania: jak wyglądał performance z perspektywy wykonawcy?
-
-- **Performerka w błękitnej sukience (Banff)** — niezidentyfikowana. Do ustalenia przez archiwum Banff Centre.
-
-- **Operator VR w Banff** — niezidentyfikowany.
-
-
-
----
-AKTUALIZACJA (2026-05-09):
-
----
-AKTUALIZACJA (2026-05-09):
-ŹRÓDŁO: Śledztwo w archiwum (plakaty, foldery)
-
-## NOWE USTALENIA — MATERIAŁY W ARCHIWUM
-
-### Zielona Góra / Technopera 3.0 PRO
-Nowo zidentyfikowane materiały w folderze Technopera/druki/:
-- **ZielonaGora_6690.jpg** (4032×3024, iPhone 7, photo 2018-10-09) — fotografia plakatu Technopery 3.0 PRO, Zielona Góra, Estrada
-- **ZielonaGora_6689.jpg** (4032×3024, iPhone 7, photo 2018-10-09) — druga fotografia tego samego plakatu
-- **zielonaGora01.jpg** (4160×2340, LG-H650, photo 2018-10-11) — zbliżenie na plakat
-- **zielona_bilet.jpg** (1230×1774, Picasa) — bilet na Technoperę 3.0 PRO w Zielonej Górze
-
-### Wrocław / WRO Media Biennale
-Nowo zidentyfikowane materiały w folderze Technopera/druki/:
-- **WRO_6525.jpg** (4032×3024, iPhone 7, photo 2018-10-08, 2775 KB) — plakat/print Technopery na WRO 96 Media Biennale
-- Plakat potwierdza prezentację Technopery na 5. edycji WRO Media Art Biennale we Wrocławiu
-
-### KOREKTY W SEKCJI ŹRÓDŁA
-- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/WRO_6525.jpg
-- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/ZielonaGora_6690.jpg
-- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/ZielonaGora_6689.jpg
-- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/zielonaGora01.jpg
-- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/druki/zielona_bilet.jpg
-
-### NOWE PYTANIA OTWARTE
-6. **Jakie były dokładne daty WRO Media Biennale 1996?** — 5. edycja. Plakat WRO_6525.jpg zawiera daty wizualnie. Do Piotra.
-7. **Jaka jest dokładna data Technopery 3.0 PRO w Zielonej Górze?** — plakat z-96.jpg + ZielonaGora_6690.jpg zawierają datę wizualnie. Do Piotra.
-
-
----
-AKTUALIZACJA (2026-05-09):
-
----
-AKTUALIZACJA (2026-05-09):
-ŹRÓDŁO: Piotr Wyrzykowski (odczyt z plakatów)
-
-## DATY USTALONE
-
-### Zielona Góra / Technopera 3.0 PRO
-- **Data:** 18 maja 1996 (18.05.96), godz. 21:00 – 8:00
-- **Miejsce:** Hala Estrady, Zielona Góra
-- **Charakter:** Nocny performance łączący Technoperę 3.0 PRO z Testami na Cyborga
-
-### Wrocław / WRO Media Biennale
-- **Data:** 4 maja 1996 (04.05.1996)
-- **Miejsce:** Teatr na Świebodzkim, Wrocław
-- **Kontekst:** WRO 96 Media Art Biennale (5. edycja)
-- **Wykonawcy:** Piotr Bikont (Man-Machine), Katarzyna Kleczka (śpiewaczka)
-
-## KOREKTY
-- Zielona Góra: DATA = 18.05.1996 (nie tylko "1996")
-- Wrocław: DATA = 04.05.1996 (nie tylko "1996")
-- Wrocław: lokalizacja potwierdzona — Teatr na Świebodzkim
-
----
-
----
-AKTUALIZACJA (2026-05-20):
-
----
 
 AKTUALIZACJA (2026-05-20):
 ZRODLO: Marlin-2B VLM (batch analysis of 105 media files)

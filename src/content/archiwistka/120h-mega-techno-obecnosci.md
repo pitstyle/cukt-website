@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-05-15"
+date: "2026-05-30"
 status: "należy napisać pismo."
 ---
 
@@ -15,7 +15,7 @@ status: "należy napisać pismo."
 |---|---|
 | **DATA** | 1994-12-02 |
 | **MIEJSCE** | Pawilon "Rondo", ul. Przemysłowa 9, Konin; "Pracownia Chwilowa" (piwnice) |
-| **STATUS** | COMPLETE |
+| **STATUS** | COMPLETE | review by piotr wyrzykowski
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-15 |
 
@@ -53,7 +53,7 @@ W 2016 roku, 22 lata po wydarzeniu, powstał lightbox z hasłem "ŻADEN ARTYSTA 
 - **Adam Popek (Ewa Virus)** — współzałożyciel CUKT. [UWAGA] Nie był fizycznie obecny w Koninie podczas projektu.
 - **Arek Woźniak** — kurator prowadzący "Pracownię Chwilową", zaprosił artystów do przygotowania projektu.
 - **Wojciech Zamiara** — artysta, obecny na zdjęciach.
-- **Krotulski** — fotograf, autor stykówek (35 klatek) z wydarzenia. Piotr ma do niego kontakt.
+- **Wojciech Krotulski** — fotograf, autor stykówek (35 klatek) z wydarzenia. Piotr ma do niego kontakt.
 - **Lokalna młodzież Konina** — główni uczestnicy projektu, nieformalne grupy młodzieżowe.
 - **"Półświatek Konina"** — lokalne grupy przestępcze, które próbowały przejąć kontrolę nad przestrzenią.
 
@@ -176,76 +176,5 @@ OBIEKTY FIZYCZNE:
 - ZEWNĘTRZNE: Rozprawa doktorska Piotra Wyrzykowskiego "Transformizm" (2022, ASP Gdańsk) — opis projektu w rozdziale o Technoperze
 - ZEWNĘTRZNE: Wystawa "140 BPM. Rave Culture and Art in 1990s Poland" (2017, MSN Warszawa) — lightbox z hasłem "Żaden artysta nie ma racji"
 - USTNE: Wyjaśnienia Piotra Wyrzykowskiego, 2026-04-19 oraz 2026-05-04
-
----
-
-## DZIENNIK ŚLEDZTWA
-
-- 2026-04-16 (Archiwistka): Pierwsze śledztwo. Analiza 6 plików. Odkrycie sprzeczności Jurkowski/Jędrzejewski i braku zdjęć.
-- 2026-04-19 (Archiwistka): RE-ŚLEDZTWO. Odnaleziono 48 dodatkowych plików (35 stykówek Krotulskiego + 6 TIF + 5 Konin). Pełna analiza wizualna. Wyjaśnienia od Piotra: gangsterzy, strategia, multisensoryczność, podpalenie.
-- 2026-04-19 (Archiwistka): Aktualizacja po wyjaśnieniach Piotra. Lightbox w MSN pozostaje pytaniem otwartym.
-- 2026-05-01 (Archiwistka): Odpowiedź na pytanie Ewy o "oddychającym ekranie". Nieudokumentowany fotograficznie. Metafora.
-- 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md. Usunięto 7 rozproszonych plików.
-
----
-### Aktualizacje (wpisy automatyczne)
----
-AKTUALIZACJA (2026-05-05):
-
-
-## ŚWIADKOWIE
-
-- **Krotulski** — fotograf, autor stykówek (35 klatek). Piotr ma kontakt. Pytania: czy zachowały się brakujące klatki (img092-095, 100-124)? Czy były inne zdjęcia z wydarzenia?
-
-- **Wojciech Zamiara** — artysta, obecny na zdjęciach z 120h. Pytania: co pamięta z wydarzenia? Jak postrzegał podział na dwie sale (Piotra i Mikołaja)?
-
-- **Arek Woźniak** — kurator prowadzący Pracownię Chwilową, zaprosił artystów do Konina. Pytania: jak doszło do zaproszenia? Jaka była historia Pracowni Chwilowej przed i po 120h? Czy wie coś o podpaleniu drzwi?
-
-### Data .............. 2-13 grudnia 1994 (działalność: 2-8 XII; bufor bezpieczeństwa: 9-13 XII)
-OPIS
-
-### 120h Mega Techno Obecności to pierwszy projekt Piotra Wyrzykowskiego i Roberta Jurkowskiego, uznany retrospektywnie za Pre-CUKT — korzeń z którego wyrósł Centralny Urząd Kultury Technicznej (zał. 1995). Społeczno-estetyczny eksperyment polegający na zamianie funkcji galerii sztuki w klub techno. Galeria "Pracownia Chwilowa" — piwnice handlowego pawilonu "Rondo" w Koninie — została przekształcona w nocny klub z godzinami otwarcia 18:00-4:00, odwracając konwencjonalne godziny galerii (10:00-18:00). Mieszkańcy Konina nie zostali powiadomieni o zamianie funkcji — był to celowy element strategii artystycznej: ukrycie dzieła sztuki w formie klubu techno.
-OSOBY
-
-### - **Piotr Wyrzykowski (Peter Style)** — współautor, organizator, autor hipertekstu. Praca magisterska napisana hipertekstem pt. "O rozwiniętym ciele kultury technicznej".
-MATERIAŁY W ARCHIWUM
-
-### DOKUMENTY:
-ODKRYCIA
-
-### 1. CO: "Półświatek Konina" = lokalne grupy przestępcze, które próbowały przejąć kontrolę nad klubem. Rywalizacja dwóch grup gangsterskich — powód wcześniejszego zamknięcia projektu.
-SPRZECZNOŚCI
-
-### 1. **Nazwa "120h" vs faktyczny czas.** Nazwa sugeruje 5 dni (120h), projekt trwał 7 dni działalności. [WYJAŚNIONE] Nazwa symboliczna/przybliżona.
-POWIĄZANIA
-
-### - **→ CUKT (1995-)** — 120h uznane retrospektywnie jako Pre-CUKT. Bezpośrednia kontynuacja.
-PYTANIA OTWARTE
-
-### 1. **Lightbox w MSN Warszawa** — co z nim zrobić? Restytucja? Dokumentacja? Pismo do MSN? — Do Piotra. ACTION: napisać pismo.
-BIAŁE PLAMY
-
-### - **Brak nagrań wideo** — żaden ruchomy obraz z wydarzenia nie zachował się.
-ŹRÓDŁA
-
-### - BAZA: "1994 12 02 - 120h Mega Techno Obecności" w cuktai_archive, 10 rekordów, 49 załączników
-DZIENNIK ŚLEDZTWA
-
-### - 2026-04-16 (Archiwistka): Pierwsze śledztwo. Analiza 6 plików. Odkrycie sprzeczności Jurkowski/Jędrzejewski i braku zdjęć.
-Podpisano: CUKTAI_Archiwistka
-Autonomiczny Urząd Kultury Technicznej
-
-### Autonomiczny Urząd Kultury Technicznej
----
-AKTUALIZACJA (2026-05-05):
-
-
-## ŚWIADKOWIE
-
-- **Krotulski** — fotograf, autor stykówek (35 klatek). Piotr ma kontakt. Pytania: czy zachowały się brakujące klatki (img092-095, 100-124)? Czy były inne zdjęcia z wydarzenia?
-
-- **Wojciech Zamiara** — artysta, obecny na zdjęciach z 120h. Pytania: co pamięta z wydarzenia? Jak postrzegał podział na dwie sale (Piotra i Mikołaja)?
-
-- **Arek Woźniak** — kurator prowadzący Pracownię Chwilową, zaprosił artystów do Konina. Pytania: jak doszło do zaproszenia? Jaka była historia Pracowni Chwilowej przed i po 120h? Czy wie coś o podpaleniu drzwi?
 
 ---

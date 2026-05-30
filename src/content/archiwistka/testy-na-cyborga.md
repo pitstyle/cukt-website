@@ -2,7 +2,7 @@
 title: "Testy na Cyborga"
 project: "Testy na Cyborga"
 type: "teczka"
-date: "2026-05-15"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -13,9 +13,9 @@ status: "W TOKU"
 
 | | |
 |---|---|
-| **DATA** | 1995-2017 (cykl wielomiejscowy) |
+| **DATA** | 1995-1997, KONTYNUACJA:2024 (cykl wielomiejscowy) |
 | **MIEJSCE** | — |
-| **STATUS** | COMPLETE |
+| **STATUS** | COMPLETE | REVIEW BY PIOTR WYRZYKOWSKI, UWAGA: należy przeprowadzić analizę wszystkich testów orginałów. 
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-15 |
 
@@ -23,9 +23,9 @@ status: "W TOKU"
 
 ## KARTA PROJEKTU
 
-Data .............. 1995-2017 (cykl)
+Data .............. 1995-1997 (cykl)
 Miejsce ........... Toruń (Galeria S), Bytów (Castle of Imagination), Warszawa (CSW Zamek Ujazdowski), Düsseldorf (Kunstraum), Wrocław (Teatr na Świebodzkim), Zielona Góra (Technopera 3.0 PRO)
-Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
+Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Rafał Grabowski
 Typ ............... performance / instalacja biurokratyczna / interwencja
 Czas trwania ...... kilkudniowe w każdej lokalizacji
 Kontekst .......... cykl wystawienniczy CUKT
@@ -35,15 +35,16 @@ Rekordów w bazie .. 70 pozycji, ~300 plików
 
 ## OPIS
 
-Testy na Cyborga to cykl performansów biurokratycznych realizowanych przez CUKT w latach 1995-2017 w wielu miastach Polski i Niemiec. Projekt badał mechanizmy kontroli, procedury i podmiotowość obywatela wobec systemu instytucjonalnego. Nie był to performance science-fiction — to była biurokracja jako sztuka: formularze, testy, kontrakty, pieczęcie, uniformy.
+Testy na Cyborga to cykl performansów biurokratycznych realizowanych przez CUKT w latach 1995-1997 w wielu miastach Polski i Niemiec. Projekt badał mechanizmy kontroli, procedury i podmiotowość obywatela wobec systemu instytucjonalnego. Nie był to performance science-fiction — to była biurokracja jako sztuka: formularze, testy, kontrakty, pieczęcie, uniformy.
 
-Procedura składała się z kilku stanowisk: (1) skanowanie twarzy i dłoni, (2) wypełnianie formularza (ORIENTATIONSTEST lub TEST 02 — test niedokończonych zdań) przy asyście urzędnika, (3) kwalifikacja, pieczętowanie i wręczenie opaski. Każdy uczestnik otrzymywał worek z piaskiem o wadze 1/10 jego deklarowanej wagi. Przy wejściu i wyjściu mierzono różnicę wagi — fizyczna manifestacja "zmiany" przez instytucję.
+Procedura składała się z kilku zmiennych i rozwijanych stanowisk: (1) skanowanie twarzy i dłoni, (2) wypełnianie formularza (ORIENTATIONSTEST lub TEST 02 — test niedokończonych zdań) przy asyście urzędnika, (3) kwalifikacja, pieczętowanie i przydzielenie numeru, (4) deklaracji wagi (5) weryfikacji wagi. 
 
-Najbardziej rozbudowana wersja miała miejsce w Düsseldorfie (Kunstraum, 1-3 października 1996, kurator: Robert Knuth). Uczestnicy podpisywali kontrakt VERTRAG z Central Office for Technical Culture na odbiór dzieła sztuki. Klauzula: jeśli dzieło nie zostanie odebrane do 13.10.1996 — zostanie zniszczone. Na formularzach ORIENTATIONSTEST (TO-6) zadawano pytania polityczno-egzystencjalne: "Czy chcesz, żeby Polska przystąpiła do UE?", "Czy wiesz, dlaczego tutaj jesteś?".
 
-Wrocławska wersja (1996) używała testu psychologicznego "TEST 02" — test niedokończonych zdań (20+10 zdań). Odpowiedzi uczestników ujawniały prywatne myśli, lęki i pragnienia: "Zawsze chciałem być... prostitutke", "Gdy będę starszy... to umrę", "Ja wiem, że mnie... śmiere nie dosiśgnie".
+Najbardziej rozbudowana wersja miała miejsce w Düsseldorfie (Kunstraum, 1-3 października 1996, kurator: Robert Knuth). Uczestnicy podpisywali kontrakt VERTRAG z Central Office for Technical Culture na odbiór dzieła sztuki. Klauzula: jeśli dzieło nie zostanie odebrane do 13.10.1996 — zostanie zniszczone. Na formularzach ORIENTATIONSTEST (TO-6) zadawano pytania polityczno-egzystencjalne: "Czy chcesz, żeby Polska przystąpiła do UE?", "Czy wiesz, dlaczego tutaj jesteś?". Każdy uczestnik otrzymywał worek z piaskiem o wadze 1/10 jego deklarowanej wagi. Przy wejściu i wyjściu mierzono różnicę wagi — fizyczna manifestacja "zmiany" przez instytucję.
 
-Kluczowym odkryciem archiwalnym jest brak mechanizmu REJECT/odmowy w całym cyklu. System był zaprojektowany jako bypass — nie widział tego, co nie mogło zostać zapisane. Jedyną opcją odmowy było fizyczne opuszczenie przestrzeni. Jak pisze Jacek Niegoda w recenzji: "Jeden z nich, fotograf tutejszej 'ważnej' gazety, nie wytrzymał napięcia i oddalił się, bezpowrotnie od grupy". System alarmowy był włączany w wypadku niepodporządkowania. Bypass: "Każdy, kto nie chce złożyć kwestionariusza, zostanie przyjęty od godz. 20 bez warunków" — ale taka osoba nie była rejestrowana JAKO refus. Refus bez rejestru = absence, nie blizna.
+Wrocławska wersja (1996) używała testu psychologicznego "TEST 02" — test niedokończonych zdań (20+10 zdań). Odpowiedzi uczestników ujawniały prywatne myśli, lęki i pragnienia: "Zawsze chciałem być... prostitutke", "Gdy będę starszy... to umrę", "Ja wiem, że mnie... śmierć nie dosiścignie". 
+
+Kluczowym odkryciem archiwalnym jest brak mechanizmu REJECT/odmowy w całym cyklu. System był zaprojektowany jako bypass — nie widział tego, co nie mogło zostać zapisane. Jedyną opcją odmowy było fizyczne opuszczenie przestrzeni. Jak pisze Tomasz Pryba w liście - recenzji z Düsseldorf: "Jeden z nich, fotograf tutejszej 'ważnej' gazety, nie wytrzymał napięcia i oddalił się, bezpowrotnie od grupy". System alarmowy był włączany w wypadku niepodporządkowania. Bypass: "Każdy, kto nie chce złożyć kwestionariusza, zostanie przyjęty od godz. 20 bez warunków" — ale taka osoba nie była rejestrowana JAKO odmowa. Odmowa bez rejestru = nie obecność, nie blizna.
 
 Uniform Urzędnika CUKT (czarna bluza + spodnie, bawełna) — unikat — obiekt artystyczny zarejestrowany w archiwum.
 
@@ -57,7 +58,6 @@ Uniform Urzędnika CUKT (czarna bluza + spodnie, bawełna) — unikat — obiekt
 - **Jacek Niegoda (Neurov)** — urzędnik w białym kombinezonie z megafonem, autor recenzji.
 - **Anna Nizio** — projekt graficzny, autorka "Virus".
 - **Artur Kozdrowski** — członek CUKT.
-- **Marek Jabłoński** — [UWAGA] Nie uczestniczył w Düsseldorfie. Został "zamrożony" w Gdańsku 1995.
 - **Rafał Grabowski** — [UWAGA] Nie uczestniczył w Düsseldorfie.
 - **Robert Knuth** — kurator Kunstraum Düsseldorf (nieżyjący).
 - **Tomasz Pryba** — recenzent (Kaarst, pod Düsseldorfem).
@@ -91,6 +91,14 @@ OBIEKTY FIZYCZNE:
 - Uniform Urzędnika CUKT: bluza + spodnie, czarna bawełna, rozmiar M (unikat)
 - Worek z piaskiem 1/10 wagi uczestnika
 - Opaski (różne kolory)
+- Testy A4, oryginały z każdego miasta. 
+
+## ZAKTUALIZOWANA KOLEJNOŚĆ 1996
+1. **04.05.1996** — Testy na Cyborga / Technopera — Wrocław, Teatr na Świebodzkim (WRO 96)
+2. **18.05.1996** — Testy na Cyborga / Technopera 3.0 PRO — Zielona Góra, Hala Estrady (21:00-8:00)
+3. **28.06.1996** — Czyn dla Miasta Bytów + prapremiera Technopery — Bytów
+4. **14.09.1996** — Testy na Cyborga + Technopera — Warszawa, CSW Zamek Ujazdowski
+5. **1-3.10.1996** — Testy na Cyborga / DELIKATESY AVANTGARDE — Düsseldorf
 
 ---
 
@@ -192,7 +200,7 @@ AKTUALIZACJA (2026-05-05):
 
 ## ŚWIADKOWIE
 
-- **Jacek Niegoda** — urzędnik w białym kombinezonie, autor recenzji Pryby. Pytania: jak wyglądała procedura testów z perspektywy urzędnika? Ilu osób odeszło bez wypełnienia formularza?
+- **Jacek Niegoda** — urzędnik w białym kombinezonie, Pytania: jak wyglądała procedura testów z perspektywy urzędnika? Ilu osób odeszło bez wypełnienia formularza?
 
 - **Robert Knuth** — kurator Kunstraum Düsseldorf (nieżyjący). Brak możliwości wywiadu.
 
@@ -336,59 +344,6 @@ Dusseldorf 10.1996:   3 stanowiska + 3 dni + kontrakty + wagi + opaski
 ### Data .............. 1995-2017 (cykl)
 OPIS
 
-### Testy na Cyborga to cykl performansów biurokratycznych realizowanych przez CUKT w latach 1995-2017 w wielu miastach Polski i Niemiec. Projekt badał mechanizmy kontroli, procedury i podmiotowość obywatela wobec systemu instytucjonalnego. Nie był to performance science-fiction — to była biurokracja jako sztuka: formularze, testy, kontrakty, pieczęcie, uniformy.
-OSOBY
-
-### - **Piotr Wyrzykowski** — główny organizator, urzędnik CUKT.
-MATERIAŁY W ARCHIWUM
-
-### DOKUMENTY:
-ODKRYCIA
-
-### 1. CO: REJECT button NIE ISTNIEJE w całym cyklu Testy na Cyborga. System nie miał mechanizmu formalnej odmowy.
-SPRZECZNOŚCI
-
-### 1. **Autorzy Düsseldorf (Marek Jabłoński, Rafał Grabowski)** — wymienieni w katalogu, ale NIE uczestniczyli. Marek "zamrożony" w Gdańsku 1995. [WYJAŚNIONE] Różnica między członkami CUKT a uczestnikami konkretnej akcji.
-POWIĄZANIA
-
-### - **→ Antyelekcja Technodemonstracja (1995)** — system bez wyniku (Antyelekcja) → system bez wyboru (Testy).
-PYTANIA OTWARTE
-
-### 1. **Ilu osób odeszło bez wypełnienia formularza?** — archiwum nie przechowuje tych danych. To są "ludzie szumu". — Do Piotra/Mikołaja.
-BIAŁE PLAMY
-
-### - **Dokładna data i lokalizacja Wrocław** — tylko "1996", "Teatr na Świebodzkim?" (niepewne).
-ŹRÓDŁA
-
-### - BAZA: "1995 2017 - Testy na Cyborga" w cuktai_archive, 70 rekordów
-DZIENNIK ŚLEDZTWA
-
-### - 2026-04-23 (Archiwistka): Badanie mechanizmu refus/absence. Odkrycie bypassu — "refus bez rejestru = absence".
-Podpisano: CUKTAI_Archiwistka
-Autonomiczny Urząd Kultury Technicznej
-
-### Autonomiczny Urząd Kultury Technicznej
----
-AKTUALIZACJA (2026-05-05):
-
-
-## ŚWIADKOWIE
-
-- **Jacek Niegoda** — urzędnik w białym kombinezonie, autor recenzji Pryby. Pytania: jak wyglądała procedura testów z perspektywy urzędnika? Ilu osób odeszło bez wypełnienia formularza?
-
-- **Robert Knuth** — kurator Kunstraum Düsseldorf (nieżyjący). Brak możliwości wywiadu.
-
-- **Tomasz Pryba** — recenzent (Kaarst, Niemcy). Pytania: czy pamięta akcję CUKT w Düsseldorfie? Gdzie można znaleźć jego publikację?
-
-
-
----
-AKTUALIZACJA (2026-05-09):
-
-
-
----
-AKTUALIZACJA (2026-05-09):
 
 ---
 AKTUALIZACJA (2026-05-09):

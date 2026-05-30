@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-05-29"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -48,7 +48,7 @@ Obiekt składał się z białego roweru treningowego (z czarnym siodełkiem i na
 
 Instalacje na zdjęciach pliki: skanuj0010.jpg Prawa część pliku tylko. 
 
-### Diptych niebieski neon (Marek Jabłoński)
+### Dyptyk niebieski neon (Marek Jabłoński)
 Instalacja składała się z dwóch paneli (diptych) z niebieską neonową linią poziomą oraz symboliką alchemiczną – brak dokładnych wymiarów. Na zdjęciu widoczna jest intensywnie świecąca niebieska neonówka (lampa UV) na ciemnej, kratowanej ścianie, za którą znajduje się małe okno. Neon stanowił minimalistyczny, zimny akcent świetlny w industrialnym otoczeniu fortów. [Źródło: opis zdjęcia Marlin 94601792f64bd618; teczka archiwalna – wzmianka o diptychach]
 
 

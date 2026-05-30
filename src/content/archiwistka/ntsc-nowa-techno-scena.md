@@ -2,7 +2,7 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-05-08"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1995 |
 | **MIEJSCE** | Forty, Gdańsk |
-| **STATUS** | STUB |
+| **STATUS** | STUB | REVIE BY PIOTR WYRZYKOWSKI 
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 

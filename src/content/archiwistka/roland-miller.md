@@ -2,7 +2,7 @@
 title: "Roland Miller and Four CUKT Officers"
 project: "Roland Miller and Four CUKT Officers"
 type: "teczka"
-date: "2026-05-26"
+date: "2026-05-30"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1995 |
 | **MIEJSCE** | Klub Mózg, Bydgoszcz |
-| **STATUS** | STUB |
+| **STATUS** | STUB | REVIEW BY PIOTR WYRZYKOWSKI 
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -34,7 +34,7 @@ status: "W TOKU"
 
 ## OPIS
 
-W 1995 roku w klubie Mózg w Bydgoszczy miał miejsce wspólny projekt artystyczny CUKT z gościnnym artystą Rolandem Millerem. Udział wzięło czterech urzędników CUKT (w tym Piotr Wyrzykowski). Projekt znany jest wyłącznie z wzmianki w CV Wyrzykowskiego – nie zachowała się żadna dokumentacja wizualna ani opisowa.
+W 1995 roku w klubie Mózg w Bydgoszczy miał miejsce wspólny projekt z artystą Rolandem Millerem, który zaprosił urzędników CUKT do wykonania razem performance. Udział wzięło czterech urzędników CUKT (kto dokładnie należy zweryfikować u Jacka Niegody). Projekt znany jest wyłącznie z wzmianki w CV CUKT – nie zachowała się żadna dokumentacja wizualna ani opisowa.
 
 ### Roland Miller and Four CUKT Officers (Piotr Wyrzykowski i urzędnicy CUKT, gościnnie Roland Miller)
 
@@ -49,7 +49,8 @@ Ze względu na całkowity brak dokumentacji archiwalnej nie można określić be
 Projekt miał charakter jednorazowy. Nieznana jest dokładna data w 1995 roku, godzina startu, czas trwania ani kolejność działań. [NIEZNANE: brak danych] Wiadomo jedynie, że uczestniczyły w nim cztery osoby z CUKT (w tym Piotr Wyrzykowski) oraz Roland Miller. Tożsamość pozostałych trzech urzędników nie została odnotowana w żadnym znanym źródle. [WYMAGA WERYFIKACJI]
 ## OSOBY
 
-- **Piotr Wyrzykowski** (Peter Style) — urzędnik-założyciel CUKT
+- **Piotr Wyrzykowski** (Peter Style) — urzędnik-wspólzałożyciel CUKT
+- Jacek Niegoda 
 - **Roland Miller** — artysta, inicjator współpracy
 - **Urzędnicy CUKT** (3 kolejne osoby — nieznane z imienia w dokumentacji)
 
@@ -85,7 +86,7 @@ Brak danych do porównania.
 
 ## PYTANIA OTWARTE
 
-1. Kim jest Roland Miller? (artysta z jakiego kraju, co robił w Polsce?) — do Piotra
+1. Kim jest Roland Miller?  - Artysta z Wielkiej Brytani. 
 2. Jaki był charakter performansu? — do Piotra
 3. Którzy trzej urzędnicy CUKT uczestniczyli oprócz Piotra? — do Piotra/Mikołaja
 4. Czy istnieją gdziekolwiek fotografie z tego wydarzenia? — do Piotra
