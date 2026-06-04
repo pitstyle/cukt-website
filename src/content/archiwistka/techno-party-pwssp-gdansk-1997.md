@@ -2,7 +2,7 @@
 title: "Techno Party PWSSP Gdańsk 1997"
 project: "Techno Party PWSSP Gdańsk 1997"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -25,7 +25,7 @@ status: "W TOKU"
 
 Data .............. styczeń 1997 (dzień nieznany)
 Miejsce ........... PWSSP (obecnie ASP Gdańsk), akademik, sala stołówki
-Autorzy ........... Piotr Wyrzykowski, Adam Popek (Ewa Virus), Mikołaj Robert Jurkowski. 
+Autorzy ........... Piotr Wyrzykowski, Adam Popek (Ewa Virus)
 Typ ............... Techno Party / wydarzenie nieformalne
 Czas trwania ...... jednorazowe wydarzenie
 Kontekst .......... życie studenckie/artystyczne PWSSP Gdańsk
@@ -35,9 +35,9 @@ Rekordów w bazie .. 0 (nowy materiał — 2 fotografie od Marioli Balińskiej)
 
 ## OPIS
 
-W styczniu 1997 roku w stołówce akademika PWSSP (Państwowej Wyższej Szkoły Sztuk Plastycznych, obecnie Akademia Sztuk Pięknych w Gdańsku) odbyło się Techno Party z udziałem członków CUKT. Wydarzenie nie było dotąd udokumentowane w archiwum CUKT — materiał pochodzi od kuratorki Marioli Balińskiej.
+W styczniu 1997 roku w stołówce akademika PWSSP (Państwowej Wyższej Szkoły Sztuk Plastycznych, obecnie Akademia Sztuk Pięknych w Gdańsku) odbyło się Techno Party z udziałem członków CUKT. Wydarzenie nie było dotąd udokumentowane w archiwum CUKT — materiał pochodzi od fotografki Marioli Balińskiej.
 
-Na dwóch zachowanych fotografiach widoczni są Virus (Adam Popek) i Peter Style (Piotr Wyrzykowski). Zdjęcia dokumentują nieformalną stronę działalności CUKT: techno party w przestrzeni akademika, łączące życie studenckie z działalnością artystyczną.
+Na dwóch zachowanych fotografiach widoczni są Virus (Adam Popek) i Peter Style (Piotr Wyrzykowski) — dwaj z trzech założycieli CUKT. Zdjęcia dokumentują nieformalną stronę działalności CUKT: techno party w przestrzeni akademika, łączące życie studenckie z działalnością artystyczną.
 
 Wydarzenie wpisuje się w szerszy kontekst techno-party i działań partycypacyjnych CUKT z lat 1996-1997, okresu największej aktywności grupy. Styczeń 1997 to także okres, w którym CUKT przygotowywał kolejne edycje Technopery (3.1 PRO w Gdańsku, 4.0b w Banff, Ostranenie w Dessau).
 
@@ -49,7 +49,7 @@ Wydarzenie wpisuje się w szerszy kontekst techno-party i działań partycypacyj
 
 - **Piotr Wyrzykowski (Peter Style / T.J.44)** — współzałożyciel CUKT, widoczny na zdjęciach.
 - **Adam Popek (Ewa Virus)** — współzałożyciel CUKT, muzyk, widoczny na zdjęciach.
-- **Mariola Balińska** — kuratoraka, autorka zdjęć. Świadek wydarzenia. [DO ZIDENTYFIKOWANIA] Tak - Znajoma CUKT. 
+- **Mariola Balińska** — fotografka, autorka zdjęć. Świadek wydarzenia. [DO ZIDENTYFIKOWANIA] — studentka PWSSP? Znajoma CUKT?
 
 ---
 
@@ -117,7 +117,36 @@ FOTOGRAFIE:
 - 2026-05-09 (Archiwistka): Piotr Wyrzykowski przekazał 2 fotografie od Marioli Balińskiej — Techno Party w akademiku PWSSP Gdańsk, styczeń 1997. Virus i Peter Style. Nowy, nieudokumentowany materiał. Zdjęcia zapisane do archiwum, utworzona teczka STUB.
 
 ### Data .............. styczeń 1997 (dzień nieznany)
+OPIS
 
+### W styczniu 1997 roku w stołówce akademika PWSSP (Państwowej Wyższej Szkoły Sztuk Plastycznych, obecnie Akademia Sztuk Pięknych w Gdańsku) odbyło się Techno Party z udziałem członków CUKT. Wydarzenie nie było dotąd udokumentowane w archiwum CUKT — materiał pochodzi od fotografki Marioli Balińskiej.
+OSOBY
+
+### - **Piotr Wyrzykowski (Peter Style / T.J.44)** — współzałożyciel CUKT, widoczny na zdjęciach.
+MATERIAŁY W ARCHIWUM
+
+### FOTOGRAFIE:
+ODKRYCIA
+
+### 1. CO: Nieudokumentowane dotąd wydarzenie CUKT — Techno Party w akademiku PWSSP Gdańsk, styczeń 1997.
+SPRZECZNOŚCI
+
+### [Brak — nowy materiał, niesprzeczny z istniejącą dokumentacją]
+POWIĄZANIA
+
+### - **→ Technopera (1996-1997)** — okres zbieżny, możliwy kontekst przygotowań do Technopery 3.1 PRO.
+PYTANIA OTWARTE
+
+### 1. **Jaki był dokładny dzień wydarzenia w styczniu 1997?** — Do Piotra/Marioli Balińskiej.
+BIAŁE PLAMY
+
+### - Brak dokładnej daty (dzień i miesiąc stycznia 1997).
+ŹRÓDŁA
+
+### - FOTOGRAFIE: Mariola Balińska → Piotr Wyrzykowski → Archiwum CUKTAI
+DZIENNIK ŚLEDZTWA
+
+### - 2026-05-09 (Archiwistka): Piotr Wyrzykowski przekazał 2 fotografie od Marioli Balińskiej — Techno Party w akademiku PWSSP Gdańsk, styczeń 1997. Virus i Peter Style. Nowy, nieudokumentowany materiał. Zdjęcia zapisane do archiwum, utworzona teczka STUB.
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
 

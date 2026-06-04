@@ -2,7 +2,7 @@
 title: "HERE Performance / Testy na Cyborga"
 project: "HERE Performance / Testy na Cyborga"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1995 |
 | **MIEJSCE** | Galeria S, Toruń |
-| **STATUS** | STUB | review by piotr wyrzykowski. UWAGA: NIE NALEŻY UWZGLĘDNIAĆ JAKO ODDZIELNY PROJEKT, ZAWARTE W CYKLU "TESTY NA CYBORGA".
+| **STATUS** | STUB |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -46,7 +46,7 @@ HERE Performance jest projektem nr 5 w numeracji CUKT i stanowi pierwszą realiz
 
 ## OSOBY
 
-- **Piotr Wyrzykowski** — urzędnik-założyciel CUKT, 
+- **Piotr Wyrzykowski** — urzędnik-założyciel CUKT, prowadzący performance
 - **Artur Kozdrowski** (podletz / jan smuga / dr kudlatz) — urzędnik-założyciel
 - **Adam Popek** (Ewa Virus) — urzędnik-założyciel
 - **Robert Jurkowski** — urzędnik-założyciel

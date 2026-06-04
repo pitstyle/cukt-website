@@ -2,7 +2,7 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -14,8 +14,8 @@ status: "W TOKU"
 | | |
 |---|---|
 | **DATA** | 1995-11-04 |
-| **MIEJSCE** | Forty, Gdańsk; Dom Ukraiński (Kijów) |
-| **STATUS** | COMPLETE | review by piotr wyrzykowski. UWAGA: NALEŻY WYKONAĆ TRANSKRYPCJE ARTYKUŁU Z GAZETY WYBORCZEJ ORAZ WYWIADU
+| **MIEJSCE** | Forty, Gdańsk; Dom Ukraiński (Kijów — performance po 1995) |
+| **STATUS** | COMPLETE |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-15 |
 
@@ -26,8 +26,8 @@ status: "W TOKU"
 Data .............. 4 listopada 1995 (II tura wyborów prezydenckich RP)
 Miejsce ........... Forty, Gdańsk (+ Kijów, Dom Ukraiński — wystawa Antyciała)
 Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski, Joanna L
-Typ ............... performance / instalacja / interwencja polityczna
-Czas trwania ...... jednodniowe (4 XI 1995) + performance w Kijowie
+Typ ............... performance / instalacja / interwencja polityczna (konceptualizm skuteczny)
+Czas trwania ...... jednodniowe (4 XI 1995) + performance w Kijowie (po 1995)
 Kontekst .......... akcja autonomiczna (CUKT — projekt nr 2)
 Rekordów w bazie .. 54 pozycje, ~80 plików
 
@@ -35,21 +35,21 @@ Rekordów w bazie .. 54 pozycje, ~80 plików
 
 ## OPIS
 
-Antyelekcja Technodemonstracja odbyła się 4 listopada 1995 roku, dokładnie w dniu II tury wyborów prezydenckich w Polsce (Kwaśniewski vs Wałęsa). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z "Urzędnikami CUKT" ukazał się w Gazecie Wyborczej następnego dnia (5.11.1995).
+Antyelekcja Technodemonstracja to drugi projekt CUKT (pierwszy pod oficjalnym szyldem CUKT, po retroaktywnym uznaniu 120h za Pre-CUKT), zgodny z koncepcją konceptualizmu skutecznego. Odbył się 4 listopada 1995 roku, dokładnie w dniu II tury wyborów prezydenckich w Polsce (Kwaśniewski vs Wałęsa). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z "Urzędnikami CUKT" ukazał się w Gazecie Wyborczej następnego dnia (5.11.1995).
 
-Centralnym obiektem była urna wyborcza: stalowa konstrukcja ze szklanym akwarium wypełnionym wodą i rybkami, podświetlona elektrycznie (50×50×120 cm). Mównica miała identyczną konstrukcję w mniejszym formacie (35×35×120 cm), autorstwa: Jacek Niegoda.  Karty do głosowania posiadały do wyboru trzy pozycje: GRÓBY, GRÓBY GRÓBY. Ryby w urnie pływały — nie "głosowały". Hasło "Bądź sobą jestem tobą" (na balonach, bilbordach i plakatach) tworzyło maksymalną sprzeczność: nakaz autentyczności połączony ze zniesieniem granicy między wyborcą a kandydatem.
+Centralnym obiektem była urna wyborcza: stalowa konstrukcja ze szklanym akwarium wypełnionym wodą i rybkami, podświetlona elektrycznie (50×50×120 cm). Mównica miała identyczną konstrukcję w mniejszym formacie (35×35×120 cm). Karty do głosowania (50 sztuk, ksero 29×12 cm) czekały na uczestników — ale projekt nie miał mechanizmu REJECT ani opcji odmowy. Ryby w urnie pływały — nie "głosowały". Hasło "Bądź sobą jestem tobą" (na balonach, bilbordach i plakatach) tworzyło maksymalną sprzeczność: nakaz autentyczności połączony ze zniesieniem granicy między wyborcą a kandydatem.
 
 Dwa bilbordy (235×160 cm i 160×117 cm) ogłaszały wydarzenie w estetyce rave/techno — lista VJ-ów i DJ-ów: VJ. GROBY, VJ. 44, VJ. ChRzW, UJ. VIRUS, DJ. ORWAL, DJ. CARTON, TRACTATUS, HVF. "VJ. GROBY" to Robert Jurkowski (pseudonim "Gruby"/"Gróby" z tego okresu) — kandydat Antyelekcji na prezydenta.
 
-W archiwum znajduje się rękopis scenariusza wydarzenia (A4, długopis) zawierający szczegółowy plan kampanii wyborczej "Grubego": dwa etapy ("bez reklamy" → akcja, "z reklamą" → europlakaty), radio (wywiad, jingle), TV (program wyborczy, pastisz), reklamy prasowe, oraz akcję "akcja pt: [słowo nieczytelne?] 7" z cytatem: "Nie zawahasz się wykonać największego przestępstawa, jeżeli tego będzie wymagać dobro sprawy" oraz "a imię jego czterdzieści i cztery". Cytat nie został odnotowany cyfrowo w archiwum — manuskrypt istnieje fizycznie.
+W archiwum znajduje się rękopis scenariusza wydarzenia (A4, długopis) zawierający szczegółowy plan kampanii wyborczej "Grubego": dwa etapy ("bez reklamy" → akcja, "z reklamą" → europlakaty), radio (wywiad, jingle), TV (program wyborczy, pastisz), reklamy prasowe, oraz akcję "akcja pt: [słowo nieczytelne?] 7" z cytatem: "Nie zawachasz się wykonać najwięknego przestępstava, jeżeli tego będzie wymagać dobro sprawy" oraz "a imię jego czterdzieści i cztery". Cytat nie został odnotowany cyfrowo w archiwum — manuskrypt istnieje fizycznie.
 
-Podczas trwania Antyelekcji w Kijowie w ramach wystawy sztuki współczesnej (Polska, Rosja, Ukraina) w byłym Domu Lenina, Piotr Wyrzykowski wykonał performance (konceptualnim stanowiący część Antyelekcji): przywiózł materiały wyborcze zebrane z biur wyborczych w Polsce (Wałęsa, Kwaśniewski, Gronkiewicz-Waltz) zmieszane z materiałami "Grubego", oraz Godło Polski na twardej stali. Planował przybić godło na ścianie galerii i opowiadać o kandydatach. Po rozpoczęciu opowieści przybyli panowie w skórzanych kurtkach (najprawdopodobniej tajna policja) wyłączyli światło i wygnali uczestników na ulicę. Piotr poczuł ciężki przedmiot pod kurtką jednego z nich (pistolet) i nie protestował z uwagi na broń palną. Wyszli na ulicę z plakatami. Wystawa zamknięta — koniec performance'u.
+Po 1995 roku Antyelekcja została przeniesiona do Kijowa na wystawę "Antyciała" w byłym Domu Lenina (kurator: Robert Rumas). Piotr Wyrzykowski wykonał tam performance: przywiózł materiały wyborcze zebrane z biur kampanijnych w Polsce (Wałęsa, Kwaśniewski, Gronkiewicz-Waltz) zmieszane z materiałami "Grubego", oraz Godło Polski na twardej stali. Planował przybić godło na ścianie galerii i opowiadać o kandydatach. Po rozpoczęciu opowieści przybyli panowie w skórzanych kurtkach wyłączyli światło i próbowali wygnać uczestników na ulicę. Piotr poczuł ciężki przedmiot pod kurtką jednego z nich (pistolet). Wyszli na ulicę z plakatami. Wystawa zamknięta — koniec performance'u.
 
 ---
 
 ## OSOBY
 
-- **Piotr Wyrzykowski (Peter Style)** — współautor koncepcji Antyelekcji i performer w Kijowie.
+- **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, performer w Kijowie.
 - **Robert Jurkowski (Mikołaj / "Gruby" / "Gróby")** — kandydat na prezydenta Antyelekcji, pseudonim "VJ. GROBY" na bilbordzie. W tym okresie używał pseudonimu "Gruby"/"Gróby".
 - **Adam Popek (Ewa Virus)** — członek CUKT, UJ. VIRUS na bilbordzie.
 - **Artur Kozdrowski (podletz/jan smuga/dr kudlatz)** — członek CUKT, współautor.
@@ -204,3 +204,75 @@ AUDIO/VIDEO:
 1. **Ryby w urnie** → [WYJAŚNIONE] Były. Gupik. Ktoś z uczestników wsypał amfetaminę do wody w trakcie wydarzenia. Ryby zdechły.
    ZNACZENIE: Nie wypadek — celowe działanie uczestnika. Projekt stał się interaktywny w nieprzewidziany sposób.
 
+2. **Największe
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **Robert Rumas** — kurator wystawy Antyciała w Kijowie, przyjaciel Piotra. Pytania: jak doszło do konfrontacji w Domu Ukraińskim? Kto byli panowie w skórzanych kurtkach?
+
+- **Jacek Niegoda (Neurov)** — urzędnik CUKT w Antyelekcji. Pytania: co pamięta z przygotowań? Jak wyglądał dzień wyborów w Fortach?
+
+### Data .............. 4 listopada 1995 (II tura wyborów prezydenckich RP)
+OPIS
+
+### Antyelekcja Technodemonstracja to drugi projekt CUKT (pierwszy pod oficjalnym szyldem CUKT, po retroaktywnym uznaniu 120h za Pre-CUKT), zgodny z koncepcją konceptualizmu skutecznego. Odbył się 4 listopada 1995 roku, dokładnie w dniu II tury wyborów prezydenckich w Polsce (Kwaśniewski vs Wałęsa). CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami z hasłem "Bądź sobą jestem tobą". Wywiad z "Urzędnikami CUKT" ukazał się w Gazecie Wyborczej następnego dnia (5.11.1995).
+OSOBY
+
+### - **Piotr Wyrzykowski (Peter Style)** — główny organizator CUKT, performer w Kijowie.
+MATERIAŁY W ARCHIWUM
+
+### DOKUMENTY:
+ODKRYCIA
+
+### 1. CO: Antyelekcja to projekt nr 2 CUKT (pierwszy pod szyldem CUKT). 120h (1994) uznane retroaktywnie za Pre-CUKT.
+SPRZECZNOŚCI
+
+### 1. **Ryby w urnie — były czy nie były?** Opis katalogowy mówi "woda, rybki". Zdjęcia nie pokazują ryb. Śledztwo sugeruje, że ryby nie dotarły na czas — "ryby które nigdy nie przybyły". [NIEROZSTRZYGNIĘTE] Celowa nieokreśloność?
+POWIĄZANIA
+
+### - **→ 36 Hours (wrzesień 1995)** — bezpośrednia poprzedniczka. Od techno-party do politycznej interwencji.
+PYTANIA OTWARTE
+
+### 1. **Ryby w urnie — były czy nie?** — Do Piotra / Mikołaja. Czy ryby faktycznie pływały w urnie podczas wydarzenia?
+BIAŁE PLAMY
+
+### - **Dokładna lokalizacja "Forty" w Gdańsku** — które forty? Czy te same co 36 Hours?
+ŹRÓDŁA
+
+### - BAZA: "1995 11 04 - Antyelekcja Technodemonstracja" w cuktai_archive, 54 rekordy
+DZIENNIK ŚLEDZTWA
+
+### - 2026-04-20 (Archiwistka): Pierwsze śledztwo. Identyfikacja projektu. Opis Kijowa i konfrontacji.
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+
+### Autonomiczny Urząd Kultury Technicznej
+---
+AKTUALIZACJA (2026-05-04):
+
+### ---
+AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+
+### AKTUALIZACJA 2026-05-04 — ODPOWIEDZI PIOTRA
+1. **Ryby w urnie** → [WYJAŚNIONE] Były. Gupik. Ktoś z uczestników wsypał amfetaminę do wody w trakcie wydarzenia. Ryby zdechły.
+   ZNACZENIE: Nie wypadek — celowe działanie uczestnika. Projekt stał się interaktywny w nieprzewidziany sposób.
+
+2. **Największe
+
+
+---
+AKTUALIZACJA (2026-05-05):
+
+
+## ŚWIADKOWIE
+
+- **Robert Rumas** — kurator wystawy Antyciała w Kijowie, przyjaciel Piotra. Pytania: jak doszło do konfrontacji w Domu Ukraińskim? Kto byli panowie w skórzanych kurtkach?
+
+- **Jacek Niegoda (Neurov)** — urzędnik CUKT w Antyelekcji. Pytania: co pamięta z przygotowań? Jak wyglądał dzień wyborów w Fortach?
+
+---

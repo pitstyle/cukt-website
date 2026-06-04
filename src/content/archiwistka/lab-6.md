@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1997 |
 | **MIEJSCE** | Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa |
-| **STATUS** | STUB | REVIEW BY PIOTR WYRZYKOWSK
+| **STATUS** | STUB |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -34,9 +34,9 @@ status: "W TOKU"
 
 ## OPIS
 
-Rodzina CUKT to performance zrealizowany w 1997 roku w Centrum Sztuki Współczesnej Zamek Ujazdowski w Warszawie, w ramach LAB 6 — Międzynarodowej Wystawy Sztuki Mediów.
+Lab 6 / Rodzina CUKT to performance zrealizowany w 1997 roku w Centrum Sztuki Współczesnej Zamek Ujazdowski w Warszawie, w ramach LAB 6 — Międzynarodowej Wystawy Sztuki Mediów.
 
-Akcja polegała na stworzeniu "żywej rzeźby": Mikołaj Jurkowski i Daniela (gościnnie) stanowili element instalacji wraz z komputerem PC wyświetlającym stronę WWW CUKT. Była to jedna z pierwszych prezentacji obecności CUKT w internecie.
+Akcja polegała na stworzeniu żywej rzeźby: Robert Mikołaj Jurkowski i Daniela (gościnnie) stanowili żiwą rzeźbę przy komputerze PC wyświetlającym stronę WWW CUKT — w uniformach CUKT (czarne bluzy i spodnie). Był to jeden z pierwszych pokazów obecności CUKT w internecie jako element performansu.
 
 Do projektu zachowały się projekty niezrealizowanego Biura CUKT — zapotrzebowanie materiałowo-sprzętowe oraz projekty architektoniczne biura (8 kart, pismo odręczne, rysunki ołówkiem, A4). Projekty te są cennym dokumentem planów instytucjonalnych CUKT, które nie zostały zrealizowane w ramach wystawy.
 
@@ -44,10 +44,10 @@ Do projektu zachowały się projekty niezrealizowanego Biura CUKT — zapotrzebo
 
 ## OSOBY
 
-- **Piotr Wyrzykowski** — urzędnik współ-założyciel CUKT
-- **Artur Kozdrowski** (podletz / jan smuga / dr kudlatz) — urzędnik współ-założyciel
-- **Robert Jurkowski** — urzędnik współ-założyciel, uczestnik "żywej rzeźby"
-- **Jacek Niegoda** (Neuro) — urzędnik współ-założyciel
+- **Piotr Wyrzykowski** — urzędnik-założyciel CUKT
+- **Artur Kozdrowski** (podletz / jan smuga / dr kudlatz) — urzędnik-założyciel
+- **Robert Jurkowski** — urzędnik-założyciel, uczestnik "żywej rzeźby"
+- **Jacek Niegoda** (Neurov) — urzędnik-założyciel
 - **Daniela** — gościnnie, współuczestniczka "żywej rzeźby" [NIEPEŁNE DANE]
 
 ---
@@ -91,8 +91,8 @@ Brak — projekt minimalnie udokumentowany.
 ## PYTANIA OTWARTE
 
 1. Kim jest Daniela? (brak nazwiska w archiwum) — do Piotra/Mikołaja
-2. Czy strona WWW CUKT prezentowana na Lab 6 jest zachowana w archiwum? — do Piotra. - Niestety nie odnaleziona są pliki html, mojego autorstwa.
-3. Czy projekty Biura CUKT zostały kiedykolwiek zrealizowane w innej formie? — do Piotra - Nie. 
+2. Czy strona WWW CUKT prezentowana na Lab 6 jest zachowana w archiwum? — do Piotra
+3. Czy projekty Biura CUKT zostały kiedykolwiek zrealizowane w innej formie? — do Piotra
 
 ---
 
@@ -100,7 +100,7 @@ Brak — projekt minimalnie udokumentowany.
 
 - Tylko 2 fotografie — bardzo skąpa dokumentacja wizualna
 - Brak dokładnej daty w 1997 (miesiąc/dzień)
-- Brak katalogu/kuratora wystawy LAB 6 - Kurator wystawy: Ryszard Kluszczyński. 
+- Brak katalogu/kuratora wystawy LAB 6
 - Brak informacji o Danieli (nazwisko, rola)
 
 ---

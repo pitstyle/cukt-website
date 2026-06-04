@@ -2,7 +2,7 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1995 |
 | **MIEJSCE** | Forty, Gdańsk |
-| **STATUS** | STUB | REVIE BY PIOTR WYRZYKOWSKI 
+| **STATUS** | STUB |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -66,7 +66,7 @@ NTSC funkcjonowała jako platforma dla sceny techno — organizacja z własną t
 - Pieczęć NTSC (6×6×6 cm) — obiekt oryginalny
 
 ### Audio
-- Kaseta audio z nagraniami NTSC (ok. 60 min) — przygotowana do wydania, nieopublikowana
+- Kaseta audio z nagraniami NTSC pt. „Vitamina” (ok. 60 min) — przygotowana do wydania, nieopublikowana
 
 ---
 

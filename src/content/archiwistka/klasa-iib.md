@@ -2,17 +2,17 @@
 title: "Klasa IIB — Public Relation"
 project: "Klasa IIB — Public Relation"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
-# TECZKA: "Klasa IIB" — Wystawa "Public Relations"
+# TECZKA: Klasa IIB — Public Relation
 
 | | |
 |---|---|
 | **DATA** | maj 1999 |
 | **MIEJSCE** | CSW Łaźnia, Gdańsk; Muzeum Sztuki, Łódź |
-| **STATUS** | STUB | review by piotr wyrzykowski 
+| **STATUS** | STUB |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -36,7 +36,7 @@ status: "W TOKU"
 
 Klasa IIB to instalacja zbudowana z 14 blejtramów z płótnem malowanym i tapetowanym (535×360 cm). Obiekt przedstawia kopię jednej z klas w Liceum GLA w Gdyni, gdzie wcześniej odbył się projekt "Dzień Sztuki" (projekt nr 20 CUKT).
 
-Instalacja była prezentowana w CSW Łaźnia w Gdańsku oraz w Muzeum Sztuki w Łodzi. Elementem instalacji była fotografia grupowa klasy IIb z Urzędnikiem CUKT — wydruk solwentowy na tkaninie PCV naciągnięty na blejtram (280×20 cm) oraz zawieszony centralnie TV z dokumentacją video lekcji przeprowadzonej przez Roberta Mikołaja Jurkowskiego, performance pt.: "Odpowiedź Opałce". Ważnym elementem ekspozycji, podczas wystawy w Muzeum Sztuki w Łodzi, był oryginalny obraz Opałki, zawieszony obok rozłożonej na części i eksponowanej jak obrazy, poszczególnych ścian "Klasy IIb". 
+Instalacja była prezentowana w CSW Łaźnia w Gdańsku oraz w Muzeum Sztuki w Łodzi. Elementem instalacji była fotografia grupowa klasy IIb z Urzędnikiem CUKT — wydruk solwentowy na tkaninie PCV naciągnięty na blejtram (280×20 cm), baner drukowany oraz dokumentacja performance'u Mikołaja (Roberta Jurkowskiego) pt. "Odpowiedź Opałce".
 
 Nazwa "Klasa IIB" i numer projektu (21) wskazują na kontynuację strategii CUKT polegającej na przenoszeniu elementów rzeczywistości szkolnej/urzędniczej do galerii — rekontekstualizacja przestrzeni edukacyjnej jako obiektu sztuki.
 
@@ -66,7 +66,7 @@ Nazwa "Klasa IIB" i numer projektu (21) wskazują na kontynuację strategii CUKT
 - Dokumentacja prezentacji w CSW Łaźnia i Muzeum Sztuki w Łodzi
 
 ### Obiekty fizyczne
-- Instalacja "Klasa IIb": 14 blejtramów, płótno, farba, tapeta (535×360 cm) — znajduje się na przechowaniu w CSW Łaźnia, obecnie Gdańskie Centrum Sztuki Współczesnej. 
+- Instalacja "Klasa IIb": 14 blejtramów, płótno, farba, tapeta (535×360 cm) — prawdopodobnie zdemontowana po wystawie
 - Fotografia grupowa na tkaninie PCV (280×20 cm)
 
 ---

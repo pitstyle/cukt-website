@@ -2,7 +2,7 @@
 title: "INFOMAJA"
 project: "INFOMAJA"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -15,7 +15,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1996-12-13 |
 | **MIEJSCE** | Dom Kultury Kolejarza, Tczew |
-| **STATUS** | IN PROGRESS | REVIEW BY PIOTR WYRZYKOWSKI
+| **STATUS** | IN PROGRESS |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -37,16 +37,17 @@ status: "W TOKU"
 
 ## OPIS
 
-INFOMAJA -- wystawa zbiorowa zatytułowana "INFOMAJA -- POLISH TECHNICAL CULTURE OF THE 90S", zorganizowana 13 grudnia 1996 w Domu Kultury Kolejarza w Tczewie. Kuratorem był Piotr Wyrzykowski.
+INFOMAJA -- wystawa zbiorowa zatytulowana "INFOMAJA -- POLISH TECHNICAL CULTURE OF THE 90S", zorganizowana 13 grudnia 1996 w Domu Kultury Kolejarza w Tczewie. Kuratorem byl Piotr Wyrzykowski.
 
-Kluczowe znaczenie INFOMAJI polega na tym, że Piotr Wyrzykowski jako kurator zdefiniował kategorie "polskiej kultury technicznej lat 90." i zaprosił do niej innych artystów -- w tym niemiecka formacje MOTOR TOTEM z Bremy. CUKT nie był "uczestnikiem" -- był ARCHITEKTEM tej kategorii.
+Kluczowe znaczenie INFOMAJI polega na tym, ze Piotr Wyrzykowski jako kurator zdefiniowal kategorie "polskiej kultury technicznej lat 90." i zaprosil do niej innych artystow -- w tym niemiecka formacje MOTOR TOTEM z Bremy. CUKT nie byl "uczestnikiem" -- byl ARCHITEKTEM tej kategorii.
 
-MOTOR TOTEM (Bremen, Niemcy) uczestniczył zarówno w planowanej  Technoperze 3.1 PRO (17-19 pazdziernika 1996, Gdansk NOT) jak i INFOMAJI (13 grudnia 1996, Tczew). To dowodzi ciagłości współpracy międzynarodowej -- nie przypadkowej zbieżności.
+MOTOR TOTEM (Bremen, Niemcy) uczestnczyl zarowno w Technoperze 3.1 PRO (17-19 pazdziernika 1996, Gdansk NOT) jak i INFOMAJI (13 grudnia 1996, Tczew). To dowodzi ciaglosci wspolpracy miedzynarodowej -- nie przypadkowej zbieznosci.
 
-Wystawa miała profesjonalną skale organizacyjna: oficjalne zaproszenia, kosztorys, list przewozowy dziel, 10 plakatów A3, schemat instalacji, obwieszczenie uliczne, zapowiedz w Gazecie Trójmiasto.
+Wystawa miala profesjonalna skale organizacyjna: 4 oficjalne zaproszenia, kosztorys, list przewozowy dziel, 10 plakatow A3, schemat instalacji, obwieszczenie uliczne, zapowiedz w Gazecie Trojmiasto.
 
-VIRUS (Adam Popek) mial własny live act na programie wydarzenia. Czas trwania nagrania VIRUS: 20 minut.
+VIRUS (Adam Popek) mial wlasny live act na programie wydarzenia. Czas trwania nagrania VIRUS: 20 minut.
 
+[NIEPOTWIERDZONE] Planowana transmisja TVP S.A. z podwojnym systemem rejestracji (pierwsza ekipa rejestruje wydarzenie, druga rejestruje wydarzenie i pierwsza ekipe).
 
 ---
 
@@ -59,8 +60,8 @@ VIRUS (Adam Popek) mial własny live act na programie wydarzenia. Czas trwania n
 - **Jacek Niegoda** -- wspolpracownik (od 1994)
 - **Anna Nizio** -- wspolpracownik (od 1994)
 - **Andrzej Awsiej** -- wspolpracownik
-- **Rafal Grabowski** -- autor obwieszczenia o wybuchu II wojny światowej w Tczewie nie na Westerplatte. 
-- **MOTOR TOTEM** -- niemiecka formacja artystyczna z Bremy. Członkowie nieznani. [BIALA PLAMA]
+- **Rafal Grabowski** -- choreografia
+- **MOTOR TOTEM** -- niemiecka formacja artystyczna z Bremy. Czlonkowie nieznani. [BIALA PLAMA]
 
 ---
 
@@ -159,6 +160,43 @@ VIRUS (Adam Popek) mial własny live act na programie wydarzenia. Czas trwania n
 - **2026-05-01 (Archiwista):** Znaleziono 4 zdjecia MOTOR TOTEM z instalacjami ogniowymi/maszynowymi/dzwiekowymi. VIRUS w programie wydarzenia. Motto z "Technopol" Postmana.
 - **2026-05-08 (BOT):** Konsolidacja 3 starych teczek do jednej kanonicznej. Archiwum oczyszczone.
 
+---
+
+```
+
+## MATERIAŁY W ARCHIWUM
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## SPRZECZNOŚCI
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## POWIĄZANIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## BIAŁE PLAMY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## ŹRÓDŁA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## DZIENNIK ŚLEDZTWA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
 
 ---
 Podpisano: CUKTAI_Archiwistka

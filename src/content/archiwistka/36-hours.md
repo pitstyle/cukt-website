@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -35,7 +35,7 @@ Rekordów w bazie .. 19 pozycji
 
 ## OPIS
 
-"36 Hours" to jedno z pierwszych wydarzeń zorganizowanych przez CUKT. Trwająca 36-godzinna akcja artystyczna zorganizowana  we wrześniu 1995 w Fortach Napoleońskich w Gdańsku. Projekt łączył wystawę instalacji artystycznych z techno party, z muzyką graną przez grupy z NTSC (Nowa Techno Scena). Zgodnie z założeniami grupy instalacje nie były głównym punktem programu – uczestnicy mieli je „odkrywać” organicznie podczas trwającego non-stop maratonu tanecznego.
+"36 Hours" to jedno z pierwszych wydarzeń zorganizowanych przez CUKT. Trwająca 36-godzinna akcja artystyczna zorganizowana  we wrześniu 1995 w Fortach Napoleońskich w Gdańsku. Projekt łączył wystawę instalacji artystycznych z techno party, z muzyką graną przez grupy z NTSC (Nowa Techno Scena). Zgodnie z założeniami grupy instalacje nie były głównym punktem programu – uczestnicy mieli je „odkrywać” organicznie podczas trwającego non-stop maratonu tanecznego i kontaktu bezpośredniego z uczestnikami.
 
 Równolegle z 36 Hours odbywało się wydarzenie w Galerii Wyspa, CUKT demonstrował swoją kontrpostawę do modelu galerii. 
 
@@ -48,7 +48,7 @@ Obiekt składał się z białego roweru treningowego (z czarnym siodełkiem i na
 
 Instalacje na zdjęciach pliki: skanuj0010.jpg Prawa część pliku tylko. 
 
-### Dyptyk niebieski neon (Marek Jabłoński)
+### Diptych niebieski neon (Marek Jabłoński)
 Instalacja składała się z dwóch paneli (diptych) z niebieską neonową linią poziomą oraz symboliką alchemiczną – brak dokładnych wymiarów. Na zdjęciu widoczna jest intensywnie świecąca niebieska neonówka (lampa UV) na ciemnej, kratowanej ścianie, za którą znajduje się małe okno. Neon stanowił minimalistyczny, zimny akcent świetlny w industrialnym otoczeniu fortów. [Źródło: opis zdjęcia Marlin 94601792f64bd618; teczka archiwalna – wzmianka o diptychach]
 
 
@@ -79,7 +79,7 @@ skanuj0008.tif
 ### Instalacja z karuzelą (Ewa Virus Adam)
 W dużym, ciemnym pomieszczeniu zainstalowano metalową karuzelę, mikrofonem kierunkowym zawieszonym nad jej centrum oraz namalowanymi poziomymi pomarańczowymi pasami na ścianach. W pomieszczeniu umieszczono również nagłaśniający ruch karuzeli i rozmów prowadzonych na niej oraz lampę UV i stroboskopy. Instalacja angażowała uczestników przestrzennie audialnie i ruchowo. Karuzela był "wypożyczona" z osiedlowego placu zabaw.   [Źródło: opis zdjęcia Marlin 2d824086bcd3b8da; teczka archiwalna – wzmianka o light arcie]
 
-UWAGA: Instalacji autorskich było więcej niż na dokumentacji fotograficznej. 
+Powyżej opisano instalacje potwierdzone fotograficznie (rowerową, diptych neonowy, kolumnę pomarańczową, karuzelę i inne). UWAGA: Instalacji autorskich było więcej niż na dokumentacji fotograficznej. 
 
 ### Koncepcja i strategia
 CUKT świadomie wykorzystywał techno jako subkulturę antygwiazdorską, z długimi (powyżej 12 godzin) rave’ami, które budowały wspólnotę i stwarzały warunki do organicznego odbioru sztuki. W autowywiadzie padają kluczowe sformułowania: „język niskiego poziomu, który swoją formę minimalizuje, natomiast tę zminimalizowaną formę nasyca treścią wielopoziomową” (Virus Ewa) oraz „nauczanie społeczeństwa wyzbycia się strachu przed multimediami” (Peter Style). Instalacje nie były eksponowane jak w galerii – funkcjonowały jako tło dla wydarzenia, „odkrywane” przez uczestników w trakcie wielogodzinnego trwania. W teczce odnotowano, że planowana była kaseta VITAMINA z nagraniami grup NTSC (ostatecznie nie wydana), symbolizująca jaskrawą „tabletkę” kulturową.

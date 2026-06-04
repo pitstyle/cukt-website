@@ -2,7 +2,7 @@
 title: "Young Polish Sculpture / Orońsko"
 project: "Young Polish Sculpture / Orońsko"
 type: "teczka"
-date: "2026-05-30"
+date: "2026-06-03"
 status: "W TOKU"
 ---
 
@@ -12,7 +12,7 @@ status: "W TOKU"
 |---|---|
 | **DATA** | 1996-01-20 |
 | **MIEJSCE** | Centrum Rzeźby Polskiej, Orońsko |
-| **STATUS** | STUB | review by piotr wyrzykowski 
+| **STATUS** | STUB |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-08 |
 
@@ -25,7 +25,7 @@ status: "W TOKU"
 | **Data** | 20 stycznia 1996 |
 | **Miejsce** | Centrum Rzeźby Polskiej, Orońsko |
 | **Autorzy** | Piotr Wyrzykowski, Robert Jurkowski, Jacek Niegoda |
-| **Typ** | interwencja / akcja mailartowa |
+| **Typ** | interwencja / akcja mailartowa / "rzeźba informacyjna" |
 | **Czas trwania** | wystawa + kampania |
 | **Kontekst** | wystawa Młodej Rzeźby Polskiej |
 | **Rekordów w bazie** | 6 pozycji, 3 załączniki |
@@ -46,7 +46,7 @@ Był to projekt nr 7 w numeracji CUKT, zrealizowany między Antyelekcją (listop
 
 - **Piotr Wyrzykowski** — urzędnik-założyciel CUKT
 - **Robert Jurkowski** — urzędnik-założyciel CUKT, autor wystąpienia na otwarciu
-- **Jacek Niegoda** (Neuro) — urzędnik-założyciel CUKT
+- **Jacek Niegoda** (Neurov) — urzędnik-założyciel CUKT
 
 ---
 

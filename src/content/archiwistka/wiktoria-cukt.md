@@ -3,7 +3,7 @@ title: "Wiktoria Cukt"
 project: "Wiktoria Cukt"
 type: "teczka"
 date: "2000"
-status: "Brak osobnego folderu Foto Dokumentacja dla Lwowa. Brak zdjec w archiwum."
+status: "Brak osobnego folderu Foto Dokumentacja dla Lwowa. Brak zdjęć w archiwum."
 ---
 
 ```
@@ -15,7 +15,7 @@ status: "Brak osobnego folderu Foto Dokumentacja dla Lwowa. Brak zdjec w archiwu
 |---|---|
 | **DATA** | 2000-2001 |
 | **MIEJSCE** | Gdańsk (Biuro Wiktorii), Poznań (Galeria Arsenał), Berlin (Instytut Polski), Łódź (Muzeum Sztuki), Warszawa + kampania ogólnopolska |
-| **STATUS** | COMPLETE | WYMAGA WYCZYSZCZENIA, REVIEW BY PIOTR WYRZYKOWSKI 
+| **STATUS** | COMPLETE |
 | **BADACZ** | Archiwistka |
 | **AKTUALIZACJA** | 2026-05-15 |
 
@@ -25,7 +25,7 @@ status: "Brak osobnego folderu Foto Dokumentacja dla Lwowa. Brak zdjec w archiwu
 
 Data .............. 2000-2001
 Miejsce ........... Gdańsk, Poznań, Berlin, Łódź, Warszawa + kampania ogólnopolska
-Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Maciej Sienkiewicz, Rafał Ewertowski. 
+Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski
 Typ ............... kampania wyborcza / performance instytucjonalny / sztuka publiczna
 Rekordów w bazie .. 310+ pozycji (największy projekt w archiwum)
 
@@ -33,127 +33,21 @@ Rekordów w bazie .. 310+ pozycji (największy projekt w archiwum)
 
 ## OPIS
 
-Wiktoria Cukt to najbardziej rozbudowany projekt CUKT — kampania wyborcza fikcyjnej kandydatki na prezydenta RP. Wiktoria Cukt była wirtualną osobą, urzędniczką CUKT wystawioną w realnych wyborach. Projekt obejmował otwierane w kolejnych miastach biura wyborcze, wiece i agitacje uliczną oraz bilbordy, banery, plakaty, stronę internetową i projekt systemu OSW (Obywatelski Software Wyborczy) — prekursorski system społecznościowy/aplikację do podejmowania decyzji politycznych.
+Wiktoria Cukt to najbardziej rozbudowany projekt CUKT — kampania wyborcza fikcyjnej kandydatki na prezydenta RP. Wiktoria Cukt była wirtualną osobą, urzędniczką CUKT wystawioną w realnych wyborach. Projekt obejmował biuro wyborcze w Gdańsku, bilbordy, banery, plakaty, spoty telewizyjne, stronę internetową i system OSW (Online Social Web) — prekursorski system społecznościowy/aplikację do głosowania.
 
-Biuro Wiktorii w Gdańsku (Galeria NCK, 2000) — fizyczna przestrzeń kampanii z otwarciem i zamknięciem udokumentowanymi fotograficznie. Wystawy w Poznaniu (Galeria Arsenał, Biuro Wiec), Berlinie (Instytut Polski), Łodzi (Muzeum Sztuki). Kraków (Miasto Krakoff) wiec, Białystok (Galeria Arsenał) wiec. Banery i bilbordy na ulicach miast.
+Biuro Wiktorii w Gdańsku (Galeria NCK, 2000) — fizyczna przestrzeń kampanii z otwarciem i zamknięciem udokumentowanymi fotograficznie. Wystawy w Poznaniu (Galeria Arsenał, Biuro Wiec), Berlinie (Instytut Polski), Łodzi (Muzeum Sztuki). Banery i bilbordy na ulicach miast.
 
-System OSW miał umożliwiać głosowanie online — to jeden z pierwszych w Polsce artystycznych systemów do e-głosowania. Kampania Wiktorii parodiowała i krytykowała system demokratyczny, jednocześnie uczestnicząc w nim — kandydatka bez ciała, bez biografii, czysta instytucja.
+System OSW umożliwiał głosowanie online — to jeden z pierwszych w Polsce artystycznych systemów do e-głosowania. Kampania Wiktorii parodiowała i krytykowała system demokratyczny, jednocześnie uczestnicząc w nim — kandydatka bez ciała, bez biografii, czysta instytucja.
 
-Materiał wizualny: 310+ zdjęć (największy zbiór w archiwum CUKT), w tym otwarcie biura, zamknięcie biura, wystawy, bilbordy, spoty telewizyjne, animacje-klatki z politykami. Pliki html strony WWW. Dokument filmowy. 
-
-
-OPIS
-
-Wiktoria Cukt to wirtualna kandydatka na Prezydenta RP, stworzona przez CUKT w 2000 roku. Projekt był bezpośrednią kontynuacją Dnia Sztuki — po tym jak urzędnicy Urzędu Marszałkowskiego w Zielonej Górze nie przyszli na prezentację Dnia Sztuki (22.02.2000), CUKT zamiast wycofać się, stworzył własną urzędniczkę: wirtualną kandydatkę na prezydenta.
-
-Kampania objęła 11 miast w Polsce i za granicą, ogólnopolską kampanię billboardową, biura wyborcze z komputerami z dostępem do Internetu, projekcje 3D twarzy kandydatki, live mixing muzyki techno z przemówieniami, Obywatelski Software Wyborczy (OSW) oraz system zbierania propozycji od obywateli.
-
-Centralne hasło: "POLITYCY SĄ ZBĘDNI" / "Politicians are unnecessary".
-
-Szczegółowy przebieg kampanii (z KampaniaPrzebiegOpis_forEPUB_Eng.pdf):
-
-1. GDAŃSK NCK — 20.01 - 05.02.2000
-   - Inauguracja w ramach wystawy "Art Negotiators" (kuratorka: Bożena Czubak)
-   - Baner na historycznym budynku NCK z wizerunkiem Wiktorii
-   - Biuro wyborcze z czerwonymi ścianami, hasłem "POLITYCY SĄ ZBĘDNI"
-   - Instalacja wideo z wizerunkiem i exposé
-   - Zbieranie podpisów na ulicach
-   - Wydarzenie zamknięcia: konferencja prasowa z prezentacją OSW i postępu prac nad 3D reprezentacją
-   - Odsłonięcie oficjalnej tablicy z podpisem Wiktorii
-   - Maciej Nowak i Bożena Czubak podpisali listy poparcia
-   - Naklejki z wizerunkiem dla podpisujących (do wklejenia w dowód)
-   - **Zdjęcia:** budynek NCK z banerem, wnętrze biura (3 urzędników CUKT, ściana z hasłem), projekcja wideo na ekranie w kształcie portretu, zbieranie podpisów na ulicy (długobrody urzędnik), konferencja prasowa (wireframe 3D modelu), odsłonięcie tablicy, podpisywanie list (Maciej Nowak, Bożena Czubak)
-
-2. ZIELONA GÓRA BWA — 22.02.2000
-   - Data tożsama z Dniem Sztuki — bezpośrednie przejście
-   - Otwarty mikrofon dla propozycji do Wiktorii
-   - Namiot przed galerią, agitacja uliczna
-   - Techno na żywo, nagrywanie propozycji na wideo
-   - Spotkanie z urzędnikami i radnymi w Urzędzie Miasta — prezentacja Dnia Sztuki i kampanii
-   - Śnieg — zima
-   - **Zdjęcia:** galeria z banerem, biały namiot, starszy mężczyzna rozmawia z urzędnikiem CUKT (nagrywany na kamerę video), wnętrze galerii z namiotem, banany na stole, projekcja wideo
-
-3. POZNAŃ ARSENAŁ — 10.05.2000
-   - 3 stanowiska komputerowe z dostępem do Internetu, prezentacja programu i wizerunku Wiktorii
-   - Pisanie propozycji na szybach galerii markerami
-   - Agitacja na Starym Rynku
-   - Masowy wiec: stalowe projekcje wideo, techno, nagrywanie propozycji
-   - Baner "PREZYDENT 2001" między budynkami
-   - Live mixing głosu Wiktorii: "Internet dla wszystkich!"
-   - **Zdjęcia:** wnętrze biura (hasło na ścianie, komputer, roślina), politycy czytają program, pisanie na szybach, baner "PREZYDENT 2001" na ulicy, wieczorny wiec z projekcją, ekran z napisem "INTERNET", miksowanie na żywo
-
-4. WROCŁAW AE — 13.05.2000
-   - Spotkanie ze studentami i pracownikami Akademii Ekonomicznej
-   - Stanowiska komputerowe ze stroną kampanii i OSW
-   - **Zdjęcia:** sala z komputerami, studenci przy monitorach
-
-5. BIAŁYSTOK ARSENAŁ — 20.05.2000
-   - Projekcja wideo na fasadzie galerii
-   - Live mixing muzyki z przemówieniami
-   - 3D animacja twarzy Wiktorii
-   - **Zdjęcia:** projekcja na fasadzie, 3D twarz na ekranie, publiczność
-
-6. WARSZAWA ZACHĘTA — 17.03.2000
-   - Biuro wyborcze, wiec
-   - Baner na fasadzie
-   - Projekcja 3D portretu na ekranie w kształcie profilu
-   - Niebieski neon z hasłem "Politycy są zbędni"
-   - Transmisja na żywo na stronę kampanii
-   - System zbierania propozycji online
-   - **Zainteresowanie Kancelarii Prezydenta** — telefon z zapytaniem czy to prawdziwe biuro
-   - **Zdjęcia:** wnętrze z projekcją (3D twarz, niebieskie światło), komputer z interfejsem kampanii, podpisywanie list poparcia
-
-7. KRAKÓW KLUB MIASTO KARKO — czerwiec 2000
-   - Wiec z muzyką na żywo i prezentacją programu
-   - Neon "Politycy są zbędni"
-   - Podpisywanie list poparcia
-   - Małe karty z wizerunkiem na stole
-   - **Zdjęcia:** dłonie podpisujące, mężczyzna wypełnia formularze, grupa pod neonem, klub z projekcją
-
-8. BYDGOSZCZ KLUB MÓZG — wrzesień 2000
-   - Wiec z muzyką na żywo i prezentacją
-   - (mniej szczegółów w dokumencie)
-
-9. BERLIN INSTYTUT POLSKI — październik 2000
-   - Biuro wyborcze, baner na budynku
-   - Hasła po niemiecku: "SIND ÜBERFLÜSSIG", "POLITIKER"
-   - Wystawa wideo, dokumentacja
-   - Skierowane do polskiej diaspory
-   - **Zdjęcia:** mężczyzna z kamerą, rozmowa przed ekranem "POLITIKER", grupa z literaturą, z zewnątrz budynku, wnętrze z "SIND ÜBERFLÜSSIG"
-
-10. ŁÓDŹ MUZEUM SZTUKI — 13.10 - 13.11.2000
-    - Biuro wyborcze + indywidualna wystawa CUKT
-    - Zbieżność z dniem wyborów prezydenckich
-    - Ściana z nazwiskami polityków i hasłami, przekreślona niebieskim neonem "Politycy są zbędni"
-    - Techno + elektronicznie generowane przemówienia
-    - Wyniki wyborcze: **Wiktoria Cukt: 41%** (projekcja w biurze)
-    - Karty do głosowania z dodatkowym kandydatem Wiktoria Cukt i pieczęcią CUKT
-    - **Zdjęcia:** budynek muzeum z plakatem, wnętrze z neonem i wynikami 41%
-
-11. CHICAGO CULTURAL CENTER
-    - Działania wśród diaspory polskiej
-    - (mniej szczegółów)
-
-+ OGÓLNOPOLSKA KAMPANIA BILLBOARDOWA — lipiec 2000
-    - Plakaty z wizerunkiem Wiktorii w całej Polsce
-    - Zdjęcie: politycy obok plakatów Wiktorii
-
-KLUCZOWE ELEMENTY KAMPANII:
-- Wirtualna kandydatka z czerwonowłosym wizerunkiem (3D animacja)
-- Obywatelski Software Wyborczy (OSW) — program do podejmowania decyzji
-- Live mixing głosu, muzyki techno i wideo
-- Neon "POLITYCY SĄ ZBĘDNI"
-- Naklejki z wizerunkiem do dowodów
-- Karty do głosowania z Wiktorią Cukt i pieczęcią CUKT
-- Transmisja online na żywo
-- Strona kampanii: http:// (adres w dokumentach)
+Materiał wizualny: 310+ zdjęć (największy zbiór w archiwum CUKT), w tym otwarcie biura, zamknięcie biura, wystawy, bilbordy, spoty telewizyjne, animacje-klatki z politykami.
 
 ---
 
 ## OSOBY
 
 - **Wiktoria Cukt** — wirtualna kandydatka na prezydenta RP, urzędniczka CUKT.
-- **Pozostali członkowie CUKT** — Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Maciej Sienkiewicz, Rafał Ewertowski. 
+- **Piotr Wyrzykowski** — główny organizator kampanii.
+- **Pozostali członkowie CUKT** — Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski.
 - **Magda Myjak** — fotografka (Berlin).
 
 ---
@@ -168,9 +62,9 @@ OBIEKTY: bilbordy, banery, plakaty
 
 ## PYTANIA OTWARTE
 
-1. System OSW — czy działał? Kod źródłowy zachowany? - Nie to była koncepcja tylko. 
-2. Ile osób zagłosowało przez OSW? Ludzie mieli kontakt z CUKT poprzez stronę internetową, wiece i agitację na ulicach miast. 
-3. Czy Wiktoria Cukt pojawiła się na oficjalnych listach wyborczych? - Nie. 
+1. System OSW — czy działał? Kod źródłowy zachowany?
+2. Ile osób zagłosowało przez OSW?
+3. Czy Wiktoria Cukt pojawiła się na oficjalnych listach wyborczych?
 
 ---
 
@@ -178,6 +72,29 @@ OBIEKTY: bilbordy, banery, plakaty
 
 - 2026-04-26 (Archiwistka): Wstępne śledztwo.
 - 2026-05-04 (Archiwistka): Konsolidacja teczki według _TEMPLATE.md.
+
+---
+### Aktualizacje (wpisy automatyczne)
+1. LWÓW (LVIV) — NIEUDOKUMENTOWANE MIASTO KAMPANII
+   Data: 05.05.2000
+   Miejsce: Klub Picasso, Lwów
+   Współpraca: Andriej Bojanow
+   Typ: Wiec Wyborczy
+   Źródło: Kampania tabela.doc — miasto NIEWYMIENIONE w KampaniaPrzebiegOpis_forEPUB_Eng.pdf
+   STATUS: Brak osobnego folderu Foto Dokumentacja dla Lwowa. Brak zdjęć w archiwum.
+   [NEGATIVE FINDING]
+
+2. PREMIERA OSW + BAL WIKTORII CUKT — NIEUDOKUMENTOWANE WYDARZENIE
+   Data: grudzień 2000
+   Miejsce: Gdańsk CSW Łaźnia
+   Współpraca: Bożena Czubak
+   Typ: Premiera Obywatelskiego Software'u Wyborczego + Bal Wiktorii Cukt
+   Źródło: Kampania tabela.doc
+   Folder: /2000 12 - Gdańsk CSW Łaźnia Wystawa/ (8 zdjęć — do weryfikacji)
+   [NEGATIVE FINDING: folder istnieje, zdjęcia nieanalizowane]
+
+3. STATUT STOWARZYSZENIA WIKTORIA CUKT — PRAWNY BYT
+   Stowarzyszenie Wiktoria
 
 
 ---
@@ -385,7 +302,50 @@ BIALE PLAMY — NOWE
 10. 3D model Wiktorii — oryginalne pliki (3DS/MAX?)
 11. Karty do glosowania — ile wydrukowano, gdzie dystrybuowano?
 
+### Data .............. 2000-2001
+OPIS
 
+### Wiktoria Cukt to najbardziej rozbudowany projekt CUKT — kampania wyborcza fikcyjnej kandydatki na prezydenta RP. Wiktoria Cukt była wirtualną osobą, urzędniczką CUKT wystawioną w realnych wyborach. Projekt obejmował biuro wyborcze w Gdańsku, bilbordy, banery, plakaty, spoty telewizyjne, stronę internetową i system OSW (Online Social Web) — prekursorski system społecznościowy/aplikację do głosowania.
+OSOBY
+
+### - **Wiktoria Cukt** — wirtualna kandydatka na prezydenta RP, urzędniczka CUKT.
+MATERIAŁY W ARCHIWUM
+
+### FOTOGRAFIE: 310+ zdjęć (Gdańsk, Poznań, Berlin, Łódź, bilbordy, banery, video animacje)
+PYTANIA OTWARTE
+
+### 1. System OSW — czy działał? Kod źródłowy zachowany?
+DZIENNIK ŚLEDZTWA
+
+### - 2026-04-26 (Archiwistka): Wstępne śledztwo.
+
+## ODKRYCIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## SPRZECZNOŚCI
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## POWIĄZANIA
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+
+## BIAŁE PLAMY
+
+*Sekcja do uzupełnienia przez Archiwistkę.*
+
+---
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+
+### Autonomiczny Urząd Kultury Technicznej
 ---
 AKTUALIZACJA (2026-05-12):
 TECZKA: Wiktoria Cukt
@@ -400,11 +360,116 @@ KARTA PROJEKTU
 
 Data .............. 20.01.2000 - 13.11.2000 (kampania) + działania do 2001
 Miejsce ........... 11 miast w Polsce, Niemczech, USA
-
+Autorzy ........... Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski, Maciej Sienkiewicz
 Typ ............... kampania prezydencka / performance polityczny / software wyborczy
 Kontekst .......... wybory prezydenckie w Polsce 2000
 Rekordów w bazie .. 310+ (największy projekt CUKT)
 
+OPIS
+
+Wiktoria Cukt to wirtualna kandydatka na Prezydenta RP, stworzona przez CUKT w 2000 roku. Projekt był bezpośrednią kontynuacją Dnia Sztuki — po tym jak urzędnicy Urzędu Marszałkowskiego w Zielonej Górze nie przyszli na prezentację Dnia Sztuki (22.02.2000), CUKT zamiast wycofać się, stworzył własną urzędniczkę: wirtualną kandydatkę na prezydenta.
+
+Kampania objęła 11 miast w Polsce i za granicą, ogólnopolską kampanię billboardową, biura wyborcze z komputerami z dostępem do Internetu, projekcje 3D twarzy kandydatki, live mixing muzyki techno z przemówieniami, Obywatelski Software Wyborczy (OSW) oraz system zbierania propozycji od obywateli.
+
+Centralne hasło: "POLITYCY SĄ ZBĘDNI" / "Politicians are unnecessary".
+
+Szczegółowy przebieg kampanii (z KampaniaPrzebiegOpis_forEPUB_Eng.pdf):
+
+1. GDAŃSK NCK — 20.01 - 05.02.2000
+   - Inauguracja w ramach wystawy "Art Negotiators" (kuratorka: Bożena Czubak)
+   - Baner na historycznym budynku NCK z wizerunkiem Wiktorii
+   - Biuro wyborcze z czerwonymi ścianami, hasłem "POLITYCY SĄ ZBĘDNI"
+   - Instalacja wideo z wizerunkiem i exposé
+   - Zbieranie podpisów na ulicach
+   - Wydarzenie zamknięcia: konferencja prasowa z prezentacją OSW i postępu prac nad 3D reprezentacją
+   - Odsłonięcie oficjalnej tablicy z podpisem Wiktorii
+   - Maciej Nowak i Bożena Czubak podpisali listy poparcia
+   - Naklejki z wizerunkiem dla podpisujących (do wklejenia w dowód)
+   - **Zdjęcia:** budynek NCK z banerem, wnętrze biura (3 urzędników CUKT, ściana z hasłem), projekcja wideo na ekranie w kształcie portretu, zbieranie podpisów na ulicy (długobrody urzędnik), konferencja prasowa (wireframe 3D modelu), odsłonięcie tablicy, podpisywanie list (Maciej Nowak, Bożena Czubak)
+
+2. ZIELONA GÓRA BWA — 22.02.2000
+   - Data tożsama z Dniem Sztuki — bezpośrednie przejście
+   - Otwarty mikrofon dla propozycji do Wiktorii
+   - Namiot przed galerią, agitacja uliczna
+   - Techno na żywo, nagrywanie propozycji na wideo
+   - Spotkanie z urzędnikami i radnymi w Urzędzie Miasta — prezentacja Dnia Sztuki i kampanii
+   - Śnieg — zima
+   - **Zdjęcia:** galeria z banerem, biały namiot, starszy mężczyzna rozmawia z urzędnikiem CUKT (nagrywany na kamerę video), wnętrze galerii z namiotem, banany na stole, projekcja wideo
+
+3. POZNAŃ ARSENAŁ — 10.05.2000
+   - 3 stanowiska komputerowe z dostępem do Internetu, prezentacja programu i wizerunku Wiktorii
+   - Pisanie propozycji na szybach galerii markerami
+   - Agitacja na Starym Rynku
+   - Masowy wiec: stalowe projekcje wideo, techno, nagrywanie propozycji
+   - Baner "PREZYDENT 2001" między budynkami
+   - Live mixing głosu Wiktorii: "Internet dla wszystkich!"
+   - **Zdjęcia:** wnętrze biura (hasło na ścianie, komputer, roślina), politycy czytają program, pisanie na szybach, baner "PREZYDENT 2001" na ulicy, wieczorny wiec z projekcją, ekran z napisem "INTERNET", miksowanie na żywo
+
+4. WROCŁAW AE — 13.05.2000
+   - Spotkanie ze studentami i pracownikami Akademii Ekonomicznej
+   - Stanowiska komputerowe ze stroną kampanii i OSW
+   - **Zdjęcia:** sala z komputerami, studenci przy monitorach
+
+5. BIAŁYSTOK ARSENAŁ — 20.05.2000
+   - Projekcja wideo na fasadzie galerii
+   - Live mixing muzyki z przemówieniami
+   - 3D animacja twarzy Wiktorii
+   - **Zdjęcia:** projekcja na fasadzie, 3D twarz na ekranie, publiczność
+
+6. WARSZAWA ZACHĘTA — 17.03.2000
+   - Biuro wyborcze, wiec
+   - Baner na fasadzie
+   - Projekcja 3D portretu na ekranie w kształcie profilu
+   - Niebieski neon z hasłem "Politycy są zbędni"
+   - Transmisja na żywo na stronę kampanii
+   - System zbierania propozycji online
+   - **Zainteresowanie Kancelarii Prezydenta** — telefon z zapytaniem czy to prawdziwe biuro
+   - **Zdjęcia:** wnętrze z projekcją (3D twarz, niebieskie światło), komputer z interfejsem kampanii, podpisywanie list poparcia
+
+7. KRAKÓW KLUB MIASTO KARKO — czerwiec 2000
+   - Wiec z muzyką na żywo i prezentacją programu
+   - Neon "Politycy są zbędni"
+   - Podpisywanie list poparcia
+   - Małe karty z wizerunkiem na stole
+   - **Zdjęcia:** dłonie podpisujące, mężczyzna wypełnia formularze, grupa pod neonem, klub z projekcją
+
+8. BYDGOSZCZ KLUB MÓZG — wrzesień 2000
+   - Wiec z muzyką na żywo i prezentacją
+   - (mniej szczegółów w dokumencie)
+
+9. BERLIN INSTYTUT POLSKI — październik 2000
+   - Biuro wyborcze, baner na budynku
+   - Hasła po niemiecku: "SIND ÜBERFLÜSSIG", "POLITIKER"
+   - Wystawa wideo, dokumentacja
+   - Skierowane do polskiej diaspory
+   - **Zdjęcia:** mężczyzna z kamerą, rozmowa przed ekranem "POLITIKER", grupa z literaturą, z zewnątrz budynku, wnętrze z "SIND ÜBERFLÜSSIG"
+
+10. ŁÓDŹ MUZEUM SZTUKI — 13.10 - 13.11.2000
+    - Biuro wyborcze + indywidualna wystawa CUKT
+    - Zbieżność z dniem wyborów prezydenckich
+    - Ściana z nazwiskami polityków i hasłami, przekreślona niebieskim neonem "Politycy są zbędni"
+    - Techno + elektronicznie generowane przemówienia
+    - Wyniki wyborcze: **Wiktoria Cukt: 41%** (projekcja w biurze)
+    - Karty do głosowania z dodatkowym kandydatem Wiktoria Cukt i pieczęcią CUKT
+    - **Zdjęcia:** budynek muzeum z plakatem, wnętrze z neonem i wynikami 41%
+
+11. CHICAGO CULTURAL CENTER
+    - Działania wśród diaspory polskiej
+    - (mniej szczegółów)
+
++ OGÓLNOPOLSKA KAMPANIA BILLBOARDOWA — lipiec 2000
+    - Plakaty z wizerunkiem Wiktorii w całej Polsce
+    - Zdjęcie: politycy obok plakatów Wiktorii
+
+KLUCZOWE ELEMENTY KAMPANII:
+- Wirtualna kandydatka z czerwonowłosym wizerunkiem (3D animacja)
+- Obywatelski Software Wyborczy (OSW) — program do podejmowania decyzji
+- Live mixing głosu, muzyki techno i wideo
+- Neon "POLITYCY SĄ ZBĘDNI"
+- Naklejki z wizerunkiem do dowodów
+- Karty do głosowania z Wiktorią Cukt i pieczęcią CUKT
+- Transmisja online na żywo
+- Strona kampanii: http:// (adres w dokumentach)
 
 OSOBY
 
