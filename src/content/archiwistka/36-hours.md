@@ -2,10 +2,11 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-06-03"
+date: "2026-06-11"
 status: "W TOKU"
 ---
 
+<!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
 ```
 ```
 

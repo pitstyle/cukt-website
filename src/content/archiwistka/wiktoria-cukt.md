@@ -6,6 +6,7 @@ date: "2000"
 status: "Brak osobnego folderu Foto Dokumentacja dla Lwowa. Brak zdjęć w archiwum."
 ---
 
+<!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
 ```
 ```
 

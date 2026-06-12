@@ -2,10 +2,11 @@
 title: "Portret Codera"
 project: "Portret Codera"
 type: "teczka"
-date: "2026-06-03"
+date: "2026-06-11"
 status: "ALL SYSTEMS NOMINAL                           ║"
 ---
 
+<!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
 ╔══════════════════════════════════════════════════════════╗
 ║                   CODER CUKT                            ║
 ║          agent infrastruktury CUKTAI                    ║

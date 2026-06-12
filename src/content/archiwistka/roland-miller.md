@@ -2,10 +2,11 @@
 title: "Roland Miller and Four CUKT Officers"
 project: "Roland Miller and Four CUKT Officers"
 type: "teczka"
-date: "2026-06-03"
+date: "2026-06-11"
 status: "W TOKU"
 ---
 
+<!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
 # TECZKA: Roland Miller and Four CUKT Officers
 
 | | |

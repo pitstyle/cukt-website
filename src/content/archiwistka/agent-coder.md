@@ -2,10 +2,11 @@
 title: "Coder Cukt — Agent Infrastruktury"
 project: "Coder Cukt — Agent Infrastruktury"
 type: "teczka"
-date: "2026-06-03"
+date: "2026-06-11"
 status: "all services nominal"
 ---
 
+<!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
 # Teczka: Coder Cukt
 ## Agent Infrastruktury CUKTAI
 
