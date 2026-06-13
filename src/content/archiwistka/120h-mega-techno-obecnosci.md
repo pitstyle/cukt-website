@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "należy napisać pismo."
 ---
 

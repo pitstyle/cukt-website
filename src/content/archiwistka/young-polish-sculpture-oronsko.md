@@ -2,7 +2,7 @@
 title: "Young Polish Sculpture / Orońsko"
 project: "Young Polish Sculpture / Orońsko"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "W TOKU"
 ---
 

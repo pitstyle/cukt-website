@@ -2,7 +2,7 @@
 title: "000 CUKT Dokumenty"
 project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "W TOKU"
 ---
 

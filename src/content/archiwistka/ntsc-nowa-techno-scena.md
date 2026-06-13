@@ -2,7 +2,7 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "W TOKU"
 ---
 

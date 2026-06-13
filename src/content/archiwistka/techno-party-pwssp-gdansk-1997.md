@@ -2,7 +2,7 @@
 title: "Techno Party PWSSP Gdańsk 1997"
 project: "Techno Party PWSSP Gdańsk 1997"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "W TOKU"
 ---
 

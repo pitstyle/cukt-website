@@ -2,7 +2,7 @@
 title: "HERE Performance / Testy na Cyborga"
 project: "HERE Performance / Testy na Cyborga"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "W TOKU"
 ---
 

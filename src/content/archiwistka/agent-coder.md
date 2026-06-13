@@ -2,7 +2,7 @@
 title: "Coder Cukt — Agent Infrastruktury"
 project: "Coder Cukt — Agent Infrastruktury"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "all services nominal"
 ---
 

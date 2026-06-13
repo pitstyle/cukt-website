@@ -2,7 +2,7 @@
 title: "120h Kultowa"
 project: "120h Kultowa"
 type: "teczka"
-date: "2026-06-11"
+date: "2026-06-12"
 status: "W TOKU"
 ---
 
