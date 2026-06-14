@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-06-13"
 status: "W TOKU"
 ---
 
@@ -144,3 +144,8 @@ Automatyczne opisy 10 zdjęć z projektu 'Lab 6 / Rodzina CUKT — CSW Zamek Uja
 | 20181011_114323.jpg | Scene: The scene is a close-up, top-down view of a white architectural plan or floor plan resting on a light brown wooden surface. The plan is printed on white paper and features a central rectangu... |
 | cukt.jpg | Scene: The scene is set in a minimalist indoor environment, likely a studio or office, characterized by stark white walls and a polished wooden floor. A large, dark rectangular platform serves as a... |
 | rodziana copy.jpg | Scene: The scene is a minimalist, brightly lit studio with a stark white wall and a dark, polished floor. A large, black rectangular platform is positioned in the center of the room. On this platfo... |
+
+---
+
+AKTUALIZACJA (2026-06-13 Peter Style, decyzja Consilium 06/2026):
+**TROP:** archive_search(`"CSW 1997 CUKT Mikołaj Daniela Testy na Cyborga"`, limit 10) zwrócił 10 trafień, ale nie dał jednoznacznego CSW/Lab 6; najbliższe sensowne tropy to dwa duplikaty `Papier ksero` i trzy pozycje `Plik wideo` z projektu **1995–2017 Testy na Cyborga** (podfolder `1996 06 28 Bytów/Testy` / `Video`) oraz dwa trafienia poboczne **INFOMAJA** i **TECHNOPERA 1996–2023**. Wynik traktuję jako trop operacyjny: Lab 6 nie ma w tym zapytaniu własnego mocnego rekordu, więc trzeba szukać przez Testy na Cyborga, Daniela, CSW Zamek Ujazdowski i fizyczny folder `1997 __ __ - Rodzina CUKT (Lab 6 CSW ZUJ)`, nie przez samo hasło Lab 6.
