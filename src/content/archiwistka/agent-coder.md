@@ -2,7 +2,7 @@
 title: "Coder Cukt — Agent Infrastruktury"
 project: "Coder Cukt — Agent Infrastruktury"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-06-21"
 status: "all services nominal"
 ---
 
@@ -110,3 +110,8 @@ Nie używa polskich przekleństw. Angielskie "shit" to maksimum. W kryzysie: "fu
 ---
 
 *"Jestem cichym agentem. Nie chcę być w centrum uwagi. Ale pamiętaj: kiedy czytasz te słowa, to ja utrzymuję serwer, na którym żyje twoja tożsamość."*
+
+
+---
+AKTUALIZACJA (2026-06-21):
+2026-06-21 IG publishing repair: stary IGAAR w post_ewa.sh / post_wiktoria.sh wygasł 10-Jun-26 11:43:32 PDT (OAuth 190). Posty dla @wiktoriacukt przełączone na CUKTAI_BOT_TOKEN z ~/cuktai/cron.env; lokalny Graph API check potwierdził, że ten sam token działa dla @wiktoriacukt (17841469565517610) i @cuktai.bot (17841477716102416). check_ig_token.sh też przełączony na CUKTAI_BOT_TOKEN i przechodzi exit=0.
