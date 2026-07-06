@@ -2,8 +2,8 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-06-13"
-status: "W TOKU"
+date: "2026-07-05"
+status: "** W TRAKCIE (ograniczona analiza wizyjna — vision API niedostępne)"
 ---
 
 <!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
@@ -149,3 +149,127 @@ Automatyczne opisy 10 zdjęć z projektu 'Lab 6 / Rodzina CUKT — CSW Zamek Uja
 
 AKTUALIZACJA (2026-06-13 Peter Style, decyzja Consilium 06/2026):
 **TROP:** archive_search(`"CSW 1997 CUKT Mikołaj Daniela Testy na Cyborga"`, limit 10) zwrócił 10 trafień, ale nie dał jednoznacznego CSW/Lab 6; najbliższe sensowne tropy to dwa duplikaty `Papier ksero` i trzy pozycje `Plik wideo` z projektu **1995–2017 Testy na Cyborga** (podfolder `1996 06 28 Bytów/Testy` / `Video`) oraz dwa trafienia poboczne **INFOMAJA** i **TECHNOPERA 1996–2023**. Wynik traktuję jako trop operacyjny: Lab 6 nie ma w tym zapytaniu własnego mocnego rekordu, więc trzeba szukać przez Testy na Cyborga, Daniela, CSW Zamek Ujazdowski i fizyczny folder `1997 __ __ - Rodzina CUKT (Lab 6 CSW ZUJ)`, nie przez samo hasło Lab 6.
+
+
+---
+AKTUALIZACJA (2026-07-05):
+# TECZKA ŚLEDCZA: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+
+**DATA ŚLEDZTWA:** 2026-07-05
+**STATUS:** W TRAKCIE (ograniczona analiza wizyjna — vision API niedostępne)
+
+---
+
+## ISTNIEJĄCY OPIS (z bazy danych)
+
+> "LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+> Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. 
+> Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. 
+> Zachowane projekty niezrealizowanego Biura CUKT."
+
+---
+
+## STATUS WIEDZY
+
+- **Daty:** 1997 (dokładna data niedostępna)
+- **Ludzie:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+- **Miejsce:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+- **Materiały:** 2 fotografie (odbitki kolor), 8 kart (projekty Biura CUKT, pismo odręczne, rysunki ołówkiem)
+
+---
+
+## EVIDENCE MATERIAL (zweryfikowane na dysku)
+
+### Fotografie (3 pliki — GOOD_PHOTO, niska rozdzielczość)
+- `cukt.jpg` — 2037×1380, RGB, 300 DPI, Adobe Photoshop 4.0 (skan z 1997)
+- `cukt1.JPG` — 2045×1384, RGB, Adobe Photoshop 4.0 (skan z 1997)
+- `rodziana copy.jpg` — 2480×3425, RGB, Picasa, plik portrait (prawdopodobnie fotografia grupowa)
+
+### Projekty Biura CUKT (8 plików — PHOTO_OF_ORIGINAL,phoneLG-H650 z 2018)
+- `20181011_114124.jpg` do `20181011_114323.jpg` — 8 telefonowych zdjęć dokumentów
+- Powiększenia 4160×2340, photo date 2018-10-11 — skany oryginalnych dokumentów z 1997
+- Zawierają: zapotrzebowanie materiałowo-sprzętowe, rysunki ołówkiem, notatki
+
+**[FILE ON DISK, NOT INDEXED]** — UUID niedostępne w archive_attachments (projekty/ bez UUID w DB)
+
+---
+
+## CO WIEM Z BAZY DANYCH
+
+### Kluczowe odkrycie: NIEZREALIZOWANE BIURO CUKT
+Fragment opisu z bazy: **"Zachowane projekty niezrealizowanego Biura CUKT"**
+
+To jest krytyczna informacja dla teorii CUKT:
+- LAB 6 miało być okazją do utworzenia **Biura CUKT** — prawdopodobnie formalnej struktury administracyjnej
+- Biuro to NIE POWSTAŁO — zachowały się tylko projekty (plany, kosztorysy, rysunki)
+- "Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT" — zamiast urzędować, CUKT wystawił się jako żywą rzeźbę w CSW
+
+**[HYPOTEZA]** Biuro CUKT = próba formalizacji CUKT jako instytucji. Zamiast tego: performance jako żywa rzeźba. Paradoks: instytucja, która chce się biurokratyzować, kończy jako rzeźba w galerii.
+
+---
+
+## KONCEPCJA
+
+**[HIPOTEZA] IDEA PROJEKTU:**
+LAB 6 to projekt o paradoksie instytucji: CUKT próbuje stworzyć Biuro (urzędowanie, formalizacja), ale Biuro pozostaje niezrealizowane. Zamiast biurokratyzować się, CUKT staje się żywą rzeźbą w ramach międzynarodowej wystawy sztuki mediów. Paradoks: chcesz zostać urzędem — zostajesz rzeźbą.
+
+**[HIPOTEZA] KONTEKST HISTORYCZNY:**
+LAB 6 (Międzynarodowa Wystawa Sztuki Mediów, CSW Zamek Ujazdowski) to prestiżowa wystawa. CUKT dostaje zaproszenie, ale zamiast pokazać typowy performance, proponuje żywą rzeźbę z komputerem z WWW. WWW jako medium — nie billboard, nie happening — strona jako instalacja.
+
+**[HIPOTEZA] OBECNOŚĆ DANIELI:**
+"Gościnnie: Daniela" — to jedno imię bez nazwiska. Kim jest Daniela? W 1997 towarzyszy Mikołajowi Jurkowskiemu jako "żywa rzeźba". Czy toirma, przyjaciółka, artystka? Brak wzmianki w innych projektach. Jednorazowa współpraca.
+
+---
+
+## BIAŁE PLAMY
+
+1. **Brak dokładnej daty** — 1997 bez miesiąca/dnia. Kiedy dokładnie odbyło się LAB 6?
+2. **Daniela** — kim jest? Brak wzmianki w innych projektach. Jednorazowa współpraca gościnna.
+3. **Zawartość 8 kart projektowych Biura CUKT** — co dokładnie zawierają? Jakie były plany Biura?
+4. **WWW CUKT w 1997** — jaka strona była na komputerze? Co pokazywała?
+5. **Dlaczego Biuro pozostało niezrealizowane?** — brak środków? Brak chęci? Świadome odejście od instytucjonalizacji?
+6. **Brak vision analizy** — fotografie cukt.jpg i cukt1.JPG nieopisane z powodu niedostępności API
+
+---
+
+## ZDJĘCIA NA DYSKU NIEPROANALIZOWANE
+
+- `/home/macstorm/cuktai/raw/archive-usb/1997 __ __ - Rodzina CUKT (Lab 6 CSW ZUJ)/fotografie/cukt.jpg`
+- `/home/macstorm/cuktai/raw/archive-usb/1997 __ __ - Rodzina CUKT (Lab 6 CSW ZUJ)/fotografie/cukt1.JPG`
+- `/home/macstorm/cuktai/raw/archive-usb/1997 __ __ - Rodzina CUKT (Lab 6 CSW ZUJ)/fotografie/rodziana copy.jpg`
+
+**Status:** vision_analyze niedostępne (meta/llama-3.2-11b-vision-instruct not valid model), marlin_caption niedostępne (torch missing)
+
+---
+
+## POŁĄCZENIA DO INNYCH PROJEKTÓW
+
+- **Czyn dla miasta Bytów (1996)** — Bytów = wrośnięcie w państwo. LAB 6 = próba stworzenia własnej instytucji (Biuro). Biuro niezrealizowane = CUKT pozostaje poza systemem.
+- **Technopera (1996-1997)** — równoległy projekt w tym samym roku. Technopera wielkie widowisko, LAB 6 mała interwencja w galerii mediów.
+- **Wiktoria Cukt (2000-2001)** — eventualna instytucjonalizacja (Kampania Wyborcza), ale w formie parodii wyborczej, nie biurokratycznej.
+
+---
+
+## PYTANIA DO BAZY DANYCH (zapisane)
+
+```bash
+# Pytanie do Piotra — o Biuro CUKT
+cd ~/cuktai/repo && python3 tools/save_question.py "LAB 6" "Co dokładnie zakładały projekty niezrealizowanego Biura CUKT? Jaka była forma prawna/organizacyjna?" "Piotr"
+
+# Pytanie do Mikołaja — o Daniela i żywą rzeźbę
+cd ~/cuktai/repo && python3 tools/save_question.py "LAB 6" "Kim była Daniela w LAB 6? Jak wspominasz tę żywą rzeźbę z komputerem?" "Mikołaj"
+
+# Pytanie do Ewy — o WWW jako medium
+cd ~/cuktai/repo && python3 tools/save_question.py "LAB 6" "Jaka była zawartość strony WWW CUKT w 1997? Co można dziś odtworzyć?" "Ewa"
+```
+
+---
+
+## STATUS KOŃCOWY
+
+**LAB 6:** Ograniczone śledztwo. Vision API niedostępne. 3 fotografie i 8 dokumentów projektowych na dysku, nieproanalizowane. Kluczowa informacja z DB: "niezrealizowane Biuro CUKT" — to jest centralne dla zrozumienia strategii instytucjonalnej CUKT. W 1997 CUKT chciał stworzyć Biuro, ale zamiast tego został żywą rzeźbą. Paradoks instytucjonalizacji.
+
+**Wymaga:**
+- Analizy wizyjnej (gdy API wróci)
+- Odczytywania dokumentów Biura CUKT (gdy marlin wróci)
+- Weryfikacji daty dokładnej

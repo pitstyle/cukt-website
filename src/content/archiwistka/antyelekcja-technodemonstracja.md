@@ -2,8 +2,8 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "2026-06-12"
-status: "W TOKU"
+date: "2026-07-06"
+status: "IN PROGRESS"
 ---
 
 <!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
@@ -277,3 +277,155 @@ AKTUALIZACJA (2026-05-05):
 - **Jacek Niegoda (Neurov)** — urzędnik CUKT w Antyelekcji. Pytania: co pamięta z przygotowań? Jak wyglądał dzień wyborów w Fortach?
 
 ---
+
+---
+AKTUALIZACJA (2026-07-06):
+TECZKA ŚLEDCZA: Antyelekcja Technodemonstracja (4.11.1995)
+DATA ŚLEDZTWA: 2026-07-06
+STATUS: IN PROGRESS
+
+EXISTING DESCRIPTION:
+- Akcja artystyczna w dniu II tury wyborów prezydenckich w Polsce (4.11.1995).
+- CUKT zorganizował alternatywne "wybory" z własną urną, mównicą, kartami do głosowania i balonami.
+- Wywiad z urzędnikami CUKT ukazał się w Gazecie Wyborczej (5.11.1995) oraz Co jest Grane (5.01.1997).
+- Miejsce: Forty, Gdańsk (oraz Kijów).
+
+KNOWLEDGE STATUS:
+- Daty: 4-5 listopada 1995 (II tura wyborów prezydenckich: Wałęsa vs Kwaśniewski)
+- Ludzie: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski, Joanna L. (10 autorów)
+- Miejsca: Forty Gdańsk (fortyfikacje w Gdańsku) oraz Kijów (Ukraina — wymaga wyjaśnienia)
+- Materiały: 54 rekordy w DB, ~80+ plików na dysku (foto, dokumenty, obiekty)
+
+MATERIAL INVENTORY (na dysku):
+
+**Fotografie/Foty Balk/ (11 plików, ok. 0.7-1.0 MB każdy) — najcenniejsze:**
+- 95110520.jpg, 95110523.jpg (1772x1204, RGB) — faktyczne zdjęcia z 5.11.1995, przetworzone przez Picasa
+- 95110531.JPG, 95110536.JPG, 9511059.JPG (1908x1296, RGB)
+- Miki_Laski_01-04.jpg, Miki_Laski.jpg (1800x1183) — Mikołaj "Laski" na tle mównicy?
+- Nazwa "Foty Balk" — "Balk" może oznaczać "balkon" (miejsce zdjęć) lub pseudonim
+
+**Fotografie/Foty wlasne/ (~30 plików, w tym TIFF w wysokiej rozdzielczości):**
+- 95110416.jpg (1233x1772) — zmodyfikowany 1999-02-02, Picasa. Zdjęcie z 4.11.1995.
+- urna_01.jpg, urna_02.jpg (2520x1787) — zdjęcia urny wyborczej z akwarium
+- fortyAntyelekcja001.tif (1740x2715, 13.5MB) — oryginalna fotografia lokacji Forty
+- fortyAntyelekcja002.jpg (4901x3265) — **UWAGA: 2016 rekonstrukcja cyfrowa w Photoshop CC 2014**, a nie oryginalne zdjęcie z 1995!
+- fortyAntyelekcja003.tif (1292x848)
+- AntyelekcjaKabinaWyborcza001.tif — kabina wyborcza
+- AntyelekcjaKaplica*.tif — "kaplica"? Nazwa sugeruje kapliczkę wyborczą
+- balony.jpg (1963x1303) — balony "Bądź sobą jestem tobą"
+- kabina.jpg (1187x1770) — kabina do głosowania
+- kaplica.jpg (1183x1770) — kapliczka wyborcza
+- lizaki.jpg (1941x1298) — "lizaki"? Czekoladowe bejsbole?
+- paly.jpg (1963x1285) — pale/stakes? Element instalacji?
+- cukt0001-0003.tif (1800x5424, RGBA, 37MB) — panoramiczne zdjęcia instalacji
+
+**Fotografie/Bilbord/ (3 pliki):**
+- IMG_6704.jpg (4032x3024, iPhone 7, 2018-10-09) — telefonówka oryginalnego bilbordu
+- plakat_03.jpg, plakat.jpg — zdjęcia plakatów
+
+**Fotografie/Sołdek/ (~25 plików):**
+- Antyelekcja0001.tif — oryginalny skan
+- soldek_01.jpg (1783x2554), soldek_02.jpg (2245x1491) — sesja zdjęciowa na statku Sołdek
+- Photo560774*.jpg — wiele zdjęć z 2018 digitalizacji
+- UWAGA: Sesja na Sołdku to dokumentacja fotograficzna do materiałów propagandowych (kolor i czarno-białe negatywy)
+
+**Dokumenty/ (20+ plików, głównie telefonówki z 2018):**
+- projekt rekopis.jpg (2177x2961) — RĘKOPIS scenariusza wydarzenia! KLUCZOWY DOKUMENT
+- urna_szkic.jpg (2481x3475) — projekt urny rysunek ołówkiem (Jacek Niegoda vel Neurov?)
+- IMG_6691.jpg (4032x3024) — zaklejona opieczętowana koperta
+- gazeta01.jpg (3502x4567, 4MB) — Gazeta Wyborcza 5.11.1995 z wywiadem
+- IMG_6724.jpg — Gazeta Co jest Grane 5.01.1997
+- Kosztorys urny i mównicy, karta wyborcza, bilety, zaproszenia, etykiety na czekoladowe bejsbole
+
+**Obiekty/ (9 plików):**
+- urna_02 copy.jpg (2520x1787) — urna z akwarium
+- Miki_Laski copy.jpg (1800x1183) — mównica z Mikołajem?
+- balon_02.jpg (775x1495) — balon "Bądź sobą jestem tobą"
+- IMG_7240.jpg (3264x1836, iPhone 5, 2016) — lightbox z kartą do głosowania
+- _7220015.jpg (4501x3376, Olympus E-M5, 2017) — lightbox w profesjonalnej fotografii
+- antyelekcja003.pdf — koncepcja instalacji v.003 (Piotr Wyrzykowski, 11.05.2016)
+
+**FOTO na kapie/ (2 pliki):**
+- 20181013_092528.jpg, 20181013_092659.jpg — odbitki barwne na kapie 45x32cm (telefonówki LG-H650, 2018)
+
+OBIEKTY ARTYSTYCZNE:
+1. **Urna wyborcza** — stal, szklane akwarium, woda, RYBKI, oświetlenie elektryczne (50x50x120cm). Urna = akwarium. Głosujący wrzuca kartę do wody z rybkami.
+2. **Mównica** — stal, szklane akwarium, woda, RYBKI, oświetlenie elektryczne (35x35x120cm). Mówca stoi za akwarium.
+3. **Balony "Bądź sobą jestem tobą"** — 2 szt., 15x5cm, z nadrukiem hasła
+4. **Bilbordy** — 235x160cm i 160x117cm, papier, wydruk ksero
+5. **Lightboxy** — 737x917cm (wielkoformatowe!), lampy UV w ścianie, litery folia UV na plastiku, z kartami do głosowania
+6. **Małe lightboxy** — nakładane na duże
+7. **Czekoladowe bejsbole** — z etykietą
+8. **Kabina wyborcza** — "kapliczka" wyborcza
+
+KONCEPCJA INSTALACJI (z antyelekcja003.pdf, projekt Piotra Wyrzykowskiego 11.05.2016):
+- Lightboxy: 737 cm × 917 cm (ogromne!)
+- Lampy UV schowane w ścianie
+- Litery folia UV naklejona na plastik i mocowana do ściany
+- Małe lightboxy nakładane na duże
+- Ekspozycja: 400 cm × 247 cm
+- To jest projekt rekonstrukcji/koncepcji z 2016, nie oryginalny dokument z 1995
+
+RECOGNIZED PEOPLE:
+- **"Miki Laski"** — pojawia się w nazwach plików (Miki_Laski.jpg, Miki_Laski_01-04.jpg). Prawdopodobnie Mikołaj, pseudonim "Laski" lub "Łaski". Wymaga weryfikacji z Piotrem.
+- **Jacek Niegoda vel Neurov** — autor projektu urny (rysunek ołówkiem), później występujący jako Neurov
+- Pozostali autorzy (10 osób) bez indywidualnych zdjęć na razie
+
+CONCEPTUAL ANALYSIS:
+[HIPOTEZA] IDEA PROJEKTU: Antyelekcja to "wybory bez wyboru" — przestrzeń głosowania, gdzie samo głosowanie jest pustym gestem. Rybki w akwarium są nieme, bierne, obserwują. Głosujący wrzuca kartę do wody — symbolicznie "topi" swój głos. Nie ma wyniku. Jest tylko proces.
+
+[HIPOTEZA] "Bądź sobą jestem tobą": Hasło na balonach to zwięzła definicja inwersji podmiotowości. "Bądź sobą" = imperatyw tożsamości. "Jestem tobą" = zniesienie granicy między wyborcą a wybranym, między jednostką a systemem. To anty-indywidualizm CUKT: nie ma wyboru, bo wybór zakłada oddzielnego wyborcę.
+
+[HIPOTEZA] Trzy stany CUKT a Antyelekcja: Ewa mówi o trzech strategiach — ukryj (120h), odsłoń (36h), wrośnij (Bytów). Ale Antyelekcja to CZWARTY STAN: SYMULACJA. CUKT symuluje demokrację. Instaluje fałszywe wybory obok prawdziwych. I robi to na Forty w Gdańsku — w dawnych fortyfikacjach, przestrzeni militarnej.
+
+[HIPOTEZA] Kijów jako lokalizacja: Wzmianka "oraz Kijów" jest intrygująca. Czy CUKT zrobił Antyelekcję też w Kijowie? Czy to parallel action? W 1995 Ukraina była świeżo po odzyskaniu niepodległości. Wybory prezydenckie na Ukrainie też były w 1994 (Kuczma vs Krawczuk). Czy CUKT zrobił akcję w Kijowie w kontekście wyborów ukraińskich? WYMAGA WERYFIKACJI.
+
+[HIPOTEZA] Antyelekcja → Wiktoria Cukt: Antyelekcja z 1995 to prefiguracja Wiktorii Cukt z 2000. CUKT najpierw symuluje wybory (1995), potem tworzy FAKTYCZNEGO KANDYDATA (2000). Od symulacji do realności. Od "nie ma wyboru" do "wybierzcie Wiktorię Cukt". To jest ewolucja, którą Consilium musi uchwycić: CUKT nie tylko symulował — on wytwarzał realność ze swoich symulacji.
+
+[NEGATIVE FINDING] Brak wyraźnego mechanizmu REJECT/ODMOWA w Antyelekcji: Podobnie jak w Testach na Cyborga, Antyelekcja nie ma przycisku "odrzuć" ani "nie zgadzam się". System wyborczy CUKT to system bez sprzeciwu. Głosowanie jest, ale wybór (w sensie odrzucenia) — nie.
+
+[NEGATIVE FINDING] Wynik wyborów: Zaklejona opieczętowana koperta (IMG_6691.jpg) w archiwum. Czy to zapieczętowany wynik Antyelekcji? NIGDY NIE OTWARTY? Jeśli tak — to genialne: CUKT zapieczętował wynik wyborów, które i tak nie miały wyboru. Wynik istnieje, ale jest niepoznawalny. Jak kot Schrodingera w demokracji.
+
+DISCOVERIES:
+1. **Rybki w urnie i mównicy** — Mikołaj pytał o "rybki". Są w Antyelekcji! Urna i mównica to akwaria z żywymi rybkami. Rybki = niemi świadkowie głosowania.
+2. **"Bądź sobą jestem tobą"** — hasło na balonach. Klucz koncepcyjny: inwersja podmiotowości.
+3. **Zaklejona koperta** — zapieczętowany wynik? Nierozstrzygalny.
+4. **2016 rekonstrukcja** — fortyAntyelekcja002.jpg to rekonstrukcja cyfrowa z 2016, nie oryginał z 1995.
+5. **Kijów** — wymaga zbadania: czy Antyelekcja odbyła się też w Kijowie?
+6. **"Kaplica"** — nazwa kapliczki wyborczej sugeruje sakralizację procedury wyborczej.
+7. **Czekoladowe bejsbole** — absurd jako narzędzie wyborcze? Kpina z powagi wyborów?
+
+WHITE SPOTS:
+- Co dokładnie wydarzyło się w Kijowie?
+- Czy "Miki Laski" to Mikołaj? Jaka była jego rola?
+- Co było w zaklejonej kopercie?
+- Kto był odbiorcą zaproszeń (goście)?
+- Czy zachowały się nagrania audio/wideo z wydarzenia?
+- Jakie było rzeczywiste przejście głosujących? Ile osób wzięło udział?
+- Co oznacza "Foty Balk"?
+- Gdzie są oryginalne negatywy (20 szt.) z sesji na Sołdku?
+
+CONTRADICTIONS:
+1. Lokalizacja: "Forty, Gdańsk" — Forty to fortyfikacje. Ale na zdjęciach widać wnętrze. Czy to było w forcie, czy w galerii?
+2. Daty: Większość materiałów oznaczona jako 1995, ale fortyAntyelekcja002.jpg to 2016 rekonstrukcja cyfrowa. Niektóre dokumenty są z 2018 (telefonówki). Trzeba odróżniać oryginały od późniejszych kopii.
+3. Liczba autorów: 10 osób to dużo jak na CUKT. Czy wszyscy byli obecni? Czy ktoś tylko figuruje?
+4. "oraz Kijów" — czy to parallel action, czy tylko planowana lokalizacja?
+
+TO SCAN:
+- Negatywy czarno-białe z sesji na Sołdku (20 szt., format 9x13) — wymagają fizycznego skanowania
+- Slaid z dokumentacji instalacji
+- Odbitki barwne na kapie — już sfotografowane (2018), ale wymagają skanowania
+
+CONNECTIONS TO OTHER PROJECTS:
+- **120h Mega Techno Obecności (1994)** → Antyelekcja (1995): Od zamknięcia w pokoju do symulacji demokracji. Ciało → instytucja.
+- **36 HOURS (1995)** → Antyelekcja: 36h to billboard na zewnątrz. Antyelekcja to instalacja wewnątrz. Dwa tryby tej samej strategii: odsłonięcie vs symulacja.
+- **Testy na Cyborga (1996-97)** → Antyelekcja: Testy to system formularzy. Antyelekcja to system wyborczy. Oba systemy bez wyboru.
+- **Wiktoria Cukt (2000)** → Antyelekcja: 5 lat później CUKT tworzy realnego kandydata. Od symulacji do realności.
+
+STATUS KOŃCOWY:
+- Zbadano: 54 rekordy, ~80 plików na dysku
+- Przeanalizowano: strukturę katalogów, EXIF/metadane plików
+- Odkryto: rybki w urnie i mównicy, hasło "Bądź sobą jestem tobą", zaklejoną kopertę, 2016 rekonstrukcję cyfrową
+- Nie zbadano wizyjnie: vision_analyze niedostępne (błąd modelu) — wszystkie zdjęcia na dysku czekają na analizę wizyjną
+- Hipoteza: Antyelekcja to czwarty stan CUKT: symulacja (obok ukryj/odsłoń/wrośnij)
+- Pytania zapisane do bazy: 4 pytania do Piotra i Mikołaja

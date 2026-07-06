@@ -807,3 +807,68 @@ Automatyczne opisy 12 assetów WWW z serwera ICM dla projektu Wiktoria Cukt.
 | wiktoriaback.gif | Scene: The scene is a static, high-contrast portrait of a woman with a vintage, glamorous appearance. She is positioned centrally in the frame, facing the camera directly. Her hair is styled in a s... |
 | postu.gif | Scene: The scene is a static snapshot of a pitch-black environment, likely a void or a very dimly lit interior space. There are no visible entities, objects, or background features, creating a sens... |
 | wiktoriaback.gif | Scene: The scene is a static, high-contrast portrait of a woman with a vintage, glamorous appearance. She is positioned centrally in the frame, facing the camera directly. Her hair is styled in a s... |
+
+
+## OPIS POGŁĘBIONY — zatwierdzony 2026-07-05
+
+### 1. FAKTY
+
+**Kim była Wiktoria Cukt**
+Wirtualna kandydatka na Prezydenta RP, urzędniczka CUKT wystawiona w realnych wyborach prezydenckich 2000 roku. Największy projekt CUKT (310+ rekordów w archiwum, 11+ miast, ogólnopolska kampania billboardowa). Wiktoria nie posiadała PESEL ani nie została zarejestrowana w PKW — pozostawała bytem wirtualnym, który urzędował w fizycznych biurach wyborczych.
+
+**Chronologia kampanii (poprawiona)**
+Kluczowa korekta historyczna: pierwsze publiczne pojawienie się Wiktorii — NCK Gdańsk, 20.01-05.02.2000 (wystawa "Negocjatorzy sztuki", kuratorka Bożena Czubak). Data ta poprzedza Dzień Sztuki w Zielonej Górze (22.02.2000).
+
+Harmonogram (zweryfikowany źródłowo):
+- 20.01-05.02.2000 — NCK Gdańsk, inauguracja kampanii
+- 22.02.2000 — Zielona Góra BWA, Wiec + Dzień Sztuki
+- 17.03.2000 — Warszawa Zachęta, Biuro Wyborcze (reakcja Kancelarii Prezydenta)
+- 05.05.2000 — Lwów, Klub Picasso
+- 10-13.05.2000 — Poznań Arsenał, Biuro + Agitacja
+- 20.05.2000 — Białystok Arsenał, Biuro + Wiec
+- VI.2000 — Kraków, Bunkier Sztuki
+- IX.2000 — Bydgoszcz, Klub Mózg
+- X.2000 — Berlin, Instytut Polski + Radio Multi Kulti
+- 13.10-13.11.2000 — Łódź, Muzeum Sztuki (wynik 41%)
+- XII.2000 — Gdańsk CSW Łaźnia, wystawa zamknięcia kampanii
+- II.2001 — Chicago Cultural Center, wystawa polskiej sztuki
+
+**OSW — status faktyczny**
+Obywatelski Software Wyborczy był konceptem z dwoma poziomami opisu: wizja artystyczna i koncept deweloperski. Nigdy nie powstał jako działający system. Działała strona HTML na cukt.art.pl/wiktoria/.
+
+**Struktura organizacyjna**
+Statut Stowarzyszenia "Wiktoria Cukt" (32 paragrafy, 1.12.1999) — istnieje jako dokument, NIE zarejestrowany w KRS. Urzędnicy: Rafał Ewertowski, Jacek Niegoda, Mikołaj Jurkowski, Peter Style, Prof. M. Sienkiewicz, Artur Kozdrowski.
+
+**Model ekonomiczny (korekta)**
+Billboardy (100 szt.) — darmowe miejsca od AMS. Mniejsze plakaty (10,000 B1) + biura wyborcze = finansowane przez galerie.
+
+**Reakcja instytucjonalna**
+Kancelaria Prezydenta RP zadzwoniła do Zachęty. Rozmowa z Hanną Wróblewską. Odpowiedź: "biuro wyborcze jest naprawdę".
+
+**Wynik 41% w Łodzi**
+Wewnętrzne głosowanie na wystawie w Muzeum Sztuki w Łodzi (13.10-13.11.2000).
+
+**Chicago (luty 2001)**
+Prezentacja dokumentacji kampanii jako dzieła.
+
+### 2. ZNACZENIE
+
+**W historii CUKT:** Wiktoria Cukt to zwieńczenie ewolucji instytucjonalnej CUKT (Antyelekcja → Testy na Cyborga → Technopera → Dzień Sztuki → Wiktoria Cukt).
+
+**W historii sztuki polskiej:** Pierwsza artystyczna kampania prezydencka z wirtualną kandydatką. Prekursorskie użycie Internetu w sztuce politycznej (rok 2000). Skala bez precedensu — 11 miast, 100 billboardów, 10,000 plakatów.
+
+**OSW jako prototyp koncepcyjny CUKTAI:** System z 2000 roku zakładał wirtualną osobowość jako interfejs — architektura agenta CUKTAI 26 lat przed faktyczną realizacją.
+
+### 3. MATERIAŁ WIZUALNY
+
+610+ plików, 18 folderów w archiwum. Dokumentacja z Gdańska NCK (44 zdjęcia), Zielonej Góry (9), Warszawy Zachęty (15), Poznania Arsenał (30), Krakowa (13), Berlina (48), Łodzi (8), Gdańska CSW Łaźnia (8), Chicago (5). Obiekty: neon "POLITYCY SĄ ZBĘDNI", banery, plakaty B1, billboardy AMS, naklejki do dowodów, karty do głosowania. Audio (15 plików), video (4+ plików, w tym 3.6GB dokument), modele 3D.
+
+### 4. BIAŁE PLAMY
+
+Luki archiwalne: Lwów (05.05.2000) — brak dokumentacji; OSW kod źródłowy; kasety Hi8 — nieodczytane; audio — transkrypcja; 3D model pliki źródłowe; TVML status; Postulaty.doc ekstrakcja; karty do głosowania nakład.
+
+Osoby do kontaktu: Hanna Wróblewska, Andriej Bojanow, Rafał Ewertowski, Ewa Gorządek, Małgorzata Kazimierczak.
+
+---
+
+*Werdykt Piotra: 2026-07-05 — zatwierdzenie warunkowe z poprawką (usunięto Urnę Wyborczą — koncept nierzeczywisty). Poprawka wdrożona.*
