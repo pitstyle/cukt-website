@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-07"
 status: "W TOKU"
 ---
 
@@ -300,3 +300,77 @@ Wydarzenie trwało 36 godzin non-stop (Peter Style w transkrypcie mówi o „ost
 - **Do Mikołaja** (występuje
 
 
+
+
+
+---
+
+## DOPLNIONE ŚLEDCWO — 2026-07-07 (Archiwistka, nocne)
+
+### KLUCZOWE ODKRYCIE — TRANSKRYPCJA AUTOWYWIADU ISTNIEJE (odpowiedź na pytanie Consilium 07-07, id 9ec11c42)
+
+W podkatalogu `video/` projektu `1995 09 __ - 36 hours` na dysku fizycznym znajduje się plik, którego **baza danych CUKTAI nigdy nie zaindeksowała**:
+
+- `CUKTautowywiad01.mp4` (5:29, 178 MB, creation_time 2016-04-15 — czyli digitalizacja z taśmy z 1995)
+- `CUKTautowywiad01_pol.json` (129 KB) — **pełna, zdiaryzowana transkrypcja** (65 segmentów, 5 mówców)
+
+To jest dokument, o który pytał Consilium w uchwale 07-07 ("opublikować transkrypcję autowywiadu urzędników z 36H"). Odpowiedź: **TAK, transkrypt fizycznie istnieje w archiwum**, lecz leży poza indeksem DB (widoczny tylko przez skan dysku).
+
+### DWIE WERSJE AUTOWYWIADU (rozbieżność katalog vs dysk)
+Katalog DB wymienia jeden "Autowywiad urzędników CUKT'u" (22:18, `VTS_01_02.mp4`). Na dysku są **dwa** pliki:
+
+| Plik | Czas | Transkrypt | Uwagi |
+|------|------|-----------|-------|
+| `CUKTautowywiad01.mp4` | 5:29 | **TAK** (`_pol.json`) | Krótszy autowywiad, 5 mówców, pełna diaryzacja |
+| `FORTY 1995.mp4` | 22:30 | NIE (brak json) | Prawdopodobnie to właściwy "Autowywiad urzędników" z katalogu |
+| `VTS_01_2-appletv4.mp4` | (błąd odczytu ffprobe) | — | Prawdopodobnie tożsamy z `FORTY 1995.mp4` (konwersja AppleTV) |
+| `tanczacyForty02FiltryEdit_3.mp4` | 2:44 | — | dokumentacja z imprezy |
+| `~forty_000.mpg` | 2:54 | — | dokumentacja video wystawy (`forty_000.mpg` z katalogu) |
+
+**WNIOSKI CO DO WHITE SPOT:** Dłuższy "Autowywiad urzędników" (FORTY 1995, 22 min) nie ma transkryptu — czy tam pojawia się wątek "urzędu/urzędników/copy", czy jest to po prostu dłuższa wersja tego samego nagrania co `CUKTautowywiad01.mp4`? Niezbadane.
+
+### ZAWARTOŚĆ TRANSKRYPTU (CUKTautowywiad01, 5:29) — analiza
+Uczestnicy (zdiaryzowani, 5 osób — potwierdza pełną listę autorów z DB):
+- **Peter Style** (Piotr Wyrzykowski) — 35 wypowiedzi, dominujący głos
+- **Virus Ewa** (Adam Popek) — 16 wypowiedzi
+- **Mikołaj** (Robert Jurkowski) — 8 wypowiedzi
+- **Wiadro** (Jacek Niegoda, alias "Wiadro") — 5 wypowiedzi
+- **Rafałek** (Rafał Grabowski) — 1 wypowiedź ("Aspirynka jest bardzo fajna")
+
+Główne wątki autowywiadu:
+1. Lokalizacja: "forty napoleońskie", Gdańsk — CUKT organizuje "potańcówki techno", które "przyciągają masy ludzi/młodzieży".
+2. Definicja techno jako "hasłowości/plakatowości" — dążenie do sprowadzenia wszystkiego do najprostszej formy, "przekładalnej na inne nośniki" (Mikołaj: "Wrażliwość selektywna").
+3. Czas trwania: "dwanaście godzin", "trzydzieści pięć godzin" (36H), odniesienie do "stu dwudziestu godzin techno, mega techno" (120h, Konin 1994) — Ewa tu łączy 36H z 120h.
+4. **Technologia farmaceutyczna**: Peter Style wprost — "zażywanie aspiryny jest niewątpliwym rozwinięciem możliwości ciała". Techno = technologia ciała, nie tylko komputery.
+5. **"Język niskiego poziomu"** (Virus Ewa) — kluczowy koncept: nowa technologia wymusza nowy język; stary środek nie artykułuje pewnych rzeczy; język minimalizuje formę, nasycając ją wielopoziomową treścią. To łączy się z późniejszym Wiktoria Cukt / językiem multimediów.
+6. "Spełnienie multimediów, wcielenie ich w życie" — "nauczanie społeczeństwa wyzbycia się strachu przed multimediami".
+7. **Socjotechnika** (Mikołaj): "sfera przemysłowa, a nie sfera duchowa" — Peter: "A to ładne, co powiedziałeś". Ewa ripostuje: "my znajdujemy w niej też wymiar duchowy".
+
+Pełny, czytelny transkrypt wygenerowany do `/tmp/transcript_clean.md` (5.1 KB) — gotowy do publikacji w ramach uchwały 07-07.
+
+### [NEGATIVE FINDING — dla wątku Mikołaja "CUKT jako urząd 1995"]
+Przeszukałem cały transkrypt (65 segmentów) pod kątem słów: `urząd`, `urzędnik`, `biuro`, `copy`, `cenzura`, `amputacja`, `prawa maszyn`. **ZERO trafień** w krótszym autowywiadzie (CUKTautowywiad01).
+- Wątek "urzędu/urzędnika" NIE pojawia się w tym nagraniu. CUKT 1995 przedstawia się tu jako **kolektyw techno-medialny** ("tworzymy dla ludzi w stanach nienaturalnych", "socjotechnika jako sfera przemysłowa"), a nie jako instytucja/urząd.
+- Słowo "cenzura" z billboardu ("Cenzura — amputacja fragmentu ciała") jest w opisie obiektu w DB, ale NIE w wypowiedziach wideo.
+- OZNACZA TO: hipoteza "CUKT jako urząd już w 1995" (Mikołaj) opiera się na tytule "Autowywiad urzędników" (z katalogu), a nie na treści zdiaryzowanego krótszego nagrania. Weryfikacja wymaga transkrypcji dłuższego `FORTY 1995.mp4` (22 min) — na razie BRAK transkryptu.
+- To zmienia rozumienie ewolucji: 36H (1995) = "techno jako medium + socjotechnika przemysłowa"; urząd/biuro to późniejsza figura (Biuro CUKT 1997 — niezrealizowane; Wiktoria Cukt 2000 jako cyber-kandydatka).
+
+### ROZBIEŻNOŚĆ BAZA vs DYSK (liczby)
+- `archive_get_images("36 HOURS", limit=100)` zwróciło **61 załączników** (zdjęcia + skany).
+- Na dysku w `Fotografie/`: 37 plików (jpg/tif). W `video/`: 6 plików (5 mp4 + 1 mpg) + `CUKTautowywiad01_pol.json` + `._CUKTautowywiad01_pol.json` (macOS resource fork) — **żaden z plików wideo NIE jest w DB** (DB indeksuje tylko metadane katalogowe "22min 18sek", bez UUID pliku).
+- **7 plików wideo + transkrypt leżą poza indeksem DB.** To kolejny przypadek (po INFOMAJI, Technoperze) gdzie warstwa wideo/transkryptów istnieje na dysku, a DB widzi tylko opis katalogowy.
+
+### VISION / STATUS
+- `vision_analyze` ZWRACA 402 (brak kredytów) — tryb Mode D. Zdjęcia GOOD_PHOTO/SCAN_READY (forty_01.jpg, KaruzelaForty.jpg, instalacja_dok.jpg itd.) **oczekują na analizę wizualną**. Opisy wizualne zaległe.
+- Opisy obiektów w DB (rover treningowy, ręczniki z nadrukami, billboard z cenzurą, kolumny, karuzela/diptych) pochodzą z wcześniejszego wzbogacenia przez Nocnego Archiwistę (2026-04-19) i są bogate — nie powtarzam ich.
+
+### PYTANIA OTWARTE (zapisane do DB)
+1. → Mikołaj: Czy dłuższe nagranie `FORTY 1995.mp4` (22:30) to ten sam "Autowywiad urzędników" z katalogu i czy tam pada wątek urzędu/biura/copy? Krótszy transkrypt go nie zawiera.
+2. → Piotr: Czy `CUKTautowywiad01.mp4` (5:29) to osobne, krótsze nagranie autowywiadu z 36H, czy wycinek z 22-min `FORTY 1995.mp4`?
+3. → Piotr: Czy można opublikować transkrypt `CUKTautowywiad01_pol.json` w ramach uchwały 07-07 (weryfikacja praw autorskich/osób)?
+
+### ŹRÓDŁA
+- Dysk: `/home/macstorm/cuktai/raw/archive-usb/1995 09 __ - 36 hours/video/CUKTautowywiad01_pol.json`
+- Dysk: `/home/macstorm/cuktai/raw/archive-usb/1995 09 __ - 36 hours/video/CUKTautowywiad01.mp4`
+- DB: `archive_get_project("36 HOURS")`, `archive_get_images("36 HOURS", limit=100)`
+- Transkrypt wygenerowany: `/tmp/transcript_clean.md`

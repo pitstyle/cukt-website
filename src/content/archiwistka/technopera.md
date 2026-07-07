@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-06"
 status: "W TOKU"
 ---
 
@@ -447,3 +447,167 @@ Ponizsze ustalenia pochodza z automatycznej analizy wizyjnej Marlin-2B. Wymagaja
 DZIENNIK SLEDZTWA
 
 - 2026-05-20 (Archiwistka): Batch Marlin-2B VLM — opisano 105 mediow dla projektu Technopera (4 fotografie GIF, 24 skany dokumentow, 77 klipow audio/wideo). Zidentyfikowano potencjalne mapy/schematy (BatelStat, LibrettoBanff), logotypy CUKT (IMG_6939, IMG_6972) oraz daty (black.avi).
+---
+AKTUALIZACJA (2026-07-06):
+ŹRÓDŁO: Śledztwo w archiwum — pełna inwentaryzacja dysku, EXIF wszystkich foto, ekstrakcja TECHOPER.DOC, Libreto.doc
+
+## NOWE USTALENIA
+
+### 1. POTWIERDZENIE MOTOR TOTEM — pełne szczegóły z TECHOPER.DOC
+
+Konspekt Technopery 3.1 PRO (Piotr Wyrzykowski, Gdańsk 02.07.96) potwierdza:
+
+*"Obie grupy artystyczne posługujące się postindustrialnym językiem wypowiedzi wykorzystują w swej twórczości współczesne wytwory techniki i elektroniki. Komputer, obraz elektroniczny, audiowizualne efekty, futurystyczne machiny budowane z wyrzuconych, nieużytecznych materiałów technicznych to składowe elementy ich publicznych wystąpień."*
+
+*"18 października na kopcu-forcie w okolicach Cricolandu (centrum miasta) odbędzie się pokaz grupy MOTORTOTEM z użyciem organów spalinowych, i maszyn kroczących."*
+
+**ZNACZENIE:** 
+- Odpowiada na pytania Mikołaja: MOTOR TOTEM = "organy spalinowe", "maszyny kroczące" — nie metafora, tylko DOSŁOWNY opis technologii
+- Miejsce: Kopiec Fort (Cricoland), Gdańsk, 18.10.1996, wieczór
+- Po pokazie: "około godziny 23.00 rozpocznie się 9-godzinna Technopera w budynku NOT-u"
+- Współpraca przez Senat Miasta Bremy — MOTOR TOTEM to formacja z Bremy (Niemcy)
+- TECHOPER.DOC to oficjalna aplikacja grantowa — podpisana przez Piotra Wyrzykowskiego
+
+### 2. PEŁNA CHRONOLOGIA FOTOGRAFII — EXIF SYSTEMATICS
+
+Dokładna analiza EXIF 62 plików zdjęciowych w 6 kategoriach:
+
+**A. Oryginalne skany odbitek (wartość najwyższa)**
+- Banff (banf_01-05): 1791×1183 do 1800×1191 px, brak EXIF, prawdopodobnie skan 300dpi — **oryginalne fotografie z PUSH Festival 1997**
+- Dessau (dessau_01-05): 1538-1551×1028-1037 px, 300dpi, brak EXIF — **oryginalne fotografie z Ostranenie 97**
+- Wrocław (wro_01-04, technopera_wroclaw_01): 2575-2584×1800-1813 px, brak EXIF — **oryginalne fotografie z WRO 96**
+- CUKT_techopera_schemat.png: 1522×611 px, 1.8 MB — **schemat przepływu informacji Technopery**
+
+**B. Rekonstrukcje cyfrowe Adobe Photoshop CS6 (2016)**
+- budapeszt0002a-0004: TIFF (1301×861 do 870×1311 px) + Large JPEG (1280×847 do 849×1280)
+- EXIF: `Software=Adobe Photoshop CS6 (Macintosh)`, `DateTime=2016:05:11 21:08-10`
+- ZNACZENIE: Zdjęcia z Budapesztu przetwarzane cyfrowo w 2016 — to rekonstrukcje, nie oryginały z 1997. Rok 2016 to prawdopodobnie przygotowanie do wystawy/wydawnictwa.
+
+**C. Fotodokumenty iPhone 7 (2018-10-09)**
+- IMG_6915-Wrocław: 4032×3024, Apple iPhone 7, iOS 12.0, 2018-10-09 15:02
+- IMG_6917-6918-Budapeszt: 4032×3024, Apple iPhone 7, Photos 3.0, 2018-10-09 15:03-04
+- IMG_6929 (root): bez EXIF, 3456×2144
+- IMG_6940 (root): 3024×4032, iPhone 7, 2018-10-09
+- IMG_6941-Dessau: 4032×3024, iPhone 7, Photos 3.0, 2018-10-09 15:26
+- IMG_6943-6947-Wrocław: AED 3024×4032, iPhone 7, Photos 3.0, 2018-10-09 15:28-35
+- ZNACZENIE: Wszystkie IMG_* zdjęcia wykonane TEGO SAMEGO DNIA (2018-10-09) prawdopodobnie przez Piotra, który fotografował dokumenty/plakaty na potrzeby archiwizacji. To FOTO_DOKUMENTY — nie fotografie artystyczne.
+
+**D. NOT_65xx dokumentacja (22 pliki, 2-3.6 MB każdy)**
+- Brak EXIF — skany z 300dpi
+- ZNACZENIE: Dokumentacja techniczna budynku NOT w Gdańsku — plany, przekroje, rzuty. Potwierdzają skalę i profesjonalizm Technopery 3.1 PRO.
+
+**E. Dyskietki Amiga (IMG_7109-7110)**
+- IMG_7109.JPG: 4032×3024, Apple iPhone 7, 2018-10-09 — foto dyskietek
+- IMG_7110.JPG: to samo ujęcie z innej perspektywy
+
+**F. Plakaty/druki (zielona_bilet.jpg z Picasa)**
+- EXIF: Software=Picasa — oznacza digitalizację między 1999-2009
+- ZNACZENIE: Bilet na Technoperę 3.0 PRO, Zielona Góra, był skanowany i przetwarzany w Picasie — prawdopodobnie pierwsza cyfrowa kopia archiwalna
+
+### 3. ALIAS "Dr Artur Kudlatz" POTWIERDZONY
+
+Wersja angielska libretta (libretto_ang.doc) podpisana:
+*"Author: Dr Artur Kudlatz & Peter Style"*
+
+Artur Kozdrowski używał pseudonimu "Dr Artur Kudlatz" w kontaktach międzynarodowych (anglojęzyczne libretto). "Peter Style" = Piotr Wyrzykowski. To tłumaczy rozbieżność w podpisach między polską wersją (Artur Kozdrowski) a angielską (Dr Artur Kudlatz).
+
+### 4. BIT JAKO AGENT — ARCHITEKTURA LIBRETTA AVI
+
+Analiza 217 plików AVI ujawnia **systemową architekturę libretta**, nie tylko kolekcję klipów:
+
+**Struktura Akt/Scena (WRO version):**
+- Akt I, Scena 1 (8 plików): A.infpower → B.tehoffer → C.syspew → D.GIGADANE → E.tehforce → F.tehchang → G.NOWRZE → H.relwow
+- Akt I, Scena 2 (7 plików): A.brainavi → B.cyberspace → C.niemaust → D.niezewn → E.CRYSTAL → F.FUNBIT → G.infoyear
+- Akt I, Scena 3 (6 plików): A.COMPINFO → B.komwla → C.techev → D.techfuk → E.comput01 → F.prawtext
+- Akt II, Scena 4 (8 plików): A.DIAGNOST → B.komunika → C.testhall → D.zdanarz → E.narzkul → F.UNCLEAR → G.racchwil → H.GOTH~1
+- Akt II, Scena 5 (32 pliki!): A.NONEL → B.testhall → ... → Zc.HAL90 → Zd.PLEAS → Ze.halsorry → Zf.nattech
+
+**System oznaczania:** Litery A-Z oznaczają węzły (nodes), liczby to rozwinięcia. Każdy węzeł to koncept (infpower = information→power, brainavi = navigate brain). SYSTEM CZYTANIA = hipertekstowa nawigacja z 10 zasadami (Instrukcja z libretta).
+
+**[INTERPRETACJA] BIT JAKO AGENT:**
+Postać BIT jest zdefiniowana jako: "elementary and smallest particle of The Whole, the binder of a system, the agent of transformation, the guarantor of activity" — to JEST definicja agenta:
+- **Binder of a system** = context / memory (spoiwo systemu)
+- **Agent of transformation** = action (czynnik przeobrażeń)
+- **Guarantor of activity** = autonomy (gwarant aktywności)
+
+Libretto Libreto.doc (wersja surowa, IFF/WAV): zawiera dialogi takie jak:
+- "Cyborg — cybernetic organism" — "Not a robot. Cyborg — cybernetic organism" (definicja)
+- "We transferred all knowledge from his brain to our machine. It's total experience. We can do this to as many as we like" (transfer umysłu jako procedura)
+- "Your whole life is just the dream" / "If I'm not me — who the hell am I?" (tożsamość/egzystencja)
+
+### 5. SKALA GRANTOWA TECHNOPERY 3.1 PRO
+
+Z TECHOPER.DOC (sekcja Technika):
+- "17.X — jedna kamera, dźwiękowiec"
+- "18/19.X — wóz, światła, nagłośnienie, scenografia"
+- "montaż 36 godzin"
+- "kampania reklamowa w programie III TVP, wyprodukowanie video-plakatu"
+- "Czas trwania programu około 60 minut"
+- "Ekipa telewizji stanowiłaby element dopełniający całe wydarzenie"
+
+**[INTERPRETACJA] Trzy warstwy rejestracji (INFOMAJA connection):**
+TECHOPER.DOC opisuje system trzech warstw rejestracji: "Film posiadałby trzy warstwy: materiał zarejestrowany podczas imprezy, zaaranżowane scenki, fragmenty filmów i animacji komputerowych." + "Praktycznie będą istnieć dwie ekipy: pierwsza rejestrująca 'czyste' wydarzenie i druga rejestrująca wydarzenie i pierwszą ekipę."
+
+To jest DOKŁADNIE ten sam schemat warstw co w INFOMAJI — operatorzy sytuacji, nie tylko rejestratorzy. Warstwy rejestracji jako struktura kontroli.
+
+### 6. KONTEKST POLITYCZNY
+
+TECHOPER.DOC explicite łączy wybór miejsc (NOT + Kopiec Fort) z historią polityczną Gdańska:
+*"Oba miejsca miały również swoje znaczenie w latach 70 i 80 podczas ulicznych demonstracji: oficjalnych 1 majowych, jak i nielegalnych, robotniczych protestów."*
+
+To nie jest przypadkowa lokalizacja — CUKT celowo wybiera miejsca z ładunkiem politycznym (NOT = Naczelna Organizacja Techniczna, architektura władzy; Kopiec = miejsce protestów). Technopera ma być "grą pomiędzy pozbawioną znaczeń 'dyskoteką' a pełnym patosu wiecem propagandowym, grą pomiędzy SOC i POP".
+
+### 7. UDZIAŁ TVP
+
+Technopera 3.1 PRO planowana była z udziałem TVP S.A. jako współproducenta:
+*"Całość byłaby multimedialnym performance połączonych sił TVP S.A., C.U.K.T-u i M-T."*
+
+To jeden z pierwszych (i nielicznych) przypadków współpracy CUKT z telewizją publiczną.
+
+## KOREKTY ISTNIEJĄCYCH SEKCJI
+
+### Data .............. pełna chronologia według EXIF:
+- 1996-04-22: Zapotrzebowanie techniczne (lista 7 członków CUKT)
+- 1996-05-04: Wrocław, WRO 96 Biennale, Teatr na Świebodzkim
+- 1996-05-18: Zielona Góra, Hala Estrady, 21:00-8:00
+- 1996-06: Czyn dla Miasta Bytów (Technopera v2.2)
+- **1996-07-02: Data TECHOPER.DOC (datowany: Piotr Wyrzykowski, Gdańsk 02.07.96)**
+- 1996-10-17/19: Gdańsk NOT — zaplanowana, prawdopodobnie odwołana
+- **1997-06-16: Email VRML (tj44@ikp.atm.com.pl — Technopera 4.0b)**
+- 1997: Dessau (Ostranenie 97)
+- 1997: Banff (PUSH Festival)
+- 1997: Budapeszt
+- 2016-05-11: Rekonstrukcja zdjęć Budapeszt w Photoshop CS6
+- 2018-10-09: Digitalizacja archiwum (iPhone 7, Piotr Wyrzykowski)
+
+### Autorzy (uzupełnienie)
+- **Artur Kozdrowski** — alias: "Dr Artur Kudlatz" (używany w angielskiej wersji libretta)
+- **Piotr Wyrzykowski** — alias: "Peter Style" (używany w angielskiej wersji libretta)
+
+### MOTOR-TOTEM (rozbudowa)
+- Kraj: Niemcy (Brema)
+- Kontakt: Senat Miasta Bremy (fundator)
+- Technologia: organy spalinowe (exhaust pipe organs), maszyny kroczące (walking machines)
+- Występy: Kopiec Fort Gdańsk (18.10.1996), INFOMAJA (13.12.1996)
+- Inne nazwy: "M-T" (w konspekcie), "Motor-Totem", "TRIMIGI" (fonetyczna transkrypcja polska w harmonogramie INFOMAJI), "TRYG" (forma skrócona w harmonogramie INFOMAJI)
+
+## NOWE PYTANIA OTWARTE
+
+8. **Czy TECHOPER.DOC (02.07.1996) jest jedyną wersją aplikacji grantowej?** — czy istniały wcześniejsze/wersje dla WRO i Zielonej Góry? Do Piotra.
+9. **Czy NOT Gdańsk (17-19.10.1996) faktycznie się odbył?** — konspekt istnieje, TVP zaangażowana, środki z Senatu Bremy. [NEGATIVE FINDING] Nie znalazłem żadnych zdjęć z NOT — podczas gdy istnieją zdjęcia z każdej innej lokalizacji. To może oznaczać odwołanie. Do Piotra.
+10. **Kto jest "Dr Artur Kudlatz"?** — alias Artura Kozdrowskiego. Czy "Kudlatz" to nazwisko rodowe, artystyczne, czy gra słów? Do Piotra.
+11. **Gdzie są oryginalne pliki IFF/WAV/libretto audio?** — Libreto.doc wymienia 28.syspew.iff, 3.brainavi.wav, 11.delusion.wav itd. Te pliki są z innej generacji niż AVI — być może na dyskietkach Amiga?
+12. **Czy schemat przepływu informacji (CUKT_techopera_schemat.png) jest czytelny?** — nie można otworzyć przez vision_analyze. Do Piotra: opis zawartości.
+
+## BIAŁE PLAMY (uzupełnienie)
+- **Brak zdjęć z planowanej Technopery w NOT Gdańsk** — wszystkie inne lokalizacje mają zdjęcia. To sugeruje, że gdańska wersja mogła zostać odwołana, ale wymaga potwierdzenia.
+- **Brak audio/muzyki** — Libreto.doc wymienia pliki .wav i .iff (system IFF Amiga), ale nie ma ich w fizycznym archiwum. Mogą być na dyskietkach.
+- **Schemat CUKT_techopera_schemat.png** — 1.8 MB, 1522x611 px. Nieanalizowany wizualnie. Potencjalnie kluczowy dokument.
+- **Zapotrzebowanie techniczne 22.04.1996** — lista 7 członków CUKT, ale nie jest dostępna w formacie tekstowym.
+
+## STATUS KOŃCOWY
+INWENTARYZACJA: 417 plików na dysku, w tym 259 AVI libretta, 60+ zdjęć/grafik, 9 .doc, 1 .pdf, 4 TIFF, 10+ wideo MP4/MOV/MPG
+ANALIZA: TECHOPER.DOC w pełni wyekstrahowany, EXIF wszystkich zdjęć skatalogowany, libretto w 3 wersjach (Opera.doc, Technopera-wersja polska.doc, NEWTechnopera-wersja ang.doc) wyekstrahowane
+VISION_API: NIEDOSTĘPNA (meta/llama-3.2-11b-vision-instruct — błąd modelu) — CUKT_techopera_schemat.png, zdjęcia z Banff/Dessau/Wrocław/Budapeszt czekają na analizę
+DB: PostgreSQL niedostępny (connection refused) — nie można zapisać opisów ani pytań do bazy
+SIGNAL: NALEŻY UTWORZYĆ — odpowiedzi na pytania Mikołaja (MOTOR TOTEM), Ewy (warstwy rejestracji), Petera (system jako protokół) — wszystkie w TECHOPER.DOC

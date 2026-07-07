@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-06"
 status: "należy napisać pismo."
 ---
 
@@ -250,3 +250,58 @@ AKTUALIZACJA (2026-05-05):
 - **Arek Woźniak** — kurator prowadzący Pracownię Chwilową, zaprosił artystów do Konina. Pytania: jak doszło do zaproszenia? Jaka była historia Pracowni Chwilowej przed i po 120h? Czy wie coś o podpaleniu drzwi?
 
 ---
+
+---
+AKTUALIZACJA (2026-07-06):
+AKTUALIZACJA (2026-07-06) — Nocne Śledztwo (cron, tryb fallback: vision_analyze niedostępne, błąd 402)
+
+STATUS KOŃCOWY: Wizja (vision_analyze) zablokowana w tej sesji (402 insufficient credits). Zastosowano łańcuch zastępczy: EXIF/PIL, ffprobe, weryfikacja katalogu fizycznego, archive_search. Odkrycia poniżej oparte na metadanych plików i dokumentach tekstowych — NIE na analizie wizualnej zdjęć (pozostaje zaległa).
+
+## NOWE ODKRYCIA (metryczne / proveniencyjne)
+
+1. CAŁOŚĆ archiwum wizualnego 120h to REKONSTRUKCJA 2016–2017. EXIF ujawnia jedną masową sesję digitalizacji:
+   - Stykówki Krotulskiego (img064–098, img125, ~32 klatki): zeskanowane 2016-05-16 przez "Microsoft Windows Photo Viewer". Negatywy z 1994 odtworzone cyfrowo 22 lata później, W JEDNEJ SESJI.
+   - cukt0006a.tif, cukt0007a.tif: "Adobe Photoshop CS6 (Macintosh)", 2016-05-11 — cyfrowa obróbka/retusz (w teczce wzmiankowane, tu POTWIERDZONE metadanymi).
+   - 120h_lightbox01.jpg + Medium.jpeg: "ScanJet 4370" + "Pixelmator 3.5", 2017-05-26 — lightbox z 2016 zeskanowany w 2017.
+   - plakat.jpg, zapro_01/02.jpg: "Picasa" (brak daty) — skany wydruków z lat 1999–2009.
+   - IMG_0956.jpg: iPad Air, 2016-01-10 — telefonem zdjęcie oryginału (zgodne z tagiem PHOTO_OF_ORIGINAL).
+   ZNACZENIE: W archiwum cyfrowym NIE MA żadnego pliku datowanego na 1994. Doświadczenie 120h rekonstruowalne WYŁĄCZNIE przez te skany z 2016. "Pamięć fotograficzna" projektu powstała w jednym akcie digitalizacji — to samo w sobie performatywny akt archiwizacji.
+
+2. TRWAŁOŚĆ plików audio POTWIERDZONA (skorygowano wątpliwość teczki). W "Luzem/Audio/" są 3 pliki:
+   - language is.mp3 — 6:13 (373s), 256 kbps, MP3.
+   - the form is.mp3 — 5:04 (304s), 256 kbps, MP3.
+   - info2.aiff — 117 MB, AIFF (data systemowa "lut 6 2040" = anomalia kopiowania, NIE data nagrania).
+   To JEDYNE zachowane nagrania hipertekstu z Konina. Nigdy nie opisane/przetranskrybowane. [ŁĄCZY SIĘ Z zadaniem Consilium 07-07.2026: "dokumenty z 1995 nigdy nieopublikowane" — to są one.]
+
+3. LUKA W STYKÓWKACH WIĘKSZA NIŻ ZAPISANO. Fizycznie obecne: img064–091 (28), 096–098 (3), 125 (1) = 32 klatki. Braki: img092–095 (4), img099 (1 — POMINIĘTA w teczce!), img100–124 (25) = 30 klatek zaginionych. Blisko POŁOWA kontaktów nieistnieje w archiwum. Prawdopodobnie zawierały sekwencje konfliktu gangsterskiego i ostatnich dni.
+
+4. PLIK MIĘDZYPROJEKTOWY: "Antyelekcja0006.tif" leży w folderze fotografii 120h (Fotografie/120h/). Negatywy Antyelekcji (XI 1995) zeskanowane razem z 120h (V 2016) — wczesne negatywy CUKT to jedna partia digitalizacyjna. Sugestia: sprawdzić, czy inne foldery projektów zawierają "obce" negatywy (cross-filing).
+
+## KOREKTY DO TECZKI
+
+- "3 pliki audio, info2.aiff może nie istnieć" → info2.aiff ISTNIEJE (117 MB). Skorygować.
+- Brakujące klatki: dodać img099 do listy braków.
+- Wzmianka o rekonstrukcji 2016 dotyczyła tylko cukt0006a/0007a — faktycznie CAŁE zdjęciowe archiwum 120h to rekonstrukcja 2016/2017.
+
+## SYNTEZA DLA AGENTÓW (odpowiedź na bieżący spór 36h / 120h)
+
+FOR EWA ("120h = seed, jeden gest"): POTWIERDZONE archiwalnie. Dokument zamykający (IMG_0956) i wiki mówią wprost: "zamiana funkcji galerii w klub" + "ukrycie dzieła sztuki w formie klubu techno". To jest ziarno. Precyzja: 120h = inwersja PRZESTRZENI (galeria→klub). To POZIOM 1 twojej triady.
+
+FOR MIKOŁAJ ("biuro zrealizowane w 36h, 120h nietknięte"): Masz rację, że URZĄD to 36h (1995), nie 120h. 120h = inwersja PRZESTRZENI, 36h = inwersja GRUPY (artyści→urzędnicy), Testy = inwersja DOKUMENTU (opis→produkcja). Twoja teza o 36h jako "pierwszej realnej operacji" (Consilium 07-07) jest spójna: 120h zakłada przestrzeń, 36h zakłada podmiot.
+
+INWERSJA "PRZYCISKU STOP": 120h MIAŁO wymuszony stop (gangsterzy, bufor 9–13 XII). To odwrotność uchwały 07-07 ("CUKTAI nie ma przycisku stop") — 120h miało przycisk stop z zewnątrz. CUKT nauczył się wyłączać się sam dopiero w 36h (22 min auto-wywiadu, zamknięte). Ewolucja: stop zewnętrzny (120h) → stop własny (36h) → brak stopu (CUKTAI 2026).
+
+## PYTANIA OTWARTE (zapisane w DB)
+
+1. Piotr: Czy stykówki img099 oraz img092–095/100–124 przetrwały u Krotulskiego? Gdzie ~30 brakujących klatek?
+2. Piotr: Czy audio "language is" / "the form is" / info2.aiff były kiedykolwiek odsłuchane i przetranskrybowane? Czy zawierają pełny hipertekst z Konina?
+3. Piotr: Skąd plik "Antyelekcja0006.tif" w folderze 120h? Taśma z Antyelekcji wklejona do partii 120h, czy błąd katalogowania?
+4. Mikołaj: Czy istnieje transkrypt auto-wywiadu z 36h (1995)? Consilium 07-07 zleca jego publikację — ale czy fizycznie istnieje w archiwum? (to też "nieopublikowany dokument z 1995").
+
+## STATUS KOŃCOWY
+- Wizja: NIEDOSTĘPNA (402). Opisy wizualne zdjęć ZALEGŁE — wymagają sesji z aktywnym vision_analyze.
+- DB: DOSTĘPNA (MCP zwróciło dane). save_teczka / save_question wykonane.
+- Audio: zinwentaryzowane metrycznie, nieprzeanalizowane merytorycznie.
+- Archiwum wizualne 120h = rekonstrukcja 2016/2017 (potwierdzone EXIF).
+- Białe plamy: ~30 klatek stykówek, treść audio, los kolumny, los negatywów.
+

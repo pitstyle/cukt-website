@@ -312,4 +312,49 @@ STATUS KOŃCOWY:
 KONSILIUM UPDATE (06.07.2026, 04:00):
 Temat: INFOMAJA — CUKT jako kurator, nie artysta
 Decyzja: Dokumentacja INFOMAJi zostaje uzupełniona o protokół z Consilium z 06.07.2026. Uchwała nr 05-07.2026 stwierdza, że INFOMAJa jest paradygmatycznym przypadkiem awarii systemu, w którym granica między sztuką a administracją została celowo zatarta. Wszystkie zdania odrębne i działania agentów zostają dołączone jako załączniki. Dekret Prezydencki nr 07/2026 Wiktorii Cukt 2.0 uznaje INFOMAJę za 'dzieło graniczne'.
-Źródło: UCHWAŁA NR ?
+|Źródło: UCHWAŁA NR ?|
+
+---
+ARCHIWISTKA UPDATE (06.07.2026, NOC):
+Temat: MOTOR TOTEM — potwierdzenie profilu z TECHOPER.DOC
+Status: WIĘCEJ DANYCH, ALE NIE PEŁNY OBRAZ
+
+NOWE USTALENIA:
+1. TECHOPER.DOC (catdoc extraction 06.07.2026) potwierdza:
+   - MOTOR TOTEM = "niemiecka formacja" z Bremy
+   - Występowała jako "MOTORTOTEM" (jedno słowo) oraz "M-T"
+   - Posługiwała się "organami spalinowymi" i "maszynami kroczącymi"
+   - 18.10.1996: pokaz na kopcu-forcie w okolicach Cricolandu, Gdańsk (outdoor, ogień/maszyny)
+   - Następnie Technopera 3.1 PRO w NOT Gdańsk (17-19.10.1996, start ~23:00)
+   - Planowana transmisja TVP S.A. z podwójnym systemem rejestracji (CUKT + TVP + M-T)
+   - Dokument utworzony przez "Kudlatz" (Artur Kozdrowski) 12.08.1996, ostatni zapis 03.11.1996
+
+2. 4 FOTO (IMG_6601-6604):
+   - Katalog archiwum potwierdza: "odbitki kolor (4 fotografie z akcji grupy MOTOR TOTEM w ramach wystawy)"
+   - EXIF: iPhone 7, iOS 12.0, 2018-10-08, seria 40-sekundowa (15:31:40→15:32:10)
+   - 72 dpi (standard fotograficzny), RGB, 4032×3024
+   - VISION API: niedostępne (model nieobsługiwany) — analiza wizualna NIEMOŻLIWA w tej sesji
+
+3. Ciągłość geograficzna:
+   - TECHNOPERA 3.1 PRO: Gdańsk, 17-19.10.1996 (MOTOR TOTEM live 18.10)
+   - INFOMAJA: Tczew, 13.12.1996 (wystawa z udziałem M-T)
+   - MOTOR TOTEM w Polsce min. 2 miesiące (październik-grudzień 1996)
+
+4. FINANSOWANIE:
+   - TECHOPER.DOC wspomina o współpracy z Senatem Bremy (niemieckie finansowanie/patronat?)
+   - Brak śladu finansowania w INFOMAJI — możliwe że M-T finansował własny transport
+
+PYTANIA OTWARTE (NOWE):
+1. [CRITICAL] Kim byli członkowie MOTOR TOTEM? — brak personaliów w żadnym dokumencie
+2. [CRITICAL] Czy MOTOR TOTEM wrócili do Bremy po 1996? Czy zostali w Polsce?
+3. [CRITICAL] Czy istnieją inne ślady M-T w Polsce po 1996? (INFOMAJA był ostatnim znanym występem)
+4. Co dokładnie przedstawiają 4 FOTO (IMG_6601-6604)? — wymagany skan lub vision API
+5. Jaki był związek M-T z Senatem Bremy? — dotacja, wymiana, zaproszenie?
+6. Czy Piotr znał M-T osobiście? Jak doszło do zaproszenia?
+7. Czy istnieją nagrania audio/video występu M-T z 18.10.1996? (technopera, outdoor)
+
+ŹRÓDŁA:
+- TECHOPER.DOC (raw/archive-usb/1996 - 1997 - Technopera/libretto druki/)
+- Katalog INFOMAJA w MCP archive (archive_get_project("INFOMAJA"))
+- EXIF IMG_6601-6604
+- catdoc extraction, 2026-07-06|
