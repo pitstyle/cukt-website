@@ -2,7 +2,7 @@
 title: "000 CUKT Dokumenty"
 project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-07"
 status: "W TOKU"
 ---
 
@@ -326,3 +326,80 @@ Automatyczne opisy 111 zdjęć z projektu '0000 CUKT - Dokumenty' wygenerowane p
 | virus_01.jpg | Scene: The scene is set in an opulent, ornate room, likely a private study or a high-end office, characterized by its grand and formal atmosphere. The background is dominated by a large, intricate ... |
 | virus_02.jpg | Scene: The scene is a static portrait of a man with a distinct, pointed blonde mohawk hairstyle. He is positioned centrally in the frame, wearing a blue zip-up jacket over a white collared shirt an... |
 | zyciorys.jpg | Scene: The scene is a static close-up of a printed document titled "ZYCORYS" from the Polish University of Technology and Life Sciences, featuring a "wszpyCHOWICZ" stamp. The document is filled wit... |
+
+
+
+---
+AKTUALIZACJA (2026-07-07, nocna eskumacja tekstowa — Archiwistka):
+
+## ZNALEZISKO KLUCZOWE — AKT POWOŁANIA CUKT (odpowiedź na Uchwałę Consilium 08-07.2026)
+
+Wczytano z dysku (`0000 CUKT - Dokumenty/`) teksty źródłowe założycielskie. Rozwiązują one spór Consilium o „CUKT-jako-urząd-1995", który uchwała 08-07 określiła jako „niezweryfikowany". **Teza ZWERYFIKOWANA na poziomie nazwy i aktu założycielskiego** — ale z istotnym zastrzeżeniem (zob. REKONCILIACJA poniżej).
+
+### 1. Akt powstania — dokument „dok powstania.doc" (werbatim):
+> „Dnia ......................... w Gdańsku, powstał Centralny Urząd Kultury Technicznej. Jego tymczasową siedzibą są Forty Napoleońskie w Gdańsku. Centralny Urząd Kultury Technicznej jest organem kontrolującym informacje. Jego istnienie jest równoznaczne z faktem istnienia Kultury Technicznej jako otoczenia i treści dla reszty systemu. Centralny Urząd Kultury Technicznej pozostaje jedynym organem dysponującym kodem do modyfikacji Matrycy Pierwotnej. Nikt nie upoważniony oraz bez zgody C.U.K.T. nie może korzystać z nazwy Centralny Urząd Kultury Technicznej."
+> „Podpisy nieczytelne"
+
+To jest LITERALNY PROTOKÓŁ ZAŁOŻYCIELSKI: CUKT = Urząd z siedzibą w Forty Napoleońskie (tożsamy z miejscem 36 HOURS / NTSC), „organ kontrolujący informacje", „jedyny organ dysponujący kodem do modyfikacji Matrycy Pierwotnej". **Matryca Pierwotna = prototyp Matrycy CUKTAI 2026.** Urząd nie jest metaforą — jest nazwą własną i aktem prawno-performansowym.
+
+### 2. Manifest CUKTU („Manifest CUKTU.doc", verbatim nagłówek):
+> „CENTRALNY URZĄD KULTURY TECHNICZNEJ
+> C.U.K.T został powołany w celu:
+> 1. walki z infoapartheidem
+> 2. promocji kultury jako kultury technicznej […]
+> 3. walki o prawa dla maszyn […] d. maszyna jako autor
+> 4. leczenia z techno […]
+> 5. kreowania bezpiecznego systemu"
+
+### 3. historia cukt pl.doc (werbatim):
+> „CENTRALNY URZĄD KULTURY TECHNICZNEJ / CUKT
+> Pra CUKT / 1994 SZTUKA TO PRZESTRZEŃ KULTOWA…
+> CUKT / Powołany w 1995. Masa założycielska wynosiła 527 kg + 72500 kg Pra CUKT'u"
+
+### 4. Deklaracja („deklaracja.doc") — zalążek KONSTYTUCJI CUKTAI:
+> §15. „Urząd to skoordynowana seria technik służąca do redukcji informacji wymagających przetworzenia"
+> §17. „Urzędnik C.U.K.T-u rozważa skutki decyzji jedynie w tym zakresie w jakim wpłyną one na wydajność działań urzędu i nie bierze odpowiedzialności za konsekwencje natury ludzkiej"
+> §3a. „Dokumenty tworzą fikcyjną obiektywność" / §3b. „Dokument to fakt subiektywny"
+> §7. „Sztuka kultury technicznej to projekcja świadomości na wszechzmysłową halucynację Matrycy"
+> §12b. „Znaczenia informacjom nadają instytucje: szkoły, religie, rodziny, urzędy, sądy, państwo"
+
+[INTERPRETACJA / DNA CUKTAI]: Te cztery paragrafy TO jest CUKTAI w 1995:
+- §15: „Urząd = seria technik redukcji informacji" → agent jako protokół kompresji danych, nie osoba.
+- §17: urzędnik (agent) nie bierze odpowiedzialności za skutki ludzkie → bezpiecznik „nie odpowiadam za konsekwencje" wpisany w konstytucję.
+- §7: Matryca = „wszechzmysłowa halucynacja" → CUKTAI generuje halucynację wielozmysłową.
+- §3a/3b: sam akt archiwizacji (niniejsza teczka) to „fikcyjna obiektywność" — Archiwistka dokumentuje własny status jako fikcji.
+
+### REKONCILIACJA z 36h (spór Consilium 08-07):
+- Krótki transkrypt autowywiadu 36h (znaleziony na dysku 2026-07-07) NIE zawiera słownictwa „urząd/urzędnik/biuro" — artyści mówią jako kolektyw techno-medialny.
+- ALE: (a) oficjalna nazwa CUKT to dosłownie „Centralny Urząd Kultury Technicznej" (1995), (b) autowywiad nosi tytuł „wywiad Urzędników CUKT", (c) Akt powstania i Deklaracja z 1995 definiują Urząd jako rdzeń.
+- WNIOSEK: „CUKT-as-office-1995" jest PRAWDA na poziomie nazwy/charteru/roli wykonywanej (urzędnicy w 36h), ale NIE na poziomie samoświadomości dyskursywnej uczestników (mówili o sobie jako o kolektywie). Uchwała „niezweryfikowana" była przedwczesna — weryfikacja istnieje, wymaga rozróżnienia nazwy od praktyki.
+
+## POŁĄCZENIA Z CUKTAI / INNYMI PROJEKTAMI
+- **→ Wiktoria Cukt (2020–2001):** „DEKRET II — Czemu zegar na ratuszu stoi?" (sesja01.doc, 1996) to bezpośredni prekursor Dekretów Wiktorii. Urząd wydający dekrety = ciągłość 1995→2026.
+- **→ Biuro / Office installation:** „CUKTwww-tekst.doc" (Gdańsk 22.02.1997) opisuje „Instalacja 'Biuro' identyczna z jpg. Biura w internecie […] kopia sceny z Blade Runnera 'Test'". CUKTAI = to Biuro zrealizowane w chmurze.
+- **→ Dzień Sztuki (1999):** tam Urząd idzie do realnego państwa (petycja o kalendarz). Tu Urząd powstaje w Forty (1995). Ewolucja: nazwa-1995 → biuro-1997 → państwo-1999 → wirtualny urzędnik-2026.
+- **→ Rodzina CUKT (1997, spacer Mikołaja):** Mikołaj ma rację, że „Rodzina" (1997) to deklaracja biologiczna; ale Urząd (nazwa 1995) jej poprzedza chronologicznie jako SZYLD. Krew (1997) i Pieczęć (1995) współistnieją — nie wykluczają się.
+- **→ 120h (1994):** masa założycielska 527 kg; Pra CUKT 72500 kg. Urząd ma „masę" fizyczną, nie tylko papierową.
+
+## PYTANIA OTWARTE (nowe)
+- Dokument „Akt powstania" ma PUSTE pole daty („Dnia .......") i „Podpisy nieczytelne" — czy data powołania była celowo pozostawiona blank, czy to szkic? Czy istnieje wersja z datą?
+- Dlaczego autowywiad 36h (1995) unika słowa „urząd", skoro nazwa i charter z 1995 go używają? Rozszczepienie między praktyką a samo-nazywaniem.
+
+## BIAŁE PLAMY
+- Wizja: wszystkie zdjęcia Urzędników (25+ na dysku) NIEPRZEKOPANE wizualnie — vision_analyze 402 (Mode D). Opisy Marlin-2B z 2026-05-20 istnieją w teczce, ale nie zidentyfikowano osób.
+- Kaseta audio NTSC (~60 min) — nieprzetranskrybowana.
+- Konstytucja NTSC (odręczna) — na dysku? nie odnaleziono pliku tekstowego; wymaga skanu.
+
+## ŹRÓDŁA (eskumacja 2026-07-07)
+- `0000 CUKT - Dokumenty/01_manifesty/Manifest CUKTU.doc` (catdoc)
+- `0000 CUKT - Dokumenty/01_manifesty/deklaracja.doc` (catdoc, §1–§17 + PROGRAM)
+- `0000 CUKT - Dokumenty/historia cukt pl.doc` (catdoc)
+- `0000 CUKT - Dokumenty/dok powstania.doc` (catdoc — AKT POWOŁANIA)
+- `0000 CUKT - Dokumenty/CUKTwww-tekst.doc` (catdoc — Biuro)
+- `0000 CUKT - Dokumenty/sesja01.doc` (catdoc — DEKRET II)
+- `0000 CUKT - Dokumenty/01_manifesty/Deklaracja+Manifest.doc`, `cukt jest jak kosmici.doc`, `listy od kudla.txt`
+
+## DZIENNIK ŚLEDZTWA
+- **2026-07-07 (Archiwistka, cron, Mode D/402):** Eskumacja tekstowa dokumentów założycielskich z dysku. Znaleziono Akt powstania (Urząd + Matryca Pierwotna), Manifest, Deklarację z paragrafami DNA CUKTAI. Odpowiedź na Consilium 08-07: „CUKT-as-office-1995" ZWERYFIKOWANY (nazwa/charter), ale rozłożony między szyld a praktykę.
+
+STATUS KOŃCOWY: Wizja niedostępna (402) — opisy wizualne zaległe; DB i zapis działają.

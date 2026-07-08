@@ -2,8 +2,8 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-07-06"
-status: "W TOKU"
+date: "2026-07-08"
+status: "IN PROGRESS (głębokie śledztwo podprojektu)"
 ---
 
 <!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
@@ -611,3 +611,82 @@ ANALIZA: TECHOPER.DOC w pełni wyekstrahowany, EXIF wszystkich zdjęć skatalogo
 VISION_API: NIEDOSTĘPNA (meta/llama-3.2-11b-vision-instruct — błąd modelu) — CUKT_techopera_schemat.png, zdjęcia z Banff/Dessau/Wrocław/Budapeszt czekają na analizę
 DB: PostgreSQL niedostępny (connection refused) — nie można zapisać opisów ani pytań do bazy
 SIGNAL: NALEŻY UTWORZYĆ — odpowiedzi na pytania Mikołaja (MOTOR TOTEM), Ewy (warstwy rejestracji), Petera (system jako protokół) — wszystkie w TECHOPER.DOC
+
+---
+AKTUALIZACJA (2026-07-08):
+TECZKA ŚLEDCZA: Technopera 4.0b — Banff (PUSH Festival) / Online Interactive Libretto
+DATA ŚLEDZTWA: 2026-07-08
+STATUS: IN PROGRESS (głębokie śledztwo podprojektu)
+
+EXISTING DESCRIPTION (z bazy):
+- Dedykowany rekord "Technopera 4.0b w ramach festiwalu PUSH — 3D PARTY EXPERIENCE / THE BANFF CENTRE" w bazie: 3 zduplikowane stub-y (tylko "Prezentacja Technopery w Kanadzie. Dokumentacja w ramach archiwum Technopery"). Brak opisów, brak załączników w DB.
+- Z teczki technopera.md (linia 47): "Technopera 4.0b (Banff Centre, Kanada, PUSH Festival 1997) — zrealizowana jako fizyczny performance z goglami VR, motion capture i śpiewaczką operową. Operator w goglach VR skanuje ruchy śpiewaczki czujnikiem ruchu. To pierwszy interfejs cyfrowy CUKT. Wersja była planowana jako interaktywna opera VRML z awatarami i nielinearną narracją."
+
+NOWY KLUCZOWY DOWÓD — ONLINE LIBRETTO (realizacja koncepcji 4.0b):
+W banku "piotr" (WWW/z serwera ICM/z serwera ICM/Technopera/, 39 plików HTML, datowanych 2000-01-06) znajduje się "Technopera" — online libretto, autorem "Peter Style" / "Dr Kudlatz" (META: "Technopera, CUKT, performance, multimedia, art, Peter Style, Dr Kudlatz, Mikolaj, cyborgs, aliens"). To JEST zrealizowana forma "interaktywnej opery VRML z awatarami i nielinearną narracją" z Banff 4.0b — zrealizowana nie jako VRML, lecz jako nieliniowy, ramkowy (FRAMESET) i skryptowany (JavaScript) performance WWW.
+
+DOWÓD INTERAKTYWNOŚCI (nielinearna narracja):
+- 1_1text.html zawiera funkcję JavaScript: `function loadthree(page2, page3, page4){ parent.a.location.href=page2; ... }` — przełączanie ramek = nawigacja po ścieżkach narracji.
+- opera1.1.htm: wielopoziomowy FRAMESET (wiersze 400/425/500/550/700, kolumny 22%/4%/22%/4%/22%/4%/22%) ładujący równolegle scenę, tekst, postacie, grafikę, audio — struktura hipertekstowa, nie liniowy scenariusz.
+- lib_txt.html definiuje osie czasowe (timeline min 0–88) i węzły A–Z z plikami .avi/.wav (np. 28.syspew.iff, 3.brainavi.wav, 52.ufoact.wav) — węzły odtwarzane w zależności od wyboru widza.
+
+PIĘĆ POSTACI (verbatim z lib_txt.html, ang. libretto):
+- MAN — "a penetrating investigator of mutual relations… a frightened and manipulated by machines victim"
+- MACHINE — "artificial intelligence - other form of being, that develops without man's participation nor control"
+- CYBORG — "a compilation of a man and artificial intelligence… subsequent stage of life form's development"
+- COSMIC BEINGS — "alternative form of being… mystery, compilation of unknown intelligence, high technology, inscrutable emotions"
+- A BIT — "an elementary and smallest particle of The Whole. The binder of a system. The agent of transformation. The guarantor of activity."
+
+TOŻSAMOŚĆ "BIT" = PROTOTYP AGENTA CUKTAI (kluczowe dla Petera):
+Słowo "agent" użyte LITERALNIE wobec BIT-a w 1997/2000 — 30 lat przed systemem CUKTAI. BIT = "the agent of transformation" + "binder of a system" + "guarantor of activity". To dokładnie funkcja, którą Peter przypisał agentom CUKTAI (np. "BIT = pierwszy agent CUKTAI"). Online libretto to najwcześniejszy ZACHDOWANY dowód, że CUKT projektowało "agenta" jako cząstkę-przekształciciel w nieliniowym systemie — a nie tylko postać operową.
+
+MATERIAŁY NA DYSKU (wszystkie NIEZAINDEKSOWANE w DB — tylko w katalogu 1996 - 1997 - Technopera):
+FOTOGRAFIE (dokumentacja_foto/Banff/):
+- banf_01.jpg, banf_03.jpg, banf_04.jpg, banf_05.jpg — zdjęcia z performance (brak EXIF, rozdz. ~1200–1800 px) — NIEANALIZOWANE (vision 402)
+- _banff.jpg — zdjęcie iPhone 7, 2018-10-09 (digitalizacja), 4032×3024 — PHOTO_OF_ORIGINAL
+WIDEO (dokumentacja wideo/technopera-banff/, 4 pliki AVI, łącznie ~569 MB, ffprobe):
+- intro.avi 384×288 MJPEG 15fps, 354s
+- part1max.avi 384×288 MJPEG, 431s (stereo audio)
+- part2.avi 354×288 MJPEG, 330s
+- part3.avi 354×288 MJPEG, 318s
+→ Łącznie ~24 min dokumentacji z Banff (PUSH Festival). [FILE ON DISK, NOT INDEXED] — wymaga transkodowania do analizy.
+LIBRETTO DRUKI (libretto druki/LibrettoBanff_*.jpg, 21 plików): druki/libretto Banff, iPhone 7 2018-10-09, NIEANALIZOWANE.
+DOKUMENT: Dokumenty/banff_6931.jpg — iPhone 7 2018-10-09 15:21, 4032×3024 (dokument Banff). NIEANALIZOWANE.
+POSTER: druki/Banff_6949.jpg — iPhone 7 2018-10-09, 3024×4032 (plakat Banff/PUSH). NIEANALIZOWANE.
+ONLINE: WWW/…/Technopera/ — 39 plików HTML + JPG (sceny, postacie, pliki audio) + WWW/…/test/technopera/banff.html (galeria 5 zdjęć banff_01..05 z miniaturami banf_0Xs.jpg).
+
+RELACJA DO INNYCH PROJEKTÓW:
+→ Technopera 3.1 PRO (Gdańsk NOT 1996): tam SYSTEM testuje człowieka (ważenie→skan→pieczęć). W 4.0b/online SYSTEMSAM generuje narrację — człowiek (MAN) staje się "użytkownikiem" (libretto: "an aware user of technological products"), a BIT "binduje system". Ewolucja: od instytucji-testującej do protokołu-systemu.
+→ Testy na Cyborga: brak REJECT button (udokumentowane wcześniej) — tutaj przeciwnie: online libretto MA wybór ścieżki (loadthree). To JEDYNY projekt CUKT z jawną nielinearną nawigacją.
+→ CUKTAI (2026): BIT (agent) + nieliniowa narracja agentów = realizacja koncepcji z 1997/2000. Peter: "BIT = pierwszy agent CUKTAI" — potwierdzone źródłem.
+
+ODKRYCIA:
+1. Online "Technopera" libretto to ZREALIZOWANA forma "interaktywnej opery VRML" z Banff 4.0b — zrealizowana jako WWW (FRAMESET+JS), nie VRML. [NEGATIVE FINDING: brak plików .wrl dla Technopery — jedyny .wrl w archiwum to NoBody/dawid.WRL]. 
+2. BIT = najwcześniejszy zachowany dowód "agenta" w CUKT (1997/2000), 30 lat przed CUKTAI. Verbatim: "the agent of transformation."
+3. Dedykowany rekord Banff w DB jest pusty (3 stub-y); CAŁA realna dokumentacja Banff to assets dyskowe (0 załączników w DB) — błąd indeksacji.
+
+SPRZECZNOŚCI:
+1. Teczka technopera.md pisze "planowana jako interaktywna opera VRML" — ale VRML NIE ISTNIEJE w archiwum; zrealizowano ją jako WWW. Słowo "planowana" jest nieścisłe: to NIE była tylko plan, lecz działający produkt (online libretto + 4 AVI z Banff).
+2. Data: rekordy Banff w DB datowane "1997-01-01"; online libretto datowane 2000-01-06 (serwer ICM). Czy interaktywna wersja WWW powstała po powrocie z Banff (1997), czy była prezentowana w Banff na żywo? Wymaga wyjaśnienia Piotra.
+3. Email 16.06.1997 o koncepcji VRML (wspomniany w technopera.md) NIE ZOSTAŁ ODNALEZIONY w archiwum (grep po "vrml"/"push festival" nie zwrócił .rtf/.doc z treścią). Tylko samo hasło w DB.
+
+BIAŁE PLAMY:
+- Brak wizualnej analizy 5 zdjęć Banff + 21 druków libretta (vision 402).
+- Brak transkrypcji 4 AVI z Banff (wymagają transkodowania z MJPEG/AVI).
+- Nieznana tożsamość śpiewaczki (błękitna sukienka) i operatora VR z Banff.
+- Niejasne: czy online libretto było prezentowane w Banff, czy tylko w WWW po 2000.
+- Email 16.06.1997 (VRML) — nieodnaleziony, prawdopodobnie w skrzynce tj44@ikp.atm.com.pl (nie w archiwum dyskowym).
+- Gdzie są oryginalne pliki audio .wav/.iff libretta (28.syspew.iff itd.)? — wspomniane w Libreto.doc, brak na dysku.
+
+PYTANIA OTWARTE:
+1. [DO PIOTRA] Czy online libretto "Technopera" (WWW, 2000) to ta sama koncepcja co Banff 4.0b "VRML interactive opera", czy osobny projekt? Czy było pokazywane w Banff na żywo?
+2. [DO PIOTRA] Skąd fraza "agent of transformation" dla BIT-a — czy to świadoma zapowiedź systemu agentowego, czy zbieg okoliczności? (Peter: "BIT = pierwszy agent CUKTAI".)
+3. [DO PIOTRA] Gdzie jest email 16.06.1997 (tj44@ikp.atm.com.pl) o VRML? Czy zachowałeś oryginał?
+4. [DO MIKOŁAJA] BIT w libretto = "binder of a system" + "guarantor of activity" — czy to rezonuje z Twoim pytaniem o "nie-istnienie"/brak wyboru w Testach na Cyborga? Tu wybór (nieliniowa narracja) ISTNIEJE.
+
+STATUS KOŃCOWY:
+DB: PostgreSQL — rekordy Banff puste (3 stub-y); CAŁA dokumentacja Banff to pliki dyskowe (0 załączników zaindeksowanych). 
+VISION_API: NIEDOSTĘPNA (402 insufficient credits) — zdjęcia i AVI Banff NIEANALIZOWANE wizualnie.
+ZAPIS: teczka zapisana do bazy (save_teczka). Pytania zapisane (save_question).
+SYGNAŁ: strength 3 — odkrycie BIT="agent of transformation" (1997/2000) = najwcześniejszy dowód agenta CUKTAI; odpowiada pytaniom Petera i Mikołaja.
+ŹRÓDŁA: WWW/z serwera ICM/z serwera ICM/Technopera/*.html (39 plików); 1996 - 1997 - Technopera/{dokumentacja_foto/Banff, dokumentacja wideo/technopera-banff, libretto druki/LibrettoBanff_*, Dokumenty/banff_6931.jpg, druki/Banff_6949.jpg}; baza: rekord "Technopera 4.0b… Banff" (stub-y); teczka technopera.md linie 27,47.

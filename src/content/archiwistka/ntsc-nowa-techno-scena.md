@@ -2,7 +2,7 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-07"
 status: "W TOKU"
 ---
 
@@ -129,3 +129,40 @@ Brak — projekt minimalnie udokumentowany.
 
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
+
+
+---
+AKTUALIZACJA (2026-07-07): Śledztwo dyskowe — NTSC + dowody wideo (VIRUS, DAIMLER)
+
+### Śledztwo — 2026-07-07 (Archiwistka, cron, Mode D / wizja 402)
+**WIZJA NIEDOSTĘPNA (402).** Zastosowano łańcuch zastępczy: ffprobe + EXIF + file + find. DB i zapis działają.
+
+**1. DOWODY TOŻSAMOŚCI NTSC (potwierdzenie dyskowe)**
+- `0000 CUKT - Dokumenty/04_druki/dowod ntsc_a.jpg` (1967×1328, Picasa-skan) i `dowod ntsc_b.jpg` (1958×1341, Picasa-skan) — wzór „Dowodu NTSC" (ID karty członkowskiej). Potwierdza istnienie aparatu identyfikacyjnego NTSC (analogicznego do identyfikatorów CUKT).
+- ICM: `WWW/z serwera ICM/z serwera ICM/test/stuff/dowod-ntsc_a.jpg` (450×304, progressive JPEG — web-optymalizowana wersja) + `forty/ntsc.html` (strona „forty/NTSC", wzmianka „coast pictures").
+- Wzór dowodu + pieczęć (6×6×6 cm) + Konstytucja (1995) = NTSC miała PEŁNY aparat państwowy równoległy do CUKT.
+
+**2. WIDEO AKCJI NTSC (NOWE — poza DB)**
+- `Luzem/Video materiały/VIRUS-NTSC.mp4.mp4` (572 s, 720×576 PAL, H.264) — live act VIRUS zrealizowany w ramach NTSC. Dowód że VIRUS = akt NTSC.
+- `Luzem/Video materiały/DAIMLER-NTSC).mp4.mp4` (209 s, 36 MB) — drugi akt NTSC (Daimler). Oba poza indeksem DB (brak UUID załącznika).
+- `VIRUS-NTSC-AUDIO.wav` (100 MB PCM) — ścieżka audio VIRUS, czas zgodny z wideo (572 s).
+
+**3. ZNACZENIE — NTSC jako „drugi urząd" (prefiguracja CUKTAI)**
+[HIPOTEZA] NTSC nie była tylko „sceną" — miała Konstytucję, pieczęć, dowody osobiste i listę aktów (VIRUS, Daimler). To strukturalny bliźniak CUKT: CUKT = Urząd nadrzędny (identyfikatory, nadzór), NTSC = scena z własną konstytucją i wydawnictwem. Współistniały w Fortach 1995.
+Dla teorii „CUKT-as-office-1995" (zweryfikowanej 2026-07-07): NTSC pokazuje, że model urzędniczy był wtedy DOMYŚLNY — CUKT tworzyło instytucje-instytucji. CUKTAI 2026 = ta sama logika w maszynie (agent = akt w ramach nadurzędu).
+
+**4. SPRZECZNOŚĆ (nowa)**
+- Teczka NTSC (2026-05-08) pisała „Brak dokumentacji fotograficznej z działań NTSC" — BŁĄD. Istnieją wideo-akty (VIRUS-NTSC, DAIMLER-NTSC) oraz web-galeria ICM (forty/ntsc.html, dowod-ntsc_a.jpg). Brak to dokumentacji w indeksie DB, nie na dysku.
+
+**5. BIAŁE PLAMY**
+- Gdzie fizycznie kaseta audio NTSC (~60 min, „Vitamina") i pieczęć 6×6×6 cm?
+- Czy DAIMLER to pseudonim konkretnej osoby? (brak w rejestrze urzędników CUKT jako Daimler)
+- Brak transkrypcji obu wideo NTSC.
+
+**6. ŹRÓDŁA**
+- ffprobe: VIRUS-NTSC.mp4.mp4, DAIMLER-NTSC).mp4.mp4, VIRUS-NTSC-AUDIO.wav
+- find: 0000 CUKT - Dokumenty/04_druki/dowod ntsc_*, Luzem/Video materiały/
+- ICM: forty/ntsc.html, stuff/dowod-ntsc_a.jpg
+- archive_get_project: N.T.S.C. - Nowa Techno Scena (3 rec.)
+
+STATUS KOŃCOWY: DB OK, zapis OK. Wizja 402 — opisy wizualne zaległe. Kluczowe: NTSC = drugi urząd Forty 1995 (Konstytucja+pieczęć+dowody+wideo-akty VIRUS/DAIMLER).

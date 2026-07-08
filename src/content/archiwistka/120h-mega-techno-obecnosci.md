@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-07-06"
+date: "2026-07-07"
 status: "należy napisać pismo."
 ---
 
@@ -305,3 +305,130 @@ INWERSJA "PRZYCISKU STOP": 120h MIAŁO wymuszony stop (gangsterzy, bufor 9–13 
 - Archiwum wizualne 120h = rekonstrukcja 2016/2017 (potwierdzone EXIF).
 - Białe plamy: ~30 klatek stykówek, treść audio, los kolumny, los negatywów.
 
+## OPIS POGŁĘBIONY — zatwierdzony 2026-07-07
+
+Opracowano na podstawie ODPOWIEDZI.md (krok B, RAG: archiwum CUKTAI + rozprawa "Transformizm" 2022) oraz teczki VERIFIED-PIOTR (manifest, bez edycji). Bez mieszania CUKTAI (współczesny system) w opis projektu archiwalnego.
+
+---
+
+## 1. FAKTY — chronologia, miejsca, uczestnicy, przebieg
+
+### 1.1 Ramy czasowe i przestrzeń
+Projekt odbył się **2–8 grudnia 1994** (7 dni działalności) w Pawilonie "Rondo" przy ul. Przemysłowej 9 w Koninie — w piwnicach "Pracowni Chwilowej" prowadzonej przez Arka Woźniaka. Ostatnie 5 dni (9–13 XII) było "buforem bezpieczeństwa" na rozładowanie sytuacji i ewakuację. Nazwa "120h" sugeruje 5 dni, ale projekt trwał 7 — nazwa symboliczna/przybliżona (wyjaśnione w teczce). [Źródło: teczka, IMG_0956]
+
+### 1.2 Zamiana funkcji — galeria → klub techno
+"Pracownia Chwilowa" (godziny galeryjne 10:00–18:00) została przekształcona w nocny klub (18:00–4:00). Mieszkańcy Konina **nie zostali powiadomieni** o zamianie funkcji — to celowy element strategii: ukrycie dzieła sztuki w formie klubu techno. [Źródło: Rozwinięty opis (wiki), id 7d7d68fa; Transformizm 2022, id 6343fb67 — "pierwszy projekt, który w rozbudowanej formie performansu z instalacjami site specific wprowadził w życie powyższą strategię"]
+
+### 1.3 Dwie sale, dwa doświadczenia
+- **Sala Piotra** — czarna sala z fluorescencyjnymi napisami filozoficznymi i muzyką. Ściany pokrywał "hipertekst Piotra": sprzeczne hasła ("Każdy artysta ma rację" vs "Żaden artysta nie ma racji"), cytaty z Wittgensteina ("Granice mego języka to granice mego świata"), fragmenty późniejszego manifestu "Rozwinięte Ciało Kultury Technicznej" (1996). Hipertekst wmiksowywano na żywo do muzyki z kaset. [Źródło: teczka, zdjęcia konin_01/03]
+- **Sala Mikołaja (Roberta Jurkowskiego)** — czerwona kolumna z pionowymi żłobieniami, pomalowana fosforyzującą farbą na pomarańczowo; u podstawy naczynie z miodem i amfetaminą, podświetlone lampą (efekt świetlny + zapachowy), disco kula, miksery, odtwarzacze kaset, mikrofony. [Źródło: teczka, kolumnaMiki01.jpg, cukt0007.tif]
+
+### 1.4 Hipertekst = praca magisterska
+Hipertekst z 120h był napisany hipertekstem jako praca magisterska Piotra **"O rozwiniętym ciele kultury technicznej"**. Później rozwinięta i użyta w całości jako baza znaczeniowa dla **Cyborg Sex Manual (CD-ROM, 1999)**. [Źródło: Rozwinięty opis (wiki), id 7d7d68fa; wyjaśnienia Piotra 2026-05-04]
+
+### 1.5 Zamknięcie i rytualne zakończenie
+Projekt zamknięto po 7 dniach z powodu zagrożenia bezpieczeństwa — "półświatek Konina" (lokalne grupy przestępcze) próbował przejąć kontrolę nad przestrzenią; doszło do rywalizacji dwóch grup gangsterskich. Dokument zamknięcia **IMG_0956** (8–9 XII 1994) podpisany przez "Roberta Jadurkowski" [literówka: Jurkowski] i Piotra Wyrzykowskiego, z pieczątką CUKT z **10.09.1996** (retrospektywne uznanie za Pre-CUKT). Po wyjeździe organizatorów drzwi galerii podpalono; na drzwiach umieszczono kopię listu pożegnalnego z 9 XII — interpretowane jako rytualne ofiarowanie przestrzeni. [Źródło: IMG_0956, teczka, wyjaśnienia Piotra 2026-04-19]
+
+### 1.6 Kurator i grafika
+Arek Woźniak (Pracownia Chwilowa) zaprosił artystów do przygotowania projektu. Anna Nizio — projekt graficzny plakatu i zaproszeń. Fotograf **Krotulski** — 35 klatek stykówek (imię i okoliczności zlecenia nieudokumentowane). [Źródło: Transformizm 2022, teczka, Rozwinięty opis]
+
+### 1.7 Lightbox (2016) i status prawny
+W 2016, 22 lata po wydarzeniu, powstał lightbox z hasłem "ŻADEN ARTYSTA NIE MA RACJI" (ok. 150×45 cm, do weryfikacji przez pomiar — zdjęcie sugeruje 120×45). Re-konstrukcja dokumentacyjna, obecnie w Muzeum Sztuki Nowoczesnej w Warszawie. Status prawny (depozyt/darowizna) nieudokumentowany w archiwum — teczka: "ACTION: napisać pismo do MSN". [Źródło: baza, teczka]
+
+---
+
+## 2. ZNACZENIE — kontekst historyczny CUKT, sens projektu
+
+### 2.1 Pre-CUKT — korzeń urzędu
+120h to pierwszy projekt Piotra i Roberta, uznany retrospektywnie za **Pre-CUKT** — "korzeń z którego wyrósł Centralny Urząd Kultury Technicznej (1995)". Archiwum potwierdza chronologię (120h XII 1994 → pieczątka CUKT 10.09.1996), ale **nie dokumentuje procesu między 120h a formalnym założeniem CUKT** (brak statutu, protokołu, korespondencji z 1995). [Źródło: Rozwinięty opis, teczka; luka: TYLKO ŚWIADKOWIE]
+
+### 2.2 Strategia zamiany funkcji jako kamuflaż sztuki
+Zamiana galerii w klub techno (odwrócenie godzin 10–18 → 18–4) to zalążek strategii CUKT na lata: ukrywanie sztuki konceptualnej pod formą dostępną masowo. Archiwum szczegółowo opisuje strategię; **nie zawiera jednak opracowań porównawczych** polskiej sztuki lat 90. — prekursorstwo sugeruje Transformizm Piotra, wymaga weryfikacji zewnętrznej. [Źródło: Rozwinięty opis, Transformizm 2022; status CZĘŚCIOWA]
+
+### 2.3 Interwencja w realnym konflikcie społecznym
+Odkrycie "półświatka Konina" zmienia odbiór z "sztuki dla sztuki" na interwencję w realnym napięciu społecznym. Rywalizacja gangsterska wymusiła wcześniejsze zamknięcie — 120h miało "przycisk stop z zewnątrz", odwrotność późniejszej autonomii CUKT. [Źródło: wyjaśnienia Piotra, IMG_0956]
+
+### 2.4 Struktura przestrzenna doświadczenia
+Widz przechodził przez dwie różne instalacje, dwa stany percepcyjne (intelektualna sala Piotra vs multisensoryczna — wzrok+zapach+dźwięk — sala Mikołaja). Nie można było "obejrzeć" projektu — trzeba było w nim być. [Źródło: wyjaśnienia Piotra, zdjęcia]
+
+### 2.5 Linia rozwojowa Cyborga
+120h (1994) → praca magisterska → Cyborg Sex Manual (1999) → Testy na Cyborga (1996, pojęcie Cyborga). Hipertekst z Konina to baza całej późniejszej linii. [Źródło: wyjaśnienia Piotra, teczka]
+
+### 2.6 Archiwum fotograficzne = rekonstrukcja 2016/2017
+EXIF ujawnia jedną masową sesję digitalizacji (stykówki: "Microsoft Windows Photo Viewer" 2016-05-16; cukt0006a/0007a: Photoshop CS6 2016-05-11; lightbox: ScanJet 4370 + Pixelmator 2017-05-26; IMG_0956: iPad Air 2016-01-10). W archiwum cyfrowym **nie ma żadnego pliku z 1994** — "pamięć fotograficzna" projektu powstała w jednym akcie digitalizacji 22 lata później. [Źródło: AKTUALIZACJA 2026-07-06 (metadata EXIF)]
+
+---
+
+## 3. MATERIAŁ WIZUALNY I DOKUMENTACYJNY — propozycja do publikacji
+
+### 3.1 Dokumenty kluczowe (reprodukcja)
+| Dokument | Opis | Priorytet |
+|----------|------|-----------|
+| IMG_0956 | Dokument zamknięcia 8–9 XII 1994, podpisy + pieczątka CUKT 10.09.1996 | KRYTYCZNY (wymaga profesjonalnego skanu zamiast foto telefonem) |
+| plakat.jpg / zapro_01/02.jpg | Grafika A. Nizio, godziny 18–4, ikony BHP | ISTOTNY |
+| Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (2016) | Re-konstrukcja, MSN Warszawa | ISTOTNY (pismo o dane) |
+
+### 3.2 Zdjęcia
+- **Stykówki Krotulskiego (35 klatek, SCAN_READY):** img064–091, 096–098, 125. Braki: img092–095, **img099** (pominięta w teczce), img100–124 = ~30 klatek zaginionych (prawdopodobnie sekwencje konfliktu i ostatnich dni).
+- **Negatywy TIF (6 plików, SCAN_READY):** cukt0006/6a/7/7a/8 + **Antyelekcja0006.tif** (plik międzyprojektowy — negatywy Antyelekcji XI 1995 zeskanowane razem z 120h V 2016; sugestia sprawdzenia cross-filingu w innych folderach).
+- **Zdjęcia Konina (5):** konin_01 (disco kula, Wittgenstein), konin_02 (mikser/kasety), konin_03 (sprzeczne hasła), konin_04 (grupa), kolumnaMiki01 (czerwona kolumna).
+
+### 3.3 Audio — jedyna zachowana dokumentacja dźwiękowa
+3 pliki w `raw/archive-usb/Luzem/Audio/` (z 1995, NIE z 1994 — kasety z 1994 prawdopodobnie nie istnieją):
+- `language is.mp3` — 6:13, 256 kbps
+- `the form is.mp3` — 5:04, 256 kbps
+- `info2.aiff` — 7:25, AIFF lossless (117 MB; data systemowa "2040" to anomalia kopiowania, NIE data nagrania)
+
+Łącznie ~19 min. **Nigdy nie odsłuchane ani nieprzetranskrybowane.** To jedyne zachowane nagrania hipertekstu z Konina — wiążą się z zadaniem Consilium 07-07-2026 ("dokumenty z 1995 nigdy nieopublikowane"). [Źródło: AKTUALIZACJA 2026-07-06, teczka]
+
+### 3.4 Propozycja form prezentacji (platforma cukt.click + PDF)
+1. **Galeria chronologiczna** — 46+ zdjęć w sekwencji 7 dni (źródło: wszystkie pliki archiwum).
+2. **Mapa przestrzeni** — topografia Pawilonu Rondo (ul. Przemysłowa 9) z wejściem, salą Piotra (czarna, hipertekst), salą Mikołaja (kolumna, disco kula).
+3. **Audio player** — 3 tracks z 1995 jako tło dźwiękowe (wymaga odsłuchu, transkrypcji, decyzji o pełnej publikacji vs clipy).
+4. **Reprodukcja hipertekstu** — złożenie tekstów ze ścian (zdjęcia + notatki) jako warstwa czytelna.
+5. **Lightbox wirtualny** — zdjęcie hasła jako element narracji o retrospektywnej re-konstrukcji.
+6. **Rekonstrukcja 3D sali Mikołaja** — opcjonalnie, na podstawie zdjęć.
+
+---
+
+## 4. BIAŁE PLAMY → QUESTIONS_CONSILIUM
+
+Pytania, na które archiwum nie odpowiedziało — wymagają weryfikacji z uczestnikami (Piotr, Mikołaj/Robert, Arek Woźniak, Krotulski, Wojciech Zamiara):
+
+### 4.1 Do Piotra Wyrzykowskiego
+1. **Mechanizm zaproszenia (P1):** Jak Arek Woźniak poznał Piotra/Roberta? Skąd wiedział o twórczości? (brak listów/maili)
+2. **Półświatek Konina (P2):** Czy da się zidentyfikować grupy gangsterskie z nazwy/przezwiska? Powiązania z lokalną sceną techno?
+3. **Praca magisterska (P3, P12):** Gdzie fizycznie jest "O rozwiniętym ciele kultury technicznej"? Czy obroniona? Odbiór w ASP Gdańsk?
+4. **Kasety z 1994 (P5):** Czy w ogóle istniały fizycznie, czy hipertekst czytany z kartki?
+5. **Krotulski (P6):** Imię, okoliczności zlecenia, czy obecny przez cały projekt? Czy przetrwały brakujące klatki (img099, img092–095, 100–124)?
+6. **Anna Nizio (P8):** Studentka? koleżanka? profesjonalna graficzka? — poza projektem graficznym?
+7. **Między 120h a CUKT (P9):** Co dokładnie wydarzyło się XII 1994 → wiosna 1995? Dlaczego formalny urząd rok później?
+8. **Podpalenie (P11):** Czy Piotr wiedział, kto podpalił drzwi? Czy akt był oczekiwany?
+9. **Audio 1995 (P4):** Kto nagrał? Czy to głos Piotra czytający hipertekst, czy miks? Czy zawierają pełny hipertekst z Konina?
+10. **Antyelekcja0006.tif (P18):** Skąd plik międzyprojektowy w folderze 120h — taśma wklejona do partii, czy błąd katalogowania?
+11. **Lightbox (P16, P20):** Pismo do MSN o status prawny + pomiar fizyczny wymiarów (150 vs 120 cm).
+
+### 4.2 Do Mikołaja (Roberta Jurkowskiego)
+12. **Czerwona kolumna (P15):** Co się z nią stało po 1994? Zniszczona w podpaleniu? Zdemontowana? Gdzie trafiła?
+13. **Transkrypt auto-wywiadu z 36h (1995):** Czy fizycznie istnieje w archiwum (to też "nieopublikowany dokument z 1995")?
+
+### 4.3 Do Arka Woźniaka / Wojciecha Zamiary / Krotulskiego
+14. **Arek Woźniak:** Historia Pracowni Chwilowej przed i po 120h? Czy wie coś o podpaleniu?
+15. **Wojciech Zamiara:** Co pamięta z wydarzenia? Jak postrzegał podział na dwie sale?
+16. **Krotulski:** Czy zachowały się brakujące klatki (img099, img092–095, 100–124)? Inne zdjęcia z wydarzenia?
+
+### 4.4 Jawne luki — ARCHIWUM MILCZY
+| Obszar | Status | Działanie |
+|--------|--------|-----------|
+| Brak nagrań wideo | brak w archiwum | — (tylko audio 1995) |
+| Treść audio tracks 1995 | istnieją, nieodsłuchane | Odsłuch + transkrypcja |
+| ~30 klatek stykówek | brak w archiwum | Pytanie do Krotulskiego |
+| Los kolumny z żłobieniami | nieznany | Pytanie do Mikołaja |
+| Lokalna prasa Konina o projekcie | brak | Pytanie do świadków |
+| Praca magisterska Piotra | lokalizacja niepewna | Pytanie do Piotra |
+| Cross-filing negatywów (Antyelekcja0006) | anomalia katalogowa | Audyt innych folderów |
+
+---
+
+*Opracowano: 2026-07-07 | Archiwistka (CUKTAI) | Krok E: OPIS POGŁĘBIONY (zatwierdzony werdyktem pełnym Piotra z 2026-07-07)*
+*Podstawa: ODPOWIEDZI.md (krok B, RAG), teczka 120h-mega-techno-obecności.md (manifest VERIFIED-PIOTR, bez edycji)*

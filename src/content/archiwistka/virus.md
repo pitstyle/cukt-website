@@ -2,7 +2,7 @@
 title: "VIRUS"
 project: "VIRUS"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-07"
 status: "W TOKU"
 ---
 
@@ -170,3 +170,45 @@ POWIĄZANIA Z INNYMI PROJEKTAMI:
 ## ANALIZA WIZUALNA\n\n
 
 *Badanie automatyczne: Archiwistka v2, 2026-05-16 04:00*
+
+
+
+---
+AKTUALIZACJA (2026-07-07): Śledztwo dyskowe — VIRUS + NTSC (forensyka mediów)
+
+### Śledztwo — 2026-07-07 (Archiwistka, cron, tryb Mode D / wizja 402)
+**WIZJA NIEDOSTĘPNA (402 — insufficient credits).** Opisy wizualne zdjęć i wideo ZALEGŁE. Zastosowano łańcuch zastępczy: ffprobe + EXIF/PIL + file + archive_search. DB i zapis działają.
+
+**1. MEDIA — nagranie live act (wcześniej niezbadane forensicznie)**
+- `Luzem/Video materiały/VIRUS-NTSC.mp4.mp4` — ffprobe: 572.4 s (9 min 32 s), 720×576 (PAL SD), H.264 + AAC, koder `Lavf54.6.100` (ffmpeg ~2012). To zdigitalizowana konwersja oryginalnej taśmy (nazwa sugeruje NTSC, ale zapis to PAL 720×576 — błąd w istniejącej teczce, która pisała „NTSC"; właściwie: plik w formacie PAL, źródło to taśma NTSC).
+- `Luzem/Video materiały/VIRUS-NTSC-AUDIO.wav` — 572.4 s (identyczny czas!), 16-bit PCM stereo 44.1 kHz, 100 MB, koder `Lavf58.76.100` (ffmpeg ~2019). Osobna ścieżka audio — prawdopodobnie ekstrakcja z innej kopii taśmy lub remaster. Oba pliki poza indeksem DB (Luzem), nie mają UUID załącznika.
+- KOREKTA: wideo VIRUS nie jest „NTSC" jako format pliku — jest zdigitalizowanym PAL-em. Nazwa `VIRUS-NTSC` oznacza kontekst: live act VIRUS zrealizowany w ramach/przy NTSC (Nowa Techno Scena). To kluczowy dowód, że VIRUS i NTSC to jeden ciągły ekosystem Forty 1995.
+
+**2. IDENTYFIKACJA — VIRUS jako urzędnik CUKT (potwierdzenie dyskowe)**
+- `0000 CUKT - Dokumenty/03_indentyfikacja/identyfikator_virus.jpg` — identyfikator urzędnika CUKT z oznaczeniem VIRUS (1110×694, RGB, EXIF Software: Picasa = skan wydruku z lat 1999–2009, data oryginału do推断 z kontekstu 1995).
+- `0000 CUKT - Dokumenty/00_Urzędnicy/virus_01.jpg` (1165×1761) i `virus_02.jpg` (1778×1174) — portrety VIRUS jako urzędnika; Picasa-skan. Wersje `_selected/` w podfolderze.
+- To bezpośrednio wspiera zweryfikowaną 2026-07-07 tezę „CUKT-as-office-1995": VIRUS figuruje w oficjalnym rejestrze urzędników (ICM officials/virus.html + virus_01/02.jpg) z własnym identyfikatorem.
+
+**3. ZNACZENIE SYSTEMOWE — VIRUS = jednostka w strukturze urzędu**
+- VIRUS (Adam Popek vel EWA) jest jedynym projektem sygnowanym jednym nazwiskiem, ALE posiada pełny aparat urzędniczy: logo (01_logo), identyfikator, wpis na liście urzędników. To „solo w kolektywie-instytucji" — jednostka z własną tożsamością w ramach Urzędu.
+- [HIPOTEZA] Dla Ewy (agent CUKTAI): VIRUS to jej pierwotna tożsamość — „wirus" jako struktura zmieniająca gospodarza (Konin 1994, cyt. z EP107). CUKTAI 2026 = ten sam wirus w maszynie.
+
+**4. POWIĄZANIE VIRUS ↔ NTSC (nowe, krytyczne)**
+- NTSC (Nowa Techno Scena, 1995, Forty) = organizacja „równoległa do CUKT" z własną Konstytucją (1995), pieczęcią (6×6×6 cm), kasetą audio (~60 min) i wzorem Dowodu NTSC (`dowod ntsc_a.jpg` 1967×1328, `dowod ntsc_b.jpg` 1958×1341 — Picasa-skan).
+- VIRUS-NTSC.mp4 dowodzi, że VIRUS występował JAKO AKT NTSC. NTSC miała własną listę wykonawców: VIRUS (Adam Popek) i DAIMLER (`Luzem/Video materiały/DAIMLER-NTSC).mp4.mp4` — 209 s, 36 MB, także poza DB).
+- [INTERPRETACJA] 1995 w Fortach = dwa sprzężone byty instytucjonalne: CUKT (Urząd, nadzór, identyfikatory) i NTSC (scena, konstytucja, dowody, wydawnictwo audio). VIRUS i Daimler to „urzędnicy-artyści" przepływający między nimi. To prefiguracja modelu CUKTAI: agent = jednostka z tożsamością w ramach nadurzędu.
+
+**5. BIAŁE PLAMY (uzupełnienie)**
+- Brak transkrypcji VIRUS-NTSC.mp4 (9.5 min) — priorytet do transkrypcji (analogicznie do FORTY 1995.mp4 z 36h). Wideo poza DB = niewidoczne dla agentów.
+- Nieznana data/okoliczności konkretnego występu VIRUS (wrzesień-październik 1995 to estymacja z teczki, nie potwierdzona źródłem).
+- Gdzie fizycznie jest kaseta audio NTSC (~60 min, „Vitamina") i pieczęć 6×6×6 cm?
+
+**6. ŹRÓDŁA (to śledztwo)**
+- ffprobe: VIRUS-NTSC.mp4.mp4, VIRUS-NTSC-AUDIO.wav, DAIMLER-NTSC).mp4.mp4
+- EXIF/PIL: identyfikator_virus.jpg, virus_01/02.jpg → Software: Picasa
+- find dyskowy: 0000 CUKT - Dokumenty/00_Urzędnicy/, 03_indentyfikacja/, 04_druki/, Luzem/Video materiały/
+- ICM web: WWW/z serwera ICM/test/officials/virus.html (+ virus_01/02.jpg), forty/ntsc.html
+- archive_get_project: VIRUS (3 rec.), N.T.S.C. - Nowa Techno Scena (3 rec.)
+- EP107 VIRUS episode (produced 2026-07-06) — kontekst narracyjny
+
+STATUS KOŃCOWY: DB dostępna, zapis OK. Wizja 402 — opisy wizualne zdjęć i wideo zaległe (pending credits). Kluczowe odkrycie: VIRUS↔NTSC jako jeden ekosystem Forty 1995; VIRUS = urzędnik CUKT z własnym aktem NTSC.

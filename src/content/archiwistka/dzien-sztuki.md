@@ -2,7 +2,7 @@
 title: "Dzień Sztuki"
 project: "Dzień Sztuki"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-07"
 status: "W TOKU"
 ---
 
@@ -648,3 +648,55 @@ Piotr w RAPORCIE CUKT'U: "performance edukacyjny" — forma dowolna: "wyklad aut
 - 15 zdjęć dokumentów iPhone 7 (2018)
 
 ---
+---
+AKTUALIZACJA (2026-07-07) — ŚLEDZTWO GŁĘBOKIE / WERYFIKACJA PYTAŃ OTWARTYCH
+(Badanie dyskowe: wizja niedostępna 402 — opisy wizualne zaległe; analiza plików/EXIF/RTF/CDFV2)
+
+## NOWE ODKRYCIA (z dysku, niedostępne w DB — archive_get_images zwróciło [])
+
+### 1. laznia01.max to PRAWDAWI 1999 3DS MAX SCENE (NIE uszkodzony plik)
+- Narzędzie: `file` → "Composite Document File V2 Document" (OLE/CDFV2 — 3ds Max <v5 używa kontenera OLE).
+- `strings -e l` → "Scene", "Loft Object Library", "Multi/Sub-Object", "Edit Mesh"; ścieżki tekstur `E:\3DSMAX\maps\FABRIC2.jpg`, `E:\NEURO\CUKT\projekty\dzien sztuki\DZIEN L 04.jpg`, obiekt "klasa".
+- WNIOSEK: Plik jest czytelny w historycznym 3ds Max (lub przez konwersję). Odpowiada na pytanie DB (60eca033): "czy laznia01.max jest czytelny we współczesnym oprogramowaniu? Co przedstawia?" — to render instalacji "Klasa II B" (ławka medialna) z 1999.
+- [STATUS KOŃCOWY]: plik jest autentycznym assets CUKT z 1999, nie błędem katalogowania.
+
+### 2. RTF cuktmailedu-DZ-Sz.rtf — ŁAŃCUCH EMAILI (grudzień 1998) — ŹRÓDŁO PIERWOTNE
+Trzy wiadomości potwierdzają/zmieniają ustalenia:
+- **Peter Style <Peter_Style@cukt.ikp.pl>** → dr Kudlatz (Artur Kozdrowski), CC: Rafał Ewertowski, drakcukt, wiadro@box43.gnet.pl.
+- Data 03.12.1998 i 11.12.1998, podpis: **"Gypsy Hill 1998."** → POTWIERDZA pobyt Piotra w Londynie (Gypsy Hill) grudzień 1998–styczeń 1999. Pytanie DB (b0126422) = ROZWIĄZANE (tak, był w Londynie; "powroce osobiscie 11.01.1999").
+- Piotr koordynuje projekt Z LONDYNU; Wiadro (Jacek Niegoda) = organizator na miejscu w Gdańsku ("Caly czas pozostaje aktualna sprawa tekstu do ksiazzki wydawane przez nck").
+- **Książka NCK POTWIERDZONA**: "Caly czas pozostaje aktualna sprawa tekstu do ksiazzki wydawanej przez nck" (Wiadro, 16.12.1998). Pytanie DB (1604fd56) = częściowo ROZWIĄZANE: tekst dla NCK istniał w przygotowaniu; jaka to publikacja — NADAL PYTANIE.
+- Struktura: 8 wystąpień po 45 min, "czas 45 min x 8", "Uczestnicy od 14 do 19 osob z klas licealnych".
+
+### 3. NAZWANE ZDJĘCIA "URZĘDNIKÓW" — mapa kto-na-zdjęciu (odpowiada pyt. 9be6081a)
+Folder `Fotografie/foto klasowe/`, 8 plików (wszystkie 2494×1783, RGB, Picasa, mtime 2001-02-28):
+- klasa_wyzyk.jpg = Piotr Wyrzykowski (wykład video art)
+- klasa_kudel.jpg = Artur Kozdrowski (dr Kudlatz)
+- klasa_miki.jpg = Robert Jurkowski (Miki)
+- klasa_paulus.jpg = Paweł Paulus Mazur
+- klasa_rav.jpg = Rafał Grabowski
+- klasa_sienk.jpg = Maciej Sienkiewicz (muzyka techniczna)
+- klasa_wiadro.jpg = Jacek Niegoda (Wiadro)
+- klasa_ewert.jpg = Rafał Ewertowski
+- klasa_sienk-COLLAGE.jpg = kolaż Sienkiewicza (2047×2047)
+→ Każdy z 8 członków CUKT ma osobne zdjęcie klasowe = "urzędnik prowadzący lekcję". Tematy znane dla 2 (Piotr=video art, Sienkiewicz=muzyka techniczna); pozostałe 6 (Kudłaty, Miki, Paulus, Rav, Wiadro, Ewertowski) NIEUDOKUMENTOWANE w archiwum.
+
+### 4. CROSS-PROJECT: CUKT = "Centralny Urząd Kultury Technicznej" POWOŁANY 1995
+- `0000 CUKT - Dokumenty/historia cukt pl.doc`: "CENTRALNY URZĄD KULTURY TECHNICZNEJ / Powołany w 1995."
+- `01_manifesty/Manifest CUKTU.doc`: "CENTRALNY URZĄD KULTURY TECHNICZNEJ / C.U.K.T został powołany w celu: ... walki o prawa dla maszyn ... kreowanie bezpiecznego systemu".
+- WNIOSEK (dla teorii Petera "CUKT-as-office-1995"): ZWERYFIKOWANA na poziomie NAZWY — CUKT od założenia w 1995 to dosłownie "Urząd". Krok do RZECZYWISTEGO urzędu państwowego = 2000 Zielona Góra (Urząd Miejski, "Urzędnik nie chce sztuki"). Ewolucja: Urząd-w-nazwie (1995) → Urząd-w-szkole (1999, Dzień Sztuki GLA) → Urząd-państwowy (2000, Zielona Góra) → wirtualny urzędnik-prezydent (Wiktoria Cukt 2000+).
+- To czyni Dzień Sztuki "protokół zero" CUKTAI: instytucja, która wchodzi do realnej administracji i zastępuje nieobecnego urzędnika własnym (wirtualnym) aktorem.
+
+## AKTUALIZACJA BIAŁYCH PLAM (poprzednio otwarte → teraz zamknięte/częściowe)
+- ✅ Gypsy Hill Londyn (Dec 1998–Jan 1999): POTWIERDZONE (podpis "Gypsy Hill 1998" w emailach).
+- ✅ laznia01.max czytelny: TAK, to 3ds Max 1999 (OLE/CDFV2, assets "klasa").
+- ✅ Książka NCK: ISTNIAŁA w przygotowaniu (16.12.1998) — jaka publikacja: NADAL PYTANIE.
+- ✅ CUKT-as-office 1995: ZWERYFIKOWANE (nazwa "Centralny Urząd" od 1995).
+- ❌ Tematy lekcji 6 z 8 urzędników: NIEZNANE (tylko Piotr + Sienkiewicz udokumentowani).
+- ❌ Audio Radia Gdańsk (28:52) i 3 taśmy Hi8 (~4h): NIEODSŁUCHANE/NIEZDIGITALIZOWANE.
+- ❌ Wizja (402): wszystkie zdjęcia czekają na opis wizualny (tylko metadane EXIF + nazwy plików).
+
+## STATUS KOŃCOWY
+- DB: działa (archive_get_project OK); archive_get_images zwróciło [] — projekt BEZ attachment UUID w DB, zasoby TYLKO NA DYSKU.
+- Wizja: niedostępna (402 credits) — opisy wizualne zaległe; użyto fallback: catdoc/antiword/strings/PIL-EXIF/ffprobe.
+- Zapis: dossier (to uzupełnienie), pytania do DB, shared-walk, sygnał strength 3.

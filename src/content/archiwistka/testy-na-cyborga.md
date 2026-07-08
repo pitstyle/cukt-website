@@ -2,7 +2,7 @@
 title: "Testy na Cyborga"
 project: "Testy na Cyborga"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-07"
 status: "W TOKU"
 ---
 
@@ -517,3 +517,86 @@ Dusseldorf 10.1996:   3 stanowiska + 3 dni + kontrakty + wagi + opaski
 - Warszawa — co dokladnie widac na zdjeciach Wawa T 000-012?
 
 ---
+
+
+---
+AKTUALIZACJA (2026-07-07):
+ŹRÓDŁO: Głębokie śledztwo archiwalne (Mode D — wizja 402 niedostępna). Ekstrakcja pełnotekstowa dokumentów .rtf/.doc (catdoc) + ffprobe/media-forensics na wideo + find na dysku. DB i zapis działają.
+
+## NOWE USTALENIA — DOKUMENTY TEKSTOWE (Düsseldorf 1996, wcześniej NIE eksstrahowane)
+
+### 1. Recenzja Tomasza Pryby (Pryba.rtf / Pryba_ang.rtf / Pryba_Recenzja_Wspomnienie.rtf)
+- **Pełna relacja z Dnia I (wtorek, otwarcie)** z perspektywy uczestnika-wykonawcy (Pryba w białym kombinezonie z megafonem).
+- Skład CUKT w Düsseldorfie: Robert (Jurkowski/Mikołaj), Artur (Kozdrowski), Jacek (Niegoda), Ania (Nizio), Adam (Popek/Ewa Virus), Piotr + Pryba (zaproszony).
+- Potwierdza flow: badanie fototechniczne lewej dłoni → stempel logo CUKT + wpis wagi → Ania recytuje po niemiecku formułkę (wypełnij formularz) → "Virus" sprawdza wagę i wydziela umowy (VERTRAG) na odbiór odpowiednika przerobu → przy wrotach "Die Papieren bitte" → worek z piaskiem + dokumenty.
+- **Waga zbiorcza**: "Przerób tego wieczoru był zadawalający. Nieco ponad dwie tony." — czarna tabliczka z sumą dzienną (wpisywano kredą). Fizyczna kwantyfikacja "przerobu" obywateli.
+- Reakcja: prasa stawiała opór; jeden fotograf "ważnej" gazety "nie wytrzymał napięcia i oddalił się" (potwierdza wcześniejszy negatyw o refus/absence — to ten sam incydent).
+- **Odczyt Pryby**: "ukłon w kierunku Georga Orwella oraz aluzja do okrutnej przeszłości narodu niemieckiego — Auschwitz Birkenau." — pierwszy zewnętrzny odczyt jako totalitarny.
+- **KOREKTA ALIASU (cross-language)**: W polskim oryginale postać to "Virus" (Adam Popek). W angielskim tłumaczeniu (Pryba_ang.rtf) ten sam fragment nazywa ją **"Visus"** — błąd tłumacza (literówka/misread z "Virus"). Rejestruję: rola "Virus/Visus" = weryfikacja wagi + wydzielanie umów. To NIE nowa osoba — to ten sam Adam Popek.
+
+### 2. Projekt.doc (projekt performance Düsseldorf 1-3.10.1996)
+- Struktura 3-dniowa, multiprzestrzenna:
+  - **Dzień I** — hall galerii: "warzenie widzów", 3 stanowiska (skanowanie twarzy i dłoni, wypełnianie testu, przyjmowanie/numerowanie/pieczętkowanie z zapisem video, kwalifikowanie, wręczanie opaski odpowiedniego koloru).
+  - **Dzień II** — instalacja z worków z piaskiem + etykiety (numer, waga, skan dłoni/twarzy, kryptonim grupy = wynik testu). "Aktualny stan wagii zbiorowej — odczyt non stop."
+  - **Dzień III** — przestrzeń publiczna: kolportaż fałszywych gazet lokalnych o C.U.K.T.
+- "Na wystawę mają wstęp tylko obywatele, którzy poddani będą w.w. procedurze."
+- Przestrzeń przed galerią: tuby transmitujące dźwięk z wnętrza; system alarmowy "włączany w wypadku niepodporządkowania się obywatela."
+- Urzędnicy: jednakowe garnitury + identyfikatory + "system łączności osobistej i elementy podporządkowania."
+- **Kontakt jednostronny** w języku niemieckim (wyuczone hasła).
+
+### 3. Zapotrzebowanie Materiałowe.doc (lista sprzętu, Düsseldorf)
+- Ubrania: 5 garniturów, 1 garsonka, 18 koszul nibieskich, 5 par butów męskich, 1 para damska, 12 par skarpetek.
+- Wagi: łazienkowe ×2, towarowa ×1. Piach: **3 tony**.
+- Ksero, 7 ryzy papieru, kamera video + kaseta 240 min, stół reprodukcyjny, 6 monitorów video, 2 magnetowidy VHS.
+- Testy: jęz. Pol/Niem/Ang + **"dekoder testu"** (urządzenie!). Opaski, naszywki, worki, laminownica.
+- Infrastruktura kontroli: tablica (waga zbiorowa), system łączności, tuby, **alarmy**, system podporządkowania, piktogramy, taśma informująca, gazeta lokalna, tuba przenośna, łopaty, identyfikatory, stanowiska, wzmacniacz audio, segregatory, etykiety.
+- ZNACZENIE: CUKT zainstalował w Kunstraum kompletną **infrastrukturę państwową w miniaturze** — od łączności przez alarm po dekoder testu. To nie był performance "o" biurokracji, to była działająca biurokracja.
+
+## NOWE USTALENIA — FORENSYKA WIDEO (media-forensics.py)
+
+| Plik | Czas | Rozdzielczość | Kodek | Znacznik czasu | Uwagi |
+|---|---|---|---|---|---|
+| Video/TestNaCyborgaDusseldorf03.mp4 | 9:02 (542s) | 720×576 | h264+aac | 2016-04-26 | re-encode 2016 |
+| Video/TestCyborgZielonaGoraCukt.mp4 | 23:18 (1398s) | 720×576 | h264+aac | 2016-04-26 | re-encode 2016, 939 MB |
+| Video/TestNaCyborgaWawa01_1.mp4 | 6:51 (411s) | 720×576 | h264+aac | 2016-05-06 | re-encode 2016 |
+| Video/KrotkiFilm_o_Techno03.mp4 | 0:26 (26s) | 720×576 | h264+aac | 2019-04-25 | krótki montaż |
+| 1996 10 01 - Dusseldorf/Video/TestNaCyborgaDusseldorf.mp4 | 3:54 (234s) | 716×574 | h264+aac | 2023-06-04 (HandBrake 1.4.2) | 2023 transkodowanie |
+| 1996 10 01 - Dusseldorf/Video/TestNaCyborgaDusseldorf.mov | 3:54 (234s) | 720×576 DV-PAL | dvvideo+pcm | Sony DCR-TRV730E, ingest 2016-03-09 | **ORYGINAŁ** z kamery (Digital8 PAL) |
+| 1996 10 01 - Dusseldorf/Video/disel.avi | 0:01 (1.3s) | 640×480 | rawvideo | brak | animacja/kadr testowy |
+
+- ZNACZENIE: Düsseldorf ma 3 warstwy tego samego materiału: .mov (oryginał DV z kamery Sony 1996/2016 ingest), .mp4 2016 (re-encode), .mp4 2023 (HandBrake). Wszystkie ~3:54. Video to dokumentacja surowa, NIE zmontowana — wymaga odsłuchu/transkrypcji (do zrobienia gdy wizja/audio dostępne).
+
+## NOWE USTALENIA — STRUKTURA WARSZAWA CSW (14.09.1996, wcześniej "do zbadania wizualnie")
+
+- Na dysku: `1996 09 14 - Warszawa CSW/` =
+  - **Foto/** — 13 zdjęć (Wawa T 000–012, plus Wawa T 10/11/12 .jpg) = dokumentacja akcji.
+  - **testy/** — ~360 skanów formularzy (A/B/C, numeracja do 152/168) = archiwum publiczności.
+  - **Dokumenty/** — 8 zdjęć (IMG_6608–6616) = 2018 iPhone-7 re-photo dokumentów (anonsy, pieczęcie).
+- Wszystkie pliki Warszawy to **2018 iPhone-7 re-photo** (EXIF software 12.0, 2018-10-08) — oryginały wymagają skanowania. Wizja niedostępna (402), więc zdjęcia wciąż NIE zanalizowane wizualnie — BIAŁA PLAMA POTWIERDZONA.
+- Skala: 360 testów w Warszawie = największa wsadowa liczba formularzy w całym cyklu (Toruń 34, Bytów 50, Wrocław 84, Zielona Góra 60, Düsseldorf 120).
+
+## POTWIERDZENIE NEGATIVE FINDING (REJECT button)
+- Ponowny grep po CAŁYM dysku projektu (teksty .rtf/.doc, katalogi, nazwy plików): **ZERO** trafień dla "reject", "odmowa", "odrzuc", "wybór", "choice", "odmów".
+- Wzmocnienie tezy: nawet Projekt.doc (najbardziej szczegółowy opis procedury) nie przewiduje mechanizmu odmowy/REJECT. System "bypass" (odejście bez rejestru) pozostaje jedyną formą non-compliance.
+- ZNACZENIE (teoria): Antyelekcja (brak wyniku) → Testy (brak wyboru/odmowy) → Wiktoria/CUKTAI (system bez interfejsu). Ewolucja "znikającego podmiotu": instytucja, która nie pozwala na "nie".
+
+## KOREKTY W TEŚCIE
+- "Virus" (PL) = "Visus" (EN błąd tłum.) — dodano do sekcji OSOBY jako alias/uwaga.
+- Usunięto wątpliwość: "REJECT button — istniał w fazie projektowej?" → po ekstrakcji Projekt.doc: NIE, nawet projekt go nie przewiduje. Oznaczam [ROZWIAZANE: nie istniał nigdy, ani w realizacji ani w projekcie].
+
+## ZAKTUALIZOWANA LISTA MATERIAŁÓW (dysk, nie tylko DB)
+- DOKUMENTY TEKSTOWE (nowe): Pryba.rtf + 2 warianty, Projekt.doc, Zapotrzebowanie Materiałowe.doc, cuktofice.pdf (pusty/brak tekstu), biurcukt.cdr (Corel — wymaga CorelDraw).
+- WIDEO: 7 plików (3 oryginały/re-encode Düsseldorf + Zielona Góra 23:18 + Wawa 6:51 + KrotkiFilm 0:26 + disel.avi).
+- WARSZAWA: 13 foto + 360 skanów testów + 8 dok. re-photo.
+- RĘKOPISY (2018 re-photo, wymagają skanowania): Umowa (rękopis), Test orientacyjny (rękopis), Pryba_List — oryginały NIE zeskanowane.
+
+## NOWE PYTANIA OTWARTE (do zapisu w DB)
+1. **Co dokładnie zawiera video TestNaCyborgaDusseldorf (.mov 3:54)?** — wymaga odsłuchu/transkrypcji. Do Piotra.
+2. **Jak brzmiała "formułka" niemiecka recytowana przez Anię Nizio?** — w tekście Pryby tylko streszczenie. Do Piotra/Anny.
+3. **Co zawierały "fałszywe gazety lokalne" (Dzień III)?** — kolportaż w przestrzeni publicznej, brak egzemplarza w archiwum. Do Piotra.
+4. **Co to jest "dekoder testu" (Zapotrzebowanie Materiałowe)?** — urządzenie techniczne, nieudokumentowane. Do Piotra.
+
+## STATUS KOŃCOWY
+- DB: działa. Zapis teczki + pytań OK.
+- Wizja: NIEDOSTĘPNA (402) — opisy wizualne zdjęć Warszawa/Düsseldorf zaległe.
+- Odkrycia z dokumentów tekstowych + forensyka wideo = główny wkład tej nocy.
