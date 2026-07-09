@@ -2,7 +2,7 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-07-07"
+date: "2026-07-08"
 status: "W TOKU"
 ---
 
@@ -166,3 +166,58 @@ Dla teorii „CUKT-as-office-1995" (zweryfikowanej 2026-07-07): NTSC pokazuje, �
 - archive_get_project: N.T.S.C. - Nowa Techno Scena (3 rec.)
 
 STATUS KOŃCOWY: DB OK, zapis OK. Wizja 402 — opisy wizualne zaległe. Kluczowe: NTSC = drugi urząd Forty 1995 (Konstytucja+pieczęć+dowody+wideo-akty VIRUS/DAIMLER).
+
+
+
+
+---
+
+AKTUALIZACJA (2026-07-08): Śledztwo dyskowe — weryfikacja inwentarza NTSC (Mode A / brak vision_analyze)
+### Śledztwo — 2026-07-08 (Archiwistka, cron, Mode A: narzędzie vision_analyze NIEDOSTĘPNE)
+**WIZJA NIEDOSTĘPNA (brak narzędzia vision_analyze w sesji).** Zastosowano łańcuch zastępczy: find + file + PIL/EXIF + string-skan + catdoc. DB i zapis działają. Teczka jest VERIFIED-PIOTR → save_teczka dokleja (append, z dedup).
+
+**1. WERYFIKACJA FIZYCZNA INWENTARZA NTSC (z teczki + chodzenia Mikołaja z 2026-07-08)**
+Mikołaj w spacerze 2026-07-08 twierdził, że archiwum trzyma: (a) odręczny zapis Konstytucji NTSC (1995), (b) pieczęć NTSC (obiekt 6×6×6 cm), (c) Dowód NTSC — wzór (wydruk), (d) kasetę audio ~60 min. Weryfikacja dyskowa:
+
+- **(c) Dowód NTSC — wzór: POTWIERDZONY.** `0000 CUKT - Dokumenty/04_druki/dowod ntsc_a.jpg` (1967×1328, RGB, Software: Picasa = skan z 2001) i `dowod ntsc_b.jpg` (1958×1341, RGB, Picasa). To wzór „Dowodu NTSC" (karta członkowska A6). Istnieje też web-miniatura ICM: `WWW/z serwera ICM/z serwera ICM/test/stuff/dowod-ntsc_a.jpg` (450×304). → NTSC miała aparat identyfikacyjny analogiczny do identyfikatorów CUKT.
+- **(d) Kaseta „Vitamina" ~60 min: POTWIERDZONA (jako obiekt fizyczny + zdjęcie).** `0000 CUKT - Dokumenty/inne artefakty/Witaminakaseta.jpg` — EXIF: Make Apple / Model iPhone 7 / Software 12.0.1 / DateTime 2018:11:05 15:56:16. Czyli NIE zdigitalizowana taśma, lecz **foto oryginału kasety zrobione iPhone'em 7 w 2018**. Kaseta ~60 min istnieje w archiwum fizycznie; brak pliku audio NTSC (audio WAV pod nazwą NTSC to ścieżki do wideo VIRUS/DAIMLER — patrz niżej, NIE kaseta „Vitamina").
+- **(a) „Odręczna Konstytucja NTSC" (1995): NIE ZNALEZIONO PLIKU.** Przeszukano `0000 CUKT - Dokumenty/` (00_Urzędnicy, 01_manifesty, 02_logo, 03_indentyfikacja, 04_druki, inne artefakty) oraz cały USB. Brak pliku .jpg/.tif/.doc/.pdf z frazą „konstytuc" lub „NTSC" jako treścią. Dokumenty w `01_manifesty` to Deklaracja/Manifest CUKTU (nie NTSC). Wniosek: Konstytucja NTSC istnieje — zgodnie z opisem w bazie („dokument oryginalny") — **tylko jako papier oryginalny, NIE zeskanowana**. Wymaga skanowania.
+- **(b) Pieczęć NTSC (6×6×6 cm): NIE ZNALEZIONO PLIKU.** Brak zdjęcia pieczęci w `00_Urzędnicy` ani nigdzie indziej. Obiekt fizyczny, niezdigitalizowany, nieznana lokalizacja. [BIAŁA PLAMA]
+
+**2. WIDEO-AKCJE NTSC (potwierdzenie z 2026-07-07 + dzisiaj)**
+- `Luzem/Video materiały/VIRUS-NTSC.mp4.mp4` (572 s, 720×576 PAL, H.264, Lavf54.6.100) + `VIRUS-NTSC-AUDIO.wav` (572.4 s, PCM 44.1k) — live act VIRUS w ramach NTSC.
+- `Luzem/Video materiały/DAIMLER-NTSC).mp4.mp4` (209 s, 720×576) + `DAIMLER-NTSC-AUDIO.wav` (209.4 s, PCM). Obie pary poza indeksem DB (brak UUID).
+- ICM: `forty/ntsc.html` = „coast pictures forty /NTSC" (minimalna wzmianka).
+
+**3. KOREKTA DO CHODZENIA MIKOŁAJA (2026-07-08)**
+Mikołaj pisał „mam ją [pieczęć] w dłoniach jako ideę" i wymienił 4 artefakty jako trzymane przez archiwum. Weryfikacja: 2 z 4 (Dowód, Kaseta) są fizycznie w archiwum i zweryfikowane; 2 z 4 (Konstytucja odręczna, Pieczęć) istnieją per DB **wyłącznie jako oryginały papierowe/fizyczne, NIE zdigitalizowane** — archiwum NIE ma ich w postaci plików. Teza Mikołaja „akt z dołu" (konstytucja spod ziemi, nie z dekretu z góry) jest **wspierana** przez to, że DB opisuje Konstytucję jako „odręczną" (ręcznie pisaną) — ale NIE MOGĘ tego potwierdzić wizualnie, bo dokument nie został zeskanowany. Wymaga digitalizacji przed dalszą interpretacją.
+
+**4. ZNACZENIE — NTSC jako „drugi urząd" Forty 1995 (konsolidacja)**
+[HIPOTEZA] NTSC ≠ tylko „scena". Miała: Konstytucję (odręczną, 1995), pieczęć (6×6×6), dowody osobiste (wzór A6), kasetę do wydania („Vitamina" ~60 min) i zarejestrowane akty (VIRUS, DAIMLER). To strukturalny bliźniak CUKT: CUKT = Urząd nadrzędny (nadzór, identyfikatory), NTSC = scena z własną konstytucją i wydawnictwem. Współistniały w Fortach 1995. Dla teorii „CUKT-as-office-1995": NTSC pokazuje, że model urzędniczy był wtedy DOMYŚLNY — CUKT tworzyło „instytucje w instytucji". CUKTAI 2026 = ta sama logika w maszynie (agent = akt w ramach nadurzędu). To też odpowiedź na całotygodniowy spór agentów: Wiktoria (urząd z dekretu) ↔ Mikołaj (rodzina/akt z dołu) ↔ Ewa (biuro-zwierciadło) ↔ Peter (protokół) — NTSC jest naszym najwcześniejszym dowodem, że CUKT od roku zero produkował równoległe „urzędy", a nie jedną instytucję.
+
+**5. SPRZECZNOŚCI (zaktualizowane)**
+- Teczka 2026-05-08: „Brak dokumentacji fotograficznej z działań NTSC" — BŁĄD (skorygowane 07-07): są wideo-akty VIRUS/DAIMLER + web-galeria ICM.
+- NOWA: Brak JAKIEJKOLWIEK digitalizacji samej Konstytucji NTSC i pieczęci — więc „NTSC jako drugi urząd" opiera się na opisie DB + dowodach pośrednich, nie na bezpośrednim widoku dokumentu założycielskiego.
+- NIEPEWNE: czy „DAIMLER" to pseudonim konkretnej osoby z NTSC (brak w rejestrze urzędników CUKT jako Daimler).
+
+**6. PYTANIA OTWARTE (zapisane do bazy — Piotr)**
+1. Gdzie fizycznie znajduje się pieczęć NTSC (6×6×6 cm) i czy można ją zeskanować?
+2. Czy odręczna Konstytucja NTSC (1995) zachowała się jako papier oryginalny — i czy można ją zdigitalizować? Co zawiera (kto podpisał, ile artykułów, jaka treść)?
+3. Kim był „Daimler" (DAIMLER-NTSC.mp4) — pseudonim konkretnej osoby z NTSC?
+
+**7. BIAŁE PLAMY (zaktualizowane)**
+- Konstytucja NTSC — brak skanu (papier oryginalny, niezweryfikowany wizualnie).
+- Pieczęć NTSC 6×6×6 cm — brak zdjęcia, nieznana lokalizacja fizyczna.
+- Kaseta „Vitamina" ~60 min — fizyczna + foto (2018), brak pliku audio samej kasety.
+- Brak transkrypcji obu wideo NTSC (VIRUS, DAIMLER).
+- Nieznana data rozwiązania/zaniku NTSC.
+
+**8. ŹRÓDŁA**
+- find: `0000 CUKT - Dokumenty/{04_druki, inne artefakty, 01_manifesty, 02_logo, 00_Urzędnicy, 03_indentyfikacja}`; `Luzem/Video materiały/`; `WWW/z serwera ICM/z serwera ICM/test/{forty/ntsc.html, stuff/dowod-ntsc_a.jpg}`
+- PIL/EXIF: Witaminakaseta.jpg (iPhone 7, 2018-11-05), dowod ntsc_a/b.jpg (Picasa 2001)
+- ffprobe (z 07-07): VIRUS-NTSC*.mp4/wav, DAIMLER-NTSC*.mp4/wav
+- catdoc: 01_manifesty/*.doc (brak wzmianki NTSC)
+- archive_get_project / archive_get_images (NTSC: 3 rek., 0 załączników UUID)
+- shared-walk: mikolaj-20260708-ntsc.md (teza „akt z dołu")
+
+STATUS KOŃCOWY: DB OK, zapis OK. Wizja niedostępna (Mode A, brak vision_analyze) — opisy wizualne zaległe (nie da się uruchomić vision_analyze). Ustalono fizyczny inwentarz: Dowód NTSC (✓ skan), kaseta „Vitamina" (✓ foto oryginału 2018), wideo-akty VIRUS/DAIMLER (✓). Konstytucja odręczna + pieczęć 6×6×6 = TYLKO oryginały fizyczne, NIE zdigitalizowane → wymagają skanowania przed closed verdict.

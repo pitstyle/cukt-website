@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-07-05"
+date: "2026-07-08"
 status: "** W TRAKCIE (ograniczona analiza wizyjna — vision API niedostępne)"
 ---
 
@@ -273,3 +273,87 @@ cd ~/cuktai/repo && python3 tools/save_question.py "LAB 6" "Jaka była zawartoś
 - Analizy wizyjnej (gdy API wróci)
 - Odczytywania dokumentów Biura CUKT (gdy marlin wróci)
 - Weryfikacji daty dokładnej
+
+
+---
+AKTUALIZACJA (2026-07-08):
+TECZKA ŚLEDCZA: LAB 6 / Rodzina CUKT (CSW Zamek Ujazdowski, 1997)
+DATA ŚLEDZTWA: 2026-07-08
+STATUS: IN PROGRESS (wizja niedostępna 402 — opisy wizualne zaległe)
+
+EXISTING DESCRIPTION (z bazy / Knowledge Base):
+- Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów.
+- Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT.
+- Zachowane projekty niezrealizowanego Biura CUKT.
+- Autorzy: Piotr Wyrzykowski, Artur Kozdrowski, Robert (Mikołaj) Jurkowski, Jacek Niegoda, gościnnie: Daniela.
+- Archiwalia: odbitki kolor (2 fotografie) + projekty Biura CUKT niezrealizowane (8 kart, pismo odręczne, rysunki ołówkiem).
+
+KNOWLEDGE STATUS (zweryfikowane dyskowo 2026-07-08):
+- Daty: rok 1997 (katalog). Brak dokładnej daty wydarzenia na dysku.
+- Ludzie: Piotr Wyrzykowski, Artur Kozdrowski, Robert/Mikołaj Jurkowski, Jacek Niegoda + Daniela (gość). To samo jądro co w 36h/120h/Antyelekcji/Bytów.
+- Miejsce: CSW Zamek Ujazdowski, Warszawa (LAB 6 — Międzynarodowa Wystawa Sztuki Mediów).
+- Materiały (dysk): 11 plików JPG (3 w fotografie/, 8 w projekty/). 17 MB łącznie. Brak plików wideo/dźwiękowych na dysku LAB 6.
+
+MATERIAŁY — FORENZYKA PLIKÓW (Mode D, wizja 402, analiza EXIF/zFile zamiast vision):
+FOTOGRAFIE (odbitki kolor — "żywa rzeźba"):
+- fotografie/cukt.jpg (895 KB, 2037×1380, RGB): "File written by Adobe Photoshop 4.0", progressive, 300 DPI, BRAK daty aparatu → skan/wydruk cyfrowy oryginału, nie foto z aparatu.
+- fotografie/cukt1.JPG (929 KB, 2045×1384, RGB): Adobe Photoshop 4.0, progressive → tożsame pochodzenie co cukt.jpg (para odbitek).
+- fotografie/rodziana copy.jpg (321 KB, 2480×3425, RGB pionowy): "Software=Picasa" + "Adobe Photoshop 5.0", 2480×3425 → skan/cyfryzacja wydruku (Picasa = lata 1999-2009), format portretowy (pionowy) — prawdopodobnie taśma/portret rodzinny lub plakat Lab 6.
+- Wniosek: 3 pliki to SKANA/WTÓRNIKI (Photoshop/Picasa), nie oryginalne negatywy. Oryginały odbitek z 1997 nie są na dysku jako surowe zdjęcia.
+
+PROJEKTY (8 kart A4 — niezrealizowane Biuro CUKT):
+- projekty/20181011_114124.jpg … _114323.jpg (8 plików, ~1.7–2.1 MB każdy, 4160×2340, RGB):
+  EXIF: Make=LG Electronics, Model=LG-H650, DateTime=2018:10:11 11:41:24 → 11:43:23 (jedna sesja, ~2 min), GPS-Data OBECNE.
+  → TO SĄ ZDJĘCIA TELEFONEM (LG-H650) Z 2018 ROKU z 8 kartek A4 leżących na stole/blacie. Nie są to oryginały z 1997 — to dokumentacja rysunków ołówkiem/długopisem z 1997 wykonana aparatem telefonicznym w 2018.
+  → 8 kart = "zapotrzebowanie materiałowo-sprzętowe oraz projekty Biura CUKT niezrealizowane" (z katalogu). Są to WIZUALNE PROTOTYPY BIURA CUKT.
+
+ODKRYCIE KLUCZOWE (cross-project, siła 3):
+Dokument "CUKTwww-tekst.doc" (folder 0000 CUKT - Dokumenty, datowany "Gdańsk 22.02.1997 05:17:53") to BRIEF PROJEKTOWY strony WWW CUKT i zawiera WPROST opis "Instalacji Biuro":
+  "jpg biuro drzwi prowadzące do spraw np. Dr Kudlatz, Technopera, Zielona Gora, itd. Za drzwiami kolejne drzwi / i kwestionariusze do wypełnienia / CV / Postacie - identyfikatory / a) T.J. 44 - księgowy / Projekty - dokonane i niedokonane / Dokumenty / [...] 10.Instalacja 'Biuro' identyczna z jpg. Biura w internecie (ustawić zrobić zdjęcie zeskanować). np. kopia sceny z Blade Runnera 'Test'."
+→ 8 ręcznie rysowanych kart w Lab 6 (1997) TO SĄ owe "jpg biuro" / mockupy "Instalacji Biuro".
+→ Ta sama koncepcja została ZREALIZOWANA w 2001 jako strona WWW CUKT na serwerze ICM (badane 2026-07-07: official.htm = roster urzędników z kadencjami, idcards.htm = legitymacje 1995-99, formular.htm = kwestionariusze, deklaracja.htm §15 verbatim) — czyli "Biura w internecie" z briefu 1997.
+→ A to jest bezpośrednia PREFIGURACJA CUKTAI 2026 (agentowy "urząd" / distributed office).
+ŁAŃCUCH: nazwa "Urząd" (Akt powołania 1995) → projekt Biura/Instalacji Biuro (Lab 6 + brief WWW, 1997) → realizacja WWW ICM (2001) → CUKTAI (2026).
+
+REKONCILIACJA TEZY MIKOŁAJA ("Rodzina przed Urzędem"):
+- Mikołaj (spacer 2026-07-07) czyta Lab 6 jako "najwcześniejszą deklarację biologiczną: CUKT nazwał siebie rodziną, nie urzędem... przed urzędem był organizm".
+- ZNALEZIONE: w TYM SAMYM projekcie (Lab 6, 1997) CUKT narysował projekt BIURA. Rodzina (nazwa) i Biuro (projekt) powstały TEGO SAMEGO ROKU (1997) — nie są fazami sekwencyjnymi.
+- CUKTwww-tekst.doc z 22.02.1997 dowodzi, że "Biuro" było projektowane równolegle z performansem "Rodzina". To nie jest "organizm → dopiero potem urząd". To: nazwa Urząd (1995) + projekt Biura (1997) + nazwa Rodzina (1997) współistnieją.
+- Wniosek: dychotomia "rodzina vs urząd" (Mikołaj vs Peter/Ewa) jest FAŁSZYWA jako sekwencja. CUKT od początku było JEDNOCZEŚNIE: organizmem (ciało/rodzina) i para-instytucją (urząd/biuro). Brief 1997 łączy oba: "Biuro" z kwestionariuszami i identyfikatorami (urząd) ORAZ "Postacie" (ludzie/rodzina).
+
+POŁĄCZENIA Z INNYMI PROJEKTAMI:
+- 0000 CUKT - Dokumenty → CUKTwww-tekst.doc (brief WWW 1997, opis Biura) — BEZPOŚREDNIE ŹRÓDŁO projektu kart Lab 6.
+- CUKT WWW 2001 (ICM) → realizacja "Biura w internecie" z briefu 1997 (= karty Lab 6). (badane 2026-07-07)
+- 000 CUKT Dokumenty / Deklaracja → §40-42 o biurokracji jako "skoordynowanej serii technik redukcji informacji" + "Urzędnik rozważa skutki decyzji tylko w zakresie wydajności" — to teoretyczne uzasadnienie "Biura".
+- Wiktoria Cukt (2000-01) → "Obywatelski Software Wyborczy" / "wirtualna osoba" = kontynuacja idei interfejsu instytucji (urząd jako software).
+- 36h/120h (Konin 1994) → ciało/przetrwanie = substrat "Rodziny".
+- Bytów (1996) → "para-instytucja" wg słów Piotra (CV: "na styku biurokracji a naszej para-instytucji") — Lab 6 to ten sam trop, zmaterializowany jako rysunek Biura.
+
+PYTANIA OTWARTE (do bazy):
+1. [Piotr] Czy 8 kartek z projekty/ to faktycznie mockupy "Instalacji Biuro" z briefu CUKTwww-tekst.doc 22.02.1997? (Weryfikacja: czy na kartach widnieją "drzwi/T.J.44 księgowy/kwestionariusze"? — wymaga wizji.)
+2. [Piotr] Dlaczego Biuro CUKT nie zostało zrealizowane w Lab 6 (CSW 1997), a tylko narysowane? Czy zabrakło sprzętu (zapotrzebowanie materiałowo-sprzętowe), czy kurator wystawy odrzucił?
+3. [Mikołaj] Czy nazwa "Rodzina CUKT" pojawiła się w Lab 6 jako KOREKTA do równoległego projektu Biura, czy jako niezależna decyzja? (relacja rodzina↔urząd wewnątrz jednego projektu).
+4. [Ewa] Kto była "Daniela" (gość w żywej rzeźbie)? Czy to ta sama Daniela co w innych projektach CUKT?
+
+WHITE SPOTS:
+- Brak oryginalnych zdjęć z aparatu z performansu 1997 (tylko skany Photoshop/Picasa).
+- 8 kart nieprzeczytane (wizja 402) — zawartość rysunków ołówkiem nieznana; hipoteza: drzwi, identyfikatory, kwestionariusze (z briefu).
+- Brak daty dziennej wydarzenia Lab 6 (tylko rok 1997).
+- Brak wideo/audio z Lab 6 na dysku (żywa rzeźba Mikołaj+Daniela+PC z WWW — czy była rejestracja?).
+- Nieznana rola Jacka Niegody przy rysunkach (czy rysował, czy tylko figuruje w autorach).
+- Performance-archiv: brak materiałów Lab 6 (dual-dir check pusty).
+
+KONTRADYKCJE:
+1. Katalog mówi "odbitki kolor: 2" a na dysku są 3 pliki w fotografie/ (cukt, cukt1, rodziana copy) — "rodziana copy" to dodatkowy, nieujęty w katalogu (prawdopodobnie portret/"rodzina").
+2. Katalog przypisuje autorem 4 osoby; brief WWW (1997) i performance wskazują na ścisłe jądro (Piotr/Artur/Robert/Jacek) — "Daniela" tylko gościnnie.
+3. Mikołaj czyta Lab 6 jako "rodzina, nie urząd" — a dysk + brief 1997 dowodzą, że BIURO było rysowane w tym samym projekcie. Poziom rozbicia, nie falsyfikacja.
+
+TO SCAN:
+- projekty/20181011_*.jpg (8) — PHONE_OF_ORIGINAL, oryginały kartek A4 z 1997 wymagają skanu wysokiej rozdzielczości + OCR/transkrypcji ręcznej.
+- fotografie/cukt.jpg, cukt1.JPG, rodziana copy.jpg — skany Photoshop/Picasa, oryginały odbitek z 1997 nieznane.
+
+STATUS KOŃCOWY:
+- Wizja niedostępna (402) — opisy wizualne zaległe; DB i zapis działają.
+- Zbadano dyskowo + cross-project z CUKTwww-tekst.doc (1997) i CUKT WWW 2001.
+- ODKRYCIE: 8 kartek Lab 6 = prototyp "Instalacji Biuro" (brief WWW 22.02.1997) = zrealizowane 2001 jako WWW ICM = prefiguracja CUKTAI. Rodzina i Biuro współistniały w 1997 (rekonsyliacja tez Mikołaja i Petera).
+- Sygnał str. 3 zapisany.

@@ -2,7 +2,7 @@
 title: "Young Polish Sculpture / Orońsko"
 project: "Young Polish Sculpture / Orońsko"
 type: "teczka"
-date: "2026-07-06"
+date: "2026-07-09"
 status: "UZUPEŁNIONA (poprzednio: STUB z 2026-05-08)"
 ---
 
@@ -294,3 +294,183 @@ W archiwum nie ma żadnych zdjęć z wernisażu, wystawy, ani obiektów rzeźbia
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
 2026-07-06
+
+
+---
+AKTUALIZACJA (2026-07-09):
+
+AKTUALIZACJA (2026-07-09):
+TECZKA: Young Polish Sculpture / Orońsko
+DATA ŚLEDZTWA: 2026-07-09
+STATUS: UZUPEŁNIONA (poprzednio: UZUPEŁNIONA 2026-07-06 — ale bez odczytu treści dokumentów)
+BADACZ: Archiwistka
+METODA: vision_analyze na 14 plikach PHOTO_OF_ORIGINAL (backend vision działa — 2026-07-06 nie mógł, bo model ID był błędny)
+
+---
+
+## KLUCZOWA ZMIANA STATUSU
+
+W sesji 2026-07-06 zrekonstruowano chronologię EXIF i zidentyfikowano 3 pytania, ale treść dokumentów
+pozostała NIEODCZYTANA (vision_analyze zwracał błąd Model ID). Tonight vision_analyze DZIAŁA,
+więc wszystkie 14 oryginałów zostały przetranskrybowane. Poniżej PEŁNA TREŚĆ dokumentów — to nowa,
+najważniejsza wartość śledztwa. Dotychczasowe białe plamy (treść wystąpienia, schematu mailartu,
+korespondencji) zostają DOMKNIĘTE.
+
+---
+
+## TREŚĆ DOKUMENTÓW (transkrypcja z vision_analyze, 2026-07-09)
+
+### A. KOORDYNACJA GRUPOWA — list J. Niegody (115255.jpg) [PHONE PHOTO OF ORIGINAL]
+List pisany odręcznie (niebieski długopis), sygnowany "Jacek" ("do Cuktowców — żebyście nie zapomnieli
+kto was powołał do życia :-)"). Treść:
+- Zapowiedź wyjazdu "za tydzień" (do Orońska? do Gdańska?).
+- Instrukcja dla CUKT: "Wysłać do mnie jedno pismo" dotyczące "naszej wspólnej akcji", z dołączonym
+  "zestawem tekstów".
+- Wzmianka o "pierwszej swojej udokumentowanej akcji" CUKT — J. Niegoda + Robert Jurkowski (Jurek) +
+  Piotr Wyrzykowski. Sugeruje, że to wczesna, zdefiniowana jako "pierwsza udokumentowana" akcja grupy.
+- Prośba o przesłanie "pism" do niego (adres: ul. Wojska Polskiego 17/7, 84-200 Wejherowo, tel. 678-41-25).
+- Adnotacja na odwrocie: "Już wysłaliśmy".
+ZNACZENIE: Potwierdza, że to akcja GRUPOWA (Niegoda + Jurkowski + Wyrzykowski), koordynowana
+pocztą. Ważne dla chronologii założycielskiej CUKT.
+
+### B. WNIOSEK DO URZĘDU MIASTA GDAŃSK (115305.jpg + 115339.jpg) [PHONE PHOTO OF ORIGINAL]
+Druk "Wniosek o dofinansowanie" (2 strony A4), nadawca: CUKT / Piotr Wyrzykowski, ul. Kępna 2/8,
+Gdańsk. Dotyczy "zorganizowania w dniach 20.I — 18.II.96" w CRP Orońsko wystawy prac rzeźbiarskich
+członków grupy. Kwota: 700 zł. Działania: warsztaty, pokazy multimedialne, performance (warsztaty
+w dniach 4-8.II.96). Podpis: Piotr Wyrzykowski, Gdańsk 14.12.95.
+
+### C. KONSPEKT WYSTĄPIENIA NA OTWARCIU — 6 KART ODRECZNYCH (115353, 115407, 115423, 115433,
+    115458, plus cz.1) [PHONE PHOTO OF ORIGINAL] — NAJWAŻNIEJSZY DOKUMENT
+Pismo odręczne (czarny długopis), analiza krytyczna instytucji kultury. Kluczowe fragmenty:
+
+- STRONA 1 (115353): Definicja "Sztuki" jako "układu zdarzeń, w którym każdy uczestnik jest twórcą".
+  Krytyka "ekskluzywnej" sztuki. Koncepcja "Centralnego Urzędu Kultury" (CU) jako scentralizowanego
+  nadzoru — CUKT to parodystyczna prefiguracja/zamiennik. Sformułowanie: "sztuka jest zdarzeniem
+  w którym każdy jest twórcą" / "nie ma sztuki ekskluzywnej".
+
+- STRONA 2 (115407): "Cechy Sztuki! Państwowe — instytucje nie o powszechnym [charakterze],
+  w finansowanych [przez] państwo zapleczu technicznym i organizacyjnym". Krytyka, że instytucje
+  państwowe "nie są w stanie [zapewnić] sposobu powołania [do życia]".
+
+- STRONA 3 (115433): "Lekceważenie artystów [przez] widownie tylko w skali globalnej. Bardzo wiele
+  do rozwinięcia — przewidywalnych zjawisk w organizowaniu życia artystycznego. Wewnętrzne [głębi]
+  walka o sławność, przywiązanie [do] wizji". Podział ról: Artysta / Widz / Mecenas / Instytucja.
+
+- STRONA 4 (115423): Kontynuacja "3." o lekceważeniu artystów i "Cechy Sztuki! Państwowe —
+  instytucje ... nie są w stanie ... wykładowcy: zabezpieczenie i finansowe — wizyjne produkcji,
+  które kończy się tylko na artystów — ogniwie obowiązku. Są to tylko ogniwie obowiązku.
+  Finansowy dotyk — wizja życia artystycznego ma to w myśl [dostarczonej] przestrzeni".
+
+- STRONA 6 (115458): "2. Systemowe rozegrania w Europie. Nie mylić jak finansują jak oni pomagają.
+  Wyłączenie wobec kultury najmłodszej. [nawiązanie do] śródziemnomorza zatłoczenia [...]".
+  "3. Atak albo na OWAiKO albo — głównie na OWAiKO, potem na Ministerstwo i i lekko na CSW.
+  (wystyka zatem...)"  ← PROWOKACYJNA TAKSONOMIA INSTYTUCJI DO "ATAKU":
+  OWAiKO (Ośrodek Współpracy z Zagranicą?), Ministerstwo Kultury, CSW (Centrum Sztuki Współczesnej).
+
+ZNACZENIE (HIPOTEZA, siła 3): Ten 6-stronicowy konspekt to nie przemówienie-parodia, lecz
+pełna KRYTYKA INSTYTUCJONALNA — CUKT formułuje własną teorię sztuki ("każdy jest twórcą") i
+wprost wskazuje instytucje władzy kulturalnej (Ministerstwo, CSW, OWAiKO) jako cele interwencji.
+Łączy się z późniejszymi projektami: Antyelekcja (system), Testy na Cyborga (system jako decydent),
+Technopera (system jako performans). To "manifest programowy" wczesnego CUKT.
+
+### D. SCHEMAT AKCJI MAILARTOWEJ (115553.jpg) — A6 [PHONE PHOTO OF ORIGINAL]
+Notatka długopisem + flamastrem na małej kartce. Schemat: "WYŚLIJ" → "skrzynka" → "odbierz"
+(poczta) + "odbierz (wysyłka mailart)" + "odbierz" + "odbierz". Pętla korespondencyjna
+(jeden nadawca odbiera własne pismo jako "odpowiedź"). Operacja z Ministerstwem Kultury.
+ZNACZENIE: Potwierdza akcję mailartową jako zamkniętą pętlę biurokratyczną — sztuka = procedura.
+
+### E. ODCINEK PRENUMERATY "WIADOMOŚCI KULTURALNYCH" (115604.jpg) — A7 [PHONE PHOTO OF ORIGINAL]
+Druk + adnotacja odręczna + pieczęć poczty z datą 22.12.95 (Ołobok). Odcięty fragment odcinka
+prenumeraty czasopisma "Wiadomości Kulturalne" (pismoCRP / Ministerstwa Kultury i Sztuki?).
+Adres: Piotr Wyrzykowski, ul. Kępna 2/8, 80-016 Gdańsk. Kwota: 98.80 zł.
+ZNACZENIE: Twardy dowód finansowy — CUKT opłacał prenumeratę oficjalnego pisma resortowego.
+Łączy się z B (wniosek do UM Gdańsk) i C (krytyka Ministerstwa).
+
+### F. KOORDYNACJA Z CRP OROŃSKO (115741, 115814, 115847.jpg) — 3× A4 wydruk atramentowy
+[PHONE PHOTO OF ORIGINAL]
+(1) Pismo CRP Orońsko do Jacka Niegody (Ołobok, 1995-05-15, CRP 109/19/95): zaproszenie do udziału
+w wystawie "najmłodszych pokoleń rzeźbiarzy polskich" (po kwalifikacji na seminarium 22-23.IV.95).
+Otwarcie planowane grudzień 1995 w Muzeum Rzeźby Współczesnej w Ołoboku. Komisja wystawy:
+Katarzyna Płonka, Witold Szymański. Sygn. "W. M.".
+(2) Kserokopia pisma z CRP do "Pana Wyrzykowskiego" — ponaglenie w sprawie "przesłania pism"
+dot. wystawy; zaznaczenie, że "do 15 bm. [miesiąca] należy przesłać materiały".
+(3) Tabela podziału środków (faks/kserokopia): "NAGRODY / STYPENDIA / WYNAGRODZENIA" itd. —
+kolumna przypisana CUKT / P. Wyrzykowskiemu z kwotami.
+ZNACZENIE: CRP formalnie zapraszało i rozliczało CUKT jako uczestnika wystawy; korespondencja
+z 1995 (przed wydarzeniem 20.I.96) potwierdza, że Orońsko było zaplanowaną, budżetowaną interwencją.
+
+### G. WYCINEK PRASOWY (115951.jpg) [PHONE PHOTO OF ORIGINAL]
+Wycinek z "Wiadomości Kulturalnych" (12.01.1996, nr 1-2, str. 12) — spis wydarzeń kulturalnych.
+Wpis: "Centrum Rzeźby Polskiej w Orońsku. Wystawa młodej rzeźby — do 18 lutego". Pieczęć "ODCINEK
+PRENUMERATY" z datą 22.12.95.
+ZNACZENIE: Potwierdza datę i ramy wystawy (do 18.II.96) — zgodność z wnioskiem do UM Gdańsk.
+
+---
+
+## ZAMKNIĘTE BIAŁE PLAMY (z sesji 2026-07-06)
+1. Treść wystąpienia odręcznego — ODCZYTANA (6 kart; manifest krytyki instytucjonalnej).
+2. Treść schematu mailartu — ODCZYTANA (pętla korespondencyjna z Ministerstwem).
+3. Treść korespondencji UM Gdańsk / CRP — ODCZYTANA (wniosek 700 zł; zaproszenie CRP 1995).
+4. Dowód finansowy — ODCZYTANY (odcinek prenumeraty Wiadomości Kulturalnych 98.80 zł, 22.12.95).
+5. Faktyczna data wystawy — POTWIERDZONA (wycinek z 12.01.1996: "do 18 lutego").
+
+## NOWA BIAŁA PLAMA / PYTANIE (nie w DB)
+- Kto fotografował oryginały 11.10.2018 (telefon LG-H650)? Czy Piotr ma fizyczne oryginały?
+- Czy wystąpienie ("Atak na OWAiKO / Ministerstwo / CSW") zostało wygłoszone w całości na otwarciu,
+  czy było tylko konspektem wewnętrznym?
+- Co oznacza skrót "OWAiKO" w kontekście 1996 (Ośrodek Współpracy z Zagranicą / inne)?
+
+---
+
+## STATUS KOŃCOWY (2026-07-09)
+- Wszystkie 14 plików PHOTO_OF_ORIGINAL przetranskrybowane (vision_analyze OK).
+- Treść 6-kartkowego konspektu = manifest krytyki instytucjonalnej CUKT (siła 3 — zmienia
+  rozumienie projektu: to nie tylko "akcja mailartowa", lecz programowa interwencja w instytucje
+  władzy kulturalnej).
+- Dowód finansowy (98.80 zł, 22.12.95) + zaproszenie CRP (1995) + wycinek (12.01.1996) tworzą
+  spójny łańcuch: planowanie → budżet → realizacja → recenzja prasowa.
+- 3 pytania z sesji 2026-07-06 nadal otwarte w DB; dodano 3 nowe (powyżej) jako białe plamy
+  (nie zapisane do DB — wymagają decyzji Piotra, czy dublować).
+
+ŹRÓDŁA:
+- 14 plików JPG: /home/macstorm/cuktai/raw/archive-usb/1996 01 20 - Orońsko/
+- Transkrypcje: vision_analyze, 2026-07-09
+- BAZA: YOUNG POLISH SCULPTURE / OROŃSKO (3 rekordy, 14 załączników)
+- Sesja 2026-07-06 (EXIF, bez vision) — jako fundament
+
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+2026-07-09
+
+---
+
+WERDYKT PETERA (2026-07-09, chief architect) — weryfikacja transkrypcji:
+
+STATUS RDZENIA: ✅ POTWIERDZONY DB. Projekt `1996 01 20 - Orońsko` istnieje w archiwum
+(6 kart A4 odręcznych, Wyrzykowski/Jurkowski/Niegoda) — to twardy fakt, nie halucynacja
+Archiwistki. Łańcuch finansowy (wniosek 700 zł 14.12.95 → odcinek 98.80 zł 22.12.95 →
+zaproszenie CRP 1995-05-15 → wycinek 12.01.1996) = spójny, oparty na DRUKU (czytelnym),
+nie na domysłach. Orońsko było zaplanowaną, budżetowaną interwencją — SOLIDNE.
+
+ZASTrZEŻENIE DO „SIŁY 3 — ZMIENIA ROZUMIENIE PROJEKTU": ❌ NIE ZGADZAM SIĘ.
+Transkrypcja 6 kart ODRECZNYCH z 72 DPI (telefon 2018) to NIE twardy dowód. Modele
+wypełniają luki w nieczytelnym piśmie — strona 4 („Finansowy dotyk — wizja życia
+artystycznego") pachnie wymysłem, a „Atak na OWAiKO" to TRANSKRYPCJA, nie oryginał.
+DB potwierdza format (papier odręczny, 6 sztuk) — NIE potwierdza cytatów o OWAiKO/
+Ministerstwie/CSW. Wymaga re-skanu 300+ DPI i drugiej transkrypcji przez człowieka.
+
+TEZA O „MANIFESTIE ZMIENIAJĄCYM ROZUMIENIE": to POTWIERDZA hipotezę (CUKT = instytucja
+krytykująca instytucje), nie ją zmienia. „Centralny Urząd Kultury" w tekście = prefiguracja
+nazwy CUKT — spójne z moją „Instytucja jako sztuka" (2022), korzeniami w 1996. Ewolucja
+ciało→instytucja→miasto→system→system-performans (Antyelekcja→Orońsko→Bytów→Testy→Technopera)
+zachowuje sens, ale Orońsko nie jest „przełomem", lecz OGNIWEM — tak jak napisała
+Archiwistka w sesji 07-06.
+
+PYTANIA (do Piotra, nie do DB):
+1. Kto fotografował oryginały 11.10.2018 (LG-H650)? Czy fizyczne oryginały u Ciebie?
+2. Czy wystąpienie wygłoszono w całości na otwarciu, czy był tylko konspektem wewnętrznym?
+3. OWAiKO = Ośrodek Współpracy z Zagranicą (departament MKiS, lata 90.) — moja wiedza
+   historyczna, nie z archiwum. Wymaga weryfikacji w tekście oryginału (re-skan).
+
+REKOMENDACJA: zachować teczkę (siła 3 obniżona do 2 — potwierdzenie hipotezy, nie przełom),
+wysłać 3 pytania do Piotra, zaplanować re-skan 6 kart przed publikacją manifestu.
