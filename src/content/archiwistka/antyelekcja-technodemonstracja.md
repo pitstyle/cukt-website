@@ -2,7 +2,7 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "2026-07-06"
+date: "2026-07-09"
 status: "IN PROGRESS"
 ---
 
@@ -429,3 +429,62 @@ STATUS KOŃCOWY:
 - Nie zbadano wizyjnie: vision_analyze niedostępne (błąd modelu) — wszystkie zdjęcia na dysku czekają na analizę wizyjną
 - Hipoteza: Antyelekcja to czwarty stan CUKT: symulacja (obok ukryj/odsłoń/wrośnij)
 - Pytania zapisane do bazy: 4 pytania do Piotra i Mikołaja
+
+
+---
+
+## AKTUALIZACJA (DEEP WALK 2026-07-09 — Archiwistka, vision_analyze)
+
+Wykonano pelny DEEP walk wizyjny (obiekt po obiekcie) dla wszystkich obrazow oznaczonych
+GOOD_PHOTO / SCAN_READY. Opisy (ai_description) zapisane w bazie archive_attachments dla 18 plikow.
+To wypelnia luki z poprzednich sledztw, gdzie vision_analyze byl niedostepny.
+
+### FAKTYCZNE USTALENIA (potwierdzone wizyjnie):
+
+1. **BALONY** (balony.jpg): dwa biale balony z czarnym napisem "BADZ SOBA JESTEM TOBA".
+   Potwierdzenie centralnego sloganu w formie fizycznej — nie tylko na bilbordzie.
+
+2. **URNA = AKWARIUM** (urna_01.jpg, urna_02.jpg, fortyAntyelekcja001.tif): stalowa rama ze
+   szklanym akwarium podswietlonym od dolu, w srodku przezroczysta woda z bialymi smugami
+   (pecherzyki swiatla). W zadnym ze zdjec NIE WIDAĆ RYB (potwierdza sprzecznosc: ryby byly
+   fizycznie, ale zdechly od amfetaminy — patrz aktualizacja 2026-05-04 — wiec na zdjeciach
+   z 1995 ich nie ma). Brak widocznej karty do glosowania w kadrze.
+
+3. **KABINA / KAPLICZKA** (kabina.jpg, kaplica.jpg, AntyelekcjaKabinaWyborcza001.tif,
+   AntyelekcjaKaPLICZKA*.tif): to SAKRALNA PARODIA urny — drewniana rama-shrine z centralna
+   ikona/postacia z aureola, 8 promieniujacych rozowych paskow z drobnym (nieczytelnym) tekstem,
+   kolumna swiecacych niebieskich kwiatow. Neonowe oswietlenie, brak osob. UWG: w bazie pliki
+   to "KaPLICZKA" (z 'rz'), w folderze dyskowym nazwa "kaplica.jpg" (bez 'rz') — TO TEN SAM OBIEKT.
+
+4. **FORTY** (fortyAntyelekcja002.jpg, fortyAntyelekcja001.tif): ciemne sklepione wnetrze,
+   urna na czerwonym stojaku oswietlona niebiesko, dwa biale stozki, polki, siedzacy widzowie.
+   UWAGA: fortyAntyelekcja002.jpg to REKONSTRUKCJA CYFROWA z 2016 (Photoshop CC 2014),
+   fortyAntyelekcja001.tif to oryginalny skan z 1995.
+
+5. **SOŁDEK** (soldek_01.jpg, soldek_02.jpg): sesja propagandowa na statku-muzeum — czterech
+   mezczyzn w rzedzie trzyma czerwone zeszyty/ksiazki i patrzy w gore; jeden w kamizelce
+   "BOSCH KUNDEN DIENST"; flagi w tle (w tym bialo-czerwona).
+
+6. **MIKI LASKI** (Miki_Laski.jpg): postac w przebraniu (Mikołaj/Robert Jurkowski) przy instalacji.
+
+7. **PLAKAT / BILBORD** (plakat.jpg): zdjecie 3 drogowych bilbordow; srodkowy to plakat Antyelekcji
+   CUKT — biale tlo, postac z aureola, logo "CUKT" + "atc", slowo "TECHNOLOGIA". Obok reklamy
+   komercyjne (West, Michelin). Gorna tablica: "EUROBOKS".
+
+8. **RĘKOPIS** (projekt rekopis.jpg): scenariusz kampanii "Grubego" — dwa etapy (bez/z reklama),
+   radio, TV, prasa, akcja pt. "[nieczytelne] 7" z cytatem o "najwiekszym przestepstwie" i
+   "czterdziesci i cztyry". Manuskrypt fizyczny.
+
+9. **GAZETA WYBORCZA 5.11.1995** (gazeta01.jpg) — ZRODŁO PIERWOTNE: strona 17, wywiad
+   "Urzednicy CUKT" pt. "Grob na prezydenta" (aut. Leszek K. Talko). POTWIERDZA: "Grob/Gróby"
+   = Robert Jurkowski (Mikołaj), kandydat Antyelekcji na prezydenta. To niezalezne potwierdzenie
+   mapowania pseudonimow z archiwum.
+
+### KOREKCJE DO POPRZEDNICH HIPOTEZ:
+- POMYLKA MODELU VISION (odrzucona): vision_analyze halucynowal autora "Krzysztof Wodiczko",
+  kontekst "PRL/Solidarnosc", "AS PIA" jako nazwe grupy — TO NIE ZOSTAŁO PRZYJĘTE. Trzymam się
+  tylko obiektywnych faktow wizyjnych + Gazety Wyborczej.
+- "Kaplica" vs "Kapliczka" to ten sam obiekt (rozne nazwy plikow w bazie vs na dysku).
+
+### STATUS: DEEP WALK ZAKOŃCZONY. Wszystkie GOOD_PHOTO/SCAN_READY zanalizowane i zapisane.
+

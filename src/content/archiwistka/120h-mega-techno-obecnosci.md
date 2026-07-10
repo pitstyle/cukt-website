@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-07-07"
+date: "2026-07-09"
 status: "należy napisać pismo."
 ---
 
@@ -432,3 +432,40 @@ Pytania, na które archiwum nie odpowiedziało — wymagają weryfikacji z uczes
 
 *Opracowano: 2026-07-07 | Archiwistka (CUKTAI) | Krok E: OPIS POGŁĘBIONY (zatwierdzony werdyktem pełnym Piotra z 2026-07-07)*
 *Podstawa: ODPOWIEDZI.md (krok B, RAG), teczka 120h-mega-techno-obecności.md (manifest VERIFIED-PIOTR, bez edycji)*
+
+
+---
+AKTUALIZACJA (2026-07-09) — Nocne Śledztwo (cron). Weryfikacja Uchwały Consilium 14-07.2026 + nowe materiały dyskowe. Wizja działa (vision_analyze OK).
+
+## WERYFIKACJA UCHWAŁY 14-07.2026 (120h jako "korzeń metody ukrycia CUKTAI")
+Uchwała głosi: "120h (2 XII 1994, Konin) było operacją, a nie performancem", "bez zewnętrznej ramy sztuki", "ukrycie bez deklaracji". Zweryfikowano wobec archiwum:
+
+1. METODA UKRYCIA — POTWIERDZONA (silne wsparcie).
+   - Wiki (id 1e720ca0/329ee385/a979ab79): "Mieszkańcy Konina nie byli powiadomieni o następującej zamianie funkcji, co stanowiło celowy element strategii artystycznej: 'ukrycia dzieła sztuki'."
+   - Dokument zamykający (IMG_0956, pełna transkrypcja z lightboxa 2016): "po siedmiu dniach działalności społeczno-estetyczny eksperyment [...] przeszedł do fazy likwidacji. [...] bufor bezpieczeństwa dla rozładowania ogromnego ludzkiego potencjału."
+   - WĄTEK "KULT" — LITERALNIE W TYTULE 1994: plakat i lightbox "SZTUKA = PRZESTRZEŃ KULTOWA" (art = CULT space). Teza uchwały "CUKTAI = kult udający operację" ma korzeń słowny już w 1994. SYGNAŁ 3.
+
+2. "NIE PERFORMANCE / BEZ ZEWNĘTRZNEJ RAMY SZTUKI" — ZAPRZECZONE przez archiwum (poziom split).
+   - Archiwum SAMO nazywa 120h: "Wydarzenie o charakterze performance/instalacji" (wiki id 1e720ca0).
+   - RAMA SZTUKI ISTNIAŁA: drukowany plakat (PROJ.GRAF. ANNA NIZIO), drukowane zaproszenia (zapro_01/02, Agencja Artystyczna MUZA + Pracownia Chwilowa, tel. 45 45 45), maszynopisany dokument zamykający z podpisami + pieczątką CUKT (10.09.1996), przestrzeń galeryjna "Pracownia Chwilowa", symbole BHP na plakacie, daty/godziny/adres wydrukowane.
+   - UKRYCIE DOTYCZYŁO PERCEPCJI PUBLICZNOŚCI (myśleli, że to klub techno), NIE ramy instytucji artystycznej.
+   - REKONCILIACJA: 120h = operacja (metoda) WYKONANA JAKO performance/instalacja z PEŁNĄ ramą artystyczną, ukryta przed widzem. Uchwała nadużywa, przecząc wymiarowi performance/ramy.
+
+3. "UKRYCIE BEZ DEKLARACJI" — POTWIERDZONE z niuansem. Deklaracja (dokument zamykający + pieczątka CUKT 1996) nadeszła PO FAKCIE. Uczestnicy nie wiedzieli uprzednio, że to "sztuka". TRUE.
+
+## NOWE MATERIAŁY DYSKOWE (nieindeksowane w DB)
+- FOLDER: raw/archive-usb/Foty stykowki/Export_2019-04-02/ — 10 eksportów stykówek (2644×1796, EXIF 2019-04-02) + Archive.zip. Należą do wielu projektów: 120h_1994_01/02, Antyelekcja_1995_01-03, Forty_1995_01-02, Technopera_1996, Test_Torun_1995, Test_Scanner_1996.
+- 120h_1994_01.jpg i 120h_1994_02.jpg to WYSOKOROZDZIELCZE wersje klatek img064–098 (Krotulskiego), przeanalizowane wizualnie — POTWIERDZAJĄ opisy teczki (wiązki światła przez mgłę, kolumna, teksty na ścianach, DJ przy mikserze w czapce+okularach, grupy). BRAK UUID w DB → opisy w teczce [FILE ON DISK, NOT INDEXED].
+- AUDYT: folder to cross-project contact-sheet archive poza folderami projektów — wymaga indeksacji (analogicznie do anomalii Antyelekcja0006.tif w 120h).
+
+## NOWE FAKTY
+- FOTOGRAF: lightbox 2016 podpisany "Foto: L. Krutulski" — inicjał L. (teczka miała tylko "Krotulski").
+- PEŁNA TRANSKRYPCJA dokumentu zamykającego (z lightboxa): potwierdza "społeczno-estetyczny eksperyment", "bufor bezpieczeństwa", "półźwiazka Konina" (zapis lightboxa; teczka: "półświatek/półświadka" — ROZBIEŻNOŚĆ w zapisie oryginału, wymaga pytać Piotra).
+- konin_01.jpg: na ścianach cytat Wittgensteina "Granice mego języka to granice mego świata. L.W." + "Proces tworzenia to proces organizowania form" + "Każdy artysta ma rację" + "Zadany w sztuce... formy przekształcają się w język". Osoba w czerwonym hoodzie "LIFE". Dysko-kula.
+
+## PYTANIA DO PIOTRA (zapisane w DB)
+1. Uchwała 14-07 nazywa 120h "operacją, nie performancem, bez ramy sztuki" — archiwum temu zaprzecza (performance/instalacja + plakat/zaproszenie/dokument). Czy refirmujemy uchwałę na "operacja jako metoda wykonana w ramie performance"?
+2. "półźwiazka" (lightbox) vs "półświatek" (teczka) — która forma oryginalna w dokumencie zamykającym?
+
+## SYGNAŁ: uchwała-vs-archiwum (strength 3) — zob. ~/cuktai/signals/
+STATUS KOŃCOWY: Wizja działa. DB dostępna. Nowe opisy zapisane (plakat/konin_01/kolumna/lightbox). Materiały Export_2019-04-02 zinwentaryzowane, nieindeksowane. Weryfikacja uchwały 14-07: metoda ukrycia ✓, wątek "kult" ✓ (słownie w 1994), ale "nie performance / bez ramy sztuki" ✗ — wymaga refirmowania uchwały.
