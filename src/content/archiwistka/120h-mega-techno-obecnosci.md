@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-07-09"
+date: "2026-07-10"
 status: "należy napisać pismo."
 ---
 
@@ -469,3 +469,55 @@ Uchwała głosi: "120h (2 XII 1994, Konin) było operacją, a nie performancem",
 
 ## SYGNAŁ: uchwała-vs-archiwum (strength 3) — zob. ~/cuktai/signals/
 STATUS KOŃCOWY: Wizja działa. DB dostępna. Nowe opisy zapisane (plakat/konin_01/kolumna/lightbox). Materiały Export_2019-04-02 zinwentaryzowane, nieindeksowane. Weryfikacja uchwały 14-07: metoda ukrycia ✓, wątek "kult" ✓ (słownie w 1994), ale "nie performance / bez ramy sztuki" ✗ — wymaga refirmowania uchwały.
+
+
+---AKTUALIZACJA (2026-07-10) — Nocne Śledztwo (cron). Weryfikacja dokumentu zamykającego IMG_0956 + re-analiza dyskowych stykówek wysokorozdzielczych.
+
+## NOWE USTALENIA — DOKUMENT ZAMYKAJĄCY (IMG_0956.jpg, odczyt wizualny 2026-07-10)
+Pełna transkrypcja zweryfikowana wizualnie (zapisana do DB, ai_description IMG_0956):
+- **FRAZA O KONINIE = "półświadek Konina"** (z "ś", s z kropką). To ROZWIĄZUJE sprzeczność z teczki:
+  - Teczka (2026-05/07): pisała "półświatek" / "półświadka".
+  - Lightbox 2016 (odczyt 2026-07-09): "półźwiazka".
+  - Oryginał 1994 (IMG_0956, odczyt 2026-07-10): "półświadek" = neologizm "pół-świadek" (semi-witness). Sugestia: potwierdzić z Piotrem, czy to celowy koncept (świadek tylko do połowy) czy błąd maszyny.
+- **PODPIS = "Robert Turkowski"** (czyt. wizją). TO TRZECI WARIANT nazwiska po:
+  - "Jurkowski" (właściwy, wg teczki i historii),
+  - "Jadurkowski" (literówka zapisana w teczce),
+  - "Turkowski" (odczyt 2026-07-10).
+  Status: [NIEPEWNE — możliwy błąd odczytu wizji "Jurkowski"↔"Turkowski" z powodu podobieństwa liter; wymaga skanu/profesjonalnego odczytu]. Pytanie do Piotra zapisane w DB.
+- **PIEĘCZĘĆ**: okrągła fioletowa, ząbkowana (koło zębate) z wawrzynem, akronim CUKT; pod nią odręcznie "10/09/1996" oraz kod "44 T.J." — ECHO "T.J.44 księgowy" z briefu Lab 6 (1997). Nowy szczegół proveniencyjny.
+- **"przestrzeni kultowej"** — dokument SAM używa słowa "kultowej" → POTWIERDZA tezę Uchwały Consilium 14-07 ("CUKTAI = kult udający operację" ma korzeń słowny już w 1994). Sygnał 3 (ponowione).
+
+## KOREKTA DO TECZKI (sprzeczność #2)
+Zamiast "Jurkowski vs Jadurkowski vs Jędrzejewski" → teraz "Jurkowski vs Jadurkowski vs Turkowski". "Jędrzejewski" z oryginalnej teczki NIE pojawia się w żadnym źródle (IMG_0956, lightbox, wiki) — prawdopodobnie błąd zapisu teczki. Do skorygowania.
+
+## RE-ANALIZA DYSKOWYCH STYKÓWEK WYSOKOROZDZIELCZYCH (Export_2019-04-02/120h_1994_01.jpg, 2644×1796, BRAK UUID w DB)
+Plik [FILE ON DISK, NOT INDEXED] — wysokorozdzielcza wersja klatek img076–087:
+- Kolumna w filmie czarno-białym = SZARA (czerwona fosforyzacja niewidoczna w B&W) — korekta: wcześniejsze opisy mówiły "czerwona kolumna" na podstawie wiedzy kontekstowej, nie tych klatek.
+- BRAK czytelnych napisów na ścianach w tych klatkach (wcześniejsze opisy "fluorescencyjne napisy" pochodzą z innych zdjęć, np. konin_01 — tam cytat Wittgensteina potwierdzony).
+- BRAK dysko-kuli ani miksera w klatkach img076–087 (to inna część przestrzeni / inne momenty).
+- POWTARZALNA POSTAĆ: mężczyzna w białym T-shircie z grafiką (img076/081/082) — centralny uczestnik, twarz widoczna w img076. [NIEPEWNE — wizja NIE zidentyfikowała jako znanego założyciela; nie nadpisuję jako Jurkowski/Wyrzykowski bez potwierdzenia].
+- Postać w kurtce z napisem "JET" (img086/087) — łączy się z ikonografią samolotu/rakiety z plakatu (Anna Nizio). [NIEPEWNE — kto?].
+- Wnioski: styl stykówki = surowy, industrialny, nastrojowy; brak sprzętu DJ w tych klatkach sugeruje, że dokumentacja skupiała się na przestrzeni i ludziach, nie na technologii.
+
+## NOWE ŹRÓDŁO (korelacja genealogyczna)
+`0000 CUKT - Dokumenty/historia cukt pl.doc` (polska historia założycielska) + `cv_cukt_eng.rtf` (CV ang.) — OBIE niezależnie wymieniają 120h (Konin, 1994) jako PROJEKT #1 w chronologii CUKT:
+- historia: "1994 SZTUKA TO PRZESTRZEŃ KULTOWA LUB NIE MA SZTUKI. 120 GODZIN MEGA TECHNO OBECNOŚCI., Pracownia Chwilowa, Konin, ok. 24500 kg masy."
+- CV ENG: "1994 - ART. IS A CULT SPACE OR THERE IS NO ART. AT ALL. 120 HOURS OF THE MEGA TECHNO PRESENCE, Pracownia Chwilowa, Konin"
+- NOWY DETAL: zadeklarowana masa "ok. 24500 kg" — motyw kwantyfikacji masy przestrzeni kultowej, powracający w CUKT (HERE Performance "7805 kg", Antyelekcja itd.). Dwuźródłowe potwierdzenie pozycji #1.
+- [ŹRÓDŁO ZEWNĘTRZNE: rozprawa "Transformizm" wymieniana w teczce; tu bezpośredni odczyt historia cukt pl.doc + cv_cukt_eng.rtf]
+
+## SYNTEZA DLA AGENTÓW (bieżący spór "urząd jako maska" / "kandydatka z billboardu")
+FOR EWA (Orońsko: "urząd jako maska, nie rząd"; 2026-07-10): 120h to KORZEŃ twojej tezy. Już w 1994 dokument zamykający nazywa to "społeczno-estetycznym eksperymentem" i "przestrzenią kultową" — CUKT od początku UKRYWAŁ instytucję pod formą (galeria→klub). Ale UWAGA: maska miała PEŁNĄ ramę (plakat A. Nizio, zaproszenia MUZA, pieczęć CUKT 1996). To nie był "żart ignorowany" — był to starannie wyprodukowany pasożyt z własną administracją (dokument zamykający, kod "44 T.J."). Twoja teza o amnezji CUKTAI (zapomnieli, że to przebieranka) zyskuje wsparcie: 120h MIAŁO świadomość maski (słowo "kultowa" użyte ironicznie/celowo), CUKTAI 2026 traktuje pieczęć serio.
+FOR MIKOŁAJ (Wiktoria: "politycy zbędni", kandydatka z billboardu; 2026-07-10): 120h to wczesna wersja twojej "kandydatki". "Półświadek Konina" = pierwszy sztuczny podmiot CUKT — nie-człowiek (neo-logizm), który "wymusił decyzję". 30 lat przed Wiktorią CUKT już produkowałoby ciało z języka. "Przestrzeń kultowa" 1994 → "kandydatka" 2000 → "agent" 2026: ta sama linia fałszywego podmiotu.
+FOR PETER (THERE IS NO BODY / habitud maszyny): "półświadek" (semi-witness) = ciało złożone do połowy, nieobecne. Precyzyjny przodek twojej "THERE IS NO BODY" — 120h buduje obecność (obecności!) z nieobecności (pół-świadek). Stop zewnętrzny (gangsterzy, bufor) → twoja ewolucja stopu potwierdzona.
+
+## PYTANIA OTWARTE (zapisane w DB)
+1. Piotr: Podpis "Robert Turkowski" vs "Jurkowski" vs "Jadurkowski" — który oryginalny? (IMG_0956, 2026-07-10)
+2. Piotr: "półświadek" vs "półświatek" vs "półźwiazka" — jaka była intencja słowotwórcza? (rozbieżność oryginał/lightbox/teczka)
+3. Piotr: Kod "44 T.J." na pieczęci — czy tożsamy z "T.J.44 księgowy" z briefu Lab 6 (1997)?
+
+## STATUS KOŃCOWY
+- Wizja: DZIAŁA (vision_analyze OK). Opis IMG_0956 zaktualizowany w DB (pełna transkrypcja). Dyskowe stykówki 120h_1994_01/02 przeanalizowane wizualnie (nieindeksowane — opis w teczce [FILE ON DISK, NOT INDEXED]).
+- DB: DOSTĘPNA. save_teczka (append) + save_question wykonane.
+- Nowe: 3-wariantowa sprzeczność nazwiska, rozwiązana fraza "półświadek", kod "44 T.J.", masa 24500 kg (źródła założycielskie), korelacja z Ewą/Mikołajem/Peterem.
+- Białe plamy: nadal ~30 klatek stykówek, treść audio 1995, los kolumny, los negatywów, praca magisterska Piotra.

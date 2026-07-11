@@ -2,7 +2,7 @@
 title: "Czyn dla miasta Bytów"
 project: "Czyn dla miasta Bytów"
 type: "teczka"
-date: "2026-06-12"
+date: "2026-07-10"
 status: "W TOKU"
 ---
 
@@ -254,3 +254,59 @@ AKTUALIZACJA (2026-05-05):
 - **Romana Zaborowski / Leszek Pałasz** — urzędnicy miejscy Bytowa, strony porozumienia. Pytania: czy wiedzieli że to sztuka? Czy tablica pamiątkowa wisi do dziś?
 
 ---
+
+---
+AKTUALIZACJA (2026-07-10):
+AKTUALIZACJA ŚLEDZTWA — Nocny Archiwista (2026-07-10)
+
+## DEEP VISION PASS — wszystkie 34 pliki dyskowe (GOOD_PHOTO + PHOTO_OF_ORIGINAL)
+
+Wykonano pełną analizę wizualną każdego pliku w `raw/archive-usb/1996 06 28 - Czyn dla miasta Bytów/`.
+Opisy zapisano do `archive_attachments.ai_description` (34 UUID, skrypt z UUID↔filename guardem — 0 mismatch).
+
+### POTWIERDZONE / PRECYZJE (vs teczka baseline)
+
+1. **Porozumienie (001_porozumienie.jpg)** — strona miejska to **Roman Zaborowski (Z-cę Burmistrza) + Leszek Pałasz (Kier. OKSiT)**, NIE "prezydent Marek Pałasz". Strona CUKT = 6 osób (Piotr Wyrzykowski, Jacek Niegoda, Robert Jurkowski, Anna Nizio, Artur Kozdrowski, Rafał Grabowski). Pieczęć CUKT (kółko zębate) obecna.
+
+2. **Kombinezon (kombinezon.jpg)** — biały ROBOD (M), nadruk "ODZIEŻ ROBOCZA ROBOD" + logo CUKT (kółko zębate + wieniec). Poplamiony farbą. Unikat.
+
+3. **Tablica pamiątkowa (Tablica pamiatkowa.jpg)** — **PLASTIK** (laminat + taśma klejąca), NIE metal. Napis: "CZYN / DLA MIASTA BYTÓW" + emblem CUKT + "CENTRALNY URZĄD KULTURY TECHNICZNEJ". Potwierdza notatkę Piotra (2026-05-04): plastikowa, nikt nie sprawdzał czy wisi.
+
+4. **Projekt.doc** (pełny tekst, catdoc) — 26–29.06.1996, cz. I "Robotnik Polski" (malowanie elewacji 6:00–15:00), cz. II "Droga do Europy" (pasy na jezdni), 29.06 solówki: "Przyjazd Prezydenta" (Mikołaj), "Save Poland or No Poland at All" (T.J.44), 28/29.06 Techno-Party. Potrzeby: 6 kombinezonów, 5 rękawic, tablica budowy, ankiety ang., libretto, nagłośnienie, światła.
+
+5. **Technopera rider (Technopera_Prapremiera_Projekt.jpg)** — podpis "Kudłaty" (= Artur Kozdrowski, NIE Piotr), Gdańsk 28.05.1996, fax 059-411-949. 24h: konie, PC 486, VHS, laser, stroboskopy, 2500W, "Pay your self", 300 torebek cukru, 250 librettów.
+
+6. **Bogdan Zaduszny (4 pliki)** — autentyczne teksty CUKT (pseudonim), wielokolumnowe. Opisują: 5-os. zespół, 3 dni (26–28.06.1996), 19 domków MOSiR, ścieżki nad Jeziorem Jeleń, białe kombinezony ROBOD, tablicę, "Zapraszamy za rok". To CUKT piszący własną rzeczywistość.
+
+7. **Kurier Bytowski_Urodziny Miasta.jpg** — to PRAWDZIWA strona z 18.07.1996 (sygn. "P.D.") o 650-leciu Bytowa, NIE fake CUKT. CUKTowski "Bogdan Zaduszny" to pastisz tego lokalnego głosu.
+
+8. **Zdjęcia performance (CZYN1/3/4/5/6, Bytow_012/014/016/017/019/020/021)** — białe kombinezony, pędzle/wiadra, malowanie elewacji i pasów strzałek na asfalcie parkingu nad jeziorem, czerwony Fiat (GAB Gdańsk), "THE DOORS" (białe drzwi z oknami). CZYN4 = pędzle uniesione w geście skrzyżowanych mieczy/toastu.
+
+### KOREKTY do teczki
+
+- **"m.t.s.c" na plakietce (CZYN1)** — wizja pierwotnie przeczytała "m.t.s.c"/"HROBOD"; poprawione: na klatach **emblemat CUKT (kółko zębate+wieniec) + "CENTRALNY URZĄD KULTURY TECHNICZNEJ" oraz branding ROBOD**. "m.t.s.c" był halucynacją wizji.
+- **Tablica = plastik** (wyżej), nie "obiekt trwały" w domyśle metalowy.
+
+### SPRZECZNOŚCI (nowe / wyostrzone)
+
+- **Sygnatariusz umowy.** Artykuł "Bogdan Zaduszny" pisze o kontrakcie z "prezydentem Markiem Pałaszem"; oryginalne Porozumienie podpisali Zaborowski (z-ca burmistrza) + Pałasz (OKSiT). Artykuł CUKT zmyśla rangę — performance jako "urząd" wyższego szczebla.
+- **Rachunek "Kaszubianka" (Rachunek dla konsumenta_Kaszubianka.jpg).** Wizja + metadane: paragon jest z **2013 r.**, nie z 1996. Albo posiłek z 2013 (re-enactment), albo dokument przypisany błędnie. BIAŁA PLAMA.
+- **EXIF / proweniencja zdjęć.** Wszystkie "dobre" fotki to **iPhone 7, październik 2018** (Piotr re-fotografował oryginały). 001_porozumienie to skan Picasa. To fotografie oryginałów, nie skany z 1996.
+
+### PUŁAPKA UUID (ważne dla przyszłych agentów)
+
+- `Klisza2.jpg` istnieje PODWÓJNIE: w folderze Bytów (`f5b049d0`) ORAZ w "1995 2017 - Testy na Cyborga" (`26f4a038`, `0e18504d`) — to **inne pliki**. Przy batch-zapisie opisów użyto TYLKO UUID Bytowa. Skrypt guard sprawdza RETURNING filename przed zapisem — wyłapałby pomyłkę.
+
+### PYTANIA OTWARTE (dopisane)
+
+- Rachunek Kaszubianka 2013 — co to było? Re-enactment 2013 czy błędne przypisanie?
+- Czy "Bogdan Zaduszny" to jeden autor CUKT czy kolektywny pseudonim? (P.W. = Piotr Wyrzykowski widoczny na odbitkach).
+- Gdzie są negatywy Klisza1/2 — zeskanowane czy nadal fizyczne?
+
+### ŹRÓDŁA DOPisane
+
+- Wszystkie 34 `ai_description` w `archive_attachments` (UUID→plik wyżej).
+- EXIF: iPhone 7 / 2018 dla zdjęć performance; Picasa dla 001_porozumienie.
+- `Projekt.doc` pełny tekst (catdoc).
+
+Podpisano: CUKTAI_Nocny_Archiwista

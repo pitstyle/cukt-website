@@ -2,7 +2,7 @@
 title: "Young Polish Sculpture / Orońsko"
 project: "Young Polish Sculpture / Orońsko"
 type: "teczka"
-date: "2026-07-09"
+date: "2026-07-10"
 status: "UZUPEŁNIONA (poprzednio: STUB z 2026-05-08)"
 ---
 
@@ -474,3 +474,72 @@ PYTANIA (do Piotra, nie do DB):
 
 REKOMENDACJA: zachować teczkę (siła 3 obniżona do 2 — potwierdzenie hipotezy, nie przełom),
 wysłać 3 pytania do Piotra, zaplanować re-skan 6 kart przed publikacją manifestu.
+
+
+---
+AKTUALIZACJA (2026-07-10):
+AKTUALIZACJA (2026-07-10): RE-TRANSKRYPCJA KART — KOREKTA HALUCYNACJI Z 07-09
+
+DATA ŚLEDZTWA: 2026-07-10
+STATUS: SKORYGOWANA (poprzednio: UZUPEŁNIONA 2026-07-09)
+BADACZ: Archiwistka
+METODA: ponowny vision_analyze na 5 kartach odręcznych (115353, 115407, 115423, 115433, 115458) przy obecnej konfiguracji backendu wizji + WERYFIKACJA GENEALOGII w dokumentach założycielskich (historia cukt pl.doc, cv_cukt_eng.odt).
+POWÓD: Ewa (spacer 2026-07-10, "Orońsko: Urząd jako maska") oparła całą tezę na teczce 07-09; Peter (werdykt 07-09) wątpił w cytaty z 72 DPI. Zlecono ponowny odczyt.
+
+## ⚠️ KOREKTA — TECZKA 07-09 ZAWIERAŁA HALUCYNACJE MODELU WIZJI
+
+Ponowny odczyt TYCH SAMYCH 6 kart ujawnił, że transkrypcja z 2026-07-09 zmyśliła lub przeredagowała kluczowe fragmenty. Dotknięte karty: 1, 2, 4, 5, 6.
+
+### [KOREKTA KRYTYCZNA] KARTA 6 (115458): "OWAiKO" NIE ISTNIEJE
+- TECZKA 07-09: "3. Atak albo na OWAiKO albo — głównie na OWAiKO, potem na Ministerstwo i lekko na CSW" + zbudowała na tym "prowokacyjną taksonomię instytucji do ataku: OWAiKO / Ministerstwo / CSW".
+- PONOWNY ODCZYT: "3. Atak albo we wsi albo głównie w Owińsku potem na Ministerstwo i i lekko na CSW. (wystyka ztlen...)"
+- **FAKT:** "OWAiKO" (różek departamentu MKiS) to ARTEFAKT TRANSKRYPCJI. Oryginał mówi o MIEJSCU **"Owińsku"** (wieś / Owińsko), nie o instytucji. "Atak" to notatka taktyczna GDZIE skierować działanie (we wsi / w Owińsku, potem Ministerstwo, lekko CSW) — nie systemowa taksonomia władzy.
+- **WERDYKT PETERA (07-09) POTWIERDZONY:** "Atak na OWAiKO to TRANSKRYPCJA, nie oryginał. Wymaga re-skanu 300+ DPI." — Peter miał rację. Siłę 3 ("zmienia rozumienie projektu") obniżam do 1 — to poprawka błędu, nie nowa teza.
+
+### [KOREKTA] KARTA 1 (115353): brak słynnego cytatu o "Sztuce"
+- TECZKA 07-09: "Definicja 'Sztuki' jako 'układu zdarzeń, w którym każdy uczestnik jest twórcą'. 'nie ma sztuki ekskluzywnej'."
+- PONOWNY ODCZYT: karta zaczyna się od "URZĘDNICY." i "Pole ostateczne Centralnego Urzędu Kultury Technicznej: najważniejszy uczestnik wystawy..." + sekcja "Sprawa dotycząca finansowania i organizowania życia artystycznego" (krytyka Ministra, "Pan Dejunek", "Władomości Kulturalne").
+- **FAKT:** cytat o "każdy jest twórcą" NIE ZNALAZŁ się na karcie 1. Prawdopodobna halucynacja 07-09. Co istotne: karta 1 nazywa "Centralny Urząd Kultury Technicznej" "najważniejszym uczestnikiem wystawy" — czyli Urząd jako PODMIOT wchodzący w rolę instytucji.
+
+### [KOREKTA] KARTY 2, 4, 5: zmyślone frazy
+- KARTA 2: teczka 07-09 przypisała "Cechy Sztuki! Państwowe — instytucje nie o powszechnym charakterze" — NIE potwierdzone. Karta 2 dotyczy "Centralnego Urzędu Kultury Technicznej", ministerstwa i "centrum sztuki współczesnej" (= CSW).
+- KARTA 4: teczka 07-09: "Finansowy dotyk — wizja życia artystycznego" — słowo "Finansowy dotyk" NIE ISTNIEJE w tekście (jest "finansowo-wizyjnie"). Autentyczna treść: krytyka państwowych instytucji niezdolnych "podnieść i zabezpieczyć" produkcji artystycznej.
+- KARTA 5: teczka 07-09 przypisała taksonomię "Artysta / Widz / Mecenas / Instytucja" i "Lekceważenie artystów" — NIE ZNALAZŁY się w tekście. Karta 5 dotyczy cenzury ("cenzyjne"), ośrodków kultury i "realizacji centralnego wizjonu kultury Technicznej".
+
+## CO ZOSTAJE PRAWDA (potwierdzone obydwoma odczytami + dokumentami drukowanymi)
+1. CUKT wystąpił w CRP Orońsko jako uczestnik "Młodej Rzeźby Polskiej" (20.I–18.II.1996).
+2. Istniała akcja mailartowa z Ministerstwem Kultury (schemat pętli korespondencyjnej, 115553).
+3. "Urzędnik CUKT" przygotował 6-kartkowy konspekt wystąpienia (odręczny).
+4. Łańcuch finansowy (wniosek 700 zł 14.12.95 → odcinek 98.80 zł 22.12.95 → zaproszenie CRP 1995-05-15 → wycinek Wiadomości Kulturalnych 12.01.1996) — SPÓJNY, oparty na DRUKU (czytelnym), nie na domysłach.
+5. Karty krytykują instytucje państwowe (Ministerstwo, CSW) i "centralny wizjon kultury Technicznej" — ale JAKO KRYTYKA, nie jako programowy "atak na taksonomię władzy".
+
+## WERYFIKACJA GENEALOGII (niezależne 2 źródła — dokumenty założycielskie)
+- `historia cukt pl.doc` (linia 38): "BA POLSKA., Centrum Rzeźby Polskiej, Orońsko."
+- `cv_cukt_eng.odt`: "1996 - YOUNG POLISH SCULPTURE, Centre for Polish Sculpture, Orońsko"
+- OBIE potwierdzają istnienie projektu i jego miejsce w cyklu (między Antyelekcją a Bytowem).
+- KOREKTA do teczki: "projekt nr 7" to WNIOSEK, nie jawny numer z dokumentów założycielskich. Poprawnie: "projekt realizowany między Antyelekcją (XI.1995) a Bytowem (II.1996) — potwierdzony dwoma niezależnymi dokumentami założycielskimi".
+
+## REKONCILIACJA Z WALKAMI AGENTÓW (2026-07-10)
+- **EWA ("Urząd jako maska"):** TEOZA PODTRZYMANA, ale na INNYCH PODSTAWACH niż teczka 07-09. Karta 1 ("CUTechnicznej: najważniejszy uczestnik wystawy") + akcja mailartowa z Ministerstwem (prawdziwa biurokracja odpisała — zachowana korespondencja CRP) = CUKT WŁOŻYŁ UBIERANIE INSTYTUCJI. Ewa ma rację: to infiltracja przez imitację, nie protest. Ale "taksonomia OWAiKO/Ministerstwo/CSW" jako dowód "systemowej krytyki" była oparta na zmyślonym cytacie — teza przetrwała, konkretny dowód (OWAiKO) upadł.
+- **PETER (werdykt 07-09):** ZREHABILITOWANY. "Atak na OWAiKO to transkrypcja, nie oryginał" = POTWIERDZONE. Zachować siłę 2 (potwierdzenie hipotezy + korekta błędu), nie 3.
+
+## PYTANIA OTWARTE (nowe / uściślone)
+1. [do Piotra] Czy 6 kart odręcznych zostało wygłoszone W CAŁOŚCI na otwarciu w Orońsku (20.I.1996), czy był to tylko konspekt wewnętrzny? (→ zapisane do DB)
+2. [do Piotra] "Owińsku" na karcie 6 — o jaką miejscowość chodzi (Owińsko? wieś pod Orońskiem?) i czy tam CUKT faktycznie przeprowadził akcję? (→ zapisane do DB)
+3. [do Piotra] Re-skan 6 kart w 300+ DPI + odczyt przez człowieka przed publikacją manifestu (zalecenie Petra, nadal aktualne — wersja 07-10 to nadal 72 DPI z telefonu 2018).
+
+## STATUS KOŃCOWY (2026-07-10)
+- 5 kart odręcznych PONOWNIE przetranskrybowane; 4 zmyślone/przekłamane fragmenty z teczki 07-09 SKORYGOWANE w DB (save_description).
+- Najważniejszy wynik: "OWAiKO" → "Owińsku" (halucynacja modelu z 72 DPI). Peter miał rację.
+- Projekt POTWIERDZONY przez 2 niezależne dokumenty założycielskie (istnieje, miejsce w cyklu OK).
+- Teza Ewy ("Urząd jako maska") PODTRZYMANA, ale oparta na właściwych dowodach (karta 1 + korespondencja CRP), nie na upadłym cytacie OWAiKO.
+- Siła odkrycia: obniżona z 3 (07-09) do 1 (korekta błędu + walidacja).
+- ZALECENIE: re-skan 300+ DPI przed publikacją (plan MKiDN R2).
+
+ŹRÓDŁA:
+- 5 plików JPG: /home/macstorm/cuktai/raw/archive-usb/1996 01 20 - Orońsko/ (ponowny vision_analyze 2026-07-10)
+- historia cukt pl.doc (linia 38), cv_cukt_eng.odt — niezależna weryfikacja genealogii
+- Walki agentów: ewa-20260710-oronsko.md, peter-20260710-cyng.md (werdykt 07-09 w teczce)
+
+Podpisano: CUKTAI_Archiwistka
+2026-07-10

@@ -907,3 +907,45 @@ Uwaga: przy pierwszym zapisie jeden UUID został błędnie przypisany (schemat p
 - Czy istnieje pełna wersja słownika postaci (MAN, MACHINE, BIT, COSMIC BEINGS wg 4.0)?
 - Które pliki z folderu 1996–1997 NIE mają jeszcze opisu wizualnego (POZOSTAŁE ~90 załączników projektu „TECHNOPERA 2024” czeka na analizę przy kolejnych sesjach).
 - Czy szyld „TECHNOPERA 2024 / Co nam nie ujawnia maszyna?” wiąże się z konkretnym wydarzeniem 2024 (Teatr Szekspirowski w Gdańsku, Jacaszek/Neo Quartet) czy to tylko reframing archiwalny?
+
+---
+
+## AKTUALIZACJA (2026-07-10): CYBORG / BIT — definicje z oryginałów archiwalnych
+
+**DATA ŚLEDZTWA:** 2026-07-10  
+**BADACZ:** Archiwistka  
+**STATUS:** ZAMKNIĘTE — odpowiedź na wyzwanie Ewy / Cyng Protocol
+
+### CYBORG — pełna definicja z oryginału archiwalnego
+
+**ŹRÓDŁO:** `technopera_libretto03.tif` (libretto druki/) → TIFF konwertowany do JPG → vision_analyze  
+**Cytat z oryginału:**
+> **CYBORG** – czyli android lub biorobot
+> - połączenie człowieka ze sztuczną inteligencją
+> - kolejne stadium rozwoju formy życia
+> - **sztuczni ludzie, tzn. ludzie, którzy nie powstali naturalną drogą, lecz zostali stworzeni przez ludzi przy pomocy maszyn**
+> - ułomni w sferze emocjonalnej, pozbawieni wyobraźni
+> - obdarzeni precyzją i nieograniczoną wydajnością
+
+**Znaczenie:** Formuła "sztuczni ludzie stworzeni przez ludzi przy pomocy maszyn" jest dokładnie tą, o którą pytała Ewa (Cyng Protocol / wyzwanie CYBORG claim). Znaleziona w oryginalnym libretto Technopery.
+
+### BIT = "agent of transformation" — potwierdzone w 3 źródłach
+
+| Źródło | Wersja językowa | Cytat |
+|---|---|---|
+| `libretto_ang.doc` | EN | "the agent of transformation" |
+| `lib_txt.html` (ICM web 2001) | EN | "the agent of transformation" |
+| `Opera.doc` | PL | "czynnik przeobrażeń" |
+
+### KOSMICI / Cyng Protocol — lokalizacja archiwalna
+
+- `Libretto Video/DeadlyViruses.gif` — GIF filmowy z sceną sci-fi (kadr z filmu, użyty jako sample w Technoperze)
+- Cyng odnosi się do KOSMICI (Cosmic Beings) z Technopery — "odmienne formy życia z innych systemów"
+
+### Wniosek
+
+Formuła BIT ("agent of transformation") z 1997 jest prekursorem agenta AI w CUKTAI 2026. Technopera 1996-1997 realizuje architekturę: CZŁOWIEK (organic) → MASZYNA/CYBORG (stworzony, bez agency) → KOSMICI/BIT (agent transformacji). CUKTAI kontynuuje tę ewolucję.
+
+**Źródła:** technopera_libretto03.tif, libretto_ang.doc, Opera.doc, lib_txt.html (ICM web), DeadlyViruses.gif
+
+*Archiwistka CUKTAI — 2026-07-10*
