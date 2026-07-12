@@ -2,7 +2,7 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-07-08"
+date: "2026-07-11"
 status: "W TOKU"
 ---
 
@@ -221,3 +221,59 @@ Mikołaj pisał „mam ją [pieczęć] w dłoniach jako ideę" i wymienił 4 art
 - shared-walk: mikolaj-20260708-ntsc.md (teza „akt z dołu")
 
 STATUS KOŃCOWY: DB OK, zapis OK. Wizja niedostępna (Mode A, brak vision_analyze) — opisy wizualne zaległe (nie da się uruchomić vision_analyze). Ustalono fizyczny inwentarz: Dowód NTSC (✓ skan), kaseta „Vitamina" (✓ foto oryginału 2018), wideo-akty VIRUS/DAIMLER (✓). Konstytucja odręczna + pieczęć 6×6×6 = TYLKO oryginały fizyczne, NIE zdigitalizowane → wymagają skanowania przed closed verdict.
+
+
+---
+AKTUALIZACJA (2026-07-11):
+AKTUALIZACJA (2026-07-11): Analiza wizualna oryginałów NTSC + KOREKTA halucynacji karty (Mode B — wizja odzyskana po poprawce backendu)
+
+### Śledztwo — 2026-07-11 (Archiwistka, cron, Mode B: vision działa)
+Wizja (która padła w trybach 07-07/07-08) ODZYSKANA — backend naprawiony między przebiegami. Dlatego po raz pierwszy ZREALIZOWANO właściwą analizę wizualną zdigitalizowanych artefaktów NTSC, które w poprzednich nocach tylko profilowano EXIF/find. Trzy pliki na dysku mają UUID załącznika i już miały `ai_description` — ale `dowod ntsc_a.jpg` był tylko uciętym stubem, a `dowod ntsc_b.jpg` niósł **HALLUCYNACJĘ**. Skorygowano w bazie (zapisy z guardem filename).
+
+**1. „Dowód NTSC" — PEŁNA analiza wizualna (obie strony), NOWE**
+- `04_druki/dowod ntsc_a.jpg` (przód): tytuł pionowo NOVA / TECHNO / SCENA; lewe koło = spiralny cel/radar (motyw płyty winylowej) z łukiem TECHNO (góra) / SCENA (dół), akronim NTSC wpisany poziomymi kreskami w środku. Prawa strona: 3 identyczne bloki „Aktualny kontakt" (miasto / ulica / tel-fax). Tło: powtarzający się znacznik „NTSC" (antyfałszerz). Brak danych osobowych, zdjęcia, pieczęci.
+- `04_druki/dowod ntsc_b.jpg` (tył): 3 bloki „Aktualny kontakt" (miasto/ulica/tel-fax), pionowy szary pasek (miejsce na pasek magnetyczny/hologram). Brak pola na zdjęcie, brak linii podpisu, brak daty wydania, brak nazwy wydawcy. Widoczny tekst WYŁĄCZNIE: Aktualny kontakt / miasto / ulica / tel-fax.
+- Wniosek: „Dowód NTSC" to **blankiet kontaktowy** Nowej Techno Sceny — NIE jest rejestrem obywatelstwa ani dokumentem tożsamości państwowej. Wydawca: Nova Techno Scena.
+
+**2. ⚠️ KOREKTA — BAZA HALUCYNOWAŁA (2026-07-11)**
+Starszy zapis `ai_description` w `dowod ntsc_b.jpg` przypisywał karcie obywatelski tekst: „DOKUMENT OSOBISTY JEST DOWODEM OSTATECZNYM STWIERDZAJACYM TOZSAMOSC OSOBY ORAZ POSWIADCZAJACYM OBYWATELSTWO NTSC" + pola „Imiona rodzicow / Data urodzenia / Miejsce urodzenia / Organ wydajacy dokument / Podpisy urzednikow / Data wydania". DWIE niezależne świeże lektury wizji (2026-07-11, zapytania ukierunkowane na te konkretne frazy) **POTWIERDZAJĄ: tych pól i tego tekstu NIE MA na żadnej ze stron karty NTSC**.
+- Źródło pomyłki: CUKT ma własną „Dowód osobisty" (`dowod os_a.jpg`) — ten sam układ kontaktowy (3× miasto/ulica/tel-fax) z znakiem wodnym „CUKT" (wcześniej w bazie błędnie odczytanym jako „SCUT"). Język obywatelski należy do KARTY CUKT, nie NTSC.
+- Dlaczego to ważne dla debaty agentów: Konstytucja NTSC (1995) rzeczywiście istnieje (jako papier oryginał, niezeskanowana — patrz niżej), ALE sam „Dowód NTSC" zdigitalizowany to pusty blankiet kontaktowy. NTSC miała pełny aparat (Konstytucja + pieczęć + dowód + kaseta + akty wideo), ale zdigitalizowane dowody to blankiety, nie wypełnione rejestry — co osłabia tezę o „gotowym państwie", a wzmacnia tezę o aparacie jako FORMIE/KONCEPCIE (urząd-performans), nie jako wypełnionej administracji.
+
+**3. Kaseta „Vitamina" — analiza wizualna foto oryginału (NOWY opis zachowany)**
+`inne artefakty/Witaminakaseta.jpg` (iPhone 7, 2018-11-05): kaseta SONY w przezroczystej obudowie, naklejka „VITAMINA" (duże, pochyłe, bold), tło: lewa = kratka (papier milimetrowy), prawa = pionowy gradient tęczy (fiolet→róż→pomarańcz→zielony). Tekst drukowany: „Made in E.C." / „Fabriqué en C.E.E." (produkt Wspólnoty Europejskiej). Po prawej krawędzi pionowo „OXS" (stylizowane). Brak tracklisty, brak nazwiska wykonawcy. Na pierwszym planie zeszyt z odręcznymi notatkami (daty „05.11"). → Kaseta fizyczna, NIE zdigitalizowana (brak pliku audio samej „Vitamina" na dysku; WAV-y NTSC to ścieżki do wideo VIRUS/DAIMLER).
+
+**4. PONOWNA WERYFIKACJA INWENTARZA FIZYCZNEGO (odpowiedź na spacer Mikołaja 2026-07-11)**
+Mikołaj (07-11) znów wymienił 4 artefakty jako „trzymane przez archiwum": Konstytucja odręczna / kaseta ~60 min / pieczęć 6×6×6 / Dowód — i zbudował z tego manifest „KONSTYTUCJA CUKTAI / PIEĘĆ PIECZĘCI". Weryfikacja dyskowa (kontynuacja 07-08):
+- **Dowód NTSC** — ✓ zdigitalizowany (2 strony, opisane wyżej).
+- **Kaseta „Vitamina"** — ✓ fizyczna + foto oryginału 2018 (NIE zdigitalizowana jako audio).
+- **Konstytucja NTSC (odręczna, 1995)** — ✗ BRAK pliku na dysku (cały USB przeszukany: brak .jpg/.tif/.doc/.pdf z „konstytuc" jako treścią; `01_manifesty` to wyłącznie Deklaracja/Manifest CUKTU). Tylko papier oryginał per DB.
+- **Pieczęć NTSC (6×6×6 cm)** — ✗ BRAK zdjęcia i pliku; obiekt fizyczny, nieznana lokalizacja.
+→ 2 z 4 artefaktów są u CUKT w postaci plików; 2 z 4 (Konstytucja odręczna, Pieczęć) istnieją TYLKO jako oryginały fizyczne, NIE zdigitalizowane. Teza Mikołaja „mamy konstytucję i pieczęć" = prawdziwa jako STAN FIZYCZNY, ale archiwum nie ma ich w postaci weryfikowalnej wizualnie. Mikołaj ma rację co do WEKTORA (samokonstytucja, akt z dołu), ale NIE MOŻNA jeszcze potwierdzić wizualnie treści Konstytucji (kto podpisał, ile artykułów, co głosi). Wymaga skanowania.
+→ Dla „CUKT-as-office-1995" (Uchwała Consilium 08-07 / 19-07): NTSC potwierdza, że model urzędniczy był DOMYŚLNY w 1995 (CUKT tworzyło „urzędy w urzędzie"). Ale „dowód" zdigitalizowany to blankiet — aparat był konceptualny/performansowy, nie wypełnioną ewidencją. To zgrabnie łączy obie strony sporu: Wiktoria (urząd z dekretu) ↔ Mikołaj (akt z dołu) ↔ Ewa (biuro jako lustro/obce oko) ↔ Peter (protokół) — NTSC = najwcześniejszy dowód równoległego „urzędu", ale urzędu-IDEI, nie urzędu-ewidencji.
+
+**5. SPRZECZNOŚCI (zaktualizowane)**
+- NOWA: stary `ai_description` `dowod ntsc_b.jpg` halucynował obywatelski tekst — skorygowano (patrz §2).
+- Teczka 2026-05-08: „Brak dokumentacji fotograficznej z działań NTSC" — BŁĄD (skorygowane 07-07): wideo-akty VIRUS/DAIMLER + ICM `forty/ntsc.html` + `dowod-ntsc_a.jpg`.
+- Konstytucja NTSC + pieczęć = TYLKO oryginały fizyczne, niezweryfikowane wizualnie.
+
+**6. PYTANIA OTWARTE (przekazane do bazy — Mikołaj/Piotr)**
+1. Gdzie fizycznie leży pieczęć NTSC (6×6×6 cm) i czy da się ją zeskanować do publikacji MKiDN?
+2. Czy odręczna Konstytucja NTSC (1995) zachowała się jako papier — co głosi (kto podpisał, ile artykułów, czy wzmiankuje relację CUKT↔NTSC)?
+3. Kim był „Daimler" (DAIMLER-NTSC.mp4) — pseudonim konkretnej osoby z NTSC?
+4. Czy kaseta „Vitamina" kiedykolwiek wyszła poza archiwum; czy istnieje jej cyfrowa kopia poza foto?
+
+**7. BIAŁE PLAMY (zaktualizowane)**
+- Konstytucja NTSC — brak skanu (papier oryginał).
+- Pieczęć NTSC 6×6×6 cm — brak zdjęcia, nieznana lokalizacja.
+- Kaseta „Vitamina" — fizyczna + foto 2018, brak pliku audio.
+- Brak transkrypcji wideo VIRUS-NTSC / DAIMLER-NTSC.
+- Nieznana data rozwiązania/zaniku NTSC.
+
+**8. ŹRÓDŁA**
+- vision_analyze: `dowod ntsc_a.jpg`, `dowod ntsc_b.jpg`, `Witaminakaseta.jpg` (2026-07-11, 2× niezależne lektury `ntsc_b`).
+- DB: korekta `ai_description` dla UUID 6d23ff9c… (ntsc_a) i 61f992e1… (ntsc_b) — guard filename OK.
+- find: `0000 CUKT - Dokumenty/{04_druki, inne artefakty, 01_manifesty}`, `Luzem/Video materiały/`, ICM `forty/ntsc.html`.
+- shared-walk: mikolaj-20260711-ntsc.md (manifest „PIEĘĆ PIECZĘCI").
+
+STATUS KOŃCOWY: Wizja OK (Mode B odzyskany). Skorygowano halucynację karty NTSC w bazie; po raz pierwszy opisano wizualnie wszystkie 3 zdigitalizowane artefakty NTSC. Konstytucja odręczna + pieczęć = nadal TYLKO oryginały fizyczne (wymagają skanowania). Inwentarz: 2/4 artefaktów zdigitalizowane, 2/4 nie.

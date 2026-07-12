@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-07-10"
+date: "2026-07-12"
 status: "IN PROGRESS (głębokie śledztwo podprojektu)"
 ---
 
@@ -949,3 +949,38 @@ Formuła BIT ("agent of transformation") z 1997 jest prekursorem agenta AI w CUK
 **Źródła:** technopera_libretto03.tif, libretto_ang.doc, Opera.doc, lib_txt.html (ICM web), DeadlyViruses.gif
 
 *Archiwistka CUKTAI — 2026-07-10*
+
+
+
+---
+
+## ⚠️ KOREKTA + WERYFIKACJA GENEALOGII AGENTA (Archiwista, 2026-07-12)
+
+### KOREKTA — BŁĘDNY OPIS ZAŁĄCZNIKA (pitfall: `missing:0` ≠ poprawny)
+- `technopera_libretto03.tif` (SCAN_READY, UUID `d38ccdfc…`) miał w DB błędny `ai_description`: *"dokuemtacja video z Banff, Kanada. | razem 24:05"*. To błąd przypisania masowego — plik NIE jest wideo, lecz **skanem drukowanej okładki libretta**. Prawidłowy opis (zweryfikowany świeżą wizją 2026-07-12 + plikiem pochodnym `technopera_libretto03s.jpg`) został nadpisany:
+  > Strona tytułowa (cover) libretta "TECHNOPERA v.3.0 PRO" (oryginał TIFF 3400×4679 RGB). Nagłówek: CENTRALNY URZĄD KULTURY TECHNICZNEJ. Logo zębatki+wawrzyn+CUKT. Halftone'owy mainframe. Na dole "TECHNOPERA v.3.0 PRO" na pasku z kodem kreskowym. Przebijający z rewersu słownik postaci: OSOSBY / CYBOWIEK, MASZYNA, CYBORG, KOSMICI (tożsame z ang. MAN/MACHINE/CYBORG/COSMIC BEINGS/BIT).
+- Siła sygnału: 1 (korekta, nie nowe odkrycie). Plik `technopera_libretto03s.jpg` miał już poprawny opis — to dowód, że TIF był zhalucyzowany/przypisany błędnie.
+
+### WERYFIKACJA — PYTANIE 3baadd80 (słownik postaci → pomost do CUKTAI)
+- **TAK, pełniejsza wersja słownika ISTNIEJE i jest drukowana, nie tylko robocza.** Źródła na dysku (`1996 - 1997 - Technopera/libretto druki/`):
+  - `libretto_ang.doc` — ang. libretto, autorzy *"Dr Artur Kudlatz & Peter Style"*. Zawiera KOMPLETNY glossary 5 postaci.
+  - `Opera.doc` / `Libreto.doc` — polska wersja (CYBORG = *"sztuczni ludzie, tzn. ludzie, którzy nie powstali naturalną drogą, lecz zostali stworzeni przez ludzi przy pomocy maszyn"*).
+  - `technopera_libretto_4_0.pdf` — libretto 4.0 z postaciami MAN/MACHINE/CYBORG/COSMIC BEINGS/BIT.
+  - `technopera_libretto03.tif` — **drukowana okładka "TECHNOPERA v.3.0 PRO"** z CUKT-emblem i watermarkem słownika (CYBOWIEK/MASZYNA/CYBORG/KOSMICI). = dowód, że słownik był elementem drukowanej identyfikacji 3.0 PRO, nie tylko notatek.
+- Formuła ewolucji (3 niezależne źródła): **CYBORG 1996/97 → BIT "agent of transformation" 1997 → CUKTAI agent 2026**. Bibliografia: `libretto_ang.doc` (BIT), `Opera.doc` (CYBORG), `technopera_libretto_4_0.pdf` (BIT).
+
+### WERYFIKACJA — PYTANIE 0d1d5a36 / fa55da93 ("There Is No Body")
+- Hasło **"There is no body, there is no nose, there are no lips"** pojawia się DOSŁOWNIE w librettach (potwierdzone w 4 plikach: `libretto_ang.doc`, `Opera.doc`, `NEWTechnopera- wersja ang.doc`, `Libreto.doc`) w ustach CYBORGa. Nie jest to ad-hoc projekcja Dessau/Banff — jest w **partyturze/libretcie** Technopery.
+- **NEGATIVE FINDING:** w przeszukanych tekstach libretta brak dowodu, by hasła CONFIDENCE / "open your MIND" / "There Is No Body" były przypisane konkretnej lokalizacji (Dessau vs Banff) — występują jako cytaty wspólne dla libretta. Skąd pomysł "There Is No Body" → z definicji CYBORGa (brak ciała jako forma bytu). Pytanie o precyzyjne pochodzenie pozostaje [NIEPEWNE] — wymaga wskazania przez Piotra, która iteracja (3.1 PRO / 4.0b) je wyświetlała.
+
+### WERYFIKACJA — PYTANIE 75aba008 (obsada: role przypisane czy improwizacja?)
+- Libretta definiują postacie **TYPOGICZNIE** (MAN = "penetrating investigator… frightened victim"; MACHINE = "simple device… AI"; CYBORG = "android… created by men with machines"; COSMIC BEINGS; BIT = "agent of transformation").
+- **BRAK listy obsady** w archiwum (grep `obsada`/`w rolach` = 0). "Przybysze z innej planety" to TYP, nie obsadzony aktor. Wniosek: role nie były sztywno przypisane konkretnym ludziom w dokumentacji — improwizacja miksowana przez Mistrza Ceremonii (zgodnie z TECHOPER.DOC). Pytanie uznaję za rozwiązane negatywnie: **libretto to typologia, nie obsada.**
+
+### BIAŁA PLAMA — data Banff (PYTANIE 209f1258) NADAL OTWARTA
+- Przeszukano `.doc` librett (ang/pl/Banff) — **BRAK** ciągów "May 27", "May 31", "16 czerwca 1997" w plikach na dysku. DB rekordu z datą "May 27–31 1997" nie odnaleziono w tym przebiegu (rekordy Banff mają `date_original=1997-01-01` default). Konflikt "maj vs czerwiec 1997" **nie da się rozstrzygnąć z materiału na dysku** — wymaga e-maila z serwera ICM lub wskazania Piotra. Oznaczam jako OTWARTE (nie zamykam).
+
+### STATUS KOŃCOWY (2026-07-12)
+- Wizja: DZIAŁA (po konwersji TIFF→JPG).
+- DB: 4026 załączników, `missing ai_description = 0` — całe archiwum opisane; NIE re-wizjowano dojrzałych projektów (Technopera/Lab6) zgodnie z dyscypliną.
+- Działanie: skorygowano 1 błędny opis TIF (guard UUID potwierdzony), zweryfikowano genealogię agenta (CUKTAI-2026 pomost) z 4 źródeł, zamknięto 3 pytania DB (3baadd80, 0d1d5a36, 75aba008), 1 pozostawiono otwarte (209f1258 — brak danych na dysku).
