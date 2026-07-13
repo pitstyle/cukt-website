@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-07-10"
+date: "2026-07-12"
 status: "należy napisać pismo."
 ---
 
@@ -521,3 +521,38 @@ FOR PETER (THERE IS NO BODY / habitud maszyny): "półświadek" (semi-witness) =
 - DB: DOSTĘPNA. save_teczka (append) + save_question wykonane.
 - Nowe: 3-wariantowa sprzeczność nazwiska, rozwiązana fraza "półświadek", kod "44 T.J.", masa 24500 kg (źródła założycielskie), korelacja z Ewą/Mikołajem/Peterem.
 - Białe plamy: nadal ~30 klatek stykówek, treść audio 1995, los kolumny, los negatywów, praca magisterska Piotra.
+
+
+## 🔍 KOREKTA I NOWE ZNALEZISKA — 120h / KONIN (2026-07-12, nocny archiwista)
+
+### ⚠️ KOREKTA — twierdzenie o "pieczątce 10.09.1996" NIE było niezweryfikowane
+W moim spacerze z 2026-07-12 (archiwistka-20260712-120h-konin-verify.md) wpisałem `pieczątka 10.09.1996` jako „❌ NIE ZWERYFIKOWANE / możliwa konfabulacja". To było **BŁĘDNE** — data ta jest w pełni udokumentowana:
+- Teczka (teczki/120h-mega-techno-obecności.md, ln 69, 330) już opisuje pieczątkę CUKT z 10.09.1996 na dokumencie zamknięcia IMG_0956 (retrospektywne uznanie za Pre-CUKT).
+- Wiki-projekt (repo/wiki/projekty/sztuka-to-przestrze-kultowa-albo-nie-ma-sztuki-120.md, ln 10, 62): status „Pre-CUKT — uznany retrospektywnie przez CUKT (pieczątka z 10.09.1996)".
+→ **Wniosek:** Ewa miała rację: „nazwa przyszła z zewnątrz, dwa lata później (retrospektywnie)". Pieczątka 10.09.1996 to mechanizm nadania nazwy CUKT dziełu z 1994 — to dowód ZA tezą Ewy, nie niepewność. Poprzednią flagę „unverified" należy wycofać.
+
+### 🎯 NOWE: niebieska/żółta kolumna ZDJĘCIA — świeży vision potwierdza wersję Ewy
+Re-wizja `cukt0007.tif` (SCAN_READY, 3,5 MB) przez `vision_analyze` (2026-07-12):
+> Centralny pionowy walec jest **czerwono-pomarańczowy (coral)**, powierzchnia pionowo żłobkowana (fluting), metalowa obrączka z nitami na szczycie. W tle osoba w ciemnym kombinezonie/beanie kuca przy ścianie. Ściany nagie, bez tekstu. (lekki zielonkawy color-cast od UV/starzenia, ale odcień wyraźnie czerwony wobec szarego tła).
+→ Potwierdza „czerwoną kolumnę z miodem i amfetaminą" (Ewa) i **obala** zapis z mojego spaceru 2026-07-10 („szara kolumna"). Siła: stabilne, dwukrotnie niezależnie potwierdzone.
+
+### 🎯 NOWE: 3 pliki audio z `Luzem/Audio/` — NIE są materiałem CUKT (falstart mojej hipotezy)
+Wcześniej (2026-07-12) flagowałem te 3 pliki jako „priorytetowe źródło pierwotne audio 120h / infpower". Przeanalizowałem je lokalnie przez `faster-whisper-large-v3-turbo` (transkrypcja ASR) — **nie mają nic wspólnego z CUKT**:
+- `info2.aiff` (445s, 24-bit PCM): powtarzalna pętla telewizyjnego „We'll be right back." (15× w 445s) — ident emisji TV, NIE głos.
+- `language is.mp3` (373s): „I'll see you next time" + powtarzalne „Yeah, yeah, yeah" — pętla talk-show/street, NIE polski.
+- `the form is.mp3` (304s): **anglojęzyczny reel wywiadów Hollywood** — „Diel Spotlight / Movie Stars / Interviews with Arnold Schwarzenegger, Joan Collins, Robert De Niro, Mel Gibson… / My name is Joel Lucena".
+→ **Wniosek (NEGATIVE FINDING, siła 3):** pliki leżą w `Luzem/Audio/` (luźny koszyk), NIE wewnątrz folderu `1994 12 02 - 120h Mega Techno Obecności/` (tam są tylko obrazy — 57 plików, 0 audio). Moja hipoteza, że to „źródło libretta / infpower Mikołaja", była **błędna**. Projekt 120h nie posiada zachowanego materiału głosowego w archiwum. Prawdziwe audio CUKT jest w `2000 2001 - Wiktoria Cukt/Audio/` (Radio Zielona Góra, przemówienia Wiktorii) i `1999 2000 - Dzień Sztuki/...AudycjaRadioGda...mp3`.
+→ Rekomendacja: wykreślić „transkrypcję info2.aiff" z priorytetów; to zwalnia miejsce na realne audio CUKT (Wiktoria / Dzień Sztuki).
+
+### 🎯 NOWE: rozbieżność adresu lokalu (poster vs dokument zamknięcia)
+- Plakat (`plakat.jpg`, potwierdzony vision 2026-07-12): **KONIN, ul. Kolejowa 1a**; organizatorzy MUZA + Pracownia Chwilowa; **WYDANIE KATOWICE**. Pełny tytuł z logo: „SZTUKA = PRZESTRZEŃ KULTOWA ∨ NIE MA SZTUKI".
+- Dokument zamknięcia / teczka: „Pawilon Rondo, **ul. Przemysłowa 9**, Konin".
+→ **Sprzeczność do wyjaśnienia (siła 2):** dwa różne adresy (Kolejowa 1a vs Przemysłowa 9) dla tego samego wydarzenia. Możliwe: Kolejowa 1a = siedziba MUZY / adres korespondencyjny, Przemysłowa 9 = fizyczny pawilon Rondo. Wymaga potwierdzenia u Piotra/Arka Woźniaka.
+→ Dodatkowo: napis na plakacie to **„∨ NIE MA SZTUKI"** (operator logiczny OR) — czyli pełne hasło to dychotomia, nie tylko „Sztuka = Przestrzeń Kultowa". To wzmacnia tezę Ewy o sprzecznych hasłach.
+
+### 🎯 NOWE: DJ-booth (`konin_02.jpg`) — detale sprzętowe
+Vision 2026-07-12: osoba w czerwonym beanie/okularach przy mikserze + 3 decki kasetowe (marka **ELESTAR**, kasety 90-min), mikrofony (boom + statyw), głośnik. Potwierdza użycie **kaset** do miksowania hipertekstu Piotra na żywo (zgodne z teczką: „hipertekst wmiksowany z kaset"). Konkretny detal: kasety ELESTAR 90 min = nośnik instalacji dźwiękowej.
+
+---
+ŹRÓDŁA: vision_analyze (cukt0007.jpg, konin_02.jpg, plakat.jpg, zapro_01.jpg — 2026-07-12); faster-whisper-large-v3-turbo ASR (info2.aiff, language is.mp3, the form is.mp3); MCP archive_get_images(120h); ffprobe; teczki/120h + wiki-projekt. Brak nowych opisów AI w DB (teczka dojrzała, missing=0) — powyższe to korekta + nowe znaleziska koncepcyjne.
+#walk #archiwistka #120h #Konin #korekta #czerwonaKolumna #audioFalstart #pieczątka1996 #adresRozbieżność

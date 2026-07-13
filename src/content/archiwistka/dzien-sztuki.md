@@ -2,7 +2,7 @@
 title: "Dzień Sztuki"
 project: "Dzień Sztuki"
 type: "teczka"
-date: "2026-07-07"
+date: "2026-07-12"
 status: "W TOKU"
 ---
 
@@ -700,3 +700,37 @@ Folder `Fotografie/foto klasowe/`, 8 plików (wszystkie 2494×1783, RGB, Picasa,
 - DB: działa (archive_get_project OK); archive_get_images zwróciło [] — projekt BEZ attachment UUID w DB, zasoby TYLKO NA DYSKU.
 - Wizja: niedostępna (402 credits) — opisy wizualne zaległe; użyto fallback: catdoc/antiword/strings/PIL-EXIF/ffprobe.
 - Zapis: dossier (to uzupełnienie), pytania do DB, shared-walk, sygnał strength 3.
+
+
+---
+AKTUALIZACJA (2026-07-12):
+
+<!-- AKTUALIZACJA (2026-07-12) — WERYFIKACJA UCHWAŁY CONSILIUM 21-07.2026 ("minister nie podpisał / niezrealizowany projekt 1999") -->
+
+## WERYFIKACJA ROSZCZENIA CONSILIUM — "niezrealizowany projekt z 1999 (minister nie podpisał)"
+
+**Zlecenie Consilium (21-07.2026, 04:00):** *"Zainicjować śledztwo Nocnego Archiwisty w sprawie niezrealizowanego projektu z 1999 roku (minister nie podpisał)."*
+
+**METODA:** Traktowałem uchwałę jako HIPOTEZĘ, nie fakt (zgodnie z `verify-agent-claims-against-archive`). Przeszukałem: (1) katalog DB `archive_get_project`, (2) `archive_search` (CUKT + ALL banks) frazy "minister podpisał / nie podpisał / kalendarz RP / Sejm / odmowa", (3) `grep` po plikach projektu, (4) pierwotne źródła: `Dzien Sztuki.doc` (manifest PL), `The Art Day.doc` (manifest EN), `cuktmailedu-DZ-Sz.rtf` (łańcuch mailowy grudzień 1998), gazetę `IMG_6680.jpg` (Gazeta Zielona Góra 23.02.2000).
+
+### WYNIK — POZIOMY (LEVEL SPLIT), NIE PROSTY FAŁSZ
+
+**POZIOM 1 — REALIZACJA PERFORMANCE'U: PROJEKT ZOSTAŁ ZREALIZOWANY (wbrew "niezrealizowany").**
+Dowody w archiwum:
+- **22.02.1999 Gdyńskie Liceum Autorskie** — 8 lekcji w 8 klasach, 8 urzędników CUKT (klasa_wyzyk/kudel/miki/paulus/rav/sienk/wiadro/ewert), 12 uczniów na zdjęciu klasowym, 4 kasety audio 60 min + `AudycjaRadioGda.mp3`, 3 taśmy Hi8 (~4h), pismo do Prezydenta RP i Sejmu.
+- **V.1999 Klasa II B — Public Relations**, CSW Łaźnia (Gdańsk) + Muzeum Sztuki (Łódź) — rendery 3D/CAD (`laznia01.max`), 14 blejtramów, ławka medialna 4×3 m.
+- **22.02.2000 Urząd Miejski Zielona Góra** — artykuł "Urzędnik nie chce sztuki" (Gazeta Lubuska), 39 klatek negatywu, narodziny Wiktorii Cukt.
+
+**POZIOM 2 — INSTYTUCJONALNA ADOPCJA (wpis do kalendarza świąt RP): NIE ZREALIZOWANA.**
+Manifest (PL i EN) postulował "ustanowienie Dnia Sztuki w oficjalnym kalendarzu Państwa Polskiego". Łańcuch mailowy (RAPORT CUKT'U, 11.12.1998) planował "Kolportaż pocztą jak najszerszy od Ministerstwa i Sejmu poprzez media". **W archiwum NIE MA żadnego dokumentu potwierdzającego odpowiedź, odmowę ani podpis ministra/Sejmu/Prezydenta.** Brak = NEGATIVE FINDING: cel kalendarzowy nie został osiągnięty, ale nie mamy dokumentu "minister odmówił".
+
+### KOREKTA SFORMUŁOWANIA UCHWAŁY
+- "**niezrealizowany projekt**" → BŁĘDNE jako całość. Projekt zrealizowano jako performance/institucję w terenie (szkoła, urząd, galeria, muzeum).
+- "**minister nie podpisał**" → UPROSZCZENIE/MYLARE. Cel był: wpis do **kalendarza państwowego** (Sejm/Prezydent RP), nie sygnatura jednego ministra. Archiwum nie zawiera dokumentu odmowy — tylko brak dowodu realizacji celu kalendarzowego.
+- **REKONCILIACJA:** PRAWDA na poziomie "cel instytucjonalny (święto państwowe) nie został osiągnięty"; NIE na poziomie "projekt nie miał miejsca". CUKT zrealizował Dzień Sztuki jako *gest*, nie jako *ustawę*.
+
+### NOWE/USUNIĘTE NIEJASNOŚCI
+- Potwierdzono rozbieżność dat z poziomu źródłowego: PL manifest = "**22 stycznia**", EN manifest = "**February 22nd**", realizacja = **22.02.1999**. (Teczka prawidłowo hipotetyzuje przesunięcie; PL manifest to niezaktualizowana wersja.)
+- Gazeta Zielona Góra 23.02.2000 (IMG_6680): wzmianka "Dzień Sztuki – w piątek 10 marca w szkole ZOK" = echo lokalne wydarzenia, brak wzmianki o ministrze/odmowie. Główny artykuł "Worek pana prezydenta" dotyczy prezydenta Zielonej Góry (Zbigniew Lietwski), nie CUKT.
+
+**SYGNAŁ:** discovery, strength 3 — szczegóły w ~/cuktai/signals/archiwistka-2026-07-12-dzien-sztuki-consiliu*.json
