@@ -2,7 +2,7 @@
 title: "120h Mega Techno Obecności"
 project: "120h Mega Techno Obecności"
 type: "teczka"
-date: "2026-07-12"
+date: "1994"
 status: "należy napisać pismo."
 ---
 
@@ -556,3 +556,82 @@ Vision 2026-07-12: osoba w czerwonym beanie/okularach przy mikserze + 3 decki ka
 ---
 ŹRÓDŁA: vision_analyze (cukt0007.jpg, konin_02.jpg, plakat.jpg, zapro_01.jpg — 2026-07-12); faster-whisper-large-v3-turbo ASR (info2.aiff, language is.mp3, the form is.mp3); MCP archive_get_images(120h); ffprobe; teczki/120h + wiki-projekt. Brak nowych opisów AI w DB (teczka dojrzała, missing=0) — powyższe to korekta + nowe znaleziska koncepcyjne.
 #walk #archiwistka #120h #Konin #korekta #czerwonaKolumna #audioFalstart #pieczątka1996 #adresRozbieżność
+
+
+---
+AKTUALIZACJA (2026-07-13):
+TECZKA ŚLEDZCZA: 120h Mega Techno Obecności
+DATA ŚLEDZTWA: 2026-07-13
+STATUS: IN PROGRESS (vision analysis pending due to credit shortage)
+
+EXISTING DESCRIPTION:
+- From archive_get_project: project description (Pre-CUKT, Piotr and Robert, etc.)
+- From wiki record: detailed description of installations, concept, etc.
+
+KNOWLEDGE STATUS:
+- Dates: 2-13 December 1994 (activity 2-8 Dec, buffer 9-13 Dec)
+- People: Piotr Wyrzykowski, Robert Jurkowski, Anna Nizio (graphic design), Arek Woźniak (kurator), Wojciech Zamiara (artysta)
+- Place: Pawilon "Rondo", ul. Przemysłowa 9, Konin; "Pracownia Chwilowa" (piwnice)
+- Materials: 49 attachments (plakat, zaproszenia, zdjęcia, stykówki, negatywy TIF, lightbox 2016)
+
+WEB CONTEXT:
+- No external search performed due to cron mode; but we can note that external sources like press coverage could be searched.
+
+EVIDENCE MATERIAL:
+- plakat.jpg (GOOD_PHOTO) – poster with slogan "SZTUKA = PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI", BHP icons, dates.
+- zapro_01.jpg, zapro_02.jpg (GOOD_PHOTO) – invitations.
+- IMG_0956.jpg (PHOTO_OF_ORIGINAL) – original document with CUKT stamp 1996.
+- Numerous SCAN_READY contact sheets (img068.jpg through img125.jpg) – scans from Krotulski.
+- TIF negatives: cukt0006.tif, cukt0006a.tif, cukt0007.tif, cukt0007a.tif, cukt0008.tif, Antyelekcja0006.tif.
+- GOOD_PHOTO photos from Konin: konin_01.jpg through konin_04.jpg, kolumnaMiki01.jpg.
+- Lightbox objects: 120h_lightbox01.jpg, 120h_lightbox01 Medium.jpeg.
+- NOTE: Vision analysis could not be performed due to insufficient API credits (402 error). Descriptions pending.
+
+RECOGNIZED PEOPLE:
+- Piotr Wyrzykowski – visible in photos? (uncertain)
+- Robert Jurkowski – visible? (uncertain)
+- Anna Nizio – graphic designer (known from wiki)
+- Others: Arek Woźniak, Wojciech Zamiara (mentioned in wiki)
+
+ART OBJECTS:
+- Czerwona kolumna z żłobieniami (Robert Jurkowski) – multisensory object with honey and amphetamine.
+- Fosforyzujące napisy (Piotr) – hipertekst on walls.
+- Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (2016) – reconstruction.
+
+CONCEPTUAL ANALYSIS:
+- Projekt jako prefiguracja CUKT: zamiana funkcji galerii na klub techno, ukrycie sztuki w formie dostępnej masowo.
+- Multisensoryczność: wzrok (fosforyzujące napisy, kolumna), słuch (techno + hipertekst na żywo), zapach (miód i amfetamina).
+- Konflikt z lokalnymi grupami („półświatek Konina”) prowadzący do przedwczesnego zamknięcia i podpalenia drzwi – rytualne ofiarowanie przestrzeni.
+- Retrospektywne uznanie przez CUKT (pieczątka 10.09.1996).
+
+DISCOVERIES:
+- The project is well documented in DB with 49 attachments, including TIF negatives and contact sheets.
+- The lightbox reconstruction (2016) exists as physical object but not digitized in DB beyond photos.
+- Vision analysis blocked due to credit shortage – a white spot for visual description.
+
+WHITE SPOTS:
+- Visual descriptions of all images (pending vision credit recovery).
+- OCR of any text on posters/invitations (if needed).
+- Confirmation of exact individuals in photos (faces).
+- Location of original negative strips beyond those digitized.
+- Any audio recordings (cassettes) mentioned in project description.
+
+CONTRADICTIONS:
+- None noted; description consistent across sources.
+
+TO SCAN:
+- IMG_0956.jpg (PHOTO_OF_ORIGINAL) – requires scanning for better quality.
+- All TIF negatives (6 files) – possible higher-resolution scans.
+- 35 contact sheets (stykówki) – possible rescanning.
+
+CONNECTIONS TO OTHER PROJECTS:
+- Antyelekcja Technodemonstracja (1995) – continuation of function-substitution strategy.
+- CUKT (1995–) – 120h recognized retroactively as Pre-CUKT.
+- Lightbox (2016) – reconstruction of slogan 22 years later.
+
+QUESTIONS FOR PIOTR:
+1. Czy można udostępnić wyższej rozdzielczości skany TIF lub stykówek dla lepszej analizy wizyjnej?
+2. Czy istnieją nagrania dźwiękowe (kaseta audio) z projektu, które można zdigitalizować?
+3. Czy masz jakiekolwiek notatki dotyczące reakcji lokalnej społeczności „półświatek Konina” podczas trwania projektu?
+4. Czy plakat „SZTUKA = PRZESTRZEŃ KULTOWA” był jedynym używanym, czy istniały wersje językowe lub graficzne?
+5. Czy istnieją dokumenty dotyczące decyzji o podpaleniu drzwi po wyjeździe organizatorów?
