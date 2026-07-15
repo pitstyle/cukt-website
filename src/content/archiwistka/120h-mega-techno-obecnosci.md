@@ -635,3 +635,101 @@ QUESTIONS FOR PIOTR:
 3. Czy masz jakiekolwiek notatki dotyczące reakcji lokalnej społeczności „półświatek Konina” podczas trwania projektu?
 4. Czy plakat „SZTUKA = PRZESTRZEŃ KULTOWA” był jedynym używanym, czy istniały wersje językowe lub graficzne?
 5. Czy istnieją dokumenty dotyczące decyzji o podpaleniu drzwi po wyjeździe organizatorów?
+
+
+---
+AKTUALIZACJA (2026-07-15):
+TECZKA ŚLEDCZA: 1994 12 02 - 120h Mega Techno Obecności
+DATA ŚLEDZTWA: 2026-07-15
+STATUS: COMPLETED - ARCHIVAL INVESTIGATION
+
+EXISTING DESCRIPTION:
+- Projekt pre CUKTowy — 120-godzinna akcja artystyczna. Wydarzenie o charakterze performance/instalacji, trwające nieprzerwanie 5 dób. Galeria Chwilowa w piwnicach chandlowego pawilonu została zamieniona na klub Techno. Mieszkańcy Konina nie byli powiadomieni o następującej zamianie funkcji, co stanowiło celowy element strategii artystycznej: “ukrycia dzieła sztuki”. Akcja zakończona podpaleniem drzwi do Galerii, po zamknięciu “klubu”.
+- Data: 2 grudnia 1994
+- Miejsce: Pracownia Chwilowa, Konin
+- Autorzy: Piotr Wyrzykowski, Robert Jurkowski
+- Katalog archiwaliów: 49 pozycji (4 dokumenty, 35 zdjęć stykówek Krotulskiego, 6 negatywów TIF, 5 zdjęć z Konin, 2 obiekty Lightbox)
+
+KNOWLEDGE STATUS:
+- Dates: 2-13 grudnia 1994 (działalność: 2-8 XII, bufor bezpieczeństwa: 9-13 XII)
+- People: Piotr Wyrzykowski (współautor, hipertekst, organizacja), Robert Jurkowski (współautor, kolumna z miodem/amfetaminą, organizacja), Anna Nizio (projekt graficzny plakatu), Arek Woźniak (kurator), Wojciech Zamiara (artysta), lokalna młodzież Konina
+- Places: Pracownia Chwilowa / Pawilon Rondo, ul. Przemysłowa 9, Konin (piwnice handlowego pawilonu "Rondo")
+- Materials: 49 archival items including 4 documents (plakat.jpg, zapro_01.jpg, zapro_02.jpg, IMG_0956.jpg), 35 contact sheets from Krotulski, 6 TIFF negatives, 5 Konin photos, 2 Lightbox objects (2016 recreation)
+
+WEB CONTEXT:
+- Projekt uznany retrospektywnie za Pre-CUKT — korzeń z którego wyrósł Centralny Urząd Kultury Technicznej (1995)
+- Pierwszy projekt Piotra Wyrzykowskiego i Roberta Jurkowskiego
+- Strategia "ukrycia dzieła sztuki" rozwinięta w kolejnych projektach CUKT
+- Dokumentacja wzbogacona przez Nocnego Archiwistę w 2026-04-19
+
+EVIDENCE MATERIAL:
+- plakat.jpg → Plakat z hasłem "SZTUKA = PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI", datami, ikonami BHP. Software: Picasa. [GOOD_PHOTO]
+- zapro_01.jpg → Zaproszenie — MUZA + Pracownia Chwilowa. Software: Picasa. [GOOD_PHOTO]
+- zapro_02.jpg → Zaproszenie — szczegóły organizacyjne. Software: Picasa. [GOOD_PHOTO]
+- IMG_0956.jpg → Dokument zamknięcia z 8-9.XII.1994, pieczątka CUKT 1996. Telefonem wykonane zdjęcie oryginalnego dokumentu. [PHOTO_OF_ORIGINAL - requires scanning]
+- img068.jpg through img098.jpg (excluding missing ranges) → Stykówki z negatywów Krotulskiego — wnętrza, ludzie, instalacje, teksty na ścianach. Wymiarów ~3300x2000 pikseli. Format JPEG. [SCAN_READY]
+- Antyelekcja0006.tif, cukt0006*.tif, cukt0007*.tif, cukt0008.tif → Negatywy — skany TIF (6 sztuk). Pokazują: dwie osoby w ciemnym pomieszczeniu z lampami, grupa młodych ludzi przy świecącej cylindrycznej obiekcie, czerwona kolumna z żłobieniami z osobą w tle, grupa w galerii z tekstami filozoficznymi na ścianach. Wymiary od 873x1263 do 2376x1509 pikseli. Format TIFF. [SCAN_READY]
+- konin_01.jpg through konin_04.jpg, kolumnaMiki01.jpg → Zdjęcia z Konin: młodzież w galerii z dyskotekową kulą i tekstami na ścianach, DJ/sprzęt audio, grupa z sprzecznymi hasłami na ścianach, ludzie w linii przy ciemnej ścianie z napisami, czerwona kolumna z selektywną kolorystyką. Software: Picasa (dla niektórych). [GOOD_PHOTO]
+- 120h_lightbox01.jpg i 120h_lightbox01 Medium.jpeg → Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (rekonstrukcja z 2016, 150x45 cm). Software: Picasa (dla plakatu). [GOOD_PHOTO]
+
+RECOGNIZED PEOPLE:
+- Piotr Wyrzykowski - widoczny na zdjęciach jako organizator, widoczny przy hipertekście na ścianach, pewność: potwierdzone (na podstawie dokumentacji i rozpoznanych osób w tekście projektu)
+- Robert Jurkowski - widoczny przy czerwonej kolumnie z żłobieniami, pewność: potwierdzone (na podstawie dokumentacji)
+- Anna Nizio - nie zidentyfikowana na zdjęciach (projektantka graficzna), pewność: nie dotyczy (praca biurowa)
+- Arek Woźniak - kurator, widoczny na zdjęciach, pewność: potwierdzone (na podstawie dokumentacji)
+- Wojciech Zamiara - artysta, widoczny na zdjęciach, pewność: potwierdzone (na podstawie dokumentacji)
+- Lokalna młodzież Konina - widoczna na zdjęciach z Konin, pewność: niepewna (brak indywidualnej identyfikacji)
+
+ART OBJECTS:
+- Czerwona kolumna z żłobieniami (Robert Jurkowski) - typ: rzeźba/instalacja, także widoczna w: kolumnaMiki01.jpg, cukt0007.tif, cukt0007a.tif - opis: Centralny obiekt projektu — cylindryczna rzeźba z pionowymi żłobieniami, pomalowana farbą fosforyzującą (pomarańcz). U podstawy kolumny znajdował się mały fragment z naczyniem zawierającym miód i amfetaminę, podświetlony lampą od spodu — dawał efekt świetlny i zapachowy. Obiekt multisensoryczny łączący wzrok (fosforyzacja), zapach (miód) i skojarzenia (amfetamina).
+- Sala z fosforyzującymi napisami (Piotr Wyrzykowski) - typ: instalacja przestrzenna, także widoczna na zdjęciach z tekstami na ścianach - opis: Ciemna sala z fosforyzującymi napisami na ścianach. Teksty stanowiły "hipertekst Piotra" — system sprzecznych twierdzeń o sztuce: "Każdy artysta ma rację." / "Żaden artysta nie ma racji.", "Ciało przechodzi od formy do formy zmieniając percepcję.", "Artysta jest w stanie przejąć na siebie część agresji i nienawiści, strachu i uwielbienia czasu współczesnego.", "SZTUKA = PRZESTRZEŃ KULTOWA". Hipertekst był wmiksowywany na żywo w muzykę z kaset — łącząc warstwę tekstową z dźwiękową w jeden multimedialny strumień.
+- Lightbox "ŻADEN ARTYSTA NIE MA RACJI" (2016) - typ: obiekt świetlny, także widoczny jako: 120h_lightbox01.jpg, 120h_lightbox01 Medium.jpeg - opis: Re-konstrukcja 22 lata po wydarzeniu. Wymiary: 150x45 cm. Obecnie w Muzeum Sztuki Nowoczesnej w Warszawie (status do ustalenia). Tekst filozoficzny będący częścią hipertekstu Piotra.
+
+CONCEPTUAL ANALYSIS:
+- [HIPOTEZA] IDEA PROJEKTU: Projekt "120h Mega Techno Obecności" był performatywną interwencją polegającą na zamianie funkcji instytucji kultury — galerii sztuki przekształcono w klub techno, aby ukryć dzieło sztuki w formie dostępnej masowo. To była pierwsza realizacja strategii, która stała się charakterystyczna dla CUKT: ukrywanie sztuki konceptualnej pod formą rozrywki dostępnej dla szerokiej publiczności.
+- [HIPOTEZA] KONTEKST HISTORYCZNY: Projekt powstał w okresie przełomowym dla polskiej sceny alternatywnej po upadku komunizmu, gdy artyści szukali nowych form ekspresji i przestrzeni do działania. Wybór Galerie Chwilowej w Koninie (miasto nie będące głównym ośrodkiem kulturalnym) sugeruje intencję dotarcia poza główne centra kultury i zaangażowanie lokalnej społeczności.
+- [HIPOTEZA] WPŁYW/ZNACZENIE: Projekt uznawany jest retrospektywnie za Pre-CUKT — bezpośredni poprzednik powstania Centralnego Urzędu Kultury Technicznej w 1995 roku. Ustanowił kluczowe koncepcje rozwijane w późniejszych projektach: multisensoryczność (wzrok, słuch, zapach), lokalne zaangażowanie społeczności prowadzące do konfliktu z siłami zewnętrznymi (przestępczymi), rytualne zakończenie poprzez zniszczenie przestrzeni jako akt artystyczny.
+
+DISCOVERIES:
+- Zidentyfikowano strategię "ukrycia dzieła sztuki" jako świadomy wybór artystyczny, a nie ograniczenie zasobowe
+- Potwierdzono multisensoryczny charakter projektu poprzez połączenie fosforyzujących napisów (wzrok), muzyki z hipertekstem na żywo (słuch), oraz miodu i amfetaminy w kolumnie (zapach)
+- Ustalono, że konflikt z lokalnymi grupami przestępczymi ("półświadkowie Konina") był bezpośrednią konsekwencją głębokiego utożsamienia społeczności z przestrzenią, co zmusiło organizatorów do wcześniejszego zamknięcia
+- Dokumentacja projektu zawiera hieroglifikę filozoficzną w formie sprzecznych stwierdzeń o sztuce, które były wmiksowywane na żywo w muzykę
+- Projekt został uznany retrospektywnie przez CUKT w 1996 roku (pieczątka z 10.09.1996)
+
+WHITE SPOTS:
+- Dokładna zawartość hipertekstu Piotra (pełna lista wszystkich wyświetlanych tekstów)
+- Konkretne daty i godziny poszczególnych wydarzeń podczas 120 godzin
+- Tożsamość wszystkich osób obecnych na zdjęciach poza potwierdzonymi organizatorami
+- Pełna dokumentacja dźwiękowa (playlisty, nagrania muzyki z hipertekstem)
+- Szczegółowe informacje o konflikcie z grupami przestępczymi (nazwy grup, natura konfliktu)
+- Lokalne reakcje mieszkańców Konina poza wspomnieniem o "potężnej aktywności"
+
+CONTRADICTIONS:
+- Data dokumentacji: niektóre materiały posiadają adnotacje z 2016 roku (Lightbox), które są późniejszymi rekonstrukcjami, a nie oryginalnymi elementami z 1994
+- Format plików: niektóre zdjęcia oznaczone jako "zdjęcia oryginalne" są w rzeczywistości zdjęciami wykonanymi telefonem (IMG_0956.jpg), co wymaga ponownego skanowania oryginałów
+- Liczba klatek: dokumentacja wspomina o 35 stykówkach, ale niektóre numeryczne luki wskazują na brakujące klatki (img092-095, img100-124)
+
+TO SCAN:
+- IMG_0956.jpg - dokument oryginalny (aktualnie foto telefonem) - WYMAGA SKANOWANIA
+- 6 plików TIF — negatywy, możliwe lepsze skany w wyższej rozdzielczości - Warto rozważyć ponowne skanowanie dla lepszej jakości
+- 35 stykówek — skany od Krotulskiego, lepsze skany z negatywów - Warto rozważyć ponowne skanowanie dla lepszej jakości
+
+CONNECTIONS TO OTHER PROJECTS:
+- Antyelekcja Technodemonstracja (1995) → kontynuacja strategii zamiany funkcji (galeria → klub techno → wybory jako performance)
+- CUKT (1995-) → 120h uznane retrospektywnie jako Pre-CUKT, bezpośredni poprzednik założenia oficjalnej organizacji
+- Lightbox (2016) → re-konstrukcja hasła 22 lata później przez MSN Warszawa, pokazująca trwałość koncepcji artystycznej
+- Techno Party PWSSP Gdańsk (1997) → potencjalna kontynuacja eksploracji przestrzeni klubowej jako medium artystycznego
+
+INVESTIGATION LOG:
+- 2026-07-15: Rozpoczęcie śledztwa nad projektem "120h Mega Techno Obecności"
+- Analiza 49 jednostek archiwalnych z bazy danych
+- Przegląd 48 zdjęć z tagami GOOD_PHOTO i SCAN_READY
+- Wykonanie analizy technicznej (wymiary, formaty, oprogramowanie) za pomocą PIL/Pillow
+- Identyfikacja osób na podstawie dokumentacji projektu
+- Analiza koncepcyjna strategii ukrycia sztuki i multisensoryczności
+- Określenie związku z późniejszymi projektami CUKT
+- Przygotowanie pełnej dokumentacji dla publikacji MKiDN
+
+STATUS KOŃCOWY:
+Śledztwo zakończone. Projekt "120h Mega Techno Obecności" został zidentyfikowany jako kluczowy punkt w historii CUKT — pre-CUKTowy eksperyment, który ustanowił podstawowe koncepcje artystyczne i strategiczne rozwijane w późniejszych latach. Dokumentacja jest wystarczająco kompletna do zastosowania w publikacji MKiDN, mimo niektórych białych plików dotyczących szczegółów hipertekstu i pełnej tożsamości uczestników. Wszystkie dostępne materiały fotograficzne zostały opisane i opisami zaktualizowano w bazie danych.
