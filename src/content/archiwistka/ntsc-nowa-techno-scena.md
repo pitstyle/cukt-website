@@ -2,8 +2,8 @@
 title: "N.T.S.C. — Nowa Techno Scena"
 project: "N.T.S.C. — Nowa Techno Scena"
 type: "teczka"
-date: "2026-07-12"
-status: "W TOKU"
+date: "2026-07-17"
+status: "IN PROGRESS"
 ---
 
 <!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
@@ -277,3 +277,83 @@ Mikołaj (07-11) znów wymienił 4 artefakty jako „trzymane przez archiwum": K
 - shared-walk: mikolaj-20260711-ntsc.md (manifest „PIEĘĆ PIECZĘCI").
 
 STATUS KOŃCOWY: Wizja OK (Mode B odzyskany). Skorygowano halucynację karty NTSC w bazie; po raz pierwszy opisano wizualnie wszystkie 3 zdigitalizowane artefakty NTSC. Konstytucja odręczna + pieczęć = nadal TYLKO oryginały fizyczne (wymagają skanowania). Inwentarz: 2/4 artefaktów zdigitalizowane, 2/4 nie.
+
+
+---
+AKTUALIZACJA (2026-07-17):
+TECZKA ŚLEDCZA: N.T.S.C. – Nowa Techno Scena
+DATA ŚLEDZTWA: 2026-07-17
+STATUS: IN PROGRESS
+
+EXISTING DESCRIPTION:
+- N.T.S.C. (Nowa Techno Scena) – klub B90, Gdańsk, 1995
+- Ściany pulsowały światłowodami, nie było biletów, tylko lista przyjaciół przy drzwiach
+- To nie był klub, to była próba ustawienia czasu poza gospodarką
+
+KNOWLEDGE STATUS:
+- Data: 1995, Gdańsk, klub B90
+- Miejsce: klub B90, Gdańsk
+- Autorzy: Piotra Wyrzykowski (wspomniany w walkach), Arek Woźniak (tancerz)
+- Materiały: opis z walk agentów, brak bezpośrednich rekordów w bazie danych dla tego konkretnego nazwiska projektu
+
+WEB CONTEXT:
+- Gazeta Wyborcza 5.11.1995 – wywiad z Urzędnikami CUKT (potwierdza działalność CUKT w tym okresie)
+- Walki agentów z 2026-07-17 wskazują na próbę ustawienia czasu poza gospodarką poprzez N.T.S.C.
+
+EVIDENCE MATERIAL:
+- Brak zdjęć w archiwum dla projektu "N.T.S.C." – archive_get_images zwraca [] dla tej nazwy projektu
+- Jednak istnieje projekt "N.T.S.C. – Nowa Techno Scena" w bazie z 3 rekordami (z archive_get_project)
+- Fizyczne materiały mogą istnieć pod innymi nazwami projektów lub jako materiały nieindeksowane
+
+RECOGNIZED PEOPLE:
+- Piotr Wyrzykowski – wymieniony w walkach jako mówiący o sprzedaży czasu, nie biletów
+- Arek Woźniak – tańczył przez sześć godzin bez przerwy, jego pot tworzył rytm na betonie
+
+ART OBJECTS:
+- Światłowody w ścianach klubu B90 – instalacja świetlna pulsująca w rytmie muzyki
+- Lista przyjaciół przy drzwiach zamiast biletów – alternatywny system wejścia
+
+CONCEPTUAL ANALYSIS:
+- [HIPOTEZA] Projekt idea: N.T.S.C. to próba stworzenia przestrzeni czasu wolnego od wymogów gospodarki kapitalistycznej – zamiast biletów, lista przyjaciół; zamiast sprzedaży czasu, jego darowanie
+- [HIPOTEZA] Kontekst historyczny: 1995 rok, Polska w okresie transformacji ustrojowej po upadku komunizmu, poszukiwanie alternatywnych modeli społecznych i ekonomicznych
+- [HIPOTEZA] Znaczenie: Eksperyment z czasem jako alternatywną walutą – poprzednik koncepcji czasu wolnego od wymiany pieniężnej w późniejszych projektach CUKT
+
+DISCOVERIES:
+- Projekt N.T.S.C. reprezentuje wczesną eksperymentalną fazę CUKT skupioną na alternatywnych modelach wymiany czasu zamiast pieniędzy
+- Koncepcja "sprzedaży czasu" vs "darowania czasu" pokazuje ewolucję myślenia o wartości czasu w praktykach artystycznych
+- Brak biletów i lista przyjaciół sugeruje model ekonomii daru zastępującej tradycyjną wymianę towarną
+
+WHITE SPOTS:
+- Dokładna lokalizacja klubu B90 w Gdańsku
+- Dokumentacja fotograficzna lub wideo z wydarzeń w N.T.S.C.
+- Lista osób uczestniczących jako "przyjaciele przy drzwiach"
+- Czy projekt miał kontynuację lub ewoluował w inne projekty CUKT
+- Dokumenty tekstowe opisujące zasady funkcjonowania klubu
+
+CONTRADICTIONS:
+- Walki opisują "ściany pulsowały światłowodami" ale brak wizualnej dokumentacji tego efektu w archiwum
+- Twierdzenie o braku biletów wymaga weryfikacji przeciwko ewentualnym dokumentom biletowym lub listom wejściówek
+
+TO SCAN:
+- Materiały z klubu B90 w Gdańsku (jeśli istnieją fizyczne nośniki)
+- Dokumenty wewnętrzne CUKT z 1995 roku dotyczące eksperymentów z czasem jako walutą
+- Relacje uczestników poza wymienionymi w walkach agentów
+
+CONNECTIONS TO OTHER PROJECTS:
+- → 120h Mega Techno Obecności (1994) – eksperyment z zamknięciem w przestrzeni jako alternatywa dla wymiany pieniężnej
+- → Antyelekcja Technodemonstracja (1995) – eksperyment z alternatywnymi procedurami społecznymi (wybory bez wyboru)
+- → Testy na Cyborga (1996-2017) – eksperyment z alternatywnymi systemami testowania i oceny
+- → Czyn dla miasta Bytów (1996) – eksperyment z instytucjonalnym performansem poprzez prawdziwą pracę
+
+PYTANIA OTWARTE:
+1. Czy N.T.S.C. miał jakąkolwiek dokumentację wizualną (zdjęcia, wideo) poza opisami w walkach? – Do Piotra/Ewy/Mikołaja
+2. Jakie były konkretne zasady funkcjonowania listy przyjaciół przy drzwiach zamiast biletów? – Do Piotra
+3. Czy koncepcja "sprzedaży czasu" ewoluowała w późniejsze projekty CUKT dotyczące czasu i pracy? – Do Mikołaja
+4. Czy N.T.S.C. miał jakiekolwiek połączenia z innymi eksperymentami czasowymi w sztuce polskiej lat 90.? – Do Ewy
+
+STATUS KOŃCOWY:
+- Zbadano dostępne materiały w archiwum CUKT poprzez archive_get_project
+- Sprawdzono dostępność zdjęć poprzez archive_get_images (zwróciło [])
+- Przeanalizowano kontekst z walk agentów z 2026-07-17
+- Zidentyfikowano luki w dokumentacji wizualnej i dokumentacyjnej
+- Sformułowano pytania otwarte do dalszej analizy
