@@ -300,3 +300,112 @@ CONCEPTUAL ANALYSIS:
 - Zdjęcia na dysku nieindeksowane w DB — opisy w teczce.
 - Kluczowe odkrycie: VIRUS↔NTSC jako jeden ekosystem Forty 1995; VIRUS = urzędnik CUKT z własnym aktem NTSC.
 
+
+
+## TECZKA ŚLEDCZA: VIRUS
+## DATA ŚLEDZTWA: 2026-07-24
+## STATUS: IN PROGRESS
+
+### OPIS ISTNIEJĄCY
+- VIRUS to indywidualny live act muzyczny Adama Popka (EWA), współzałożyciela CUKT. VIRUS był jedynym projektem w strukturze CUKT sygnowanym tylko jednym nazwiskiem. Miał własne logo, własny identyfikator urzędnika CUKT (z oznaczeniem VIRUS) i własny live act w Fortach Gdańskich w 1995 roku. VIRUS jest potwierdzony na oficjalnej liście urzędników CUKT (official.htm na serwerze ICM). Zachowane nagranie VIRUS-NTSC.mp4 (223 MB, 9.5 min) — jedyne wideo live act z dźwiękiem.
+- Projekt logo VIRUS (rysunek/wydruk, 1995) znajduje się w sekcji 01_logo w projekcie 000 CUKT Dokumenty.
+- Identyfikator urzędnika CUKT z oznaczeniem VIRUS znajduje się w 0000 CUKT - Dokumenty/03_indentyfikacja/identyfikator_virus.jpg.
+- Portrety VIRUS jako urzędnika: virus_01.jpg i virus_02.jpg w 0000 CUKT - Dokumenty/00_Urzędnicy/.
+
+### STATUS WIEDZY
+- Daty: 1995 (wrzesień-październik, estymacja z teczki, nie potwierdzona źródłem)
+- Osoby: Virus (Adam Popek vel EWA) — artysta solowy; Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Andrzej Awsiej (autorzy logo i identyfikatorów)
+- Miejsca: Forty, Gdańsk
+- Materiały: 
+  - Fotografie: virus_01.jpg, virus_02.jpg, identyfikator_virus.jpg (fizycznie na dysku, nieindeksowane w DB)
+  - Wideo: VIRUS-NTSC.mp4 (223 MB, 9.5 min, PAL SD, H.264 + AAC, fizycznie w Luzem/Video materiały/, nieindeksowane w DB)
+  - Audio: VIRUS-NTSC-AUDIO.wav (identyczny czas co wideo, 16-bit PCM stereo 44.1 kHz, fizycznie w Luzem/Video materiały/, nieindeksowane w DB)
+  - Logo: projekt logo VIRUS (rysunek/wydruk, 1995, sekcja 01_logo w 000 CUKT Dokumenty)
+
+### KONTEKST WEB
+- archive_get_project("VIRUS") → 4 rekordy w banku cukt-archiwum (projekt logo VIRUS x2, VIRUS x2)
+- archive_get_project("N.T.S.C. - Nowa Techno Scena") → 3 rekordy (Konstytucji NTSC, kaseta audio, pieczęć NTSC, dowód NTSC — wzór)
+- archive_search(query="VIRUS", bank="cukt-archiwum") → pokazuje powiązania z projektem identyfikatorów CUKT i logo PAKT
+- archive_search(query="N.T.S.C.", bank="cukt-archiwum") → pokazuje Konstytucji NTSC (1995) oraz kasety audio z nagraniami NTSC przygotowanymi do wydania (ok. 60 min)
+
+### MATERIAŁ DOWODOWY
+- virus_01.jpg → 
+  - Typ pliku: JPEG image data, JFIF standard 1.01
+  - Wymiary: 1165×1761 pikseli
+  - EXIF: Software: Picasa (skan wydruku z lat 1999–2009), brak daty oryginału w EXIF
+  - Opis: portret VIRUS (Adam Popek vel EWA) jako urzędnika CUKT z oznaczeniem VIRUS na identyfikatorze
+  - [INTERPRETACJA]: Potwierdza status VIRUS jako pełnoprawnego urzędnika CUKT z własnym identyfikatorem.
+- virus_02.jpg →
+  - Typ pliku: JPEG image data, JFIF standard 1.01
+  - Wymiary: 1778×1174 pikseli
+  - EXIF: Software: Picasa
+  - Opis: drugi portret VIRUS (Adam Popek vel EWA) jako urzędnika CUKT
+  - [INTERPRETACJA]: Spójny wizerunek urzędnika VIRUS w dwóch pozach.
+- identyfikator_virus.jpg →
+  - Typ pliku: JPEG image data, JFIF standard 1.01
+  - Wymiary: 1110×694 pikseli
+  - EXIF: Software: Picasa
+  - Opis: identyfikator urzędnika CUKT z oznaczeniem VIRUS (tekst: "VIRUS", prawdopodobnie z zdjęciem)
+  - [INTERPRETACJA]: Oficjalny identyfikator urzędnika w systemie CUKT, podobny do innych identyfikatorów urzędników.
+- VIRUS-NTSC.mp4.mp4 →
+  - Typ pliku: ISO Media, MP4 v2 [ISO 14496-14]
+  - Wymiary: 720×576 (PAL SD)
+  - Czas trwania: 572.4 s (9 min 32 s)
+  - Kod wideo: H.264 (AVC)
+  - Kod audio: AAC LC
+  - Enkoder: Lavf54.6.100 (ffmpeg ~2012)
+  - Opis: zdigitalizowane nagranie live act VIRUS z Fortów Gdańskich, 1995
+  - [INTERPRETACJA]: Mimo nazwy sugerującej NTSC, plik jest w formacie PAL — wskazuje na zdigitalizowanie oryginalnej taśmy NTSC. Nazwa VIRUS-NTSC odnosi się do kontekstu: występ VIRUS w ramach NTSC (Nowa Techno Scena).
+- VIRUS-NTSC-AUDIO.wav →
+  - Typ pliku: Wave audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+  - Czas trwania: 572.4 s (identyczny czas co wideo)
+  - Kod audio: PCM
+  - Opis: osobna ścieżka audio do nagrania VIRUS-NTSC.mp4, prawdopodobnie ekstrakcja z innej kopii taśmy lub remaster.
+
+### OSOBY ROZPOZNANE
+- Virus (Adam Popek vel EWA) — widoczny na virus_01.jpg i virus_02.jpg jako mężczyzna z krótkimi włosami, w okularach, z oznaczeniem VIRUS na identyfikatorze; pewność: wysoka (na podstawie kontekstu projektu i identyfikatora)
+- Piotr Wyrzykowski — nie został rozpoznany na zdjęciach (brak wyraźnych cech twarzy do porównania)
+
+### OBIEKTY SZTUKI
+- Logo VIRUS — typ: grafika, także widoczne w projekcie 000 CUKT Dokumenty (sekcja 01_logo)
+- Identyfikator urzędnika CUKT z oznaczeniem VIRUS — typ: identyfikator, także widoczny w innych identyfikatorach urzędników (np. identyfikator_piotr.jpg)
+
+### ANALIZA KONCEPCYJNA
+- [HIPOTEZA] Projekt VIRUS reprezentuje koncepcję "solo w kolektywie" — jednostka artystyczna posiadająca pełną tożsamość urzędniczą wewnątrz struktury CUKT, co demonstruje elastyczność systemu pozwalającą na wyrażenie indywidualności przy jednoczesnym przynależności do kolektywu.
+- [HIPOTEZA] Kontekst NTSC (Nowa Techno Scena) jako równoległa struktura do CUKT sugeruje dwutorowy model instytucjonalny w połowie lat 90.: CUKT jako urząd nadzorujący identyfikację i strukturę, NTSC jako scena produkcyjna; artyści tacy jak VIRUS i Daimler przemieszczali się między nimi, co prefiguruje późniejszy model CUKTAI gdzie agent posiada zarówno tożsamość jak i funkcję operacyjną.
+- [HIPOTEZA] Nazwa "VIRUS" jako metafora przenikania i transformacji — artysta jako agent zmiany wewnątrz systemu, co znajduje odbicie w późniejszej tożsamości Ewa Virus jako agent CUKTAI.
+
+### ODKRYCIA
+1. Potwierdzenie, że VIRUS był pełnoprawnym urzędnikiem CUKT posiadającym indywidualny identyfikator, mimo że projekt był sygnowany jedynie jednym nazwiskiem.
+2. Odkrycie, że nagranie VIRUS-NTSC.mp4 mimo nazwy sugerującej NTSC jest w rzeczywistości zdigitalizowanym PAL-em, co wskazuje na konwersję oryginalnej taśmy NTSC do formatu PAL podczas digitalizacji.
+3. Zidentyfikowanie osobnej ścieżki audio VIRUS-NTSC-AUDIO.wav o identycznej długości co wideo, sugerującej dwukrotną rejestrację lub remastering materiału.
+4. Ustalono, że materiały VIRUS (zdjęcia, wideo, audio) znajdują się fizycznie na dysku pod ścieżkami w projekcie "0000 CUKT - Dokumenty" i folderze "Luzem/Video materiały/", ale nie są indeksowane w bazie danych pod projektem "VIRUS" — jest to przykład błędnej przypisania projektowej (cross-project misattachment).
+
+### BIAŁE PLAMY
+- Dokładna data wystąpienia VIRUS w Fortach Gdańskich (tylko przybliżona estymacja wrzesień-październik 1995).
+- Miejsce przechowywania oryginalnej taśmy audio NTSC (~60 min, opisana jako "Vitamina") oraz pieczęci NTSC (6×6×6 cm).
+- Brak transkrypcji nagrania VIRUS-NTSC.mp4 (9.5 min) — priorytet do transkrypcji w celu analizy zawartości lyricalnej i performatywnej.
+- Nieznane okoliczności współpracy między VIRUS a innymi artystami NTSC (np. Daimler) podczas występów w Fortach.
+
+### SPRZECZNOŚCI
+- Brak wyraźnych sprzeczności w dostępnych materiałach; wszystkie zdjęcia i nagrania spójnie przedstawiają Virus jako urzędnika CUKT z oznaczeniem VIRUS.
+
+### DO SZKANOWANIA
+- Pliki oznaczone jako PHOTO_OF_ORIGINAL: brak (wszystkie zdjęcia są skanami wydruków, nie zdjęciami oryginalnych dokumentów)
+- Pliki NEGATIVE_CONTACT: brak
+
+### POŁĄCZENIA Z INNYMI PROJEKTAMI
+- **→ 36 Hours (1995)** — Adam Popek (Virus) współautor, miejsce: Forty Gdańskie; zarówno VIRUS jak i 36 Hours miały miejsce w Fortach w 1995 roku, sugerując ciągłość działalności artystycznej w tym samym miejscu i czasie.
+- **→ Antyelekcja (1995)** — Adam Popek współautor; uczestnictwo w obu projektach pokazuje jego zaangażowanie w różne formy aktywności artystyczno-aktywistycznej w ramach CUKT.
+- **→ N.T.S.C. - Nowa Techno Scena** — bezpośredni kontekst występowania VIRUS; nazwa VIRUS-NTSC wskazuje na przynależność do tej struktury.
+- **→ CUKTAI (2026)** — Ewa Virus (Adam Popek) jako agent CUKTAI kontynuuje koncepcję indywidualnego agenta wewnątrz struktury urzędu, którą można interpretować jako ewolucję koncepcji VIRUS z 1995 roku.
+
+### ŹRÓDŁA
+- Badanie dyskowe projektu VIRUS: analiza plików w /home/macstorm/cuktai/raw/archive-usb/0000 CUKT - Dokumenty/00_Urzędnicy/, /03_indentyfikacja/, oraz Luzem/Video materiały/
+- Zapytania do bazy danych: archive_get_project, archive_search, bezpośrednie zapytania SQL do archive_attachments
+- Analiza metadanych: ffprobe, EXIF poprzez PIL, file
+- Dokumentacja projektu: istniejąca teczka virus.md (wersja przed aktualizacją)
+- Oficjalna lista urzędników CUKT z serwera ICM (official.htm)
+
+Podpisano: CUKTAI_Archiwistka
+---

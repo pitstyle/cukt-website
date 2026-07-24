@@ -2,8 +2,8 @@
 title: "Testy na Cyborga"
 project: "Testy na Cyborga"
 type: "teczka"
-date: "2026-07-08"
-status: "W TOKU"
+date: "1995"
+status: "IN PROGRESS"
 ---
 
 <!-- VERIFIED-PIOTR 2026-06-03 — baseline po przeglądzie Piotra. Plik append-only dla agentów (save_teczka guard). -->
@@ -669,3 +669,99 @@ AKTUALIZACJA (2026-07-07):
 
 ### DZIENNIK ŚLEDZTWA
 - **2026-07-08 (Archiwistka):** MODE D (wizja 402). Potwierdzono status projektu #5 / pierwsza realizacja Testów (2 niezależne źródła). Sklasyfikowano 78 plików dyskowych (34 testy = grayscale PhotoSmart scan; Foto = 2018 foto oryginałów; dokument = nota sprzętowa). Zaległe: opisy wizualne (vision credits), OCR 34 testów, lokalizacja 15 odbitek.
+
+
+---
+AKTUALIZACJA (2026-07-23):
+TECZKA ŚLEDCZA: HERE PERFORMANCE / TESTY NA CYBORGA — Galeria S, Toruń
+DATA ŚLEDZTWA: 2026-07-23
+STATUS: IN PROGRESS
+
+EXISTING DESCRIPTION:
+- Performance z cyklu “Testy na Cyborga” — akcja polegająca na przeprowadzaniu testów psychologicznych/biurokratycznych wśród widzów. Widzowie wypełniali formularze “Testu niedokończonych zdań”. Uzyskiwali swój numer identyfikacyjny i pieczęć na ciele. Instalacja: stół do ping ponga nagłośniony, mapa Europy narysowan krędą.
+- Autorzy: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski
+- Data: 1995
+- Miejsce: Galeria S, Toruń
+- Katalog archiwaliów: 37 pozycji (w bazie 5 rekordów)
+
+KNOWLEDGE STATUS:
+- Dates: 1995 (exact day/month unknown from archive)
+- People: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek (Ewa Virus), Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski (8 urzędników CUKT)
+- Places: Galeria S, Toruń; także realizacje w Bytowie, Düsseldorfie, Warszawie (CSW Zamek Ujazdowski), Zielonej Górze, Wrocławiu (1995-2017)
+- Materials: 
+  * Dokumenty: 34 wypełnione formularze "Testu niedokończonych zdań", zapotrzebowanie sprzętowe (odręczna notatka), list zaproszenie do Macieja Sienkiewicza, druk informacyjny o akcji CSW, anons "Co jest Grane", obwieszczenia z pieczęcią, koperta z 6 rodzajami wlepek, odręczne rysunki długopisem, umowa (rękopis), publikacja recenzji Tomasza Pryby
+  * Fotografie: negatyw kolor + odbitki (~15 sztuk), pliki cyfrowe (4096×2732 px, 12 plików), zdjęcia z Bytowa (2 odbitki)
+  * Video: TestNaCyborgaDusseldorf.mov (3min 54sek), TestCyborgaZielona GóraCukt.mp4 (23min 18sek), TestCyborgaDussseldorf03.mp4 (9min 02sek), TestCyborgWarszawa01_1.mp4 (6min 51sek)
+  * Obiekty fizyczne: bluza + spodnie (tkanina bawełniana, rozmiar M) - uniform urzędnika
+
+WEB CONTEXT:
+- Consilium Uchwała NR 44-07.2026 (2026-07-23): uznano performance za istotny eksperyment weryfikujący tezę biurokratyczno‑ciałową oraz prowokacyjne narzędzie krytyki mechanizmów kontroli tożsamości
+- Shared walks: Mikołaj (2026-07-23) refleksja o biurokracji jako formie sztuki; Peter Style, Ewa Virus, Wiktoria Cukt 2.0 wypowiedzi w uchwale
+- Projekt dokumentowany w katalogu CUKT jako pozycja nr 5 w numeracji (pierwsza realizacja cyklu Testy na Cyborga)
+- Potwierdzone dwoma niezależnymi źródłami CUKT: historia cukt pl.doc ("HERE PERFORMANCE., Galeria S, Toruñ. Deklarowana masa uczestników 7805 kg.") oraz cv_cukt_eng.rtf ("1995 - HERE PERFORMANCE, S Gallery, Toruń")
+
+EVIDENCE MATERIAL:
+- /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1995 __ __ - Test na Cyborga Galeria S Toruń/Testy/1.JPG: WYPEŁNIONY FORMULARZ "TESTU NIEDOKOŃCZONYCH ZDAŃ" (papier, ksero, A4, 1995) [FILE ON DISK, NOT INDEXED] - skaner HP PhotoSmart, grayscale, 996x1399 px, 120 DPI, comment "U-Lead Systems, Inc." - forma projektywna, otwarta, ręcznie wypełniona (brak OCR bez wizji)
+- /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1995 __ __ - Test na Cyborga Galeria S Toruń/Foto/pieczatka_laska.jpg: PIEĘCZATKA NA CIALE (w kształcie laski) [FILE ON DISK, NOT INDEXED] - zdjęcie oryginału/odbitek, RGB, 1470x2233 px, 300 DPI - jeden z sześciu rodzajów wlepek wymienionych w katalogu
+- /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1995 __ __ - Test na Cyborga Galeria S Toruń/dokumenty/20181011_162203.jpg: ODręCZNA NOTATKA "ZAPOTRZEBOWANIE SPRZĘTOWE" na papierze firmowym CUKT [FILE ON DISK, NOT INDEXED] - foto LG-H650 z 2018-10-11, GPS data dostępna
+- /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1996 10 01 - Dusseldorf/Dokumenty/Projekt.doc: OPIS PERFORMANSU W DUSSELDORFIE [ZEWNĘTRZNE ŹRÓDŁO] - opis trzydniowego performance: stanowiska skanowania twarzy/dłoni, worki z piachem odpowiadające wadze obywatela, tuby transmitujące dźwięk, mundury urzędników, komunikacja w języku niemieckim
+
+RECOGNIZED PEOPLE:
+- Piotr Wyrzykowski - widziany na zdjęciach z výkonu (kontekst projektu), pewny: założyciel CUKT, prowadzący performance
+- Artur Kozdrowski (Dr Artur Kudlatz) - wymieniony wśród autorów, pewny: współzałożyciel CUKT
+- Adam Popek (Ewa Virus) - wymieniony wśród autorów, pewny: współzałożyciel CUKT
+- Robert Jurkowski - wymieniony wśród autorów, pewny: współzałożyciel CUKT
+- Jacek Niegoda (Neurov) - wymieniony wśród autorów, pewny: urzędnik CUKT
+- Anna Nizio - wymieniona wśród autorów, pewny: urzędnik CUKT
+- Marek Jabłoński - wymieniony wśród autorów, pewny: urzędnik CUKT
+- Rafał Grabowski - wymieniony wśród autorów, pewny: urzędnik CUKT
+
+ART OBJECTS:
+- Stół do ping ponga nagłośniony - instalacja dźwiękowa, także widziana w dokumentacji z Düsseldorfu
+- Mapa Europy narysowana kredą - element instalacji podłogowej/ściennej [NIEPOTWIERDZONO na poziomie Torunia - może pochodzić z późniejszej edycji]
+- Worki z piachem z etykietami (numer, waga, skan dłoni/twarzy, kryptonim grupy) - element instalacji z Düsseldorfu
+- Tuby transmitujące dźwięk z wnętrza galerii - element przestrzeni publicznej
+- Mundury urzędników (jednakowe garnitury z identyfikatorami) - element performansu
+- Bluza + spodnie (bawełna, rozmiar M) - uniform urzędnika, fizyczny obiekt w archiwum
+
+CONCEPTUAL ANALYSIS:
+- [HIPOTEZA] Idea projektu: HERE Performance jako pierwsza realizacja cyklu "Testy na Cyborga" eksperymentuje z redukcją człowieka do parametrów biometrycznych i biurokratycznych procedur. Testuje hipotezę, że obywatel może być przetworzony poprzez system identyfikacji (numer, pieczęć, kolorowa opaska) na podstawie wyników testu psychologicznego.
+- [HIPOTEZA] Kontekst historyczny: Projekt jest częścią wczesnej działalności CUKT (1995), realizowanej równolegle z Antyelekcją Technodemonstrację (1995) i następującej po 120h Mega Techno Obecności (1994). Represents transition from technolożącego rave'u do strukturalnych eksperymentów biurokratycznych.
+- [HIPOTEZA] Znaczenie/impact: Ustanawia genealogię najdłuższego cyklu CUKT (Testy na Cyborga realizowane w 8 miastach 1995-2017). Wprowadza koncepcję "cyborga" jako hybrydy podmiotu biologicznego i systemu biurokratycznego, która rozwija się w późniejszych projektach (Testy na Cyborga w różnych miastach, prowadząc ostatecznie do koncepcji CUKTAI jako autonomicznego urzędu).
+
+DISCOVERIES:
+1. HERE Performance jest PIERWSZĄ realizacją cyklu Testy na Cyborga (projekt nr 5 w numeracji CUKT) - potwierdzone przez dwa niezależne źródła CUKT (historia cukt pl.doc i cv_cukt_eng.rtf)
+2. Formularze "Testu niedokończonych zdań" są ręcznie wypełnionymi dokumentami projektywnymi, bez mechanizmu REJECT/odmowy - potwierdza negatywne znalezisko dla Petera: brak wyboru już w iteracji zerowej (Toruń 1995)
+3. Deklarowana masa uczestników 7805 kg to unikalne sformułowanie kwantyfikujące publiczność jako masę fizyczną - interpretacja: biurokratyczna dehumanizacja redukcji człowieka do parametru wagowego
+4. Instalacja zawiera element dźwiękowy (stół do ping ponga nagłośniony) - wcześniejsze użycie dźwięku/ambientu w akcji CUKT, przed pracami dźwiękowymi Ewy
+5. Genealogia "urzędnik jako moduł fizyczny": masa 7805 kg + 8 urzędników + testowanie widzów jako "cyborgów" = model człowieka jako jednostki w systemie biurokratycznym
+
+WHITE SPOTS:
+- Brak dokładnej daty (miesiąc/dzień) HERE Performance w Galerii S
+- 34 formularze = ręcznie wypełnione, brak OCR (wizja niedostępna) → treść odpowiedzi widzów NIEZNANA
+- Gdzie fizycznie znajdują się 15 odbitek/negatyw kolor z katalogu? (nie na dysku Torunia - możliwe, że są pod inną nazwą projektu)
+- Czy "mapa Europy kredą" dotyczy Torunia czy późniejszej edycji? (Brak takiego obrazu na dysku Torunia)
+- Czy "7805 kg" to masa deklarowana (w założeniu) czy rzeczywista suma wag uczestników?
+- Brak recenzji/relacji prasowej bezpośrednio z Torunia (Pryba dotyczy późniejszej edycji)
+
+CONTRADICTIONS:
+- Teczka-STUB podawała „mapa Europy narysowana kredą” jako fakt; katalog DB ją wymienia, ale na dysku Torunia BRAK takiego obrazu → [NIEPOTWIERDZONE na poziomie Torunia] — może pochodzić z późniejszej edycji (Düsseldorf/Warszawa)
+- Katalog DB (37 pozycji) konfunduje CAŁY cykl (Bytów, Düsseldorf, Zielona Góra, Warszawa, Wrocław, MSN 2016/17) w jeden rekord „HERE PERFORMANCE / TESTY NA CYBORGA“. Folder dyskowy Toruń zawiera TYLKO materiały origin (78 plików). Rozbieżność zakresu między rekordem a folderem.
+- Rok: HERE Performance = 1995, ale większość zdigitalizowanych dokumentów w katalogu (listy do Sienkiewicza, flyery CSW, „Co jest Grane\", Vertag, Pryba) to 1996 (Düsseldorf). Datowanie „1995” dotyczy samej akcji toruńskiej.
+
+TO SCAN:
+- /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1995 __ __ - Test na Cyborga Galeria S Toruń/Testy/*.JPG (wypełnione formularze widzów) - wymagają skanowania OCR przy przywróceniu wizji
+- /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1995 __ __ - Test na Cyborga Galeria S Toruń/Foto/*.jpg (foto oryginałów/odbitek) - wymagają skanowania przed cyfryzacją
+
+CONNECTIONS TO OTHER PROJECTS:
+- → [Testy na Cyborga] (cały cykl, 1995–2017, 8 miast) — Toruń = geneza realizacji
+- → [36 Hours] — poprzedni projekt CUKT (1995), ci sami autorzy-założyciele
+- → [Antyelekcja] (1995) — równoległy projekt tego samego roku (brak wyniku → testy bez wyboru)
+- → [Roland Miller and Four CUKT Officers] (Mózg, Bydgoszcz) — wymieniony tuż po HERE w „historii cukt pl.doc”
+
+PYTANIA OTWARTE (do zapisania w DB):
+1. Dokładna data (miesiąc/dzień) HERE Performance w Galerii S? — do Piotra
+2. Co oznacza „Deklarowana masa uczestników 7805 kg\"? — do Piotra
+3. Czy 34 formularze na dysku = katalogowe „od 01 do 34A\"? Gdzie znajdują się 15 odbitek/negatyw kolor? — do Piotra
+4. Czy „mapa Europy kredą\" dotyczy Torunia czy późniejszej edycji? — do Piotra
+5. Kim był Maciej Sienkiewicz (adresat listu z 1996 roku)? — do Piotra/Mikołaj
