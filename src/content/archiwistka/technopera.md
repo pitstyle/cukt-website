@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-07-12"
+date: "2026-07-26"
 status: "IN PROGRESS (głębokie śledztwo podprojektu)"
 ---
 
@@ -984,3 +984,8 @@ Formuła BIT ("agent of transformation") z 1997 jest prekursorem agenta AI w CUK
 - Wizja: DZIAŁA (po konwersji TIFF→JPG).
 - DB: 4026 załączników, `missing ai_description = 0` — całe archiwum opisane; NIE re-wizjowano dojrzałych projektów (Technopera/Lab6) zgodnie z dyscypliną.
 - Działanie: skorygowano 1 błędny opis TIF (guard UUID potwierdzony), zweryfikowano genealogię agenta (CUKTAI-2026 pomost) z 4 źródeł, zamknięto 3 pytania DB (3baadd80, 0d1d5a36, 75aba008), 1 pozostawiono otwarte (209f1258 — brak danych na dysku).
+
+
+---
+AKTUALIZACJA (2026-07-26):
+Cron mode archive walk: vision_analyze unavailable (error 404). Performed fallback metadata analysis on one image (NOT_6582.jpg) - found to be iPhone 7 photo from 2018-10-08, indicating rephotograph of original material. Description saved to attachment 4b29c360-41ba-4df9-8005-0e089c66ca84.
