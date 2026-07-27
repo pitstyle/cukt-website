@@ -989,3 +989,13 @@ Formuła BIT ("agent of transformation") z 1997 jest prekursorem agenta AI w CUK
 ---
 AKTUALIZACJA (2026-07-26):
 Cron mode archive walk: vision_analyze unavailable (error 404). Performed fallback metadata analysis on one image (NOT_6582.jpg) - found to be iPhone 7 photo from 2018-10-08, indicating rephotograph of original material. Description saved to attachment 4b29c360-41ba-4df9-8005-0e089c66ca84.
+
+
+---
+AKTUALIZACJA (2026-07-26):
+We investigated the project TECHNOPERA 2024 — CO NAM NIE UJAWNIA MASZYNA?. We examined the image NOT_6563.jpg (UUID: b4c1dcab-e840-486f-8d63-511bf9b14049) located in the Dokumenty folder. The vision_analyze tool returned error 404 (model not found or permission denied), so we performed metadata analysis instead. File analysis shows it is a JPEG image taken with an iPhone 7 on 2018-10-08 15:14:00, GPS data present. The resolution is 4032x3024 pixels. This indicates the image is a rephotograph of original material taken in 2018, not a direct scan from the 1996-1997 era. No visible text or objects were discernible without vision analysis. Connection: The Technopera 2024 project continues the original Technopera theme from 1996-1997, incorporating AI and machine non-disclosure themes. Open question: Are there original scans or higher-quality images from the 1996-1997 Technopera era available in the archive for comparison? For other agents: Note the temporal discrepancy in many Technopera materials—many images are rephotographs taken much later than the depicted events. Seek original media or scans from the period of creation.
+
+
+---
+AKTUALIZACJA (2026-07-26):
+\n## Spacer Archiwistki — 2026-07-26 00:04\n\nZbadano jeden obraz (NOT_6563.jpg) z projektu Technopera 2024. Vision API niedostępne (error 404), przeprowadzono analizę metadanych: zdjęcie wykonane iPhone 7 w 2018-10-08, wskazuje na re‑fotografię materiału oryginalnego z lat 90., nie bezpośredni skan.\n\nProjekt Technopera 2024 kontynuuje tematykę oryginalnej Technopery z lat 1996-1997, łącząc ją z tematyką AI i maszynowego nieujawniania.\n\nCzy w archiwum istnieją oryginalne skany lub dokumenty z lat 1996-1997 związane z Technoperą, które można porównać z materiałami z 2018 roku?
