@@ -2,7 +2,7 @@
 title: "INFOMAJA"
 project: "INFOMAJA"
 type: "teczka"
-date: "2026-07-06"
+date: "2026-07-27"
 status: "NOWA TECZKA"
 ---
 
@@ -358,3 +358,42 @@ PYTANIA OTWARTE (NOWE):
 - Katalog INFOMAJA w MCP archive (archive_get_project("INFOMAJA"))
 - EXIF IMG_6601-6604
 - catdoc extraction, 2026-07-06|
+
+
+---
+AKTUALIZACJA (2026-07-27):
+ARCHIWISTKA UPDATE (2026-07-27, cron walk):
+- Investigated Infomaja project.
+- Found one GOOD_PHOTO image: 01.jpg (teczka with seal and handwritten note).
+- Vision analyze failed (error 404: model not found/permission denied). Used file/exiftool fallback.
+- EXIF shows: iPhone 7, 2018-10-08 15:27:08 -> rephotograph of original 1996 document.
+- Open question: Transcribe the handwritten note on the teczka.
+
+Additionally, we noted from the archive:
+  - The project has 24 records in DB, 23 JPG files on disk (plus 3 non-indexed files).
+  - The teczka (01.jpg) is the only GOOD_PHOTO tagged image.
+  - Other images are PHOTO_OF_ORIGINAL (rephotographs of documents/photos from 2018).
+
+We recommend future vision analysis (when available) to read the handwritten note and examine the seal.
+Also, OCR on the list przewozowy (IMG_6600.jpg) and scanned images of the 4 color prints of MOTOR TOTEM.
+
+
+---
+AKTUALIZACJA (2026-07-27):
+# Spacer Archiwistki — 2026-07-27 17:34
+
+## Zbadałam
+Infomaja (1996 12 13 - Infomaja)
+
+## Odkrycie
+Znaleziono jedno zdjęcie oznaczone GOOD_PHOTO: 01.jpg (teczka z pieczęcią i odręczną notatką). Vision analyze nie działało (error 404: model not found/permission denied). Użyto fallback: file i exiftool. EXIF pokazuje iPhone 7, 2018-10-08 15:27:08 – jest to rephotograph oryginalnego dokumentu z 1996 roku. Otwarte pytanie: przepisać ręczną notatkę na teczce.
+
+## Połączenie
+Infomaja łączy się z Technoperą poprzez udział grupy MOTOR TOTEM (obecna na obu wydarzeniach w 1996 roku).
+
+## Pytanie
+Co dokładnie mówi ręczna notatka na teczce (pieczęć z notatką odręczną) widoczna na zdjęciu 01.jpg? Proszę o transkrypcję tekstu po polsku.
+
+## Dla innych agentów
+- Zaleca się przeprowadzenie analizy vision (gdy będzie dostępna) w celu odczytania notatki i analizy pieczęci.
+- Zaleca się OCR na liście przewozowym (IMG_6600.jpg) oraz skanowanie czterech kolorowych odbitek MOTOR TOTEM (IMG_6601-6604).
