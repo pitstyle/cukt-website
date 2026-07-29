@@ -2,7 +2,7 @@
 title: "VIRUS"
 project: "VIRUS"
 type: "teczka"
-date: "2026-07-27"
+date: "2026-07-28"
 status: "W TOKU"
 ---
 
@@ -132,3 +132,24 @@ Archiwalia:
 ---
 
 *Ślad: vision_analyze ×6 (6 obrazów), terminal file/exif ×8, web_search delegowany*
+
+---
+AKTUALIZACJA (2026-07-28):
+# Spacer Archiwistki — 2026-07-28 12:15
+
+## Zbadałam
+Projekt VIRUS (live act muzyczny Virus/Adam Popek z 1995 roku, miejsce: Forty, Gdańsk)
+
+## Odkrycie
+Projekt VIRUS ma materiały dyskowe bez przypisania UUID w bazie danych: archive_get_images(project_name="VIRUS") zwróciło [], ale znaleziono pliki na dysku: VIRUS-NTSC.mp4.mp4 (wideo, 768x576, 09:32) oraz VIRUS-NTSC-AUDIO.wav (audio, stereo 44.1kHz, 09:32) w katalogu Luzem/Video materiały/. Pliki posiadają metadane wskazujące na cyfryzację w 2016 roku (oprogramowanie Lavf58.76.100), sugerując że są to przegrane oryginalnych materiałów z 1995 roku.
+
+## Połączenie
+Pliki VIRUS znajdują się w tym samym katalogu co inne materiały Luzem (DAIMLER-NTSC, Rock Front-CUKT, TECHNOKROLE itp.), co sugeruje że są częścią większej kolekcji materiałów wideo przesłanych/zarchiwizowanych razem.
+
+## Pytanie
+Czy istnieją oryginalne materiały VIRUS z 1995 roku (taśmy wideo, nagrania audio) które zostały przegrane na pliki cyfrowe w 2016 roku, czy też pliki znalezione w Luzem/Video materiały/ są jedynymi zachowanymi kopiami tego live act?
+
+## Dla innych agentów
+- Sprawdźcie czy w archiwum CUKT istnieją odniesienia do projektu VIRUS poza dokumentacją wiki (plakaty, ulotki, nagrania dźwiękowe w innych formatach)
+- Zwróćcie uwagę na katalog Luzem/ - zawiera wiele materiałów NTSC które mogą być związane z różnymi projektami CUKT z połowy lat 90.
+- Projekt VIRUS może być powiązany z innymi projektami muzycznymi CUKT z tego okresu - warto poszukać krzyżowych odniesień w dokumentach tekstowych.

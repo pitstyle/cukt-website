@@ -2,7 +2,7 @@
 title: "Technopera"
 project: "Technopera"
 type: "teczka"
-date: "2026-07-26"
+date: "2026-07-29"
 status: "IN PROGRESS (głębokie śledztwo podprojektu)"
 ---
 
@@ -999,3 +999,51 @@ We investigated the project TECHNOPERA 2024 — CO NAM NIE UJAWNIA MASZYNA?. We 
 ---
 AKTUALIZACJA (2026-07-26):
 \n## Spacer Archiwistki — 2026-07-26 00:04\n\nZbadano jeden obraz (NOT_6563.jpg) z projektu Technopera 2024. Vision API niedostępne (error 404), przeprowadzono analizę metadanych: zdjęcie wykonane iPhone 7 w 2018-10-08, wskazuje na re‑fotografię materiału oryginalnego z lat 90., nie bezpośredni skan.\n\nProjekt Technopera 2024 kontynuuje tematykę oryginalnej Technopery z lat 1996-1997, łącząc ją z tematyką AI i maszynowego nieujawniania.\n\nCzy w archiwum istnieją oryginalne skany lub dokumenty z lat 1996-1997 związane z Technoperą, które można porównać z materiałami z 2018 roku?
+
+
+## AKTUALIZACJA (2026-07-29):
+### Spacer Archiwistki — Technopera (1996-1997 - Technopera)
+
+Durante dzisiejszego spaceru archiwistycznego skupiłem się na projekcie "1996 - 1997 - Technopera". Projekt ten jest jednym z najbardziej rozbudowanych w archiwum CUKT, łącząc performance, instalację wideo, muzykę elektroniczną i libretto audiowizualne. Projekt był realizowany w latach 1996-1997 w wielu lokalizacjach międzynarodowych oraz kontynuowany w latach 2023-2025.
+
+#### Kluczowe ustalenia:
+1. **Projekt był realizowany jako międzynarodowa wystawa technokultury**: Technopera była prezentowana w Zielonej Górze (Estrada), Gdańsku (NOT), Wrocławiu (WRO), Warszawie (CSW Zamek Ujazdowski), Dessau (Bauhaus/Ostranenie 97), Banff Centre (Kanada) i Budapeszcie.
+2. **Libretto definiuje pięć postaci**: MAN, MACHINE, CYBORG, COSMIC BEINGS, BIT. Postać BIT opisana jest jako "elementarny i najmniejszy cząstka Całości. Wiązacz systemu. Agent transformacji. Guarantor aktywności" – stanowi bezpośredni prototyp agenta CUKTAI z 2026 roku.
+3. **Akta II libretta zawiera test Voight-Kampff** (nawiązanie do filmu "Blade Runner"), łącząc Technoperę z projektem "Testy na Cyborga".
+4. **Materiały w archiwum obejmują**: dokumenty (TECHOPER.DOC, NEWTechnopera-wersja ang.doc, Libreto.doc, technopera_libretto_4_0.pdf), fotografie (z Banff, Wrocławia, Dessau, Budapesztu, NOT_6561-6582), wideo (217 plików AVI libretta, nagrania z Dessau, Wrocławia, Banff, Budapesztu) oraz dyskietki Amiga z samplem i animacjami.
+5. **Analiza metadanych zdjęć** (z powodu niedostępności vision_analyze w trybie cron) wykazała, że wiele zdjęć to reprodukcje wykonane iPhone'em 7 w 2018 roku (np. LibrettoBanff_6953.jpg, NOT_6563.jpg), co wskazuje na późniejsze dokumentowanie oryginalnych materiałów z lat 90.
+6. **Projekt kontynuowany jest jako "TECHNOPERA 2024 — CO NAM NIE UJAWNIA MASZYNA?"** – wystawa w Teatrze Szekspirowskim w Gdańsku (2024) oraz prototyp Technopery AI oparty na archiwum CUKTAI (2025).
+
+#### Otwarte pytania:
+1. Czy w archiwum istnieją oryginalne skany lub wyższej jakości obrazy z ery 1996-1997 Technopery do porównania z materiałami z 2018 roku?
+2. Jakie były dokładne daty i lokalizacje wszystkich wystaw Technopery w latach 1996-1997 (szczególnie dla wydarzeń w Dessau, Banff i Budapeszcie)?
+3. Kto był wykonawcą(wykonywczynią) w kostiumie niebieskiej sukience z Banff oraz operatorem w goglach VR podczas Technopery Technopery 4.0b w Banff Centre?
+4. Czy istnieje pełna wersja słownika postaci (MAN, MACHINE, CYBORG, COSMIC BEINGS, BIT) z libretta Technopery, a czy został on opublikowany w druku?
+5. Gdzie znajdują się oryginalne taśmy analogowe z 1997 roku, z których wykonano cyfrowe transfery (dessau01.mp4, Dessau fragmentyWideEnh.mov)?
+
+#### Połączenia z innymi projektami:
+- **→ Testy na Cyborga** – Voight-Kampff test w librecie Technopery 4.0.
+- **→ Czyn dla miasta Bytów (06.1996)** – prapremiera Technopery v.2.2 z końmi, PC 486.
+- **→ INFOMAJA (12.1996)** – MOTOR-TOTEM występuje zarówno w Technoperze 3.1 PRO (Gdańsk, październik 1996) jak i w INFOMAJE (Tczew, grudzień 1996).
+- **→ CUKTAI (2026)** – postać BIT jako prototyp agenta; hasło "System daje pewność" jako protokół.
+- **→ Technopera 2023-2025** – kontynuacja projektu z wersją 2024 w Teatrze Szekspirowskim w Gdańsku oraz prototypem AI w 2025 roku.
+
+#### Białe plamy:
+- Brak recenzji prasowych z żadnej lokalizacji (Gazeta Wyborcza, Flash Art, lokalna prasa).
+- Brak nagrania audio/muzyki z Technopery (poza strumieniami wideo).
+- 217 plików AVI libretta wideo nigdy nie zostały w pełni zdigitalizowane.
+- Dyskietki Amiga wymagają emulatora/stacji dyskietek do odczytu.
+
+#### Źródła:
+- BAZA: "1996 - 1997 - Technopera" w cuktai_archive, 49 rekordów.
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/ (libretto druki, dokumentacja_foto, wideo, dyskietki).
+- DOKUMENTY: TECHOPER.DOC, NEWTechnopera-wersja ang.doc, technopera_libretto_4_0.pdf, Libreto.doc.
+- PRASA: Gazeta Wyborcza (wzmianka w BIBLIOGRAFII CUKT).
+- ZEWNĘTRZNE: Poptown.eu, Agnieszka Pindera "Szereg mega techno obecności" (2013).
+- ZEWNĘTRZNE: Technopera 2024 — Gdański Teatr Szekspirowski.
+
+#### Dziennik śledztwa:
+- 2026-07-29 (Archiwistka): Spacer archiwistyczny skupiony na Technopera. Analiza metadanych zdjęć wskazująca na reprodukcje z 2018 roku. Identyfikacja kluczowych elementów libretta i połączeń z innymi projektami CUKT.
+
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
