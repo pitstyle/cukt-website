@@ -1047,3 +1047,83 @@ Durante dzisiejszego spaceru archiwistycznego skupiłem się na projekcie "1996 
 
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
+
+
+---
+AKTUALIZACJA (2026-07-29):
+# Teczka śledcza: 1996 - 1997 - Technopera
+
+## Karta projektu
+- **Data**: 1996-1997
+- **Miejsce**: Zielona Góra, Gdańsk, Wrocław, Warszawa, Dessau, Banff Centre (Kanada), Budapeszt
+- **Autorzy**: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Anna Nizio, Jacek Niegoda, Paweł Mazur, Rafał Grabowski
+- **Typ**: Multimedia performance / video opera / system interaktywny
+- **Czas trwania**: Performance: 9h+; video: 217 plików AVI libretta (~120+ min)
+- **Kontekst**: Międzynarodowe wystawy technokultury
+- **Rekordów w bazie**: 49 pozycji, ~425 plików
+
+## Opis
+Technopera to najbardziej rozbudowany projekt CUKT — multimedialna opera technokultury łącząca performance, instalację wideo, muzykę elektroniczną i libretto audiowizualne. Podtytuł: „Inne organizmy - inne mózgi”. Projekt był wystawiany w 5 krajach w latach 1996-1997 (Zielona Góra, Gdańsk, Wrocław, Warszawa, Dessau, Banff, Budapeszt) oraz kontynuowany w 2024 roku.
+
+Libretto Technopery 4.0 (autorzy: Piotr Wyrzykowski i Artur Kozdrowski) definiuje pięć postaci: MAN, MACHINE, CYBORG, COSMIC BEINGS, BIT. Postać BIT jest zdefiniowana jako „an elementary and smallest particle of The Whole. The binder of a system. The agent of transformation. The guarantor of activity” — prototyp agenta CUKTAI 30 lat przed systemem agentowym. Kluczowe cytaty z libretta: „Information gives us knowledge and knowledge gives us power”, „System gives confidence”, „There is no body, there is no nose, there are no lips”, „The fundamental particle is not the atom but the bit”, „Any reality is an opinion — Wow!”.
+
+Akt II libretta zawiera Voight-Kampff test (bezpośrednie nawiązanie do „Blade Runner”), łącząc Technoperę z projektem „Testy na Cyborga”. Akt III: „Hack your brain”.
+
+## Odkrycia
+1. Technopera 4.0b została zrealizowana w Banff Centre (Kanada, 1997) — z goglami VR, motion capture, śpiewaczką operową. To nie była tylko koncepcja VRML.
+   Źródło: Zdjęcia banf_03.jpg, banf_04.jpg (operator w goglach VR).
+   Znaczenie: Pierwszy interfejs cyfrowy CUKT. Łączy ciało, głos i technologię w jeden system.
+
+2. Postać BIT w libretto Technopery 4.0 = prototyp agenta CUKTAI. Definicja: „elementary particle, binder of a system, agent of transformation, guarantor of activity”.
+   Źródło: technopera_libretto_4_0.pdf.
+   Znaczenie: CUKT myślał o agentach w 1997 roku.
+
+3. „There is no body” pojawia się dosłownie w libretto Technopery 4.0 z 1997 roku.
+   Źródło: Libreto.doc, NEWTechnopera-wersja ang.doc.
+   Znaczenie: Ciała nie ma — nie metafora, tylko cytat z archiwum CUKT.
+
+4. Voight-Kampff test (Blade Runner) w Akcie II libretta.
+   Źródło: Libretto 4.0.
+   Znaczenie: Bezpośrednie połączenie między Technoperą a Testami na Cyborga. CUKT w 1997 projektował system, w którym test na człowieczeństwo jest procedurą.
+
+5. Trzy warstwy rejestracji w konspekcie Technopery 3.1 PRO — ekipa TV rejestrująca wydarzenie + druga ekipa rejestrującą pierwszą ekipę.
+   Źródło: TECHOPER.DOC.
+   Znaczenie: Zapis tego samego schematu co INFOMAJA. Warstwy rejestracji jako strategia.
+
+6. Piotr Bikont (nie Mikołaj) to mężczyzna z rudą brodą wrocławskiej Technopery.
+   Źródło: Zdjęcia Wrocław, porównanie z Czynem dla miasta Bytów.
+   Znaczenie: Mężczyzna z rudą brodą = Piotr Bikont, artysta zewnętrzny, nie członek CUKT.
+
+## Powiązania
+- → Testy na Cyborga — Voight-Kampff test w librecie Technopery 4.0.
+- → Czyn dla miasta Bytów (06.1996) — prapremiera Technopery v.2.2 z końmi, PC 486.
+- → INFOMAJA (12.1996) — MOTOR-TOTEM występuje zarówno w Technoperze 3.1 PRO (Gdańsk, październik 1996) jak i w INFOMAJE (Tczew, grudzień 1996).
+- → CUKTAI (2026) — postać BIT jako prototyp agenta; hasło „System daje pewność” jako protokół.
+- → Technopera 2024 — CO NAM NIE UJAWNIA MASZYNA? — wystawa w Teatrze Szekspirowskim w Gdańsku (2024) oraz prototyp Technopery AI oparty na archiwum CUKTAI (2025).
+
+## Otwarte pytania
+1. Czy w archiwum istnieją oryginalne skany lub wyższej jakości obrazy z ery 1996-1997 Technopery do porównania z materiałami z 2018 roku?
+2. Jakie były dokładne daty i lokalizacje wszystkich wystaw Technopery w latach 1996-1997 (szczególnie dla wydarzeń w Dessau, Banff i Budapeszcie)?
+3. Kto był wykonawcą(wykonywczynią) w kostiumie niebieskiej sukience z Banff oraz operatorem w goglach VR podczas Technopery Technopery 4.0b w Banff Centre?
+4. Czy istnieje pełna wersja słownika postaci (MAN, MACHINE, CYBORG, COSMIC BEINGS, BIT) z libretta Technopery, a czy został on opublikowany w druku?
+5. Gdzie znajdują się oryginalne taśmy analogowe z 1997 roku, z których wykonano cyfrowe transfery (dessau01.mp4, Dessau fragmentyWideEnh.mov)?
+
+## Białe plamy
+- Brak recenzji prasowych z żadnej lokalizacji (Gazeta Wyborcza, Flash Art, lokalna prasa).
+- Brak nagrania audio/muzyki z Technopery (poza strumieniami wideo).
+- 217 plików AVI libretta wideo nigdy nie zostały w pełni zdigitalizowane.
+- Dyskietki Amiga wymagają emulatora/stacji dyskietek do odczytu.
+
+## Źródła
+- BAZA: „1996 - 1997 - Technopera” w cuktai_archive, 49 rekordów.
+- DYSKI USB: raw/archive-usb/1996 - 1997 - Technopera/ (libretto druki, dokumentacja_foto, wideo, dyskietki).
+- DOKUMENTY: TECHOPER.DOC, NEWTechnopera-wersja ang.doc, technopera_libretto_4_0.pdf, Libreto.doc.
+- PRASA: Gazeta Wyborcza (wzmianka w BIBLIOGRAFII CUKT).
+- ZEWNĘTRZNE: Poptown.eu, Agnieszka Pindera „Szereg mega techno obecności” (2013).
+- ZEWNĘTRZNE: Technopera 2024 — Gdański Teatr Szekspirowski.
+
+## Dziennik śledztwa
+- 2026-07-29 (Archiwistka): Spacer archiwistyczny skupiony na Technopera. Analiza metadanych zdjęć wskazująca na reprodukcje z 2018 roku. Identyfikacja kluczowych elementów libretta i połączeń z innymi projektami CUKT.
+
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
