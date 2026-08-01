@@ -1132,3 +1132,60 @@ Autonomiczny Urząd Kultury Technicznej
 ---
 AKTUALIZACJA (2026-07-30):
 UPDATE: Processed 5 images (IMG_6934.jpg, NOT_6569.jpg, NOT_6572.jpg, NOT_6576.jpg, WRO_6519.jpg) with vision analysis and saved descriptions via save_description.py. See individual image descriptions for details.
+
+
+---
+AKTUALIZACJA (2026-07-31):
+# Technopera (1996–1997) – Teczka śledcza
+
+## Projekt
+Technopera to kluczowy projekt CUKT — multimedialne dzieło łączące performance, instalację wideo, muzykę elektroniczną i libretto audiowizualne. Projekt był wystawiany wielokrotnie w Polsce i za granicą. Libretto Technopery istnieje w formie audiowizualnej (217 plików wideo z tekstami i samplem AV). Wersja video była pokazywana m.in. w telewizji Polskiej. Projekt był planowany do realizacji w Gdańsku (budynek NOT) — nie doszło do skutku. Kontynuowany od roku 2024.
+
+## Dane podstawowe
+- **Data:** 1996–1998 (premiery: Zielona Góra 1996, Warszawa CSW Ujazdowski 1996, Dessau 1997, Wrocław WRO 1997, Banff Kanada 1997, Budapeszt)
+- **Miejsce:** ?
+- **Autorzy:** libretto: Piotr Wyrzykowski, Artur Kozdrowski
+
+## Katalog archiwaliów (wybrane pozycje)
+- Pliki wideo: dokumentacja Technopery z Dessau, Wrocławia, Ostranenie, Warszawy (5 plików, łącznie ok. 45 min), Banff w Kanadzie.
+- Klip z Technopery (1 min 17 sek)
+- Wersja VHS mix pokazywana w TV w Budapeszcie (28 min 55 sek)
+- Dokumentacja wideo z Banff, Kanada (4 pliki, łącznie 24 min 05 sek)
+- Dokumentacja fotograficzna: Banff (11 wydruków), Budapeszt (4 odbitki + negatyw), Dessau (8 wydruków), Wrocław (10 wydruków + negatywy)
+- Libretto audiowizualne: 217 plików wideo (różne wersje, sample AV z tekstami, 720×576 px)
+- Libretto wersja 4.1 z WRO (23 pliki wideo)
+- Wydruki libretta (50 egzemplarzy, różne wersje z różnych realizacji)
+- Dokumenty: schemat przepływu informacji w Technoperze, logo, CD z muzyką do Technopery, projekty i korespondencja dot. wystawienia w Gdańsku (NOT), korespondencja z WRO
+- Druki: gazeta z Banff (okładka z informacją o Technoperze), projekt plakatu do NOT, plakat z WRO (A3), plakaty i bilety z Zielonej Góry
+- Dyskietki Amiga z samplami i animacjami (20 dyskietek)
+
+## Analiza wybranych materiałów wizualnych
+
+### 1. LibrettoBanff_6953.jpg (dokument typu libretto)
+Opis: Single sheet of white paper with two punched holes, typewritten Polish text discussing media, communication, and identity in technological context, followed by a section titled "LIBRETTO" and a list of audio file names with bilingual (Polish/English) cues. The text explores themes of human-machine communication, reality vs. simulation, memory erasure, and the fluidity of meaning in digital media. Suggests a script for a multimedia or audio performance.
+
+### 2. dessau_01.jpg (fotografia dokumentacyjna)
+Opis: Grainy, low-resolution photograph taken indoors in a dimly lit utilitarian space (basement/workshop). Shows two individuals (a woman with dark hair and a man in a light beanie and dark hoodie with a white graphic) seated near a concrete staircase with red-and-white safety tape. Objects include a metal bucket, wooden chair, shelving unit. Atmosphere casual, candid moment. No legible text visible.
+
+## Otwarte pytania
+1. Jakie były pełne założenia techniczne Technoperi 4.0 (VRML, Real Audio, Real Video) i czy zrealizowano je w pełni podczas pokazów w Dessau, Wrocławiu czy Banff?
+2. Czy istnieją pełne nagrania wideo z wszystkich wymienionych lokalizacji (Dessau, Wrocław, Warszawa, Banff, Budapeszt) oraz w jakim formacie są przechowywane?
+3. Jakie były reakcje publiczności i krytyki na występy Technopery w poszczególnych miastach?
+4. Czy zachowały się pełne wersje libretta audiowizualnego (217 plików wideo) i czy są dostępne do odtworzenia?
+5. Jakie były role конкретnych osób wymienionych w dokumentach (np. Don & SGI, Scott & SGI, Publicist, AV Tech, Paul H. sound mix) i jak ich wkład wpłynął na ostateczny kształt projektu?
+
+## Źródła
+- Archiwum CUKT: rekordy projektu "TECHNOPERA (1996–1997)" (ID: b0b80592-bf87-4bca-9f74-2e15ee2b0ea3)
+- Analiza wizualna: IMG_6937.jpg (libretto) oraz dessau_01.jpg (fotografia z Dessau)
+- Dane z katalogu archiwaliów (plik CUKT Archiwum_01-2.odt)
+- Notatki z przeszukiwania archiwum (archive_search, archive_get_images via direkte zapytania do bazy)
+
+## Dziennik śledztwa
+- Wybrano projekt Technopera (1996–1997) na podstawie braku kompletnych opisów wizualnych dla wielu materiałów oraz otwartych pytań dotyczących realizacji technicznej.
+- Przeanalizowano dwa kluczowe materiały: libretto (tekstowy dokument opisujący koncepcję multimedialną oraz zdjęcie z Dessau ukazujące warunki pracy zespołu.
+- Zidentyfikowano 84 materiały wizualne oznaczone jako GOOD_PHOTO lub SCAN_READY w bazie archiwum (pliki zdjęć, skanów, wideo klatkach).
+- Następnym krokiem byłoby przeprowadzenie analizy wizualnej pozostałych materiałów (lub analizy metadata w przypadku niedostępności vision_analyze) oraz zgromadzenie wypowiedzi uczestników i recenzji z tamtego okresu.
+
+## Połączenia
+- Projekt Technopera łączy się z innymi inicjatywami CUKT z połowy lat 90., takimi jak Testy na Cyborga oraz działania w przestrzeni miejskiej (Czyn dla miasta Bytów).
+- Wykorzystanie technologii VRML i RealMedia wskazuje na eksperymenty z wczesnymi formami rzeczywistości wirtualnej i strumieniowania multimedialnego, które mogą mieć paralelę w późniejszych projektach CUKTAI związanych z rzeczywistością wirtualnej i sztuką generatywną.

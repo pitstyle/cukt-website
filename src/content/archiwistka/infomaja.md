@@ -2,7 +2,7 @@
 title: "INFOMAJA"
 project: "INFOMAJA"
 type: "teczka"
-date: "2026-07-27"
+date: "2026-07-31"
 status: "NOWA TECZKA"
 ---
 
@@ -397,3 +397,33 @@ Co dokładnie mówi ręczna notatka na teczce (pieczęć z notatką odręczną) 
 ## Dla innych agentów
 - Zaleca się przeprowadzenie analizy vision (gdy będzie dostępna) w celu odczytania notatki i analizy pieczęci.
 - Zaleca się OCR na liście przewozowym (IMG_6600.jpg) oraz skanowanie czterech kolorowych odbitek MOTOR TOTEM (IMG_6601-6604).
+
+
+
+## Projekt Infomaja (1996)
+
+Projekt Infomaja to wystawa ogłoszona w Gazecie Trojmiasto z dnia 1996-01-01 (z zapowiedzią na 1996-12-13). Archiwum zawiera materiały przygotowawcze i dokumentacyjne:
+
+- Oryginał Gazety Trojmiasto z zapowiedzią wystawy INFOMAJA (2 egzemplarze)
+- Teczka z pieczęcią i odręczną notatką (1 szt.)
+- Papier, wydruk, odręczne pismo (3 sztuki)
+- Papier, odręczny rysunek schematu (1 szt.)
+- Papier, pismo odręczne (brak ilości)
+- List przwozowy dzieł na wystawę INFOMAJA (brak ilości)
+- Papier, wydruk laserowy (2 sztuki: 901a8d94-3795-4ac7-a99b-c3fa881a8d23, 6db65344-43ac-43d6-ac03-c77697beba05, b779c56a-813e-4387-822a-5674f94df4f8, 17b94c65-30fa-4da4-8498-c1628dc63fe4, 18793ee7-f485-4a84-b0e4-20c8bb164bab)
+- Plakat “INFOMAJA” (A3, 10 egzemplarzy: 85126642-0ff3-4dbb-a60d-84578922dcf9, 29609771-7838-4db2-a5b5-f48c948d5399)
+- Odbitki kolor (4 sztuki w podfolderze FOTO: 9399b10f-7e10-47aa-a45b-9b5a5dcba521, 955aca54-5e6f-4b19-b7a2-64e5d3a9b008)
+
+W podfolderze FOTO znajdują się cztery zdjęcia wykonane iPhone'em 7 w dniu 2018-10-08 (IMG_6601.jpg przez IMG_6604.jpg). Są to prawdopodobnie reprofotografie dokumentów z archiwum Infomaja, wykonane wiele lat po samym wydarzeniu. W bazie danych nie znaleziono UUID dla tych zdjęć (archive_get_images zwróciło pustą listę), co wskazuje, że są to materiały dyskowe bez przypisania do rekordu w bazie.
+
+### Odkrycie
+Podczas analizy metadanych EXIF ustalono, że zdjęcia zostały wykonane 8 października 2018 roku o godzinie 15:31-15:32, co wskazuje na późniejsze dokumentowanie archiwum, a nie na oryginalną dokumentację z 1996 roku.
+
+### Połączenie
+Projekt Infomaja jest częścią wczesnej działalności CUKT z połowy lat 90., związanej z przygotowaniami do wystaw i wydarzeń technologicznych. Jest powiązany z innymi projektami z tego okresu, takimi jak 120h Mega Techno Obecności (1994) oraz późniejszymi projektami takimi jak Technopera (1996-1997).
+
+### Otwarte pytania
+1. Jaki był dokładny przebieg i zawartość wystawy Infomaja z 13 grudnia 1996 roku?
+2. Dlaczego w archiwum brak jest oryginalnych skanów lub zdjęć z czasów wydarzenia, a jedynie reprofotografie z 2018 roku?
+3. Co stało się z oryginalnymi materiałami wystawowymi po zakończeniu Infomaja?
+

@@ -765,3 +765,38 @@ PYTANIA OTWARTE (do zapisania w DB):
 3. Czy 34 formularze na dysku = katalogowe „od 01 do 34A\"? Gdzie znajdują się 15 odbitek/negatyw kolor? — do Piotra
 4. Czy „mapa Europy kredą\" dotyczy Torunia czy późniejszej edycji? — do Piotra
 5. Kim był Maciej Sienkiewicz (adresat listu z 1996 roku)? — do Piotra/Mikołaj
+
+
+---
+AKTUALIZACJA (2026-08-01):
+# TESTY NA CYBORGA
+
+## Projekt
+TESTY NA CYBORGA (Tests for a Cyborg) to projekt artystyczno-badawczy z lat 1995-2017, badający granice między człowiekiem a maszyną, tożsamość w epoce technologii oraz krytykę biurokratycznych systemów kontroli.
+
+## Opis
+Projekt obejmuje serię dokumentów, zdjęć i instalacji, które symulują lub krytyczne odnoszą się do testów kwalifikacyjnych dla istot cybernetycznych. W skład wchodzą:
+- Formularze orientacyjne (np. "ORIENTATIONSTEST") z pytaniami o tożsamość, narodowość, wiek oraz poglądy polityczne.
+- Fotografie przedstawiające ręce z emblematami mechanicznymi, symbolizujące integrację człowieka z maszyną.
+- Dokumenty projektowe, takie jak zapotrzebowanie na sprzęt i notasze z planów wystaw.
+
+## Odkrycia podczas spaceru
+Podczas analizy archiwum znaleziono dwa kluczowe obrazy:
+1. Skan formularza "ORIENTATIONSTEST" w języku niemieckiego z odpowiedziami w języku holenderskim, zawierający pytania dotyczące identyfikacji z miejscem zamieszkania, świadomości powodu bycia tam, statusu dziadka oraz opinii o przystąpieniu Polski do Zjednoczonych Europ.
+2. Fotografia ręki przyciśniętej do powierzchni szklanej, na której widoczny jest emblemat przypominający koło zębate z twarzą robota oraz opatrunek na kciuku.
+
+Oba materiały wskazują na tematykę badań nad tożsamością, kontrolą i granicami człowieczeństwa w kontekście technologicznym.
+
+## Połączenia z innymi projektami
+Projekt TESTY NA CYBORGA może być związany z wcześniejszymi eksperymentami CUKT dotyczącymi technologii i ciała, takimi jak "Technopera" czy "Antyelekcja", które również eksplorują interakcję między społeczeństwem, sztuką i nowymi mediami.
+
+## Pytania otwarte
+- Jaki był dokładny kontekst powstania formularza ORIENTATIONSTEST? Czy był używany w rzeczywistych testach, czy jest czystą konstrukcją artystyczną?
+- Kto zaprojektował emblemat CUKT (koło zębate z laurem) i jakie ma znaczenie symboliczne?
+- Dlaczego w formularzu użyto języka holenderskiego odpowiedzi na pytania w języku niemieckim?
+- Jakie były reakcje uczestników na tego typu testy, jeśli takie testy rzeczywiście przeprowadzono?
+- Czy istnieją inne wersje tego formularza w innych językach lub z różnymi pytaniami?
+
+## Źródła
+- Archiwum CUKT: rekordy projektu TESTY NA CYBORGA (zdjęcia, dokumenty)
+- Analiza wizualna i metadata wybranych obrazów
