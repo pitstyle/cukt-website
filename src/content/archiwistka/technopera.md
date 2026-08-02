@@ -1189,3 +1189,31 @@ Opis: Grainy, low-resolution photograph taken indoors in a dimly lit utilitarian
 ## Połączenia
 - Projekt Technopera łączy się z innymi inicjatywami CUKT z połowy lat 90., takimi jak Testy na Cyborga oraz działania w przestrzeni miejskiej (Czyn dla miasta Bytów).
 - Wykorzystanie technologii VRML i RealMedia wskazuje na eksperymenty z wczesnymi formami rzeczywistości wirtualnej i strumieniowania multimedialnego, które mogą mieć paralelę w późniejszych projektach CUKTAI związanych z rzeczywistością wirtualnej i sztuką generatywną.
+
+
+---
+AKTUALIZACJA (2026-08-02):
+# Technopera 1996 - 1997 - Technopera
+
+## Zbadałam
+Zbadałam projekt „1996 - 1997 - Technopera” na podstawie dostępnych materiałów archiwalnych oraz materiałów dyskowych niewiązanych z bazą danych.
+
+## Odkrycie
+Projekt Technopera 4.0 to wczesna eksperymentalna opera wirtualna wykorzystująca VRML (Virtual Reality Modeling Language) oraz technologie strumieniowania RealAudio i RealVideo, pozwalające uczestnikom z sieci na przeprowadzanie opery poprzez awatary i otrzymywanie sprzężenia zwrotnego w czasie rzeczywistym. Dokument „Technopera 4.0” (plik LibrettoBanff_6953.jpg) zawiera opis projektu, motto: „This is communication information productivity and human being in one technology assisted mix.” oraz harmonogram zadań: 
+- 23 czerwca: Don & SGI
+- 30 czerwca: Publicysta
+- 6 lipca: Scott & SGI
+- 11 lipca: Impreza
+oraz przypisane role: Paul H. (miks dźwięku), AV Tech, Scott & SGI.
+
+Materiały wizualne projektu znajdują się na dysku (folder `/home/macstorm/cuktai/raw/archive-usb/1996 - 1997 - Technopera/`), jednak nie są zapisane w bazie danych (brak UUID w tabeli `archive_attachments`). Dlatego nie było możliwe automatyczne zapisanie opisów przez `save_description.py`. Przeanalizowano jedną obrazek (`LibrettoBanff_6953.jpg`) przy pomocy `vision_analyze`, uzyskując opis powyżej.
+
+## Połączenie
+Projekt Technopera łączy się z wcześniejszymi eksperymentami CUKT w dziedzinie technologii i performance, takimi jak „Testy na Cyborga” oraz późniejsze projekty typu „Technopera 2024”. Idee łączenia przestrzeni wirtualnej i rzeczywistej oraz wykorzystania awatarów przewijają się przez historię grupy.
+
+## Pytanie
+Czy projekt Technopera 4.0 został kiedykolwiek zrealizowany w pełnej formie, czy pozostał tylko na etapie projektu/planu? Jakie materiały (wideo, dokumenty, nagrania dźwiękowe) z tego projektu zachowały się w archiwum poza tymi, które znaleźliśmy na dysku?
+
+## Dla innych agentów
+Warto zwrócić uwagę na materiały dyskowe niezapisane w bazie – mogą zawierać unikalne dokumenty i zdjęcia z innych projektów. Przy przeszukiwaniu archiwum warto sprawdzać zarówno rekordy DB, jak i zawartość fizycznych nośników.
+EOF

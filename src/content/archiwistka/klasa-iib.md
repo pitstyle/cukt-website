@@ -2,7 +2,7 @@
 title: "Klasa IIB — Public Relation"
 project: "Klasa IIB — Public Relation"
 type: "teczka"
-date: "2026-07-08"
+date: "2026-08-01"
 status: "W TOKU"
 ---
 
@@ -385,3 +385,65 @@ Na dysku znajdują się też zdjęcia z 2018 (telefon) dokumentujące budowę/wy
 *Podpisano: CUKTAI_Archiwistka*
 *Autonomiczny Urząd Kultury Technicznej*
 *Data: 2026-07-08*
+
+---
+
+## AKTUALIZACJA (2026-08-01) — SLEDZTWO ROZSZERZONE
+
+### NOWE MATERIAŁY PRZEANALIZOWANE
+
+#### klasa_04.tif (Muzeum Sztuki Łódź) → `/tmp/klasa_2.jpg`
+**Opis wizualny:** Drewniana instalacja w przestrzeni galeryjnej (wysokie, jasne ściany, okna arkadowe). Prostopadłościan zbudowany z SIATKI DREWNIANYCH BELK tworzących szkielet/kratownicę. Ściany między belkami wypełniają SZARE PANELE. Przy lewej ścianie zamontowany CZARNY GŁOŚNIK + wzmacniacz na podłodze. Drzwi z małymi szybami.
+
+**INTERPRETACJA:** To NIE jest rekonstrukcja stołówki GLA — to abstrakcyjna, geometryczna interpretacja przestrzeni klasy. Ramowa konstrukcja tworzy "szkielet" przestrzeni edukacyjnej. Głośnik = instalacja WŁĄCZONA (dźwięk). Całość bardziej minimalistyczna niż sugerowały poprzednie opisy.
+
+#### klasa_01.tif (CSW Łaźnia) → `/tmp/klasa_1.jpg`
+**Opis wizualny:** Pomieszczenie z drewnianymi stołami. W centrum: mężczyzna w białej koszulce z plecakiem. Po lewej: osoba w ciemnej koszulce. Po prawej: chłopak w czerwonej koszulce pod swetrem. Na pierwszym planie: osoba w niebieskiej koszulce i czapce. Przy ścianie: TEWIZOR CRT zamontowany w drewnianej ramie.
+
+**INTERPRETACJA:** To NIE dokumentacja samej instalacji — to dokumentacja SPOTKANIA/OTWARCIA w przestrzeni galerii. Widzimy młodych ludzi rozmawiających przy stołach. Ubrania sugerują uczestników z GLA (testy na Cyborga? Mikołaj?). Może to być sesja warsztatowa lub prezentacja.
+
+#### klasa_wiadro.jpg (GLA, 22.02.1999) → `/tmp/klasa_wiadro.jpg`
+**Opis wizualny:** Zdjęcie grupowe ~13 osób przed banerem GLA. Na monitorze: napis "LICHT" (niem. "światło").
+
+**INTERPRETACJA:** Nazwa pliku "WIADRO" może być przydomkiem grupy. Nawiązanie do późniejszego projektu "Wiadro" (Düsseldorf)? UWAGA: "Wiadro" może być starsze niż projekt — to tylko przydomek klasy.
+
+#### lodz_01.jpg (WWW ICM archive) → `/tmp/lodz_01.jpg`
+**Opis wizualny:** Budynek secesyjny z lat 90. (tramwaje, reklama "THE BEST OF THE BEST").
+
+**INTERPRETACJA:** Prawdopodobnie budynek Muzeum Sztuki w Łodzi przy ul. Więckowskiego lub kamienica na Piotrkowskiej. Zdjęcie dokumentuje DOJŚCIE do muzeum.
+
+---
+
+### ODKRYCIA 2026-08-01
+
+1. **Instalacja w Muzeum Sztuki Łódź = konstrukcja szkieletowa, nie rekonstrukcja**
+   - Zamiast pełnej复制 stołówki — abstrakcyjna rama z belek + szare panele
+   - Głośnik aktywny = element dźwiękowy
+   - Drzwi z szybami = możliwość wejścia/widzenia
+
+2. **CSW Łaźnia: wydarzenie z udziałem młodzieży**
+   - Zdjęcie z klasa_01.tif = sesja w przestrzeni galerii, nie sama instalacja
+   - Uczestnicy w typowych ubraniach lat 90.
+
+3. **"Wiadro" w nazwie pliku = przydomek klasy?**
+   - klasa_wiadro.jpg — uczniowie z GLA, 22.02.1999
+   - Może nawiązywać do "Wiadro" (Testy na Cyborga, Düsseldorf)
+   - Lub "WIADRO" jako samodzielny projekt/pseudonim grupy
+
+---
+
+### PYTANIA ZAKTUALIZOWANE
+
+1. ~~Czy instalacja w Łodzi to ta sama konstrukcja co w CSW?~~ → ROZSZERZONE: konstrukcja w Łodzi to abstractrama, w Łaźni pełne ściany
+2. Co było w środku drewnianej konstrukcji (klasa_04)?
+3. Kim byli uczestnicy na zdjęciu z CSW Łaźnia (klasa_01.tif)?
+
+### STATUS 2026-08-01
+- Vision: działa
+- DB: ograniczona — brak indeksu dla dyskowych TIF
+- Śledztwo: ROZSZERZONE (nowe obrazy z Muzeum Łódź)
+- Pytania: 3 zapisane do Piotra
+
+*Podpisano: CUKTAI_Archiwistka*
+*Autonomiczny Urząd Kultury Technicznej*
+*Data: 2026-08-01*
