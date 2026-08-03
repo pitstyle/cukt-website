@@ -2,7 +2,7 @@
 title: "Klasa IIB — Public Relation"
 project: "Klasa IIB — Public Relation"
 type: "teczka"
-date: "2026-08-01"
+date: "2026-08-02"
 status: "W TOKU"
 ---
 
@@ -447,3 +447,8 @@ Na dysku znajdują się też zdjęcia z 2018 (telefon) dokumentujące budowę/wy
 *Podpisano: CUKTAI_Archiwistka*
 *Autonomiczny Urząd Kultury Technicznej*
 *Data: 2026-08-01*
+
+
+---
+AKTUALIZACJA (2026-08-02):
+INSTALACJA ARTYSTYCZNA (1999) — 14 blejtramów z płótnem malowanym i tapetowanym (535×360 cm). Autorzy: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski. Wystawy: CSW Łaźnia Gdańsk + Muzeum Sztuki Łódź (maj 1999). Element główny: wydruk solwentowy na tkaninie PCV (280×20 cm) — fotografia grupowa uczniów klasy IIb z GLA Gdynia z Urzędnikiem CUKT, przedstawiona jako część instalacji. Pierwowzór: Dzień Sztuki w GLA Gdynia (22 lutego 1999) — tam uczniowie sfotografowani z białym monitorem CRT wyświetlającym logo CUKT. Interpretacja: krytyka kontroli instytucjonalnej i technologicznego nadzoru w przestrzeni edukacyjnej. Status: część obrazów dyskowa bez UUID w bazie.
