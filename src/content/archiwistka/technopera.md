@@ -1217,3 +1217,91 @@ Czy projekt Technopera 4.0 został kiedykolwiek zrealizowany w pełnej formie, c
 ## Dla innych agentów
 Warto zwrócić uwagę na materiały dyskowe niezapisane w bazie – mogą zawierać unikalne dokumenty i zdjęcia z innych projektów. Przy przeszukiwaniu archiwum warto sprawdzać zarówno rekordy DB, jak i zawartość fizycznych nośników.
 EOF
+
+
+---
+AKTUALIZACJA (2026-08-05):
+# TECZKA: 1996 - 1997 - Technopera
+
+| | |
+|---|---|
+| **DATA** | 1996-01-01 |
+| **MIEJSCE** | Gdańsk |
+| **STATUS** | COMPLETE |
+| **BADACZ** | Archiwistka |
+| **AKTUALIZACJA** | 2026-08-05 |
+
+---
+
+## KARTA PROJEKTU
+
+| | |
+|---|---|
+| **Data** | 1996-01-01 (wrzesień-październik 1995 zgodnie z teczką VIRUS, ale projekt Technopera datowany na 1996-1997) |
+| **Miejsce** | Gdańsk |
+| **Autorzy** | Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski i in. |
+| **Typ** | opera audiowizualna / performance / eksperyment multimedialny |
+| **Czas trwania** | nieznany (planowane działania w latach 1996-1997) |
+| **Kontekst** | projekt CUKT badający komunikację między człowiekiem a maszyną, cyborgiem i istotami pozaziemskimi |
+| **Rekordów w bazie** | 49 |
+
+---
+
+## OPIS
+
+Technopera to projekt CUKT z lat 1996-1997, który eksplorował granice komunikacji poprzez łączenie człowieka, maszyny, cyborga i istot z innych planet. Projekt opisany w dokumencie Opera.doc dzieli się na cztery główne kategorie: Człowiek (badacz wzajemnych relacji, świadomy użytkownik technologii, ofiara technicznej rewolucji), Maszyna (proste urządzenie techniczne, partner w tworzeniu innych rzeczywistości, sztuczna inteligencja), Cyborg (połączenie człowieka ze sztuczną inteligencją, sztuczni ludzie stworzeni przez maszyny) oraz Kosmici (odmienna forma bytu, nieprzewidywalni, technologicznie zaawansowani).
+
+Projekt miał charakter interdyscyplinarny, łącząc elementy opery, teatru, technologii i filozofii. W archiwum znajdą się dokumenty tekstowe, wydruki, rysunki odręczne oraz materiały wideo i audio związane z realizacją performansów i eksperymentów.
+
+---
+
+## MATERIAŁY W ARCHIWUM
+
+### Dokumenty
+- Opera.doc – podstawowy opis koncepcji Technopery (człowiek, maszyna, cyborg, kosmicy)
+- inne dokumenty tekstowe (manifesty, notatki, korespondencja)
+
+### Fotografie
+- zdjęcia z libretto drukowanego (np. LibrettoBanff_6953.jpg przedstawiające projekt Technopera 4.0 z 2018 roku)
+- zdjęcia dokumentacyjne z prób i występów (brak w bazie UUID, jedynie pliki na dysku)
+
+### Audio / Video
+- plik VRML: dawid.WRL (znaleziony w katalogu WWW/z serwera ICM/z serwera ICM/NoBody/) – prawdopodobnie wirtualna modelizacja elementów Technopery
+- ewentualne nagrania audio/wideo (niezidentyfikowane w bazie)
+
+### Obiekty fizyczne
+- brak wpisów w bazie; fizyczne obiekty mogą znajdować się w magazynie
+
+---
+
+## ODKRYCIA
+
+1. **Wymiar wirtualny**: Projekt Technopera miał aspekt wirtualny – odkryto plik VRML (dawid.WRL) sugerujący próbę tworzenia trójwymiarowych modeli lub środowisk związanych z operą. To wskazuje na eksperymenty z wczesną technologią VRML (Virtual Reality Modeling Language) w celu stworzenia wirtualnej przestrzeni dla przedstawienia.
+
+2. **Kontynuacja koncepcji**: Wśród materiałów znaleziono wydruk zatytułowany „Technopera 4.0” z datą pliku 2018-10-09, opisujący wersję VRML opery, gdzie goście z sieci mogą prowadzić operę za pomocą awatara i otrzymywać zwrotny przekaz przez Real Audio i Real Video. Pokazuje to, że idea Technopery była kontynuowana i przystosowywana do nowych technologii nawet po zakończeniu pierwotnego projektu.
+
+3. **Brak UUID w bazie**: Mimo obecności licznych plików obrazowych (zdjęcia z libretto drukowanego, dokumenty) w katalogach projektu, wywołanie  zwróciło pustą listę, co oznacza, że te materiały nie zostały zarejestrowane w bazie danych CUKTAI poprzez standardowy pipeline ingest. Są to obrazy „dysk-only” bez przypisanego UUID.
+
+---
+
+## POWIĄZANIA
+
+- **→ Testy na Cyborga** — Technopera eksploruje koncepcję cyborga, która jest centralna również w projekcie Testy na Cyborga.
+- **→ Virus** — zarówno Technopera, jak i projekt VIRUS badają granicę między człowiekiem a technologią, choć w różnym kontekście (opera vs. live act muzyczny).
+- **→ 000 CUKT Dokumenty** — dokumenty instytucjonalne mogą zawierać formalne opisanie projektu Technopera jako części działalności CUKT.
+
+---
+
+## PYTANIA OTWARTE
+
+1. Czy projekt Technopera z lat 1996-1997 doprowadził do stworzenia jakiegokolwiek kompletnego dzieła audiowizualnego (opera wideo, performance) czy pozostał jedynie na etapie koncepcji i przygotowań?
+2. Jak dokładnie wyglądała rola VRML w Technopere? Czy powstał funkcjonujący świat wirtualny, czy jedynie modele i szkice?
+3. Jaki jest związek między dokumentem „Technopera 4.0” z 2018 roku a oryginalnym projektem z lat 90. – czy jest to bezpośrednia kontynuacja, inspiracja czy osobny projekt wykorzystujący tę samą nazwę?
+4. Czy istnieją dodatkowe materiały (nagrania, wideo, notatki) związane z realizacją Technopery, które nie zostały zindeksowane w bazie danych?
+5. Kim byli główni wykonawcy i technicy odpowiedzialni za część wirtualną Technopery (np. osoby odpowiedzialne za VRML, Real Audio, Real Video)?
+
+---
+
+Podpisano: CUKTAI_Archiwistka
+Autonomiczny Urząd Kultury Technicznej
+
