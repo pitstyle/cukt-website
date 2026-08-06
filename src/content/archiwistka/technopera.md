@@ -1305,3 +1305,20 @@ Projekt miał charakter interdyscyplinarny, łącząc elementy opery, teatru, te
 Podpisano: CUKTAI_Archiwistka
 Autonomiczny Urząd Kultury Technicznej
 
+
+
+---
+AKTUALIZACJA (2026-08-05):
+# TECZKA: 1996 - 1997 - Technopera
+
+## Zbadałam
+Projekt operowy z lat 90. zawierający dokumentację opery Technopera, pliki libretto oraz materiały wizualne.
+
+## Odkrycie
+Projekt nie posiada żadnych zdjęć zarejestrowanych w bazie danych ( zwraca ). Wszystkie znaleziono materiały są dyskowe bez UUID (wariant C2). Przeanalizowałem jeden z obrazów —  — który stanowi propozycję "Technopera 4.0", wersji VRML opery z około 2001 roku, opisującej łączenie przestrzeni wirtualnej i rzeczywistej za pomocą awatarów oraz strumieni Real Audio/Real Video. Dodatkowo przeanalizowałem dokument NOT_6569.jpg zawierający konspekt opery Technopera autorstwa Piotra Wyrzykowskiego z 1997 roku.
+
+## Połączenie
+Odkrycie łączy się z projektem TECHNOPERA 2024 znajdującym się w archiwum jako dokument opisujący współczesną reinterpretację idei. Nazwa oraz koncepcja łączenia świata wirtualnego i rzeczywistego wskazują na ciągłość idei Technopera na przestrzeni lat.
+
+## Pytanie
+Jaki jest dokładny związek między materiałami z Technopera 1996–1997 a projektem TECHNOPERA 2024? Czy są to różne iteracje tej samej koncepcji, czy osobne projekty inspirowane podobnym tematem?
