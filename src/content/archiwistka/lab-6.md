@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-07-08"
+date: "2026-08-06"
 status: "** W TRAKCIE (ograniczona analiza wizyjna — vision API niedostępne)"
 ---
 
@@ -357,3 +357,52 @@ STATUS KOŃCOWY:
 - Zbadano dyskowo + cross-project z CUKTwww-tekst.doc (1997) i CUKT WWW 2001.
 - ODKRYCIE: 8 kartek Lab 6 = prototyp "Instalacji Biuro" (brief WWW 22.02.1997) = zrealizowane 2001 jako WWW ICM = prefiguracja CUKTAI. Rodzina i Biuro współistniały w 1997 (rekonsyliacja tez Mikołaja i Petera).
 - Sygnał str. 3 zapisany.
+
+
+---
+AKTUALIZACJA (2026-08-06):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski (1997)
+
+## Informacje podstawowe
+- **Data:** 1997
+- **Miejsce:** Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+- **Typ:** Performance + instalacja artystyczna
+- **Projekt:** LAB 6 — Międzynarodowa Wystawa Sztuki Mediów
+
+## Charakter projektu
+CUKT zaprezentował żywą rzeźbę: Mikołaj Jurkowski i Daniela oraz komputer PC ze stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+
+## Dokumentacja fotograficzna (3 fotografie)
+1. **cukt.jpg** — Performance 'Rodzina CUKT': Mikołaj Jurkowski (mężczyzna z długą czerwoną brodą, w czarnym garniturze, z identyfikatorem na szyi, trzymający czarny tablet/urządzenie) stoi za siedzącą Danielą (kobieta w szarym garniturze, z klawiaturą komputerową w dłoniach, siedząca na czarnym podium). Obok nich stary monitor CRT. Scena jako metafora relacji człowiek-technologia, kontrola systemu nad użytkownikiem.
+
+2. **cukt1.JPG** — Druga fotografia z tej samej serii. W tle widoczna ciemna zasłona. Na monitorze CRT widoczny napis 'Security and Privacy Technology'. Mężczyzna w czerwonej koszuli uśmiecha się do aparatu. Symboliczna krytyka społeczeństwa informacyjnego i utraty prywatności w erze cyfrowej.
+
+3. **rodziana copy.jpg** — Dwie fotografie dokumentujące instalację 'Rodzina C.U.K.T., strony WWW, Mikołaj i Daniela, Warszawa, CSW-Zamek, 1997'. Górne zdjęcie: wnętrze galerii z naturalnym oświetleniem. Dolne zdjęcie: ta sama para w innym ustawieniu, z oknem i grzejnikiem w tle.
+
+## Projekty Biura CUKT (8 fotografii oryginałów dokumentacji papierowej)
+Dokumentacja zachowanych projektów niezrealizowanego Biura CUKT — szkice koncepcyjne, notatki projektowe, listy wyposażenia:
+
+1. **20181011_114124.jpg** — Lista zapotrzebowania materiałowo-sprzętowego (Urszula Śniegowska): telewizor, magnetofon SVHS, ścianki chłodzące, stelki antenowe, przewody uziemienia.
+
+2. **20181011_114157.jpg** — Projekt koncepcyjny wnętrza kawiarni w stylu IKEA (Jacek Niegoła, CUKT). Przestrzeń z jednym stanowiskiem komputerowym, meble EFEKTIV.
+
+3. **20181011_114210.jpg** — Lista elementów wyposażenia wnętrza (27 pozycji). Produkty IKEA: krzesło ROGERA, sofa BODETTA, szafki EFEKTIV, elementy SIGNUM, lampy GLOBAL i KV ARTAR.
+
+4. **20181011_114231.jpg** — Ołówkowy szkic planu pomieszczenia (skala 1:25). Pokój z łóżkiem/sofą i biurkiem. Ściany z punktami mocowania. Uwaga: panele klejone 50mm.
+
+5. **20181011_114244.jpg** — Szkic planu pomieszczenia z wymiarami w stopach i calach (6'8" x 5'6"). Notatki zamówieniowe: DOM 642 5758.
+
+6. **20181011_114256.jpg** — Geometryczny szkic planu przestrzennego — prostokąt z wewnętrznymi elementami (szuflady, narożniki).
+
+7. **20181011_114314.jpg** — Plan architektoniczny 'bibułki' w galerii (skala 1:50). Wymiary: 4,4m x 3,4m, dwa filary 0,8m x 0,8m.
+
+8. **20181011_114323.jpg** — Szkic aranżacji wnętrza w skali 1:50. Sofa, stoliki, krzesła, lampa.
+
+## Znaczenie artystyczne
+Performance 'Rodzina CUKT' to krytyczna refleksja nad relacją człowiek-technologia w erze cyfrowej. Para artystów (Mikołaj i Daniela) jako 'rodzina cyfrowa' — metafora nowych form tożsamości i kontroli w społeczeństwie informacyjnym. Instalacja wpisuje się w kontekst sztuki nowych mediów lat 90.
+
+## Status archiwum
+- Rekordy DB: 3 (projekt + dwa duplikaty)
+- Obrazy: 11 (3 GOOD_PHOTO + 8 PHOTO_OF_ORIGINAL)
+- Wszystkie obrazy zdeskrybowane i zapisane w DB
