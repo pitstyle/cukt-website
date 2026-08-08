@@ -2,7 +2,7 @@
 title: "Lab 6 / Rodzina CUKT"
 project: "Lab 6 / Rodzina CUKT"
 type: "teczka"
-date: "2026-08-06"
+date: "2026"
 status: "** W TRAKCIE (ograniczona analiza wizyjna — vision API niedostępne)"
 ---
 
@@ -406,3 +406,83 @@ Performance 'Rodzina CUKT' to krytyczna refleksja nad relacją człowiek-technol
 - Rekordy DB: 3 (projekt + dwa duplikaty)
 - Obrazy: 11 (3 GOOD_PHOTO + 8 PHOTO_OF_ORIGINAL)
 - Wszystkie obrazy zdeskrybowane i zapisane w DB
+
+
+---
+AKTUALIZACJA (2026-08-07):
+PROJEKT: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski (1997)
+
+ŹRÓDŁO: archive_get_project + archive_get_images + vision_analyze (cron 2026-08-07)
+
+OPIS PROJEKTU:
+Wystawa LAB 6 — Międzynarodowa Wystawa Sztuki Mediów, CSW Zamek Ujazdowski, Warszawa, 1997.
+CUKT zaprezentował performance 'Rodzina CUKT' — żywą rzeźbę z udziałem Mikołaja Jurkowskiego i Danieli.
+Artyści pozowali w nieruchomych, symbolicznych pozach na tle komputera PC ze stroną WWW CUKT.
+Temat: relacje między człowiekiem, technologią i cyberprzestrzenią w erze wczesnego Internetu.
+
+UCZESTNICY:
+- Mikołaj Jurkowski (z długą czerwoną brodą, w ciemnym garniturze, z identyfikatorem)
+- Daniela (w szarym garniturze, z klawiaturą komputerową)
+- Piotr Wyrzykowski (autor/projekt)
+- Artur Kozdrowski (autor/projekt)
+- Robert Jurkowski (autor/projekt)
+- Jacek Niegoda (autor/projekt)
+- gościnnie: Daniela
+
+ELEMENTY INSTALACJI:
+- Komputer PC z monitorem CRT (biała obudowa Compaq) 
+- Klawiatura komputerowa (jako rekwizyt trzymany przez uczestników)
+- Identyfikatory na szyjach uczestników
+- Czarna platforma/podium
+- Strona WWW z napisem 'Community and Virtuality Technologies'
+
+ZDJĘCIA PRZEANALIZOWANE (3 GOOD_PHOTO):
+1. cukt1.JPG — scena z trzema uczestnikami: kobieta z klawiaturą, brodaty mężczyzna z tabletem, mężczyzna rozsuwający zasłonę; monitor Compaq z 'Community and Virtuality Technologies'
+2. cukt.jpg — dwie żywe rzeźby: brodaty mężczyzna i kobieta z klawiaturą na platformie z komputerem CRT
+3. rodziana copy.jpg — 'Rodzina C.U.K.T.': Mikołaj Jurkowski i Daniela; adnotacja archiwalna: 'Rodzina C.U.K.T.', strony WWW, Mikołaj i Daniela, Warszawa, CSW-Zamek, 1997
+
+ARCHIWALIA FIZYCZNE (wg opisu katalogowego):
+- Dokumentacja fotograficzna: odbitki kolor (2 fotografie) — faktycznie 3 skany w DB
+- Projekty Biura CUKT niezrealizowane: 8 kart A4, pismo odręczne długopisem, rysunki ołówkiem
+
+KONTEKST HISTORYCZNY:
+- 1997: Internet dopiero rozwijał się w Polsce
+- LAB 6 to cykl eksperymentalnych wystaw CSW Zamek Ujazdowski poświęconych nowym mediom
+- CUKT jako pionier polskiej sztuki sieci i technologii
+- Performance 'Rodzina CUKT' — metafora nowoczesnej rodziny w erze cyfrowej
+
+INTERPRETACJA:
+Żywa rzeźba krytycznie komentuje relację człowiek-maszyna: ludzie jako elementy systemu, 
+identyfikatory jako oznaki biurokratyzacji, komputer jako centralny 'członek rodziny'.
+Ironia i dystans — sztuka jako narzędzie refleksji nad technologiczną transformacją społeczeństwa.
+
+OTWARTE PYTANIA:
+- Czy projekty Biura CUKT (8 kart A4) zostały zdigitalizowane i są dostępne w archiwum?
+- Jaki był dokładny adres URL strony WWW CUKT w 1997 roku?
+- Czy istnieją inne dokumenty z projektu LAB 6 w archiwum fizycznym CUKT?
+
+
+---
+AKTUALIZACJA (2026-08-08):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+Investigation Date: 2026-08-07
+Project: LAB 6 (also known as Rodzina CUKT at CSW ZUJ)
+
+Summary:
+The LAB 6 project documents a 1997 performance/exhibition at Centrum Sztuki Współczesnej Zamek Ujazdowski in Warsaw. The archive contains photographic documentation of the event, including color photographs (Odbitki kolor) and project documents.
+
+Three GOOD_PHOTO images were analyzed:
+1. cukt1.JPG - Shows three individuals with vintage computer equipment: a woman in a gray suit holding a keyboard, a tall man with a long reddish-brown beard behind her, and a third partially visible man with a cable near a curtain. The setting includes a Compaq CRT monitor displaying a graphical interface. Interpretation: Likely a satirical portrayal of a computer team or tech support crew, with theatrical elements suggesting a performance or demonstration.
+
+2. cukt.jpg - Shows two individuals: a woman seated on a platform holding an oversized beige keyboard, and a tall man with a long red beard standing behind her, holding a black object. Both wear badges. The setting includes a window with frosted glass and a radierator. Interpretation: Conceptual photograph exploring power dynamics, gender roles, and the human relationship with technology. The man's dominant presence and upward gaze contrast with the woman's engaged position with the computer.
+
+3. rodziana copy.jpg - A composite of two photographs documenting an art installation titled "Rodzina C.U.K.T." by artists Mikołaj and Daniela, exhibited at CSW-Zamek in Warsaw in 1997. Both photos show a woman in a gray suit holding a keyboard and a man with a long red beard holding a stylus-like object, with a CRT monitor present. Caption: "Rodzina C.U.K.T.", strony WWW, Mikołaj i Daniela, warszawa, CSW-Zamek, 1997. Interpretation: The installation critiques or parodies the burgeoning digital age, with the title possibly referencing a "digital family." The imagery suggests commentary on human-machine interaction and the nascent state of the web in 1997.
+
+Open Questions:
+1. What is the exact meaning of the acronym "C.U.K.T." in the context of the Rodzina C.U.K.T. installation? Is it a reference to the Centralny Urząd Kultury Technicznej (CUKT) or an independent invention?
+2. What was the specific nature of the performance or exhibition at LAB 6? The archive mentions "�Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT" (Living sculpture: Mikołaj Jurkowski and Daniela and a PC with the CUKT website). What was the interaction between the living sculpture and the computer?
+3. Are there any surviving digital records or screenshots of the CUKT website from 1997 that were part of the LAB 6 exhibition?
+4. What happened to the unrealized Biuro CUKT projects mentioned in the documentation? Were any of the materials or ideas later incorporated into other CUKT projects?
+
+Investigation conducted as part of the CUKTAI Archivist Night Investigation Pipeline in cron mode.
+All mandatory outputs have been generated: image descriptions saved, this report to be saved as teczka, open questions to be saved, walk summary written, and Telegram notification sent.

@@ -1322,3 +1322,63 @@ Odkrycie łączy się z projektem TECHNOPERA 2024 znajdującym się w archiwum j
 
 ## Pytanie
 Jaki jest dokładny związek między materiałami z Technopera 1996–1997 a projektem TECHNOPERA 2024? Czy są to różne iteracje tej samej koncepcji, czy osobne projekty inspirowane podobnym tematem?
+
+
+---
+AKTUALIZACJA (2026-08-07):
+Teczka śledcza: 1996 - 1997 - Technopera
+Data śledztwa: 2026-08-07
+Agent: Nocny Archiwista
+
+## Projekt
+Technopera (1996-1997) - projekt grupy CUKT mający na celu stworzenie opery technologicznej łączącej człowieka, maszynę i cyborga.
+
+## Materiały znalezione
+Podczas przeglądu archiwum dyskowego projektu znaleziono następujące materiały:
+- Dokumenty projektowe (libretto, plany Technopera 4.0)
+- Dokumentacja fotograficzna z Budapesztu (naklejki na słupach)
+- Dokumentacja fotograficzna z Banff (wydruki zdjęciowe)
+- Pliki audio (plikami .wav, .iff)
+
+## Analiza wybranych materiałów
+
+### 1. LibrettoBanff_6953.jpg
+Opis: Dokument projektu "Technopera 4.0" z motto: "This is communication information productivity and human being in one technology assisted mix." Projekt opisany jako wersja VRML Opery 4.0, mająca łączyć przestrzeń wirtualną i rzeczywistą. Zawiera harmonogram zasobów z terminami: 23 czerwca, 30 czerwca, 6 lipca, impreza 11 lipca. Przydzielone role: Don & SGI (od 23 czerwca do 6 lipca), Publicysta (od 30 czerwca), Scott & SGI, AV Tech, Paul H. sound mix (od 6 lipca).
+
+### 2. Budapeszt/budapeszt0003a Large.jpeg
+Opis: Fotografia słupa miejskiego w Budapeszcie pokrojona naklejkami. Naklejki zawierają teksty:
+- Góra (podzielona na dwie płyty):
+  * Lewa: "IS NO BODY, IS NO NOSE, ARE NO LIPS." oraz portret twarzy mężczyzny.
+  * Prawa: "IT LOOKS LIKE LOST CONTROL doesn't it?" oraz dłoń trzymająca przedmiot przypominający pilota.
+- Środek: biała naklejka z kołowym napisem "DEFINITION OF HUMAN IS CHANGING REALLY FAST" oraz sylwetką kobiety.
+- Tło: ulica miejska z budynkami, czerwoną markizą i niebieskim krzyżem neonowym.
+
+### 3. IMG_6937.jpg
+Opis: Maszynopisowa strona z dwoma otworami do segregatora. Zawiera akapit po polsku dotyczący mediów i komunikacji, słowo "LIBRETTO" wyśrodkowane, oraz listę plików audio z opisami w języku polskim i angielskim (np. "28.syspew.iff" - "System daje pewność." / "System gives base.", "3.brainavi.wav" - "Navigated my brain.", itp.).
+
+### 4. _banff.jpg
+Opis: Kompozycja dziesięciu wydruków fotograficznych ułożonych w siatkę, przedstawiających dramatyczną interakcję dwojga osób (jedna leżąca, druga pochylona nad nią, często z mikrofonem przy ustach). Zdjęcia charakteryzują się wysokim kontrastem, niskim kluczem oświetlenia, sugerującym scenę performatywną lub artystyczną instalację.
+
+## Odkrycia
+- Projekt Technopera ewoluował przez różne wersje (3.0 PRO, 4.0, 4.0b w ramach festiwalu PUSH).
+- Technopera 4.0 wykorzystywała technologie VRML, Real Audio, Real Video w celu stworzenia interaktywnej opery internetowej.
+- Materiały archiwalne zawierają elementy street art (naklejki w Budapeszcie) z filozoficznymi przesłaniami o tożsamości, kontroli i zmianach w definicji człowieka.
+- Libretto zawiera odniesienia do tematów takich jak nawigacja mózgiem, halucynacje, rzeczywistość, utrata pamięci.
+- Dokumentacja fotograficzna z Banff sugeruje performatywny lub teatralny wymiar projektu.
+
+## Powiązania
+- Projekt Technopera jest powiązany z innymi projektami CUKT takimi jak "Testy na Cyborga", "Infomaja", "Czyn dla miasta Bytów".
+- Elementy VRML i wczesnej sieci internetowej łączą go z eksperymentalnymi projektami net.art z lat 90.
+
+## Białe plamy
+- Pełna lista uczestników projektu Technopera (osoby zaangażowane w realizację).
+- Dokładna data premiery lub przedstawienia Technopera 4.0.
+- Lokalizacje realizacji projektu poza dokumentacją fotograficzną (Budapeszt, Banff).
+- Pełny scenariusz libretto i pliki audio.
+
+## Pytania otwarte
+1. Kto był odpowiedzialny za realizację części technologicznej Technopera 4.0 (VRML, streaming audio/wideo)?
+2. Gdzie dokładnie odbyły się przedstawienia lub premiery Technopera w latach 1996-1997?
+3. Czy istnieją nagrania wideo lub audio z realizacji Technopera 4.0?
+4. Jakie było odbiorcę i krytyka projektów Technopera w środowisku artystycznym lat 90?
+5. Jakie są pełne treści libretto i plików audio wymienionych w dokumencie IMG_6937.jpg?
