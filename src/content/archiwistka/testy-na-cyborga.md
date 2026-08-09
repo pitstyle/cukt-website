@@ -800,3 +800,41 @@ Projekt TESTY NA CYBORGA może być związany z wcześniejszymi eksperymentami C
 ## Źródła
 - Archiwum CUKT: rekordy projektu TESTY NA CYBORGA (zdjęcia, dokumenty)
 - Analiza wizualna i metadata wybranych obrazów
+
+
+---
+AKTUALIZACJA (2026-08-08):
+# Investigation of ORIENTATIONSTEST form (37B.jpg)
+
+## Discovery
+During an archive walk on 2026-08-08, the image  was identified as a completed German-language orientation test form titled "ORIENTATIONSTEST". The form features a logo with the acronym "CUKT" and includes personal details and four multiple-choice questions.
+
+## Analysis
+The form was filled out by a 35-year-old Dutch woman weighing 73 kg. Her responses:
+- Gender: Vrouwtje (female)
+- Nationality: Nederlandse (Dutch)
+- Age: 35
+- Weight: 73kg
+
+Answers to questions:
+1. Can you identify with your place of residence? → Yes
+2. Do you know why you are here? → Yes
+3. Is your grandfather still alive? → No
+4. Do you want Poland to join United Europe? → Yes
+
+The document includes a handwritten number "2" at the bottom right, possibly a score or sequence number.
+
+## Significance
+This artifact reveals a screening procedure used by CUKT during the mid-1990s, possibly for assessing ideological alignment or suitability for participation in projects. The mix of German form with Dutch responses indicates cross-border activity, and the question about Poland's EU accession places the test in the context of post-Cold War European integration debates.
+
+## Open Questions
+- What was the specific purpose of this orientation test within CUKT projects?
+- Who administered these tests and where were they conducted?
+- Are there other similar test forms in the archive with different responses?
+- How did the results of such tests influence participation in CUKT activities?
+
+
+
+---
+AKTUALIZACJA (2026-08-09):
+DEEP archive investigation of the TESTY NA CYBORGA project (1995-2017). Discovered completed German-language ORIENTATIONSTEST form (image 37B.jpg) showing a 35-year-old Dutch woman (73kg) responding to four yes/no questions about residence identification, purpose awareness, grandfather's vital status, and Poland's EU accession (answered Yes to Q1, Q2, Q4; No to Q3). The form features CUKT logo (gear with laurel wreath and acronym) and handwritten '2' possibly indicating score/sequence. This reveals mid-1990s screening/selection procedures, institutional character of CUKT activities, post-Cold War European integration context, and multilingual nature of operations. Open question: What was the specific purpose of the ORIENTATIONSTEST form within CUKT projects?

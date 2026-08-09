@@ -2,7 +2,7 @@
 title: "Antyelekcja Technodemonstracja"
 project: "Antyelekcja Technodemonstracja"
 type: "teczka"
-date: "2026-07-09"
+date: "1995"
 status: "IN PROGRESS"
 ---
 
@@ -488,3 +488,69 @@ To wypelnia luki z poprzednich sledztw, gdzie vision_analyze byl niedostepny.
 
 ### STATUS: DEEP WALK ZAKOŃCZONY. Wszystkie GOOD_PHOTO/SCAN_READY zanalizowane i zapisane.
 
+
+
+---
+AKTUALIZACJA (2026-08-08):
+PROJEKT: Antyelekcja Technodemonstracja / ANTYELECTION TECHNODEMONSTRATION
+
+DATA: 4-5 listopada 1995 (sobotnio-niedzielna akcja w Forty, Gdańsk)
+
+AUTORZY: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabała, Rafał Grabowski, Joanna L.
+
+KONTEKST HISTORYCZNY:
+Antyelekcja Technodemonstracja to akcja zorganizowana w dniach 4-5 listopada 1995, w tym samym czasie co II tura wyborów prezydenckich (4.11.1995 - Kwaśniewski vs Wałęsa). CUKT stworzył własną alternatywną 'elekcję' - z własną kartą do głosowania, urną wyborczą, mównicą i rybkami (akwarium jako urna), biletami wstępu i materiałami propagandowymi. Wydarzenie miało charakter techno-protestu, eksperymentu artystycznego i ironicznego komentarza politycznego.
+
+ORGANIZATORZY / WSPÓŁPRACA:
+- N.T.S.C. (Nowa Techno Scena) - równoległa organizacja związana ze sceną muzyki techno
+- FORTY Gdańsk - główna lokalizacja (historyczne fortyfikacje gdańskie, przestrzeń industrialna)
+
+HASŁO: 'Bądź sobą, jestem z tobą' - nawiązuje do tego samego hasła używanego przy akcjach na Sołdku
+
+KARTY DO GŁOSOWANIA (archiwalia fizyczne):
+- Karta do głosowania (wydruk ksero, 29x12cm, nakład 50 egz.)
+- Karta wyborcza z II tury wyborów prezydenckich 4.11.1995 (oryginał, A6)
+- Własna karta CUKT z opcją 'Głos na Nikogo' lub 'Głos na Wszystkich'
+
+OBIEKTY:
+- URNA: stal, szklane akwarium, woda, rybki, oświetlenie elektryczne (50x50x120cm)
+- MÓWNICA: stal, szklane akwarium, woda, rybki, oświetlenie elektryczne (35x35x120cm)
+- BALONY z hasłem 'Bądź sobą jestem tobą' (2 sztuki, 15x5cm)
+- LIGHTBOXY z kartą do głosowania
+- LIGHTHOXY według specyfikacji w antyelekcja03.pdf
+
+MATERIAŁY GRAFICZNE:
+- Bilbordy (160x117cm i 235x160cm, wydruk ksero)
+- Plakaty (A4, wydruk ksero)
+- Etykiety na czekoladowe bejsbole (20x5cm, wydruk ksero)
+- Zaproszenia (A6, wydruk)
+- Bilety wstępu (15x5cm, 25 egz.) - z nadrukiem CUKT/NTSC, kodami kreskowymi EAN-13, hasłem 'NOVATECHNOSCENA BADZ SOBA JESTEM Z TOBA', datą 4-5.11.95
+
+DOKUMENTACJA:
+- Gazeta Wyborcza z 5.11.1995 z wywiadem z Urzędnikami CUKT (oryginał, A3)
+- Gazeta Co Jest Grane z 5.01.1997 z wywiadem z Urzędnikami CUKT (oryginał, A3)
+- Dokumentacja fotograficzna Sołdka (negatywy kolor, cz-b, odbitki, 9x13, 20 szt.)
+- Dokumentacja fotograficzna bilbordu (negatywy cz-b, odbitki)
+- Dokumentacja fotograficzna własna (slajdy, negatywy, pliki cyfrowe)
+- Dokumentacja fotograficzna sesji na Sołdku do materiałów propagandowych
+
+ELEMENTY ROBOCZE W ARCHIWUM:
+- Kosztorys urny wyborczej i mównicy (oryginał, A4)
+- Projekt urny - rysunek ołówkiem (A4)
+- Rękopis scenariusza wydarzenia (długopis, A4)
+- Kalendarz książkowy z kosztorysem organizacji i namiarami producenta balonów (A5)
+- Zaklejona opieczętowana koperta (A6, 2 szt.)
+- Oryginały biletów na Sołdka z sesji fotograficznej
+- Dokumentacja fotograficzna pliki cyfrowe (10 szt.)
+
+ANALIZA IMAGE:
+1. bilet_01.jpg (GOOD_PHOTO): Bilet wstępu z datą 4-5.11.95, kod kreskowy 5 96418 3312 2 371380 96, grafika postaci w płaszczu w przemyślowym wnętrzu, hasło NOVATECHNOSCENA BADZ SOBA JESTEM Z TOBA
+2. bilet_02.jpg (GOOD_PHOTO): Bilet wstępu z datą 4-11.95, kod kreskowy 5 96418 3312 2 371280 96, centralny pierścień z sylwetką, tło z literami HARTIG, ślady fioletowej pieczęci
+3. projekt rekopis.jpg (GOOD_PHOTO): Ręczny projekt kampanii z hasłem ANTYELEKCJA N.T.S.C. / C.U.K.T, plan kampanii prewyborczej Gubego (26 IX-2 X 1995), akcja w Kijowie w Centrum Dom Ukraiński z wystawą ANTYCIAŁA, plakaty kandydatów Wałęsa/Kwaśniewskiego/Geremka, przekreślone słowo Pegla
+
+NOTATKI ARCHIWALNE:
+- Dokumentacja jest rozproszona między oryginałami fizycznymi a reprodukcjami
+- Wiele dokumentów istnieje w wielu egzemplarzach (duplikaty katalogowe)
+- Materiały z 1997 (Gazeta Co Jest Grane) sugerują późniejsze powroty do tematu
+- Zestaw biletów obejmuje co najmniej 3 warianty (bilet_01, bilet_02, bilet_03)
+- Katalog wspomina o specjalistycznym dokumencie ANTYELEKCJA03.pdf zawierającym specyfikację lightboxów
