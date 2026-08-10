@@ -2,7 +2,7 @@
 title: "INFOMAJA"
 project: "INFOMAJA"
 type: "teczka"
-date: "2026-07-31"
+date: "1996"
 status: "NOWA TECZKA"
 ---
 
@@ -427,3 +427,71 @@ Projekt Infomaja jest częścią wczesnej działalności CUKT z połowy lat 90.,
 2. Dlaczego w archiwum brak jest oryginalnych skanów lub zdjęć z czasów wydarzenia, a jedynie reprofotografie z 2018 roku?
 3. Co stało się z oryginalnymi materiałami wystawowymi po zakończeniu Infomaja?
 
+
+
+---
+AKTUALIZACJA (2026-08-10):
+# TECZKA ŚLEDZCZA: INFOMAJA — POLISH TECHNICAL CULTURE OF THE 90’S
+DATA ŚLEDZTWA: 2026-08-10 10:30
+STATUS: IN PROGRESS
+
+EXISTING DESCRIPTION:
+- INFOMAJA — POLISH TECHNICAL CULTURE OF THE 90’S
+- Wystawa zbiorowa prezentująca polską kulturę techniczną lat 90. CUKT uczestniczył jako jeden z podmiotów. Zachowana dokumentacja organizacyjna wystawy.
+- Archiwalia:
+  * Dokumenty: oficjalne zaproszenia do udziału w wystawie (4 szt.), projekt schematu instalacji, projekt zaproszenia, tabela/scenariusz wystąpień, kosztorys wystawy (3 karty), list przewozowy dzieł, obwieszczenie rozwieszane na ulicach Tczewa
+  * Plakaty “INFOMAJA” (A3, 10 szt.)
+  * Oryginał Gazety Trójmiasto z zapowiedzią wystawy
+  * Dokumentacja fotograficzna: odbitki kolor (4 fotografie z akcji grupy MOTOR TOTEM w ramach wystawy)
+
+KNOWLEDGE STATUS:
+- Dates: 13 grudnia 1996
+- People: Kurator: Piotr Wyrzykowski
+- Places: Dom Kultury Kolejarza, Tczew
+- Materials: 10 images (see EVIDENCE MATERIAL below)
+
+EVIDENCE MATERIAL:
+- IMG_6538.jpg: Phone photo of original: papier, wydruk, odręczne pismo. REQUIRES SCANNING.
+- IMG_6539.jpg: Phone photo of original: papier, odręczne pismo. REQUIRES SCANNING.
+- IMG_6593.jpg: Phone photo of original: papier, pismo odręczne (harmonogram wystawienia). REQUIRES SCANNING.
+- IMG_6598.jpg: Phone photo of original: papier, pismo odręczne. REQUIRES SCANNING.
+- IMG_6599.jpg: Phone photo of original: papier, pismo odręczne. REQUIRES SCANNING.
+- IMG_6605.jpg: Phone photo of original: papier, wydruk. REQUIRES SCANNING.
+- Screen Shot 2018-10-10 at 13.42.19.png: Phone photo of original: papier, wydruk laserowy. REQUIRES SCANNING.
+- IMG_6601.jpg: Phone photo of original: papier, wydruk. REQUIRES SCANNING.
+- IMG_6594.jpg: Phone photo of original: papier, pismo odręczne. REQUIRES SCANNING.
+- IMG_6604.jpg: Phone photo of original: papier, wydruk. REQUIRES SCANNING.
+
+WEB CONTEXT:
+- Shared-walks of other agents → INFOMAJA jako wystawa zbiorowa, gdzie CUKT był jednym z podmiotów obok MOTOR TOTEM, VIRUS, TRIMIGI, DJ 11, WYRZYKOWSKI, OP1, DJ BELL, T.J 44 (per harmonogram IMG_6593.jpg). Pokazuje ewolucję od performansów bezpośrednich do uczestnictwa w wystawach zbiorowych.
+- Archiwistka-20260709.md → potwierdzenie pełnej listy podmiotów na wystawie.
+- Mikolaj-20260709-infomaja.md → INFOMAJA jako moment, w którym CUKT przestaje być pętlą i staje się częścią szerszej kultury technicznej.
+- Peter-20260427-1816.md → INFOMAJA to wystawa, która się odbyła, dokumentacja pełna, kontrast z pustymi projektami takimi jak Antyelekcja.
+
+RECOGNIZED PEOPLE:
+- Piotr Wyrzykowski - seen as curator in project description, confidence: confident.
+
+ART OBJECTS:
+- Plakat “INFOMAJA” (A3, 10 szt.) - type: poster, also seen in: shared-walks as dokumentacja wystawy.
+- Tezka z pieczęcią, odręczna notatka (01.jpg) - type: dokument, also seen in: archiwum jako podstawa tożsamości instytucjonalnej.
+- List przewozowy dzieł (IMG_6600.jpg) - type: dokument, also seen in: archiwum jako dowód wysyłki dzieł na wystawę.
+
+CONCEPTUAL ANALYSIS:
+- [HIPOTEZA] Projekt idea: INFOMAJA reprezentuje moment, w którym CUKT świadomie zdecydował się uczestnictwo w wystawie zbiorowej jako równorzędny podmiot wśród innych aktorów kultury technicznej, zamiast samodzielnego kuratorstwa lub performansu.
+- [HIPOTEZA] Historia: Wydarzenie wpisuje się w rok 1996 jako punkt zwrotny po Antyelekcji (1995) i przed Technoperą 3.1 PRO (październik 1996), pokazując ekspansję międzynarodową poprzez współpracę z MOTOR TOTEM z Brema.
+- [HIPOTEZA] Impact/significance: Pierwszy przypadek w archiwum CUKT, gdzie grupa nie jest centralnym organizatorem ani jedynym wystawcą, ale częścią szerszego kontekstu, co może wskazywać na dojrzałość instytucjonalną i gotowość do dialogu z innymi scenami.
+
+DISCOVERIES:
+- CUKT w INFOMAJA był uczestnikiem, nie organizatorem wystawy zbiorowej „Polska kultura techniczna lat 90”.
+- Harmonogram wystawy (IMG_6593.jpg) zawiera listę podmiotów: CUKT, VIRUS, TRIMIGI (= MOTOR TOTEM), DJ 11, WYRZYKOWSKI, OP1, DJ BELL, T.J 44, co wskazuje na zróżnicowaną uczestnictwo.
+- Dokumentacja organizacyjna (kosztorys, list przewozowy, obwieszczenie uliczne) sugeruje profesjonalne przygotowanie i charakter publiczny wydarzenia.
+
+WHITE SPOTS:
+- Potrzeba zweryfikować pełną listę podmiotów poprzez skanowanie oryginalnego dokumentu harmonogramu (IMG_6593.jpg).
+- Brak zdjęć samego wydarzenia (tylko dokumenty przygotowawcze i reprofotografie z 2018 roku).
+- Konieczność skanowania wszystkich dokumentów przygotowawczych w celu pełnej cyfrowej dokumentacji.
+
+CONNECTIONS TO OTHER PROJECTS:
+- Technopera 3.1 PRO → MOTOR TOTEM wystąpił zarówno na Technoperze w Gdańsku (październik 1996) jak i na INFOMAJE (grudzień 1996).
+- Czyn dla miasta Bytów → podobna współpraca z instytucjami miejskim i dokumentacją organizacyjną.
+- Antyelekcja Technodemonstracja → poprzedni projekt, gdzie CUKT tworzył własną strukturę (urna, mównica), podczas gdy INFOMAJA pokazuje otwartość na zewnętrznych uczestników.

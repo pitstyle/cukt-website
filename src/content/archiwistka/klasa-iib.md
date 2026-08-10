@@ -2,7 +2,7 @@
 title: "Klasa IIB — Public Relation"
 project: "Klasa IIB — Public Relation"
 type: "teczka"
-date: "2026-08-02"
+date: "2026-08-09"
 status: "W TOKU"
 ---
 
@@ -452,3 +452,35 @@ Na dysku znajdują się też zdjęcia z 2018 (telefon) dokumentujące budowę/wy
 ---
 AKTUALIZACJA (2026-08-02):
 INSTALACJA ARTYSTYCZNA (1999) — 14 blejtramów z płótnem malowanym i tapetowanym (535×360 cm). Autorzy: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Rafał Ewertowski. Wystawy: CSW Łaźnia Gdańsk + Muzeum Sztuki Łódź (maj 1999). Element główny: wydruk solwentowy na tkaninie PCV (280×20 cm) — fotografia grupowa uczniów klasy IIb z GLA Gdynia z Urzędnikiem CUKT, przedstawiona jako część instalacji. Pierwowzór: Dzień Sztuki w GLA Gdynia (22 lutego 1999) — tam uczniowie sfotografowani z białym monitorem CRT wyświetlającym logo CUKT. Interpretacja: krytyka kontroli instytucjonalnej i technologicznego nadzoru w przestrzeni edukacyjnej. Status: część obrazów dyskowa bez UUID w bazie.
+
+
+---
+AKTUALIZACJA (2026-08-09):
+Investigation date: 2026-08-09
+Project: KLASA IIB
+Image processed: klasaIIb.jpg
+Description: This is a group photograph of approximately 13 individuals, likely students and a teacher or staff member, posing formally in front of a dark backdrop. The setting appears to be indoors, possibly in a school auditorium or hall, given the stage-like flooring and the presence of a large banner.
+
+Background and Setting:
+- Bright yellow vertical banner with black text and a crest reading 'Gdyńskie Liceum Autorskie' (GLA) and a shield-shaped emblem with letters GLA.
+- Solid black backdrop indicating a stage curtain or studio setup.
+
+Group Composition:
+- 13 people in two rows: front row of 8 standing, back row of 5 slightly elevated.
+- Attire reflects late 1990s to early 2000s fashion.
+- Foreground: small white CRT computer monitor displaying a dark blue background with a circular arrangement of white stars surrounding a central emblem.
+
+Contextual Interpretation:
+- Formal group photo taken during a school event (graduation, award ceremony, or presentation).
+- Indicates institutional pride and affiliation with GLA.
+- Computer monitor suggests a technology-related project, multimedia presentation, or school club activity involving digital media.
+- Inclusion of both students and adult staff member implies a structured educational context.
+
+Open Questions:
+- What was the specific event or occasion for this group photograph?
+- What is the significance of the emblem displayed on the computer monitor?
+- Are there any related images or documents in the archive that show the computer monitor in use or the technology project?
+- Who is the teacher/staff member in the far right of the back row (ID badge visible)?
+- What was the purpose of the 'Dzień Sztuki' (Art Day) event at liceum GLA in Gdynia, and how does this photograph relate to it?
+
+All mandatory outputs completed for the archive walk.
