@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-07-07"
+date: "2026-08-10"
 status: "W TOKU"
 ---
 
@@ -374,3 +374,45 @@ Przeszukałem cały transkrypt (65 segmentów) pod kątem słów: `urząd`, `urz
 - Dysk: `/home/macstorm/cuktai/raw/archive-usb/1995 09 __ - 36 hours/video/CUKTautowywiad01.mp4`
 - DB: `archive_get_project("36 HOURS")`, `archive_get_images("36 HOURS", limit=100)`
 - Transkrypt wygenerowany: `/tmp/transcript_clean.md`
+
+
+---
+AKTUALIZACJA (2026-08-10):
+SLEDZENIE SZCZEGOLOWE: 36 HOURS (1995 09) — 10 GOOD_PHOTO opisanych, wrzesien 1995, Forty Gdansk, CUKT.
+
+DO TECZKI SLEDZENIA:
+
+# SLEDZENIE: 36 HOURS — WERYFIKACJA OPISOW FOTOGRAFII
+
+## Raport z sesji 2026-08-10
+
+Przeanalizowano 10 fotografii zarchiwizowanych w projekcie 36 HOURS. Ustalono:
+
+### Odkrycia wizualne:
+
+1. **forty_01.jpg** — Podziemny tunel/bunkier z cieplym reflektorem, 3 sylwetki ludzkie, monitor CRT w tle
+2. **KaruzelaForty02.jpg** — Instalacja swietlna w ksztalcie radialnym z zolta-samoladowym zrodlem, niebieskie sloje, czlowiek w okularach obserwujacy
+3. **KaruzelaForty04.jpg** — Kinetyczna instalacja z obracajaca sie struktura, CG-jazda na dlugim oswietleniu, 2 osoby przy urzadzeniu
+4. **KaruzelaForty.jpg** — Pusta przestrzen z pionowym neonem, dwa krzesla metalowe, stol kolowy, minimalne sztuczne oswietlenie
+5. **Karuzela006.jpg** — Pusta przestrzen z neonem i liniami perspektywicznymi, bez ludzi, nastroj dystopijny
+6. **KolumnaMiki003.jpg** — Zdjecie UV/blacklight ukazujace fluorescencje materialow, siatka i cylinders
+7. **Karuzela_forty004.jpg** — factory floor/maszynarnia, worker w bialym kasku, motion blur, napisy pl (dwie hipotezy)
+8. **forty_karabin01.jpg** — Laser tag/paintball game w ceglanym tunelu, 5 graczy z replikami
+9. **forty_karabin.jpg** — grupa w tunelu, 3 glowy, beamy laserowe, mnostwo sprzetu sportowego
+10. **instalacja_dok.jpg** — Konceptualne zdjecie z rowerem treningowym, billboard 'Cenzura - amputacja fragmentu ciała', trzy glowy ludzkie, napis 'polityka albo zdrowie'
+
+### Hipotezy do weryfikacji:
+1. Zdjecia Karuzela_forty004.jpg i forty_karabin.jpg moga przedstawiac te sama sesje dokumentacyjna z kilkoma wtargnieciami do sesji z laser tag
+2. Instalacja z rowerem treningowym byla jedna z wielu w przestrzeni fortow - nie byla centralnym elementem
+3. NTSC (Nowa Techno Scena) jako pododdzial CUKT organizowala techno i byla integralna czescia projektu
+4. Zdjecie instalacja_dok.jpg jest kluczowym elementem ikonograficznym z napisem 'polityka albo zdrowie' i billboardem cenzury
+
+### Status teczki:
+- 10 GOOD_PHOTO opisanych i zapisanych do bazy danych
+- 4 SCAN_READY (TIFF) pozostaja nieopisane - duze pliki, do analizy pozniejszej
+- Pelna dokumentacja wideo (3 pliki, ~28 min) nie byla przedmiotem analizy
+
+Autorzy: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski
+
+Miejsce: Forty Napoleońskie, Gdańsk
+Data: wrzesień 1995 (36 godzin nieprzerwanie)

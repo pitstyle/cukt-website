@@ -519,3 +519,17 @@ Investigation of LAB 6 project on 2026-08-09. Processed two GOOD_PHOTO images: c
 ---
 AKTUALIZACJA (2026-08-09):
 Investigation of LAB 6 project (Rodzina C.U.K.T. installation). Processed 2 GOOD_PHOTO images: cukt.jpg and rodziana copy.jpg. Both images depict a staged conceptual photograph from 1997 featuring a man with a long red beard and a woman in a business suit interacting with vintage computer equipment (CRT monitor, large keyboard) at CSW-Zamek in Warsaw. The woman holds a keyboard, the man holds a tablet-like object; both wear ID badges. The scene is interpreted as a commentary on technology, work, and human-computer interaction, possibly critiquing corporate culture or digital labor. No margin annotations, stamps, or handwritten notes were visible on the photographs. All GOOD_PHOTO images processed successfully.
+
+
+---
+AKTUALIZACJA (2026-08-10):
+Investigation of LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski project from 1997. Processed two GOOD_PHOTO images: cukt.jpg and rodziana copy.jpg. 
+
+Image analysis reveals:
+1. cukt.jpg: Staged conceptual photograph showing two individuals interacting with oversized computer peripherals in a minimalist room. A woman in a gray business suit sits on the floor holding a disproportionately large beige keyboard, while a man with a long red beard stands behind her holding a black mouse-like device connected to a bulky CRT monitor on a black platform. The image explores themes of human-technology relationships and performance art from the late 1980s/early 1990s. No visible text or margin annotations.
+
+2. rodziana copy.jpg: Composite of two photographs documenting the 1997 art installation 'Rodzina C.U.K.T.' by Mikołaj and Daniela at CSW-Zamek in Warsaw. Top photo: woman in gray suit holding oversized keyboard, man with long red beard holding tablet-like object, vintage CRT monitor on black platform. Bottom photo: similar scene with window and radiator visible. Caption below: 'Rodzina C.U.K.T.', strony WWW, Mikołaj i Daniela, warszawa, CSW-Zamek, 1997. Explores themes of early internet culture, digital identity, and human-machine relationships. No handwritten notes or margin annotations visible.
+
+Project context: This was a performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+
+Open questions: None identified during this walk - both images were processed and descriptions saved successfully.

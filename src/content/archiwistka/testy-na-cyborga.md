@@ -838,3 +838,85 @@ This artifact reveals a screening procedure used by CUKT during the mid-1990s, p
 ---
 AKTUALIZACJA (2026-08-09):
 DEEP archive investigation of the TESTY NA CYBORGA project (1995-2017). Discovered completed German-language ORIENTATIONSTEST form (image 37B.jpg) showing a 35-year-old Dutch woman (73kg) responding to four yes/no questions about residence identification, purpose awareness, grandfather's vital status, and Poland's EU accession (answered Yes to Q1, Q2, Q4; No to Q3). The form features CUKT logo (gear with laurel wreath and acronym) and handwritten '2' possibly indicating score/sequence. This reveals mid-1990s screening/selection procedures, institutional character of CUKT activities, post-Cold War European integration context, and multilingual nature of operations. Open question: What was the specific purpose of the ORIENTATIONSTEST form within CUKT projects?
+
+
+---
+AKTUALIZACJA (2026-08-10):
+# Teczka for TESTY NA CYBORGA project
+
+## Project: TESTY NA CYBORGA
+## Date: 2026-08-10
+## Investigator: Archiwistka
+
+### Summary of Investigation
+
+On 2026-08-10, I conducted an archive walk on the TESTY NA CYBORGA project. The project contains numerous records, including images and documents related to the "Tests on Cyborg" activities of CUKT in the mid-1990s.
+
+### Image Analysis
+
+I analyzed one image from the project: `37C.jpg` (UUID: 35db7902-aeef-4fd7-ab65-c828adb62579).
+
+**Description:**
+The image is a striking black-and-white photograph of a human hand pressed against a reflective surface (likely glass or polished metal). The hand is centered in the lower half of the frame, palm facing upward, fingers slightly splayed. The lighting creates high contrast: the palm and fingertips are brightly illuminated, while the background fades into deep shadow at the bottom and becomes overexposed and hazy at the top.
+
+**Details of the Hand:**
+- The hand appears weathered, with visible lines, creases, and texture on the skin, suggesting manual labor.
+- The thumb is wrapped with a coarse, frayed bandage or cloth, indicating injury or protection.
+- The fingers are extended with natural curvature, and the nails are short and unpolished.
+
+**Object on the Palm:**
+- In the center of the palm lies a small, rectangular object resembling a banknote or currency.
+- The design on the note is intricate and symbolic:
+  - Central emblem: a hammer and sickle (symbol of communism and socialist movements).
+  - Surrounding circular border: gear-like teeth (evoking industrial machinery or progress).
+  - Below the hammer and sickle: two stylized, curved shapes resembling wheat stalks or ears (associated with agriculture and abundance).
+  - The overall composition mirrors the emblem of the Soviet Union (USSR), combining symbols of industry (hammer), agriculture (sickle), and unity (wheat).
+- The note appears slightly crumpled or worn, adding to the sense of realism and use.
+
+**Background and Surface:**
+- The surface beneath the hand is smooth and reflective (possibly glass or metal).
+- The upper portion of the image is washed out with bright light, creating a gradient from white to gray, suggesting a window, sky, or artificial light source.
+- A faint horizontal line across the middle of the image may be a seam or reflection, adding depth and separation.
+
+### Interpretation and Significance
+
+The image is rich in symbolism and likely carries political, social, or personal meaning.
+
+1. **Symbolism of the Hand:**
+   - The hand, especially with the bandaged thumb, can represent labor, struggle, resilience, or injury. It may symbolize the working class or someone who has endured hardship.
+   - Pressing the hand against a transparent surface suggests confinement, longing, or a barrier between the individual and freedom or the outside world.
+
+2. **The Soviet Symbolism:**
+   - The presence of the hammer and sickle within a gear-and-wheat motif is unmistakably linked to communism and the USSR.
+   - Placing this symbol directly in the palm implies personal ownership, identity, or burden. It may suggest that the person’s life, values, or history are deeply tied to this ideology—or that they are carrying its legacy, whether proudly or painfully.
+
+3. **Possible Themes:**
+   - **Political Allegiance or Critique:** The image might be a commentary on the role of communism in personal lives—perhaps celebrating its ideals or critiquing its oppressive nature.
+   - **Memory and Legacy:** The worn note and bandaged hand could evoke memories of a past era, such as life under Soviet rule, and the lasting physical and emotional scars.
+   - **Human Cost of Ideology:** The image may reflect how political systems impact individuals—the hand is not just holding a symbol but bearing it, literally and figuratively.
+
+4. **Artistic Style:**
+   - The monochrome palette enhances the dramatic effect and timeless quality.
+   - The high contrast and grainy texture give it a documentary or vintage feel, reminiscent of photojournalism or conceptual art from the 20th century.
+
+### Connection to TESTY NA CYBORGA
+
+The TESTY NA CYBORGA project appears to involve forms, questionnaires, and possibly ideological testing or selection procedures. The presence of Soviet symbolism in the analyzed image may relate to the project's context in the mid-1990s, a period of post-Cold War transition in Europe. The image could represent:
+- A tool used in the tests to gauge ideological alignment.
+- A personal artifact of a participant reflecting their background or beliefs.
+- A symbolic element within the test materials themselves.
+
+### Open Questions
+
+1. What is the specific role or meaning of the Soviet-style banknote in the context of the Testy na Cyborga procedures? Was it used as a stimulus, a reward, or a symbol of ideological evaluation?
+2. Are there other images in the TESTY NA CYBORGA project that contain similar or contrasting political symbolism?
+3. How does the imagery of the bandaged hand (suggesting injury or labor) relate to the themes of the tests—perhaps referencing the physical or ideological toll of participation?
+
+### Conclusion
+
+This single image analysis reveals a layered artifact that speaks to the intersection of personal experience, ideological symbols, and the procedural context of the TESTY NA CYBORGA project. Further investigation of other images and documents in the project would help clarify the role of such symbols in CUKT's activities during this period.
+
+
+---
+AKTUALIZACJA (2026-08-11):
+Investigation of TESTY NA CYBORGA project: processed multiple ORIENTATIONSTEST forms and VERTRAG contracts from 1996 Düsseldorf. Images include hand photographs with symbolic emblems (hammer and sickle, gear, BANT emblem, etc.) and documentary forms. Saved descriptions for all GOOD_PHOTO images. Open questions remain about the purpose of ORIENTATIONSTEST and the meaning of emblematic hand images.
