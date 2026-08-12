@@ -533,3 +533,49 @@ Image analysis reveals:
 Project context: This was a performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
 
 Open questions: None identified during this walk - both images were processed and descriptions saved successfully.
+
+
+---
+AKTUALIZACJA (2026-08-11):
+Investigation of LAB 6 project: processed two GOOD_PHOTO images (cukt.jpg and rodziana copy.jpg). Descriptions saved. Noted disk-only image cukt1.JPG present in filesystem but not returned by archive_get_images; saved open question for further investigation. All mandatory outputs completed.
+
+
+---
+AKTUALIZACJA (2026-08-11):
+# LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski Investigation Summary
+
+## Project Overview
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski is a CUKT project from 1997 documented in the archive. The project contains materials related to the 'Rodzina C.U.K.T.' art installation by artists Mikołaj and Daniela.
+
+## Investigation Findings
+During this archive walk, I investigated two GOOD_PHOTO images from the LAB 6 project:
+
+1. **cukt.jpg** - A staged conceptual photograph from late 1980s/early 1990s depicting:
+   - A man with a long bright red beard standing behind a black platform holding a vintage CRT computer monitor and keyboard
+   - A woman seated on the floor holding the keyboard, wearing a business suit
+   - The man holds a small dark triangular object connected by a cord to the keyboard
+   - Both figures look upward, suggesting themes of technology, authority, and human-computer interaction
+   - Minimalist room setting with light-gray walls, wooden parquet floor, window with frosted glass, and white radiator
+
+2. **rodziana copy.jpg** - A composite of two photographs documenting the 'Rodzina C.U.K.T.' art installation (1997) by Mikołaj and Daniela at CSW-Zamek in Warsaw:
+   - Top photo: Woman (Daniela) seated on black platform holding keyboard, man (Mikołaj) standing behind in black robe with long red beard
+   - Bottom photo: Same figures with more architectural detail (window with frosted glass, radiator)
+   - CRT monitor displays simple circular graphic on blue screen
+   - Text identifies work: 'Rodzina C.U.K.T.', strony WWW, Mikołaj i Daniela, Warszawa, CSW-Zamek, 1997
+   - Installation explores themes of corporate culture, technology, gender roles in tech, and artistic performance
+
+## Connections
+- Both images explore human-computer relationships and technological themes
+- The red beard motif appears in both images as a striking visual element
+- Project connects to broader CUKT themes of technology, performance, and artistic experimentation in the 1990s
+
+## Open Questions
+- What is the exact meaning of the text/symbols on the monitor in cukt.jpg?
+- What was the specific purpose or message of the 'Rodzina C.U.K.T.' installation?
+- Are there other related materials in the CUKT archive exploring similar technology/performance themes from this period?
+
+## Verification
+- File existence verified before vision analysis
+- Correct UUID-first argument order used for save_description.py
+- Processed 2 GOOD_PHOTO images matching archive_get_images() count
+- Descriptions saved successfully for both images
