@@ -579,3 +579,8 @@ During this archive walk, I investigated two GOOD_PHOTO images from the LAB 6 pr
 - Correct UUID-first argument order used for save_description.py
 - Processed 2 GOOD_PHOTO images matching archive_get_images() count
 - Descriptions saved successfully for both images
+
+
+---
+AKTUALIZACJA (2026-08-12):
+Investigation of LAB 6 project on 2026-08-12. Processed two GOOD_PHOTO images: cukt.jpg and rodziana copy.jpg. Both images depict staged conceptual photographs from the 1997 art installation 'Rodzina C.U.K.T.' by Mikołaj and Daniela at CSW-Zamek, Warsaw. The images explore themes of technology, power dynamics, gender roles, and human-machine interaction through oversized computer peripherals and corporate-style badges. Descriptions saved for both images. Open question remains regarding the exact text on the badges worn by the figures. No TIFF or disk-only images detected beyond those returned by archive_get_images. All mandatory outputs completed: project selection, image retrieval, vision analysis, description saving, teczka update, question saving, walk summary, and Telegram notification.

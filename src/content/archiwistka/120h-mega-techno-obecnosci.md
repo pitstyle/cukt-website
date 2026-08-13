@@ -738,3 +738,48 @@ STATUS KOŃCOWY:
 ---
 AKTUALIZACJA (2026-08-05):
 Teczka projektu 120h Mega Techno Obecności (2-13 XII 1994, Konin) — COMPLETED DEEP WALK 2026-08-05. ARKUSZ TECZKI: Pre-CUKT /根系CUKT. Pełny tytuł: 'SZTUKA TO PRZESTRZEŃ KULTOWA ALBO NIE MA SZTUKI. W przybliżeniu 120 godzin Mega Techno Obecności'. Autorzy: Piotr Wyrzykowski + Robert Jurkowski. Projekt graficzny: Anna Nizio. Lokalizacja: Pawilon 'Rondo', ul. Przemysłowa 9, Konin — piwnice 'Pracownia Chwilowa'. Status: Pre-CUKT (pieczątka CUKT z 10.09.1996). KONCEPCJA: Społeczno-estetyczny eksperyмент zamiany funkcji galerii w klub techno. Galeria otwarta 18:00-4:00 zamiast standardowych 10:00-18:00. UKRYTE DZIEŁO: Mieszkańcy Konina nie zostali poinformowani o zamianie — przyszli na 'techno', znaleźli się w instalacji sztuki współczesnej. INSTALACJE: (1) Czerwona kolumna z żłobieniami (Robert Jurkowski) — cylindryczna rzeźba z farbą fosforyzującą, u podstawy miód + amfetamina, podświetlona od spodu. (2) Sala z fosforyzującymi napisami (Piotr Wyrzykowski) — 'hipertekst' czyli system sprzecznych twierdzeń o sztuce, wmiksowany na żywo w muzykę. (3) Lightbox 'ŻADEN ARTYSTA NIE MA RACJI' (2016 rekonstrukcja, 150x45cm). KONFLIKT: Projekt wywołał głębokie utożsamienie lokalnej społeczności. 'Półświadkowie Konina' — grupy przestępcze próbowały przejąć kontrolę. Dwie rywalizujące grupy gangsterów zmusiły organizatorów do zamknięcia po 7 dniach (zamiast planowanych 12). ZAMKNIĘCIE: Po wyjeździe autorów drzwi podpalono — na drzwiach lista pożegnalna z 9 XII. Interpretacja: rytualne ofiarowanie przestrzeni. STRUKTURA ZAPISU: 51 obrazów w archiwum (4 Dokumenty, 35 stykówek Krotulskiego, 6 skanów TIF, 5 fotografii Konin, 2 Obiekty/Lightbox). DEEP WALK 2026-08-05: Zrealizowano opisywanie 43 obrazów (GOOD_PHOTO + SCAN_READY). Pozostało: 6 plików TIF (TIFF → vision failure, ICM fallback). Teczka zapisana.
+
+
+---
+AKTUALIZACJA (2026-08-12):
+# Teczka śledcza: 1994 12 02 - 120h Mega Techno Obecności
+
+## Projekt
+**Pełna nazwa:** SZTUKA TO PRZESTRZE���Ń KULTOWA ALBO NIE MA SZTUKI. 120 GODZIN MEGA TECHNO OBECNOŚCI  
+**Data:** 2-13 XII 1994 (działalność: 2-8 XII, bufor: 9-13 XII)  
+**Miejsce:** Pawilon "Rondo", ul. Przemysłowa 9, Konin  
+**Autorzy:** Piotr Wyrzykowski, Robert Jurkowski  
+**Projekt graficzny:** Anna Nizio  
+**Status:** Pre-CUKT (pieczątka CUKT z 10.09.1996 — retrospektywne uznanie)
+
+## Opis projektu
+Pierwszy projekt Piotra Wyrzykowskiego i Roberta Jurkowskiego, uznany retrospektywnie za Pre-CUKT — korzeń z którego wyrósł Centralny Urząd Kultury Technicznej (1995). Społeczno-estetyczny eksperyment polegający na zamianie funkcji galerii sztuki w klub techno. Galeria "Pracownia Chwilowa" — piwnice handlowego pawilonu "Rondo" w Koninie — została przekształcona w nocny klub z godzinami otwarcia 18:00-4:00, odwracając konwencję galerii (10:00-18:00). Projekt miał trwać ok. 120 godzin (12 dni), ale został zamknięty po 7 dniach z powodu zagrożenia bezpieczeństwa.
+
+## Materiały wizualne — opisy
+
+### plakat.jpg (GOOD_PHOTO)
+- **Opis:** Profesjonalnie zaprojektowany polski plakat dla wydarzenia artystycznego zatytułowanego "Sztuka = Przestrzeń Kultowa" (Art = Cultural Space), odbywającego się od 2 do 13 grudnia 1994 roku w Pawilonie "Rondo" w Warszawie. Plakat charakteryzuje się żółtym tłem z ciemnoniebieskimi/czarnymi ramkami zawierającymi kluczowe informacje. Zawiera tekst: główne hasło "SZTUKA = PRZESTRZE���Ń KULTOWA", podtytuł "w przybliżeniu - godzina - równasię - lub", imiona twórców (Piotr Wyrzykowski, Robert Jurkowski), centralne słowo "KONSTRUKCJA", informacje o wydarzeniu (daty, godziny, lokalizacja, projektant graficzny Anna Nizio), ikony ochrony (okulary, nauszniki, maska), oraz symbole odrzutowca, satelity, symbolu atomowego, chmury grzybowej, schodów i strzałek. **Nie zauważono adnotacji ręcznych, pieczątek ani znaków zużycia.**
+
+### zapro_01.jpg (GOOD_PHOTO)
+- **Opis:** Projekt graficzny, prawdopodobnie plakat lub okładka albumu, z wyraźnym schematem czarno-żółtym. Lewy pionowy żółty pasek zawiera trzy ikony bezpieczeństwa (ochrona wzroku, słuchu, oddechu) z opisami po angielsku oraz logo "MUZA". Główna czarna область prezentuje cztery rzędy stylizowanych, geometrycznych żółto-obrysowanych znaków przypominających zmodyfikowany alfabet. Znaki tworzą zdanie po polsku: "Sztuka = Przestrzeń kultowa / Nie ma sztuki" ("Art = Cult space / There is no art"), sugerując konceptualny lub ironiczny komentarz na temat sztuki. Dolny żółty pas zawiera informacje kontaktowe dla lokalizacji w Koninie, Polska: "Konin 62-510 ul. Kolejowa 1a tel. 45 45 45", logo "pracownia chwilowa" ("temporary workshop") oraz hasło "WYDANIE AKTYWNE WYDANIE" ("AKTYWNA PUBLIKACJA"). **Nie zauważono adnotacji ręcznych, pieczątek ani znaków zużycia.**
+
+## Pozostałe materiały
+Zweryfikowano istnienie plików na dysku dla pozostałych obrazów zwróconych przez `archive_get_images()` (zapro_02.jpg, konin_01.jpg, konin_02.jpg, konin_03.jpg, konin_04.jpg, kolumnaMiki01.jpg, 120h_lightbox01.jpg, 120h_lightbox01 Medium.jpeg, img125.jpg oraz licznych plików SCAN_READY i TIFF w katalogach Fotografii/). Ze względu na limit jednego wywołania `vision_analyze` na spacer, pozostałe obrazy nie zostały poddane analizie wizualnej; ich metadane (nazwy, rozmiary, ścieżki) są dostępne w wyniku `archive_get_images()`.
+
+## Otwarte pytania
+1. Dlaczego wywołanie `archive_get_images(project_name="120h Mega Techno Obecności")` zwraca pustą tablicę, podczas gdy użycie pełnej nazwy projektu "1994 12 02 - 120h Mega Techno Obecności" zwraca rekordy? Czy to błąd w indeksowaniu czy zamierzona różnica w nazewnictwie?
+2. Czy pliki TIFF oznaczone jako SCAN_READY (np. cukt0006.tif, cukt0007.tif, Antyelekcja0006.tif) kiedyś zostaną w pełni ingestowane do archiwum CUKTAI, czy pozostaną jedynie jako negatywy bez UUID?
+3. Jaki jest pełny kontekst ikon bezpieczeństwa (eye, hearing, breathing protection) użytych w plakacie i zapro_01.jpg — czy są one komentarzami na temat postrzegania sztuki jako "niebezpiecznego" doświadczenia, czy też nawiązaniem do kontekstu przemysłowego miejsca wydarzenia?
+4. Kim są osoby przedstawione na zdjęciach z katalogu "Fotografie/120hNoweOdKrotulskiego/" (zdjęcia typu kontaktowego) oraz jaka jest ich rola w projekcie 120h Mega Techno Obecności?
+5. Co oznacza kod "424212" widoczny na plakacie — czy jest to numer telefonu, kod pocztowy, czy też wewnętrzny identyfikator wydarzenia?
+
+## Powiązania
+- Projekt jest retrospektywnie uznany jako Pre-CUKT, bezpośrednio prowadząc do powstania Centralnego Urzędu Kultury Technicznej w 1995.
+- Motto "Sztuka = Przestrzeń Kultowa" zostało później odwołane w konstrukcji lightboxu "���ŻADEN ARTYSTA NIE MA RACJI" (2016), która znajduje się w kolekcji obiektów tego samego projektu.
+- Strategia zamiany funkcji (galeria na klub) została rozwinięta w kolejnych projektach CUKT, takich jak Antyelekcja Technodemonstracja (1995).
+
+## � Źródła
+- Archiwum CUKTAI: 49 plików w `raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/`
+- Wiki projektu w archiwum CUKTAI (rekord `7d7d68fa-2f42-4195-9b2b-b8f745cce0ef`)
+- Wyjaśnienia Piotra Wyrzykowskiego, 2026-04-19 (z wiki)
+- Teczka śledcza Nocnego Archiwisty, 2026-04-19 (z wiki)

@@ -872,3 +872,80 @@ Osoby do kontaktu: Hanna Wróblewska, Andriej Bojanow, Rafał Ewertowski, Ewa Go
 ---
 
 *Werdykt Piotra: 2026-07-05 — zatwierdzenie warunkowe z poprawką (usunięto Urnę Wyborczą — koncept nierzeczywisty). Poprawka wdrożona.*
+
+
+---
+AKTUALIZACJA (2026-08-12):
+# Investigation Report: Wiktoria Cukt Bilbordy Banery
+
+## Project Selected
+2000 2001 - Wiktoria Cukt (Bilbordy Banery component)
+
+## Images Processed
+Found disk-only images in /home/macstorm/cuktai/raw/archive-usb/2000 2001 - Wiktoria Cukt/Bilbordy Banery/:
+- baner_mumok_350x232.jpeg (analyzed)
+- baner_mumok_350x232.tif
+- wiki_krzak_01.tif
+- 20181009_160420.jpg
+- Warszawa 07.jpg
+- etc.
+
+## Vision Analysis Results (baner_mumok_350x232.jpeg)
+This image is a striking, digitally manipulated poster or artwork that blends vintage portraiture with futuristic, geometric design elements. It appears to be part of a conceptual or satirical campaign, likely tied to the "Wiktoria Cukt Bilbordy Banery" project.
+
+### Visual Elements and Composition
+- Central focus: woman’s face and upper torso in classic, glamorous style reminiscent of mid-20th-century Hollywood or political portraiture.
+- Features: dark, arched eyebrows, long eyelashes, bright red lipstick, poised confident expression, voluminous reddish-brown updo.
+- Attire: light-colored, possibly cream or off-white formal dress or blouse.
+- Accessories: multi-strand pearl necklace with green gemstone clasp.
+- Geometric overlay: thin orange lines forming a complex mesh of triangles and polygons (resembling facial recognition software or digital wireframe model).
+- Background: vibrant solid blue with small repeating patterns:
+  - Stylized pixelated logo/stamp reading "CUKT" in block letters, enclosed in rectangular border.
+  - Small white "X" marks arranged in diagonal lines (resembling digital/barcode-like pattern).
+- Text and typography:
+  - Vertical text on left side: "PREZYDENT 2001" in bold sans-serif uppercase, below it "http://cukt.art.pl" in smaller font.
+  - Signature at bottom right: large flowing black cursive "Wiktoria Cukt", beneath it printed clean modern sans-serif "Wiktoria Cukt".
+
+### Annotations, Stamps, or Markings
+No physical annotations, stamps, or markings on edges/margins. However, the image simulates such markings through digital composition:
+- Repeated "CUKT" logos function like watermarks or brand stamps covering background uniformly.
+- "X" patterns resemble digital noise or security markings seen in surveillance imagery or data files.
+- Vertical text and URL act as metadata or provenance tags akin to labels on official documents or promotional materials.
+
+### Color Palette
+- Blue: dominant background color (evokes trust, authority, technology).
+- Orange/Red: used for geometric grid and lipstick (draws attention, suggests energy, danger, alertness).
+- Cream/White: subject’s clothing (provides contrast and elegance).
+- Black: used for signature and text (grounds image, adds formality).
+
+### Relation to "Wiktoria Cukt Bilbordy Banery" Project
+The phrase "Bilbordy Banery" translates from Polish to "Billboards Banners", indicating this image is likely intended for public display—perhaps as part of a street art or guerrilla marketing campaign.
+Given the name "Wiktoria Cukt" and title "PREZYDENT 2001", this is clearly a fictional or satirical presidential campaign.
+The use of facial recognition grids implies commentary on modern politics, surveillance, identity politics, or commodification of personality in democratic processes.
+Website "http://cukt.art.pl" confirms this is an artistic project, likely by an artist or collective named Cukt, based in Poland ("pl" domain). Year "2001" may reference historical moment, retro-futuristic aesthetic, or stylistic choice.
+
+### Overall Interpretation
+This image is a powerful piece of conceptual art that critiques or parodies modern political campaigns, digital identity, and media manipulation. Combines glamorous authoritative female figure with cold algorithmic grid, exploring tension between human persona and technological control.
+Functions as visual manifesto and mock campaign poster, using irony and surrealism to provoke thought about power, representation, and role of technology in shaping public figures.
+
+## Metadata Analysis (exiftool)
+- File: baner_mumok_350x232.jpeg
+- Format: JPEG, CMYK, Adobe Photoshop CS2 Macintosh
+- Dimensions: 6835x9922 pixels (67.8 megapixels)
+- Created: 2009-10-27 01:06:26
+- Software: Adobe Photoshop CS2 Macintosh
+- Note: Creation date (2009) is later than project period (2000-2001), indicating this is a later reproduction or digital artwork created for archival/exhibition purposes, not an original 2000-2001 billboard.
+
+## Open Questions
+1. What is the original source or purpose of this JPEG file? Was it created for a specific exhibition, archive, or as a digital reconstruction of a lost billboard?
+2. Are there any original billboard or banner artifacts from the Wiktoria Cukt campaign preserved in the archive (physical or digital)?
+3. What is the relationship between this image and the billboard/banner materials listed in the teczka (e.g., "Baner \"WIKTORIA CUKT PREZYDENT 2001\" — Gdansk NCK, Poznan")?
+4. Why do disk-only images like this exist in the filesystem but lack UUIDs in the database (VIRUS pattern C2)?
+5. Should these disk-only images be ingested into the archive proper, or are they intentionally left as reference/reproductions?
+
+## Verification
+- No images returned by archive_get_images() for project "2000 2001 - Wiktoria Cukt" (indicating potential VIRUS pattern C2 or catalog mismatch).
+- Disk-only images present in filesystem under Bilbordy Banery subfolder.
+- Vision analysis performed on one representative image (baner_mumok_350x232.jpeg).
+- No description saved via save_description.py due to missing UUID (VIRUS pattern).
+- Open questions saved for investigator review.
