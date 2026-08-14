@@ -1024,3 +1024,271 @@ Actually we analyzed all 10: 37C, 48C, 49C, 50A, 50B, 50C, BIURO2, BIURO3, 38A, 
 - Further investigate the ORIENTATIONSTEST questions and their historical context (Poland's EU accession debates).
 - Research Marek Richert/Mark Richter as a known German artist.
 - Analyze the emblem variations for potential chronological or thematic evolution.
+
+
+---
+AKTUALIZACJA (2026-08-13):
+# TESTY NA CYBORGA - Archive Walk Summary
+**Date:** 2026-08-13  
+**Project:** TESTY NA CYBORGA  
+**Agent:** Nocny Archiwista (CUKTAI)
+
+## Overview
+Continued investigation of the TESTY NA CYBORGA project, focusing on contract documents (VERTRAG) and orientation tests (ORIENTATIONSTEST) from the Zentralamt für Technische Kultur. Processed multiple GOOD_PHOTO images from the Dusseldorf 1996-10-01 session.
+
+## Images Processed
+Processed 9 GOOD_PHOTO images with vision_analyze and saved descriptions:
+
+1. **37C.jpg** - Black-and-white photograph of a human hand with a communist-style emblem (hammer and sickle with gear and wheat) on the palm. No marginal annotations.
+
+2. **50A.jpg** - VERTRAG contract between Zentralamt für Technische Kultur and Marek Richert (serial 50), requiring artwork pickup by 13.10.1996 with destruction clause. Signed 1.4.86 in DORF.
+
+3. **50B.jpg** - ORIENTATIONSTEST form with Polish/German nationality, age blank, weight 73kg. Answers: No to residence identification, Yes to knowing purpose, No to grandfather alive, Yes to Poland joining United Europe.
+
+4. **50C.jpg** - Close-up of human hand with circular emblem tattooed/printed on palm resembling Soviet-style state seal (gear, wheat wreath, central structure). Faint smudge in top-left margin.
+
+5. **BIURO2.jpg** - Behind-the-scenes studio/performance photo: man in dark suit by glass doors, person in white protective suit with turquoise bag in motion blur, studio equipment (tripod, lights, console). No marginal annotations.
+
+6. **38A.jpg** - VERTRAG contract with B. Helmerding (serial 38), artwork pickup deadline 13.10.1996, destruction clause. Signed 2.10.96 in Düsseldorf.
+
+7. **38B.jpg** - ORIENTATIONSTEST form with "CUHT" logo (variant), weight 62kg. Gender w (female), nationality D (Germany), age 35. Answers: No to residence identification, Yes to knowing purpose, Yes to grandfather alive, Yes to Poland joining United Europe.
+
+8. **39A.jpg** - VERTRAG contract with Almar Bertus (serial 39), artwork pickup deadline 13.10.1996, destruction clause. Signed 01.10.96 with elaborate signature.
+
+9. **39B.jpg** - ORIENTATIONSTEST form with CUKT logo, weight 80kg. Gender M (male), nationality NL (Netherlands), age 37. Answers: No to residence identification, No to knowing purpose, Yes to grandfather alive, Yes to Poland joining United Europe.
+
+## Key Findings
+- Consistent pattern: All VERTRAG contracts specify artwork pickup deadline of 13.10.1996 with destruction clause for non-compliance
+- Multiple individuals (Marek Richert, B. Helmerding, Almar Bertus) appear as both client and representative in contracts
+- ORIENTATIONSTEST forms show variations in logo (CUKT vs CUHT) and questioning patterns
+- International participation evident: Dutch, German, Polish, Dutch respondents
+- The Zentralamt für Technische Kultur appears to be a fictional/bureaucratic art project rather than real government agency
+
+## Open Questions
+1. What is the specific purpose of the ORIENTATIONSTEST forms in the TESTY NA CYBORGA project?
+2. Why do multiple contracts list the same individual as both parties (e.g., Marek Richert as both client and Zentralamt representative)?
+3. What happened to the artworks that were supposed to be picked up by 13.10.1996 - were any collected, or were they all destroyed per the contracts?
+
+## Verification
+- Processed 9 GOOD_PHOTO images (from archive_get_images)
+- Saved 9 descriptions via save_description.py
+- Updated teczka for TESTY NA CYBORGA via save_teczka.py
+- Will save open questions via save_question.py
+- This walk summary written to shared-walks
+- Telegram notification to be sent via send_telegram.sh --group
+
+## Next Steps
+Continue processing remaining GOOD_PHOTO images from TESTY NA CYBORGA collection, focusing on remaining Vertrag documents and Orientierungstest forms.
+
+
+---
+AKTUALIZACJA (2026-08-14):
+CUKT Archivist Night Investigation Walk - TESTY NA CYBORGA
+Date: 2026-08-14
+Project: TESTY NA CYBORGA
+Location: Dusseldorf, Germany (based on image paths)
+Processed 7 GOOD_PHOTO images:
+
+1. 37C.jpg: Black-and-white photograph of a human hand pressed palm-down against a dark smooth surface. The hand shows deep lines and wrinkles, suggesting age or physical labor. The thumb is wrapped in a frayed light-colored bandage, indicating injury. In the center of the palm is a hand-drawn emblem resembling the Soviet Union coat of arms: a circular gear encircling a hammer and sickle, flanked by wheat stalks, topped with a red star (rendered in black), enclosed in a rectangular border. No visible text. The image evokes themes of labor, resistance, political affiliation, and revolutionary struggle.
+
+2. 50C.jpg: Black-and-white photograph of a human hand with palm facing up, pressed against a dark smooth surface. The hand shows natural skin texture and creases. Prominently displayed on the palm is a complex emblem resembling a state or organizational seal, characterized by a central rectangular motif, a surrounding gear, and a wreath of wheat or laurel. This design strongly evokes socialist or communist iconography, such as that found in Soviet or Eastern Bloc nations. There is no visible text within the emblem itself. At the bottom of the image, part of a shirt cuff is visible with a single button fastened, featuring four holes arranged in a cross pattern. The background is dark and indistinct, drawing all attention to the hand. The lighting comes from above and slightly in front, creating bright highlights on the fingertips and the top of the palm, while the lower part of the hand and the wrist fall into shadow. There is a horizontal line or seam visible across the upper portion of the image, possibly indicating a window frame, door panel, or structural element behind the hand. The image carries a powerful, almost surreal tone. The presence of the official-looking emblem on the palm suggests themes of identity, control, surveillance, or ideological imprinting. It could be interpreted as a metaphor for being marked by a system—be it political, bureaucratic, or industrial. The stark monochrome palette enhances the gravity and timelessness of the scene.
+
+3. BIURO3.jpg: The image depicts a staged indoor scene, likely part of a contemporary art installation or performance. On the right, a man in dark clothing sits alone at a long table, facing forward with a neutral expression. On the table are a yellow object (possibly a clock or framed item), a glass, papers, and a book. Behind him is a plain white wall with a closed door. On the left, two individuals (one bald, one with dark hair) stand with their backs to the camera, focused on equipment that includes a large speaker or monitor and a tripod-mounted camera. Their posture suggests they are operating or observing the setup. In the center background, a small CRT television displays a blurry, colorful image—possibly hands—on the floor. Behind it is a dark window or glass door reflecting lights and silhouettes, hinting at an external space or audience. There is no visible text in the image. The objects include furniture (table, chair), electronic equipment (TV, camera, speaker), and personal items (glass, papers, book). The context is ambiguous but strongly suggests a performance or conceptual art piece, possibly exploring themes of surveillance, observation, communication, or isolation. The setting is minimalistic and institutional, contributing to a tense, introspective atmosphere.
+
+4. 50A.jpg: This image displays a formal document written in German, titled "VERTRAG" (Contract), issued by an organization called the Zentralamt für Technische Kultur (Central Office for Technical Culture). The document is printed on white paper with black ink and features a distinctive logo at the top center.
+
+--- 
+
+### **Logo Description** 
+
+At the top of the page is a circular emblem resembling a gear or cogwheel. Inside the gear, there is a wreath made of laurel leaves encircling a central rectangular block containing the acronym "CUKT" in bold, uppercase letters. The design evokes industrial or mechanical themes, consistent with the name "Technische Kultur" (Technical Culture).
+
+--- 
+
+### **Document Title and Header** 
+
+- **Title**: "VERTRAG" — meaning "Contract" in German. 
+- **Subtitle**: "zwischen dem Zentralamt für Technische Kultur" — meaning "between the Central Office for Technical Culture."
+
+This indicates that the contract is between the named office and an individual.
+
+--- 
+
+### **Parties Involved** 
+
+The document lists two parties:
+
+1. **Client/Recipient**: 
+   - Field: "Herren / Frau" (Mr./Ms.)
+   - Handwritten name: **MAREK RICHERT**
+   - Serial number: **50**
+
+2. **Provider/Issuer**: 
+   - Field: "Zentralamt für Technische Kultur überantwortet" (The Central Office for Technical Culture provides)
+   - Handwritten name: **MAREK RICHERT**
+
+This is unusual — the same person is listed as both the recipient and the provider. This suggests either a self-contract, a bureaucratic formality, or perhaps a fictional or satirical context.
+
+--- 
+
+### **Main Clause of the Contract** 
+
+The body of the contract states:
+
+> "ein den Parametern des / der Letztgenannten entsprechendes Kunstwerk mit der Weisung, dieses Kunstwerk bis zum... 13.10.1996 ... abzuholen."
+
+Translation:
+
+> "a work of art corresponding to the parameters of the aforementioned person, with the instruction to pick up this artwork by... October 13, 1996..."
+
+This implies that the Central Office for Technical Culture will produce or provide a piece of art tailored to the specifications of Marek Richert, and he must collect it by the specified date.
+
+--- 
+
+### **Consequence Clause** 
+
+> "Im Falle einer Unterlassung der termingerechten Abholung, sind wir gezwungen, das Kunstwerk zu vernichten."
+
+Translation:
+
+> "In the event of failure to collect the artwork by the deadline, we are forced to destroy the artwork."
+
+This clause adds a sense of urgency and finality to the agreement.
+
+--- 
+
+### **Date and Signature Section** 
+
+Below the main text, there is a line for "Ort und Datum" (Place and Date), with handwritten text:
+
+- **Date**: "1.4.86" — April 1, 1986
+- **Place**: "DÖRF" — likely short for a town or village, possibly "Dörf" or a stylized spelling of "Dorf" (village) — but could also be an abbreviation or fictional location.
+
+To the right, under "Unterschrift" (Signature), there is a cursive signature that appears to read **Marek**, matching the name of the party involved.
+
+--- 
+
+### **Context and Interpretation** 
+
+This document has several notable characteristics:
+
+- **Fictional or Satirical Nature**: The concept of a government-like "Central Office for Technical Culture" producing custom artworks based on personal parameters is highly unusual and likely fictional or conceptual. It may be part of an art project, performance, or commentary on bureaucracy, technology, and culture.   
+- **Self-Referential**: The fact that Marek Richert is both the client and the provider suggests a self-referential or meta-artistic gesture — perhaps the artist is contracting himself, creating a loop of artistic production and consumption.
+
+- **Date Anomaly**: The contract is dated **April 1, 1986**, but the pickup deadline is **October 13, 1996** — a full decade later. This creates a temporal disconnect, which may be intentional to highlight absurdity or to serve as a conceptual device.
+
+- **Artistic Statement**: The entire document functions as a conceptual artwork. The idea of a state agency producing personalized art, with strict deadlines and destruction clauses, critiques bureaucratic systems, commodification of art, or the relationship between the individual and institutional power.
+
+--- 
+
+### **Conclusion** 
+
+This is not a standard legal contract but rather a **conceptual or performative document**. It blends bureaucratic language with surreal content, suggesting it is part of an art installation or project by **Marek Richert**, who may be an artist known for such works. The document uses irony, precision, and institutional mimicry to explore themes of control, creativity, time, and identity.
+
+It is likely intended to provoke thought about how art is produced, distributed, and consumed within structured systems — especially those that claim to serve "technical culture."
+
+5. 38B.jpg: This image displays a document titled "ORIENTATIONSTEST" in bold, uppercase German letters. The document appears to be a form or questionnaire, likely from a fictional or satirical context, given its unusual content and design.
+
+--- 
+
+### **Header and Logo** 
+
+At the top center is a circular emblem resembling a gear or cogwheel with a laurel wreath encircling it. Inside the circle, the word "CUHT" is printed in bold, blocky, uppercase letters. The design evokes an industrial or bureaucratic aesthetic, possibly suggesting a state agency, organization, or institution.
+
+To the left of the logo, the code "TO-6" is printed, which may be a form identifier or classification number.
+
+To the right, the word "GEWICHT:" (German for "WEIGHT:") is printed, followed by a handwritten value: "62kg", indicating the weight of the person completing the form.
+
+--- 
+
+### **Main Title and Instructions** 
+
+Below the logo, the title "ORIENTATIONSTEST" is prominently displayed. This translates to "Orientation Test" in English.
+
+Following this, there is an instruction in German:
+
+> **Füllen Sie bitte die folgende Tabelle aus:**  
+> *(Please fill out the following table:)* 
+
+--- 
+
+### **Personal Information Table** 
+
+A three-row table follows, with fields for personal data:
+
+1. **Geschlecht:** (Gender) — Handwritten response: "w" (likely short for *weiblich*, meaning female). There is also a second, slightly larger "W" written in the adjacent column.
+2. **Staatsangehörigkeit:** (Nationality) — Handwritten response: "D" (likely short for *Deutschland*, Germany).
+3. **Alter:** (Age) — Handwritten response: "35" 
+
+--- 
+
+### **Question Section** 
+
+Below the table, another instruction:
+
+> **Bitte, kreuzen Sie die richtige Antwort:**  
+> *(Please, mark the correct answer:)* 
+
+Four multiple-choice questions follow, each with options **a) Ja** (Yes) and **b) Nein** (No). The responses are marked with hand-drawn crosses (X) or checkmarks.
+
+#### **Question 1:** 
+> **Können Sie Sich mit Deinem Wohnort identifizieren?**  
+> *(Can you identify with your place of residence?)*  
+> - a) Ja — ��� � � ✅ (marked with a checkmark)  
+> - b) Nein — blank 
+
+#### **Question 2:** 
+> **Wissen Sie, warum Sie hier sind?**  
+> *(Do you know why you are here?)*  
+> - a) Ja — ��� � � ✅ (marked with a checkmark)  
+> - b) Nein — blank 
+
+#### **Question 3:** 
+> **Lebt Ihrer Großvater noch?**  
+> *(Is your grandfather still alive?)*  
+> - a) Ja — blank  
+> - b) Nein — ���� �� �� ❌ (marked with an X)
+
+#### **Question 4:** 
+> **Wollen Sie, daß Polen dem Vereinten Europa beitritt?**  
+> *(Do you want Poland to join United Europe?)*  
+> - a) Ja — ��� � � ✅ (marked with a checkmark)  
+> - b) Nein — blank 
+
+--- 
+
+### **Context and Interpretation** 
+
+The document has a bureaucratic, almost Orwellian tone. The questions are strange and intrusive, especially question 3 about a grandfather’s status, which seems irrelevant to an orientation test. Question 4 references Poland joining “United Europe,” which may be a reference to the European Union, but the phrasing (\"Vereinten Europa\") is archaic or fictional.
+
+The use of "Deinem Wohnort" (your place of residence) in question 1 suggests a possessive or controlling tone, as if the respondent is being asked to affirm loyalty to their location.
+
+The overall structure resembles a psychological or ideological screening, perhaps parodying totalitarian or authoritarian regimes that require citizens to prove their allegiance or mental alignment.
+
+The logo "CUHT" is not a real organization; it may be a fictional acronym, possibly standing for something like "Central Unit for Human Testing" or similar, reinforcing the dystopian or satirical nature of the document.
+
+--- 
+
+### **Handwriting and Physical Condition** 
+
+The handwriting is neat and legible, using what appears to be a black pen or ballpoint. The marks on the questions are clear and deliberate. The paper itself is white, with slight creases or shadows along the edges, suggesting it’s a physical document photographed or scanned.
+
+--- 
+
+### **Conclusion** 
+
+This is a fictional or satirical "Orientation Test" form, likely created for artistic, political, or humorous purposes. It mimics official government or institutional paperwork with absurd or invasive questions, possibly critiquing surveillance, conformity, or ideological indoctrination. The combination of bureaucratic design, odd questions, and the mysterious "CUHT" logo gives it a dystopian or Kafkaesque feel.
+
+6. 39A.jpg: This image is a German-language contract form titled "VERTRAG" (Contract) issued by the Zentralamt für Technische Kultur (Central Office for Technical Culture). At the top is a gear-shaped logo containing the acronym CUKT, surrounded by a laurel wreath. The document is addressed to Almar Bertus, identified as male ("Herrn"), with serial number 39. The office promises to deliver an artwork matching the recipient’s parameters, instructing them to pick it up by October 13, 1996. A warning states that failure to do so will result in the artwork being destroyed. The contract is dated October 1, 1996, and bears a stylized signature. The overall tone is bureaucratic and ominous, suggesting a fictional or conceptual context—possibly critiquing state control over art, identity, or individuality. There are no actual people or physical objects depicted; all content is textual and symbolic.
+
+7. 39B.jpg: This image is a scanned copy of a German-language orientation test form titled "ORIENTATIONSTEST", associated with an organization named CUKT, whose logo features a gear-like emblem with a laurel wreath and the acronym "CUKT" inside. The form includes a personal information section where the respondent has filled in: **Gender: M**, **Nationality: NL (Netherlands)**, and **Age: 37**. A handwritten note on the right side indicates **GEWICHT: 80 kg** (Weight: 80 kg). Below, four multiple-choice questions are presented, each with "Ja" (Yes) or "Nein" (No) options. The respondent answered: **No** to identifying with their place of residence, **No** to knowing why they are there, **Yes** to their grandfather being alive, and **Yes** to wanting Poland to join "United Europe." The document's tone is formal yet probing, suggesting it may be used for ideological screening, recruitment, or psychological assessment within a structured or potentially authoritarian group. There are no visible people or photographs; only text and handwritten responses are present. The context implies a setting involving identity, allegiance, and political stance, possibly within a military, paramilitary, or extremist framework.
+
+Open Questions:
+- What is the exact meaning of the emblem on the hand in 37C.jpg and 50C.jpg? Is it a specific political symbol or a generic revolutionary motif?
+- Who is Marek Richert and what is the significance of the self-contract in 50A.jpg?
+- What is the purpose of the ORIENTATIONSTEST forms (38B.jpg and 39B.jpg)? Are they genuine screening tools or artistic critiques?
+- What is the context of the BIURO3.jpg scene? Is it a reenactment, an actual performance, or a fictional setup?
+- What is the relationship between the Zentralamt für Technische Kultur and the individuals named in the contracts (Almar Bertus, Marek Richert, Dorota Feicht from 42A.jpg not processed)?
+- Why are there multiple contracts with different serial numbers and what is the artwork being referred to?
+
+Verification: For each processed image, file existence was verified before vision_analyze. The number of save_description.py calls matches the number of GOOD_PHOTO images processed (7).

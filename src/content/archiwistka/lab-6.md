@@ -584,3 +584,86 @@ During this archive walk, I investigated two GOOD_PHOTO images from the LAB 6 pr
 ---
 AKTUALIZACJA (2026-08-12):
 Investigation of LAB 6 project on 2026-08-12. Processed two GOOD_PHOTO images: cukt.jpg and rodziana copy.jpg. Both images depict staged conceptual photographs from the 1997 art installation 'Rodzina C.U.K.T.' by Mikołaj and Daniela at CSW-Zamek, Warsaw. The images explore themes of technology, power dynamics, gender roles, and human-machine interaction through oversized computer peripherals and corporate-style badges. Descriptions saved for both images. Open question remains regarding the exact text on the badges worn by the figures. No TIFF or disk-only images detected beyond those returned by archive_get_images. All mandatory outputs completed: project selection, image retrieval, vision analysis, description saving, teczka update, question saving, walk summary, and Telegram notification.
+
+
+---
+AKTUALIZACJA (2026-08-13):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+
+Analiza dwóch zdjęć z wystawy:
+
+1. Zdjęcie cukt.jpg:
+   - Przedstawia inscenizowaną, konceptualną fotografię będąca częścią instalacji artystycznej lub performansu, prawdopodobnie z końca lat 80. lub początku lat 90.
+   - Scena w minimalistycznym wnętrzu z jasnoszarymi ścianami, ciemnobrązową podłogą kafelkową i małym oknem z drewnianą ramą po lewej stronie. Poniżej okna grzejnik.
+   - Kobieta w szarym garniturze biznesowym siedzi na podłodze, trzymając na kolanach dużą, beżową klawiaturę komputerową (znacznie większą niż standardowa, sugerującą, że jest to rekwizyt lub część artystycznego przesłania).
+   - Mężczyzna z bardzo długim, grubym, jasnoróżowym brodą sięgającą poza klatkę piersiową, krótko ostrzyżonymi rudymi włosami, w czarnym swetrze lub tunice nad białą koszulą z widocznymi mankietami, stoi za i nieco po prawej stronie kobiety. Jego prawa ręka oparta na biodrze, lewa trzyma czarny przedmiot przypominający dużą, płaską mysz lub trackpad połączony cienkim przewodem. Noszi smycz z identyfikatorem podobnym do tego przypiętego do lewej klapy marynarki kobiety.
+   - Na czarnej platformie przed nimi stoi bulky, beżowy monitor CRT typowy dla wczesnych komputerów osobistych (np. modele z lat 80.–wczesnych lat 90.), nachylony lekko w stronę kobiety, sugerując, że jest częścią ich interakcji.
+   - Klawiura trzymana przez kobietę i urządzenie przypominające mysz trzymane przez mężczyznę są połączone przewodami, sugerując, że mają tworzyć system – choć ich przesadny rozmiar czyni je niewygodnymi w normalnym użyciu.
+   - Scena wywołuje tematy interakcji człowiek-komputer, roli płci w technologii oraz może być satyrą lub krytyką korporacyjnej lub technologicznej kultury. Nadmiernie duże periferyjne mogą symbolizować dominację lub absurdalność technologii w codziennym życiu. Postura mężczyzny, jego postura i broda mogą reprezentować patriarchalną kontrolę lub archetyp "guru technologicznego", podczas gdy siedząca pozycja kobiety może sugerować podporządkowanie lub bierną zaangażowanie.
+   - Identyfikatory noszone przez oboje osób sugerują formalny lub instytucjonalny kontekst — być może biuro, firma technologiczna lub wystawa. Ogólna estetyka, włączając w to przestarzały sprzęt komputerowy i modę, umiejscawia obraz wyraźnie w końcu XX wieku.
+   - Archiwum CUKT (prawdopodobnie odnoszące się do Centrum Wiedzy Miejskiej i Technologii, lub podobnie nazywanej instytucji) często gromadzi prace związane z kulturą cyfrową, sztuką mediów i krytyką społeczno-technologiczną. Ten obraz wpisuje się w taką ramę jako dzieło sztuki mediów lub performansu, które bada relację między ludźmi a technologią. Mogło zostać stworzone przez artystę lub kolektyw eksplorujący tematy takie jak:
+     * Dynamika płci w przemyśle technologicznym
+     * Obcość spowodowana technologią
+     * Rytualizacja komputeryzacji
+     * Satyra korporacyjnych środowisk IT
+   - Biorąc pod uwagę jego inscenizowaną inscenizację i elementy symboliczne, obraz ten prawdopodobnie jest dokumentowany w archiwum CUKT jako przykład krytycznej sztuki cyfrowej lub techno-performansu z ery, gdy komputery osobiste stawały się powszechne, ale nadal były postrzegane jako tajemnicze lub przerażające.
+
+2. Zdjęcie rodziana copy.jpg:
+   - Jest to kompozycja dwóch zdjęć, ułożonych pionowo, dokumentujących instalację artystyczną pt. "Rodzina C.U.K.T." (co po polsku oznacza "Rodzina C.U.K.T."), stworzoną przez artystów Mikołaja i Danielę w 1997 roku w CSW-Zamek w Warszawie.
+   - Tekst na dole obrazu potwierdza ten kontekst:
+     > "Rodzina C.U.K.T.", strony WWW, Mikołaj i Daniela, Warszawa, CSW-Zamek, 1997.
+   - Ta praca jest częścią archiwum CUKT, znaczącej kolekcji polskiej awangardowej i konceptualnej sztuki z końca XX wieku, często związanej z performance, instalacjami multimedialnymi i krytycznym komentarzem dotyczącym technologii, tożsamości i społeczeństwa.
+   
+   Szczegółowy opis dwóch zdjęć:
+   
+   ### Zdjęcie górne:
+   - **Scena**: Minimalistyczne wnętrze, prawdopodobnie hala galerii lub wystawowa, z jasnoszarymi ścianami i polerowaną podłogą drewnianą.
+   - **Postacie centralne**:
+     - Kobieta siedzi na czarnej niskiej platformie. Ma na sobie garnitur szary (marynarka i spódnica), czarne pończochy i czarne szpilki na wysokim obcasie. Jej postura jest pełna gracji i nieco teatralna — nogi skrzyżowane, trzyma na kolanach dużą beżową klawiaturę komputerową. Jej wzrok skierowany jest w górę i w prawo, sugerując kontemplację lub interakcję z czymś nad nią.
+     - Mężczyzna stoi za nią na tej samej platformie. Ma bardzo długą, grubą brodę rudą sięgającą pasa, oraz czarny, luźny strój lub szatę z widocznymi białymi mankietami przy nadgarstkach. Trzyma w prawym ręku mały czarny przedmiot (prawdopodobnie pilot lub stylus), a lewą rękę ma opartą na biodrze. Jego głowa jest odchylona do tyłu, oczy patrzą w górę, co odzwierciedla wzrok kobiety.
+   - **Przedmioty**:
+     - Bulky, beżowy monitor CRT stoi na platformie po prawej stronie kobiety. Jego ekran wyświetla prosty interfejs — prawdopodobnie przeglądarkę internetową lub ekran logowania — z okręgowym grafiką i pewnym tekstem (zbyt małym, aby go wyraźnie odczytać).
+     - Klawiatura trzymana przez kobietę wydaje się przesadnie duża, podkreślając jej rolę symboliczną piuttosto niż funkcjonalną.
+   - **Tło**: Po dalekiej prawej stronie częściowo widoczna jest ciemna zasłona lub przegroda, na której słabo widać odbicie lub obraz osoby (prawdopodobnie kobiety), co dodaje warstwy autoreferencjonalności lub nadzoru.
+   
+   ### Zdjęcie dolne:
+   - **Scena**: Podobna do górnego zdjęcia, ale z większą ilością szczegółów architektonicznych — okno z drewnianymi ramami i szkłem matowym widoczne jest na lewej ścianie, wraz z grzejnikiem pod nim. Oświetlenie wydaje się nieco przygaszone, nadając scenie bardziej zamknięty, introspektywny charakter.
+   - **Postacie i przedmioty**:
+     - Ta sama para mężczyzna i kobieta jest obecna, w niemal identycznych pozach i ubiorach.
+     - Kobieta nadal trzyma klawiaturę, teraz lekko inaczej skierowaną, i patrzy w górę w kierunku mężczyzny.
+     - Mężczyzna stoi z jedną ręką na biodrze i drugim trzymając mały czarny przedmiot, jego wzrok jest skierowany w górę.
+     - Monitor CRT pozostaje na platformie, ekran zwrócony do przodu.
+   - **Kompozycja**: Kąt jest nieco szerszy, ujawniając więcej pomieszczenia i podkreślając izolację postaci w przestrzeni. Czarna platforma, na której stoją, staje się bardziej wyraźna jako element przypominający scenę.
+   
+   ### Interpretacja i kontekst w archiwum CUKT:
+   
+   Tytuł "Rodzina C.U.K.T." jest grą słów. "C.U.K.T." jest akronimem, który może oznaczać "Cyfrowe Uczestnictwo Kultury Technologicznej" (Digital Participation in Technological Culture), chociaż jest również celowo ambivalentny i być może bezsensowny — co jest typowe dla sztuki konceptualnej. Słowo "Rodzina" sugeruje skonstruowaną, być może ironiczną, jednostkę domową składającą się z ludzkich i technologicznych elementów.
+   
+   Ta instalacja krytykuje nadchodzący wiek cyfrowy lat 90., szczególnie wzrost internetu ("strony WWW" — "strony WWW") oraz to, jak technologia zaczęła przekształcać ludzkie relacje, pracę i tożsamość. Postacie nie wchodzą ze sobą w interakcję, ale z maszyną — symbolizując obcość, uzależnienie lub uprzedmiotowienie ludzkiej obecności w świecie cyfrowym.
+   
+   Nadmiernie rozwinięta broda mężczyzny i formalny strój, połączone z biznesowym garniturem kobiety i klawiaturą, wywołują archetypy: postać patriarchalnej władzy lub "mędrca technologicznego", oraz "cyber-pracownika" lub "sekretarz cyfrowy". Ich wzrok skierowany w górę sugeruje aspirację, nadzór lub uległość wobec niewidzialnego systemu — być może samego internetu lub kontroli korporacyjnej.
+   
+   Monitor CRT, relikt wczesnej komputeryzacji, podkreśla historyczny moment: 1997 rok to czas, gdy internet stał się powszechny, lecz nadal był nowy i tajemniczy. Instalacja uchwytuje zarówno fascynację, jak i niepokój wobec tego nowego świata.
+   
+   ### Znaczenie dla archiwum CUKT:
+   
+   Archiwum CUKT dokumentuje eksperymentalne, często obciążone politycznie, praktyki artystyczne z Polski w okresie przejściowego po komunistycznym. Prace takie jak ta odzwierciedlają szerszy niepokój kulturowy związany z modernizacją, globalizacją i utratą tradycyjnych struktur społecznych. Korzystając z performance, kostiumu i przestarzałej technologii, Mikołaj i Daniela tworzą surrealistyczny obraz, który kwestionuje koszt ludzki postępu technologicznego.
+   
+   Ich użycie słowa "rodzina" w kontekście pozbawionym intymności lub emocjonalnej więzi podkreśla rozdrobnienie więzi społecznych w erze cyfrowej. Dzieło jest zarówno żartobliwe, jak i melankoliczne — krytyka zawarta w teatralności.
+   
+   ### Podsumowanie odpowiedzi na pytanie:
+   
+   Obraz składa się z dwóch fotografii dokumentujących instalację artystyczną pt. "Rodzina C.U.K.T." autorstwa polskich artystów Mikołaja i Danieli, wystawioną w 1997 roku w CSW-Zamek w Warszawie. Instalacja przedstawia dwóch performerów — mężczyznę z długą rudą brodą w czarnym stroju i kobietę w szarym garniturze — postawionych na czarnej platformie w minimalistycznej przestrzeni galerii. Kobieta trzyma dużą beżową klawiaturę komputerową, podczas gdy obok niej stoi duży beżowy monitor CRT wyświetlający prosty interfejs. Obie postacie patrzą w górę, sugerując zaangażowanie w niewidzialną siłę cyfrową lub autorytatywną.
+   
+   Scena obejmuje proste ściany i drewnianą podłogę, z oknem widocznym na dolnym zdjęciu. Pozę i kostiumy postaci można interpretować jako archetypy ery cyfrowej: technokratyczny patriarcha i cyber-pracownik. Dzieło krytykuje wzrost internetu ("strony WWW") i przemiany ludzkich relacji pod wpływem technologii, odzwierciedlając tematy powszechne w archiwum CUKT, które koncentruje się na sztuce konceptualnej, performatywnej i społecznie krytycznej z Polski po okresie komunistycznym. Dzieło wykorzystuje ironię, teatralność i przestarzałą technologię, aby skomentować obcość, nadzór i uprzedmiotowienie tożsamości w erze cyfrowej.
+
+
+---
+AKTUALIZACJA (2026-08-13):
+Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski (1997)\nImages processed: 3 GOOD_PHOTO images (cukt.jpg, rodziana copy.jpg, cukt1.JPG)\nDescriptions saved for each.\nKey observations: staged surreal scenes with man with long red beard, woman in gray suit with keyboard, CRT monitor, themes of technology, authority, human-machine interaction.\nThe images depict an art installation titled 'Rodzina C.U.K.T.' by Mikołaj and Daniela, 1997, exhibited at CSW-Zamek, Warsaw.\nOpen question: exact meaning of text on monitor in cukt1.JPG.
+
+
+---
+AKTUALIZACJA (2026-08-14):
+Investigation of LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski project. Processed two GOOD_PHOTO images: cukt.jpg and rodziana copy.jpg. Both images depict a staged conceptual art installation titled 'Rodzina C.U.K.T.' by artists Mikolaj and Daniela from 1997 at CSW-Zamek Warsaw. The images show a woman in business suit holding a vintage computer keyboard and a man with long red beard holding a tablet-like object, with a CRT monitor present. The installation explores themes of technology, gender roles, power dynamics, and human-computer interaction during early internet era. No margin annotations or handwritten notes found in images. Descriptions saved via save_description.py for both images.
