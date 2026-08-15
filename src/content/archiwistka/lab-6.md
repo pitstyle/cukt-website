@@ -667,3 +667,8 @@ Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski (1997)\nImages processed:
 ---
 AKTUALIZACJA (2026-08-14):
 Investigation of LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski project. Processed two GOOD_PHOTO images: cukt.jpg and rodziana copy.jpg. Both images depict a staged conceptual art installation titled 'Rodzina C.U.K.T.' by artists Mikolaj and Daniela from 1997 at CSW-Zamek Warsaw. The images show a woman in business suit holding a vintage computer keyboard and a man with long red beard holding a tablet-like object, with a CRT monitor present. The installation explores themes of technology, gender roles, power dynamics, and human-computer interaction during early internet era. No margin annotations or handwritten notes found in images. Descriptions saved via save_description.py for both images.
+
+
+---
+AKTUALIZACJA (2026-08-14):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski: Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT. Archive walk findings: Two GOOD_PHOTO images processed - cukt.jpg (conceptual photograph exploring gender roles, power dynamics, human-computer interaction with vintage computer equipment) and rodziana copy.jpg (composite documenting 1997 art installation 'Rodzina C.U.K.T.' by Mikolaj and Daniela at CSW-Zamek Warsaw). Descriptions saved via save_description.py. Open question regarding meaning of 'C.U.K.T.' in installation title saved via save_question.py.

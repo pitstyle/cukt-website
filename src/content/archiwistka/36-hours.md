@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-08-10"
+date: "2026-08-14"
 status: "W TOKU"
 ---
 
@@ -416,3 +416,49 @@ Autorzy: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jace
 
 Miejsce: Forty Napoleońskie, Gdańsk
 Data: wrzesień 1995 (36 godzin nieprzerwanie)
+
+
+---
+AKTUALIZACJA (2026-08-14):
+# 36 HOURS Walk Summary - 2026-08-14
+
+## Project: 36 HOURS
+- **Date Original:** September 1995
+- **Location:** Forty, Gdańsk (Forty Napoleońskie)
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Awsiej & Kabala, Rafał Grabowski
+
+## Walk Summary
+Today's DEEP archive investigation focused on the 36 HOURS project. We retrieved the project details and image catalog via MCP tools.
+
+### Image Processing
+We processed all GOOD_PHOTO images (14 total) from the project:
+- For each image, we verified file existence on disk.
+- Ran vision_analyze to obtain a detailed description.
+- Saved the description via save_description.py with the attachment UUID as first argument.
+
+All 14 GOOD_PHOTO images were successfully processed and descriptions saved.
+
+### Observations
+The 36 HOURS project appears to be a 36-hour artistic action realized in September 1995 in the Napoleonic Forts in Gdańsk. The archival materials include:
+- Posters (A4, A3, A1)
+- Photographic documentation (slides and digital files, ~20 analog + 20 digital)
+- Unique installation: Training roller with printed towels and a billboard with one of the first examples of political censorship in the III RP ("Censorship — amputation of a fragment of the body")
+- Video documentation (exhibition video, party footage, authority interview)
+
+The images we processed show various elements of the installation and documentation, including:
+- Industrial and underground spaces with artistic installations
+- Neon lighting and UV/blacklight effects
+- Kinetic sculptures and rotating mechanisms
+- Documented events resembling laser tag/paintball activities
+- Close-ups of molten materials (possibly from experimental processes)
+
+### Notes
+- All images were verified to exist on disk before processing.
+- No TIFF images (SCAN_READY) were processed for description saving, as they lack UUIDs and require separate handling.
+- The walk was conducted in cron mode, using direct MCP tool calls and terminal execution of save_description.py.
+
+## Open Questions
+No specific open questions were raised during this walk that require immediate saving via save_question.py. General questions about the project's exact location within the forts, the specific date in September, and the nature of some of the kinetic installations could be topics for further research.
+
+---
+*Walk completed on 2026-08-14 as part of the CUKTAI Archivist Night Investigation Pipeline.*

@@ -2,7 +2,7 @@
 title: "Czyn dla miasta Bytów"
 project: "Czyn dla miasta Bytów"
 type: "teczka"
-date: "2026-07-10"
+date: "1996"
 status: "W TOKU"
 ---
 
@@ -310,3 +310,37 @@ Opisy zapisano do `archive_attachments.ai_description` (34 UUID, skrypt z UUID�
 - `Projekt.doc` pełny tekst (catdoc).
 
 Podpisano: CUKTAI_Nocny_Archiwista
+
+
+---
+AKTUALIZACJA (2026-08-14):
+# CZYN DLA MIASTA BYTÓW - Sledztwo 2026-08-14
+
+## Sledztwo Summary
+
+DEEP walk completed 2026-08-14 for project 1996 06 28 - Czyn dla miasta Bytów (CZYN DLA MIASTA BYTÓW).
+
+## Key Findings
+
+### Core Project
+- **Date:** June 26-28, 1996 (during Zamek Wyobraźni festival)
+- **Location:** Bytów, Poland (Municipal Sports and Recreation Center)
+- **Authors:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio
+
+### Project Nature (from teczka and vision analysis)
+Performance art disguised as civic labor. CUKT members posed as municipal workers doing unpaid renovation work (remont domków turystycznych - holiday cottage renovation) and road painting. The project was simultaneously a Technopera premiere.
+
+### Official Documentation
+- **POROZUMIENIE** (Agreement 28.06.1996): Formal agreement between Municipal Council of Bytów (represented by Romana Zaborowski and Leszek Pałasz) and CUKT Gdańsk for unpaid repair/painting work in exchange for food and lodging.
+- **Kurier Bytowski** (18.07.96): Newspaper coverage of 650th anniversary celebrations, includes article on CUKT activities.
+- **Gazeta Morska**: Press coverage of Technopera premiere.
+
+### Key Visual Evidence
+- ROBOD work clothing sponsored by Gdańsk company (kombinezony with CUKT branding)
+- Original work coverall with HROBOD ODZIEŻ ROBOCZA branding preserved in archive
+- Audio cassette (Sony Type I 90 min) with Radio Maryja recording
+- Program schedules for IV International Artists' Meetings Zamek Wyobraźni (June 28-29, 1996)
+- 35mm film contact sheets (AGFA HDC 100, AGFA EXCEL CTX 200)
+
+### Performance Details (from archive_get_project content_text)
+- Część I: Robotnik
