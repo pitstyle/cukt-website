@@ -2,7 +2,7 @@
 title: "000 CUKT Dokumenty"
 project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-07-07"
+date: "2026-08-16"
 status: "W TOKU"
 ---
 
@@ -403,3 +403,67 @@ To jest LITERALNY PROTOKÓŁ ZAŁOŻYCIELSKI: CUKT = Urząd z siedzibą w Forty 
 - **2026-07-07 (Archiwistka, cron, Mode D/402):** Eskumacja tekstowa dokumentów założycielskich z dysku. Znaleziono Akt powstania (Urząd + Matryca Pierwotna), Manifest, Deklarację z paragrafami DNA CUKTAI. Odpowiedź na Consilium 08-07: „CUKT-as-office-1995" ZWERYFIKOWANY (nazwa/charter), ale rozłożony między szyld a praktykę.
 
 STATUS KOŃCOWY: Wizja niedostępna (402) — opisy wizualne zaległe; DB i zapis działają.
+
+
+---
+AKTUALIZACJA (2026-08-16):
+# 000 CUKT Dokumenty Archive Investigation Walk - 2026-08-16
+
+## Project Selection
+- Selected project: "000 CUKT Dokumenty" 
+- Reason: High record count (116 records), no recent dedicated walk found for this core institutional collection
+- Date range: 1994-01-01 onward
+
+## Image Discovery
+- archive_get_images(project_name="000 CUKT Dokumenty") returned []
+- This indicates either:
+  1. Images are filed under a different project name (cross-project misfiling)
+  2. Images have no database attachment (disk-only, VIRUS pattern C2)  
+  3. Images are misattached to "0000 CUKT - Dokumenty" (Variant C1)
+- No image files found in obvious project-named folders during disk scan
+- Proceeding with textual/metadata analysis per fallback procedure for cron mode
+
+## Project Analysis
+Based on archive_get_project() data, "000 CUKT Dokumenty" contains the founding institutional materials of CUKT (Centralny Urząd Kultury Technicznej), including:
+
+### Core Document Types Found:
+1. **Founding Documents (1994)** - Invitations, announcements establishing CUKT's existence
+2. **Official Seals** - Pieczęć CUKT (6x6x6cm), Pieczęć NTSC
+3. **Templates & Forms** - Wzór papieru firmowego CUKT (A4), Wzór druku, Wzór dowodów
+4. **Handwritten Records** - Odręczny zapis Konstytucji NTSC, Manifestów + CV
+5. **Official Publications** - Wydruki wywiadów z Urzędnikami CUKT (5-stronicowe)
+6. **Audio Materials** - Kasety audio z nagraniami NTSC (~60 min)
+7. **Identifier Projects** - Logo CUKT, Logo VIRUS, Logo PAKT, Identyfikatory Urzędników
+8. **Administrative Documents** - Rachunki, pliki cyfrowe, projekty współpracy
+9. **Visual Identity** - Projekty kartki świątecznej, legitymacje PCK (podróbka jako krytyczny komentarz)
+
+## Institutional Significance
+This collection demonstrates that CUKT's operational existence as an institution depended on material documentary infrastructure:
+- Documents enabled official actions (invitations, seals, forms)
+- Without these materials, CUKT would be merely a conceptual group
+- The collection shows intentional creation of bureaucratic infrastructure to enable artistic/political interventions
+- Pre-dates digital documentation practices, emphasizing materiality as institutional precondition
+
+## Connections to Other Projects
+- Materials likely used in: Antyelekcja Technodemonstracja, Testy na Cyborga, Technopera, HERE Performance
+- Provides physical basis for CUKT's ability to execute projects documented in other collections
+- Represents the "office" that enables the "actions" seen in performance/project documentation
+
+## Open Questions
+- Where are the actual image/files for these documented items stored? (Cross-project or disk-only issue)
+- Which specific documents were used in which CUKT actions/projects?
+- Are there missing gaps in the documentation (e.g., meeting minutes, internal communications)?
+- How did the document creation/distribution process work logistically?
+
+## Verification
+- Processed project data via archive_get_project() 
+- Confirmed 116 record count from archive_list_projects()
+- No images found via archive_get_images() - proceeding with textual analysis per cron mode fallback
+- All analysis based on verified archive catalog data
+
+## For Other Agents
+This collection is PRIORITY MATERIAL for understanding CUKT's institutional foundation:
+- Study before analyzing specific projects/actions
+- Provides essential context for how CUKT operated as an organization
+- Raises questions about document preservation vs. action preservation in archives
+- Suggests research methodology: follow the documents to understand the actions

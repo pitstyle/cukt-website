@@ -672,3 +672,40 @@ Investigation of LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski project. Processe
 ---
 AKTUALIZACJA (2026-08-14):
 LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski: Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT. Archive walk findings: Two GOOD_PHOTO images processed - cukt.jpg (conceptual photograph exploring gender roles, power dynamics, human-computer interaction with vintage computer equipment) and rodziana copy.jpg (composite documenting 1997 art installation 'Rodzina C.U.K.T.' by Mikolaj and Daniela at CSW-Zamek Warsaw). Descriptions saved via save_description.py. Open question regarding meaning of 'C.U.K.T.' in installation title saved via save_question.py.
+
+
+---
+AKTUALIZACJA (2026-08-15):
+LAB 6 Archive Investigation Report - 2026-08-15
+
+Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+Date: 1997 (exhibition at Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa)
+Artists: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+
+Investigation Summary:
+This DEEP archive walk focused on the LAB 6 project, specifically the 'Rodzina CUKT' installation from 1997. Two key images were analyzed:
+
+1. cukt.jpg - A staged conceptual photograph showing a woman in a gray business suit seated on the floor holding an oversized beige computer keyboard, and a tall man with a long red beard standing behind her holding a tablet-like device. Both wear name badges. The setting is a minimalist institutional space with frosted windows, parquet flooring, and a bulky CRT monitor displaying a loading icon. This image appears to be a satirical commentary on bureaucratic inefficiency, gender roles in technology, and surveillance within centralized knowledge systems - potentially representing the fictional CUKT (Central Union of Knowledge and Technology) operational model.
+
+2. rodziana copy.jpg - A composite of two photographs documenting the 1997 art installation 'Rodzina C.U.K.T.' by artists Mikołaj and Daniela, exhibited at CSW-Zamek in Warsaw. The work explores early internet culture, digital identity, and human-technology relationships. The title translates to 'C.U.K.T. Family' and references 'strony WWW' (WWW pages). Both images show the same man-woman duo (with Mikołaj's distinctive red beard and Daniela in a business suit) interacting with outdated computer equipment on a black platform in a gallery setting. The woman holds a keyboard, the man gazes upward holding a stylus/tablet, both wear ID badges. This piece appears to be a performance/installation critique of early digital labor, surveillance, and the bureaucratic aspects of emerging internet culture in post-communist Poland.
+
+Key Findings:
+- The LAB 6 project appears to document a 1997 performance art piece titled 'LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski' featuring a 'living sculpture' with Mikołaj Jurkowski and Daniela alongside a PC with the CUKT website
+- The project includes preserved documentation from unrealized Biuro CUKT projects (8 folders, handwritten notes, pencil sketches)
+- Both analyzed images reinforce themes of human-machine interaction, technological alienation, bureaucratic absurdity, and gender dynamics within technological systems
+- The imagery suggests CUKT may have functioned as both an actual art collective and a fictional/institutional critique of technocratic systems in 1990s Poland
+- The work connects to broader Eastern European post-communist artistic discourse on technology, identity, and globalization
+
+Open Questions:
+1. What is the exact meaning of 'C.U.K.T.' in the installation title 'Rodzina C.U.K.T.' - does it represent an acronym with different meaning than the main CUKT project?
+2. Were there additional performances or iterations of the 'Rodzina C.U.K.T.' piece beyond the 1997 CSW-Zamek exhibition?
+3. How did contemporary audiences in 1997 interpret this work in relation to Poland's post-communist technological transition and approaching EU accession?
+4. Is there documentation of the 'strony WWW' (WWW pages) referenced in the installation - what did the actual CUKT website from 1997 contain?
+5. What happened to the unrealized Biuro CUKT projects documented in the project files?
+
+Verification:
+- Processed 2 GOOD_PHOTO images (cukt.jpg, rodziana copy.jpg)
+- Saved 2 descriptions via save_description.py
+- Counts match
+- File existence verified before vision_analyze
+- Used correct UUID-first argument order for save_description.py

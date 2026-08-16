@@ -344,3 +344,15 @@ Performance art disguised as civic labor. CUKT members posed as municipal worker
 
 ### Performance Details (from archive_get_project content_text)
 - Część I: Robotnik
+
+
+---
+AKTUALIZACJA (2026-08-15):
+Investigation of Czyn dla miasta Bytów project:
+  1. Bytow_014.jpg: Shows a pile of discarded furniture and household items in front of a utilitarian building, suggesting a municipal collection point for donated or discarded furniture, possibly part of a city-wide cleanup or recycling drive.
+  2. kombinezon.jpg: Shows a worn work coverall with branding 'ODZIEŻ ROBOCZA HROBOD®' and emblem with 'WICHOVOL' and 'LUT', representing labor history and local industry connections.
+  3. ROBOD_Odzież Robocza.jpg: Same as above (close-up of the work coverall).
+  4. kaseta.JPG: Audio cassette with handwritten notes referencing local landmarks and institutions (Wyłobrzyn Castle, OSRODEK ZELENI, MOSiR) and radio contact, indicating grassroots documentation efforts.
+  5. Kurier Bytowski_Urodziny Miasta.jpg: Front page of local newspaper documenting the 650th anniversary celebrations of Bytów, including a main article, photograph of medieval reenactment, and local advertisements, reflecting civic pride, cultural programming, and community life.
+
+ The images collectively document the civic initiative 'Czyn dla miasta Bytów' through material culture (furniture pile, workwear), audio documentation (cassette), and media coverage (newspaper), highlighting themes of community engagement, labor history, heritage celebration, and urban renewal in post-communist Poland.

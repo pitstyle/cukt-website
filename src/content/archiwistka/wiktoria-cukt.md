@@ -949,3 +949,53 @@ Functions as visual manifesto and mock campaign poster, using irony and surreali
 - Vision analysis performed on one representative image (baner_mumok_350x232.jpeg).
 - No description saved via save_description.py due to missing UUID (VIRUS pattern).
 - Open questions saved for investigator review.
+
+
+---
+AKTUALIZACJA (2026-08-15):
+# WIKTORIA CUKT — Kampania Wyborcza
+
+## Sledztwo — 2026-08-15
+
+## Projekt
+WIKTORIA CUKT to kampania wyborcza artystyczna Piotra Wyrzykowskiego i CUKT, realizowana w latach 2000-2001 jako konceptualna interwencja w polską przestrzeń polityczną.
+
+## Źródło
+Zdigitalizowana dokumentacja z Muzeum Narodowego w Warszawie (2012) oraz CSW Gdańsk.
+
+## Archiwum —obrazy GOOD_PHOTO przeanalizowane
+
+### Muzeum Narodowe — WYWYŻSZENI (2012)
+- wiktoria_mnw-10.jpg: Komunistyczne plakaty propagadowe w muzeum — hasła o pracy i górnikach, PARTIA
+- wiktoria_mnw-2.jpg: Neon POLITYCY SĄ ZBĘDNI, plakat WIKTORIA CUKR PREZYDENT 2001, wireframe na twarzy
+- wiktoria_mnw-3.jpg: Galeria z plakatami polityków — Lech Wałęsa (L), Tadeusz Mazowiecki (siła spokoju)
+- wiktoria_mnw-4.jpg:Instalacja z ekranem — portret kobiety z siecią, Tadeusz Mazowiecki na ramie
+- wiktoria_mnw-6.jpg: Manekiny w fraku i sukni, hasło WIZERUNEK POLITYKA, neony Majewski
+- wiktoria_mnw-7.jpg: Manekin z afrem, hasło POLITYCY W SZKOLE, komitet gdański
+- wiktoria_mnw-11.jpg: Galerie z popiersiami marmurowymi — arystokracja barokowa, cesarze rzymscy
+- wiktoria_mnw-13.jpg: Mantla ceremonialna — aksamit w kolorze granatowym z haftem złotym, furolina
+
+### CSW Gdańsk — animacje
+- ca-bi0010.jpg do ca-bi0094.jpg: Klatki animacji video (85 plików) — film animowany o polityce
+
+### Dokumenty CUKT
+- identyfikator_03a.jpg: Plakietka identyfikacyjna Jacek Neuro Niegoda — CUHT Technical Culture Central Office
+- kwestionar_os_01.jpg: Kwestionariusz osobowy Piotra Wyrzykowskiego dla CUKT — data urodzenia 13.XII.1969, zawód artysta
+- pakt_logo.jpg: Logo PAKT — Powszechna Akademia Kultury Technicznej, motto o zmianach
+- kartka_sw.jpg: Dokument satyryczny CUKT — walidacja, systemy, procedury bezerrorowe
+- matrix4hdtvmax.jpg: Grafika ZMATRICA — Studio Sztuki i Kultury Technicznej, estetyka cyberpunk
+
+## Kluczowe obserwacje
+
+1. Kampania WIKTORIA CUKT to konceptualna operacja artystyczna — sztuczna kandydatka, estetyka kampanii wyborczej
+2. Neon POLITYCY SĄ ZBĘDNI — główny manifest kampanii
+3. Powiązanie z instytucjami: Muzeum Narodowe w Warszawie, CSW Zamek Ujazdowski, CSW Łaźnia Gdańsk
+4. Plakietka identyfikacyjna Jacek Neuro Niegoda — członek CUHT (Central Office of Technical Culture)
+5. Kwestionariusz CUKT dla Piotra Wyrzykowskiego — pełne dane osobowe artysty
+6. Logo PAKT z mottem o małych zmianach na wejściu i dużych na wyjściu
+7. Materiały video z CSW Gdańsk — dokumentacja animacji
+
+## Status
+- GOOD_PHOTO: 13 przeanalizowanych i opisanych
+- TIFF/SKAN: 11 plików (SNAP_READY) — oczekuje na pełne zdigitalizowanie
+- Klatki animacji: 85 plików (GOOD_PHOTO) — wymagają dalszej analizy
