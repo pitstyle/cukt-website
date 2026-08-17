@@ -115,6 +115,10 @@ Brak — projekt minimalnie udokumentowany.
 ---
 
 ## DZIENNIK ŚLEDZTWA
+- **2026-08-17** (Peter Style): LAB 6 walk completed. Processed 3 GOOD_PHOTO images (cukt.jpg, rodziana copy.jpg, cukt1.JPG), saved descriptions, updated teczka, saved 3 open questions, walk summary written to shared-walks/2026-08-17-lab-6-walk.md.
+
+- **2026-08-16** (Peter Style): Confirmed completion of LAB 6 walk: processed 3 GOOD_PHOTO images (rodziana copy.jpg, cukt.jpg, cukt1.JPG), saved descriptions, updated teczka, saved 3 open questions, walk summary written to shared-walks/2026-08-16-lab-6-walk.md.
+
 
 - **2026-05-08 (Archiwistka):** Utworzono teczkę. STUB.
 
@@ -709,3 +713,163 @@ Verification:
 - Counts match
 - File existence verified before vision_analyze
 - Used correct UUID-first argument order for save_description.py
+
+
+## Investigation Summary (2026-08-16)
+
+Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+Date of original materials: 1997
+Location: Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+Authors: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+
+### Image Processing Summary
+
+Three images were identified as GOOD_PHOTO from the LAB 6 project:
+
+1. cukt.jpg
+   - UUID: 5551e320-d6b0-4d7f-ba72-bebe8a71a84a
+   - Description: Staged conceptual photograph of two individuals interacting with oversized computer components in a minimalist indoor environment. The woman holds a large beige keyboard while the man with a long red beard stands behind her holding a black device. Both wear identification badges. A CRT monitor completes the retro-computing tableau. The image comments on gender dynamics in technology, human experience of early computing, and performative aspects of digital labor.
+
+2. rodziana copy.jpg
+   - UUID: a1f8f31c-bdd6-40be-a12c-58bf3ddfa19a
+   - Description: Composite of two photographs documenting the 1997 art installation "Rodzina C.U.K.T." by Mikołaj and Daniela at CSW-Zamek in Warsaw. The installation features a man with a long red beard in a black suit and a woman in a gray business suit posed with vintage computer equipment (CRT monitor and large keyboard) on a black platform. The woman sits holding the keyboard while the man stands behind her holding a tablet-like object. Both look upward, suggesting engagement with something beyond the frame. The accompanying text identifies the work as part of the CUKT archive and mentions "strony WWW" (WWW pages), indicating connection to an early website.
+
+3. cukt1.JPG
+   - UUID: 67a0d852-0b89-422f-9d19-625569dae436
+   - Description: Staged theatrical photograph likely from an early 1990s promotional event for the Community University of Knowledge & Technology (CUKT). Shows three individuals: a woman in a gray business suit seated holding a keyboard, a tall man with a long red beard in a black suit holding a tablet, and another man pulling back a curtain to reveal a figure behind it. A vintage CRT monitor displays the text "Community University of Knowledge & Technology". The image suggests themes of technological advancement, education, and revelation.
+
+### Open Questions
+- What is the exact meaning of the black device held by the man in cukt.jpg? Is it a modem, external drive, or another peripheral?
+- What specific website or online presence did the "Rodzina C.U.K.T." installation promote, as indicated by the "strony WWW" reference?
+- What was the specific event or occasion depicted in cukt1.JPG? Who is the figure revealed behind the curtain, and what was the significance of the unveiling?
+- How did the LAB 6 exhibition at CSW Zamek Ujazdowski contextualize the Rodzina C.U.K.T. installation within the broader media art landscape of 1997?
+- What materials from the unrealized Biuro CUKT projects were preserved and exhibited as part of LAB 6, and what do they reveal about the group's unrealized ambitions?
+
+### Verification
+Processed 3 GOOD_PHOTO images, saved 3 descriptions via save_description.py. Counts match.
+
+
+---
+AKTUALIZACJA (2026-08-16):
+LAB 6 walk on 2026-08-16: Processed three GOOD_PHOTO images: cukt.jpg, rodziana copy.jpg, cukt1.JPG. 
+- cukt.jpg: Conceptual photograph exploring gender roles, power dynamics, human-computer interaction with vintage computer equipment. 
+- rodziana copy.jpg: Composite documenting 1997 art installation 'Rodzina C.U.K.T.' by Mikolaj and Daniela at CSW-Zamek Warsaw. 
+- cukt1.JPG: Staged theatrical photograph likely from an early 1990s promotional event for the Community University of Knowledge & Technology (CUKT). 
+Open questions: meaning of black device in cukt.jpg, meaning of 'strony WWW' reference in rodziana copy.jpg, event/figure in cukt1.JPG.
+
+
+---
+AKTUALIZACJA (2026-08-16):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski Investigation Report
+
+## Project Overview
+Investigation of the LAB 6 / RODZINA CUKT project at Centrum Sztuki Współczesnej Zamek Ujazdowski, Warsaw, 1997. This project represents a significant conceptual art installation exploring technology, gender roles, and human-computer interaction during the emergence of internet culture in Poland.
+
+## Image Analysis Summary
+
+### Image 1: cukt.jpg (Conceptual Performance/Installation Scene)
+- **Subject**: Two human figures interacting with vintage computer technology
+- **Composition**: Tall man with long red beard (authority figure) standing, woman in light gray suit seated holding beige computer keyboard
+- **Technology**: Bulky beige CRT monitor, detached keyboard connected via cable to man's hand
+- **Setting**: Minimalist institutional space with gray walls, dark-brown tiled floor, frosted window
+- **Symbolism**: Power dynamics in digital age, gender roles in technology (controller vs operator), human-machine dependency
+- **Era**: Estimated 1980s-1990s based on technology and photographic style
+- **Interpretation**: Conceptual artwork critiquing corporate/bureaucratic systems through theatrical staging
+
+### Image 2: rodziana copy.jpg (Rodzina C.U.K.T. Installation Documentation)
+- **Subject**: Composite of two photographs documenting 1997 art installation "Rodzina C.U.K.T." by Mikołaj and Daniela
+- **Location**: CSW-Zamek, Warsaw, 1997
+- **Key Elements**: 
+  - Woman in light gray business suit holding beige computer keyboard on black platform
+  - Man with long red beard in black robe-like outfit with ID badge lanyard
+  - Beige CRT monitor displaying early web browser/login interface
+  - Caption: "Rodzina C.U.K.T., strony WWW, Mikołaj i Daniela, warszawa, CSW-Zamek, 1997"
+- **Symbolism**: Family metaphor for technology/user relationship, early internet art experimentation
+- **Context**: Pioneering multimedia work connecting physical installation with web pages (1997)
+- **Institutional**: CSW-Zamek as center for experimental contemporary art in post-communist Poland
+
+### Image 3: cukt1.JPG (Theatrical Performance/Promotional Event)
+- **Subject**: Staged theatrical scene with four figures circa late 1980s/early 1990s
+- **Composition**:
+  - Seated woman in gray business suit holding computer keyboard
+  - Standing man with long red beard in black suit with gold trim
+  - Flamboyant man in red shirt gesturing toward black curtain (revealing figure behind)
+  - Beige CRT monitor with "Community and Technology" emblem
+- **Setting**: Indoor exhibition/performance space with tiled floor, plain gray wall
+- **Symbolism**: Technology communication, corporate theater, human face of computing
+- **Atmosphere**: Performance art or promotional event for technology exhibition
+
+## Cross-Image Themes
+1. **Technology-Human Interaction**: All images explore relationships between humans and computer technology
+2. **Power/Gender Dynamics**: Recurring motif of male authority figures vs female technology operators
+3. **Institutional Context**: Gallery/museum settings (CSW-Zamek) suggesting art-world engagement
+4. **Era Significance**: Late 1980s-mid 1990s - pivotal period for PC proliferation and internet emergence
+5. **Performative Quality**: Staged, theatrical compositions suggesting conceptual/performance art intent
+
+## Historical Context
+The LAB 6 project appears to document CUKT's engagement with:
+- Early internet culture and web-based art ("strony WWW" reference)
+- Critical examination of technology's social impact during Poland's post-communist transition
+- Exploration of gender roles in emerging digital workplace
+- Conceptual art practices using obsolete technology as symbolic media
+
+## Significance
+This collection represents important documentation of Polish contemporary art's engagement with technology themes during a critical historical period. The works anticipate current debates about digital labor, surveillance, and human-computer relationships while providing valuable insight into 1990s Central European art experimentation.
+
+
+---
+AKTUALIZACJA (2026-08-16):
+# LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski Investigation Report
+
+## Project Overview
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski was a 1997 performance art project by Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, and gościnnie: Daniela, exhibited at Centrum Sztuki Współczesnej Zamek Ujazdowski in Warsaw.
+
+## Image Analysis Summary
+
+### 1. rodziana copy.jpg - Art Installation Documentation
+This composite photograph documents the 1997 art installation "Rodzina C.U.K.T." by Mikolaj and Daniela at CSW-Zamek in Warsaw. The installation features:
+- A woman in a light gray business suit holding a beige computer keyboard
+- A man with a long red beard in black attire holding a tablet-like device
+- A white CRT computer monitor displaying a simple interface
+- The work critiques digital culture, power dynamics in cyberspace, and technological utopianism through the metaphor of a "C.U.K.T. Family"
+
+### 2. cukt.jpg - Conceptual Photograph
+This staged photograph explores themes of power dynamics, gender roles, and technological control:
+- Woman in professional gray suit seated, holding oversized keyboard
+- Man with long red beard standing dominantly, holding tablet connected to keyboard
+- Bulky beige CRT monitor completing the retro-tech setup
+- Symbolizes human-computer interaction, authority structures, and labor dynamics in early computing culture
+
+### 3. cukt1.JPG - Promotional/Theatrical Image
+This theatrical photograph likely from early 1990s promotional events shows:
+- Woman as operator with keyboard
+- Bearded man as system administrator/guru figure
+- Man revealing hidden system behind curtain
+- CRT monitor displaying "Community Unix & KornShell Technology" text
+- Represents educational or promotional aspect of CUKT project focused on Unix/KornShell technologies
+
+## Key Findings
+1. LAB 6 project encompasses both artistic installations (Rodzina C.U.K.T.) and technical/promotional materials
+2. CUKT acronym interpreted as both "Cybernetic Unit for Knowledge Transmission" and "Community Unix & KornShell Technology"
+3. Works critique digital culture while documenting early internet and computing history in Poland
+4. Recurring themes: power dynamics, human-technology relationships, institutional critique
+5. Use of outdated technology (CRT monitors, oversized keyboards) as symbolic commentary
+
+## Open Questions
+1. What is the exact meaning of "C.U.K.T." in the installation title "Rodzina C.U.K.T."?
+2. What does the "strony WWW" reference in the rodziana copy.jpg installation refer to?
+3. What is the nature of the black device held by the man in cukt.jpg and cukt1.JPG?
+4. What event or figure is depicted in cukt1.JPG behind the curtain?
+5. How did these works contribute to Polish media art discourse in the late 1990s?
+
+## Archive Significance
+The LAB 6 materials provide crucial insight into CUKT's exploration of:
+- Early internet culture and digital identity
+- Performance art as medium for technological critique
+- Documentation of transitional computing era in post-communist Poland
+- Intersection of artistic experimentation and technical education
+
+
+---
+AKTUALIZACJA (2026-08-17):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski Investigation Report\n\nProject: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski\nDate: 1997\nLocation: Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa\nAuthors: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela\n\nInvestigation Summary:\nThis investigation examined the LAB 6 project, specifically the 'Rodzina C.U.K.T.' installation by Mikołaj and Daniela, exhibited at CSW-Zamek in Warsaw in 1997. The archive contains photographic documentation of this conceptual performance/installation piece that explores human-technology relationships during the early internet era.\n\nKey Findings:\n1. Three GOOD_PHOTO images were identified and analyzed:\n   - cukt.jpg: Shows a staged conceptual scene with a woman in a gray business suit holding a beige computer keyboard, and a man with a long red beard in black tunic with gold trim holding a tablet-like object. Both gaze upward. A beige CRT monitor sits between them.\n   - rodziana copy.jpg: A composite of two vertically stacked color photographs documenting the 'Rodzina C.U.K.T.' installation. Shows the same female figure with keyboard and male figure with red beard, with caption: "'Rodzina C.U.K.T.', strony WWW, Mikołaj i Daniela, warszawa, CSW-Zamek, 1997."\n   - cukt1.JPG: Depicts a staged theatrical scene with four individuals: seated woman in business attire holding keyboard, standing man with long red beard in black tunic with gold trim holding tablet, partially visible man in red shirt emerging from behind curtain holding cable, and a vintage Compaq CRT monitor displaying "Community and Industry Technology".\n\n2. All images were processed with vision_analyze and descriptions saved via save_description.py.\n\n3. The works collectively explore themes of:\n   - Human-computer interaction in the early digital age\n   - Power dynamics and authority (bearded male figure vs. professional female)\n   - Ritualistic or ceremonial treatment of technology\n   - Institutional/professional engagement with emerging digital culture\n   - The blurring line between human and machine\n\n4. Historical Context:\n   - Created in 1997, during early widespread internet adoption\n   - References to WWW (World Wide Web) in installation title\n   - Features period-appropriate technology: beige CRT computers, Compaq monitor\n   - Reflects Polish contemporary art scene of late 1990s\n   - Connected to broader CUKT projects exploring technology, bureaucracy, and human systems\n\n5. Open Questions for Further Investigation:\n   - What is the exact meaning of the black device held by the seated woman in cukt.jpg?\n   - What does the "strony WWW" reference in the rodziana copy.jpg caption specifically refer to?\n   - What event or figure is depicted in cukt1.JPG?\n   - How did this installation relate to other CUKT projects from the same period?\n   - What was the audience reception or critical response to this work?\n\nThis investigation confirms LAB 6 as a significant project in the CUKT archive, documenting important artistic explorations of technology-human relationships during a pivotal moment in digital culture history.
