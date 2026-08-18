@@ -356,3 +356,85 @@ Investigation of Czyn dla miasta Bytów project:
   5. Kurier Bytowski_Urodziny Miasta.jpg: Front page of local newspaper documenting the 650th anniversary celebrations of Bytów, including a main article, photograph of medieval reenactment, and local advertisements, reflecting civic pride, cultural programming, and community life.
 
  The images collectively document the civic initiative 'Czyn dla miasta Bytów' through material culture (furniture pile, workwear), audio documentation (cassette), and media coverage (newspaper), highlighting themes of community engagement, labor history, heritage celebration, and urban renewal in post-communist Poland.
+
+
+---
+AKTUALIZACJA (2026-08-17):
+# Czyn dla miasta Bytów / CASTLE OF IMAGINATION
+
+## Dane podstawowe
+- **Data:** 28 czerwca 1996
+- **Miejsce:** Bytów
+- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, Rafał Grabowski, Anna Nizio
+
+## Katalog archiwaliów (15 pozycji)
+Źródło: CUKT Archiwum_01-2.odt | Ścieżka SSD: raw/archive-usb/
+
+| Plik | Opis | Format | Ilość | Rok |
+|------|------|--------|-------|-----|
+| kaseta | kaseta z nagraniem z radia maryja | 180 min | 1 | 1996 |
+| 001_poruzumienie.jpg | Papier. maszynopis z podpisami i pieczęcią CU | A4 | 1 | 1996 |
+| 20181011_163958.jpg 20181011_163958 | Papier, druk atramentowy, | A4 | 2 | 1996 |
+| Cukt w Bytowie_Bogdan Zaduszny_1.jp | Papier, wydruk laserowy | A3 | 3 | 1996 |
+| Cukt w Bytowie_Bogdan Zaduszny_.jpg | Papier, wydruk laserowy | A4 | 1 | 1996 |
+| Gazeta Morska_Prapremiera Techopery | Orginał gazety | - | 1 | 1996 |
+| img_6688.jp | ksero z magazynu Flash Art | - | 1 | - |
+| Kurier Bytowski_Urodziny miasta.jpg | Oryginał gazety | A4 | 1 | 1996 |
+| Rachunek dla konsumenta kaszubianka | Papier, druk, pismo odręczne długopis | A6 A7 | 3 | 1996 |
+| tablica pamiatkowa.jpg | Projekt tablicy pamiątkowej | - | - | 1996 |
+| Techoopera_Prapremiera_Projekt.jpg | Papier, Pismo odręczne | - | - | 1996 |
+| Zamek_program_1.jpg Zamek_program.j | Papier, druk | A4 | 2 | 1996 |
+| 14 plików | negatywy, slaidy, wydruki, dokumentacja | 15cmx10 cm | 12 | 1996 |
+| kombinezon.jpg | Oryginalny kombinezon z logiem CUKT używany p | M | 1 | 1996 |
+
+## Opis śledztwa
+
+Podczas archiwistycznego spaceru zbadano projekt "Czyn dla miasta Bytów" - akcję remontową przeprowadzoną przez CUKT w Bytowie w ramach festiwalu, będącą jednocześnie prapremierą Technopery.
+
+### Kluczowe znaleziska:
+
+1. **Kombinezon roboczy HROBOD** (kombinezon.jpg):
+   - Pełnościowy kombinezon roboczy w kolorze beżowym/off-white
+   - Branding: "ODZIEŻ ROBOCZA" (czerwono, pionowo) oraz "HROBOD" (zielono) z symbolem ®
+   - Logo na piersi: okrągłe czarno-białe z obramowaniem typu zębatka, wewnątrz symbol budynku/zakładu z pionowymi liniami (okna/maszyny), napis "WICHOVOL" nad i "LUT" pod emblematem
+   - Stan: używany, z zmarszczkami, niewielkimi plamami i przebarwieniami, wisi na białym wieszaku plastikowym
+   - Tło: biała ściana z włącznikiem światła, fragment białych drzwi/szafki z czerwonym guzikiem, po prawej drewniana rama z fakturową powierzchnią (prawdopodobnie korkowa tablica lub panel dekoracyjny)
+
+2. **Dwustronna strona z publikacji lokalnej** (ROBOD_Odzież Robocza.jpg):
+   - Strona lewa (s. 6): artykuł "AKTUALNOŚCI" pt. "GS „Sch” w Kołczygłowach na rozdrożu" dotyczący kryzysu zarządczego w Gminnej Spółdzielni "Samopomoc Chłopska" (GS „Sch") w Kołczygłowach:
+     - Walne zgromadzenie 24 czerwca w restauracji "Tęczowa"
+     - Spór o prawidłowość zwołania i kworum
+     - Spór o powołanie nowego zarządu i rozwiązanie poprzedniego
+     - Cytaty A. Maciejewskiego, M. Krause, Kornelię Prądzyńską
+     - Referencje prawne (§19 pkt 2), terminy sądowe (30 czerwca)
+     - Wniosek o potrzebie nowego walnego zgromadzenia
+   - Strona prawa (s. 7): "AKTUALNOŚCI" z ogłoszeniami osobistymi i reklamami:
+     - Ogłoszenia jubileuszowe: 30-lecie ślubu Wojtaszewskich, 80 urodzin Marcie Majkowskiej, 68 urodzin Annie Stoltman, 30-lecie ślubu Heronów, 2-lecie ślubu Gliszyńskich
+     - Reklama PHU „ED-CARBON": najtańszy opał w mieście (węgiel groszek 210 zł/t, orzech 250 zł/t, koks groszek 310 zł/t, orzech 350 zł/t, wszystkie ceny zawierają VAT)
+     - Reklama Baru „Disco” w Bytowie
+     - Reklama DYSKOTEKI W STUDZIENICACH: pt.-ndz. 20:00-04:00, dyskoteka dla dzieci i młodzieży pt.-sob. 17:00-20:00, tel. 140-90
+
+### Znaczenie dla projektu:
+
+Projekt "Czyn dla miasta Bytów" reprezentuje koncepcję "niewidzialnego performance'u" - działania CUKT jako robotników miejskich, których praca była tak wtapienna w codzienność, że stawała się niezauważalna przez miejscowych. Lokalni mieszkańcy rzeczywiście uczyli ekipę CUKT, aby pracowali wolniej, aby "nie zabrakło pracy".
+
+Analiza materiałów wykazuje:
+- **Wymiar materialny**: używane kombinezony robocze HROBOD jako symbol pracy i wkładu w rozwój miasta
+- **Wymiar dokumentalny**: artykuł o konflikcie w lokalnej spółdzielni pokazuje dynamikę gospodarczą i społeczną regionu w latach 90.
+- **Wymiar społeczny**: ogłoszenia osobiste i reklamy lokalnych firm tworzą obraz życia codziennego Bytowa i okolic
+- **Wymiar performatywny**: projekt jako prapremiera Technopery łączy działania społeczne z eksperymentami artystycznymi
+
+### Połączenia z innymi projektami:
+- Prapremiera Technopery (1996-1997)
+- Działania społeczne i roboty publiczne
+- Dokumentacja życia lokalnego poprzez materiały archiwalne
+
+## Otwarte pytania:
+1. Czy logo "Wichovol Lut" na kombinezonie odnosi się do rzeczywistego lokalnego przedsiębiorstwa z Bytowa lub okolic?
+2. Jak dokładnie wyglądała umowa między CUKT a władzami miasta Bytów - jakie były zobowiązania stron?
+3. Czy tablica pamiątkowa została rzeczywiście zamontowana i czy przetrwała do dzisiaj?
+4. Jakie były konkretne efekty remontu domków turystycznych - ile obiektów zostało wyremontowanych?
+5. Czy działania CUKT w Bytowie miały wpływ na lokalną gospodarkę poza samym remontem?
+
+## Wnioski:
+Projekt "Czyn dla miasta Bytów" jest przykładem strategii CUKT łączenia działań społecznych, artystycznych i dokumentacyjnych. Przez pracę fizyczną w przestrzeni publicznej, jednocześnie dokumentującą kontekst społeczno-gospodarczy, CUKT tworzył wielowarstwowe_intervencje, które zarówno zmieniały materiale rzeczywistość (remont domków), jak i zapisywały proces zmian dla przyszłości. Projekt pokazuje, jak grupa artystyczna może działać jako aktywny uczestnik życia lokalnego, nie oddzielając się od społeczności, której dotyczy jej działanie.
