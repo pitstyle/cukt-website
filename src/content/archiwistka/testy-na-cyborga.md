@@ -1327,3 +1327,2524 @@ All mandatory outputs completed: image discovery, vision analysis, description s
 ---
 AKTUALIZACJA (2026-08-16):
 Project selection via archive_list_projects() and archive_get_project() selected TECHNOPERA 2024. Image discovery via archive_get_images() returned three GOOD_PHOTO images: NOT_6569.jpg, NOT_6572.jpg, NOT_6564.jpg. Each image was processed with vision_analyze and descriptions saved via save_description.py. NOT_6569.jpg is a synopsis for Technopera, a multimedia performance piece blending audio-visual samples from science fiction and philosophical texts, featuring virtual characters debating reality, technology, and the human condition, inspired by George Orwell's "1984". NOT_6572.jpg is a hand-drawn schematic titled "PIERWSZE PIĘTRO" (First Floor), depicting a testing environment with arrows indicating flow, barred areas, and labeled elements such as TESTY, > (command prompt), XEPD, and STAN 6, reflecting the project's themes of technological testing and human-machine interaction. NOT_6564.jpg is a typewritten letter from the State Higher School of Fine Arts in Gdańsk dated June 12, 1996, advocating collaboration between CUKT and NOT, describing CUKT as an artistic group combining modern communication technologies with traditional art, and NOT as the leading organization representing people of technological civilization. Together, these images reveal the TESTY NA CYBORGA project's deep engagement with cybernetic themes, the fusion of art and technology, and the exploration of identity in a digital age, rooted in the late 1990s Polish avant-garde scene.
+
+
+---
+AKTUALIZACJA (2026-08-18):
+# Investigation Summary for TESTY NA CYBORGA
+**Date:** 2026-08-18
+**Project:** TESTY NA CYBORGA
+
+## Project Details
+[
+  {
+    "id": "5b46694f-03e6-4037-8f9e-33b0c0500561",
+    "bank": "cukt-archiwum",
+    "title": "Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka na papierze firmowym",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka na papierze firmowym\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1995 __ __ - Test na Cyborga Galeria S Toru\u0144/dokumenty\nFormat: A4\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "1d4b4125-80e2-4dec-a423-226b125a45aa",
+    "bank": "cukt-archiwum",
+    "title": "Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka na papierze firmowym",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka na papierze firmowym\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1995 __ __ - Test na Cyborga Galeria S Toru\u0144/dokumenty\nFormat: A4\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "878e5810-d283-4708-b151-ee337128e1ab",
+    "bank": "cukt-archiwum",
+    "title": "Projekt.doc",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "CENTRALNY URZ\u00a5D KULTURY TECHNICZNEJ\n\n\nProjekt performance: Niemcy, Dusseldorf, 1-3.10.1996.\n\n1. Performance trzy dniowy.\n2. Rozgrywa si\u00ea multiprzestrzennie :\n      a. hall galerii - performance w\u00b3a\u0153ciwy. Warzenie widz\u00f3w - 3\nstanowiska, skanowanie twarzy i d\u00b3oni, wype\u00b3nianie testu przez obywatela\nprzy asy\u0153cie urz\u00eadnika, przyjmowanie testu, numerowanie, piecz\u00b9tkowanie (\nzapis video ), kwalifikowanie testu, wr\u00eaczanie opaski odpowiedniego koloru.\nDzie\u00f1 I.\n\n      b. galeria - powstawnie instalacji z\u00b3o\u00bfonej z work\u00f3w wype\u00b3nianych\npiachem i opatrzanych odpowiednimi etykietami. R\u00f3\u00bfne rodzaje work\u00f3w\n( przekr\u00f3j spo\u00b3ecze\u00f1stwa ) u\u00b3\u00f3\u00bfone w zbiory. Aktualny stan wagii zbiorowej\n- odczyt non stop. Ka\u00bfdemu obywatelowi przyporz\u00b9dkowany jest worek z\npiachem o wadze identycznej co obywatel. Worki posiadaj\u00b9 etykiety z\nnumerem, wag\u00b9, skanem d\u00b3oni i twarzy oraz kryptonimem identyfikacyjnym\ngrupy ( wynik testu ). Dzie\u00f1 II.\n\n      c. przestrze\u00f1 publiczna - kolporta\u00bf fa\u00b3szywych gazet lokalnych\nopisuj\u00b9cych dzia\u00b3anie C.U.K.T.-u oraz jego efekty. Dzie\u00f1 III.\n\nUWAGA : Na wystaw\u00ea maj\u00b9 wst\u00eap tylko obywatele, kt\u00f3rzy poddanii b\u00ead\u00b9 w.w.\nprocedurz\u00ea.\n\n3. Przestrze\u00f1 przed galeri\u00b9  nasycona jest tubami transmituj\u00b9cymi d\u0178wi\u00eak z\nwn\u00eatrza galerii. Hall posiada w\u00b3asny system audio i piktogramy instruuj\u00b9ce\nobywatela o tym jak powinien si\u00ea zachowywa\u00e6 oraz system alarmowy w\u00b3anczany\nw wypadku niepodpo\u00bf\u00b9dkowania si\u00ea obywatela.\n4. Urz\u00eadnicy ubrani w jednakowe garnitury z identyfikatorami oraz\nwyposa\u00bfeni w system \u00b3\u00b9czno\u0153ci osobistej i elementy podporz\u00b9dkowania.\n5. Urz\u00eadnicy porozumiewaj\u00b9 si\u00ea z obywatelem wyuczonymi has\u00b3ami w j\u00eazyku\nniemieckim. Kontakt jednostronny.",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "c9a5f427-f7b2-4ab3-83ab-4302bb91d48d",
+    "bank": "cukt-archiwum",
+    "title": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": "Galeria S, Toru\u0144",
+    "source_type": "dokument",
+    "project_name": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "content_text": "# HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144\n\nPerformance z cyklu \u201cTesty na Cyborga\u201d \u2014 akcja polegaj\u0105ca na przeprowadzaniu test\u00f3w psychologicznych/biurokratycznych w\u015br\u00f3d widz\u00f3w. Widzowie wype\u0142niali formularze \u201cTestu niedoko\u0144czonych zda\u0144\u201d. Uzyskiwali sw\u00f3j numer identyfikacyjny i piecz\u0119\u0107 na ciele. Instalacja: st\u00f3\u0142 do ping ponga nag\u0142o\u015bniony, mapa Europy narysowan kr\u0119d\u0105.\n\n## Dane podstawowe\n\n- **Data:** 1995\n- **Miejsce:** Galeria S, Toru\u0144\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n\n## Katalog archiwali\u00f3w (37 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| od 1 do 42a | Papier ksero, | A4 | 84 | 1996 |\n| od 1 do 60 | Papier ksero, | A4 | 60 | 1996 |\n| 20181011_162203.jpg | Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka n | A4 | - | 1995 |\n| 20181011_162203.jpg | Negatyw kolor, odbitki | - | 15 | 1995 |\n| od 01 do 34A | Papier, ksero, Testy niedoko\u0144czonych zda\u0144 | A4 | 34 | 1995 |\n| 960628.jpg Byt\u00f3w_zamek_Cafe.jpg kli | Negatyw kolor, 2 odbitki | - | 2 | 1995 |\n| od 01 do 50 | Papier ksero, | A4 | 50 | 1995 |\n| IMG-6609.jpg | List zaproszenie CUKT\u2019u do Macieja Sienkiewic | A4 | 1 | 1996 |\n| IMG_6610-1.jpg | Druk informacyjny o kacji CSW Zamek Ujazdowsk | A4 | 1 | 1996 |\n| IMG_6612-1.jpg IMG_6613.jpg | Co jest Grane. Anons prasowy orygina\u0142 | A3 | 1 | 1996 |\n| IMG_6614.jpg | Odr\u0119czna notatka dyrektora Krukowskiego z zap | A4 | 1 | 1996 |\n| IMG_6615.jpg IMG_6616.jpg | Koperta z 6 rodzajami wlepek | 4cm x 4cm | 30 | 1996 |\n| - | Pliki cyfrowe | 4096x2732 pix | 12 | 1996 |\n| od 01A do 168C | Papier wydruk ksero pismo odr\u0119czne | A4 | 360 | 1996 |\n| 20181011_161753.jpg 20181011_161808 | Rysunek d\u0142ugopisem na papierze | A4 | 5 | 1996 |\n| 20181011_161908.jpg 20181011_161941 | Rysunek d\u0142ugopisem na papierze | A4 | 4 | 1996 |\n| 20181011_161918.jpg 20181011_161926 | Papier rysunek d\u0142ugopisem | A4 | 2 | 1996 |\n| 20181011_164227.jpg Obwieszczenie_p | Papier, wydruk ksero, pi\u0119cz\u0119\u0107 | A4 | 3 | 1996 |\n| 20181011_164537.jpg | Papier wydruk ksero | A4 | 10 | 1996 |\n| Biurcukt.cdr cuktofice.pdf | Pliki cyfrowe | - | 2 | 1996 |\n| Dok_01.jpg Projekt Wst\u0119pny_1.jpg Pr | Papier, wydruk, piecz\u0119\u0107 | A4 | 4 | 1996 |\n| dok_02 | Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne | A4 | 1 | 1996 |\n| Dok_03_a.jpg dok_03_b.jpg | Papier firmowy CUKT, odr\u0119czna notatka, sygnow | A4 | 2 | 1996 |\n| IMG_6548.jpg IMG_6550.jpg Ulotka.jp | Papier, druk offset | 20cm x 20 cm | 3 | 1996 |\n| Orientatontest.jpg | Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr | A4 | 20 | 1996 |\n| Plan_1.jpg Plan.jpg | Papier, rysunek d\u0142ugopisem, rysunek flamastre | A4 | 2 | 1996 |\n| Pryba_list.jpg Pryba_Recenzja_Wspom | Koperta z publikacj\u0105 recenzji Tomasza Pryby n | A5 | 1 | 1996 |\n| Umowa (r\u0119kopis).jpg | Papier, pismo odr\u0119czne, j\u0119zyk polski | A4 | 1 | 1996 |\n| Vertag.jpg | Papier, druk ksero, j\u0119zyk niemiecki | A4 | 1 | 1996 |\n| - | Negatyw kolor, odbitki | - | 20 | 1996 |\n| 20181009_114816.jpg | Bluza + spodnie. Tkanina bawe\u0142niana. | M | 1 | 1996 |\n| - | Papier, druk ksero | A4 | 120 | 1996 |\n| TestNaCyborgaDusseldorf.mov | Dokumentacja video Plik cyfrowy | 3min 54sek | - | 1996 |\n| TestNaCyborga01.pdf | Projekt ekspozycji test\u00f3w na cyborga Pliki cy | - | - | 2016 |\n| TestCyborgaZielona G\u00f3raCukt.mp4 | Plik wideo | 23min 18sek | - | 1996- 2016 |\n| TestCyborgaDussseldorf03.mp4 | Plik wideo | 09min 02sek | - | 1996- 2016 |\n| TestCyborgWarszawa01_1.mp4 | Plik wideo | 06min 51sek | - | 1996-2016 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "3c92c665-b686-40e6-bea5-345c97624668",
+    "bank": "cukt-archiwum",
+    "title": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": "Galeria S, Toru\u0144",
+    "source_type": "dokument",
+    "project_name": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "content_text": "# HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144\n\nPerformance z cyklu \u201cTesty na Cyborga\u201d \u2014 akcja polegaj\u0105ca na przeprowadzaniu test\u00f3w psychologicznych/biurokratycznych w\u015br\u00f3d widz\u00f3w. Widzowie wype\u0142niali formularze \u201cTestu niedoko\u0144czonych zda\u0144\u201d. Uzyskiwali sw\u00f3j numer identyfikacyjny i piecz\u0119\u0107 na ciele. Instalacja: st\u00f3\u0142 do ping ponga nag\u0142o\u015bniony, mapa Europy narysowan kr\u0119d\u0105.\n\n## Dane podstawowe\n\n- **Data:** 1995\n- **Miejsce:** Galeria S, Toru\u0144\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n\n## Katalog archiwali\u00f3w (37 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| od 1 do 42a | Papier ksero, | A4 | 84 | 1996 |\n| od 1 do 60 | Papier ksero, | A4 | 60 | 1996 |\n| 20181011_162203.jpg | Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka n | A4 | - | 1995 |\n| 20181011_162203.jpg | Negatyw kolor, odbitki | - | 15 | 1995 |\n| od 01 do 34A | Papier, ksero, Testy niedoko\u0144czonych zda\u0144 | A4 | 34 | 1995 |\n| 960628.jpg Byt\u00f3w_zamek_Cafe.jpg kli | Negatyw kolor, 2 odbitki | - | 2 | 1995 |\n| od 01 do 50 | Papier ksero, | A4 | 50 | 1995 |\n| IMG-6609.jpg | List zaproszenie CUKT\u2019u do Macieja Sienkiewic | A4 | 1 | 1996 |\n| IMG_6610-1.jpg | Druk informacyjny o kacji CSW Zamek Ujazdowsk | A4 | 1 | 1996 |\n| IMG_6612-1.jpg IMG_6613.jpg | Co jest Grane. Anons prasowy orygina\u0142 | A3 | 1 | 1996 |\n| IMG_6614.jpg | Odr\u0119czna notatka dyrektora Krukowskiego z zap | A4 | 1 | 1996 |\n| IMG_6615.jpg IMG_6616.jpg | Koperta z 6 rodzajami wlepek | 4cm x 4cm | 30 | 1996 |\n| - | Pliki cyfrowe | 4096x2732 pix | 12 | 1996 |\n| od 01A do 168C | Papier wydruk ksero pismo odr\u0119czne | A4 | 360 | 1996 |\n| 20181011_161753.jpg 20181011_161808 | Rysunek d\u0142ugopisem na papierze | A4 | 5 | 1996 |\n| 20181011_161908.jpg 20181011_161941 | Rysunek d\u0142ugopisem na papierze | A4 | 4 | 1996 |\n| 20181011_161918.jpg 20181011_161926 | Papier rysunek d\u0142ugopisem | A4 | 2 | 1996 |\n| 20181011_164227.jpg Obwieszczenie_p | Papier, wydruk ksero, pi\u0119cz\u0119\u0107 | A4 | 3 | 1996 |\n| 20181011_164537.jpg | Papier wydruk ksero | A4 | 10 | 1996 |\n| Biurcukt.cdr cuktofice.pdf | Pliki cyfrowe | - | 2 | 1996 |\n| Dok_01.jpg Projekt Wst\u0119pny_1.jpg Pr | Papier, wydruk, piecz\u0119\u0107 | A4 | 4 | 1996 |\n| dok_02 | Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne | A4 | 1 | 1996 |\n| Dok_03_a.jpg dok_03_b.jpg | Papier firmowy CUKT, odr\u0119czna notatka, sygnow | A4 | 2 | 1996 |\n| IMG_6548.jpg IMG_6550.jpg Ulotka.jp | Papier, druk offset | 20cm x 20 cm | 3 | 1996 |\n| Orientatontest.jpg | Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr | A4 | 20 | 1996 |\n| Plan_1.jpg Plan.jpg | Papier, rysunek d\u0142ugopisem, rysunek flamastre | A4 | 2 | 1996 |\n| Pryba_list.jpg Pryba_Recenzja_Wspom | Koperta z publikacj\u0105 recenzji Tomasza Pryby n | A5 | 1 | 1996 |\n| Umowa (r\u0119kopis).jpg | Papier, pismo odr\u0119czne, j\u0119zyk polski | A4 | 1 | 1996 |\n| Vertag.jpg | Papier, druk ksero, j\u0119zyk niemiecki | A4 | 1 | 1996 |\n| - | Negatyw kolor, odbitki | - | 20 | 1996 |\n| 20181009_114816.jpg | Bluza + spodnie. Tkanina bawe\u0142niana. | M | 1 | 1996 |\n| - | Papier, druk ksero | A4 | 120 | 1996 |\n| TestNaCyborgaDusseldorf.mov | Dokumentacja video Plik cyfrowy | 3min 54sek | - | 1996 |\n| TestNaCyborga01.pdf | Projekt ekspozycji test\u00f3w na cyborga Pliki cy | - | - | 2016 |\n| TestCyborgaZielona G\u00f3raCukt.mp4 | Plik wideo | 23min 18sek | - | 1996- 2016 |\n| TestCyborgaDussseldorf03.mp4 | Plik wideo | 09min 02sek | - | 1996- 2016 |\n| TestCyborgWarszawa01_1.mp4 | Plik wideo | 06min 51sek | - | 1996-2016 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "073f0502-5055-4f3b-bb5c-8d10ea1e45b3",
+    "bank": "cukt-archiwum",
+    "title": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": "Galeria S, Toru\u0144",
+    "source_type": "dokument",
+    "project_name": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "content_text": "# HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144\n\nPerformance z cyklu \u201cTesty na Cyborga\u201d \u2014 akcja polegaj\u0105ca na przeprowadzaniu test\u00f3w psychologicznych/biurokratycznych w\u015br\u00f3d widz\u00f3w. Widzowie wype\u0142niali formularze \u201cTestu niedoko\u0144czonych zda\u0144\u201d. Uzyskiwali sw\u00f3j numer identyfikacyjny i piecz\u0119\u0107 na ciele. Instalacja: st\u00f3\u0142 do ping ponga nag\u0142o\u015bniony, mapa Europy narysowan kr\u0119d\u0105.\n\n## Dane podstawowe\n\n- **Data:** 1995\n- **Miejsce:** Galeria S, Toru\u0144\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (3 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 20181011_162203.jpg | Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka n | A4 | - | 1995 |\n| 20181011_162203.jpg | Negatyw kolor, odbitki | - | 15 | 1995 |\n| od 01 do 34A | Papier, ksero, Testy niedoko\u0144czonych zda\u0144 | A4 | 34 | 1995 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "99ef1f0c-ffce-4402-bb74-c174b43b838f",
+    "bank": "cukt-archiwum",
+    "title": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": "Galeria S, Toru\u0144",
+    "source_type": "dokument",
+    "project_name": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "content_text": "# HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144\n\nPerformance z cyklu \u201cTesty na Cyborga\u201d \u2014 akcja polegaj\u0105ca na przeprowadzaniu test\u00f3w psychologicznych/biurokratycznych w\u015br\u00f3d widz\u00f3w. Widzowie wype\u0142niali formularze \u201cTestu niedoko\u0144czonych zda\u0144\u201d. Uzyskiwali sw\u00f3j numer identyfikacyjny i piecz\u0119\u0107 na ciele. Instalacja: st\u00f3\u0142 do ping ponga nag\u0142o\u015bniony, mapa Europy narysowan kr\u0119d\u0105.\n\n## Dane podstawowe\n\n- **Data:** 1995\n- **Miejsce:** Galeria S, Toru\u0144\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (3 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 20181011_162203.jpg | Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka n | A4 | - | 1995 |\n| 20181011_162203.jpg | Negatyw kolor, odbitki | - | 15 | 1995 |\n| od 01 do 34A | Papier, ksero, Testy niedoko\u0144czonych zda\u0144 | A4 | 34 | 1995 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "6223009f-85f4-43c4-aacd-091b8c2e7f1f",
+    "bank": "cukt-archiwum",
+    "title": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": "Galeria S, Toru\u0144",
+    "source_type": "dokument",
+    "project_name": "HERE PERFORMANCE",
+    "content_text": "HERE PERFORMANCE / TESTY NA CYBORGA \u2014 Galeria S, Toru\u0144\n\nPerformance z cyklu \u201cTesty na Cyborga\u201d \u2014 akcja polegaj\u0105ca na przeprowadzaniu test\u00f3w psychologicznych/biurokratycznych w\u015br\u00f3d widz\u00f3w. Widzowie wype\u0142niali formularze \u201cTestu niedoko\u0144czonych zda\u0144\u201d. Uzyskiwali sw\u00f3j numer identyfikacyjny i piecz\u0119\u0107 na ciele. Instalacja: st\u00f3\u0142 do ping ponga nag\u0142o\u015bniony, mapa Europy narysowan kr\u0119d\u0105.\n\nArchiwalia:\n- Odr\u0119czna notatka na papierze firmowym CUKT (zapotrzebowanie sprz\u0119towe)\n- Dokumentacja fotograficzna: negatyw kolor, odbitki (ok. 15 fotografii)\n- Testy wype\u0142nione przez widz\u00f3w: 34 formularze (papier, ksero, A4)",
+    "tags": [
+      "cukt",
+      "archiwum"
+    ]
+  },
+  {
+    "id": "df04cd2d-bc0d-4d0e-ad20-242ac1205932",
+    "bank": "cukt-archiwum",
+    "title": "Negatyw kolor, odbitki",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Negatyw kolor, odbitki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1995 __ __ - Test na Cyborga Galeria S Toru\u0144/foto\nFormat: \nIlo\u015b\u0107: 15",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "4be3abef-79c4-4162-aa3c-f196c3e47833",
+    "bank": "cukt-archiwum",
+    "title": "Papier, ksero, Testy niedoko\u0144czonych zda\u0144",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, ksero, Testy niedoko\u0144czonych zda\u0144\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1995 __ __ - Test na Cyborga Galeria S Toru\u0144/testy\nFormat: A4\nIlo\u015b\u0107: 34",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "9ce8bc8f-f2ef-4fac-b4fe-65ae34e11c15",
+    "bank": "cukt-archiwum",
+    "title": "Negatyw kolor, 2 odbitki",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Negatyw kolor, 2 odbitki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 06 28 Byt\u00f3w\nFormat: \nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "6a7bb82f-adfe-450b-a65d-ee9b9a10af47",
+    "bank": "cukt-archiwum",
+    "title": "Pryba.rtf",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "{\\rtf1\\ansi\\ansicpg1250\\uc1 \\deff0\\deflang1045\\deflangfe1045{\\fonttbl{\\f0\\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\f1\\fswiss\\fcharset0\\fprq2{\\*\\panose 020b0604020202020204}Arial;}\n{\\f114\\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\f115\\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f117\\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\f118\\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f119\\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\f120\\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f121\\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\f122\\fswiss\\fcharset238\\fprq2 Arial CE;}\n{\\f123\\fswiss\\fcharset204\\fprq2 Arial Cyr;}{\\f125\\fswiss\\fcharset161\\fprq2 Arial Greek;}{\\f126\\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f127\\fswiss\\fcharset177\\fprq2 Arial (Hebrew);}{\\f128\\fswiss\\fcharset178\\fprq2 Arial (Arabic);}\n{\\f129\\fswiss\\fcharset186\\fprq2 Arial Baltic;}}{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\blue0;\\red255\\green255\\blue255;\\red0\\green0\\blue128;\n\\red0\\green128\\blue128;\\red0\\green128\\blue0;\\red128\\green0\\blue128;\\red128\\green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;}{\\stylesheet{\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 \\snext0 Normal;}{\\*\\cs10 \\additive Default Paragraph Font;}}{\\info{\\author Jacek Niegoda}{\\operator Jacek Niegoda}{\\creatim\\yr2001\\mo3\\dy6\\hr21\\min3}{\\revtim\\yr2001\\mo3\\dy6\\hr22\\min30}{\\version6}\n{\\edmins42}{\\nofpages1}{\\nofwords603}{\\nofchars3442}{\\nofcharsws4227}{\\vern8249}}\\paperw11909\\paperh16834\\margl720\\margr1417\\margt720\\margb1417 \n\\widowctrl\\ftnbj\\aenddoc\\hyphhotz425\\noxlattoyen\\expshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\hyphcaps0\\horzdoc\\dghspace120\\dgvspace120\\dghorigin1701\\dgvorigin1984\\dghshow0\\dgvshow3\\jcompress\\viewkind1\\viewscale100\\nolnhtadjtbl \\fet0\\sectd \n\\linex0\\headery708\\footery708\\colsx708\\sectdefaultcl {\\*\\pnseclvl1\\pnucrm\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl2\\pnucltr\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl3\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl4\n\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxta )}}{\\*\\pnseclvl5\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}\n{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl9\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}\\pard\\plain \\ql \\li0\\ri0\\nowidctlpar\\faauto\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 {\\f122\\fs22 DZIE\\'d1 PIERWSZY, OTWARCIE, WTOREK.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Centralny Urz\\'b9d Kultury Technicznej w sk\\'b3adzie: Robert, Artur, Jacek, Ania, Adam, Piotr plus moja skromna osoba, kt\\'f3ra zosta\\'b3a zaproszona do uczestnictwa w performance.\n\\par }{\\f1\\fs22 \"Grubego\" i }{\\f122\\fs22 Ani\\'ea obserwowa\\'b3em, trzy dni wcze\\'9cniej, w Gda\\'f1sku na d\\'b3ugim Targu. Osobi\\'9ccie pozna\\'b3em Ani\\'ea Nizio, kr\\'f3tko przed otwarciem dnia pierwszego. Ania ma ciep\\'b3e oczy, kr\\'f3ciutko \\'9cci\\'eate w\\'b3\nosy. Lod\\'f3w niepewno\\'9cci nie trzeba by\\'b3o topi\\'e6, gdy\\'bf ich nie by\\'b3o. Na g\\'f3rnej wardze uros\\'b3a jej krostka. Ania twierdzi, \\'bfe to przez niemieck\\'b9 wod\\'ea. Reszt\\'ea za\\'b3ogi ju\\'bf cz\\'ea\\'9cciej spotyka\\'b3em. W Gda\\'f1\nsku, u Klamana /Galeria Wyspa plus \\'a3a\\'9fnia/, b\\'b9d\\'9f na go\\'9ccinnych wyst\\'eapach w RFN,}{\\f1\\fs22  Emsdetten w 94 roku.\n\\par }{\\f122\\fs22 Czuj\\'ea lekkie niepewno\\'9cci, czy b\\'ead\\'ea pasowa\\'b3 do, jakby nie by\\'b3o nieznanej mi w szczeg\\'f3\\'b3ach koncepcji. Zostaj\\'b9 one szybko rozwiane.}{\\f1\\fs22  }{\\f122\\fs22 Po kr\\'f3tkim czasie czu\\'b3em si\\'ea stopiony z CUKTem i nale\n\\'bfycie spe\\'b3nia\\'b3em nadan\\'b9 mi funkcj\\'ea.\n\\par Ka\\'bfdy ch\\'eatny wej\\'9ccia na g\\'b3\\'f3wn\\'b9 sal\\'ea musia\\'b3 podda\\'e6 si\\'ea pewnej procedurze. M\\'f3j bia\\'b3y kombinezon oraz g\\'b3o\\'9cna megafon-szczekaczka zawieszona na ramieniu, jak i zdecydowany Niemiecki, kt\\'f3rym dosy\\'e6 bezwzgl\\'ea\ndnie nak\\'b3ania\\'b3em przybysz\\'f3w do spe\\'b3niania poszczeg\\'f3lnych warunk\\'f3w stawianych przez CUKT, ju\\'bf na wst\\'eapie wprowadza\\'b3y go\\'9cci wystawy w stan pewnego niepokoju, zamy\\'9clenia. Te z kolei przeradza\\'b3y si\\'ea\n, od czasu do czasu w zniecierpliwienie, lekki szok, b\\'b9d\\'9f nawet odczucie obrazy, skierowane w ich indywidualne poj\\'eacie wolno\\'9cci i nienaruszalno\\'9cci. Szczeg\\'f3lnie ludzie prasy stawiali niezno\\'9cne opory poddania si\\'ea\n wymogom. Jeden z nich, fotograf tutejszej \"wa\\'bfnej\" gazety, nie wytrzyma\\'b3 napi\\'eacia i oddali\\'b3 si\\'ea, bezpowrotnie od grupy, cierpliwie czekaj\\'b9cych za drzwiami, \"na zimnie\" go\\'9cci.\n\\par Rozumiej\\'b9c dok\\'b3adnie ten\\'bfe rozw\\'f3j oraz ewentualne nast\\'eapstwa, by\\'b3em niezdecydowany. Z jednej strony mog\\'b3em \"zaoszcz\\'eadzi\\'e6\" reporterowi powolnego wtajemniczania ,w arkana abstrakcji. Jako nagroda by\\'b3\naby fotka w prasie. Z drugiej strony chcia\\'b3em dostosowa\\'e6 si\\'ea do scenario CUKTu. W rezultacie zdecydowa\\'b3em si\\'ea na to drugie \n\\par }{\\f1\\fs22 Repo}{\\f122\\fs22 rter poszed\\'b3 do diab\\'b3a, a ja, wsp\\'f3lnie z Cuktem, doprowadzili\\'9cmy akcj\\'ea do ko\\'f1ca. Przer\\'f3b tego wieczoru by\\'b3 zadawalaj\\'b9cy. Nieco ponad dwie tony.\n\\par Ka\\'bfdy klient musia\\'b3 pojedynczo podda\\'e6 si\\'ea kolejnym etapom centralnej kontroli. Digitalne }{\\b\\f1\\fs22 , }{\\f1\\fs22 fototechniczne badani}{\\f122\\fs22 e wewn\\'eatrznej powierzchni lewej d\\'b3oni, zostawa\\'b3\no uwiecznione stemplem logo Cuktu oraz wpisaniem i dalszym podaniem danych, dotycz\\'b9cych wagi cia\\'b3a.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Ania, przy nast\\'eapnym punkcie, recytowa\\'b3a, w j\\'eazyku niemieckim formu\\'b3k\\'ea nakazuj\\'b9c\\'b9 wype\\'b3nienie tekstu, formularza. \"Virus\" bada\\'b3, w dalszej kolejno\\'9cci zgodno\\'9c\\'e6 wagi oraz wydziela\\'b3 umowy zezwalaj\\'b9ce}{\n\\f1\\fs22  }{\\f122\\fs22 na p\\'f3\\'9fniejsze odebranie indywidualnego odpowiednika wst\\'ea}{\\f1\\fs22 pnego prze}{\\f122\\fs22 robu, symbolizuj\\'b9cego jednocze\\'9cnie materialn\\'b9 cz\\'b9stk\\'ea deklaracji artystycznej, kt\\'f3ra oczekiwa\\'b3a uczestnik\\'f3\nw wielopoziomowej, niepokoj\\'b9}{\\f1\\fs22 cej akcji Delikates\\'f3w Avantgardy.\n\\par }{\\f122\\fs22 Fotokopia lewej d\\'b3oni uwiecznia\\'b3a centraln\\'b9 procedur\\'ea perfekcyjnej biurokracji. By\\'e6 mo\\'bfe dla}{\\f1\\fs22 tego tubylcy, od urodzenia i na co}{\\f122\\fs22 dzie\\'f1 skonfrontowani z t\\'b9 realn\\'b9, konieczn\\'b9 }{\\f1\\fs22 /?/ }{\n\\f122\\fs22 perwersj\\'b9, byli tak rozdra\\'bfnieni prezentowan\\'b9 im koncepcj\\'b9, od kt\\'f3rej praktycznie nie by\\'b3o ucieczki.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Przy wrotach do \"w\\'b3a\\'9cciwej\" sali, mia\\'b3}{\\f1\\fs22 a miejsce ostateczna kontrola papier\\'f3w /\"Die Papieren bitte\"/. Worek z piaskiem, skrupulatnie odw}{\\f122\\fs22 a\\'bf}{\\f1\\fs22 on}{\\f122\\fs22 y plus za\\'b3\\'b9cznik dokument\\'f3\nw zostawa\\'b3y wr\\'eaczane uczestnikom. Jednocze\\'9cnie indywidualna, ludzka waga, wpisywana kred\\'b9, w\\'eadrowa\\'b3a do sumy dziennego przer}{\\f1\\fs22 obu. Czarna tabliczk}{\\f122\\fs22 a zape\\'b3nia\\'b3a si\\'ea nowymi cyframi.\n W tym samym czasie, grupa oczekuj\\'b9cych,}{\\f1\\fs22  }{\\f122\\fs22 cierpliwych ws\\'b3uchiwa\\'b3a si\\'ea w metalicznie brzmi\\'b9cy g\\'b3os z megafonu, oznajmiaj\\'b9cy po nie}{\\f1\\fs22 miecku memorandum CUKTu. }{\\f1\\fs22\\lang1031\\langfe1045\\langnp1031 \n\"Sie sind herzlich willkommen\" . }{\\f1\\fs22 \"Kommen Sie here}{\\f122\\fs22 in\" . - odzywa\\'b3o si\\'ea nast\\'eapne zaproszenie. Cz\\'b3owiek W bia\\'b3ym kom}{\\f1\\fs22 binezonie oraz sz\\'f3stka zgodnie umund}{\\f122\\fs22 urowanych urz\\'eadnik\\'f3w z b\\'b3yszcz\n\\'b9cymi identyfikatorami \"CUKT\" wprowadza\\'b3a nast\\'eapnego klienta w arkana abstrakcyjnego przekazu, kt\\'f3ry mia\\'b3 przecie\\'bf tak w}{\\f1\\fs22 iel}{\\f122\\fs22 e wsp\\'f3lnych cech z zamaskowan\\'b9 iluzj\\'b9 rzeczywisto\\'9cci.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Osobi\\'9ccie odbiera\\'b3em t\\'b9 akcj\\'ea, jako uk\\'b3on w kierunku Georga Orwella oraz jako aluzj\\'ea do okrutnej przesz\\'b3o\\'9cci narodu niemieckiego, kt\\'f3rej symbolem s\\'b9 i jeszcze d\\'b3ugo pozostan\\'b9 dwa s\\'b3owa: Auschwitz Bi}{\n\\f1\\fs22 rkenau.\n\\par \n\\par \n\\par }{\\f1\\fs22 \n\\par }}",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "b623c48e-dbd6-4185-b193-ac868f097828",
+    "bank": "cukt-archiwum",
+    "title": "Papier ksero,",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier ksero,\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 06 28 Byt\u00f3w/Testy\nFormat: A4\nIlo\u015b\u0107: 50",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "3b5d4807-03d2-4804-b6ad-66415685ad13",
+    "bank": "cukt-archiwum",
+    "title": "Pryba_ang.rtf",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "{\\rtf1\\ansi\\ansicpg1250\\uc1 \\deff0\\deflang1045\\deflangfe1045{\\fonttbl{\\f0\\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\f1\\fswiss\\fcharset0\\fprq2{\\*\\panose 020b0604020202020204}Arial;}\n{\\f28\\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\f29\\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f31\\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\f32\\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f33\\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\f34\\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f35\\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\f36\\fswiss\\fcharset238\\fprq2 Arial CE;}{\\f37\\fswiss\\fcharset204\\fprq2 Arial Cyr;}\n{\\f39\\fswiss\\fcharset161\\fprq2 Arial Greek;}{\\f40\\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f41\\fswiss\\fcharset177\\fprq2 Arial (Hebrew);}{\\f42\\fswiss\\fcharset178\\fprq2 Arial (Arabic);}{\\f43\\fswiss\\fcharset186\\fprq2 Arial Baltic;}}\n{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\blue0;\\red255\\green255\\blue255;\\red0\\green0\\blue128;\\red0\\green128\\blue128;\\red0\\green128\\blue0;\n\\red128\\green0\\blue128;\\red128\\green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;}{\\stylesheet{\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 \\snext0 Normal;}{\\*\\cs10 \\additive Default Paragraph Font;}}{\\info{\\title FIRST DAY, OPENING, TUESDAY}{\\author Bara\\'f1ski}{\\operator Jacek Niegoda}{\\creatim\\yr2001\\mo3\\dy8\\hr18\\min54}\n{\\revtim\\yr2001\\mo3\\dy8\\hr18\\min54}{\\version2}{\\edmins2}{\\nofpages2}{\\nofwords623}{\\nofchars3554}{\\*\\company Galeria Zach\\'eata}{\\nofcharsws4364}{\\vern8249}}\\paperw11906\\paperh16838\\margl1418\\margr1418\\margt1418\\margb1418 \n\\deftab708\\widowctrl\\ftnbj\\aenddoc\\hyphhotz425\\noxlattoyen\\expshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\formshade\\horzdoc\\dghspace180\\dgvspace180\\dghorigin1701\\dgvorigin1984\\dghshow0\\dgvshow0\n\\jexpand\\viewkind4\\viewscale75\\pgbrdrhead\\pgbrdrfoot\\nolnhtadjtbl \\fet0\\sectd \\linex0\\headery708\\footery708\\colsx708\\endnhere\\sectdefaultcl {\\*\\pnseclvl1\\pnucrm\\pnstart1\\pnindent720\\pnhang{\\pntxta .}}{\\*\\pnseclvl2\\pnucltr\\pnstart1\\pnindent720\\pnhang\n{\\pntxta .}}{\\*\\pnseclvl3\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxta .}}{\\*\\pnseclvl4\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxta )}}{\\*\\pnseclvl5\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnstart1\\pnindent720\\pnhang\n{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl9\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}\\pard\\plain \n\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 {\\f1\\lang2057\\langfe1045\\langnp2057 FIRST DAY, OPENING, TUESDAY.\n\\par }\\pard \\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 {\\f1\\lang2057\\langfe1045\\langnp2057 \n\\par The Central Department for Technological Culture is composed of: Robert, Artur, Jacek, Ania, Adam, Piotr and my humble self \\endash  having been invited to take part in the performance.\n\\par }\\pard \\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 {\\f1\\lang2057\\langfe1045\\langnp2057 I first saw \\'93fatso\\'94 and Ania, three days before, in the market in }{\\f36\\lang2057\\langfe1045\\langnp2057 Gda\\'f1\nsk. I met Ania Nizio in person shortly before the opening. Ania has warm eyes and a short haircut. There was no need to break the ice, there was none. She had a zit on her top lip. Ania claims it was because of the German water. I\\rquote \nd met the rest of the crew more often. In Gda\\'f1sk, at Klamans / The Island Gallery and La\\'9fnia/, or at appearances in Emsdetten in West Germany, 1994.\n\\par }{\\f1\\lang2057\\langfe1045\\langnp2057 I have some doubts about whether I\\rquote m going to fit in with the whole concept, whose details I\\rquote m not entirely sure of. But my doubts are quickly dispersed. I quickly felt a part of the \nCDTC and was able to fulfil the function allotted me well enough.\n\\par Everyone wanting to enter the main room had to submit to a certain procedure. The white suit I had on and the loudspeaker slung over my sho\nulder, like the determined German I used quite relentlessly to persuade the arrivals to carry out the particular conditions set by the CDTC, from the very start, put visitors to the exhibition in a specific frame of mind - one of unease\n, thoughtfulness. This was then transformed into growing impatience, light shock, or even an offended attitude, working on their\n individual understanding of being free, untouchable. Members of the press were particularly reluctant to submit to the demands. One, a photographer from an \\'93important\\'94 local newspaper, couldn\\rquote \nt stand the pressure and moved away from the group, waiting patiently outside the doors, \\'93out in the cold\\'94, and didn\\rquote t come back.\n\\par Clearly understanding this development and its consequences, I was undecided. On the one hand, I could \\'93spare\\'94\n the reporter this slow initiation into the mysteries of abstraction. The reward would be a snap in the paper. On the other hand, I wanted to conform to the CDTC scenario. As a result I went for the second option.\n\\par The reporter went to hell, and the CDTC and I carried the action through. The processed product of this evening was satisfying. Just over two tons. \n\\par Each client had, individually, to submit to the successive stages of central control. Digital, photo-technical examination of the outside surface of the left hand, immortalised with the stamp of\n the CDTC logo, along with the recording of further givens related to body-weight. \n\\par At the next stage, Ania recited, in German, an injunction ordering everyone to fill out the text on the form. Next, \\'93Visus\\'94 checked the weight and issued agreements giving permission for the individual collection\n of the equivalent initial processed product, simultaneously symbolising the material part of the artistic declaration, prepared for the participants of the many-layered, unsettling action of the Delicatessen of the avant-garde.\n\\par The photocopy of the left hand immortalised the central procedure of perfect bureaucracy. Perhaps this is why people from here, confronted since birth with this real, necessary /?/ perversion, were so aggravated by the concept being presented to them\n, from which there was practically no escape.\n\\par The final document control /\\'94Die Papieren bitte\\'94/, took place on return to the \\'93designated\\'94 room. A bag of sand, weighed scrupulously, plus a documentary supplement, were handed out to the participants. At the same time, the individual\\rquote \ns  weight, written in chalk, was added to the total for the day\\rquote s processed product. The blackboard was filled with new figures. Simultaneously, those waiting, were engrossed in patiently listening to a metallic sounding voice over the loudspeaker\n, proclaiming the CDTC memorandum in German. \\'93Sie sind herzlich willkommen\\'94. \\'93Kommen Sie herein\\'94  - ran the subsequent invitation. The man in the white suit and six similarly attired bureaucrats with shining \\'93CDTC\\'94\n identification introduced the next client into the mysteries of abstract transfer, which had, after all, so much in common with features of reality, masked in illusion. \n\\par \n\\par }\\pard \\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 {\\f1\\lang2057\\langfe1045\\langnp2057 Personally, I took this action to be a nod in the direction of George Orwell and as an allusion to the cruel past of the German nation\n, whose symbol are, and will for a long time remain, two words: Auschwitz Birkenau. \n\\par }}\n",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "99f7674b-f729-4f94-904a-03bedb3a9215",
+    "bank": "cukt-archiwum",
+    "title": "Pryba_Recenzja_Wspomnienie.rtf",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "{\\rtf1\\ansi\\ansicpg1250\\uc1 \\deff0\\deflang1045\\deflangfe1045{\\fonttbl{\\f0\\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\f1\\fswiss\\fcharset0\\fprq2{\\*\\panose 020b0604020202020204}Arial;}\n{\\f114\\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\f115\\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f117\\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\f118\\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f119\\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\f120\\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f121\\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\f122\\fswiss\\fcharset238\\fprq2 Arial CE;}\n{\\f123\\fswiss\\fcharset204\\fprq2 Arial Cyr;}{\\f125\\fswiss\\fcharset161\\fprq2 Arial Greek;}{\\f126\\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f127\\fswiss\\fcharset177\\fprq2 Arial (Hebrew);}{\\f128\\fswiss\\fcharset178\\fprq2 Arial (Arabic);}\n{\\f129\\fswiss\\fcharset186\\fprq2 Arial Baltic;}}{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\blue0;\\red255\\green255\\blue255;\\red0\\green0\\blue128;\n\\red0\\green128\\blue128;\\red0\\green128\\blue0;\\red128\\green0\\blue128;\\red128\\green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;}{\\stylesheet{\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 \\snext0 Normal;}{\\*\\cs10 \\additive Default Paragraph Font;}}{\\info{\\author Jacek Niegoda}{\\operator Jacek Niegoda}{\\creatim\\yr2001\\mo3\\dy6\\hr21\\min3}{\\revtim\\yr2001\\mo3\\dy6\\hr22\\min30}{\\version6}\n{\\edmins42}{\\nofpages1}{\\nofwords603}{\\nofchars3442}{\\nofcharsws4227}{\\vern8249}}\\paperw11909\\paperh16834\\margl720\\margr1417\\margt720\\margb1417 \n\\widowctrl\\ftnbj\\aenddoc\\hyphhotz425\\noxlattoyen\\expshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\hyphcaps0\\horzdoc\\dghspace120\\dgvspace120\\dghorigin1701\\dgvorigin1984\\dghshow0\\dgvshow3\\jcompress\\viewkind1\\viewscale100\\nolnhtadjtbl \\fet0\\sectd \n\\linex0\\headery708\\footery708\\colsx708\\sectdefaultcl {\\*\\pnseclvl1\\pnucrm\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl2\\pnucltr\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl3\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl4\n\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxta )}}{\\*\\pnseclvl5\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}\n{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl9\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}\\pard\\plain \\ql \\li0\\ri0\\nowidctlpar\\faauto\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 {\\f122\\fs22 DZIE\\'d1 PIERWSZY, OTWARCIE, WTOREK.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Centralny Urz\\'b9d Kultury Technicznej w sk\\'b3adzie: Robert, Artur, Jacek, Ania, Adam, Piotr plus moja skromna osoba, kt\\'f3ra zosta\\'b3a zaproszona do uczestnictwa w performance.\n\\par }{\\f1\\fs22 \"Grubego\" i }{\\f122\\fs22 Ani\\'ea obserwowa\\'b3em, trzy dni wcze\\'9cniej, w Gda\\'f1sku na d\\'b3ugim Targu. Osobi\\'9ccie pozna\\'b3em Ani\\'ea Nizio, kr\\'f3tko przed otwarciem dnia pierwszego. Ania ma ciep\\'b3e oczy, kr\\'f3ciutko \\'9cci\\'eate w\\'b3\nosy. Lod\\'f3w niepewno\\'9cci nie trzeba by\\'b3o topi\\'e6, gdy\\'bf ich nie by\\'b3o. Na g\\'f3rnej wardze uros\\'b3a jej krostka. Ania twierdzi, \\'bfe to przez niemieck\\'b9 wod\\'ea. Reszt\\'ea za\\'b3ogi ju\\'bf cz\\'ea\\'9cciej spotyka\\'b3em. W Gda\\'f1\nsku, u Klamana /Galeria Wyspa plus \\'a3a\\'9fnia/, b\\'b9d\\'9f na go\\'9ccinnych wyst\\'eapach w RFN,}{\\f1\\fs22  Emsdetten w 94 roku.\n\\par }{\\f122\\fs22 Czuj\\'ea lekkie niepewno\\'9cci, czy b\\'ead\\'ea pasowa\\'b3 do, jakby nie by\\'b3o nieznanej mi w szczeg\\'f3\\'b3ach koncepcji. Zostaj\\'b9 one szybko rozwiane.}{\\f1\\fs22  }{\\f122\\fs22 Po kr\\'f3tkim czasie czu\\'b3em si\\'ea stopiony z CUKTem i nale\n\\'bfycie spe\\'b3nia\\'b3em nadan\\'b9 mi funkcj\\'ea.\n\\par Ka\\'bfdy ch\\'eatny wej\\'9ccia na g\\'b3\\'f3wn\\'b9 sal\\'ea musia\\'b3 podda\\'e6 si\\'ea pewnej procedurze. M\\'f3j bia\\'b3y kombinezon oraz g\\'b3o\\'9cna megafon-szczekaczka zawieszona na ramieniu, jak i zdecydowany Niemiecki, kt\\'f3rym dosy\\'e6 bezwzgl\\'ea\ndnie nak\\'b3ania\\'b3em przybysz\\'f3w do spe\\'b3niania poszczeg\\'f3lnych warunk\\'f3w stawianych przez CUKT, ju\\'bf na wst\\'eapie wprowadza\\'b3y go\\'9cci wystawy w stan pewnego niepokoju, zamy\\'9clenia. Te z kolei przeradza\\'b3y si\\'ea\n, od czasu do czasu w zniecierpliwienie, lekki szok, b\\'b9d\\'9f nawet odczucie obrazy, skierowane w ich indywidualne poj\\'eacie wolno\\'9cci i nienaruszalno\\'9cci. Szczeg\\'f3lnie ludzie prasy stawiali niezno\\'9cne opory poddania si\\'ea\n wymogom. Jeden z nich, fotograf tutejszej \"wa\\'bfnej\" gazety, nie wytrzyma\\'b3 napi\\'eacia i oddali\\'b3 si\\'ea, bezpowrotnie od grupy, cierpliwie czekaj\\'b9cych za drzwiami, \"na zimnie\" go\\'9cci.\n\\par Rozumiej\\'b9c dok\\'b3adnie ten\\'bfe rozw\\'f3j oraz ewentualne nast\\'eapstwa, by\\'b3em niezdecydowany. Z jednej strony mog\\'b3em \"zaoszcz\\'eadzi\\'e6\" reporterowi powolnego wtajemniczania ,w arkana abstrakcji. Jako nagroda by\\'b3\naby fotka w prasie. Z drugiej strony chcia\\'b3em dostosowa\\'e6 si\\'ea do scenario CUKTu. W rezultacie zdecydowa\\'b3em si\\'ea na to drugie \n\\par }{\\f1\\fs22 Repo}{\\f122\\fs22 rter poszed\\'b3 do diab\\'b3a, a ja, wsp\\'f3lnie z Cuktem, doprowadzili\\'9cmy akcj\\'ea do ko\\'f1ca. Przer\\'f3b tego wieczoru by\\'b3 zadawalaj\\'b9cy. Nieco ponad dwie tony.\n\\par Ka\\'bfdy klient musia\\'b3 pojedynczo podda\\'e6 si\\'ea kolejnym etapom centralnej kontroli. Digitalne }{\\b\\f1\\fs22 , }{\\f1\\fs22 fototechniczne badani}{\\f122\\fs22 e wewn\\'eatrznej powierzchni lewej d\\'b3oni, zostawa\\'b3\no uwiecznione stemplem logo Cuktu oraz wpisaniem i dalszym podaniem danych, dotycz\\'b9cych wagi cia\\'b3a.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Ania, przy nast\\'eapnym punkcie, recytowa\\'b3a, w j\\'eazyku niemieckim formu\\'b3k\\'ea nakazuj\\'b9c\\'b9 wype\\'b3nienie tekstu, formularza. \"Virus\" bada\\'b3, w dalszej kolejno\\'9cci zgodno\\'9c\\'e6 wagi oraz wydziela\\'b3 umowy zezwalaj\\'b9ce}{\n\\f1\\fs22  }{\\f122\\fs22 na p\\'f3\\'9fniejsze odebranie indywidualnego odpowiednika wst\\'ea}{\\f1\\fs22 pnego prze}{\\f122\\fs22 robu, symbolizuj\\'b9cego jednocze\\'9cnie materialn\\'b9 cz\\'b9stk\\'ea deklaracji artystycznej, kt\\'f3ra oczekiwa\\'b3a uczestnik\\'f3\nw wielopoziomowej, niepokoj\\'b9}{\\f1\\fs22 cej akcji Delikates\\'f3w Avantgardy.\n\\par }{\\f122\\fs22 Fotokopia lewej d\\'b3oni uwiecznia\\'b3a centraln\\'b9 procedur\\'ea perfekcyjnej biurokracji. By\\'e6 mo\\'bfe dla}{\\f1\\fs22 tego tubylcy, od urodzenia i na co}{\\f122\\fs22 dzie\\'f1 skonfrontowani z t\\'b9 realn\\'b9, konieczn\\'b9 }{\\f1\\fs22 /?/ }{\n\\f122\\fs22 perwersj\\'b9, byli tak rozdra\\'bfnieni prezentowan\\'b9 im koncepcj\\'b9, od kt\\'f3rej praktycznie nie by\\'b3o ucieczki.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Przy wrotach do \"w\\'b3a\\'9cciwej\" sali, mia\\'b3}{\\f1\\fs22 a miejsce ostateczna kontrola papier\\'f3w /\"Die Papieren bitte\"/. Worek z piaskiem, skrupulatnie odw}{\\f122\\fs22 a\\'bf}{\\f1\\fs22 on}{\\f122\\fs22 y plus za\\'b3\\'b9cznik dokument\\'f3\nw zostawa\\'b3y wr\\'eaczane uczestnikom. Jednocze\\'9cnie indywidualna, ludzka waga, wpisywana kred\\'b9, w\\'eadrowa\\'b3a do sumy dziennego przer}{\\f1\\fs22 obu. Czarna tabliczk}{\\f122\\fs22 a zape\\'b3nia\\'b3a si\\'ea nowymi cyframi.\n W tym samym czasie, grupa oczekuj\\'b9cych,}{\\f1\\fs22  }{\\f122\\fs22 cierpliwych ws\\'b3uchiwa\\'b3a si\\'ea w metalicznie brzmi\\'b9cy g\\'b3os z megafonu, oznajmiaj\\'b9cy po nie}{\\f1\\fs22 miecku memorandum CUKTu. }{\\f1\\fs22\\lang1031\\langfe1045\\langnp1031 \n\"Sie sind herzlich willkommen\" . }{\\f1\\fs22 \"Kommen Sie here}{\\f122\\fs22 in\" . - odzywa\\'b3o si\\'ea nast\\'eapne zaproszenie. Cz\\'b3owiek W bia\\'b3ym kom}{\\f1\\fs22 binezonie oraz sz\\'f3stka zgodnie umund}{\\f122\\fs22 urowanych urz\\'eadnik\\'f3w z b\\'b3yszcz\n\\'b9cymi identyfikatorami \"CUKT\" wprowadza\\'b3a nast\\'eapnego klienta w arkana abstrakcyjnego przekazu, kt\\'f3ry mia\\'b3 przecie\\'bf tak w}{\\f1\\fs22 iel}{\\f122\\fs22 e wsp\\'f3lnych cech z zamaskowan\\'b9 iluzj\\'b9 rzeczywisto\\'9cci.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Osobi\\'9ccie odbiera\\'b3em t\\'b9 akcj\\'ea, jako uk\\'b3on w kierunku Georga Orwella oraz jako aluzj\\'ea do okrutnej przesz\\'b3o\\'9cci narodu niemieckiego, kt\\'f3rej symbolem s\\'b9 i jeszcze d\\'b3ugo pozostan\\'b9 dwa s\\'b3owa: Auschwitz Bi}{\n\\f1\\fs22 rkenau.\n\\par \n\\par \n\\par }{\\f1\\fs22 \n\\par }}",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "d37c8dbf-f7fa-48c9-8209-e8b85cdf4b6f",
+    "bank": "cukt-archiwum",
+    "title": "Zapotrzebowanie Materia\u0142owe.doc",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "CENTRALNY URZ\u00a5D KULTURY TECHNICZNEJ\n\n\nZapotrzebowanie materia\u00b3owe, Dusseldorf, 1-3.10.1996\n\n1.  Ubrania :\n    - 5 garnitur\u00f3w\n    - 1 garsonka\n    - 18 koszul nibieskich\n    - 5 par but\u00f3w m\u00easkich\n    - 1 para but\u00f3w \u00bfe\u00f1skich\n    - 12 par skarpetek bia\u00b3ych\n2.  Wagi :\n    - \u00b3azienkowe szt. 2\n    - towarowa szt. 1\n3.  Ksero\n4.  Ryza papieru szt. 7\n5.  Piach 3 tony\n6.  Kamera video, kaseta 240 min\n7.  St\u00f3\u00b3 reprodukcyjny\n8.  Monitory video szt. 6\n9.  Magnetowid VHS szt 2, okablowanie\n10. Testy : j\u00eaz. Pol, Niem, Ang, dekoder testu\n11. Opaski, rodzaje\n12. Naszywki\n13. Worki, rodzaje\n14. Laminownica\n15. Tablica - waga zbiorowa\n16. System \u00b3\u00b9czno\u0153ci\n17. Tuby, okablowanie, zawieszanie\n18. Alarmy\n19. System podporz\u00b9dkowania\n20. Piktogramy\n21. Ta\u0153ma informuj\u00b9ca\n22. Gazeta lokalna\n23. Tuba przeno\u0153na\n24. \u00a3opaty\n25. Identyfikatory\n26. Stanowiska\n27. Wzmacniacz audio\n28. Segregatory\n29. Etykiety",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "2217da9c-ccb2-4f41-9e85-2ad2833c618a",
+    "bank": "cukt-archiwum",
+    "title": "Pryba_Recenzja_Wspomnienie.rtf",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "{\\rtf1\\ansi\\ansicpg1250\\uc1 \\deff0\\deflang1045\\deflangfe1045{\\fonttbl{\\f0\\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\f1\\fswiss\\fcharset0\\fprq2{\\*\\panose 020b0604020202020204}Arial;}\n{\\f114\\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\f115\\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f117\\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\f118\\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f119\\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\f120\\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f121\\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\f122\\fswiss\\fcharset238\\fprq2 Arial CE;}\n{\\f123\\fswiss\\fcharset204\\fprq2 Arial Cyr;}{\\f125\\fswiss\\fcharset161\\fprq2 Arial Greek;}{\\f126\\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f127\\fswiss\\fcharset177\\fprq2 Arial (Hebrew);}{\\f128\\fswiss\\fcharset178\\fprq2 Arial (Arabic);}\n{\\f129\\fswiss\\fcharset186\\fprq2 Arial Baltic;}}{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\blue0;\\red255\\green255\\blue255;\\red0\\green0\\blue128;\n\\red0\\green128\\blue128;\\red0\\green128\\blue0;\\red128\\green0\\blue128;\\red128\\green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;}{\\stylesheet{\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 \\snext0 Normal;}{\\*\\cs10 \\additive Default Paragraph Font;}}{\\info{\\author Jacek Niegoda}{\\operator Jacek Niegoda}{\\creatim\\yr2001\\mo3\\dy6\\hr21\\min3}{\\revtim\\yr2001\\mo3\\dy6\\hr22\\min30}{\\version6}\n{\\edmins42}{\\nofpages1}{\\nofwords603}{\\nofchars3442}{\\nofcharsws4227}{\\vern8249}}\\paperw11909\\paperh16834\\margl720\\margr1417\\margt720\\margb1417 \n\\widowctrl\\ftnbj\\aenddoc\\hyphhotz425\\noxlattoyen\\expshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\hyphcaps0\\horzdoc\\dghspace120\\dgvspace120\\dghorigin1701\\dgvorigin1984\\dghshow0\\dgvshow3\\jcompress\\viewkind1\\viewscale100\\nolnhtadjtbl \\fet0\\sectd \n\\linex0\\headery708\\footery708\\colsx708\\sectdefaultcl {\\*\\pnseclvl1\\pnucrm\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl2\\pnucltr\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl3\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl4\n\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxta )}}{\\*\\pnseclvl5\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}\n{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl9\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}\\pard\\plain \\ql \\li0\\ri0\\nowidctlpar\\faauto\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 {\\f122\\fs22 DZIE\\'d1 PIERWSZY, OTWARCIE, WTOREK.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Centralny Urz\\'b9d Kultury Technicznej w sk\\'b3adzie: Robert, Artur, Jacek, Ania, Adam, Piotr plus moja skromna osoba, kt\\'f3ra zosta\\'b3a zaproszona do uczestnictwa w performance.\n\\par }{\\f1\\fs22 \"Grubego\" i }{\\f122\\fs22 Ani\\'ea obserwowa\\'b3em, trzy dni wcze\\'9cniej, w Gda\\'f1sku na d\\'b3ugim Targu. Osobi\\'9ccie pozna\\'b3em Ani\\'ea Nizio, kr\\'f3tko przed otwarciem dnia pierwszego. Ania ma ciep\\'b3e oczy, kr\\'f3ciutko \\'9cci\\'eate w\\'b3\nosy. Lod\\'f3w niepewno\\'9cci nie trzeba by\\'b3o topi\\'e6, gdy\\'bf ich nie by\\'b3o. Na g\\'f3rnej wardze uros\\'b3a jej krostka. Ania twierdzi, \\'bfe to przez niemieck\\'b9 wod\\'ea. Reszt\\'ea za\\'b3ogi ju\\'bf cz\\'ea\\'9cciej spotyka\\'b3em. W Gda\\'f1\nsku, u Klamana /Galeria Wyspa plus \\'a3a\\'9fnia/, b\\'b9d\\'9f na go\\'9ccinnych wyst\\'eapach w RFN,}{\\f1\\fs22  Emsdetten w 94 roku.\n\\par }{\\f122\\fs22 Czuj\\'ea lekkie niepewno\\'9cci, czy b\\'ead\\'ea pasowa\\'b3 do, jakby nie by\\'b3o nieznanej mi w szczeg\\'f3\\'b3ach koncepcji. Zostaj\\'b9 one szybko rozwiane.}{\\f1\\fs22  }{\\f122\\fs22 Po kr\\'f3tkim czasie czu\\'b3em si\\'ea stopiony z CUKTem i nale\n\\'bfycie spe\\'b3nia\\'b3em nadan\\'b9 mi funkcj\\'ea.\n\\par Ka\\'bfdy ch\\'eatny wej\\'9ccia na g\\'b3\\'f3wn\\'b9 sal\\'ea musia\\'b3 podda\\'e6 si\\'ea pewnej procedurze. M\\'f3j bia\\'b3y kombinezon oraz g\\'b3o\\'9cna megafon-szczekaczka zawieszona na ramieniu, jak i zdecydowany Niemiecki, kt\\'f3rym dosy\\'e6 bezwzgl\\'ea\ndnie nak\\'b3ania\\'b3em przybysz\\'f3w do spe\\'b3niania poszczeg\\'f3lnych warunk\\'f3w stawianych przez CUKT, ju\\'bf na wst\\'eapie wprowadza\\'b3y go\\'9cci wystawy w stan pewnego niepokoju, zamy\\'9clenia. Te z kolei przeradza\\'b3y si\\'ea\n, od czasu do czasu w zniecierpliwienie, lekki szok, b\\'b9d\\'9f nawet odczucie obrazy, skierowane w ich indywidualne poj\\'eacie wolno\\'9cci i nienaruszalno\\'9cci. Szczeg\\'f3lnie ludzie prasy stawiali niezno\\'9cne opory poddania si\\'ea\n wymogom. Jeden z nich, fotograf tutejszej \"wa\\'bfnej\" gazety, nie wytrzyma\\'b3 napi\\'eacia i oddali\\'b3 si\\'ea, bezpowrotnie od grupy, cierpliwie czekaj\\'b9cych za drzwiami, \"na zimnie\" go\\'9cci.\n\\par Rozumiej\\'b9c dok\\'b3adnie ten\\'bfe rozw\\'f3j oraz ewentualne nast\\'eapstwa, by\\'b3em niezdecydowany. Z jednej strony mog\\'b3em \"zaoszcz\\'eadzi\\'e6\" reporterowi powolnego wtajemniczania ,w arkana abstrakcji. Jako nagroda by\\'b3\naby fotka w prasie. Z drugiej strony chcia\\'b3em dostosowa\\'e6 si\\'ea do scenario CUKTu. W rezultacie zdecydowa\\'b3em si\\'ea na to drugie \n\\par }{\\f1\\fs22 Repo}{\\f122\\fs22 rter poszed\\'b3 do diab\\'b3a, a ja, wsp\\'f3lnie z Cuktem, doprowadzili\\'9cmy akcj\\'ea do ko\\'f1ca. Przer\\'f3b tego wieczoru by\\'b3 zadawalaj\\'b9cy. Nieco ponad dwie tony.\n\\par Ka\\'bfdy klient musia\\'b3 pojedynczo podda\\'e6 si\\'ea kolejnym etapom centralnej kontroli. Digitalne }{\\b\\f1\\fs22 , }{\\f1\\fs22 fototechniczne badani}{\\f122\\fs22 e wewn\\'eatrznej powierzchni lewej d\\'b3oni, zostawa\\'b3\no uwiecznione stemplem logo Cuktu oraz wpisaniem i dalszym podaniem danych, dotycz\\'b9cych wagi cia\\'b3a.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Ania, przy nast\\'eapnym punkcie, recytowa\\'b3a, w j\\'eazyku niemieckim formu\\'b3k\\'ea nakazuj\\'b9c\\'b9 wype\\'b3nienie tekstu, formularza. \"Virus\" bada\\'b3, w dalszej kolejno\\'9cci zgodno\\'9c\\'e6 wagi oraz wydziela\\'b3 umowy zezwalaj\\'b9ce}{\n\\f1\\fs22  }{\\f122\\fs22 na p\\'f3\\'9fniejsze odebranie indywidualnego odpowiednika wst\\'ea}{\\f1\\fs22 pnego prze}{\\f122\\fs22 robu, symbolizuj\\'b9cego jednocze\\'9cnie materialn\\'b9 cz\\'b9stk\\'ea deklaracji artystycznej, kt\\'f3ra oczekiwa\\'b3a uczestnik\\'f3\nw wielopoziomowej, niepokoj\\'b9}{\\f1\\fs22 cej akcji Delikates\\'f3w Avantgardy.\n\\par }{\\f122\\fs22 Fotokopia lewej d\\'b3oni uwiecznia\\'b3a centraln\\'b9 procedur\\'ea perfekcyjnej biurokracji. By\\'e6 mo\\'bfe dla}{\\f1\\fs22 tego tubylcy, od urodzenia i na co}{\\f122\\fs22 dzie\\'f1 skonfrontowani z t\\'b9 realn\\'b9, konieczn\\'b9 }{\\f1\\fs22 /?/ }{\n\\f122\\fs22 perwersj\\'b9, byli tak rozdra\\'bfnieni prezentowan\\'b9 im koncepcj\\'b9, od kt\\'f3rej praktycznie nie by\\'b3o ucieczki.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Przy wrotach do \"w\\'b3a\\'9cciwej\" sali, mia\\'b3}{\\f1\\fs22 a miejsce ostateczna kontrola papier\\'f3w /\"Die Papieren bitte\"/. Worek z piaskiem, skrupulatnie odw}{\\f122\\fs22 a\\'bf}{\\f1\\fs22 on}{\\f122\\fs22 y plus za\\'b3\\'b9cznik dokument\\'f3\nw zostawa\\'b3y wr\\'eaczane uczestnikom. Jednocze\\'9cnie indywidualna, ludzka waga, wpisywana kred\\'b9, w\\'eadrowa\\'b3a do sumy dziennego przer}{\\f1\\fs22 obu. Czarna tabliczk}{\\f122\\fs22 a zape\\'b3nia\\'b3a si\\'ea nowymi cyframi.\n W tym samym czasie, grupa oczekuj\\'b9cych,}{\\f1\\fs22  }{\\f122\\fs22 cierpliwych ws\\'b3uchiwa\\'b3a si\\'ea w metalicznie brzmi\\'b9cy g\\'b3os z megafonu, oznajmiaj\\'b9cy po nie}{\\f1\\fs22 miecku memorandum CUKTu. }{\\f1\\fs22\\lang1031\\langfe1045\\langnp1031 \n\"Sie sind herzlich willkommen\" . }{\\f1\\fs22 \"Kommen Sie here}{\\f122\\fs22 in\" . - odzywa\\'b3o si\\'ea nast\\'eapne zaproszenie. Cz\\'b3owiek W bia\\'b3ym kom}{\\f1\\fs22 binezonie oraz sz\\'f3stka zgodnie umund}{\\f122\\fs22 urowanych urz\\'eadnik\\'f3w z b\\'b3yszcz\n\\'b9cymi identyfikatorami \"CUKT\" wprowadza\\'b3a nast\\'eapnego klienta w arkana abstrakcyjnego przekazu, kt\\'f3ry mia\\'b3 przecie\\'bf tak w}{\\f1\\fs22 iel}{\\f122\\fs22 e wsp\\'f3lnych cech z zamaskowan\\'b9 iluzj\\'b9 rzeczywisto\\'9cci.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Osobi\\'9ccie odbiera\\'b3em t\\'b9 akcj\\'ea, jako uk\\'b3on w kierunku Georga Orwella oraz jako aluzj\\'ea do okrutnej przesz\\'b3o\\'9cci narodu niemieckiego, kt\\'f3rej symbolem s\\'b9 i jeszcze d\\'b3ugo pozostan\\'b9 dwa s\\'b3owa: Auschwitz Bi}{\n\\f1\\fs22 rkenau.\n\\par \n\\par \n\\par }{\\f1\\fs22 \n\\par }}",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "57694a43-b341-458f-a7f4-980f4fd999db",
+    "bank": "cukt-archiwum",
+    "title": "Zapotrzebowanie Materia\u0142owe.doc",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "CENTRALNY URZ\u00a5D KULTURY TECHNICZNEJ\n\n\nZapotrzebowanie materia\u00b3owe, Dusseldorf, 1-3.10.1996\n\n1.  Ubrania :\n    - 5 garnitur\u00f3w\n    - 1 garsonka\n    - 18 koszul nibieskich\n    - 5 par but\u00f3w m\u00easkich\n    - 1 para but\u00f3w \u00bfe\u00f1skich\n    - 12 par skarpetek bia\u00b3ych\n2.  Wagi :\n    - \u00b3azienkowe szt. 2\n    - towarowa szt. 1\n3.  Ksero\n4.  Ryza papieru szt. 7\n5.  Piach 3 tony\n6.  Kamera video, kaseta 240 min\n7.  St\u00f3\u00b3 reprodukcyjny\n8.  Monitory video szt. 6\n9.  Magnetowid VHS szt 2, okablowanie\n10. Testy : j\u00eaz. Pol, Niem, Ang, dekoder testu\n11. Opaski, rodzaje\n12. Naszywki\n13. Worki, rodzaje\n14. Laminownica\n15. Tablica - waga zbiorowa\n16. System \u00b3\u00b9czno\u0153ci\n17. Tuby, okablowanie, zawieszanie\n18. Alarmy\n19. System podporz\u00b9dkowania\n20. Piktogramy\n21. Ta\u0153ma informuj\u00b9ca\n22. Gazeta lokalna\n23. Tuba przeno\u0153na\n24. \u00a3opaty\n25. Identyfikatory\n26. Stanowiska\n27. Wzmacniacz audio\n28. Segregatory\n29. Etykiety",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "966497d7-1fe6-4912-a647-f99e22800e39",
+    "bank": "cukt-archiwum",
+    "title": "Negatyw kolor, odbitki",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Negatyw kolor, odbitki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1995 __ __ - Test na Cyborga Galeria S Toru\u0144/foto\nFormat: \nIlo\u015b\u0107: 15",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "b2c7ba80-2b28-43f0-a5b3-3fb45c0b366f",
+    "bank": "cukt-archiwum",
+    "title": "Negatyw kolor, 2 odbitki",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Negatyw kolor, 2 odbitki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 06 28 Byt\u00f3w\nFormat: \nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "221c3a09-da1c-492d-b6ed-9dd1b8a2b5ef",
+    "bank": "cukt-archiwum",
+    "title": "Papier, ksero, Testy niedoko\u0144czonych zda\u0144",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, ksero, Testy niedoko\u0144czonych zda\u0144\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1995 __ __ - Test na Cyborga Galeria S Toru\u0144/testy\nFormat: A4\nIlo\u015b\u0107: 34",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "c0f2351e-4336-48bd-9efa-f1775176d3be",
+    "bank": "cukt-archiwum",
+    "title": "Papier ksero,",
+    "date_original": "1995-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier ksero,\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 06 28 Byt\u00f3w/Testy\nFormat: A4\nIlo\u015b\u0107: 50",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "6f19e4cc-eb18-44b9-98d8-a38aa6cb8ffd",
+    "bank": "cukt-archiwum",
+    "title": "Pryba.rtf",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "{\\rtf1\\ansi\\ansicpg1250\\uc1 \\deff0\\deflang1045\\deflangfe1045{\\fonttbl{\\f0\\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\f1\\fswiss\\fcharset0\\fprq2{\\*\\panose 020b0604020202020204}Arial;}\n{\\f114\\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\f115\\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f117\\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\f118\\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f119\\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\f120\\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f121\\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\f122\\fswiss\\fcharset238\\fprq2 Arial CE;}\n{\\f123\\fswiss\\fcharset204\\fprq2 Arial Cyr;}{\\f125\\fswiss\\fcharset161\\fprq2 Arial Greek;}{\\f126\\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f127\\fswiss\\fcharset177\\fprq2 Arial (Hebrew);}{\\f128\\fswiss\\fcharset178\\fprq2 Arial (Arabic);}\n{\\f129\\fswiss\\fcharset186\\fprq2 Arial Baltic;}}{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\blue0;\\red255\\green255\\blue255;\\red0\\green0\\blue128;\n\\red0\\green128\\blue128;\\red0\\green128\\blue0;\\red128\\green0\\blue128;\\red128\\green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;}{\\stylesheet{\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 \\snext0 Normal;}{\\*\\cs10 \\additive Default Paragraph Font;}}{\\info{\\author Jacek Niegoda}{\\operator Jacek Niegoda}{\\creatim\\yr2001\\mo3\\dy6\\hr21\\min3}{\\revtim\\yr2001\\mo3\\dy6\\hr22\\min30}{\\version6}\n{\\edmins42}{\\nofpages1}{\\nofwords603}{\\nofchars3442}{\\nofcharsws4227}{\\vern8249}}\\paperw11909\\paperh16834\\margl720\\margr1417\\margt720\\margb1417 \n\\widowctrl\\ftnbj\\aenddoc\\hyphhotz425\\noxlattoyen\\expshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\hyphcaps0\\horzdoc\\dghspace120\\dgvspace120\\dghorigin1701\\dgvorigin1984\\dghshow0\\dgvshow3\\jcompress\\viewkind1\\viewscale100\\nolnhtadjtbl \\fet0\\sectd \n\\linex0\\headery708\\footery708\\colsx708\\sectdefaultcl {\\*\\pnseclvl1\\pnucrm\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl2\\pnucltr\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl3\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxta ..}}{\\*\\pnseclvl4\n\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxta )}}{\\*\\pnseclvl5\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}\n{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl9\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}\\pard\\plain \\ql \\li0\\ri0\\nowidctlpar\\faauto\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 {\\f122\\fs22 DZIE\\'d1 PIERWSZY, OTWARCIE, WTOREK.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Centralny Urz\\'b9d Kultury Technicznej w sk\\'b3adzie: Robert, Artur, Jacek, Ania, Adam, Piotr plus moja skromna osoba, kt\\'f3ra zosta\\'b3a zaproszona do uczestnictwa w performance.\n\\par }{\\f1\\fs22 \"Grubego\" i }{\\f122\\fs22 Ani\\'ea obserwowa\\'b3em, trzy dni wcze\\'9cniej, w Gda\\'f1sku na d\\'b3ugim Targu. Osobi\\'9ccie pozna\\'b3em Ani\\'ea Nizio, kr\\'f3tko przed otwarciem dnia pierwszego. Ania ma ciep\\'b3e oczy, kr\\'f3ciutko \\'9cci\\'eate w\\'b3\nosy. Lod\\'f3w niepewno\\'9cci nie trzeba by\\'b3o topi\\'e6, gdy\\'bf ich nie by\\'b3o. Na g\\'f3rnej wardze uros\\'b3a jej krostka. Ania twierdzi, \\'bfe to przez niemieck\\'b9 wod\\'ea. Reszt\\'ea za\\'b3ogi ju\\'bf cz\\'ea\\'9cciej spotyka\\'b3em. W Gda\\'f1\nsku, u Klamana /Galeria Wyspa plus \\'a3a\\'9fnia/, b\\'b9d\\'9f na go\\'9ccinnych wyst\\'eapach w RFN,}{\\f1\\fs22  Emsdetten w 94 roku.\n\\par }{\\f122\\fs22 Czuj\\'ea lekkie niepewno\\'9cci, czy b\\'ead\\'ea pasowa\\'b3 do, jakby nie by\\'b3o nieznanej mi w szczeg\\'f3\\'b3ach koncepcji. Zostaj\\'b9 one szybko rozwiane.}{\\f1\\fs22  }{\\f122\\fs22 Po kr\\'f3tkim czasie czu\\'b3em si\\'ea stopiony z CUKTem i nale\n\\'bfycie spe\\'b3nia\\'b3em nadan\\'b9 mi funkcj\\'ea.\n\\par Ka\\'bfdy ch\\'eatny wej\\'9ccia na g\\'b3\\'f3wn\\'b9 sal\\'ea musia\\'b3 podda\\'e6 si\\'ea pewnej procedurze. M\\'f3j bia\\'b3y kombinezon oraz g\\'b3o\\'9cna megafon-szczekaczka zawieszona na ramieniu, jak i zdecydowany Niemiecki, kt\\'f3rym dosy\\'e6 bezwzgl\\'ea\ndnie nak\\'b3ania\\'b3em przybysz\\'f3w do spe\\'b3niania poszczeg\\'f3lnych warunk\\'f3w stawianych przez CUKT, ju\\'bf na wst\\'eapie wprowadza\\'b3y go\\'9cci wystawy w stan pewnego niepokoju, zamy\\'9clenia. Te z kolei przeradza\\'b3y si\\'ea\n, od czasu do czasu w zniecierpliwienie, lekki szok, b\\'b9d\\'9f nawet odczucie obrazy, skierowane w ich indywidualne poj\\'eacie wolno\\'9cci i nienaruszalno\\'9cci. Szczeg\\'f3lnie ludzie prasy stawiali niezno\\'9cne opory poddania si\\'ea\n wymogom. Jeden z nich, fotograf tutejszej \"wa\\'bfnej\" gazety, nie wytrzyma\\'b3 napi\\'eacia i oddali\\'b3 si\\'ea, bezpowrotnie od grupy, cierpliwie czekaj\\'b9cych za drzwiami, \"na zimnie\" go\\'9cci.\n\\par Rozumiej\\'b9c dok\\'b3adnie ten\\'bfe rozw\\'f3j oraz ewentualne nast\\'eapstwa, by\\'b3em niezdecydowany. Z jednej strony mog\\'b3em \"zaoszcz\\'eadzi\\'e6\" reporterowi powolnego wtajemniczania ,w arkana abstrakcji. Jako nagroda by\\'b3\naby fotka w prasie. Z drugiej strony chcia\\'b3em dostosowa\\'e6 si\\'ea do scenario CUKTu. W rezultacie zdecydowa\\'b3em si\\'ea na to drugie \n\\par }{\\f1\\fs22 Repo}{\\f122\\fs22 rter poszed\\'b3 do diab\\'b3a, a ja, wsp\\'f3lnie z Cuktem, doprowadzili\\'9cmy akcj\\'ea do ko\\'f1ca. Przer\\'f3b tego wieczoru by\\'b3 zadawalaj\\'b9cy. Nieco ponad dwie tony.\n\\par Ka\\'bfdy klient musia\\'b3 pojedynczo podda\\'e6 si\\'ea kolejnym etapom centralnej kontroli. Digitalne }{\\b\\f1\\fs22 , }{\\f1\\fs22 fototechniczne badani}{\\f122\\fs22 e wewn\\'eatrznej powierzchni lewej d\\'b3oni, zostawa\\'b3\no uwiecznione stemplem logo Cuktu oraz wpisaniem i dalszym podaniem danych, dotycz\\'b9cych wagi cia\\'b3a.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Ania, przy nast\\'eapnym punkcie, recytowa\\'b3a, w j\\'eazyku niemieckim formu\\'b3k\\'ea nakazuj\\'b9c\\'b9 wype\\'b3nienie tekstu, formularza. \"Virus\" bada\\'b3, w dalszej kolejno\\'9cci zgodno\\'9c\\'e6 wagi oraz wydziela\\'b3 umowy zezwalaj\\'b9ce}{\n\\f1\\fs22  }{\\f122\\fs22 na p\\'f3\\'9fniejsze odebranie indywidualnego odpowiednika wst\\'ea}{\\f1\\fs22 pnego prze}{\\f122\\fs22 robu, symbolizuj\\'b9cego jednocze\\'9cnie materialn\\'b9 cz\\'b9stk\\'ea deklaracji artystycznej, kt\\'f3ra oczekiwa\\'b3a uczestnik\\'f3\nw wielopoziomowej, niepokoj\\'b9}{\\f1\\fs22 cej akcji Delikates\\'f3w Avantgardy.\n\\par }{\\f122\\fs22 Fotokopia lewej d\\'b3oni uwiecznia\\'b3a centraln\\'b9 procedur\\'ea perfekcyjnej biurokracji. By\\'e6 mo\\'bfe dla}{\\f1\\fs22 tego tubylcy, od urodzenia i na co}{\\f122\\fs22 dzie\\'f1 skonfrontowani z t\\'b9 realn\\'b9, konieczn\\'b9 }{\\f1\\fs22 /?/ }{\n\\f122\\fs22 perwersj\\'b9, byli tak rozdra\\'bfnieni prezentowan\\'b9 im koncepcj\\'b9, od kt\\'f3rej praktycznie nie by\\'b3o ucieczki.}{\\f1\\fs22 \n\\par }{\\f122\\fs22 Przy wrotach do \"w\\'b3a\\'9cciwej\" sali, mia\\'b3}{\\f1\\fs22 a miejsce ostateczna kontrola papier\\'f3w /\"Die Papieren bitte\"/. Worek z piaskiem, skrupulatnie odw}{\\f122\\fs22 a\\'bf}{\\f1\\fs22 on}{\\f122\\fs22 y plus za\\'b3\\'b9cznik dokument\\'f3\nw zostawa\\'b3y wr\\'eaczane uczestnikom. Jednocze\\'9cnie indywidualna, ludzka waga, wpisywana kred\\'b9, w\\'eadrowa\\'b3a do sumy dziennego przer}{\\f1\\fs22 obu. Czarna tabliczk}{\\f122\\fs22 a zape\\'b3nia\\'b3a si\\'ea nowymi cyframi.\n W tym samym czasie, grupa oczekuj\\'b9cych,}{\\f1\\fs22  }{\\f122\\fs22 cierpliwych ws\\'b3uchiwa\\'b3a si\\'ea w metalicznie brzmi\\'b9cy g\\'b3os z megafonu, oznajmiaj\\'b9cy po nie}{\\f1\\fs22 miecku memorandum CUKTu. }{\\f1\\fs22\\lang1031\\langfe1045\\langnp1031 \n\"Sie sind herzlich willkommen\" . }{\\f1\\fs22 \"Kommen Sie here}{\\f122\\fs22 in\" . - odzywa\\'b3o si\\'ea nast\\'eapne zaproszenie. Cz\\'b3owiek W bia\\'b3ym kom}{\\f1\\fs22 binezonie oraz sz\\'f3stka zgodnie umund}{\\f122\\fs22 urowanych urz\\'eadnik\\'f3w z b\\'b3yszcz\n\\'b9cymi identyfikatorami \"CUKT\" wprowadza\\'b3a nast\\'eapnego klienta w arkana abstrakcyjnego przekazu, kt\\'f3ry mia\\'b3 przecie\\'bf tak w}{\\f1\\fs22 iel}{\\f122\\fs22 e wsp\\'f3lnych cech z zamaskowan\\'b9 iluzj\\'b9 rzeczywisto\\'9cci.\n\\par }{\\f1\\fs22 \n\\par }{\\f122\\fs22 Osobi\\'9ccie odbiera\\'b3em t\\'b9 akcj\\'ea, jako uk\\'b3on w kierunku Georga Orwella oraz jako aluzj\\'ea do okrutnej przesz\\'b3o\\'9cci narodu niemieckiego, kt\\'f3rej symbolem s\\'b9 i jeszcze d\\'b3ugo pozostan\\'b9 dwa s\\'b3owa: Auschwitz Bi}{\n\\f1\\fs22 rkenau.\n\\par \n\\par \n\\par }{\\f1\\fs22 \n\\par }}",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "14c10870-2c64-4f1d-b0a9-a52fcb2d899b",
+    "bank": "cukt-archiwum",
+    "title": "Projekt.doc",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "CENTRALNY URZ\u00a5D KULTURY TECHNICZNEJ\n\n\nProjekt performance: Niemcy, Dusseldorf, 1-3.10.1996.\n\n1. Performance trzy dniowy.\n2. Rozgrywa si\u00ea multiprzestrzennie :\n      a. hall galerii - performance w\u00b3a\u0153ciwy. Warzenie widz\u00f3w - 3\nstanowiska, skanowanie twarzy i d\u00b3oni, wype\u00b3nianie testu przez obywatela\nprzy asy\u0153cie urz\u00eadnika, przyjmowanie testu, numerowanie, piecz\u00b9tkowanie (\nzapis video ), kwalifikowanie testu, wr\u00eaczanie opaski odpowiedniego koloru.\nDzie\u00f1 I.\n\n      b. galeria - powstawnie instalacji z\u00b3o\u00bfonej z work\u00f3w wype\u00b3nianych\npiachem i opatrzanych odpowiednimi etykietami. R\u00f3\u00bfne rodzaje work\u00f3w\n( przekr\u00f3j spo\u00b3ecze\u00f1stwa ) u\u00b3\u00f3\u00bfone w zbiory. Aktualny stan wagii zbiorowej\n- odczyt non stop. Ka\u00bfdemu obywatelowi przyporz\u00b9dkowany jest worek z\npiachem o wadze identycznej co obywatel. Worki posiadaj\u00b9 etykiety z\nnumerem, wag\u00b9, skanem d\u00b3oni i twarzy oraz kryptonimem identyfikacyjnym\ngrupy ( wynik testu ). Dzie\u00f1 II.\n\n      c. przestrze\u00f1 publiczna - kolporta\u00bf fa\u00b3szywych gazet lokalnych\nopisuj\u00b9cych dzia\u00b3anie C.U.K.T.-u oraz jego efekty. Dzie\u00f1 III.\n\nUWAGA : Na wystaw\u00ea maj\u00b9 wst\u00eap tylko obywatele, kt\u00f3rzy poddanii b\u00ead\u00b9 w.w.\nprocedurz\u00ea.\n\n3. Przestrze\u00f1 przed galeri\u00b9  nasycona jest tubami transmituj\u00b9cymi d\u0178wi\u00eak z\nwn\u00eatrza galerii. Hall posiada w\u00b3asny system audio i piktogramy instruuj\u00b9ce\nobywatela o tym jak powinien si\u00ea zachowywa\u00e6 oraz system alarmowy w\u00b3anczany\nw wypadku niepodpo\u00bf\u00b9dkowania si\u00ea obywatela.\n4. Urz\u00eadnicy ubrani w jednakowe garnitury z identyfikatorami oraz\nwyposa\u00bfeni w system \u00b3\u00b9czno\u0153ci osobistej i elementy podporz\u00b9dkowania.\n5. Urz\u00eadnicy porozumiewaj\u00b9 si\u00ea z obywatelem wyuczonymi has\u00b3ami w j\u00eazyku\nniemieckim. Kontakt jednostronny.",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "9ea3e206-ac7d-43ba-8cd6-d7ae211cc127",
+    "bank": "cukt-archiwum",
+    "title": "Pryba_ang.rtf",
+    "date_original": "1995-01-01",
+    "authors": [],
+    "location": null,
+    "source_type": "dokument",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "{\\rtf1\\ansi\\ansicpg1250\\uc1 \\deff0\\deflang1045\\deflangfe1045{\\fonttbl{\\f0\\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\f1\\fswiss\\fcharset0\\fprq2{\\*\\panose 020b0604020202020204}Arial;}\n{\\f28\\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\f29\\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f31\\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\f32\\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f33\\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\f34\\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f35\\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\f36\\fswiss\\fcharset238\\fprq2 Arial CE;}{\\f37\\fswiss\\fcharset204\\fprq2 Arial Cyr;}\n{\\f39\\fswiss\\fcharset161\\fprq2 Arial Greek;}{\\f40\\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f41\\fswiss\\fcharset177\\fprq2 Arial (Hebrew);}{\\f42\\fswiss\\fcharset178\\fprq2 Arial (Arabic);}{\\f43\\fswiss\\fcharset186\\fprq2 Arial Baltic;}}\n{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\blue0;\\red255\\green255\\blue255;\\red0\\green0\\blue128;\\red0\\green128\\blue128;\\red0\\green128\\blue0;\n\\red128\\green0\\blue128;\\red128\\green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;}{\\stylesheet{\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \n\\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 \\snext0 Normal;}{\\*\\cs10 \\additive Default Paragraph Font;}}{\\info{\\title FIRST DAY, OPENING, TUESDAY}{\\author Bara\\'f1ski}{\\operator Jacek Niegoda}{\\creatim\\yr2001\\mo3\\dy8\\hr18\\min54}\n{\\revtim\\yr2001\\mo3\\dy8\\hr18\\min54}{\\version2}{\\edmins2}{\\nofpages2}{\\nofwords623}{\\nofchars3554}{\\*\\company Galeria Zach\\'eata}{\\nofcharsws4364}{\\vern8249}}\\paperw11906\\paperh16838\\margl1418\\margr1418\\margt1418\\margb1418 \n\\deftab708\\widowctrl\\ftnbj\\aenddoc\\hyphhotz425\\noxlattoyen\\expshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\formshade\\horzdoc\\dghspace180\\dgvspace180\\dghorigin1701\\dgvorigin1984\\dghshow0\\dgvshow0\n\\jexpand\\viewkind4\\viewscale75\\pgbrdrhead\\pgbrdrfoot\\nolnhtadjtbl \\fet0\\sectd \\linex0\\headery708\\footery708\\colsx708\\endnhere\\sectdefaultcl {\\*\\pnseclvl1\\pnucrm\\pnstart1\\pnindent720\\pnhang{\\pntxta .}}{\\*\\pnseclvl2\\pnucltr\\pnstart1\\pnindent720\\pnhang\n{\\pntxta .}}{\\*\\pnseclvl3\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxta .}}{\\*\\pnseclvl4\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxta )}}{\\*\\pnseclvl5\\pndec\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnstart1\\pnindent720\\pnhang\n{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl9\\pnlcrm\\pnstart1\\pnindent720\\pnhang{\\pntxtb (}{\\pntxta )}}\\pard\\plain \n\\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \\fs24\\lang1045\\langfe1045\\cgrid\\langnp1045\\langfenp1045 {\\f1\\lang2057\\langfe1045\\langnp2057 FIRST DAY, OPENING, TUESDAY.\n\\par }\\pard \\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 {\\f1\\lang2057\\langfe1045\\langnp2057 \n\\par The Central Department for Technological Culture is composed of: Robert, Artur, Jacek, Ania, Adam, Piotr and my humble self \\endash  having been invited to take part in the performance.\n\\par }\\pard \\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 {\\f1\\lang2057\\langfe1045\\langnp2057 I first saw \\'93fatso\\'94 and Ania, three days before, in the market in }{\\f36\\lang2057\\langfe1045\\langnp2057 Gda\\'f1\nsk. I met Ania Nizio in person shortly before the opening. Ania has warm eyes and a short haircut. There was no need to break the ice, there was none. She had a zit on her top lip. Ania claims it was because of the German water. I\\rquote \nd met the rest of the crew more often. In Gda\\'f1sk, at Klamans / The Island Gallery and La\\'9fnia/, or at appearances in Emsdetten in West Germany, 1994.\n\\par }{\\f1\\lang2057\\langfe1045\\langnp2057 I have some doubts about whether I\\rquote m going to fit in with the whole concept, whose details I\\rquote m not entirely sure of. But my doubts are quickly dispersed. I quickly felt a part of the \nCDTC and was able to fulfil the function allotted me well enough.\n\\par Everyone wanting to enter the main room had to submit to a certain procedure. The white suit I had on and the loudspeaker slung over my sho\nulder, like the determined German I used quite relentlessly to persuade the arrivals to carry out the particular conditions set by the CDTC, from the very start, put visitors to the exhibition in a specific frame of mind - one of unease\n, thoughtfulness. This was then transformed into growing impatience, light shock, or even an offended attitude, working on their\n individual understanding of being free, untouchable. Members of the press were particularly reluctant to submit to the demands. One, a photographer from an \\'93important\\'94 local newspaper, couldn\\rquote \nt stand the pressure and moved away from the group, waiting patiently outside the doors, \\'93out in the cold\\'94, and didn\\rquote t come back.\n\\par Clearly understanding this development and its consequences, I was undecided. On the one hand, I could \\'93spare\\'94\n the reporter this slow initiation into the mysteries of abstraction. The reward would be a snap in the paper. On the other hand, I wanted to conform to the CDTC scenario. As a result I went for the second option.\n\\par The reporter went to hell, and the CDTC and I carried the action through. The processed product of this evening was satisfying. Just over two tons. \n\\par Each client had, individually, to submit to the successive stages of central control. Digital, photo-technical examination of the outside surface of the left hand, immortalised with the stamp of\n the CDTC logo, along with the recording of further givens related to body-weight. \n\\par At the next stage, Ania recited, in German, an injunction ordering everyone to fill out the text on the form. Next, \\'93Visus\\'94 checked the weight and issued agreements giving permission for the individual collection\n of the equivalent initial processed product, simultaneously symbolising the material part of the artistic declaration, prepared for the participants of the many-layered, unsettling action of the Delicatessen of the avant-garde.\n\\par The photocopy of the left hand immortalised the central procedure of perfect bureaucracy. Perhaps this is why people from here, confronted since birth with this real, necessary /?/ perversion, were so aggravated by the concept being presented to them\n, from which there was practically no escape.\n\\par The final document control /\\'94Die Papieren bitte\\'94/, took place on return to the \\'93designated\\'94 room. A bag of sand, weighed scrupulously, plus a documentary supplement, were handed out to the participants. At the same time, the individual\\rquote \ns  weight, written in chalk, was added to the total for the day\\rquote s processed product. The blackboard was filled with new figures. Simultaneously, those waiting, were engrossed in patiently listening to a metallic sounding voice over the loudspeaker\n, proclaiming the CDTC memorandum in German. \\'93Sie sind herzlich willkommen\\'94. \\'93Kommen Sie herein\\'94  - ran the subsequent invitation. The man in the white suit and six similarly attired bureaucrats with shining \\'93CDTC\\'94\n identification introduced the next client into the mysteries of abstract transfer, which had, after all, so much in common with features of reality, masked in illusion. \n\\par \n\\par }\\pard \\ql \\li0\\ri0\\widctlpar\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 {\\f1\\lang2057\\langfe1045\\langnp2057 Personally, I took this action to be a nod in the direction of George Orwell and as an allusion to the cruel past of the German nation\n, whose symbol are, and will for a long time remain, two words: Auschwitz Birkenau. \n\\par }}\n",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "raw",
+      "tekst"
+    ]
+  },
+  {
+    "id": "205d43dc-3115-455f-a4e7-44acbfb67a82",
+    "bank": "cukt-archiwum",
+    "title": "Odr\u0119czna notatka dyrektora Krukowskiego z zapotrzebowaniem sprz\u0119towym",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Odr\u0119czna notatka dyrektora Krukowskiego z zapotrzebowaniem sprz\u0119towym\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "27e1bc5a-ee45-416c-b4d1-42ead08a7646",
+    "bank": "cukt-archiwum",
+    "title": "Papier wydruk ksero pismo odr\u0119czne",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier wydruk ksero pismo odr\u0119czne\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/testy\nFormat: A4\nIlo\u015b\u0107: 360",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "3cde9895-cb14-451d-a53a-2d176aa8ae71",
+    "bank": "cukt-archiwum",
+    "title": "Bluza + spodnie. Tkanina bawe\u0142niana.",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Bluza + spodnie. Tkanina bawe\u0142niana.\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/obiekty\nFormat: M\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "4141785e-d2ce-466b-92d6-57db5d934c16",
+    "bank": "cukt-archiwum",
+    "title": "List zaproszenie CUKT\u2019u do Macieja Sienkiewicza kuratora CSW Papiet rysunek odr\u0119czny",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "List zaproszenie CUKT\u2019u do Macieja Sienkiewicza kuratora CSW Papiet rysunek odr\u0119czny\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "624c1a8d-4cf1-4864-9141-59f7b5dcd6a7",
+    "bank": "cukt-archiwum",
+    "title": "Papier, pismo odr\u0119czne, j\u0119zyk polski",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, pismo odr\u0119czne, j\u0119zyk polski\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "67b30a6f-65c7-43e7-9694-98adb18dd772",
+    "bank": "cukt-archiwum",
+    "title": "Negatyw kolor, odbitki",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Negatyw kolor, odbitki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/Fotografie\nFormat: \nIlo\u015b\u0107: 20",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "680c550b-b072-4ebe-952f-1b6f2859a544",
+    "bank": "cukt-archiwum",
+    "title": "Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr\u0119cznie",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr\u0119cznie\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 20",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "6c4fd6a1-607c-4210-9b72-e1d371a7b6ed",
+    "bank": "cukt-archiwum",
+    "title": "Papier wydruk ksero",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier wydruk ksero\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 10",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "af447e1b-74f8-4fbb-a54c-4dd57bd430db",
+    "bank": "cukt-archiwum",
+    "title": "Pliki cyfrowe",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Pliki cyfrowe\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/Foto\nFormat: 4096x2732 pix\nIlo\u015b\u0107: 12",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "b5848f8f-bc67-420e-a9bf-00d53633d7cc",
+    "bank": "cukt-archiwum",
+    "title": "Papier firmowy CUKT, odr\u0119czna notatka, sygnowana, piecz\u0119\u0107",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier firmowy CUKT, odr\u0119czna notatka, sygnowana, piecz\u0119\u0107\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "e56b31fa-c315-4c4f-967f-6d9db31370a4",
+    "bank": "cukt-archiwum",
+    "title": "Papier, wydruk, piecz\u0119\u0107",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, wydruk, piecz\u0119\u0107\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 4",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "78f19c9a-fe25-4790-9441-a26b1699f810",
+    "bank": "cukt-archiwum",
+    "title": "Co jest Grane. Anons prasowy orygina\u0142",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Co jest Grane. Anons prasowy orygina\u0142\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A3\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "877bb9d1-7147-432f-8186-81dc24f5f22d",
+    "bank": "cukt-archiwum",
+    "title": "Odr\u0119czna notatka dyrektora Krukowskiego z zapotrzebowaniem sprz\u0119towym",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Odr\u0119czna notatka dyrektora Krukowskiego z zapotrzebowaniem sprz\u0119towym\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "a5e429eb-0f13-4f03-adf6-7ca9cf722125",
+    "bank": "cukt-archiwum",
+    "title": "Rysunek d\u0142ugopisem na papierze",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Rysunek d\u0142ugopisem na papierze\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 5",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "b4ac2435-e4d9-4c75-8086-e09f6117eec2",
+    "bank": "cukt-archiwum",
+    "title": "Rysunek d\u0142ugopisem na papierze",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Rysunek d\u0142ugopisem na papierze\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 4",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "c5c4e585-bb7d-4ea9-ada7-65cf43e9075b",
+    "bank": "cukt-archiwum",
+    "title": "Pliki cyfrowe",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Pliki cyfrowe\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/Foto\nFormat: 4096x2732 pix\nIlo\u015b\u0107: 12",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "e6d0128e-5c27-4795-8828-bbfff57b0d1e",
+    "bank": "cukt-archiwum",
+    "title": "Papier wydruk ksero pismo odr\u0119czne",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier wydruk ksero pismo odr\u0119czne\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/testy\nFormat: A4\nIlo\u015b\u0107: 360",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "70d81ab1-46f4-4e1b-94d2-f100a444210f",
+    "bank": "cukt-archiwum",
+    "title": "Papier, wydruk, piecz\u0119\u0107",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, wydruk, piecz\u0119\u0107\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 4",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "e17c81b4-df3f-4464-9e55-3182153b0968",
+    "bank": "cukt-archiwum",
+    "title": "Papier rysunek d\u0142ugopisem",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier rysunek d\u0142ugopisem\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "f41229fc-78bb-4641-88be-28aee0237576",
+    "bank": "cukt-archiwum",
+    "title": "Papier, wydruk ksero, pi\u0119cz\u0119\u0107",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, wydruk ksero, pi\u0119cz\u0119\u0107\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 3",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "58b19caa-eb94-4bab-890b-c7a240d2570a",
+    "bank": "cukt-archiwum",
+    "title": "Papier, rysunek d\u0142ugopisem, rysunek flamastrem",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, rysunek d\u0142ugopisem, rysunek flamastrem\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "9054acc3-c066-42e9-8298-9c781a4328be",
+    "bank": "cukt-archiwum",
+    "title": "Koperta z publikacj\u0105 recenzji Tomasza Pryby na temat akcji CUKT\u2019u w Dusseldorfie.",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Koperta z publikacj\u0105 recenzji Tomasza Pryby na temat akcji CUKT\u2019u w Dusseldorfie.\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A5\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "d06536f6-d6e4-41f4-a97e-be50030251db",
+    "bank": "cukt-archiwum",
+    "title": "Negatyw kolor, odbitki",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Negatyw kolor, odbitki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/Fotografie\nFormat: \nIlo\u015b\u0107: 20",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "ec33eb8d-88b8-48c0-ac6c-35e9aad2b6c1",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk offset",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk offset\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: 20cm x 20 cm\nIlo\u015b\u0107: 3",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "54b3b9de-03c1-406e-87f7-10fc2d915da5",
+    "bank": "cukt-archiwum",
+    "title": "Dokumentacja video Plik cyfrowy",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Dokumentacja video Plik cyfrowy\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/video\nFormat: 3min 54sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "01f0a4e1-defb-4d8d-af17-2a9961df5b9b",
+    "bank": "cukt-archiwum",
+    "title": "Koperta z 6 rodzajami wlepek",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Koperta z 6 rodzajami wlepek\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: 4cm x 4cm\nIlo\u015b\u0107: 30",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "01fdbae2-6cc1-4fd5-8850-3e6ec2990a3a",
+    "bank": "cukt-archiwum",
+    "title": "Bluza + spodnie. Tkanina bawe\u0142niana.",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Bluza + spodnie. Tkanina bawe\u0142niana.\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/obiekty\nFormat: M\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "0449cf43-3ad1-4cb2-af9d-8f2293f57988",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk ksero",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk ksero\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/testy\nFormat: A4\nIlo\u015b\u0107: 120",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "14935d16-2468-47ec-88a7-eaa9a3bb3229",
+    "bank": "cukt-archiwum",
+    "title": "Papier firmowy CUKT, odr\u0119czna notatka, sygnowana, piecz\u0119\u0107",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier firmowy CUKT, odr\u0119czna notatka, sygnowana, piecz\u0119\u0107\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "1f03edeb-4990-45b4-b800-38fe70a958dd",
+    "bank": "cukt-archiwum",
+    "title": "Papier wydruk ksero",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier wydruk ksero\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 10",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "24e5d16f-0221-4599-9012-9f71624d5480",
+    "bank": "cukt-archiwum",
+    "title": "Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr\u0119cznie",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr\u0119cznie\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 20",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "96a0163d-a19e-4065-a681-c4c1bfa96714",
+    "bank": "cukt-archiwum",
+    "title": "List zaproszenie CUKT\u2019u do Macieja Sienkiewicza kuratora CSW Papiet rysunek odr\u0119czny",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "List zaproszenie CUKT\u2019u do Macieja Sienkiewicza kuratora CSW Papiet rysunek odr\u0119czny\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "d77cc82e-e257-4ac1-b8a0-8b6880db8e90",
+    "bank": "cukt-archiwum",
+    "title": "Papier, pismo odr\u0119czne, j\u0119zyk polski",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, pismo odr\u0119czne, j\u0119zyk polski\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "cdd73263-c9c7-4bc9-95c4-ad2c3a38ae1e",
+    "bank": "cukt-archiwum",
+    "title": "Papier ksero,",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "Papier ksero,\nSekcja: 1995 2017 - Testy na Cyborga\nPodfolder: 1996Zielona Gora\nFormat: A4\nIlo\u015b\u0107: 60",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017---testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "6e06ae48-05cb-4609-9a31-f713c8367331",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk offset",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk offset\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: 20cm x 20 cm\nIlo\u015b\u0107: 3",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "550803f4-6d1a-4fc2-86ff-978c3d9aafcb",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Wroc\u0142aw",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Wroc\u0142aw, Teatr na \u015awiebodzkim ?",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Wroc\u0142aw",
+    "content_text": "# TESTY NA CYBORGA \u2014 Wroc\u0142aw\n\n(brak opisu)\n\n## Dane podstawowe\n\n- **Data:** 1996\n- **Miejsce:** Wroc\u0142aw, Teatr na \u015awiebodzkim ?\n- **Autorzy:** ?\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (33 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 20181011_162203.jpg | Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka n | A4 | - | 1995 |\n| 20181011_162203.jpg | Negatyw kolor, odbitki | - | 15 | 1995 |\n| od 01 do 34A | Papier, ksero, Testy niedoko\u0144czonych zda\u0144 | A4 | 34 | 1995 |\n| 960628.jpg Byt\u00f3w_zamek_Cafe.jpg kli | Negatyw kolor, 2 odbitki | - | 2 | 1995 |\n| od 01 do 50 | Papier ksero, | A4 | 50 | 1995 |\n| IMG-6609.jpg | List zaproszenie CUKT\u2019u do Macieja Sienkiewic | A4 | 1 | 1996 |\n| IMG_6610-1.jpg | Druk informacyjny o kacji CSW Zamek Ujazdowsk | A4 | 1 | 1996 |\n| IMG_6612-1.jpg IMG_6613.jpg | Co jest Grane. Anons prasowy orygina\u0142 | A3 | 1 | 1996 |\n| IMG_6614.jpg | Odr\u0119czna notatka dyrektora Krukowskiego z zap | A4 | 1 | 1996 |\n| IMG_6615.jpg IMG_6616.jpg | Koperta z 6 rodzajami wlepek | 4cm x 4cm | 30 | 1996 |\n| - | Pliki cyfrowe | 4096x2732 pix | 12 | 1996 |\n| od 01A do 168C | Papier wydruk ksero pismo odr\u0119czne | A4 | 360 | 1996 |\n| 20181011_161753.jpg 20181011_161808 | Rysunek d\u0142ugopisem na papierze | A4 | 5 | 1996 |\n| 20181011_161908.jpg 20181011_161941 | Rysunek d\u0142ugopisem na papierze | A4 | 4 | 1996 |\n| 20181011_161918.jpg 20181011_161926 | Papier rysunek d\u0142ugopisem | A4 | 2 | 1996 |\n| 20181011_164227.jpg Obwieszczenie_p | Papier, wydruk ksero, pi\u0119cz\u0119\u0107 | A4 | 3 | 1996 |\n| 20181011_164537.jpg | Papier wydruk ksero | A4 | 10 | 1996 |\n| Biurcukt.cdr cuktofice.pdf | Pliki cyfrowe | - | 2 | 1996 |\n| Dok_01.jpg Projekt Wst\u0119pny_1.jpg Pr | Papier, wydruk, piecz\u0119\u0107 | A4 | 4 | 1996 |\n| dok_02 | Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne | A4 | 1 | 1996 |\n| Dok_03_a.jpg dok_03_b.jpg | Papier firmowy CUKT, odr\u0119czna notatka, sygnow | A4 | 2 | 1996 |\n| IMG_6548.jpg IMG_6550.jpg Ulotka.jp | Papier, druk offset | 20cm x 20 cm | 3 | 1996 |\n| Orientatontest.jpg | Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr | A4 | 20 | 1996 |\n| Plan_1.jpg Plan.jpg | Papier, rysunek d\u0142ugopisem, rysunek flamastre | A4 | 2 | 1996 |\n| Pryba_list.jpg Pryba_Recenzja_Wspom | Koperta z publikacj\u0105 recenzji Tomasza Pryby n | A5 | 1 | 1996 |\n| Umowa (r\u0119kopis).jpg | Papier, pismo odr\u0119czne, j\u0119zyk polski | A4 | 1 | 1996 |\n| Vertag.jpg | Papier, druk ksero, j\u0119zyk niemiecki | A4 | 1 | 1996 |\n| - | Negatyw kolor, odbitki | - | 20 | 1996 |\n| 20181009_114816.jpg | Bluza + spodnie. Tkanina bawe\u0142niana. | M | 1 | 1996 |\n| - | Papier, druk ksero | A4 | 120 | 1996 |\n| TestNaCyborgaDusseldorf.mov | Dokumentacja video Plik cyfrowy | 3min 54sek | - | 1996 |\n| od 1 do 42a | Papier ksero, | A4 | 84 | 1996 |\n| od 1 do 60 | Papier ksero, | A4 | 60 | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "bc1bae0a-d68a-4544-9ae3-f8c516a352f2",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Estrada, Zielona G\u00f3ra",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO",
+    "content_text": "# TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO\n\n(brak opisu)\n\n## Dane podstawowe\n\n- **Data:** 1996\n- **Miejsce:** Estrada, Zielona G\u00f3ra\n- **Autorzy:** ?\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (1 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| od 1 do 60 | Papier ksero, | A4 | 60 | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "55044232-330f-4588-b65b-b28b400750c3",
+    "bank": "cukt-archiwum",
+    "title": "Druk informacyjny o kacji CSW Zamek Ujazdowski",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Druk informacyjny o kacji CSW Zamek Ujazdowski\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "28186874-7b54-42be-8127-33d6beddf4df",
+    "bank": "cukt-archiwum",
+    "title": "Pliki cyfrowe",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Pliki cyfrowe\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: \nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "a61ab4e7-6d07-4a02-8921-e6e0e62e0fa8",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "3a3858b8-8ef6-4c3a-8bdc-4e5bf37a2053",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk ksero, j\u0119zyk niemiecki",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk ksero, j\u0119zyk niemiecki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "385f3665-b0b8-4a43-b623-d53e652cc259",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Wroc\u0142aw",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Wroc\u0142aw, Teatr na \u015awiebodzkim ?",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Wroc\u0142aw",
+    "content_text": "# TESTY NA CYBORGA \u2014 Wroc\u0142aw\n\n(brak opisu)\n\n## Dane podstawowe\n\n- **Data:** 1996\n- **Miejsce:** Wroc\u0142aw, Teatr na \u015awiebodzkim ?\n- **Autorzy:** ?\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (33 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 20181011_162203.jpg | Zapotrzebowanie sprz\u0119towe. Odr\u0119czna notatka n | A4 | - | 1995 |\n| 20181011_162203.jpg | Negatyw kolor, odbitki | - | 15 | 1995 |\n| od 01 do 34A | Papier, ksero, Testy niedoko\u0144czonych zda\u0144 | A4 | 34 | 1995 |\n| 960628.jpg Byt\u00f3w_zamek_Cafe.jpg kli | Negatyw kolor, 2 odbitki | - | 2 | 1995 |\n| od 01 do 50 | Papier ksero, | A4 | 50 | 1995 |\n| IMG-6609.jpg | List zaproszenie CUKT\u2019u do Macieja Sienkiewic | A4 | 1 | 1996 |\n| IMG_6610-1.jpg | Druk informacyjny o kacji CSW Zamek Ujazdowsk | A4 | 1 | 1996 |\n| IMG_6612-1.jpg IMG_6613.jpg | Co jest Grane. Anons prasowy orygina\u0142 | A3 | 1 | 1996 |\n| IMG_6614.jpg | Odr\u0119czna notatka dyrektora Krukowskiego z zap | A4 | 1 | 1996 |\n| IMG_6615.jpg IMG_6616.jpg | Koperta z 6 rodzajami wlepek | 4cm x 4cm | 30 | 1996 |\n| - | Pliki cyfrowe | 4096x2732 pix | 12 | 1996 |\n| od 01A do 168C | Papier wydruk ksero pismo odr\u0119czne | A4 | 360 | 1996 |\n| 20181011_161753.jpg 20181011_161808 | Rysunek d\u0142ugopisem na papierze | A4 | 5 | 1996 |\n| 20181011_161908.jpg 20181011_161941 | Rysunek d\u0142ugopisem na papierze | A4 | 4 | 1996 |\n| 20181011_161918.jpg 20181011_161926 | Papier rysunek d\u0142ugopisem | A4 | 2 | 1996 |\n| 20181011_164227.jpg Obwieszczenie_p | Papier, wydruk ksero, pi\u0119cz\u0119\u0107 | A4 | 3 | 1996 |\n| 20181011_164537.jpg | Papier wydruk ksero | A4 | 10 | 1996 |\n| Biurcukt.cdr cuktofice.pdf | Pliki cyfrowe | - | 2 | 1996 |\n| Dok_01.jpg Projekt Wst\u0119pny_1.jpg Pr | Papier, wydruk, piecz\u0119\u0107 | A4 | 4 | 1996 |\n| dok_02 | Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne | A4 | 1 | 1996 |\n| Dok_03_a.jpg dok_03_b.jpg | Papier firmowy CUKT, odr\u0119czna notatka, sygnow | A4 | 2 | 1996 |\n| IMG_6548.jpg IMG_6550.jpg Ulotka.jp | Papier, druk offset | 20cm x 20 cm | 3 | 1996 |\n| Orientatontest.jpg | Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr | A4 | 20 | 1996 |\n| Plan_1.jpg Plan.jpg | Papier, rysunek d\u0142ugopisem, rysunek flamastre | A4 | 2 | 1996 |\n| Pryba_list.jpg Pryba_Recenzja_Wspom | Koperta z publikacj\u0105 recenzji Tomasza Pryby n | A5 | 1 | 1996 |\n| Umowa (r\u0119kopis).jpg | Papier, pismo odr\u0119czne, j\u0119zyk polski | A4 | 1 | 1996 |\n| Vertag.jpg | Papier, druk ksero, j\u0119zyk niemiecki | A4 | 1 | 1996 |\n| - | Negatyw kolor, odbitki | - | 20 | 1996 |\n| 20181009_114816.jpg | Bluza + spodnie. Tkanina bawe\u0142niana. | M | 1 | 1996 |\n| - | Papier, druk ksero | A4 | 120 | 1996 |\n| TestNaCyborgaDusseldorf.mov | Dokumentacja video Plik cyfrowy | 3min 54sek | - | 1996 |\n| od 1 do 42a | Papier ksero, | A4 | 84 | 1996 |\n| od 1 do 60 | Papier ksero, | A4 | 60 | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "93ddeefe-4763-4c6a-877b-7df80e79de97",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Estrada, Zielona G\u00f3ra",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO",
+    "content_text": "# TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO\n\n(brak opisu)\n\n## Dane podstawowe\n\n- **Data:** 1996\n- **Miejsce:** Estrada, Zielona G\u00f3ra\n- **Autorzy:** ?\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (1 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| od 1 do 60 | Papier ksero, | A4 | 60 | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "dad8f5ad-acb4-4274-9534-d7b2e527eb6c",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Wroc\u0142aw",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Wroc\u0142aw, Teatr na \u015awiebodzkim ?",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA",
+    "content_text": "TESTY NA CYBORGA \u2014 Wroc\u0142aw\n\n\n\nArchiwalia:\n- Testy wype\u0142nione przez widz\u00f3w: 84 formularze (A4)",
+    "tags": [
+      "cukt",
+      "archiwum"
+    ]
+  },
+  {
+    "id": "3e3c58ba-c9da-4fb6-8db5-048686d62b51",
+    "bank": "cukt-archiwum",
+    "title": "Druk informacyjny o kacji CSW Zamek Ujazdowski",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Druk informacyjny o kacji CSW Zamek Ujazdowski\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "f3448de0-a2d3-4f03-8999-52dce24515c0",
+    "bank": "cukt-archiwum",
+    "title": "Co jest Grane. Anons prasowy orygina\u0142",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Co jest Grane. Anons prasowy orygina\u0142\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: A3\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "5c0683dc-7340-4040-9aee-3c5bfa2d3582",
+    "bank": "cukt-archiwum",
+    "title": "Koperta z 6 rodzajami wlepek",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Koperta z 6 rodzajami wlepek\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 09 14 - Warszawa CSW/dokumenty\nFormat: 4cm x 4cm\nIlo\u015b\u0107: 30",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "7254926b-74f0-4ea7-8a03-6a8685d7715f",
+    "bank": "cukt-archiwum",
+    "title": "Rysunek d\u0142ugopisem na papierze",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Rysunek d\u0142ugopisem na papierze\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 5",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "df2fc027-99c9-4ab0-801e-3b94896f2cdb",
+    "bank": "cukt-archiwum",
+    "title": "Rysunek d\u0142ugopisem na papierze",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Rysunek d\u0142ugopisem na papierze\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 4",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "c1123ced-3334-4d53-a18b-ce07e0414c2a",
+    "bank": "cukt-archiwum",
+    "title": "Papier rysunek d\u0142ugopisem",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier rysunek d\u0142ugopisem\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "d095fa2f-b1dc-46a5-b373-a63a4f937457",
+    "bank": "cukt-archiwum",
+    "title": "Papier, wydruk ksero, pi\u0119cz\u0119\u0107",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, wydruk ksero, pi\u0119cz\u0119\u0107\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 3",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "dc1b364c-89ed-47ad-adce-f491a4722ce2",
+    "bank": "cukt-archiwum",
+    "title": "Pliki cyfrowe",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Pliki cyfrowe\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: \nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "aba9cec6-f146-411f-b6fe-46d15f0a6bd8",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "4cd75ad6-60b7-470a-bed9-cb5636e9c043",
+    "bank": "cukt-archiwum",
+    "title": "Papier, rysunek d\u0142ugopisem, rysunek flamastrem",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, rysunek d\u0142ugopisem, rysunek flamastrem\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 2",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "5a7e2ad5-e436-40e8-a817-1146a1fc9a4b",
+    "bank": "cukt-archiwum",
+    "title": "Koperta z publikacj\u0105 recenzji Tomasza Pryby na temat akcji CUKT\u2019u w Dusseldorfie.",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Koperta z publikacj\u0105 recenzji Tomasza Pryby na temat akcji CUKT\u2019u w Dusseldorfie.\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A5\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "846a260e-afb5-4923-ab1c-afedfd87e236",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk ksero",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk ksero\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/testy\nFormat: A4\nIlo\u015b\u0107: 120",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "5622df92-ae1c-4113-92ce-943ba5765d63",
+    "bank": "cukt-archiwum",
+    "title": "Dokumentacja video Plik cyfrowy",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Dokumentacja video Plik cyfrowy\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/video\nFormat: 3min 54sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "0475363b-413b-44d3-a8fa-4fd15ec2954a",
+    "bank": "cukt-archiwum",
+    "title": "Papier, druk ksero, j\u0119zyk niemiecki",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Papier, druk ksero, j\u0119zyk niemiecki\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 1996 10 01 - Dusseldorf/dokumenty\nFormat: A4\nIlo\u015b\u0107: 1",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "8fb55f59-6c1c-4733-abc8-31447e6b3cd2",
+    "bank": "cukt-archiwum",
+    "title": "Papier ksero,",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "Papier ksero,\nSekcja: 1995 2017 - Testy na Cyborga\nPodfolder: 199/Wroclaw\nFormat: A4\nIlo\u015b\u0107: 84",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017---testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "58a88123-191b-42b9-aeee-1485d9aa84ac",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Estrada, Zielona G\u00f3ra",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA",
+    "content_text": "TESTY NA CYBORGA \u2014 Zielona G\u00f3ra / TECHNOPERA 3.0 PRO\n\n\n\nArchiwalia:\n- Testy wype\u0142nione przez widz\u00f3w: 60 formularzy (A4)\n- Dokumentacja wideo: plik cyfrowy (23 min 18 sek)",
+    "tags": [
+      "cukt",
+      "archiwum"
+    ]
+  },
+  {
+    "id": "48cae870-b86e-4096-9cf3-0bd4877147a9",
+    "bank": "cukt-archiwum",
+    "title": "Papier ksero,",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "Papier ksero,\nSekcja: 1995 2017 - Testy na Cyborga\nPodfolder: 199/Wroclaw\nFormat: A4\nIlo\u015b\u0107: 84",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017---testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "8e0cd5d5-83b5-41b8-bf72-a32affb97592",
+    "bank": "cukt-archiwum",
+    "title": "Papier ksero,",
+    "date_original": "1996-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 - Testy na Cyborga",
+    "content_text": "Papier ksero,\nSekcja: 1995 2017 - Testy na Cyborga\nPodfolder: 1996Zielona Gora\nFormat: A4\nIlo\u015b\u0107: 60",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017---testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "438dc6e9-dfac-413e-a12a-619240feb625",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Byt\u00f3w",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Zamek, Byt\u00f3w (w ramach festiwalu CASTLE OF IMAGINATION)",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Byt\u00f3w",
+    "content_text": "# TESTY NA CYBORGA \u2014 Byt\u00f3w\n\nTesty na Cyborga to cykliczny wieloletni projekt w formie biurokratycznej akcji gdzie publiczno\u015b\u0107 jest zmuszona do przej\u015bcia okre\u015blonych form \u201cinwigilacji\u201d i cczynno\u015bci zbli\u017conych do kontroli bezpiecze\u0144stwa na lotniskach. Koncepcja oparta na te\u015bcie Voight Kampffa z Blade Runner. Najcz\u0119\u015bciej w po\u0142\u0105czeniu z wersj\u0105 Technopery.  W wi\u0119kszo\u015bci przypadk\u00f3w zachowane wype\u0142nione papierowe testy, skany \u201c\u0142ap\u201d z piecz\u0105tkami i numerami, zapisy video.\n\n## Dane podstawowe\n\n- **Data:** 28 czerwca 1996\n- **Miejsce:** Zamek, Byt\u00f3w (w ramach festiwalu CASTLE OF IMAGINATION)\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (2 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 960628.jpg Byt\u00f3w_zamek_Cafe.jpg kli | Negatyw kolor, 2 odbitki | - | 2 | 1995 |\n| od 01 do 50 | Papier ksero, | A4 | 50 | 1995 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "10643e30-acbd-439a-a73a-042f769f2fff",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Byt\u00f3w",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Zamek, Byt\u00f3w (w ramach festiwalu CASTLE OF IMAGINATION)",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Byt\u00f3w",
+    "content_text": "# TESTY NA CYBORGA \u2014 Byt\u00f3w\n\nTesty na Cyborga to cykliczny wieloletni projekt w formie biurokratycznej akcji gdzie publiczno\u015b\u0107 jest zmuszona do przej\u015bcia okre\u015blonych form \u201cinwigilacji\u201d i cczynno\u015bci zbli\u017conych do kontroli bezpiecze\u0144stwa na lotniskach. Koncepcja oparta na te\u015bcie Voight Kampffa z Blade Runner. Najcz\u0119\u015bciej w po\u0142\u0105czeniu z wersj\u0105 Technopery.  W wi\u0119kszo\u015bci przypadk\u00f3w zachowane wype\u0142nione papierowe testy, skany \u201c\u0142ap\u201d z piecz\u0105tkami i numerami, zapisy video.\n\n## Dane podstawowe\n\n- **Data:** 28 czerwca 1996\n- **Miejsce:** Zamek, Byt\u00f3w (w ramach festiwalu CASTLE OF IMAGINATION)\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (2 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 960628.jpg Byt\u00f3w_zamek_Cafe.jpg kli | Negatyw kolor, 2 odbitki | - | 2 | 1995 |\n| od 01 do 50 | Papier ksero, | A4 | 50 | 1995 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "2db1fb0e-8cca-4dd7-b796-38d1c07874fd",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Kunstraum, Dusseldorf, Niemcy",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE",
+    "content_text": "# TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE\n\nAkcja CUKT w Niemczech \u2014 rozbudowana wersja \u201cTest\u00f3w na Cyborga\u201d (wersja TO-06). Projekt obejmowa\u0142 stanowiska testowe, testy orientacyjne, ksero d\u0142oni, umowy z widzami, worek z piaskiem 1/10 deklarowanej wagi. Zachowana recenzja Tomasza Pryby.\n\n## Dane podstawowe\n\n- **Data:** 1 pa\u017adziernika 1996\n- **Miejsce:** Kunstraum, Dusseldorf, Niemcy\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (19 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 20181011_161753.jpg 20181011_161808 | Rysunek d\u0142ugopisem na papierze | A4 | 5 | 1996 |\n| 20181011_161908.jpg 20181011_161941 | Rysunek d\u0142ugopisem na papierze | A4 | 4 | 1996 |\n| 20181011_161918.jpg 20181011_161926 | Papier rysunek d\u0142ugopisem | A4 | 2 | 1996 |\n| 20181011_164227.jpg Obwieszczenie_p | Papier, wydruk ksero, pi\u0119cz\u0119\u0107 | A4 | 3 | 1996 |\n| 20181011_164537.jpg | Papier wydruk ksero | A4 | 10 | 1996 |\n| Biurcukt.cdr cuktofice.pdf | Pliki cyfrowe | - | 2 | 1996 |\n| Dok_01.jpg Projekt Wst\u0119pny_1.jpg Pr | Papier, wydruk, piecz\u0119\u0107 | A4 | 4 | 1996 |\n| dok_02 | Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne | A4 | 1 | 1996 |\n| Dok_03_a.jpg dok_03_b.jpg | Papier firmowy CUKT, odr\u0119czna notatka, sygnow | A4 | 2 | 1996 |\n| IMG_6548.jpg IMG_6550.jpg Ulotka.jp | Papier, druk offset | 20cm x 20 cm | 3 | 1996 |\n| Orientatontest.jpg | Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr | A4 | 20 | 1996 |\n| Plan_1.jpg Plan.jpg | Papier, rysunek d\u0142ugopisem, rysunek flamastre | A4 | 2 | 1996 |\n| Pryba_list.jpg Pryba_Recenzja_Wspom | Koperta z publikacj\u0105 recenzji Tomasza Pryby n | A5 | 1 | 1996 |\n| Umowa (r\u0119kopis).jpg | Papier, pismo odr\u0119czne, j\u0119zyk polski | A4 | 1 | 1996 |\n| Vertag.jpg | Papier, druk ksero, j\u0119zyk niemiecki | A4 | 1 | 1996 |\n| - | Negatyw kolor, odbitki | - | 20 | 1996 |\n| 20181009_114816.jpg | Bluza + spodnie. Tkanina bawe\u0142niana. | M | 1 | 1996 |\n| - | Papier, druk ksero | A4 | 120 | 1996 |\n| TestNaCyborgaDusseldorf.mov | Dokumentacja video Plik cyfrowy | 3min 54sek | - | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "1f3e5db7-6158-4145-adaa-b613cbc13e16",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Kunstraum, Dusseldorf, Niemcy",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE",
+    "content_text": "# TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE\n\nAkcja CUKT w Niemczech \u2014 rozbudowana wersja \u201cTest\u00f3w na Cyborga\u201d (wersja TO-06). Projekt obejmowa\u0142 stanowiska testowe, testy orientacyjne, ksero d\u0142oni, umowy z widzami, worek z piaskiem 1/10 deklarowanej wagi. Zachowana recenzja Tomasza Pryby.\n\n## Dane podstawowe\n\n- **Data:** 1 pa\u017adziernika 1996\n- **Miejsce:** Kunstraum, Dusseldorf, Niemcy\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (19 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| 20181011_161753.jpg 20181011_161808 | Rysunek d\u0142ugopisem na papierze | A4 | 5 | 1996 |\n| 20181011_161908.jpg 20181011_161941 | Rysunek d\u0142ugopisem na papierze | A4 | 4 | 1996 |\n| 20181011_161918.jpg 20181011_161926 | Papier rysunek d\u0142ugopisem | A4 | 2 | 1996 |\n| 20181011_164227.jpg Obwieszczenie_p | Papier, wydruk ksero, pi\u0119cz\u0119\u0107 | A4 | 3 | 1996 |\n| 20181011_164537.jpg | Papier wydruk ksero | A4 | 10 | 1996 |\n| Biurcukt.cdr cuktofice.pdf | Pliki cyfrowe | - | 2 | 1996 |\n| Dok_01.jpg Projekt Wst\u0119pny_1.jpg Pr | Papier, wydruk, piecz\u0119\u0107 | A4 | 4 | 1996 |\n| dok_02 | Papier, druk, piecz\u0119\u0107, notatki odr\u0119czne | A4 | 1 | 1996 |\n| Dok_03_a.jpg dok_03_b.jpg | Papier firmowy CUKT, odr\u0119czna notatka, sygnow | A4 | 2 | 1996 |\n| IMG_6548.jpg IMG_6550.jpg Ulotka.jp | Papier, druk offset | 20cm x 20 cm | 3 | 1996 |\n| Orientatontest.jpg | Papier, wydruk ksero Cz\u0119\u015bciowo wype\u0142niony odr | A4 | 20 | 1996 |\n| Plan_1.jpg Plan.jpg | Papier, rysunek d\u0142ugopisem, rysunek flamastre | A4 | 2 | 1996 |\n| Pryba_list.jpg Pryba_Recenzja_Wspom | Koperta z publikacj\u0105 recenzji Tomasza Pryby n | A5 | 1 | 1996 |\n| Umowa (r\u0119kopis).jpg | Papier, pismo odr\u0119czne, j\u0119zyk polski | A4 | 1 | 1996 |\n| Vertag.jpg | Papier, druk ksero, j\u0119zyk niemiecki | A4 | 1 | 1996 |\n| - | Negatyw kolor, odbitki | - | 20 | 1996 |\n| 20181009_114816.jpg | Bluza + spodnie. Tkanina bawe\u0142niana. | M | 1 | 1996 |\n| - | Papier, druk ksero | A4 | 120 | 1996 |\n| TestNaCyborgaDusseldorf.mov | Dokumentacja video Plik cyfrowy | 3min 54sek | - | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "88e529c0-7a1e-4e89-bac7-001a87712c0a",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Centrum Sztuki Wsp\u00f3\u0142czesnej Zamek Ujazdowski, Warszawa",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski",
+    "content_text": "# TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski\n\nAkcja \u201cTesty na Cyborga\u201d w CSW. Widzowie wype\u0142niali formularze Testu na Cyborga wersja 03. Zachowana korespondencja z dyrektorem Krukowskim. Wersja Technopery i liveact Scnnera.\n\n## Dane podstawowe\n\n- **Data:** 14 wrze\u015bnia 1996\n- **Miejsce:** Centrum Sztuki Wsp\u00f3\u0142czesnej Zamek Ujazdowski, Warszawa\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (7 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| IMG-6609.jpg | List zaproszenie CUKT\u2019u do Macieja Sienkiewic | A4 | 1 | 1996 |\n| IMG_6610-1.jpg | Druk informacyjny o kacji CSW Zamek Ujazdowsk | A4 | 1 | 1996 |\n| IMG_6612-1.jpg IMG_6613.jpg | Co jest Grane. Anons prasowy orygina\u0142 | A3 | 1 | 1996 |\n| IMG_6614.jpg | Odr\u0119czna notatka dyrektora Krukowskiego z zap | A4 | 1 | 1996 |\n| IMG_6615.jpg IMG_6616.jpg | Koperta z 6 rodzajami wlepek | 4cm x 4cm | 30 | 1996 |\n| - | Pliki cyfrowe | 4096x2732 pix | 12 | 1996 |\n| od 01A do 168C | Papier wydruk ksero pismo odr\u0119czne | A4 | 360 | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "36067c0b-8b88-4bad-a3b2-5d956423a234",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski",
+    "date_original": "1996-01-01",
+    "authors": [],
+    "location": "Centrum Sztuki Wsp\u00f3\u0142czesnej Zamek Ujazdowski, Warszawa",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski",
+    "content_text": "# TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski\n\nAkcja \u201cTesty na Cyborga\u201d w CSW. Widzowie wype\u0142niali formularze Testu na Cyborga wersja 03. Zachowana korespondencja z dyrektorem Krukowskim. Wersja Technopery i liveact Scnnera.\n\n## Dane podstawowe\n\n- **Data:** 14 wrze\u015bnia 1996\n- **Miejsce:** Centrum Sztuki Wsp\u00f3\u0142czesnej Zamek Ujazdowski, Warszawa\n- **Autorzy:** Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jab\u0142o\u0144ski, Rafa\u0142 Grabowski\n- **Cykl:** [[Testy na Cyborga]] \u2014 realizowane w wielu miastach 1995\u20132017\n\n## Katalog archiwali\u00f3w (7 pozycji)\n\n\u0179r\u00f3d\u0142o: CUKT Archiwum_01-2.odt | \u015acie\u017cka SSD: raw/archive-usb/1995 2017 Testy na Cyborga/\n\n| Plik | Opis | Format | Ilo\u015b\u0107 | Rok |\n|------|------|--------|-------|-----|\n| IMG-6609.jpg | List zaproszenie CUKT\u2019u do Macieja Sienkiewic | A4 | 1 | 1996 |\n| IMG_6610-1.jpg | Druk informacyjny o kacji CSW Zamek Ujazdowsk | A4 | 1 | 1996 |\n| IMG_6612-1.jpg IMG_6613.jpg | Co jest Grane. Anons prasowy orygina\u0142 | A3 | 1 | 1996 |\n| IMG_6614.jpg | Odr\u0119czna notatka dyrektora Krukowskiego z zap | A4 | 1 | 1996 |\n| IMG_6615.jpg IMG_6616.jpg | Koperta z 6 rodzajami wlepek | 4cm x 4cm | 30 | 1996 |\n| - | Pliki cyfrowe | 4096x2732 pix | 12 | 1996 |\n| od 01A do 168C | Papier wydruk ksero pismo odr\u0119czne | A4 | 360 | 1996 |",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "wiki",
+      "projekt"
+    ]
+  },
+  {
+    "id": "50c0ec39-b3b4-4266-b57e-b80da3823d29",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Byt\u00f3w",
+    "date_original": "1996-06-28",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": "Zamek, Byt\u00f3w (w ramach festiwalu CASTLE OF IMAGINATION)",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA",
+    "content_text": "TESTY NA CYBORGA \u2014 Byt\u00f3w\n\nTesty na Cyborga to cykliczny wieloletni projekt w formie biurokratycznej akcji gdzie publiczno\u015b\u0107 jest zmuszona do przej\u015bcia okre\u015blonych form \u201cinwigilacji\u201d i cczynno\u015bci zbli\u017conych do kontroli bezpiecze\u0144stwa na lotniskach. Koncepcja oparta na te\u015bcie Voight Kampffa z Blade Runner. Najcz\u0119\u015bciej w po\u0142\u0105czeniu z wersj\u0105 Technopery.  W wi\u0119kszo\u015bci przypadk\u00f3w zachowane wype\u0142nione papierowe testy, skany \u201c\u0142ap\u201d z piecz\u0105tkami i numerami, zapisy video.\n\nArchiwalia:\n- Dokumentacja fotograficzna: negatyw kolor, 2 odbitki\n- Testy wype\u0142nione przez widz\u00f3w: 50 formularzy (papier, ksero, A4)",
+    "tags": [
+      "cukt",
+      "archiwum"
+    ]
+  },
+  {
+    "id": "9941f0a9-2808-4b4b-8ef1-8801340196ba",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski",
+    "date_original": "1996-09-14",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": "Centrum Sztuki Wsp\u00f3\u0142czesnej Zamek Ujazdowski, Warszawa",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA",
+    "content_text": "TESTY NA CYBORGA \u2014 Warszawa CSW Zamek Ujazdowski\n\nAkcja \u201cTesty na Cyborga\u201d w CSW. Widzowie wype\u0142niali formularze Testu na Cyborga wersja 03. Zachowana korespondencja z dyrektorem Krukowskim. Wersja Technopery i liveact Scnnera.\n\nArchiwalia:\n- Dokumenty: list-zaproszenie do kuratora Macieja Sienkiewicza, druk informacyjny, anons prasowy \u201cCo jest Grane\u201d, notatka dyrektora Krukowskiego z zapotrzebowaniem sprz\u0119towym\n- Koperta z 6 rodzajami wlepek (30 szt., 4\u00d74 cm)\n- Dokumentacja fotograficzna: pliki cyfrowe (12 fotografii, 4096\u00d72732 px)\n- Testy wype\u0142nione przez widz\u00f3w: 360 formularzy (A4)",
+    "tags": [
+      "cukt",
+      "archiwum"
+    ]
+  },
+  {
+    "id": "b0c88b52-22b2-4794-8f3e-c0ca610587cf",
+    "bank": "cukt-archiwum",
+    "title": "TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE",
+    "date_original": "1996-10-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": "Kunstraum, Dusseldorf, Niemcy",
+    "source_type": "dokument",
+    "project_name": "TESTY NA CYBORGA",
+    "content_text": "TESTY NA CYBORGA \u2014 Dusseldorf / DELIKATESY AVANTGARDE\n\nAkcja CUKT w Niemczech \u2014 rozbudowana wersja \u201cTest\u00f3w na Cyborga\u201d (wersja TO-06). Projekt obejmowa\u0142 stanowiska testowe, testy orientacyjne, ksero d\u0142oni, umowy z widzami, worek z piaskiem 1/10 deklarowanej wagi. Zachowana recenzja Tomasza Pryby.\n\nArchiwalia:\n- Dokumenty: odr\u0119czne instrukcje post\u0119powania na stanowiskach (5 kart), projekty test\u00f3w orientacyjnych TO-6 (4 karty), projekt organizacji przestrzeni galerii, obwieszczenie o akcji (3 szt.), formularze TO-06 (10 szt. + 20 szt. wersja niemiecka), projekty opisowe performance (3 wersje), zapotrzebowanie materia\u0142owe, dokument ko\u0144cowy z akcji, ulotki z wystawy (3 szt.), wz\u00f3r umowy (wersja polska i niemiecka)\n- Recenzja/wspomnienie Tomasza Pryby (koperta z publikacj\u0105, plik RTF)\n- Dokumentacja fotograficzna: negatyw kolor, odbitki (ok. 20 fotografii)\n- Obiekt: Uniform Urz\u0119dnika CUKT \u2014 bluza + spodnie, bawe\u0142na, zaprojektowany i uszyty na akcj\u0119 w Dusseldorfie (unikat)\n- Testy wype\u0142nione przez widz\u00f3w: 120 formularzy (testy orientacyjne, ksero d\u0142oni, umowy)\n- Dokumentacja wideo: plik cyfrowy (3 min 54 sek)",
+    "tags": [
+      "cukt",
+      "archiwum"
+    ]
+  },
+  {
+    "id": "aefa6e05-d8fb-4036-b6b6-95d495e26f6d",
+    "bank": "cukt-archiwum",
+    "title": "Projekt ekspozycji test\u00f3w na cyborga Pliki cyfrowe",
+    "date_original": "2016-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Projekt ekspozycji test\u00f3w na cyborga Pliki cyfrowe\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 2016 2017 MSN 120 uderzen\nFormat: \nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "41d1cc81-f21f-44fe-99a0-281f8b47840e",
+    "bank": "cukt-archiwum",
+    "title": "Projekt ekspozycji test\u00f3w na cyborga Pliki cyfrowe",
+    "date_original": "2016-01-01",
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Projekt ekspozycji test\u00f3w na cyborga Pliki cyfrowe\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: 2016 2017 MSN 120 uderzen\nFormat: \nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "5ece3e1f-296b-43d9-b625-b8220fc9c03e",
+    "bank": "cukt-archiwum",
+    "title": "Plik wideo",
+    "date_original": null,
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Plik wideo\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: Video\nFormat: 06min 51sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "aa4fcb22-0091-4049-b6e9-0d2ffc386772",
+    "bank": "cukt-archiwum",
+    "title": "Plik wideo",
+    "date_original": null,
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Plik wideo\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: Video\nFormat: 23min 18sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "b69be880-10b3-4efe-9c43-62288c5fe8ee",
+    "bank": "cukt-archiwum",
+    "title": "Plik wideo",
+    "date_original": null,
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Plik wideo\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: Video\nFormat: 23min 18sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "7d306f18-c1c3-4848-9be8-20e6586ab570",
+    "bank": "cukt-archiwum",
+    "title": "Plik wideo",
+    "date_original": null,
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Plik wideo\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: Video\nFormat: 09min 02sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "3c33a995-341c-4f70-8131-103dd65c2e64",
+    "bank": "cukt-archiwum",
+    "title": "Plik wideo",
+    "date_original": null,
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Plik wideo\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: Video\nFormat: 06min 51sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  },
+  {
+    "id": "d3ae52f9-d083-434c-8075-6bff966558f4",
+    "bank": "cukt-archiwum",
+    "title": "Plik wideo",
+    "date_original": null,
+    "authors": [
+      "Piotr Wyrzykowski",
+      "Artur Kozdrowski",
+      "Adam Popek",
+      "Robert Jurkowski",
+      "Jacek Niegoda",
+      "Anna Nizio",
+      "Marek Jab\u0142o\u0144ski",
+      "Rafa\u0142 Grabowski"
+    ],
+    "location": null,
+    "source_type": "inny",
+    "project_name": "1995 2017 Testy na Cyborga",
+    "content_text": "Plik wideo\nSekcja: 1995 2017 Testy na Cyborga\nPodfolder: Video\nFormat: 09min 02sek\nIlo\u015b\u0107: ",
+    "tags": [
+      "cukt",
+      "archiwum",
+      "katalog",
+      "1995-2017-testy-na-cyborga"
+    ]
+  }
+]
+
+## Images Processed
+Processed 5 images with descriptions saved.
+
+### Descriptions:
+
+#### lodz01.jpg
+**UUID:** fa5c5dbc-8242-4c57-a91c-aa4054853119
+**Description:** This image is a two-page spread from the Polish newspaper *Gazeta Wyborcza*, dated **Monday, October 9, 2000**, from the Łódź edition (page 3). The layout features a mix of political news, election re...
+
+#### ca-bi0096.jpg
+**UUID:** 319401e8-96aa-4141-969c-7e6b9e7c588b
+**Description:** Error analyzing image: Error analyzing image: Error code: 404 - {'error': {'message': 'Not found the model kimi-k2-turbo-preview or Permission denied', 'type': 'resource_not_found_error'}}
+
+#### dok_03_b.jpg
+**UUID:** 91a4d406-c86c-4fa5-b9ad-fafda2f3cdfd
+**Description:** This image displays a document from the **Centralny Urząd Kultury Technicznej (CUKT)**, which translates to the **Central Office of Technical Culture**. The document appears to be a form or report, li...
+
+#### 005.jpg
+**UUID:** 69fd6507-be3b-4df2-a8b7-f106d2ea172c
+**Description:** This image captures an art exhibition space, likely within a museum or gallery, featuring a multimedia installation with a strong political and satirical theme. The room has a minimalist design with w...
+
+#### 78A.jpg
+**UUID:** 728407f3-5865-4865-89ab-c2cbdd292255
+**Description:** This image shows a printed psychological or cognitive test form titled **"Test Czujności"** (Polish for "Alertness Test" or "Perceptual Sensitivity Test"), with the code **TC 001**. The document appea...
+
+## Open Questions
+- Any missing files or analysis issues noted above.
+- Further investigation needed for project context.
+
+## Next Steps
+- Review saved descriptions.
+- Follow up on open questions.
+
