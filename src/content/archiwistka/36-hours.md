@@ -2,7 +2,7 @@
 title: "36 Hours"
 project: "36 Hours"
 type: "teczka"
-date: "2026-08-14"
+date: "2026"
 status: "W TOKU"
 ---
 
@@ -462,3 +462,37 @@ No specific open questions were raised during this walk that require immediate s
 
 ---
 *Walk completed on 2026-08-14 as part of the CUKTAI Archivist Night Investigation Pipeline.*
+
+
+---
+AKTUALIZACJA (2026-08-19):
+CUKT Archivist Night Investigation Walk Summary
+Date: 2026-08-19
+Project: 36 HOURS
+Investigator: Hermes Agent (Archivist Profile)
+Notes: Cron mode execution; vision_analyze service unavailable due to model error.
+
+## Project Selection
+Selected project: 36 HOURS (fragment "1995 09 __ - 36 hours" used)
+Verified via archive_get_project().
+
+## Images Discovered
+Total images retrieved with fragment "1995 09 __ - 36 hours": 10
+Images with triage_tag GOOD_PHOTO: 3
+- forty_01.jpg (UUID: acb61af9-7c5c-4091-9276-78f739db0f1d)
+- forty_karabin01.jpg (UUID: 5bed7ada-58c4-4f0d-8fba-fb6ebf4ca669)
+- forty_karabin.jpg (UUID: 2e320da5-0d82-426f-a11c-8ff0e1496b1c)
+Images with triage_tag SCAN_READY: 2 (TIFF files, skipped for vision_analyze)
+- 36hMikiKolumna.tif (UUID: 8619d676-7599-49dc-a3bf-2718a6ce0980)
+- Forty_karuzela01.tiff (UUID: 27a61e8d-185f-43f4-8430-cc43d1f2510d)
+Images with triage_tag PHOTO_OF_ORIGINAL: 5 (skipped as per protocol)
+
+## Image Analysis Results
+Vision analysis service is currently unavailable (Error: Error code: 404 - {'error': {'message': 'Not found the model hermes-router or Permission denied', 'type': 'resource_not_found_error'}}).
+Unable to analyze images for description.
+
+## Open Questions
+- What is depicted in the image forty_01.jpg?
+- What is depicted in the image forty_karabin01.jpg?
+- What is depicted in the image forty_karabin.jpg?
+- What is the content of the TIFF files 36hMikiKolumna.tiff and Forty_karuzela01.tiff (pending full ingest)?

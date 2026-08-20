@@ -2,7 +2,7 @@
 title: "000 CUKT Dokumenty"
 project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-08-16"
+date: "2026-08-20"
 status: "W TOKU"
 ---
 
@@ -467,3 +467,41 @@ This collection is PRIORITY MATERIAL for understanding CUKT's institutional foun
 - Provides essential context for how CUKT operated as an organization
 - Raises questions about document preservation vs. action preservation in archives
 - Suggests research methodology: follow the documents to understand the actions
+
+
+---
+AKTUALIZACJA (2026-08-20):
+# Investigation Report for Project: 000 CUKT Dokumenty
+
+## Project Overview
+- **Project Name**: 000 CUKT Dokumenty
+- **Earliest Date**: 1994-01-01
+- **Record Count**: 116 records (as per archive listing)
+
+## Content Description
+The project "000 CUKT Dokumenty" appears to be a foundational institutional archive containing the material basis for CUKT's artistic and political interventions. Based on the archive records, the project includes:
+- Invitations (druk)
+- Audio tapes (kaseta audio z nagraniami NTSC)
+- Seals (pieczęć CUKT, pieczęć NTSC)
+- Letterhead templates (wzór papieru firmowego CUKT)
+- Handwritten records of the NTSC Constitution
+- Interview prints with CUKT officials
+- Logo projects (PAKT, VIRUS)
+- Identification documents for officials
+- Various forms, blanks, and templates
+- Photographs of officials in various situations
+- Audio recordings, flyers, stamps, and other administrative materials
+
+## Image Analysis
+The `archive_get_images()` query for this project returned no images with `GOOD_PHOTO` or `SCAN_READY` tags. This suggests that:
+1. The project may consist primarily of non-image documents (text, audio, templates) that were not digitized as image attachments.
+2. Visual materials, if they exist, may be filed under different project names or exist as disk-only items without database attachments (VIRUS pattern C2).
+3. The project represents the infrastructural "back office" of CUKT, focusing on documentation and administration rather than visual artworks.
+
+## Open Questions
+1. Where are the visual materials (if any) associated with the 000 CUKT Dokumenty project stored? Are they disk-only items awaiting ingestion?
+2. How does this institutional documentation relate to the more visually-oriented projects like TESTY NA CYBORGA or WIKTORIA CUKT?
+3. Are there any plans to digitize the non-image materials (e.g., audio tapes, documents) for preservation and access?
+
+## Conclusion
+The 000 CUKT Dokumenty project serves as the administrative core of CUKT, preserving the procedural and documentary traces of the group's activities. While it lacks visual imagery, its value lies in understanding the operational framework that enabled CUKT's interventions.
