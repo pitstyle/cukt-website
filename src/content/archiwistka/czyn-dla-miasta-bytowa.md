@@ -438,3 +438,8 @@ Analiza materiałów wykazuje:
 
 ## Wnioski:
 Projekt "Czyn dla miasta Bytów" jest przykładem strategii CUKT łączenia działań społecznych, artystycznych i dokumentacyjnych. Przez pracę fizyczną w przestrzeni publicznej, jednocześnie dokumentującą kontekst społeczno-gospodarczy, CUKT tworzył wielowarstwowe_intervencje, które zarówno zmieniały materiale rzeczywistość (remont domków), jak i zapisywały proces zmian dla przyszłości. Projekt pokazuje, jak grupa artystyczna może działać jako aktywny uczestnik życia lokalnego, nie oddzielając się od społeczności, której dotyczy jej działanie.
+
+
+---
+AKTUALIZACJA (2026-08-20):
+Project selection: Czyn dla miasta Bytów. Archive_get_images returned 5 images. Verified file existence: only 2 images exist on disk and are GOOD_PHOTO: Tablica pamiatkowa.jpg (UUID 445c88a6-1171-4512-a8cb-ad45c24bf658) and Technopera_Prapremiera_Projekt.jpg (UUID 71d06d34-2676-48af-8016-66c752aa916f). The other three images (Gdansk NCK 06, 08, 13.jpg) were found to be misattributed; they actually exist under Wiktoria Cukt project (cross-project mismatch, Variant B). Vision analysis failed for both valid images due to 'Not found the model hermes-router or Permission denied' error, indicating a systemic issue with the vision service in cron mode. Placeholder descriptions were saved. Open questions: 1) Why are the Gdansk NCK images attributed to Czyn dla miasta Bytów in the archive when they belong to Wiktoria Cukt? 2) What is the content of Tablica pamiatkowa.jpg and Technopera_Prapremiera_Projekt.jpg (since vision analysis failed)? 3) Is the vision service issue temporary or requiring intervention?

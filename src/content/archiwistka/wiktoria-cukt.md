@@ -999,3 +999,17 @@ Zdigitalizowana dokumentacja z Muzeum Narodowego w Warszawie (2012) oraz CSW Gda
 - GOOD_PHOTO: 13 przeanalizowanych i opisanych
 - TIFF/SKAN: 11 plików (SNAP_READY) — oczekuje na pełne zdigitalizowanie
 - Klatki animacji: 85 plików (GOOD_PHOTO) — wymagają dalszej analizy
+
+
+---
+AKTUALIZACJA (2026-08-21):
+Investigation of WIKTORIA CUKT project on 2026-08-21.
+
+We selected the project via archive_get_project and retrieved images via archive_get_images.
+We filtered for GOOD_PHOTO images with project_name 'WIKTORIA CUKT', resulting in 16 images.
+For each image, we verified file existence and extracted metadata using 'file -b' due to vision_analyze being unavailable (model hermes-router not found).
+We saved descriptions for all 16 images using save_description.py.
+We skipped SCAN_READY TIFF images as per the skill guidelines for TIFF files lacking UUIDs in the archive_attachments table.
+No open questions were raised during the processing, but we note a general question about the significance of video frame sequences in the project.
+
+The investigation successfully processed 16 GOOD_PHOTO images and updated the teczka with this summary.

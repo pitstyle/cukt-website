@@ -496,3 +496,16 @@ Unable to analyze images for description.
 - What is depicted in the image forty_karabin01.jpg?
 - What is depicted in the image forty_karabin.jpg?
 - What is the content of the TIFF files 36hMikiKolumna.tiff and Forty_karuzela01.tiff (pending full ingest)?
+
+
+---
+AKTUALIZACJA (2026-08-20):
+Project: 36 hours
+Date: 2026-08-20
+Investigation:
+- Selected project via archive_list_projects() and archive_get_project().
+- Retrieved images via archive_get_images(): found 20 GOOD_PHOTO, 18 SCAN_READY, 12 PHOTO_OF_ORIGINAL (based on earlier image list).
+- Attempted vision_analyze on all GOOD_PHOTO/SCAN_READY images.
+- Vision analysis failed due to error: "Not found the model hermes-router or Permission denied".
+- No descriptions were saved via save_description.py.
+- Open question: Why is vision_analyze failing with model hermes-router not found? Is this a configuration issue or API problem?

@@ -931,3 +931,54 @@ COLLECTIVE INSIGHTS: The LAB 6 project materials demonstrate CUKT's sustained in
 5. Surveillance themes and the bureaucratization of technology use
 
 These works collectively position LAB 6 as a significant documents of Polish avant-garde art's engagement with the technological transformations of the 1990s, presaging contemporary debates about digital labor, identity, and control.
+
+
+---
+AKTUALIZACJA (2026-08-20):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+
+Project Information:
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+
+Archiwalia:
+- Dokumentacja fotograficzna: odbitki kolor (2 fotografie)
+- Projekty: zapotrzebowanie materiałowo-sprzętowe oraz projekty Biura CUKT niezrealizowane w ramach wystawy (8 kart, pismo odręczne, rysunki ołówkiem)
+
+Investigation Summary (2026-08-20):
+Cron mode archive walk for project LAB 6. Vision analysis failed (error 404: model not found or permission denied). Proceeded with metadata analysis.
+
+Image Descriptions:
+1. cukt1.JPG:
+   File size: 908 KiB
+   Modification date: 1999-01-29 12:56:52+01:00
+   Dimensions: 2045x1384
+   Format: JPEG, JFIF 1.02, 300x300 DPI
+   Comment: File written by Adobe Photoshop 4.0
+
+2. cukt.jpg:
+   File size: 874 KiB
+   Modification date: 1999-01-29 12:55:56+01:00
+   Dimensions: 2037x1380
+   Format: JPEG, JFIF 1.02, 300x300 DPI
+   Comment: File written by Adobe Photoshop 4.0
+
+3. rodziana copy.jpg:
+   File size: 314 KiB
+   Modification date: 2018-10-11 11:01:34+02:00
+   Dimensions: 2480x3425
+   Format: JPEG, JFIF 1.01, 72x72 DPI
+   Software: Picasa
+   Exif Version: 0220
+   Image Unique ID: f1e8c3d01b81bb710000000000000000
+   Comment: File written by Adobe Photoshop 5.0
+
+Open Questions:
+- What is the significance of the performance LAB 6 at CSW Zamek Ujazdowski in 1997?
+- What was the purpose of the Biura CUKT projects that were not realized?
+- What does the image cukt1.JPG depict? (Note: we only have metadata, not visual description)
+- What does the image cukt.jpg depict?
+- What does the image rodziana copy.jpg depict? (appears to be a scanned document or photograph)
+
+Note: Due to vision_analyze failure, visual descriptions are not available. The descriptions above are based on file metadata only.
+
