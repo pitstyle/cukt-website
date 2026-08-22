@@ -982,3 +982,8 @@ Open Questions:
 
 Note: Due to vision_analyze failure, visual descriptions are not available. The descriptions above are based on file metadata only.
 
+
+
+---
+AKTUALIZACJA (2026-08-22):
+Investigation Summary for LAB 6\nDate: 2026-08-22\nProject selection: Used shorthand project name "LAB 6" via archive_list_projects() and archive_get_project().\nImage discovery: archive_get_images(project_name="LAB 6") returned 11 images; filtered for 3 GOOD_PHOTO images (cukt1.JPG, cukt.jpg, rodziana copy.jpg).\nImage processing: For each GOOD_PHOTO image:\n- Verified file existence on disk using ls -la\n- Attempted vision_analyze on the actual file path, but the tool failed with Error code: 404 - {'error': {'message': 'Not found the model hermes-router or Permission denied', 'type': 'resource_not_found_error'}}\n- Persisted open question via save_question.py for each image due to technical failure.\nResults:\n- Unable to analyze images due to technical issues with vision_analyze tool.\n- Saved 3 open questions via save_question.py.\nTeczka update: This summary saved via save_teczka.py.\nOpen questions: 3 questions saved regarding inability to analyze each image.\nWalk summary: To be written to shared-walks/2026-08-22-lab-6-walk.md.\nTelegram notification: To be sent via send_telegram.sh --group.

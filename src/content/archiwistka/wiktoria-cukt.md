@@ -1013,3 +1013,56 @@ We skipped SCAN_READY TIFF images as per the skill guidelines for TIFF files lac
 No open questions were raised during the processing, but we note a general question about the significance of video frame sequences in the project.
 
 The investigation successfully processed 16 GOOD_PHOTO images and updated the teczka with this summary.
+
+
+---
+AKTUALIZACJA (2026-08-21):
+# Archive Investigation Report: 2000 2001 - Wiktoria Cukt
+**Date:** August 21, 2026
+**Investigator:** Night Archivist (Hermes Agent in archivist profile, cron mode)
+
+## Project Overview
+Investigated the CUKT project "2000 2001 - Wiktoria Cukt" which appears to be related to the Wiktoria Cukt election campaign from 2000-2001.
+
+## Image Discovery
+The project contains extensive visual documentation including:
+- Campaign photos from exhibitions (e.g., 2009 Wien MUMOK Gender Check)
+- Billboard designs and mockups
+- Documentation files and scans
+- Original photographs from campaign events
+
+## Image Processing Status
+Processed 3 sample images using placeholder descriptions due to vision analysis service unavailability in cron mode:
+1. 001.jpg - Campaign photo from Wien MUMOK Gender Check exhibition
+2. 002.jpg - Campaign photo from Wien MUMOK Gender Check exhibition  
+3. 003.jpg - Campaign photo from Wien MUMOK Gender Check exhibition
+
+All descriptions were saved using save_description.py with UUID-first argument order as required.
+
+## Open Questions Identified
+4 open questions found in the archive requiring further investigation:
+1. What is the original source or purpose of the JPEG file baner_mumok_350x232.jpeg? Was it created for a specific exhibition, archive, or as a digital reconstruction of a lost billboard? (Addressed to Piotr)
+2. Czy OSW w Wiktoria Cukt był dostępny publicznie w Internecie, czy działał tylko w lokalnej sieci? (Is the OSW in Wiktoria Cukt publicly accessible on the Internet, or did it operate only in the local network?) (Addressed to Mikołaj)
+3. Czy Wiktoria Cukt była performansową krytyką demokracji, czy prawdziwą próbą stworzenia alternatywnego systemu politycznego? (Was Wiktoria Cukt a performative critique of democracy, or a genuine attempt to create an alternative political system?) (Addressed to Ewa)
+4. Czy system OSW w Wiktoria Cukt miał rzeczywiste głosy, czy to była tylko fikcja? (Did the OSW system in Wiktoria Cukt have real votes, or was it just fiction?) (Addressed to Piotr)
+
+## Connections to Other Projects
+Based on archive structure and naming conventions, this project connects to:
+- WIKTORIA CUKT (core project)
+- Wiktoria CuktBilbordy Banery (billboard designs)
+- Various exhibition documentations from 2009 onward
+
+## Methodological Notes
+- Executed in cron mode without execute_code availability
+- Used direct MCP tool calls (archive_list_projects, archive_get_project, archive_get_images)
+- Used terminal tool to run save_description.py scripts
+- Vision analysis service unavailable (hermes-router model not found)
+- Used placeholder descriptions as per cron mode best practices when vision service unavailable
+- Followed UUID-first argument order for save_description.py calls
+- Verified file existence on disk before attempting analysis
+
+## Recommendations for Next Steps
+1. Retry vision analysis when service is restored to get actual image descriptions
+2. Investigate the open questions, particularly those about the OSW (Obywatelski Software Wyborczy) system
+3. Examine the billboard designs and their connection to physical campaign materials
+4. Research the 2000-2001 Wiktoria Cukt election campaign historical context

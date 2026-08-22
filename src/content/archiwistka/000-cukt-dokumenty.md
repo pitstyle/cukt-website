@@ -2,7 +2,7 @@
 title: "000 CUKT Dokumenty"
 project: "000 CUKT Dokumenty"
 type: "teczka"
-date: "2026-08-20"
+date: "2026"
 status: "W TOKU"
 ---
 
@@ -505,3 +505,40 @@ The `archive_get_images()` query for this project returned no images with `GOOD_
 
 ## Conclusion
 The 000 CUKT Dokumenty project serves as the administrative core of CUKT, preserving the procedural and documentary traces of the group's activities. While it lacks visual imagery, its value lies in understanding the operational framework that enabled CUKT's interventions.
+
+
+---
+AKTUALIZACJA (2026-08-21):
+# Investigation Summary for 000 CUKT Dokumenty
+Date: 2026-08-21
+Project: 000 CUKT Dokumenty
+Record count: 116
+Earliest date: 1994-01-01
+
+This project appears to be the institutional infrastructure of CUKT, containing foundational materials such as invitations, seals, letterheads, constitutions, interviews, logos, and other administrative documents. No images were returned by archive_get_images, suggesting that the materials may be primarily textual or exist as disk-only items (VIRUS pattern) or filed under different project names.
+
+Key document types observed:
+- Invitations (multiple copies)
+- Audio tapes (NTSC recordings)
+- Seals (CUKT, NTSC, PAKT)
+- Letterhead designs
+- Constitutions (handwritten and typed)
+- Interview transcripts (with CUKT officials)
+- Logo designs (CUKT, VIRUS, PAKT)
+- Identification documents for officials
+- Forms (personal questionnaires, CVs)
+- Financial documents (invoices, receipts)
+- Photograph collections (negatives and prints)
+- Digital files (logos, websites)
+- Other artifacts: booklet pages, patches, etc.
+
+The project contains material spanning from 1994 to at least 2000, with a focus on the mid-to-late 1990s. It provides insight into the organizational and visual identity of CUKT during its early years.
+
+Open questions for investigation:
+1. Are there any image-based materials (photographs, graphics) associated with this project that are not captured in the archive_get_images results? (Potential VIRUS pattern C2 or misfiling)
+2. How do the seals and logos in this collection evolve over time and compare to those used in specific projects like TESTY NA CYBORGA or TECHNOPERA?
+3. What is the significance of the NTSC materials in relation to the CUKT's activities?
+4. Are there any audio or video recordings beyond the NTSC tapes mentioned?
+5. How does the institutional documentation in this project relate to the artistic and political interventions documented in other CUKT projects?
+
+EOF
