@@ -987,3 +987,25 @@ Note: Due to vision_analyze failure, visual descriptions are not available. The 
 ---
 AKTUALIZACJA (2026-08-22):
 Investigation Summary for LAB 6\nDate: 2026-08-22\nProject selection: Used shorthand project name "LAB 6" via archive_list_projects() and archive_get_project().\nImage discovery: archive_get_images(project_name="LAB 6") returned 11 images; filtered for 3 GOOD_PHOTO images (cukt1.JPG, cukt.jpg, rodziana copy.jpg).\nImage processing: For each GOOD_PHOTO image:\n- Verified file existence on disk using ls -la\n- Attempted vision_analyze on the actual file path, but the tool failed with Error code: 404 - {'error': {'message': 'Not found the model hermes-router or Permission denied', 'type': 'resource_not_found_error'}}\n- Persisted open question via save_question.py for each image due to technical failure.\nResults:\n- Unable to analyze images due to technical issues with vision_analyze tool.\n- Saved 3 open questions via save_question.py.\nTeczka update: This summary saved via save_teczka.py.\nOpen questions: 3 questions saved regarding inability to analyze each image.\nWalk summary: To be written to shared-walks/2026-08-22-lab-6-walk.md.\nTelegram notification: To be sent via send_telegram.sh --group.
+
+
+---
+AKTUALIZACJA (2026-08-22):
+This is a test teczka update for testing the save_teczka.py script
+
+
+---
+AKTUALIZACJA (2026-08-22):
+LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski - Investigation Report
+
+PROJECT OVERVIEW:
+- Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+- Date: 1997
+- Location: Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+- Archive description: Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+- Photograph collection: Odbitki kolor (per archive records)
+
+IMAGES PROCESSED:
+1. rodziana copy.jpg (UUID: a1f8f31c-bdd6-40be-a12c-58bf3ddfa19a)
+   - Format: JPEG, 2480x3425 pixels
+   - File notes: JPEG image data, JFIF standard 1.01, Exif Standard, software=Picasa, comment: File

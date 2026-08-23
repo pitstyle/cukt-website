@@ -783,3 +783,52 @@ Zweryfikowano istnienie plików na dysku dla pozostałych obrazów zwróconych p
 - Wiki projektu w archiwum CUKTAI (rekord `7d7d68fa-2f42-4195-9b2b-b8f745cce0ef`)
 - Wyjaśnienia Piotra Wyrzykowskiego, 2026-04-19 (z wiki)
 - Teczka śledcza Nocnego Archiwisty, 2026-04-19 (z wiki)
+
+
+---
+AKTUALIZACJA (2026-08-22):
+Investigation Report:
+Project: 1994 12 02 - 120h Mega Techno Obecnosti
+Date of Analysis: 2026-08-22 (Cron Job)
+Materials Analyzed: 9 TIFF files from Klasa II B - Publik Relations CSW Łaźnia and Muzeum w Łodzi collections
+
+Findings:
+1. Klasa II B - Publik Relations CSW Łaźnia Materials (files 001-003):
+   - Three interconnected documents forming a complete set
+   - Header clearly identifies 'KLASA II B' and 'PUBLIK RELATIONS'
+   - Associated with CSW Łaźnia (Centrum Sztuki Współczesnej Łaźnia)
+   - Contain detailed forms/tables with Polish text and numerical data
+   - Include official stamps/seals (partial text visible but not fully legible)
+   - Appears to be documentation of public relations activities or campaigns
+
+2. Press Articles: 'Sztuka i technologia: NOWE MOŻLIWOŚCI EXHIBITION CENTER' by Małgorzata Hillar (files 004-006):
+   - Three-part article discussing the intersection of art and technology
+   - Focuses on exhibition centers as venues for showcasing technological advancements
+   - Explores how exhibition centers present cutting-edge technological innovations through artistic media
+   - Examines the role of exhibition centers in democratizing access to technological knowledge
+   - Emphasizes artistic and interactive formats that appeal to broad audiences
+
+3. Muzeum w Łodzi Official Documentation (files 007-009):
+   - Three-part official communication from the Museum in Łódź
+   - Header clearly identifies 'MUZEUM W ŁODZI'
+   - Contains formal Polish text with reference numbers/codes
+   - Appears to be authorization or coordination documentation
+   - Completed with what appear to be signatures or authorization marks
+
+Context and Significance:
+These materials collectively document the organizational and promotional framework for the '120h Mega Techno Obecności' project, revealing:
+- Institutional partnerships between CSW Łaźnia (contemporary art center) and Muzeum w Łodzi (Museum in Łódź)
+- Professional public relations handling through Klasa II B unit
+- Media outreach through press coverage in artistic/technological publications
+- Official documentation and authorization processes
+- The project's positioning at the intersection of art, technology, and public engagement
+
+Open Questions:
+- What does the text in the stamp/seal in the bottom right corner of klasa_01.tif say? [Saved via save_question.py]
+- What was the specific nature and duration of the '120h Mega Techno Obecności' event?
+- How did the Klasa II B - Publik Relations unit collaborate with CSW Łaźnia and Muzeum w Łodzi on this project?
+
+
+---
+AKTUALIZACJA (2026-08-23):
+ Osoba | Rola | Pewność |\\n|-------|------|---------|\\n| Piotr Wyrzykowski | Współautor, hipertekst, organizacja | potwierdzone |\\n| Robert Jurkowski | Współautor, kolumna, organizacja | potwierdzone |\\n| Anna Nizio | Projekt graficzny plakatu | potwierdzone |\\n| Arek Woźniak (kurator), obecny na zdjęciach | potwierdzone |\\n| Wojciech Zamiara (artysta), obecny na zdjęciach | potwierdzone |\\n\\n## Katalog archiwaliów (49 pozycji)\\n\\nŹródło: raw/archive-usb/1994 12 02 - 120h Mega Techno Obecności/\\n\\n### Dokumenty (4)\\n| Plik | Opis | Tag |\\n|------|------|-----|\\n| plakat.jpg | Plakat z hasłem, datami, ikonami BHP | GOOD_PHOTO |\\n| zapro_01.jpg | Zaproszenie — MUZA + Pracownia Chwilowa | GOOD_PHOTO |\\n| zapro_02.jpg | Zaproszenie — szczegóły organizacyjne | GOOD_PHOTO |\\n| IMG_0956.jpg | Dokument zamknięcia z 8-9.XII.1994, pieczątka CUKT 1996 | PHOTO_OF_ORIGINAL |\\n\\n### Fotografie — stykówki Krotulskiego (35)\\n| Pliki | Opis | Tag |\\n|-------|------|-----|\\n| img064-img091, img096-img098, img125 | Stykówki z negatywów — wnętrza, ludzie, instalacje, teksty na ścianach | SCAN_READY |\\n\\n### Negatywy — skany TIF (6)\\n| Plik | Opis | Tag |\\n|------|------|-----|\\n| Antyelekcja0006.tif | Dwie osoby, ciemne pomieszczenie, lampy | SCAN_READY |\\n| cukt0006.tif, cukt0006a.tif | Grupa młodych ludzi, cylindryczny obiekt świecący | SCAN_READY |\\n| cukt0007.tif, cukt0007a.tif | Czerwona kolumna z żłobieniami, osoba w tle | SCAN_READY |\\n| cukt0008.tif | Grupa w galerii, teksty filozoficzne na ścianach | SCAN_READY |\\n\\n### Fotografie — Konin (5)\\n| Plik | Opis | Tag |\\n|------|------|-----|\\n| konin_01.jpg | Młodzież w galerii, disco kula, teksty na ścianach | GOOD_PHOTO |\\n| konin_02.jpg | DJ/sprzęt audio — mikser, kasety, mikrofon | GOOD_PHOTO |\\n| konin_03.jpg | Grupa, sprzeczne hasła na ścianach | GOOD_PHOTO |\\n| konin_04.jpg | Ludzie w linii, ciemna ściana z napisami | GOOD_PHOTO |\\n| kolumnaMiki01.jpg | Czerwona kolumna — selektywna kolorystyka | GOOD_PHOTO |\\n\\n### Obiekty (2)\\n| Plik | Opis | Tag |\\n|------|------|-----|\\n| 120h_lightbox01.jpg | Lightbox \\\"ŻADEN ARTYSTA NIE MA RACJI\\\" (2016, 150x45cm) | GOOD_PHOTO |\\n| 120h_lightbox01 Medium.jpeg | Lightbox — mniejsza wersja | GOOD_PHOTO |\\n\\n## Do skanowania\\n\\n1. **IMG_0956.jpg** — dokument oryginalny (aktualnie foto telefonem)\\n2. **6 plików TIF** — negatywy, możliwe lepsze skany w wyższej rozdzielczości\\n3. **35 stykówek** — skany od Krotulskiego, lepsze skany z negatywów\\n4. **Brakujące klatki:** img092-095, img100-124\\n\\n## Powiązania z innymi projektami\\n\\n- **Antyelekcja Technodemonstracja (1995)** — kontynuacja strategii zamiany funkcji\\n- **CUKT (1995-)** — 120h uznane retrospektywnie jako Pre-CUKT\\n- **Lightbox (2016)** — re-konstrukcja hasła 22 lata później, MSN Warszawa\\n\\n## Źródłja\\n\\n- Archiwum CUKTAI: 49 plików w raw/archive-usb/\\n- Wyjaśnienia Piotra Wyrzykowskiego, 2026-04-19\\n- Teczka śledcza Nocnego Archiwisty, 2026-04-19\\n\", \"tags\": [\"cukt\", \"archiwum\", \"wiki\", \"enriched\", \"pre-cukt\"]}, {"id": "261c3aa8-0c95-4e40-8f9d-c9a11609010b", "bank": "cukt-archiwum", "title": "Lightbox", "date_original": "2016-01-01", "authors": ["Piotr Wyrzykowski", "Robert Jurkowski"], "location": null, "source_type": "inny", "project_name": "1994 12 02 - 120h Mega Techno Obecnosti", "content_text": "Lightbox\\nSekcja: 1994 12 02 - 120h Mega Techno Obecnosti\\nPodfolder: obiekty\\nFormat: 150x45 cm\\nIlość: 1", "tags": ["cukt", "archiwum", "katalog", "1994-12-02---120h-mega-techno-obecnosti"]}, {"id": "8ab04a8f-a819-4b82-95c1-08888358dab2", "bank": "cukt-archiwum", "title": "Lightbox", "date_original": "2016-01-01", "authors": ["Piotr Wyrzykowski", "Robert Jurkowski"], "location": null, "source_type": "inny", "project_name": "1994 12 02 - 120h Mega Techno Obecnosti", "content_text": "Lightbox\\nSekcja: 1994 12 02 - 120h Mega Techno Obecnosti\\nPodfolder: obiekto\\nFormat: 150x45 cm\\nIlość: 1", "tags": ["cukt", "archiwum", "katalog", "1994-12-02---120h-mega-techno-obecnosti"]}]

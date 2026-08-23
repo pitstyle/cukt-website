@@ -4218,3 +4218,15 @@ The failed image indicates a potential need for manual investigation or alternat
 - Retry the failed image with alternative vision methods if available.
 - Consider cross-referencing the findings with other projects in the archive, particularly those related to psychological testing (e.g., other "Test Czujości" forms) and Cold War era artifacts.
 - The questionnaire (TEST 03 (R)) warrants further investigation to understand the full scope of the CUKTU organization and its research objectives.
+
+
+---
+AKTUALIZACJA (2026-08-22):
+Investigation conducted on 2026-08-22. Project description: Performance z cyklu “Testy na Cyborga” — akcja polegająca na przeprowadzaniu testów psychologicznych/biurokratycznych wśród widzów. Widzowie wypełniali formularze “Testu niedokończonych zdań”. Uzyskiwali swój numer identyfikacyjny i pieczęć na ciele. Instalacja: stół do ping ponga nagłośniony, mapa Europy narysowan krędą. Date: 1995. Location: Galeria S, Toruń. Authors: Piotr Wyrzykowski, Artur Kozdrowski, Adam Popek, Robert Jurkowski, Jacek Niegoda, Anna Nizio, Marek Jabłoński, Rafał Grabowski. 
+
+Image files discovered on disk in /home/macstorm/cuktai/raw/archive-usb/1995 2017 - Testy na Cyborga/1995 __ __ - Test na Cyborga Galeria S Toruń/:
+Foto/: Deba.jpg, IMG_6912.jpg, IMG_6913.jpg, Photo560770279945_inner_44-398-360-398-44-598-360-598.jpg, Photo560770317274_inner_85-27-697-31-53-969-671-969.jpg, pieczatka_kolo.jpg, pieczatka_laska.jpg, pieczatka_Miki.jpg, pieczatka_yach.jpg, stol.jpg, testy_01.jpg, testy_02.jpg, testy_03.jpg
+Dokumenty/: 20181011_162203.jpg
+
+These files correspond to the project description:
+- testy_*.jpg: likely contain the test forms (Testu
