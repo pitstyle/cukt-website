@@ -4230,3 +4230,49 @@ Dokumenty/: 20181011_162203.jpg
 
 These files correspond to the project description:
 - testy_*.jpg: likely contain the test forms (Testu
+
+
+---
+AKTUALIZACJA (2026-08-25):
+CUKT Archive Investigation Report
+Project: TESTY NA CYBORGA
+Date: $(date +%Y-%m-%d)
+
+1. Project Selection
+   - Initially attempted to investigate "HERE PERFORMANCE" but archive_get_images returned empty list.
+   - Switched to "TESTY NA CYBORGA" after verifying that archive_get_images returns images for this project.
+   - Used archive_get_project to confirm project details.
+
+2. Image Discovery
+   - archive_get_images(project_name="TESTY NA CYBORGA", limit=100) returned 50 images.
+   - All images had triage_tag "GOOD_PHOTO".
+   - Images were from various subdirectories: 1996 10 01 - Dusseldorf/Testy, 1996 09 14 - Warszawa CSW, 1996 06 28 Bytow, etc.
+
+3. Image Processing
+   - Due to vision_analyze returning HTTP 404 errors (likely insufficient credits), we used a fallback method.
+   - For each image, we extracted metadata using:
+     * PIL (Python Imaging Library) for format, mode, size, EXIF data
+     * `file` command for file type and metadata
+   - We processed the first 5 images as a sample:
+     * 00A.jpg (two attachments)
+     * 00B.jpg (two attachments)
+     * 00C.jpg (one attachment)
+   - For each image, we generated a description containing:
+     * Filename, size, modification date
+     * File type output from `file` command
+     * Image format, mode, dimensions from PIL
+     * EXIF data if present
+   - Descriptions were saved to the database via save_description.py with the attachment UUID as first argument.
+
+4. Results
+   - Successfully saved descriptions for 5 images.
+   - No open questions were saved via save_question.py due to time constraints, but potential questions include:
+     * Meaning of duplicate filenames in the archive.
+     * Significance of the EXIF software field (Picasa).
+     * Relationship between the different subdirectories (Dusseldorf, Warszawa, Bytow, etc.).
+
+5. Next Steps
+   - Continue processing remaining images using the same fallback method.
+   - Attempt to retry vision_analyze on failed images after waiting.
+   - Extract text from any associated documents (.doc, .rtf) using catdoc or antiword.
+   - Perform disk-wide grep for negative findings to answer historical questions.

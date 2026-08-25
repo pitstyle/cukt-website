@@ -542,3 +542,52 @@ Open questions for investigation:
 5. How does the institutional documentation in this project relate to the artistic and political interventions documented in other CUKT projects?
 
 EOF
+
+
+---
+AKTUALIZACJA (2026-08-23):
+000 CUKT Dokumenty - Archive Walk Summary
+Date: 2026-08-23
+
+Project Overview:
+The project "000 CUKT Dokumenty" contains 116 records representing the foundational documentation and infrastructure of the Central Office of Technical Culture (CUKT). These materials include invitations, seals, letterheads, manifests, audio cassettes, photo collections, and administrative documents that enabled CUKT's artistic and political interventions.
+
+Key Item Types:
+- Invitations (Druk): Multiple copies of event invitations from 1994-1995.
+- Seals: CUKT and NTSC seals (6cm x 6cm x 6cm) from 1995.
+- Letterheads: CUKT company letterhead templates (A4) from 1995.
+- Manifests: Handwritten and printed versions of the NTSC Constitution and CUKT Manifest.
+- Audio Cassettes: NTSC audio recordings (~60 min) from 1995.
+- Photo Collections: Two sets of employee photographs in various situations (negatives and prints, 10x15 cm).
+- Administrative Documents: Receipts, cover designs, questionnaires, CVs, and correspondence.
+- Digital Files: Early digital artifacts from 1998-1999 (metadata indicates presence but no accessible content).
+
+Notable Items:
+1. Projekt logo PAKT (multiple versions) - Early logo designs for affiliated projects.
+2. Projekt logo VIRUS - Alternative branding exploration.
+3. Identyfikator Urzędnika CUKT - Employee identification documents (both paper and laminated versions).
+4. Kaseta audio z nagraniami NTSC - Audio archive of NTSC activities.
+5. Odręczny zapis Konstytucji NTSC - Handwritten constitution of the affiliated NTSC group.
+6. Zbior fotografii Urzędników w różnych sytuacjach - Photographic documentation of CUKT members.
+7. Medale CUKT Odlewy woskowe - Wax seal medals from 1996.
+8. Forma do Medalu CUKT. Silikon - Mold for producing the medals.
+
+Archival Significance:
+This project represents the material basis that enabled CUKT's artistic and political interventions. The items document the organization's infrastructure, identity production, and administrative operations. The absence of direct image attachments in the archive_get_images() response suggests these materials may exist as disk-only items or be filed under different project names, consistent with the VIRUS pattern C2 (DB has zero rows for attachments) or cross-project misfiling.
+
+Open Questions:
+1. Are the photographic collections (ab4d0e2e-..., d3823f2a-...) accessible as viewable images elsewhere in the archive or as disk-only files?
+2. What is the content of the audio cassettes (f2e51a1c-..., 7860ac9b-...) and do they contain recordings of NTSC meetings or artistic experiments?
+3. How do the seals and identifiers (pieczęci, identyfikatory) relate to the visual identity of CUKT versus affiliated groups like NTSC and PAKT?
+4. Are there digital files referenced in the items (e.g., pliki cyfrowe from 1998-1999) that could be recovered from legacy media?
+5. How did the administrative documentation (receipts, questionnaires, correspondence) support CUKT's operational model as both an art collective and technical organization?
+
+Recommendations:
+1. Perform a disk-only search for photographic and audio materials referenced in the items.
+2. Cross-reference with other projects (e.g., TESTY NA CYBORGA, TECHNOPERA 2024) to see if similar administrative documents appear there.
+3. Consider initiating a digitization effort for the audio cassettes and photographic negatives if they exist as physical artifacts only.
+
+
+---
+AKTUALIZACJA (2026-08-24):
+Project 000 CUKT Dokumenty contains 116 records primarily consisting of administrative documents, invitations, seals, logos, audio tapes, and photographs. No images were returned by archive_get_images, suggesting the materials may be filed elsewhere or exist as disk-only items.

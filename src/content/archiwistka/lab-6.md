@@ -1009,3 +1009,105 @@ IMAGES PROCESSED:
 1. rodziana copy.jpg (UUID: a1f8f31c-bdd6-40be-a12c-58bf3ddfa19a)
    - Format: JPEG, 2480x3425 pixels
    - File notes: JPEG image data, JFIF standard 1.01, Exif Standard, software=Picasa, comment: File
+
+
+---
+AKTUALIZACJA (2026-08-23):
+# Walk Summary for LAB 6
+
+## Investigation Notes
+- Project: LAB 6
+- Date of investigation: 2026-08-23 (Cron job)
+- Vision analysis failed due to API/model issues (repeated 404 and 429 errors). Descriptions could not be retrieved automatically.
+- Open questions were saved for each image requesting manual description.
+
+## Images Processed
+Three GOOD_PHOTO images were identified:
+1. cukt1.JPG
+2. cukt.jpg
+3. rodziana copy.jpg
+
+For each image, an open question was saved asking for a description.
+
+## Open Questions Saved
+- Question for cukt1.JPG: What is the content of the image cukt1.JPG? (saved with UUID 58fcf830-bfda-4169-9e1e-64a556c38716)
+- Question for cukt.jpg: What is the content of the image cukt.jpg? (saved with UUID 874b551a-d757-4050-9a9d-25e091194fc8)
+- Question for rodziana copy.jpg: What is the content of the image rodziana copy.jpg? (saved with UUID 39619fb8-62fe-40da-9bb6-3669cd96c281)
+
+## Teczka Update
+The teczka for LAB 6 was updated with this walk summary and a note about the vision analysis failure.
+
+## Next Steps
+Manual review of the images is required to provide descriptions. Once descriptions are available, they should be saved using save_description.py with the correct UUIDs.
+
+## Telegram Notification
+A notification was sent to the CUKT Archivist group indicating the completion of the walk (despite vision analysis issues).
+
+
+---
+AKTUALIZACJA (2026-08-24):
+Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+Date: 1997-01-01
+Authors: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+Location: Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+Source type: dokument
+Content text: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+
+Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+
+Archiwalia:
+- Dokumentacja fotograficzna: odbitki kolor (2 fotografie)
+- Projekty: zapotrzebowanie materiałowo-sprzętowe oraz projekty Biura CUKT niezrealizowane w ramach wystawy (8 kart, pismo odręczne, rysunki ołówkiem)
+
+Images found:
+- ID: 67a0d852-0b89-422f-9d19-625569dae436, filename: cukt1.JPG, triage_tag: GOOD_PHOTO
+- ID: 5551e320-d6b0-4d7f-ba72-bebe8a71a84a, filename: cukt.jpg, triage_tag: GOOD_PHOTO
+- ID: a1f8f31c-bdd6-40be-a12c-58bf3ddfa19a, filename: rodziana copy.jpg, triage_tag: GOOD_PHOTO
+
+Note: Vision analysis failed for all images due to error: Not found the model hermes-router or Permission denied.
+
+
+---
+AKTUALIZACJA (2026-08-24):
+Vision analysis failed due to missing model hermes-router. No images processed.
+
+
+---
+AKTUALIZACJA (2026-08-24):
+# LAB 6 Investigation Report
+Date: 2026-08-24 20:44
+
+## Project Selection
+- Used archive_list_projects() and archive_get_project() to select project LAB 6.
+- Project: LAB 6 / RODZINA CUKT — CSW Zamek Ujazdowski
+- Date original: 1997
+- Authors: Piotr Wyrzykowski, Artur Kozdrowski, Robert Jurkowski, Jacek Niegoda, gościnnie: Daniela
+- Location: Centrum Sztuki Współczesnej Zamek Ujazdowski, Warszawa
+- Source type: dokument
+- Content summary: Performance CUKT w ramach wystawy LAB 6 — Międzynarodowej Wystawy Sztuki Mediów. Żywa rzeźba: Mikołaj Jurkowski i Daniela oraz komputer PC z stroną WWW CUKT. Zachowane projekty niezrealizowanego Biura CUKT.
+
+## Image Discovery
+- Called archive_get_images(project_name="LAB 6", limit=200) returned 11 images.
+- Filtered for triage_tag in ("GOOD_PHOTO", "SCAN_READY"): found 3 images:
+  1. cukt1.JPG (UUID: 67a0d852-0b89-422f-9d19-625569dae436)
+  2. cukt.jpg (UUID: 5551e320-d6b0-4d7f-ba72-bebe8a71a84a)
+  3. rodziana copy.jpg (UUID: a1f8f31c-bdd6-40be-a12c-58bf3ddfa19a)
+- However, note that the images are actually assigned to project "1997 __ __ - Rodzina CUKT (Lab 6 CSW ZUJ)" in the database, indicating a cross-project misattribution.
+
+## Image Processing
+- For each GOOD_PHOTO image:
+  - Verified file existence on disk.
+  - Ran metadata analysis (exiftool, file, identify) with UTF-8 cleaning to avoid surrogate issues.
+  - Saved descriptions via save_description.py with correct UUID-first argument order.
+- All 3 save_description.py calls succeeded.
+
+## Open Questions
+- Why are the images for LAB 6 actually attributed to a different project name in the DB? Is this a data entry error or intentional?
+- What is the significance of the Rodzina CUKT project and its connection to LAB 6?
+
+## Connections
+- The images are linked to the Rodzina CUKT project, which may be a sub-project or related initiative.
+
+## Methodology
+- Conducted in cron mode; vision_analyze service was unavailable (hermes-router model not found), so metadata analysis was used as fallback.
+- Followed the CUKT Archivist Night Investigation Pipeline protocol.
