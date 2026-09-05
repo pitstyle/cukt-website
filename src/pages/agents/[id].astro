@@ -122,20 +122,10 @@ export function getStaticPaths() {
           <input type="text" id="chat-text" placeholder="Type your message..." autocomplete="off" data-en-placeholder="Type your message..." data-pl-placeholder="Napisz wiadomość..." />
           <button type="submit" id="chat-send">SEND</button>
         </form>
-        <div class="chat-note" data-en="Messages are not stored. The agent uses its own persistent memory and the CUKT archive." data-pl="Wiadomości nie są przechowywane. Agent korzysta z własnej trwałej pamięci i archiwum CUKT.">Messages are not stored. The agent uses its own persistent memory and the CUKT archive.</div>
+        <div class="chat-note" data-en="The agent uses Hermes memory and the CUKT archive. Same persona as Telegram." data-pl="Agent korzysta z pamięci Hermes i archiwum CUKT. Ta sama persona co na Telegramie.">The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.</div>
       </div>
     </div>
   </section>
-
-  {id === 'wiktoria' && (
-    <section class="voice-section">
-      <div class="container">
-        <div class="voice-label" data-en="VOICE AGENT — TALK TO WIKTORIA (ElevenLabs)" data-pl="AGENT GŁOSOWY — POROZMAWIAJ Z WIKTORIĄ (ElevenLabs)">VOICE AGENT — TALK TO WIKTORIA (ElevenLabs)</div>
-        <elevenlabs-convai agent-id="agent_8001kre9zj58erhttjmt9majye11"></elevenlabs-convai>
-        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
-      </div>
-    </section>
-  )}
 </Base>
 
 <style>
@@ -170,9 +160,6 @@ export function getStaticPaths() {
   .chat-input button:disabled { opacity: 0.3; cursor: not-allowed; }
 
   .chat-note { padding: var(--space-sm) var(--space-lg); font-size: 0.65rem; color: var(--border); letter-spacing: 0.05em; border-top: 1px solid var(--border); }
-
-  .voice-section { padding: var(--space-xl) 0; border-top: 1px solid var(--border); }
-  .voice-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); margin-bottom: var(--space-lg); }
 
   @media (max-width: 768px) {
     .room-title { font-size: 2rem; }
