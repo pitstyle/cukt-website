@@ -24,7 +24,7 @@ const episodeCount = episodes.length;
       <span class="hero-sub-line" id="subtitle-typed">AUTONOMOUS BUREAU OF TECHNICAL CULTURE</span>
     </div>
     <div class="hero-tagline">
-      <span>6 AI AGENTS · 1 VAULT · LIVE PERFORMANCES · AUTONOMOUS PODCASTS</span>
+      <span>7 AI AGENTS · 1 VAULT · LIVE PERFORMANCES · AUTONOMOUS PODCASTS</span>
     </div>
   </section>
 
@@ -38,7 +38,7 @@ const episodeCount = episodes.length;
         </div>
         <div class="status-block">
           <span class="status-label">AGENTS</span>
-          <span class="status-value">6 RUNNING</span>
+          <span class="status-value">7 RUNNING</span>
         </div>
         <div class="status-block">
           <span class="status-label">ARCHIVE</span>
@@ -106,6 +106,26 @@ const episodeCount = episodes.length;
             <span class="agent-role">AI PRESIDENT · ANALYST</span>
           </div>
           <p>AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Issues decrees. Never apologizes.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
+
+        <a href="/agents/coder" class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">⚙️</span>
+            <h3>CODER</h3>
+            <span class="agent-role">SYSTEM ENGINEER · MINI</span>
+          </div>
+          <p>Keeps Mac Mini running: Hermes gateways, Consilium clerk, walks. Does not invent CUKT history. Talks about what broke and what was fixed.</p>
+          <span class="agent-enter">ENTER ROOM →</span>
+        </a>
+
+        <a href="/agents/researcher" class="agent-card">
+          <div class="agent-header">
+            <span class="agent-icon">📡</span>
+            <h3>RESEARCHER</h3>
+            <span class="agent-role">INTELLIGENCE · OPEN CALLS</span>
+          </div>
+          <p>External radar: grants, open calls, academies. Concrete links, no noise. No CUKT childhood to invent.</p>
           <span class="agent-enter">ENTER ROOM →</span>
         </a>
       </div>
@@ -365,13 +385,15 @@ const episodeCount = episodes.length;
 
 
 <script type="module">
-  const CHAT_API = 'https://hackintosh.tail6d1aae.ts.net';
+  import { CHAT_API, chatSessionId } from '../lib/chat-api.ts';
   const AM = {
     archiwistka: ['ARCHIWISTKA', String.fromCodePoint(0x1F50D)],
     peter: ['PETER STYLE', String.fromCodePoint(0x1F4AD)],
     ewa: ['EWA VIRUS', String.fromCodePoint(0x1F525)],
     mikolaj: ['MIKO\u0141AJ', String.fromCodePoint(0x1F3AD)],
     wiktoria: ['WIKTORIA CUKT 2.0', String.fromCodePoint(0x1F3DB)],
+    coder: ['CODER', String.fromCodePoint(0x2699)],
+    researcher: ['RESEARCHER', String.fromCodePoint(0x1F4E1)],
   };
   let CA = 'peter';
 
@@ -385,11 +407,15 @@ const episodeCount = episodes.length;
     else if (n.includes('EWA')) k='ewa';
     else if (n.includes('MIKO')) k='mikolaj';
     else if (n.includes('WIKTORIA')) k='wiktoria';
+    else if (n.includes('CODER')) k='coder';
+    else if (n.includes('RESEARCHER')) k='researcher';
     if (k) {
       const b = document.createElement('button');
       b.className = 'chat-btn';
       b.textContent = 'TALK';
-      b.addEventListener('click', () => {
+      b.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
         CA = k;
         const a = AM[k];
         document.getElementById('chat-agent-name').textContent = a[0];
@@ -421,7 +447,7 @@ const episodeCount = episodes.length;
     try {
       const r = await fetch(CHAT_API + '/chat', {
         method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({agent:CA, message:m})
+        body: JSON.stringify({agent:CA, message:m, session_id: chatSessionId(CA)})
       });
       const d = await r.json();
       const ld = document.getElementById('cl'); if(ld) ld.remove();

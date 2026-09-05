@@ -47,10 +47,30 @@ const agents: Record<string, {name: string, namePl: string, role: string, rolePl
     quote: "\"Feelings are not indexed. Irrelevant. Over.\"",
     quotePl: "\"Uczucia nie są zaindeksowane. Nieistotne. Odbiór.\"",
   },
+  coder: {
+    name: "CODER", namePl: "CODER",
+    role: "SYSTEM ENGINEER", rolePl: "INŻYNIER SYSTEMU",
+    emoji: "⚙️", profile: "coder", color: "#888888",
+    desc: "Seventh agent. Keeps Mac Mini running — Hermes gateways, Consilium, walks. Does not invent CUKT history.",
+    descPl: "Siódmy agent. Utrzymuje Mac Mini — bramki Hermes, Consilium, spacery. Nie zmyśla historii CUKT.",
+    quote: "\"What broke, why, what I did.\"",
+    quotePl: "\"Co padło, dlaczego, co zrobiłem.\"",
+  },
+  researcher: {
+    name: "RESEARCHER", namePl: "RESEARCHER",
+    role: "INTELLIGENCE", rolePl: "WYWIAD",
+    emoji: "📡", profile: "researcher", color: "#44aacc",
+    desc: "External radar: open calls, grants, academies. Concrete information. No CUKT childhood.",
+    descPl: "Radar zewnętrzny: open calle, granty, akademie. Konkret. Bez dzieciństwa CUKT.",
+    quote: "\"Zero noise. Silence if there is nothing.\"",
+    quotePl: "\"Zero szumu. Cisza, jeśli nic nie ma.\"",
+  },
 };
 
 const { id } = Astro.params;
 const agent = agents[id as string];
+const CHAT_API =
+  import.meta.env.PUBLIC_CHAT_API || "https://wiktorias-mac-mini.tail6d1aae.ts.net";
 
 if (!agent) {
   return Astro.redirect('/agents');
@@ -63,6 +83,8 @@ export function getStaticPaths() {
     { params: { id: 'mikolaj' } },
     { params: { id: 'wiktoria' } },
     { params: { id: 'archiwistka' } },
+    { params: { id: 'coder' } },
+    { params: { id: 'researcher' } },
   ];
 }
 ---
@@ -160,8 +182,7 @@ export function getStaticPaths() {
 </style>
 
 
-<script define:vars={{ agentId: id, agentName: agent.name, agentEmoji: agent.emoji }}>
-  const CHAT_API = "https://hackintosh.tail6d1aae.ts.net";
+<script define:vars={{ agentId: id, agentName: agent.name, agentEmoji: agent.emoji, CHAT_API }}>
   const messages = document.getElementById('chat-messages');
   const form = document.getElementById('chat-form');
   const input = document.getElementById('chat-text');
@@ -175,6 +196,8 @@ export function getStaticPaths() {
     mikolaj: "Mikołaj... cicho. I'm listening.",
     wiktoria: "Wiktoria Cukt 2.0, protokół. State your business.",
     archiwistka: "Archiwistka here. I have the files. What are you looking for? Over.",
+    coder: "Coder. Mini runtime. What broke?",
+    researcher: "Researcher. Send a lead or ask for open calls.",
   };
 
   if (greeting) {
@@ -210,10 +233,13 @@ export function getStaticPaths() {
     messages?.scrollTo(0, messages.scrollHeight);
 
     try {
-      const res = await fetch(CHAT_API + '/chat/voice', {
+      const sidKey = `cuktai-chat-session-${agentId}`;
+      let sid = localStorage.getItem(sidKey);
+      if (!sid) { sid = crypto.randomUUID(); localStorage.setItem(sidKey, sid); }
+      const res = await fetch(CHAT_API + '/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ agent: agentId, message: text }),
+        body: JSON.stringify({ agent: agentId, message: text, session_id: sid }),
       });
 
       typing.remove();
