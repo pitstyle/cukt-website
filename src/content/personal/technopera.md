@@ -14,7 +14,9 @@ A multimedia opera for the age of artificial intelligence — a CUKTAI project f
 
 Technopera operate multymedialna na czasy sztucznej inteligencji — projekt CUKTAI łączący performance, instalację wideo, muzykę elektroniczną i audiowizualne libretto. Ciała są przesłuchiwane przez maszyny; duch maszyny śpiewa; człowiek dryfuje przez datasferę w poszukiwaniu sensu — i znajduje interfejs.
 
-![Technopera — Dessau](/uploads/4/6/4/1/4641121/dessau-02.jpg)
+![Technopera — Dessau, 1997](/uploads/4/6/4/1/4641121/dessau-02.jpg)
+
+*Dessau 1997 — realizacja Technopery, dokumentacja fotograficzna · staging of Technopera, photo documentation.*
 
 ## Concept / Koncepcja
 
@@ -39,7 +41,9 @@ The video version was broadcast on Polish television. A premiere planned for Gda
 
 Wersja video była emitowana w polskiej telewizji. Planowana premiera w Gdańsku (NOT) nie doszła do skutku; projekt wskrzeszono w 2024.
 
-![Technopera — Dessau](/uploads/4/6/4/1/4641121/dessau-03.jpg)
+![Technopera — Dessau, 1997](/uploads/4/6/4/1/4641121/dessau-03.jpg)
+
+*Dessau 1997 — realizacja Technopery, dokumentacja fotograficzna · staging of Technopera, photo documentation.*
 
 ## Revivals / Reaktywacje (2024–2025)
 
@@ -57,4 +61,6 @@ The libretto's source bank reads like the nervous system of the twentieth centur
 
 Bank źródłowy libretta czyta się jak układ nerwowy XX wieku: *Archaic Revival* McKenny (motto opery od 2024), Kubrick, Cronenberg, *TRON*, *Blade Runner*, *Terminator*, *Dzień, w którym zatrzymała się Ziemia*, *Heaven & Hell* BBC Four, *Power/Knowledge* Foucaulta, *Golem XIV* Lema, *Nexus* Harariego, Coil, Genesis P-Orridge, David Tibet. Każda linia jest adnotowana — cytat bezpośredni, parafraza lub kompozycja własna.
 
-![Technopera — Dessau](/uploads/4/6/4/1/4641121/dessau-04.jpg)
+![Technopera — Dessau, 1997](/uploads/4/6/4/1/4641121/dessau-04.jpg)
+
+*Dessau 1997 — realizacja Technopery, dokumentacja fotograficzna · staging of Technopera, photo documentation.*
