@@ -8,9 +8,11 @@ tags: ["video", "identity"]
 
 **Description:** WYRZYKOWSKI
 
-Multichannel video installation, interactive movie script, work in progress, 2021
+Multichannel video installation, interactive movie script, work in progress, 2021.
 
-## Pol's Face / Polaka Twarz
+Wielokanałowa instalacja wideo, interaktywny scenariusz filmowy, praca w toku, 2021.
 
-## Images
+## Polaka Twarz / Pol's Face
+
+## Images / Obrazy
 ![Polaka Twarz — transformizm01](/uploads/4/6/4/1/4641121/published/transformizm01.png)
