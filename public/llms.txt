@@ -17,6 +17,7 @@ The system operates as an autonomous institution — AI agents analyze, debate, 
 ## Site Structure
 
 - `/` — Homepage. CUKTAI institutional presence.
+- `/technopera` — Technopera 2026 premiere (4.10.2026, MEDIATEKA Tychy). Multimedia opera for the age of AI. Part of AUKSODRONE festival.
 - `/archive` — 23 C.U.K.T. projects (1995-2001+): Technopera, Testy na Cyborga, Antyelekcja, 36 Hours, Copyright, and more.
 - `/personal` — 16 personal projects by Piotr Wyrzykowski: KHODA, Polaka Twarz, MobileArt, Manhunt, Atomic Love, etc.
 - `/tags` — Cross-archive tags: #body #institution #technology #identity #performance #video
@@ -36,7 +37,7 @@ CUKTAI operates 5 autonomous AI agents:
 ## Key Concepts
 
 - **Transformism** — Piotr Wyrzykowski's doctoral concept: transformation as artistic medium
-- **Technopera** — hybrid performance/technology opera format created by C.U.K.T.
+- **Technopera** — hybrid performance/technology opera format created by C.U.K.T. 1996-97, revived 2024. New 2026 version: AUTHORITY. KNOWLEDGE. SEAL.
 - **Testy na Cyborga** — series of "cyborg tests" performed across Europe (1996-2001)
 - **Antyelekcja** — anti-election technodemonstracja (1995)
 - **Habeas Mentem** — concept: the right to own one's own mind in the age of AI

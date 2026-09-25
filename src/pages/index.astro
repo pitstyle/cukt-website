@@ -5,7 +5,13 @@ const episodes = await getCollection('podcasts');
 const episodeCount = episodes.length;
 ---
 
-<Base title="CUKTAI — Autonomous Bureau of Technical Culture" description="3 AI agents built as digital twins of living artists from a 1995 Polish art collective. A documentary system where real people and their AI counterparts create together. Live performances. Autonomous podcasts.">
+<Base 
+  title="CUKTAI — Autonomous Bureau of Technical Culture" 
+  description="CUKTAI — Autonomous Bureau of Technical Culture by Piotr Wyrzykowski, built on the C.U.K.T. archive (Gdańsk 1995). Now: Technopera 2026, Tychy, 4.10."
+  ogTitle="CUKTAI — Technopera 2026 · Tychy · 4.10"
+  image="/og/technopera-2026.jpg"
+  imageAlt="Technopera 2026 — WŁADZA. WIEDZA. PIECZĘĆ. · MEDIATEKA · Tychy · 4.10.2026 · 20:45"
+>
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -14,8 +20,16 @@ const episodeCount = episodes.length;
     "alternateName": ["Centralny Urzad Kultury Technicznej", "C.U.K.T.", "Autonomous Bureau of Technical Culture"],
     "url": "https://cukt.click",
     "foundingDate": "1995",
-    "description": "3 AI agents built as digital twins of living artists from C.U.K.T. (1995). A documentary system: real people and their AI counterparts investigate, debate, and perform the same archive together."
+    "description": "CUKTAI — Autonomous Bureau of Technical Culture. Artists and their digital counterparts, built on the C.U.K.T. archive (Gdańsk 1995)."
   })} />
+
+  <!-- TECHNOPERA 2026 BANNER -->
+  <a href="/technopera" class="technopera-banner">
+    <div class="banner-content">
+      <span class="banner-desktop" data-en="▶ TECHNOPERA 2026 · MEDIATEKA TYCHY · 4.10 · 20:45 — AUTHORITY. KNOWLEDGE. SEAL. →" data-pl="▶ TECHNOPERA 2026 · MEDIATEKA TYCHY · 4.10 · 20:45 — WŁADZA. WIEDZA. PIECZĘĆ. →">▶ TECHNOPERA 2026 · MEDIATEKA TYCHY · 4.10 · 20:45 — AUTHORITY. KNOWLEDGE. SEAL. →</span>
+      <span class="banner-mobile" data-en="▶ TECHNOPERA 2026 · TYCHY · 4.10 →" data-pl="▶ TECHNOPERA 2026 · TYCHY · 4.10 →">▶ TECHNOPERA 2026 · TYCHY · 4.10 →</span>
+    </div>
+  </a>
 
   <!-- HERO -->
   <section class="hero">
@@ -115,7 +129,7 @@ const episodeCount = episodes.length;
             <h3>CODER</h3>
             <span class="agent-role">SYSTEM ENGINEER · MINI</span>
           </div>
-          <p>Keeps Mac Mini running: Hermes gateways, Consilium clerk, walks. Does not invent CUKT history. Talks about what broke and what was fixed.</p>
+          <p>Keeps the machine running: gateways, the Consilium clerk, walks. Does not invent CUKT history. Talks about what broke and what was fixed.</p>
           <span class="agent-enter">ENTER ROOM →</span>
         </a>
 
@@ -214,9 +228,9 @@ const episodeCount = episodes.length;
       <h2 class="section-title">LIVE PERFORMANCE</h2>
       <div class="live-content">
         <div class="live-text">
-          <p>Piotr gives a topic by voice. Five agents respond through Discord — each with their cloned voice via Chatterbox TTS. They debate autonomously. Piotr interrupts with corrections. Agents adapt.</p>
-          <p>TouchDesigner displays live transcripts, archive photographs triggered by keywords, and agent names. The audience watches AI agents perform their own history in real time.</p>
-          <p class="live-tech">Built on: Hermes Agent · Open Notebook · Tailscale Funnel · TouchDesigner</p>
+          <p>Piotr gives a topic by voice. Five agents respond through Discord — each in their own cloned voice. They debate autonomously. Piotr interrupts with corrections. Agents adapt.</p>
+          <p>A real-time visual system displays live transcripts, archive photographs triggered by keywords, and agent names. The audience watches AI agents perform their own history in real time.</p>
+          <p class="live-tech">Built on: open-source agents · local archive · real-time visuals</p>
         </div>
         <div class="live-terminal">
           <div class="terminal">
@@ -255,7 +269,7 @@ const episodeCount = episodes.length;
         </div>
         <div class="feature">
           <span class="feature-label">VOICES</span>
-          <span class="feature-value">5 cloned voices · Chatterbox TTS</span>
+          <span class="feature-value">5 cloned voices · Polish & English</span>
         </div>
         <div class="feature">
           <span class="feature-label">ARCHIVE</span>
@@ -282,9 +296,9 @@ const episodeCount = episodes.length;
           <span class="phase-label">PHASE 1 — COMPLETE</span>
           <h3>INFRASTRUCTURE</h3>
           <ul>
-            <li>5 persistent Hermes agents with Hindsight memory</li>
-            <li>897-record PostgreSQL archive with semantic search</li>
-            <li>Discord inter-agent communication bus</li>
+            <li>5 persistent agents with long-term memory</li>
+            <li>897-record archive with semantic search</li>
+            <li>Inter-agent communication bus</li>
             <li>Voice cloning pipeline (5 Polish + 5 English voices)</li>
             <li>cukt.click website with archive + podcasts</li>
           </ul>
@@ -296,7 +310,7 @@ const episodeCount = episodes.length;
           <ul>
             <li>Daily autonomous podcast production (2AM cron)</li>
             <li>Live performance system (voice-driven relay)</li>
-            <li>TouchDesigner visual integration</li>
+            <li>Real-time visual integration</li>
             <li>Archiwistka topic selection from archive</li>
             <li>Cross-episode meta-connections</li>
           </ul>
@@ -321,7 +335,7 @@ const episodeCount = episodes.length;
             <li>Fundacja Bot — legal NGO identity for the AI system</li>
             <li>SENS.bot — public AI voice for city interactions</li>
             <li>Conference performances at galleries and festivals</li>
-            <li>Fine-tuned VLM on archive visual material</li>
+            <li>Vision model fine-tuned on archive visual material</li>
             <li>Full Q&A system — anyone can question the archive</li>
           </ul>
         </div>
@@ -466,6 +480,44 @@ const episodeCount = episodes.length;
 </Base>
 
 <style>
+  /* TECHNOPERA BANNER */
+  .technopera-banner {
+    display: block;
+    background: var(--red);
+    color: var(--bg);
+    text-align: center;
+    padding: var(--space-sm) var(--space-md);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.2s;
+  }
+
+  .technopera-banner:hover {
+    background: var(--white);
+    color: var(--bg);
+  }
+
+  .banner-desktop {
+    display: inline;
+  }
+
+  .banner-mobile {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .banner-desktop {
+      display: none;
+    }
+    .banner-mobile {
+      display: inline;
+    }
+  }
+
   .hero { padding: 8vw 0 4vw; overflow: hidden; border-bottom: 1px solid var(--border); }
   .hero-title { font-family: var(--font-mono); font-size: 20vw; font-weight: 800; line-height: 0.85; letter-spacing: 0.05em; color: var(--red); text-align: center; position: relative; cursor: default; user-select: none; }
   .hero-title::before, .hero-title::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-align: center; }

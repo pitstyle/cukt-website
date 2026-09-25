@@ -2,10 +2,21 @@
 interface Props {
   title: string;
   description?: string;
+  ogTitle?: string;
+  image?: string;
+  imageAlt?: string;
 }
 
-const { title, description = 'CUKTAI — Autonomous Bureau of Technical Culture. Multi-voice AI system built on the C.U.K.T. archive (1995-2001).' } = Astro.props;
+const { 
+  title, 
+  description = 'CUKTAI — Autonomous Bureau of Technical Culture. Multi-voice AI system built on the C.U.K.T. archive (1995-2001).',
+  ogTitle,
+  image = '/og/cuktai-default.jpg',
+  imageAlt = 'CUKTAI — Autonomous Bureau of Technical Culture'
+} = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site).href;
+const finalOgTitle = ogTitle || `${title} | CUKTAI`;
 ---
 
 <!DOCTYPE html>
@@ -24,24 +35,30 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <link rel="canonical" href={canonicalURL.href} />
 
   <!-- Open Graph -->
-  <meta property="og:title" content={`${title} | CUKTAI`} />
+  <meta property="og:title" content={finalOgTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL.href} />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="CUKTAI" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:locale:alternate" content="pl_PL" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={imageAlt} />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={`${title} | CUKTAI`} />
+  <meta name="twitter:title" content={finalOgTitle} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
 </head>
 <body>
   <nav class="nav">
     <div class="container nav-inner">
       <a href="/" class="nav-logo"><img src="/cuktai-logo.png" alt="CUKTAI" class="nav-logo-img" /></a>
       <div class="nav-links">
+        <a href="/technopera" class="nav-technopera">TECHNOPERA 2026</a>
         <a href="/archive" data-pl="ARCHIWUM" data-en="ARCHIVE">ARCHIVE</a>
         <a href="/personal" data-pl="PROJEKTY" data-en="PROJECTS">PROJECTS</a>
         <a href="/tags" data-pl="TAGI" data-en="TAGS">TAGS</a>
@@ -133,6 +150,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     .nav-links a:hover {
       color: var(--white);
+    }
+
+    .nav-technopera {
+      color: var(--red) !important;
+      font-weight: 800 !important;
+    }
+
+    .nav-technopera:hover {
+      color: var(--white) !important;
     }
 
     .nav-right {
