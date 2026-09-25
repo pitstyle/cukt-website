@@ -8,6 +8,10 @@ export default defineConfig({
   build: {
     format: 'directory',
   },
+  redirects: {
+    '/personal/habeas-mentem': '/habeas-mentem',
+    '/personal/habeas-mentem/': '/habeas-mentem',
+  },
   markdown: {
     shikiConfig: {
       theme: {
