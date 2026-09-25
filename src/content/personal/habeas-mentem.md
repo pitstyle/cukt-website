@@ -2,6 +2,7 @@
 title: "Habeas Mentem"
 order: 20
 date: "2026"
+draft: true
 tags: ["performative-lecture", "artificial-intelligence", "research", "politics", "voice", "CUKTAI"]
 description: "Habeas Mentem — performative lecture and research programme on the right to artificial mind. Presented at the International AI Art Biennale conference, Kraków, 2026. A CUKTAI project: legal, philosophical, and artistic foundations of AI personhood."
 ---
