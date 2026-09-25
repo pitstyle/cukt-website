@@ -1,0 +1,3 @@
+# Redirect old habeas-mentem URL to new standalone page
+/personal/habeas-mentem /habeas-mentem 301
+/personal/habeas-mentem/ /habeas-mentem 301
