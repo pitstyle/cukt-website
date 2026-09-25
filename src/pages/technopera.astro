@@ -1,0 +1,674 @@
+---
+import Base from '../layouts/Base.astro';
+import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
+---
+
+<Base 
+  title="Technopera 2026 · Mediateka Tychy · 4.10"
+  description="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. A multimedia opera for the age of AI by Piotr Wyrzykowski. Premiere: MEDIATEKA, Tychy, 4.10.2026, 20:45."
+  ogTitle="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL."
+  image="/og/technopera-2026.jpg"
+  imageAlt="Technopera 2026 — WŁADZA. WIEDZA. PIECZĘĆ. · MEDIATEKA · Tychy · 4.10.2026 · 20:45"
+>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "TheaterEvent",
+  "name": "Technopera 2026 — WŁADZA. WIEDZA. PIECZĘĆ. / AUTHORITY. KNOWLEDGE. SEAL.",
+  "startDate": "2026-10-04T20:45:00+02:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "MEDIATEKA",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "al. marsz. J. Piłsudskiego 16",
+      "addressLocality": "Tychy",
+      "addressCountry": "PL"
+    }
+  },
+  "image": "https://cukt.click/og/technopera-2026.jpg",
+  "description": "Multimedia opera for the age of AI. Part of the AUKSODRONE festival.",
+  "director": {
+    "@type": "Person",
+    "name": "Piotr Wyrzykowski"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "AUKSO – Orkiestra Kameralna Miasta Tychy"
+  },
+  "url": "https://cukt.click/technopera/"
+})} />
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">TECHNOPERA 2026</h1>
+        <div class="hero-triad">
+          <div class="triad-primary" data-en="AUTHORITY. KNOWLEDGE. SEAL." data-pl="WŁADZA. WIEDZA. PIECZĘĆ.">AUTHORITY. KNOWLEDGE. SEAL.</div>
+          <div class="triad-secondary" data-en="WŁADZA. WIEDZA. PIECZĘĆ." data-pl="AUTHORITY. KNOWLEDGE. SEAL.">WŁADZA. WIEDZA. PIECZĘĆ.</div>
+        </div>
+        <div class="hero-meta">
+          <span data-en="MEDIATEKA · Tychy · 4.10.2026 · 20:45 · AUKSODRONE festival" data-pl="MEDIATEKA · Tychy · 4.10.2026 · 20:45 · festiwal AUKSODRONE">MEDIATEKA · Tychy · 4.10.2026 · 20:45 · AUKSODRONE festival</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#trailer" class="btn" data-en="Watch the trailer" data-pl="Zobacz trailer">Watch the trailer</a>
+          <a href="#booking" class="btn" data-en="Press & booking" data-pl="Prasa i booking">Press & booking</a>
+        </div>
+        <div class="hero-info">
+          <span data-en="Info: AUKSODRONE / Mediateka" data-pl="Informacje: AUKSODRONE / Mediateka">Info: AUKSODRONE / Mediateka</span>
+        </div>
+      </div>
+      <div class="hero-video">
+        <video 
+          class="hero-loop" 
+          autoplay 
+          muted 
+          loop 
+          playsinline 
+          preload="metadata"
+          poster="/video/technopera/technopera-hero-poster.jpg"
+          aria-label="Technopera 2026 — teaser loop"
+        >
+          <source src="/video/technopera/technopera-hero-9x16.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAILER -->
+<section class="trailer" id="trailer">
+  <div class="container content">
+    <div class="trailer-placeholder">
+      <div class="trailer-label" data-en="TRAILER — coming soon" data-pl="TRAILER — wkrótce">TRAILER — coming soon</div>
+      <p class="trailer-caption">Technopera 2026 · MEDIATEKA, Tychy · 4.10.2026</p>
+    </div>
+  </div>
+</section>
+
+<!-- PITCH -->
+<section class="pitch">
+  <div class="container content">
+    <p class="pitch-text" data-en="Technopera 2026 is a multimedia opera for the age of artificial intelligence — live performance, video, electronic music and an audiovisual libretto. Who owns the Words the world is made of, and who holds the Seal that grants access to them?" data-pl="Technopera 2026 to opera multimedialna na czasy sztucznej inteligencji — performance na żywo, wideo, muzyka elektroniczna i audiowizualne libretto. Do kogo należą Słowa, z których zbudowany jest świat, i kto trzyma Pieczęć, która daje do nich dostęp?">Technopera 2026 is a multimedia opera for the age of artificial intelligence — live performance, video, electronic music and an audiovisual libretto. Who owns the Words the world is made of, and who holds the Seal that grants access to them?</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="container content">
+    <h2 class="section-title" data-en="ABOUT" data-pl="O SPEKTAKLU">ABOUT</h2>
+    
+    <div class="about-content">
+      <div class="about-en">
+        <p>Technopera is a multimedia opera for the age of artificial intelligence — a CUKTAI project fusing live performance, video installation, electronic music and an audiovisual libretto. Live bodies are interrogated by machines; the machine spirit sings; humans drift through the datasphere looking for meaning and finding, instead, an interface.</p>
+        
+        <p>The world is made of Words — and if you know the words the world is made of, you can make of them whatever you choose. But access to the Words now requires a Seal. The 2026 libretto stages the tension between authority, knowledge and the seal: the licence, the exception, the API — the quiet machinery that decides who gets to speak, think and exist.</p>
+        
+        <p>Four voices carry the drama: CYBORG (the bio-robot, the android human), MACHINE (AI, the bit, machine consciousness), ALIENS (unimaginable minds from another register) and HUMAN (user, discoverer, victim). A prologue and three acts lead from the void, through cyberspace and the endless data-centre corridor, to the moment when sovereignty shifts "from the land to the algorithm" — and the nightmare does not wake you; it updates in the background.</p>
+        
+        <p>First staged in 1996–97 as an audiovisual libretto of 217 video files sampling the twentieth-century techno-imagination, Technopera now interrogates the very machines it once sampled.</p>
+      </div>
+      
+      <div class="about-pl">
+        <p>Technopera to opera multimedialna na czasy sztucznej inteligencji — projekt CUKTAI łączący performance na żywo, instalację wideo, muzykę elektroniczną i audiowizualne libretto. Ciała są przesłuchiwane przez maszyny; duch maszyny śpiewa; człowiek dryfuje przez datasferę w poszukiwaniu sensu — i znajduje interfejs.</p>
+        
+        <p>Świat jest stworzony ze Słów — a jeśli znasz słowa, z których świat jest stworzony, możesz stworzyć z nich, co tylko zechcesz. Ale dostęp do Słów wymaga teraz Pieczęci. Libretto 2026 wystawia napięcie między władzą, wiedzą i pieczęcią: licencją, wyjątkiem, API — cichą machiną, która decyduje, kto może mówić, myśleć i istnieć.</p>
+        
+        <p>Dramat niosą cztery głosy: CYBORG (sztuczny człowiek — biorobot — android), MACHINE (AI — bit — świadomość-maszyna), ALIENS (umysły niewyobrażalne, inny wymiar) i HUMAN (użytkownik — odkrywca — ofiara). Prolog i trzy akty prowadzą od pustki, przez cyberprzestrzeń i nieskończony korytarz centrum danych, do chwili, gdy władza przesuwa się „z ziemi na algorytm" — a koszmar Cię nie budzi; aktualizuje się w tle.</p>
+        
+        <p>Wystawiona po raz pierwszy w latach 1996–97 jako audiowizualne libretto z 217 plików wideo samplujących XX-wieczną wyobraźnię technologiczną, Technopera przesłuchuje dziś te same maszyny, które kiedyś samplowała.</p>
+      </div>
+    </div>
+    
+    <p class="history-link">
+      <a href="/personal/technopera/" data-en="Full history & libretto sources →" data-pl="Pełna historia i źródła libretta →">Full history & libretto sources →</a>
+    </p>
+  </div>
+</section>
+
+<!-- CREDITS -->
+<section class="credits">
+  <div class="container content">
+    <h2 class="section-title" data-en="CREDITS 2026" data-pl="OBSADA 2026">CREDITS 2026</h2>
+    
+    <div class="credits-grid">
+      <div class="credit-row">
+        <span class="credit-label" data-en="Concept & direction" data-pl="Koncepcja i reżyseria">Concept & direction</span>
+        <span class="credit-name">Piotr Wyrzykowski</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Libretto" data-pl="Libretto">Libretto</span>
+        <span class="credit-name">Piotr Wyrzykowski, Artur Kozdrowski</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Music" data-pl="Muzyka">Music</span>
+        <span class="credit-name">Michał Jacaszek</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="AUKSO – Chamber Symphony Orchestra of the City of Tychy" data-pl="AUKSO – Orkiestra Kameralna Miasta Tychy">AUKSO – Chamber Symphony Orchestra of the City of Tychy</span>
+        <span class="credit-name"></span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="NeoQuartet" data-pl="NeoQuartet">NeoQuartet</span>
+        <span class="credit-name"></span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Conductor" data-pl="Dyrygent">Conductor</span>
+        <span class="credit-name">Marek Moś</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Soprano" data-pl="Sopran">Soprano</span>
+        <span class="credit-name">Aleksandra Klimczak</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Performance" data-pl="Performance">Performance</span>
+        <span class="credit-name">Robert Mikołaj Jurkowski</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Visuals & AI voices" data-pl="Wizualizacje i głosy AI">Visuals & AI voices</span>
+        <span class="credit-name">Piotr Wyrzykowski</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Costumes" data-pl="Kostiumy">Costumes</span>
+        <span class="credit-name">Agnieszka Kochańczyk</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Production" data-pl="Produkcja">Production</span>
+        <span class="credit-name">CUKTAI</span>
+      </div>
+      
+      <div class="credit-row">
+        <span class="credit-label" data-en="Premiere as part of" data-pl="Premiera w ramach">Premiere as part of</span>
+        <span class="credit-name" data-en="AUKSODRONE festival (2–4.10.2026), organised by AUKSO" data-pl="festiwal AUKSODRONE (2–4.10.2026), organizator: AUKSO">AUKSODRONE festival (2–4.10.2026), organised by AUKSO</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HISTORY -->
+<section class="history">
+  <div class="container">
+    <h2 class="section-title" data-en="HISTORY" data-pl="HISTORIA">HISTORY</h2>
+    
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">1995–96</div>
+        <div class="timeline-content">
+          <p data-en="C.U.K.T. — Napoleonic Forts (Forty Napoleońskie), Gdańsk. The collective's base, where Technopera was born." data-pl="C.U.K.T. — Forty Napoleońskie, Gdańsk. Baza kolektywu, tu narodziła się Technopera.">C.U.K.T. — Napoleonic Forts (Forty Napoleońskie), Gdańsk. The collective's base, where Technopera was born.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-year">1996</div>
+        <div class="timeline-content">
+          <p data-en="TECHNOPERA v1.2 beta — first stagings: Zielona Góra (premiere), CSW Ujazdowski Castle, Warsaw." data-pl="TECHNOPERA v1.2 beta — pierwsze inscenizacje: Zielona Góra (premiera), CSW Zamek Ujazdowski, Warszawa.">TECHNOPERA v1.2 beta — first stagings: Zielona Góra (premiere), CSW Ujazdowski Castle, Warsaw.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-year">1997</div>
+        <div class="timeline-content">
+          <p data-en="Dessau — followed by WRO Wrocław and Banff (Canada)." data-pl="Dessau, a potem WRO Wrocław i Banff (Kanada).">Dessau — followed by WRO Wrocław and Banff (Canada).</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-content">
+          <p data-en="Gdańsk Shakespeare Theatre — "Czego nie wyjawia nam Maszyna?", 6.12.2024." data-pl="Gdański Teatr Szekspirowski — „Czego nie wyjawia nam Maszyna?", 6.12.2024.">Gdańsk Shakespeare Theatre — "Czego nie wyjawia nam Maszyna?", 6.12.2024.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item highlight">
+        <div class="timeline-year">2026</div>
+        <div class="timeline-content">
+          <p data-en="Tychy — MEDIATEKA, AUKSODRONE festival, 4.10.2026. AUTHORITY. KNOWLEDGE. SEAL." data-pl="Tychy — MEDIATEKA, festiwal AUKSODRONE, 4.10.2026. WŁADZA. WIEDZA. PIECZĘĆ.">Tychy — MEDIATEKA, AUKSODRONE festival, 4.10.2026. AUTHORITY. KNOWLEDGE. SEAL.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+  <div class="container content">
+    <h2 class="section-title" data-en="PRESS & BOOKING" data-pl="PRASA I BOOKING">PRESS & BOOKING</h2>
+    
+    <div class="booking-content">
+      <p data-en="Technopera is available for festivals, theatres and institutions. Booking & press: Instagram @_transformizm. Press accreditation for the premiere: AUKSODRONE festival press office." data-pl="Technopera jest dostępna do prezentacji na festiwalach, w teatrach i instytucjach. Booking i prasa: Instagram @_transformizm. Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE.">
+        {BOOKING_EMAIL 
+          ? `Technopera is available for festivals, theatres and institutions. Booking & press: ${BOOKING_EMAIL}. Instagram: @_transformizm. Press accreditation for the premiere: AUKSODRONE festival press office.`
+          : 'Technopera is available for festivals, theatres and institutions. Booking & press: Instagram @_transformizm. Press accreditation for the premiere: AUKSODRONE festival press office.'
+        }
+      </p>
+      
+      <div class="press-kit">
+        <h3 data-en="Press kit" data-pl="Materiały prasowe">Press kit</h3>
+        <ul>
+          <li data-en="Press photos (hi-res, with credits)" data-pl="Zdjęcia prasowe">Press photos (hi-res, with credits)</li>
+          <li>Trailer (16:9 and 9:16)</li>
+          <li data-en="One-pager EN/PL (PDF)" data-pl="One-pager EN/PL (PDF)">One-pager EN/PL (PDF)</li>
+          <li data-en="Technical rider (PDF)" data-pl="Technical rider (PDF)">Technical rider (PDF)</li>
+          <li data-en="Credits & bios" data-pl="Obsada i biogramy">Credits & bios</li>
+          <li data-en="Logo / wordmark" data-pl="Logo / wordmark">Logo / wordmark</li>
+        </ul>
+        <p class="press-available" data-en="Available on request" data-pl="Dostępne na życzenie">Available on request</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM CTA -->
+<section class="instagram">
+  <div class="container content">
+    <p class="instagram-cta" data-en="Behind the scenes, clips and dates on Instagram → @_transformizm" data-pl="Kulisy, klipy i daty na Instagramie → @_transformizm">
+      <span data-en="Behind the scenes, clips and dates on Instagram →" data-pl="Kulisy, klipy i daty na Instagramie →">Behind the scenes, clips and dates on Instagram →</span>
+      <a href="https://www.instagram.com/_transformizm/">@_transformizm</a>
+    </p>
+  </div>
+</section>
+
+<!-- PAGE INFO -->
+<section class="page-info">
+  <div class="container content">
+    <p data-en="Info: AUKSODRONE / Mediateka · al. marsz. J. Piłsudskiego 16, Tychy" data-pl="Informacje: AUKSODRONE / Mediateka · al. marsz. J. Piłsudskiego 16, Tychy">Info: AUKSODRONE / Mediateka · al. marsz. J. Piłsudskiego 16, Tychy</p>
+  </div>
+</section>
+
+</Base>
+
+<style>
+  /* HERO */
+  .hero {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    align-items: center;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    line-height: 0.9;
+    letter-spacing: 0.05em;
+    color: var(--red);
+  }
+
+  .hero-triad {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .triad-primary {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: var(--white);
+  }
+
+  .triad-secondary {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--white-dim);
+  }
+
+  .hero-meta {
+    font-size: 0.9rem;
+    color: var(--white-dim);
+    letter-spacing: 0.02em;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: var(--space-md);
+  }
+
+  .btn {
+    padding: var(--space-sm) var(--space-lg);
+    border: 1px solid var(--red);
+    color: var(--red);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn:hover {
+    background: var(--red);
+    color: var(--bg);
+  }
+
+  .hero-info {
+    font-size: 0.75rem;
+    color: var(--white-dim);
+  }
+
+  .hero-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-loop {
+    width: 100%;
+    max-height: 80vh;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    border: 1px solid var(--border);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-loop {
+      animation: none;
+    }
+  }
+
+  /* TRAILER */
+  .trailer {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .trailer-placeholder {
+    text-align: center;
+    padding: var(--space-2xl) 0;
+    border: 1px solid var(--border);
+  }
+
+  .trailer-label {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--red);
+    margin-bottom: var(--space-md);
+  }
+
+  .trailer-caption {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+  }
+
+  /* PITCH */
+  .pitch {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .pitch-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--white);
+    text-align: center;
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    color: var(--red);
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .about-content {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--white-dim);
+  }
+
+  .about-content p {
+    margin-bottom: var(--space-md);
+  }
+
+  .about-en, .about-pl {
+    display: none;
+  }
+
+  .history-link {
+    margin-top: var(--space-lg);
+  }
+
+  .history-link a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--red);
+  }
+
+  /* CREDITS */
+  .credits {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .credits-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .credit-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .credit-label {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+  }
+
+  .credit-name {
+    font-size: 0.85rem;
+    color: var(--white);
+    font-weight: 700;
+  }
+
+  /* HISTORY */
+  .history {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .timeline-item {
+    display: flex;
+    gap: var(--space-lg);
+    padding: var(--space-lg);
+    border: 1px solid var(--border);
+  }
+
+  .timeline-item.highlight {
+    border-color: var(--red);
+  }
+
+  .timeline-year {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--green);
+    min-width: 100px;
+    flex-shrink: 0;
+  }
+
+  .timeline-item.highlight .timeline-year {
+    color: var(--red);
+  }
+
+  .timeline-content p {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    line-height: 1.7;
+  }
+
+  /* BOOKING */
+  .booking {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .booking-content {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--white-dim);
+  }
+
+  .booking-content p {
+    margin-bottom: var(--space-lg);
+  }
+
+  .press-kit h3 {
+    font-size: 1rem;
+    color: var(--white);
+    margin-bottom: var(--space-md);
+  }
+
+  .press-kit ul {
+    list-style: none;
+    padding-left: var(--space-md);
+  }
+
+  .press-kit li {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    margin-bottom: var(--space-xs);
+    position: relative;
+  }
+
+  .press-kit li::before {
+    content: '·';
+    position: absolute;
+    left: -1em;
+    color: var(--red);
+  }
+
+  .press-available {
+    margin-top: var(--space-md);
+    font-size: 0.8rem;
+    color: var(--green);
+  }
+
+  /* INSTAGRAM */
+  .instagram {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .instagram-cta {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .instagram-cta a {
+    color: var(--red);
+    font-weight: 700;
+  }
+
+  /* PAGE INFO */
+  .page-info {
+    padding: var(--space-lg) 0;
+  }
+
+  .page-info p {
+    font-size: 0.75rem;
+    color: var(--white-dim);
+    text-align: center;
+  }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    .hero-content {
+      grid-template-columns: 1fr;
+      gap: var(--space-lg);
+    }
+
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .triad-primary {
+      font-size: 1.2rem;
+    }
+
+    .triad-secondary {
+      font-size: 0.9rem;
+    }
+
+    .hero-cta {
+      flex-direction: column;
+    }
+
+    .hero-loop {
+      max-height: 60vh;
+    }
+
+    .credit-row {
+      grid-template-columns: 1fr;
+      gap: var(--space-xs);
+    }
+
+    .timeline-item {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .timeline-year {
+      min-width: auto;
+    }
+  }
+</style>
+
+<script>
+  // Language toggle handler
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  
+  // Show/hide content based on language
+  if (lang === 'en') {
+    document.querySelectorAll('.about-en').forEach(el => el.style.display = 'block');
+    document.querySelectorAll('.about-pl').forEach(el => el.style.display = 'none');
+  } else {
+    document.querySelectorAll('.about-en').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.about-pl').forEach(el => el.style.display = 'block');
+  }
+</script>

@@ -3,16 +3,17 @@ import Base from '../../layouts/Base.astro';
 
 const upcoming = [
   {
-    date: "2026-05-22",
-    title: "King's College London",
-    titlePl: "King's College London",
-    type: "LECTURE",
-    typePl: "WYKŁAD",
-    desc: "15-minute rapid presentation: 1981 to present -- performance, technology, AI trajectory. Including CUKTAI system demonstration.",
-    descPl: "15-minutowa prezentacja: 1981 do dziś -- performance, technologia, trajektoria AI. Demonstracja systemu CUKTAI.",
-    audience: "Students, academics",
-    audiencePl: "Studenci, akademicy",
-    location: "London, UK"
+    date: "2026-10-04",
+    title: "TECHNOPERA 2026 — AUTHORITY. KNOWLEDGE. SEAL.",
+    titlePl: "TECHNOPERA 2026 — WŁADZA. WIEDZA. PIECZĘĆ.",
+    type: "PREMIERE · MULTIMEDIA OPERA",
+    typePl: "PREMIERA · OPERA MULTIMEDIALNA",
+    desc: "Premiere of the new Technopera — a multimedia opera for the age of AI: live performance, video, electronic music and an audiovisual libretto. With AUKSO Chamber Symphony Orchestra of the City of Tychy and NeoQuartet, conducted by Marek Moś. 20:45, as part of the AUKSODRONE festival.",
+    descPl: "Premiera nowej Technopery — opery multimedialnej na czasy sztucznej inteligencji: performance na żywo, wideo, muzyka elektroniczna i audiowizualne libretto. Z udziałem AUKSO – Orkiestry Kameralnej Miasta Tychy i NeoQuartetu, dyryguje Marek Moś. Godz. 20:45, w ramach festiwalu AUKSODRONE.",
+    audience: "Festival audience · AUKSODRONE",
+    audiencePl: "Publiczność festiwalu AUKSODRONE",
+    location: "MEDIATEKA, Tychy",
+    href: "/technopera"
   },
   {
     date: "2026-11",
@@ -42,13 +43,25 @@ const upcoming = [
 
 const past = [
   {
+    date: "2026-05-22",
+    title: "King's College London",
+    titlePl: "King's College London",
+    type: "LECTURE",
+    typePl: "WYKŁAD",
+    desc: "15-minute rapid presentation: 1981 to present -- performance, technology, AI trajectory. Including CUKTAI system demonstration.",
+    descPl: "15-minutowa prezentacja: 1981 do dziś -- performance, technologia, trajektoria AI. Demonstracja systemu CUKTAI.",
+    audience: "Students, academics",
+    audiencePl: "Studenci, akademicy",
+    location: "London, UK"
+  },
+  {
     date: "2026-03-19",
     title: "CUKTAI Super Day 1 -- NOMUS Gdańsk",
     titlePl: "CUKTAI Super Day 1 -- NOMUS Gdańsk",
     type: "LIVE PERFORMANCE",
     typePl: "PERFORMANS NA ŻYWO",
-    desc: "First public presentation of CUKTAI. \"Moja pamięć w twojej głowie\" -- 3 CUKT founders on stage with 5 AI agents. TouchDesigner live visuals, agent debate, voice interaction. Venue: Nowe Muzeum Sztuki, Muzeum Narodowe w Gdańsku.",
-    descPl: "Pierwsza publiczna prezentacja CUKTAI. Moja pamiec w twojej glowie -- 3 zalozyciele CUKT na scenie z 5 agentami AI. Wizualizacja TouchDesigner na zywo, debata agentow, interakcja glosowa. Miejsce: Nowe Muzeum Sztuki, Muzeum Narodowe w Gdansku.",
+    desc: "First public presentation of CUKTAI. \"Moja pamięć w twojej głowie\" -- 3 CUKT founders on stage with 5 AI agents. Live visuals, agent debate, voice interaction. Venue: Nowe Muzeum Sztuki, Muzeum Narodowe w Gdańsku.",
+    descPl: "Pierwsza publiczna prezentacja CUKTAI. Moja pamięć w twojej głowie -- 3 założyciele CUKT na scenie z 5 agentami AI. Wizualizacje na żywo, debata agentów, interakcja głosowa. Miejsce: Nowe Muzeum Sztuki, Muzeum Narodowe w Gdańsku.",
     audience: "Exhibition audience, artists, media",
     audiencePl: "Publiczność wystawiennicza, artyści, media",
     location: "Gdańsk"
@@ -84,7 +97,11 @@ const past = [
           <div class="event-date">{event.date}</div>
           <div class="event-body">
             <span class="event-type">{event.type}</span>
-            <h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3>
+            {event.href ? (
+              <a href={event.href}><h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3></a>
+            ) : (
+              <h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3>
+            )}
             <p data-en={event.desc} data-pl={event.descPl}>{event.desc}</p>
             <div class="event-meta">
               <span>📍 {event.location}</span>
@@ -150,6 +167,8 @@ const past = [
   .event-body { flex: 1; }
   .event-type { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--red); display: block; margin-bottom: 4px; }
   .event-body h3 { font-size: 1rem; letter-spacing: 0.05em; margin-bottom: var(--space-sm); color: var(--white); }
+  .event-body a { text-decoration: none; }
+  .event-body a h3:hover { color: var(--red); }
   .event-body p { font-size: 0.8rem; color: var(--white-dim); line-height: 1.7; margin-bottom: var(--space-sm); }
   .event-meta { font-size: 0.75rem; color: var(--white-dim); display: flex; gap: var(--space-lg); }
 
