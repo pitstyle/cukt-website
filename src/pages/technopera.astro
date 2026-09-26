@@ -32,7 +32,8 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
   "description": "Multimedia opera for the age of AI. Part of the AUKSODRONE festival.",
   "director": {
     "@type": "Person",
-    "name": "Piotr Wyrzykowski"
+    "name": "Piotr Wyrzykowski",
+    "email": "peter@cukt.click"
   },
   "organizer": {
     "@type": "Organization",
@@ -249,11 +250,18 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
     <h2 class="section-title" data-en="PRESS & BOOKING" data-pl="PRASA I BOOKING">PRESS & BOOKING</h2>
     
     <div class="booking-content">
-      <p data-en="Technopera is available for festivals, theatres and institutions. Booking & press: Instagram @_transformizm. Press accreditation for the premiere: AUKSODRONE festival press office." data-pl="Technopera jest dostępna do prezentacji na festiwalach, w teatrach i instytucjach. Booking i prasa: Instagram @_transformizm. Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE.">
-        {BOOKING_EMAIL 
-          ? `Technopera is available for festivals, theatres and institutions. Booking & press: ${BOOKING_EMAIL}. Instagram: @_transformizm. Press accreditation for the premiere: AUKSODRONE festival press office.`
-          : 'Technopera is available for festivals, theatres and institutions. Booking & press: Instagram @_transformizm. Press accreditation for the premiere: AUKSODRONE festival press office.'
-        }
+      <p class="booking-intro">
+        <span data-en="Technopera is available for festivals, theatres and institutions." data-pl="Technopera jest dostępna do prezentacji na festiwalach, w teatrach i instytucjach.">Technopera is available for festivals, theatres and institutions.</span>
+      </p>
+      
+      <p class="booking-contact">
+        <strong data-en="Contact / booking:" data-pl="Kontakt / booking:">Contact / booking:</strong><br />
+        <a href="mailto:peter@cukt.click" class="contact-email">peter@cukt.click</a><br />
+        <span class="contact-instagram">Instagram: <a href="https://www.instagram.com/_transformizm/">@_transformizm</a></span>
+      </p>
+      
+      <p class="booking-premiere">
+        <span data-en="Press accreditation for the premiere: AUKSODRONE festival press office" data-pl="Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE">Press accreditation for the premiere: AUKSODRONE festival press office</span>
       </p>
       
       <div class="press-kit">
@@ -554,8 +562,50 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
     color: var(--white-dim);
   }
 
-  .booking-content p {
+  .booking-intro {
     margin-bottom: var(--space-lg);
+  }
+
+  .booking-contact {
+    margin-bottom: var(--space-lg);
+    padding: var(--space-lg);
+    border: 1px solid var(--red);
+    background: rgba(255, 0, 0, 0.05);
+  }
+
+  .booking-contact strong {
+    color: var(--white);
+    display: block;
+    margin-bottom: var(--space-sm);
+  }
+
+  .contact-email {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--red);
+    margin: var(--space-xs) 0;
+    display: inline-block;
+  }
+
+  .contact-email:hover {
+    color: var(--white);
+  }
+
+  .contact-instagram {
+    color: var(--white-dim);
+    font-size: 0.85rem;
+    margin-top: var(--space-sm);
+    display: block;
+  }
+
+  .contact-instagram a {
+    color: var(--green);
+  }
+
+  .booking-premiere {
+    margin-bottom: var(--space-lg);
+    font-size: 0.85rem;
+    color: var(--white-dim);
   }
 
   .press-kit h3 {
