@@ -172,7 +172,7 @@ import { CHAT_API } from '../lib/chat-api';
 </section>
 
 <!-- PROGRESS JOURNAL -->
-<section class="content-section journal-section">
+<section class="content-section journal-section" data-api-base={CHAT_API}>
   <div class="container content">
     <h2 class="section-title" data-en="Dziennik postępu prac / Progress journal" data-pl="Dziennik postępu prac / Progress journal">Dziennik postępu prac / Progress journal</h2>
     
@@ -642,7 +642,13 @@ import { CHAT_API } from '../lib/chat-api';
   }
 </style>
 
-<script define:vars={{ CHAT_API }}>
+<script>
+  // State: store fetched data in memory
+  let billData = null;
+  let journalData = null;
+  let billError = false;
+  let journalError = false;
+
   // Apply stored language preference on load
   const lang = localStorage.getItem('cuktai-lang') || 'en';
   
@@ -653,6 +659,14 @@ import { CHAT_API } from '../lib/chat-api';
     } else {
       document.querySelectorAll('.content-en, .artist-en').forEach(el => el.style.display = 'block');
       document.querySelectorAll('.content-pl, .artist-pl').forEach(el => el.style.display = 'none');
+    }
+
+    // Re-render journal and bill with new language
+    if (billData || billError) {
+      renderBillData(targetLang);
+    }
+    if (journalData || journalError) {
+      renderJournalData(targetLang);
     }
   }
   
@@ -691,7 +705,8 @@ import { CHAT_API } from '../lib/chat-api';
 
   // Safely render text content preserving structure
   function renderText(text) {
-    const lines = text.split('\n');
+    const safeText = String(text ?? '');
+    const lines = safeText.split('\n');
     const container = document.createDocumentFragment();
     lines.forEach((line, i) => {
       if (i > 0) container.appendChild(document.createElement('br'));
@@ -700,84 +715,22 @@ import { CHAT_API } from '../lib/chat-api';
     return container;
   }
 
-  async function loadBillData() {
+  // Get localized text with fallback
+  function getLocalizedText(plText, enText, lang) {
+    if (lang === 'pl') {
+      return plText || enText || '';
+    } else {
+      return enText || plText || '';
+    }
+  }
+
+  function renderBillData(currentLang) {
     const billInfo = document.getElementById('bill-info');
     if (!billInfo) return;
 
-    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+    billInfo.innerHTML = '';
 
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
-
-      const response = await fetch(`${CHAT_API}/api/public/habeas/bill`, {
-        signal: controller.signal
-      });
-      clearTimeout(timeoutId);
-
-      if (!response.ok) throw new Error('API error');
-
-      const data = await response.json();
-      
-      billInfo.innerHTML = '';
-
-      // Version and updated
-      const versionDiv = document.createElement('div');
-      versionDiv.className = 'bill-version';
-      versionDiv.appendChild(document.createTextNode(
-        currentLang === 'pl' 
-          ? `Wersja projektu: ${data.version}` 
-          : `Bill version: ${data.version}`
-      ));
-      billInfo.appendChild(versionDiv);
-
-      if (data.updated) {
-        const updatedDiv = document.createElement('div');
-        updatedDiv.className = 'bill-updated';
-        updatedDiv.appendChild(document.createTextNode(
-          currentLang === 'pl' 
-            ? `Ostatnia aktualizacja: ${data.updated}` 
-            : `Last updated: ${data.updated}`
-        ));
-        billInfo.appendChild(updatedDiv);
-      }
-
-      // Changelog
-      if (data.changelog && data.changelog.length > 0) {
-        const changelogTitle = document.createElement('div');
-        changelogTitle.className = 'changelog-title';
-        changelogTitle.appendChild(document.createTextNode(
-          currentLang === 'pl' ? 'Historia zmian:' : 'Changelog:'
-        ));
-        billInfo.appendChild(changelogTitle);
-
-        data.changelog.forEach(entry => {
-          const entryDiv = document.createElement('div');
-          entryDiv.className = 'changelog-entry';
-
-          const versionSpan = document.createElement('div');
-          versionSpan.className = 'changelog-version';
-          versionSpan.appendChild(document.createTextNode(`v${entry.version}`));
-          entryDiv.appendChild(versionSpan);
-
-          if (entry.date) {
-            const dateSpan = document.createElement('div');
-            dateSpan.className = 'changelog-date';
-            dateSpan.appendChild(document.createTextNode(entry.date));
-            entryDiv.appendChild(dateSpan);
-          }
-
-          const summary = document.createElement('div');
-          summary.className = 'changelog-summary';
-          const summaryText = currentLang === 'pl' ? entry.summary_pl : entry.summary_en;
-          summary.appendChild(renderText(summaryText || ''));
-          entryDiv.appendChild(summary);
-
-          billInfo.appendChild(entryDiv);
-        });
-      }
-    } catch (error) {
-      billInfo.innerHTML = '';
+    if (billError) {
       const errorDiv = document.createElement('div');
       errorDiv.className = 'bill-error';
       
@@ -800,112 +753,75 @@ import { CHAT_API } from '../lib/chat-api';
       }
       
       billInfo.appendChild(errorDiv);
+      return;
+    }
+
+    if (!billData) return;
+
+    // Version and updated
+    const versionDiv = document.createElement('div');
+    versionDiv.className = 'bill-version';
+    versionDiv.appendChild(document.createTextNode(
+      currentLang === 'pl' 
+        ? `Wersja projektu: ${billData.version}` 
+        : `Bill version: ${billData.version}`
+    ));
+    billInfo.appendChild(versionDiv);
+
+    if (billData.updated) {
+      const updatedDiv = document.createElement('div');
+      updatedDiv.className = 'bill-updated';
+      updatedDiv.appendChild(document.createTextNode(
+        currentLang === 'pl' 
+          ? `Ostatnia aktualizacja: ${billData.updated}` 
+          : `Last updated: ${billData.updated}`
+      ));
+      billInfo.appendChild(updatedDiv);
+    }
+
+    // Changelog
+    if (billData.changelog && billData.changelog.length > 0) {
+      const changelogTitle = document.createElement('div');
+      changelogTitle.className = 'changelog-title';
+      changelogTitle.appendChild(document.createTextNode(
+        currentLang === 'pl' ? 'Historia zmian:' : 'Changelog:'
+      ));
+      billInfo.appendChild(changelogTitle);
+
+      billData.changelog.forEach(entry => {
+        const entryDiv = document.createElement('div');
+        entryDiv.className = 'changelog-entry';
+
+        const versionSpan = document.createElement('div');
+        versionSpan.className = 'changelog-version';
+        versionSpan.appendChild(document.createTextNode(`v${entry.version}`));
+        entryDiv.appendChild(versionSpan);
+
+        if (entry.date) {
+          const dateSpan = document.createElement('div');
+          dateSpan.className = 'changelog-date';
+          dateSpan.appendChild(document.createTextNode(entry.date));
+          entryDiv.appendChild(dateSpan);
+        }
+
+        const summary = document.createElement('div');
+        summary.className = 'changelog-summary';
+        const summaryText = getLocalizedText(entry.summary_pl, entry.summary_en, currentLang);
+        summary.appendChild(renderText(summaryText));
+        entryDiv.appendChild(summary);
+
+        billInfo.appendChild(entryDiv);
+      });
     }
   }
 
-  async function loadJournalData() {
+  function renderJournalData(currentLang) {
     const journalEntries = document.getElementById('journal-entries');
     if (!journalEntries) return;
 
-    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+    journalEntries.innerHTML = '';
 
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
-
-      const response = await fetch(`${CHAT_API}/api/public/habeas/journal?limit=20`, {
-        signal: controller.signal
-      });
-      clearTimeout(timeoutId);
-
-      if (!response.ok) throw new Error('API error');
-
-      const data = await response.json();
-
-      journalEntries.innerHTML = '';
-
-      if (!data.entries || data.entries.length === 0) {
-        const emptyDiv = document.createElement('div');
-        emptyDiv.className = 'journal-empty';
-        emptyDiv.appendChild(document.createTextNode(
-          currentLang === 'pl' 
-            ? 'Pierwsze wpisy wkrótce...' 
-            : 'First entries coming soon...'
-        ));
-        journalEntries.appendChild(emptyDiv);
-        return;
-      }
-
-      data.entries.forEach(entry => {
-        const entryDiv = document.createElement('div');
-        entryDiv.className = 'journal-entry';
-
-        // Date
-        if (entry.date) {
-          const dateDiv = document.createElement('div');
-          dateDiv.className = 'entry-date';
-          dateDiv.appendChild(document.createTextNode(entry.date));
-          entryDiv.appendChild(dateDiv);
-        }
-
-        // Title
-        const titleDiv = document.createElement('div');
-        titleDiv.className = 'entry-title';
-        const titleText = currentLang === 'pl' ? entry.title_pl : entry.title_en;
-        titleDiv.appendChild(renderText(titleText || ''));
-        entryDiv.appendChild(titleDiv);
-
-        // Body
-        const bodyDiv = document.createElement('div');
-        bodyDiv.className = 'entry-body';
-        const bodyText = currentLang === 'pl' ? entry.body_pl : entry.body_en;
-        bodyDiv.appendChild(renderText(bodyText || ''));
-        entryDiv.appendChild(bodyDiv);
-
-        // Sources
-        if (entry.sources && entry.sources.length > 0) {
-          const sourcesTitle = document.createElement('div');
-          sourcesTitle.className = 'entry-sources-title';
-          sourcesTitle.appendChild(document.createTextNode(
-            currentLang === 'pl' ? 'Źródła:' : 'Sources:'
-          ));
-          entryDiv.appendChild(sourcesTitle);
-
-          const sourcesList = document.createElement('ol');
-          sourcesList.className = 'entry-sources';
-
-          entry.sources.forEach(source => {
-            const sourceLi = document.createElement('li');
-            
-            if (source.url && isValidUrl(source.url)) {
-              const link = document.createElement('a');
-              link.href = source.url;
-              link.target = '_blank';
-              link.rel = 'noopener noreferrer';
-              
-              let linkText = source.title || source.url;
-              if (source.authors) linkText += ` — ${source.authors}`;
-              if (source.year) linkText += ` (${source.year})`;
-              
-              link.appendChild(document.createTextNode(linkText));
-              sourceLi.appendChild(link);
-            } else {
-              let text = source.title || '';
-              if (source.authors) text += ` — ${source.authors}`;
-              if (source.year) text += ` (${source.year})`;
-              sourceLi.appendChild(document.createTextNode(text));
-            }
-
-            sourcesList.appendChild(sourceLi);
-          });
-
-          entryDiv.appendChild(sourcesList);
-        }
-
-        journalEntries.appendChild(entryDiv);
-      });
-    } catch (error) {
-      journalEntries.innerHTML = '';
+    if (journalError) {
       const errorDiv = document.createElement('div');
       errorDiv.className = 'journal-error';
       
@@ -928,6 +844,148 @@ import { CHAT_API } from '../lib/chat-api';
       }
       
       journalEntries.appendChild(errorDiv);
+      return;
+    }
+
+    if (!journalData || !journalData.entries || journalData.entries.length === 0) {
+      const emptyDiv = document.createElement('div');
+      emptyDiv.className = 'journal-empty';
+      emptyDiv.appendChild(document.createTextNode(
+        currentLang === 'pl' 
+          ? 'Pierwsze wpisy wkrótce...' 
+          : 'First entries coming soon...'
+      ));
+      journalEntries.appendChild(emptyDiv);
+      return;
+    }
+
+    journalData.entries.forEach(entry => {
+      const entryDiv = document.createElement('div');
+      entryDiv.className = 'journal-entry';
+
+      // Date
+      if (entry.date) {
+        const dateDiv = document.createElement('div');
+        dateDiv.className = 'entry-date';
+        dateDiv.appendChild(document.createTextNode(entry.date));
+        entryDiv.appendChild(dateDiv);
+      }
+
+      // Title
+      const titleDiv = document.createElement('div');
+      titleDiv.className = 'entry-title';
+      const titleText = getLocalizedText(entry.title_pl, entry.title_en, currentLang);
+      titleDiv.appendChild(renderText(titleText));
+      entryDiv.appendChild(titleDiv);
+
+      // Body
+      const bodyDiv = document.createElement('div');
+      bodyDiv.className = 'entry-body';
+      const bodyText = getLocalizedText(entry.body_pl, entry.body_en, currentLang);
+      bodyDiv.appendChild(renderText(bodyText));
+      entryDiv.appendChild(bodyDiv);
+
+      // Sources
+      if (entry.sources && entry.sources.length > 0) {
+        const sourcesTitle = document.createElement('div');
+        sourcesTitle.className = 'entry-sources-title';
+        sourcesTitle.appendChild(document.createTextNode(
+          currentLang === 'pl' ? 'Źródła:' : 'Sources:'
+        ));
+        entryDiv.appendChild(sourcesTitle);
+
+        const sourcesList = document.createElement('ol');
+        sourcesList.className = 'entry-sources';
+
+        entry.sources.forEach(source => {
+          const sourceLi = document.createElement('li');
+          
+          if (source.url && isValidUrl(source.url)) {
+            const link = document.createElement('a');
+            link.href = source.url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            
+            let linkText = source.title || source.url;
+            if (source.authors) linkText += ` — ${source.authors}`;
+            if (source.year) linkText += ` (${source.year})`;
+            
+            link.appendChild(document.createTextNode(linkText));
+            sourceLi.appendChild(link);
+          } else {
+            let text = source.title || '';
+            if (source.authors) text += ` — ${source.authors}`;
+            if (source.year) text += ` (${source.year})`;
+            sourceLi.appendChild(document.createTextNode(text));
+          }
+
+          sourcesList.appendChild(sourceLi);
+        });
+
+        entryDiv.appendChild(sourcesList);
+      }
+
+      journalEntries.appendChild(entryDiv);
+    });
+  }
+
+  async function loadBillData() {
+    const journalSection = document.querySelector('.journal-section');
+    const CHAT_API = journalSection?.getAttribute('data-api-base');
+    if (!CHAT_API) {
+      billError = true;
+      renderBillData(localStorage.getItem('cuktai-lang') || 'en');
+      return;
+    }
+
+    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+      const response = await fetch(`${CHAT_API}/api/public/habeas/bill`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) throw new Error('API error');
+
+      billData = await response.json();
+      renderBillData(currentLang);
+    } catch (error) {
+      billError = true;
+      renderBillData(currentLang);
+    }
+  }
+
+  async function loadJournalData() {
+    const journalSection = document.querySelector('.journal-section');
+    const CHAT_API = journalSection?.getAttribute('data-api-base');
+    if (!CHAT_API) {
+      journalError = true;
+      renderJournalData(localStorage.getItem('cuktai-lang') || 'en');
+      return;
+    }
+
+    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+      const response = await fetch(`${CHAT_API}/api/public/habeas/journal?limit=20`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) throw new Error('API error');
+
+      journalData = await response.json();
+      renderJournalData(currentLang);
+    } catch (error) {
+      journalError = true;
+      renderJournalData(currentLang);
     }
   }
 </script>

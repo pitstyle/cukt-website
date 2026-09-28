@@ -203,7 +203,8 @@ export function getStaticPaths() {
     
     const textSpan = document.createElement('span');
     textSpan.className = 'msg-text';
-    text.split('\n').forEach((line, i) => {
+    const safeText = String(text ?? '');
+    safeText.split('\n').forEach((line, i) => {
       if (i > 0) textSpan.appendChild(document.createElement('br'));
       textSpan.appendChild(document.createTextNode(line));
     });
