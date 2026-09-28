@@ -755,7 +755,7 @@ import { CHAT_API } from '../lib/chat-api';
       errorDiv.appendChild(link);
     }
     
-    billInfo.replaceChildren(errorDiv.cloneNode(true));
+    billInfo.setAttribute('hidden', '');
     journalEntries.replaceChildren(errorDiv);
   }
 
@@ -769,6 +769,7 @@ import { CHAT_API } from '../lib/chat-api';
     }
 
     billInfo.replaceChildren();
+    billInfo.removeAttribute('hidden');
 
     if (billError) {
       const errorDiv = document.createElement('div');
@@ -798,6 +799,8 @@ import { CHAT_API } from '../lib/chat-api';
 
     if (!billData) return;
 
+    let hasContent = false;
+
     // Version and updated - only show if version exists
     if (billData.version) {
       const versionDiv = document.createElement('div');
@@ -808,6 +811,7 @@ import { CHAT_API } from '../lib/chat-api';
           : `Bill version: ${billData.version}`
       ));
       billInfo.appendChild(versionDiv);
+      hasContent = true;
     }
 
     if (billData.updated) {
@@ -819,6 +823,7 @@ import { CHAT_API } from '../lib/chat-api';
           : `Last updated: ${billData.updated}`
       ));
       billInfo.appendChild(updatedDiv);
+      hasContent = true;
     }
 
     // Changelog - validate array
@@ -830,6 +835,7 @@ import { CHAT_API } from '../lib/chat-api';
         currentLang === 'pl' ? 'Historia zmian:' : 'Changelog:'
       ));
       billInfo.appendChild(changelogTitle);
+      hasContent = true;
 
       changelog.forEach(entry => {
         // Skip non-objects
@@ -860,6 +866,11 @@ import { CHAT_API } from '../lib/chat-api';
 
         billInfo.appendChild(entryDiv);
       });
+    }
+
+    // Hide if no content
+    if (!hasContent) {
+      billInfo.setAttribute('hidden', '');
     }
   }
 
@@ -913,6 +924,8 @@ import { CHAT_API } from '../lib/chat-api';
       journalEntries.appendChild(emptyDiv);
       return;
     }
+
+    let renderedCount = 0;
 
     entries.forEach(entry => {
       // Skip non-objects
@@ -990,11 +1003,24 @@ import { CHAT_API } from '../lib/chat-api';
         }
 
         journalEntries.appendChild(entryDiv);
+        renderedCount++;
       } catch (err) {
         // Skip this entry if rendering fails
         console.error('Error rendering journal entry:', err);
       }
     });
+
+    // If we had entries but none rendered, show 'coming soon'
+    if (renderedCount === 0) {
+      const emptyDiv = document.createElement('div');
+      emptyDiv.className = 'journal-empty';
+      emptyDiv.appendChild(document.createTextNode(
+        currentLang === 'pl' 
+          ? 'Pierwsze wpisy wkrótce...' 
+          : 'First entries coming soon...'
+      ));
+      journalEntries.replaceChildren(emptyDiv);
+    }
   }
 
   async function loadBillData() {
