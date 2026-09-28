@@ -401,20 +401,20 @@ import { CHAT_API } from '../lib/chat-api';
     padding: var(--space-lg);
   }
 
-  .journal-section .bill-version {
+  .journal-section :global(.bill-version) {
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--green);
     margin-bottom: var(--space-md);
   }
 
-  .journal-section .bill-updated {
+  .journal-section :global(.bill-updated) {
     font-size: 0.8rem;
     color: var(--white-dim);
     margin-bottom: var(--space-lg);
   }
 
-  .journal-section .changelog-title {
+  .journal-section :global(.changelog-title) {
     font-size: 0.9rem;
     font-weight: 700;
     color: var(--white);
@@ -422,50 +422,50 @@ import { CHAT_API } from '../lib/chat-api';
     margin-top: var(--space-lg);
   }
 
-  .journal-section .changelog-entry {
+  .journal-section :global(.changelog-entry) {
     margin-bottom: var(--space-md);
     padding-bottom: var(--space-md);
     border-bottom: 1px solid var(--border);
   }
 
-  .journal-section .changelog-entry:last-child {
+  .journal-section :global(.changelog-entry:last-child) {
     border-bottom: none;
   }
 
-  .journal-section .changelog-version {
+  .journal-section :global(.changelog-version) {
     font-size: 0.85rem;
     font-weight: 700;
     color: var(--green);
     margin-bottom: var(--space-xs);
   }
 
-  .journal-section .changelog-date {
+  .journal-section :global(.changelog-date) {
     font-size: 0.75rem;
     color: var(--white-dim);
     margin-bottom: var(--space-xs);
   }
 
-  .journal-section .changelog-summary {
+  .journal-section :global(.changelog-summary) {
     font-size: 0.85rem;
     line-height: 1.7;
     color: var(--white-dim);
   }
 
-  .journal-section .journal-entry {
+  .journal-section :global(.journal-entry) {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--border);
     padding: var(--space-lg);
     margin-bottom: var(--space-lg);
   }
 
-  .journal-section .entry-date {
+  .journal-section :global(.entry-date) {
     font-size: 0.75rem;
     color: var(--green);
     letter-spacing: 0.1em;
     margin-bottom: var(--space-sm);
   }
 
-  .journal-section .entry-title {
+  .journal-section :global(.entry-title) {
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--white);
@@ -473,21 +473,21 @@ import { CHAT_API } from '../lib/chat-api';
     line-height: 1.4;
   }
 
-  .journal-section .entry-body {
+  .journal-section :global(.entry-body) {
     font-size: 0.9rem;
     line-height: 1.8;
     color: var(--white-dim);
     margin-bottom: var(--space-lg);
   }
 
-  .journal-section .entry-sources-title {
+  .journal-section :global(.entry-sources-title) {
     font-size: 0.8rem;
     font-weight: 700;
     color: var(--white-dim);
     margin-bottom: var(--space-sm);
   }
 
-  .journal-section .entry-sources {
+  .journal-section :global(.entry-sources) {
     list-style: decimal;
     padding-left: var(--space-lg);
     font-size: 0.8rem;
@@ -495,15 +495,15 @@ import { CHAT_API } from '../lib/chat-api';
     color: var(--white-dim);
   }
 
-  .journal-section .entry-sources li {
+  .journal-section :global(.entry-sources li) {
     margin-bottom: var(--space-xs);
   }
 
-  .journal-section .entry-sources a {
+  .journal-section :global(.entry-sources a) {
     color: var(--green);
   }
 
-  .journal-section .entry-sources a:hover {
+  .journal-section :global(.entry-sources a:hover) {
     color: var(--white);
   }
 
@@ -515,8 +515,8 @@ import { CHAT_API } from '../lib/chat-api';
     padding: var(--space-lg);
   }
 
-  .journal-section .journal-error,
-  .journal-section .bill-error {
+  .journal-section :global(.journal-error),
+  .journal-section :global(.bill-error) {
     font-size: 0.85rem;
     color: var(--white-dim);
     text-align: center;
@@ -524,12 +524,12 @@ import { CHAT_API } from '../lib/chat-api';
     line-height: 1.8;
   }
 
-  .journal-section .journal-error a,
-  .journal-section .bill-error a {
+  .journal-section :global(.journal-error a),
+  .journal-section :global(.bill-error a) {
     color: var(--green);
   }
 
-  .journal-section .journal-empty {
+  .journal-section :global(.journal-empty) {
     font-size: 0.85rem;
     color: var(--white-dim);
     text-align: center;
@@ -724,11 +724,51 @@ import { CHAT_API } from '../lib/chat-api';
     }
   }
 
+  // Show combined error when both API calls fail
+  function showCombinedError() {
+    if (!billError || !journalError) return;
+    
+    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+    const billInfo = document.getElementById('bill-info');
+    const journalEntries = document.getElementById('journal-entries');
+    
+    if (!billInfo || !journalEntries) return;
+
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'journal-error';
+    
+    if (currentLang === 'pl') {
+      errorDiv.appendChild(document.createTextNode('Dziennik i informacje o projekcie tymczasowo niedostępne. '));
+      const link = document.createElement('a');
+      link.href = 'https://www.instagram.com/wiktoriacukt/';
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.appendChild(document.createTextNode('Śledź @wiktoriacukt'));
+      errorDiv.appendChild(link);
+    } else {
+      errorDiv.appendChild(document.createTextNode('Journal and bill information temporarily unavailable. '));
+      const link = document.createElement('a');
+      link.href = 'https://www.instagram.com/wiktoriacukt/';
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.appendChild(document.createTextNode('Follow @wiktoriacukt'));
+      errorDiv.appendChild(link);
+    }
+    
+    billInfo.replaceChildren(errorDiv.cloneNode(true));
+    journalEntries.replaceChildren(errorDiv);
+  }
+
   function renderBillData(currentLang) {
     const billInfo = document.getElementById('bill-info');
     if (!billInfo) return;
 
-    billInfo.innerHTML = '';
+    if (billError && journalError) {
+      showCombinedError();
+      return;
+    }
+
+    billInfo.replaceChildren();
 
     if (billError) {
       const errorDiv = document.createElement('div');
@@ -758,15 +798,17 @@ import { CHAT_API } from '../lib/chat-api';
 
     if (!billData) return;
 
-    // Version and updated
-    const versionDiv = document.createElement('div');
-    versionDiv.className = 'bill-version';
-    versionDiv.appendChild(document.createTextNode(
-      currentLang === 'pl' 
-        ? `Wersja projektu: ${billData.version}` 
-        : `Bill version: ${billData.version}`
-    ));
-    billInfo.appendChild(versionDiv);
+    // Version and updated - only show if version exists
+    if (billData.version) {
+      const versionDiv = document.createElement('div');
+      versionDiv.className = 'bill-version';
+      versionDiv.appendChild(document.createTextNode(
+        currentLang === 'pl' 
+          ? `Wersja projektu: ${billData.version}` 
+          : `Bill version: ${billData.version}`
+      ));
+      billInfo.appendChild(versionDiv);
+    }
 
     if (billData.updated) {
       const updatedDiv = document.createElement('div');
@@ -779,8 +821,9 @@ import { CHAT_API } from '../lib/chat-api';
       billInfo.appendChild(updatedDiv);
     }
 
-    // Changelog
-    if (billData.changelog && billData.changelog.length > 0) {
+    // Changelog - validate array
+    const changelog = Array.isArray(billData?.changelog) ? billData.changelog : [];
+    if (changelog.length > 0) {
       const changelogTitle = document.createElement('div');
       changelogTitle.className = 'changelog-title';
       changelogTitle.appendChild(document.createTextNode(
@@ -788,14 +831,19 @@ import { CHAT_API } from '../lib/chat-api';
       ));
       billInfo.appendChild(changelogTitle);
 
-      billData.changelog.forEach(entry => {
+      changelog.forEach(entry => {
+        // Skip non-objects
+        if (!entry || typeof entry !== 'object') return;
+
         const entryDiv = document.createElement('div');
         entryDiv.className = 'changelog-entry';
 
-        const versionSpan = document.createElement('div');
-        versionSpan.className = 'changelog-version';
-        versionSpan.appendChild(document.createTextNode(`v${entry.version}`));
-        entryDiv.appendChild(versionSpan);
+        if (entry.version) {
+          const versionSpan = document.createElement('div');
+          versionSpan.className = 'changelog-version';
+          versionSpan.appendChild(document.createTextNode(`v${entry.version}`));
+          entryDiv.appendChild(versionSpan);
+        }
 
         if (entry.date) {
           const dateSpan = document.createElement('div');
@@ -819,7 +867,12 @@ import { CHAT_API } from '../lib/chat-api';
     const journalEntries = document.getElementById('journal-entries');
     if (!journalEntries) return;
 
-    journalEntries.innerHTML = '';
+    if (billError && journalError) {
+      showCombinedError();
+      return;
+    }
+
+    journalEntries.replaceChildren();
 
     if (journalError) {
       const errorDiv = document.createElement('div');
@@ -847,7 +900,9 @@ import { CHAT_API } from '../lib/chat-api';
       return;
     }
 
-    if (!journalData || !journalData.entries || journalData.entries.length === 0) {
+    // Validate entries array
+    const entries = Array.isArray(journalData?.entries) ? journalData.entries : [];
+    if (entries.length === 0) {
       const emptyDiv = document.createElement('div');
       emptyDiv.className = 'journal-empty';
       emptyDiv.appendChild(document.createTextNode(
@@ -859,133 +914,154 @@ import { CHAT_API } from '../lib/chat-api';
       return;
     }
 
-    journalData.entries.forEach(entry => {
-      const entryDiv = document.createElement('div');
-      entryDiv.className = 'journal-entry';
+    entries.forEach(entry => {
+      // Skip non-objects
+      if (!entry || typeof entry !== 'object') return;
 
-      // Date
-      if (entry.date) {
-        const dateDiv = document.createElement('div');
-        dateDiv.className = 'entry-date';
-        dateDiv.appendChild(document.createTextNode(entry.date));
-        entryDiv.appendChild(dateDiv);
-      }
+      // Render each entry in its own try/catch
+      try {
+        const entryDiv = document.createElement('div');
+        entryDiv.className = 'journal-entry';
 
-      // Title
-      const titleDiv = document.createElement('div');
-      titleDiv.className = 'entry-title';
-      const titleText = getLocalizedText(entry.title_pl, entry.title_en, currentLang);
-      titleDiv.appendChild(renderText(titleText));
-      entryDiv.appendChild(titleDiv);
+        // Date
+        if (entry.date) {
+          const dateDiv = document.createElement('div');
+          dateDiv.className = 'entry-date';
+          dateDiv.appendChild(document.createTextNode(entry.date));
+          entryDiv.appendChild(dateDiv);
+        }
 
-      // Body
-      const bodyDiv = document.createElement('div');
-      bodyDiv.className = 'entry-body';
-      const bodyText = getLocalizedText(entry.body_pl, entry.body_en, currentLang);
-      bodyDiv.appendChild(renderText(bodyText));
-      entryDiv.appendChild(bodyDiv);
+        // Title
+        const titleDiv = document.createElement('div');
+        titleDiv.className = 'entry-title';
+        const titleText = getLocalizedText(entry.title_pl, entry.title_en, currentLang);
+        titleDiv.appendChild(renderText(titleText));
+        entryDiv.appendChild(titleDiv);
 
-      // Sources
-      if (entry.sources && entry.sources.length > 0) {
-        const sourcesTitle = document.createElement('div');
-        sourcesTitle.className = 'entry-sources-title';
-        sourcesTitle.appendChild(document.createTextNode(
-          currentLang === 'pl' ? 'Źródła:' : 'Sources:'
-        ));
-        entryDiv.appendChild(sourcesTitle);
+        // Body
+        const bodyDiv = document.createElement('div');
+        bodyDiv.className = 'entry-body';
+        const bodyText = getLocalizedText(entry.body_pl, entry.body_en, currentLang);
+        bodyDiv.appendChild(renderText(bodyText));
+        entryDiv.appendChild(bodyDiv);
 
-        const sourcesList = document.createElement('ol');
-        sourcesList.className = 'entry-sources';
+        // Sources - validate array
+        const sources = Array.isArray(entry.sources) ? entry.sources : [];
+        if (sources.length > 0) {
+          const sourcesTitle = document.createElement('div');
+          sourcesTitle.className = 'entry-sources-title';
+          sourcesTitle.appendChild(document.createTextNode(
+            currentLang === 'pl' ? 'Źródła:' : 'Sources:'
+          ));
+          entryDiv.appendChild(sourcesTitle);
 
-        entry.sources.forEach(source => {
-          const sourceLi = document.createElement('li');
-          
-          if (source.url && isValidUrl(source.url)) {
-            const link = document.createElement('a');
-            link.href = source.url;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
+          const sourcesList = document.createElement('ol');
+          sourcesList.className = 'entry-sources';
+
+          sources.forEach(source => {
+            // Skip non-objects
+            if (!source || typeof source !== 'object') return;
+
+            const sourceLi = document.createElement('li');
             
-            let linkText = source.title || source.url;
-            if (source.authors) linkText += ` — ${source.authors}`;
-            if (source.year) linkText += ` (${source.year})`;
-            
-            link.appendChild(document.createTextNode(linkText));
-            sourceLi.appendChild(link);
-          } else {
-            let text = source.title || '';
-            if (source.authors) text += ` — ${source.authors}`;
-            if (source.year) text += ` (${source.year})`;
-            sourceLi.appendChild(document.createTextNode(text));
-          }
+            if (source.url && isValidUrl(source.url)) {
+              const link = document.createElement('a');
+              link.href = source.url;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              
+              let linkText = source.title || source.url;
+              if (source.authors) linkText += ` — ${source.authors}`;
+              if (source.year) linkText += ` (${source.year})`;
+              
+              link.appendChild(document.createTextNode(linkText));
+              sourceLi.appendChild(link);
+            } else {
+              let text = source.title || '';
+              if (source.authors) text += ` — ${source.authors}`;
+              if (source.year) text += ` (${source.year})`;
+              sourceLi.appendChild(document.createTextNode(text));
+            }
 
-          sourcesList.appendChild(sourceLi);
-        });
+            sourcesList.appendChild(sourceLi);
+          });
 
-        entryDiv.appendChild(sourcesList);
+          entryDiv.appendChild(sourcesList);
+        }
+
+        journalEntries.appendChild(entryDiv);
+      } catch (err) {
+        // Skip this entry if rendering fails
+        console.error('Error rendering journal entry:', err);
       }
-
-      journalEntries.appendChild(entryDiv);
     });
   }
 
   async function loadBillData() {
     const journalSection = document.querySelector('.journal-section');
-    const CHAT_API = journalSection?.getAttribute('data-api-base');
-    if (!CHAT_API) {
+    const attr = journalSection?.getAttribute('data-api-base');
+    const base = (attr || '').trim().replace(/\/+$/, '');
+    
+    if (!base) {
       billError = true;
       renderBillData(localStorage.getItem('cuktai-lang') || 'en');
       return;
     }
 
-    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
-
+    let timeoutId;
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
+      timeoutId = setTimeout(() => controller.abort(), 8000);
 
-      const response = await fetch(`${CHAT_API}/api/public/habeas/bill`, {
+      const response = await fetch(`${base}/api/public/habeas/bill`, {
         signal: controller.signal
       });
-      clearTimeout(timeoutId);
 
       if (!response.ok) throw new Error('API error');
 
-      billData = await response.json();
-      renderBillData(currentLang);
+      const data = await response.json();
+      billData = (data && typeof data === 'object') ? data : {};
+      renderBillData(localStorage.getItem('cuktai-lang') || 'en');
     } catch (error) {
       billError = true;
-      renderBillData(currentLang);
+      billData = {};
+      renderBillData(localStorage.getItem('cuktai-lang') || 'en');
+    } finally {
+      if (timeoutId) clearTimeout(timeoutId);
     }
   }
 
   async function loadJournalData() {
     const journalSection = document.querySelector('.journal-section');
-    const CHAT_API = journalSection?.getAttribute('data-api-base');
-    if (!CHAT_API) {
+    const attr = journalSection?.getAttribute('data-api-base');
+    const base = (attr || '').trim().replace(/\/+$/, '');
+    
+    if (!base) {
       journalError = true;
       renderJournalData(localStorage.getItem('cuktai-lang') || 'en');
       return;
     }
 
-    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
-
+    let timeoutId;
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
+      timeoutId = setTimeout(() => controller.abort(), 8000);
 
-      const response = await fetch(`${CHAT_API}/api/public/habeas/journal?limit=20`, {
+      const response = await fetch(`${base}/api/public/habeas/journal?limit=20`, {
         signal: controller.signal
       });
-      clearTimeout(timeoutId);
 
       if (!response.ok) throw new Error('API error');
 
-      journalData = await response.json();
-      renderJournalData(currentLang);
+      const data = await response.json();
+      journalData = (data && typeof data === 'object') ? data : {entries: []};
+      renderJournalData(localStorage.getItem('cuktai-lang') || 'en');
     } catch (error) {
       journalError = true;
-      renderJournalData(currentLang);
+      journalData = {entries: []};
+      renderJournalData(localStorage.getItem('cuktai-lang') || 'en');
+    } finally {
+      if (timeoutId) clearTimeout(timeoutId);
     }
   }
 </script>
