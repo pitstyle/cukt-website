@@ -196,7 +196,20 @@ export function getStaticPaths() {
   function addMessage(name, text, isUser = false) {
     const div = document.createElement('div');
     div.className = `msg ${isUser ? 'user-msg' : 'agent-msg'}`;
-    div.innerHTML = `<span class="msg-name">${isUser ? '👤 YOU' : agentEmoji + ' ' + agentName}</span><span class="msg-text">${text}</span>`;
+    
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'msg-name';
+    nameSpan.textContent = isUser ? '👤 YOU' : agentEmoji + ' ' + agentName;
+    
+    const textSpan = document.createElement('span');
+    textSpan.className = 'msg-text';
+    text.split('\n').forEach((line, i) => {
+      if (i > 0) textSpan.appendChild(document.createElement('br'));
+      textSpan.appendChild(document.createTextNode(line));
+    });
+    
+    div.appendChild(nameSpan);
+    div.appendChild(textSpan);
     messages?.appendChild(div);
     messages?.scrollTo(0, messages.scrollHeight);
   }

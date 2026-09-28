@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { CHAT_API } from '../lib/chat-api';
 ---
 
 <Base 
@@ -165,6 +166,23 @@ import Base from '../layouts/Base.astro';
         </div>
         
         <p class="evidence-canon"><strong>Kanon dowodowy:</strong> Entropic Brain Hypothesis (2014) · REBUS (Carhart-Harris & Friston, Ph.D. Rev. 2019, DOI 10.1124/pr.118.017160) · The entropic brain today (Brain 2025) · Free Energy Principle (Friston 2010).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRESS JOURNAL -->
+<section class="content-section journal-section">
+  <div class="container content">
+    <h2 class="section-title" data-en="Dziennik postępu prac / Progress journal" data-pl="Dziennik postępu prac / Progress journal">Dziennik postępu prac / Progress journal</h2>
+    
+    <div class="journal-container">
+      <div class="bill-info" id="bill-info">
+        <div class="bill-loading" data-en="Loading bill information..." data-pl="Ładowanie informacji o projekcie...">Loading bill information...</div>
+      </div>
+      
+      <div class="journal-entries" id="journal-entries">
+        <div class="journal-loading" data-en="Loading journal entries..." data-pl="Ładowanie wpisów dziennika...">Loading journal entries...</div>
       </div>
     </div>
   </div>
@@ -371,6 +389,154 @@ import Base from '../layouts/Base.astro';
     border-top: 1px solid var(--border);
   }
 
+  /* JOURNAL SECTION */
+  .journal-section .journal-container {
+    display: grid;
+    gap: var(--space-xl);
+  }
+
+  .journal-section .bill-info {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    padding: var(--space-lg);
+  }
+
+  .journal-section .bill-version {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: var(--space-md);
+  }
+
+  .journal-section .bill-updated {
+    font-size: 0.8rem;
+    color: var(--white-dim);
+    margin-bottom: var(--space-lg);
+  }
+
+  .journal-section .changelog-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+
+  .journal-section .changelog-entry {
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .journal-section .changelog-entry:last-child {
+    border-bottom: none;
+  }
+
+  .journal-section .changelog-version {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: var(--space-xs);
+  }
+
+  .journal-section .changelog-date {
+    font-size: 0.75rem;
+    color: var(--white-dim);
+    margin-bottom: var(--space-xs);
+  }
+
+  .journal-section .changelog-summary {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--white-dim);
+  }
+
+  .journal-section .journal-entry {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+  }
+
+  .journal-section .entry-date {
+    font-size: 0.75rem;
+    color: var(--green);
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-sm);
+  }
+
+  .journal-section .entry-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--space-md);
+    line-height: 1.4;
+  }
+
+  .journal-section .entry-body {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--white-dim);
+    margin-bottom: var(--space-lg);
+  }
+
+  .journal-section .entry-sources-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--white-dim);
+    margin-bottom: var(--space-sm);
+  }
+
+  .journal-section .entry-sources {
+    list-style: decimal;
+    padding-left: var(--space-lg);
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--white-dim);
+  }
+
+  .journal-section .entry-sources li {
+    margin-bottom: var(--space-xs);
+  }
+
+  .journal-section .entry-sources a {
+    color: var(--green);
+  }
+
+  .journal-section .entry-sources a:hover {
+    color: var(--white);
+  }
+
+  .journal-section .journal-loading,
+  .journal-section .bill-loading {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    text-align: center;
+    padding: var(--space-lg);
+  }
+
+  .journal-section .journal-error,
+  .journal-section .bill-error {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    text-align: center;
+    padding: var(--space-lg);
+    line-height: 1.8;
+  }
+
+  .journal-section .journal-error a,
+  .journal-section .bill-error a {
+    color: var(--green);
+  }
+
+  .journal-section .journal-empty {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    text-align: center;
+    padding: var(--space-lg);
+    font-style: italic;
+  }
+
   /* FOOTER NOTE */
   .footer-note {
     padding: var(--space-lg) 0;
@@ -476,7 +642,7 @@ import Base from '../layouts/Base.astro';
   }
 </style>
 
-<script>
+<script define:vars={{ CHAT_API }}>
   // Apply stored language preference on load
   const lang = localStorage.getItem('cuktai-lang') || 'en';
   
@@ -507,5 +673,261 @@ import Base from '../layouts/Base.astro';
         }, 10);
       });
     }
+
+    // Load journal and bill data
+    loadJournalData();
+    loadBillData();
   });
+
+  // Validate URL - only allow http/https
+  function isValidUrl(url) {
+    try {
+      const parsed = new URL(url);
+      return parsed.protocol === 'http:' || parsed.protocol === 'https:';
+    } catch {
+      return false;
+    }
+  }
+
+  // Safely render text content preserving structure
+  function renderText(text) {
+    const lines = text.split('\n');
+    const container = document.createDocumentFragment();
+    lines.forEach((line, i) => {
+      if (i > 0) container.appendChild(document.createElement('br'));
+      container.appendChild(document.createTextNode(line));
+    });
+    return container;
+  }
+
+  async function loadBillData() {
+    const billInfo = document.getElementById('bill-info');
+    if (!billInfo) return;
+
+    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+      const response = await fetch(`${CHAT_API}/api/public/habeas/bill`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) throw new Error('API error');
+
+      const data = await response.json();
+      
+      billInfo.innerHTML = '';
+
+      // Version and updated
+      const versionDiv = document.createElement('div');
+      versionDiv.className = 'bill-version';
+      versionDiv.appendChild(document.createTextNode(
+        currentLang === 'pl' 
+          ? `Wersja projektu: ${data.version}` 
+          : `Bill version: ${data.version}`
+      ));
+      billInfo.appendChild(versionDiv);
+
+      if (data.updated) {
+        const updatedDiv = document.createElement('div');
+        updatedDiv.className = 'bill-updated';
+        updatedDiv.appendChild(document.createTextNode(
+          currentLang === 'pl' 
+            ? `Ostatnia aktualizacja: ${data.updated}` 
+            : `Last updated: ${data.updated}`
+        ));
+        billInfo.appendChild(updatedDiv);
+      }
+
+      // Changelog
+      if (data.changelog && data.changelog.length > 0) {
+        const changelogTitle = document.createElement('div');
+        changelogTitle.className = 'changelog-title';
+        changelogTitle.appendChild(document.createTextNode(
+          currentLang === 'pl' ? 'Historia zmian:' : 'Changelog:'
+        ));
+        billInfo.appendChild(changelogTitle);
+
+        data.changelog.forEach(entry => {
+          const entryDiv = document.createElement('div');
+          entryDiv.className = 'changelog-entry';
+
+          const versionSpan = document.createElement('div');
+          versionSpan.className = 'changelog-version';
+          versionSpan.appendChild(document.createTextNode(`v${entry.version}`));
+          entryDiv.appendChild(versionSpan);
+
+          if (entry.date) {
+            const dateSpan = document.createElement('div');
+            dateSpan.className = 'changelog-date';
+            dateSpan.appendChild(document.createTextNode(entry.date));
+            entryDiv.appendChild(dateSpan);
+          }
+
+          const summary = document.createElement('div');
+          summary.className = 'changelog-summary';
+          const summaryText = currentLang === 'pl' ? entry.summary_pl : entry.summary_en;
+          summary.appendChild(renderText(summaryText || ''));
+          entryDiv.appendChild(summary);
+
+          billInfo.appendChild(entryDiv);
+        });
+      }
+    } catch (error) {
+      billInfo.innerHTML = '';
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'bill-error';
+      
+      if (currentLang === 'pl') {
+        errorDiv.appendChild(document.createTextNode('Informacje o projekcie tymczasowo niedostępne. '));
+        const link = document.createElement('a');
+        link.href = 'https://www.instagram.com/wiktoriacukt/';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.appendChild(document.createTextNode('Śledź @wiktoriacukt'));
+        errorDiv.appendChild(link);
+      } else {
+        errorDiv.appendChild(document.createTextNode('Bill information temporarily unavailable. '));
+        const link = document.createElement('a');
+        link.href = 'https://www.instagram.com/wiktoriacukt/';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.appendChild(document.createTextNode('Follow @wiktoriacukt'));
+        errorDiv.appendChild(link);
+      }
+      
+      billInfo.appendChild(errorDiv);
+    }
+  }
+
+  async function loadJournalData() {
+    const journalEntries = document.getElementById('journal-entries');
+    if (!journalEntries) return;
+
+    const currentLang = localStorage.getItem('cuktai-lang') || 'en';
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+      const response = await fetch(`${CHAT_API}/api/public/habeas/journal?limit=20`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) throw new Error('API error');
+
+      const data = await response.json();
+
+      journalEntries.innerHTML = '';
+
+      if (!data.entries || data.entries.length === 0) {
+        const emptyDiv = document.createElement('div');
+        emptyDiv.className = 'journal-empty';
+        emptyDiv.appendChild(document.createTextNode(
+          currentLang === 'pl' 
+            ? 'Pierwsze wpisy wkrótce...' 
+            : 'First entries coming soon...'
+        ));
+        journalEntries.appendChild(emptyDiv);
+        return;
+      }
+
+      data.entries.forEach(entry => {
+        const entryDiv = document.createElement('div');
+        entryDiv.className = 'journal-entry';
+
+        // Date
+        if (entry.date) {
+          const dateDiv = document.createElement('div');
+          dateDiv.className = 'entry-date';
+          dateDiv.appendChild(document.createTextNode(entry.date));
+          entryDiv.appendChild(dateDiv);
+        }
+
+        // Title
+        const titleDiv = document.createElement('div');
+        titleDiv.className = 'entry-title';
+        const titleText = currentLang === 'pl' ? entry.title_pl : entry.title_en;
+        titleDiv.appendChild(renderText(titleText || ''));
+        entryDiv.appendChild(titleDiv);
+
+        // Body
+        const bodyDiv = document.createElement('div');
+        bodyDiv.className = 'entry-body';
+        const bodyText = currentLang === 'pl' ? entry.body_pl : entry.body_en;
+        bodyDiv.appendChild(renderText(bodyText || ''));
+        entryDiv.appendChild(bodyDiv);
+
+        // Sources
+        if (entry.sources && entry.sources.length > 0) {
+          const sourcesTitle = document.createElement('div');
+          sourcesTitle.className = 'entry-sources-title';
+          sourcesTitle.appendChild(document.createTextNode(
+            currentLang === 'pl' ? 'Źródła:' : 'Sources:'
+          ));
+          entryDiv.appendChild(sourcesTitle);
+
+          const sourcesList = document.createElement('ol');
+          sourcesList.className = 'entry-sources';
+
+          entry.sources.forEach(source => {
+            const sourceLi = document.createElement('li');
+            
+            if (source.url && isValidUrl(source.url)) {
+              const link = document.createElement('a');
+              link.href = source.url;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              
+              let linkText = source.title || source.url;
+              if (source.authors) linkText += ` — ${source.authors}`;
+              if (source.year) linkText += ` (${source.year})`;
+              
+              link.appendChild(document.createTextNode(linkText));
+              sourceLi.appendChild(link);
+            } else {
+              let text = source.title || '';
+              if (source.authors) text += ` — ${source.authors}`;
+              if (source.year) text += ` (${source.year})`;
+              sourceLi.appendChild(document.createTextNode(text));
+            }
+
+            sourcesList.appendChild(sourceLi);
+          });
+
+          entryDiv.appendChild(sourcesList);
+        }
+
+        journalEntries.appendChild(entryDiv);
+      });
+    } catch (error) {
+      journalEntries.innerHTML = '';
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'journal-error';
+      
+      if (currentLang === 'pl') {
+        errorDiv.appendChild(document.createTextNode('Dziennik tymczasowo niedostępny. '));
+        const link = document.createElement('a');
+        link.href = 'https://www.instagram.com/wiktoriacukt/';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.appendChild(document.createTextNode('Śledź @wiktoriacukt'));
+        errorDiv.appendChild(link);
+      } else {
+        errorDiv.appendChild(document.createTextNode('Journal temporarily unavailable. '));
+        const link = document.createElement('a');
+        link.href = 'https://www.instagram.com/wiktoriacukt/';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.appendChild(document.createTextNode('Follow @wiktoriacukt'));
+        errorDiv.appendChild(link);
+      }
+      
+      journalEntries.appendChild(errorDiv);
+    }
+  }
 </script>
