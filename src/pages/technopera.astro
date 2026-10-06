@@ -1,14 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
-import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
+import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE } from '../data/technopera.ts';
 ---
 
 <Base 
   title="Technopera 2026 · Mediateka Tychy · 4.10"
-  description="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. A multimedia opera for the age of AI by Piotr Wyrzykowski. Premiere: MEDIATEKA, Tychy, 4.10.2026, 20:45."
+  description={TECHNOPERA_POST_PREMIERE 
+    ? "Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. A multimedia opera for the age of AI by Piotr Wyrzykowski. Premiered at MEDIATEKA, Tychy, 4.10.2026."
+    : "Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. A multimedia opera for the age of AI by Piotr Wyrzykowski. Premiere: MEDIATEKA, Tychy, 4.10.2026, 20:45."}
   ogTitle="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL."
   image="/og/technopera-2026.jpg"
-  imageAlt="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. · MEDIATEKA · Tychy · 4.10.2026 · 20:45"
+  imageAlt={TECHNOPERA_POST_PREMIERE
+    ? "Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. · MEDIATEKA · Tychy · 4.10.2026"
+    : "Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL. · MEDIATEKA · Tychy · 4.10.2026 · 20:45"}
 >
 
 <script type="application/ld+json" set:html={JSON.stringify({
@@ -53,11 +57,20 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
           <div class="triad-secondary" data-en="WŁADZA. WIEDZA. PIECZĘĆ." data-pl="AUTHORITY. KNOWLEDGE. SEAL.">WŁADZA. WIEDZA. PIECZĘĆ.</div>
         </div>
         <div class="hero-meta">
-          <span data-en="MEDIATEKA · Tychy · 4.10.2026 · 20:45 · AUKSODRONE festival" data-pl="MEDIATEKA · Tychy · 4.10.2026 · 20:45 · festiwal AUKSODRONE">MEDIATEKA · Tychy · 4.10.2026 · 20:45 · AUKSODRONE festival</span>
+          <span data-en={TECHNOPERA_POST_PREMIERE 
+            ? "Premiered 4.10.2026 · MEDIATEKA, Tychy · Available for touring"
+            : "MEDIATEKA · Tychy · 4.10.2026 · 20:45 · AUKSODRONE festival"} 
+            data-pl={TECHNOPERA_POST_PREMIERE
+            ? "Premiera 4.10.2026 · MEDIATEKA, Tychy · Dostępna do prezentacji"
+            : "MEDIATEKA · Tychy · 4.10.2026 · 20:45 · festiwal AUKSODRONE"}>
+            {TECHNOPERA_POST_PREMIERE 
+              ? "Premiered 4.10.2026 · MEDIATEKA, Tychy · Available for touring"
+              : "MEDIATEKA · Tychy · 4.10.2026 · 20:45 · AUKSODRONE festival"}
+          </span>
         </div>
         <div class="hero-cta">
           <a href="#trailer" class="btn" data-en="Watch the trailer" data-pl="Zobacz trailer">Watch the trailer</a>
-          <a href="#booking" class="btn" data-en="Press & booking" data-pl="Prasa i booking">Press & booking</a>
+          <a href="#booking" class="btn" data-en={TECHNOPERA_POST_PREMIERE ? "Book Technopera" : "Press & booking"} data-pl={TECHNOPERA_POST_PREMIERE ? "Zaproś Technoperę" : "Prasa i booking"}>{TECHNOPERA_POST_PREMIERE ? "Book Technopera" : "Press & booking"}</a>
         </div>
         <div class="hero-info">
           <span data-en="Info: AUKSODRONE / Mediateka" data-pl="Informacje: AUKSODRONE / Mediateka">Info: AUKSODRONE / Mediateka</span>
@@ -260,9 +273,11 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL } from '../data/technopera.ts';
         <span class="contact-instagram">Instagram: <a href="https://www.instagram.com/_transformizm/">@_transformizm</a></span>
       </p>
       
-      <p class="booking-premiere">
-        <span data-en="Press accreditation for the premiere: AUKSODRONE festival press office" data-pl="Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE">Press accreditation for the premiere: AUKSODRONE festival press office</span>
-      </p>
+      {!TECHNOPERA_POST_PREMIERE && (
+        <p class="booking-premiere">
+          <span data-en="Press accreditation for the premiere: AUKSODRONE festival press office" data-pl="Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE">Press accreditation for the premiere: AUKSODRONE festival press office</span>
+        </p>
+      )}
       
       <div class="press-kit">
         <h3 data-en="Press kit" data-pl="Materiały prasowe">Press kit</h3>
