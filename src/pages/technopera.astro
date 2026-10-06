@@ -273,18 +273,11 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE } from '..
         <span class="contact-instagram">Instagram: <a href="https://www.instagram.com/_transformizm/">@_transformizm</a></span>
       </p>
       
-      <p class="booking-premiere">
-        <span data-en={TECHNOPERA_POST_PREMIERE 
-          ? "Press materials for the premiere were coordinated by the AUKSODRONE festival press office"
-          : "Press accreditation for the premiere: AUKSODRONE festival press office"} 
-          data-pl={TECHNOPERA_POST_PREMIERE
-          ? "Materiały prasowe na premierę koordynowało biuro prasowe festiwalu AUKSODRONE"
-          : "Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE"}>
-          {TECHNOPERA_POST_PREMIERE 
-            ? "Press materials for the premiere were coordinated by the AUKSODRONE festival press office"
-            : "Press accreditation for the premiere: AUKSODRONE festival press office"}
-        </span>
-      </p>
+      {!TECHNOPERA_POST_PREMIERE && (
+        <p class="booking-premiere">
+          <span data-en="Press accreditation for the premiere: AUKSODRONE festival press office" data-pl="Akredytacje prasowe na premierę: biuro prasowe festiwalu AUKSODRONE">Press accreditation for the premiere: AUKSODRONE festival press office</span>
+        </p>
+      )}
       
       <div class="press-kit">
         <h3 data-en="Press kit" data-pl="Materiały prasowe">Press kit</h3>
