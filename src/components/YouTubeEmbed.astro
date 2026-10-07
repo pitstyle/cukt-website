@@ -1,0 +1,155 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  poster?: string;
+}
+
+const { id, title, poster = '/og/technopera-2026.jpg' } = Astro.props;
+const videoUrl = `https://www.youtube.com/watch?v=${id}`;
+---
+
+<div class="youtube-embed" data-video-id={id}>
+  <button 
+    type="button"
+    class="youtube-facade"
+    aria-label={`Play video: ${title}`}
+    data-title={title}
+  >
+    <img 
+      src={poster} 
+      alt={title}
+      loading="lazy"
+    />
+    <div class="play-button" aria-hidden="true">
+      <svg width="68" height="48" viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#f00"></path>
+        <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+      </svg>
+    </div>
+  </button>
+  
+  <noscript>
+    <a href={videoUrl} class="youtube-fallback" target="_blank" rel="noopener noreferrer">
+      Watch on YouTube: {title}
+    </a>
+  </noscript>
+</div>
+
+<style>
+  .youtube-embed {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .youtube-facade {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  .youtube-facade:hover {
+    opacity: 0.9;
+  }
+
+  .youtube-facade:focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: -2px;
+  }
+
+  .youtube-facade img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    height: 48px;
+    transition: transform 0.2s, opacity 0.2s;
+    pointer-events: none;
+  }
+
+  .youtube-facade:hover .play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+  .youtube-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .youtube-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: var(--space-lg);
+    text-align: center;
+    color: var(--red);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: color 0.2s;
+  }
+
+  .youtube-fallback:hover {
+    color: var(--white);
+  }
+
+  @media (max-width: 768px) {
+    .youtube-embed {
+      max-width: 100%;
+    }
+
+    .play-button {
+      width: 54px;
+      height: 38px;
+    }
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.youtube-facade').forEach((button) => {
+    button.addEventListener('click', function(this: HTMLButtonElement) {
+      const container = this.closest('.youtube-embed') as HTMLElement;
+      const videoId = container?.dataset.videoId;
+      const title = this.dataset.title || 'YouTube video';
+      
+      if (!videoId || !container) return;
+      
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1`;
+      iframe.title = title;
+      iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      iframe.allowFullscreen = true;
+      iframe.loading = 'lazy';
+      iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    });
+  });
+</script>
