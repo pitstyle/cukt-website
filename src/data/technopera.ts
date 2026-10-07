@@ -8,3 +8,6 @@ export const BOOKING_EMAIL = 'peter@cukt.click';
 
 // Newsletter form URL — leave empty until service is set up
 export const NEWSLETTER_FORM_URL = '';
+
+// YouTube trailer ID — paste the 11-character video ID here (e.g., from youtube.com/watch?v=XXXXXXXXXXX)
+export const TECHNOPERA_TRAILER_YOUTUBE_ID = '';

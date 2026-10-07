@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE } from '../data/technopera.ts';
+import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE, TECHNOPERA_TRAILER_YOUTUBE_ID } from '../data/technopera.ts';
+import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 ---
 
 <Base 
@@ -97,10 +98,21 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE } from '..
 <!-- TRAILER -->
 <section class="trailer" id="trailer">
   <div class="container content">
-    <div class="trailer-placeholder">
-      <div class="trailer-label" data-en="TRAILER — coming soon" data-pl="TRAILER — wkrótce">TRAILER — coming soon</div>
-      <p class="trailer-caption">Technopera 2026 · MEDIATEKA, Tychy · 4.10.2026</p>
-    </div>
+    {TECHNOPERA_TRAILER_YOUTUBE_ID ? (
+      <>
+        <h2 class="trailer-title" data-en="Trailer" data-pl="Trailer">Trailer</h2>
+        <YouTubeEmbed 
+          id={TECHNOPERA_TRAILER_YOUTUBE_ID} 
+          title="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL."
+          poster="/og/technopera-2026.jpg"
+        />
+      </>
+    ) : (
+      <div class="trailer-placeholder">
+        <div class="trailer-label" data-en="TRAILER — coming soon" data-pl="TRAILER — wkrótce">TRAILER — coming soon</div>
+        <p class="trailer-caption">Technopera 2026 · MEDIATEKA, Tychy · 4.10.2026</p>
+      </div>
+    )}
   </div>
 </section>
 
@@ -417,6 +429,15 @@ import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE } from '..
   /* TRAILER */
   .trailer {
     padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .trailer-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    color: var(--red);
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-sm);
     border-bottom: 1px solid var(--border);
   }
 
