@@ -1,11 +1,9 @@
 ---
 /*
   MOCKUP — DO NOT MERGE
-  ASCII office as the chat window for Mikołaj.
-
-  Room drawing: scripts/generate-ascii-office.py (same clerk loop as
-  /mockups/ascii-agent-room). Conversation is a static fake exchange —
-  no network. Copy: src/pages/agents/[id].astro (mikolaj).
+  Clerk ASCII office on top (fully visible, same long-legs drawing).
+  Live-style chat below. Static Mikołaj exchange — no network.
+  Copy: src/pages/agents/[id].astro (mikolaj).
 */
 
 import AsciiRoom from "../../components/mockups/AsciiRoom.astro";
@@ -36,6 +34,7 @@ const agent = {
       --white-dim: #c8c8c8;
       --green: #00cc00;
       --bg: #050505;
+      --bg-panel: #0a0a0a;
       --border: #222222;
       --font-mono: "JetBrains Mono", ui-monospace, "Courier New", monospace;
     }
@@ -51,7 +50,7 @@ const agent = {
       font-family: var(--font-mono);
       background: var(--bg);
       color: var(--white);
-      line-height: 1.5;
+      line-height: 1.6;
       font-size: 16px;
       -webkit-font-smoothing: antialiased;
     }
@@ -68,7 +67,7 @@ const agent = {
     .container {
       max-width: 960px;
       margin: 0 auto;
-      padding: 0 12px 32px;
+      padding: 0 16px 48px;
     }
 
     .back-link {
@@ -78,7 +77,7 @@ const agent = {
       font-size: 14px;
       letter-spacing: 0.1em;
       color: var(--white-dim);
-      margin: 12px 0;
+      margin: 16px 0;
       padding: 10px 14px;
       border: 1px solid var(--border);
     }
@@ -87,32 +86,25 @@ const agent = {
 
     .agent-quote {
       border-left: 3px solid var(--red);
-      padding: 4px 0 4px 12px;
+      padding-left: 12px;
       font-style: italic;
       color: var(--white-dim);
       font-size: 16px;
-      margin: 0 4px 16px;
+      margin: 0 0 16px;
     }
 
-    .chat-stage {
-      position: relative;
-      background: #000;
+    .room-clerk {
       border: 1px solid var(--border);
+      border-bottom: none;
+      background: #000;
+      padding: 12px 8px 8px;
       overflow: hidden;
-    }
-
-    .chat-ascii {
-      position: absolute;
-      inset: 0;
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding-top: 34px;
-      overflow: hidden;
-      pointer-events: none;
+      flex-direction: column;
+      align-items: center;
     }
 
-    .chat-ascii :global(.ascii-room) {
+    .room-clerk :global(.ascii-room) {
       color: var(--white);
       width: max-content;
       max-width: 100%;
@@ -120,80 +112,61 @@ const agent = {
       -moz-osx-font-smoothing: grayscale;
     }
 
-    .chat-hud {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      padding: 6px 8px 8px;
-      gap: 8px;
+    .chat-container {
+      border: 1px solid var(--border);
+      background: var(--bg-panel);
     }
 
-    .status-row {
+    .chat-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
-      flex-shrink: 0;
-      font-size: 12px;
-      letter-spacing: 0.1em;
-      background: rgba(0, 0, 0, 0.82);
-      border: 1px solid var(--border);
-      padding: 6px 8px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      background: #000;
     }
 
-    .chat-status { color: var(--green); }
-    .chat-label { color: var(--white-dim); }
+    .chat-status { color: var(--green); letter-spacing: 0.1em; }
+    .chat-label { color: var(--white-dim); letter-spacing: 0.08em; }
 
-    .transcript {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
+    .chat-messages {
+      min-height: 160px;
+      padding: 16px;
     }
 
-    .paper {
-      background: rgba(0, 0, 0, 0.86);
-      border: 1px solid var(--border);
-      padding: 6px 8px;
-      max-width: 100%;
-      flex-shrink: 0;
-    }
-
-    .paper-agent { align-self: stretch; }
-    .paper-user { align-self: stretch; }
+    .msg { margin-bottom: 16px; }
+    .msg:last-child { margin-bottom: 0; }
 
     .msg-name {
       display: block;
       font-size: 12px;
       letter-spacing: 0.1em;
+      color: var(--green);
+      margin-bottom: 8px;
       font-weight: 700;
-      margin-bottom: 6px;
       padding-bottom: 4px;
       border-bottom: 1px solid var(--border);
     }
 
-    .paper-agent .msg-name { color: var(--green); }
-    .paper-user .msg-name { color: var(--red); }
+    .msg-user .msg-name { color: var(--red); }
 
     .msg-text {
       display: block;
       font-size: 16px;
-      line-height: 1.35;
+      line-height: 1.7;
       color: var(--white);
       overflow-wrap: anywhere;
     }
 
-    .msg-text + .msg-text { margin-top: 8px; }
-    .msg-pl { color: var(--white-dim); font-style: italic; }
+    .msg-user .msg-text { color: var(--white); }
+    .msg-pl { color: var(--white-dim); font-style: italic; margin-top: 8px; }
 
-    .desk-form {
+    .chat-input {
       display: flex;
-      align-items: stretch;
-      flex-shrink: 0;
-      gap: 0;
-      background: rgba(0, 0, 0, 0.92);
-      border: 1px solid var(--border);
+      border-top: 1px solid var(--border);
     }
 
     .desk-field {
@@ -202,9 +175,10 @@ const agent = {
       align-items: center;
       min-width: 0;
       min-height: 44px;
-      padding: 0 6px;
+      padding: 0 8px 0 12px;
       color: var(--white-dim);
       font-size: 16px;
+      background: var(--bg);
     }
 
     .desk-field input {
@@ -217,7 +191,7 @@ const agent = {
       font-family: var(--font-mono);
       font-size: 16px;
       outline: none;
-      padding: 8px 4px;
+      padding: 12px 4px;
     }
 
     .desk-field input::placeholder { color: #666; }
@@ -233,14 +207,15 @@ const agent = {
       font-size: 14px;
       font-weight: 700;
       letter-spacing: 0.08em;
-      padding: 8px 10px;
+      padding: 12px 12px;
       cursor: pointer;
     }
 
     .chat-note {
-      padding: 8px 4px 0;
+      padding: 8px 16px;
       font-size: 12px;
       color: #888;
+      border-top: 1px solid var(--border);
     }
   </style>
 </head>
@@ -251,38 +226,40 @@ const agent = {
 
     <blockquote class="agent-quote">{agent.quote}</blockquote>
 
-    <div class="chat-stage" id="ascii-chat-room">
-      <div class="chat-ascii" aria-hidden="true">
-        <AsciiRoom variant="clerk" />
-      </div>
-      <div class="chat-hud">
-        <div class="status-row">
-          <span class="chat-status">● ONLINE</span>
-          <span class="chat-label">TALKING TO {agent.name}</span>
-        </div>
-        <div class="transcript">
-          <div class="paper paper-agent">
-            <span class="msg-name">{agent.name}</span>
-            <span class="msg-text">{agent.greeting}</span>
-            <span class="msg-text">{agent.quote}</span>
-            <span class="msg-text msg-pl">{agent.quotePl}</span>
-          </div>
-          <div class="paper paper-user">
-            <span class="msg-name">YOU</span>
-            <span class="msg-text">{agent.userLine}</span>
-          </div>
-        </div>
-        <form class="desk-form" id="ascii-chat-form">
-          <label class="desk-field">
-            [
-            <input type="text" placeholder="Type your message..." autocomplete="off" aria-label="Type your message" />
-            _]
-          </label>
-          <button class="desk-send" type="submit">[ SEND ]</button>
-        </form>
-      </div>
+    <div class="room-clerk" id="ascii-chat-room">
+      <AsciiRoom variant="clerk" />
     </div>
-    <p class="chat-note">{agent.chatNote}</p>
+
+    <div class="chat-container" id="chat">
+      <div class="chat-header">
+        <span class="chat-status">● ONLINE</span>
+        <span class="chat-label">TALKING TO {agent.name}</span>
+      </div>
+      <div class="chat-messages">
+        <div class="msg">
+          <span class="msg-name">{agent.name}</span>
+          <span class="msg-text">{agent.greeting}</span>
+        </div>
+        <div class="msg msg-user">
+          <span class="msg-name">YOU</span>
+          <span class="msg-text">{agent.userLine}</span>
+        </div>
+        <div class="msg">
+          <span class="msg-name">{agent.name}</span>
+          <span class="msg-text">{agent.quote}</span>
+          <span class="msg-text msg-pl">{agent.quotePl}</span>
+        </div>
+      </div>
+      <form class="chat-input" id="ascii-chat-form">
+        <label class="desk-field">
+          [
+          <input type="text" placeholder="Type your message..." autocomplete="off" aria-label="Type your message" />
+          _]
+        </label>
+        <button class="desk-send" type="submit">[ SEND ]</button>
+      </form>
+      <div class="chat-note">{agent.chatNote}</div>
+    </div>
   </div>
   <script>
     document.getElementById("ascii-chat-form")?.addEventListener("submit", (ev) => {
