@@ -1,8 +1,25 @@
 # ASCII Aesthetic Proposal — cukt.click
 
 **Status:** Mockup / proposal only. Do not merge.  
-**Date:** 8 October 2026  
+**Date:** 8 October 2026 (v2 same day, after Piotr’s review)  
 **Package tried:** `ascii.rest@0.2.1` (pinned exact)
+
+---
+
+## v2 (this review)
+
+Piotr: direction yes; readability first; **red / green / white only**; **agent rooms only**; a **drawn room** (clerk, desk, computer, wall portrait, files), not a muddy photo conversion.
+
+What v2 does:
+
+- Replaced the photo-to-ASCII portrait. It was too hard to read. The hanging portrait is now part of a hand-drawn `<pre>` scene (ascii.rest has no office/clerk piece).
+- Name, quote, and room drawing use **red, green, or white** on near-black. No yellow.
+- Page header = full room. Chat header = the same wall strip (portrait + files) as a backdrop.
+- Animation: **four pre-baked `<pre>` strings**, swapped every 280ms (cursor blink, steam, a glyph on the screen, a blink). No canvas, no per-frame image sampling.
+- `prefers-reduced-motion: reduce` keeps frame 0 and clears the timer.
+- Project-card mockup is left in the repo but **not in this preview** (banner on that URL points here).
+
+**Animation cost:** the four frames are ~3 KB of text in the HTML. The interval writes `textContent` on ~800 characters. That is cheap on mobile Safari. It is not a canvas redraw.
 
 ---
 
@@ -43,8 +60,8 @@ It is a **client-side TypeScript library of 215 pre-authored animated pieces** (
 1. **Do not** load `https://ascii.rest/ascii.js` at runtime.
 2. **Do not** use `ascii.rest/astro` as-is for production. That helper imports the full piece catalog; this build then emitted **215 extra JS chunks (~808 KB uncompressed)** into `dist/_astro/` even when the page only needed two pieces.
 3. **Do** pin `ascii.rest@0.2.1` (or whatever version Piotr accepts) and **import only the pieces we use**, as the mockup does (`big-text`, `scramble`) via `src/components/mockups/AsciiPiece.astro`.
-4. **For portraits:** keep the local image-to-ASCII renderer (or pre-render ASCII at build time). ascii.rest cannot do this.
-5. Hold first frame when `prefers-reduced-motion: reduce` is set. ascii.rest’s `mount()` already does this; the portrait renderer does too.
+4. **For the room:** a custom `<pre>` scene, not a photo conversion. ascii.rest has no clerk/office piece. v1’s image-to-ASCII portrait was not readable enough.
+5. Hold the first `<pre>` frame when `prefers-reduced-motion: reduce` is set.
 
 ---
 
@@ -123,19 +140,17 @@ This cloud environment cannot tap a physical iPhone. Any estimate that skips tha
 
 ---
 
-## Open questions for Piotr
+## Open questions for Piotr (v2)
 
-1. Full ASCII portraits, ornaments only, or a still photo inside an ASCII frame?
-2. Agent rooms first, or project cards too?
-3. Is 8px block-letter `TECHNOPERA` on iPhone enough, or should the banner wrap / shorten (`Cukt`, `2026`)?
-4. May we add a one-line MIT credit for ascii.rest, and where?
-5. Accept the 0.x / single-maintainer risk, or keep only our own renderer?
+1. Keep this line-drawn “Office” style, or try a denser filled style like “After Hours”?
+2. One shared room drawing for every agent, or a small variant per agent?
+3. May the MIT credit stay as the one line under the room?
 
 ---
 
 ## Mockup routes
 
-- `/mockups/ascii-agent-room` — noindex, not in nav, not in sitemap
-- `/mockups/ascii-project-card` — same
+- `/mockups/ascii-agent-room` — **v2 preview** (noindex, not in nav, not in sitemap)
+- `/mockups/ascii-project-card` — left in the repo, not featured in v2
 
 Both are draft-only. Merging this branch to `main` would still publish the mockup URLs on cukt.click (Render auto-deploy). Keep the PR draft until Piotr says otherwise.

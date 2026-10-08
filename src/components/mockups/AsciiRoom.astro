@@ -1,0 +1,88 @@
+---
+/*
+  Mockup-only hand-drawn ASCII room. Not an ascii.rest piece.
+  Animation: four <pre> frames swapped on a timer (no canvas).
+  Stops when prefers-reduced-motion is set.
+*/
+import {
+  ROOM_FRAMES,
+  ROOM_BANNER_LINES,
+  ROOM_ALT,
+} from "./ascii-room-frames";
+
+interface Props {
+  variant?: "full" | "banner";
+}
+
+const { variant = "full" } = Astro.props;
+
+const frames =
+  variant === "banner"
+    ? ROOM_FRAMES.map((f) => f.split("\n").slice(0, ROOM_BANNER_LINES).join("\n"))
+    : ROOM_FRAMES;
+---
+
+<figure class="ascii-room-figure">
+  <pre
+    class="ascii-room"
+    data-ascii-frames={JSON.stringify(frames)}
+    aria-hidden="true">{frames[0]}</pre>
+  <figcaption class="sr-only">{ROOM_ALT}</figcaption>
+</figure>
+
+<style>
+  .ascii-room-figure { margin: 0; }
+  .ascii-room {
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: pre;
+    font-family: "JetBrains Mono", ui-monospace, "Courier New", monospace;
+    font-size: clamp(7px, 2.35vw, 13px);
+    line-height: 1.15;
+    letter-spacing: 0;
+    color: #ffffff;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+
+<script>
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  for (const pre of document.querySelectorAll("pre.ascii-room")) {
+    if (pre.getAttribute("data-ascii-anim")) continue;
+    pre.setAttribute("data-ascii-anim", "1");
+    if (reduce) continue;
+
+    let frames: string[] = [];
+    try {
+      frames = JSON.parse(pre.getAttribute("data-ascii-frames") || "[]");
+    } catch {
+      continue;
+    }
+    if (frames.length < 2) continue;
+
+    let i = 0;
+    const id = window.setInterval(() => {
+      i = (i + 1) % frames.length;
+      pre.textContent = frames[i];
+    }, 280);
+
+    window.matchMedia("(prefers-reduced-motion: reduce)").addEventListener("change", (ev) => {
+      if (ev.matches) {
+        window.clearInterval(id);
+        pre.textContent = frames[0];
+      }
+    });
+  }
+</script>

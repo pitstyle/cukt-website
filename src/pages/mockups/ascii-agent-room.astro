@@ -1,32 +1,26 @@
 ---
 /*
-  MOCKUP ONLY — DO NOT MERGE
+  MOCKUP v2 — DO NOT MERGE
   ASCII aesthetic for the Wiktoria Cukt 2.0 agent room.
 
-  ascii.rest@0.2.1 cannot convert a photograph to ASCII (it ships 215
-  pre-authored "pieces"). Portrait: local canvas → <pre> renderer.
-  Titles / scramble: ascii.rest Astro component.
+  Piotr: readability first; red / green / white only; agent rooms only;
+  hand-drawn room (not photo conversion); cheap <pre> loop; stop on
+  prefers-reduced-motion.
 
-  ascii.rest is MIT License, Copyright (c) 2026 bas3line
-  (https://github.com/bas3line). The copyright notice and permission
-  notice from that LICENSE must be included with copies of the Software.
+  ascii.rest@0.2.1 has no office/clerk piece, so the room is a custom
+  <pre>. MIT License, Copyright (c) 2026 bas3line — retained because
+  the look is taken from that library’s examples.
 
-  Agent copy: src/pages/agents/[id].astro (wiktoria) and
-  src/pages/agents/index.astro.
-  Portrait: /uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg
-  (also on src/content/cukt/wiktoria-cukt.md).
+  Copy: src/pages/agents/[id].astro (wiktoria).
 */
 
-import AsciiPiece from "../../components/mockups/AsciiPiece.astro";
+import AsciiRoom from "../../components/mockups/AsciiRoom.astro";
 
 const agent = {
-  id: "wiktoria",
   name: "WIKTORIA CUKT 2.0",
   role: "AI PRESIDENT · ANALYST",
   emoji: "🏛️",
-  profile: "/uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg",
-  profileAlt: "Wiktoria Cukt 2.0 — campaign portrait",
-  desc: "AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees.",
+  desc: "AI-generated president. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees. Never apologizes.",
   quote: "\"Who controls the taxonomy controls the memory.\"",
   greeting: "Wiktoria Cukt 2.0, protokół. State your business.",
   chatNote: "The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.",
@@ -39,20 +33,19 @@ const agent = {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>ASCII Mockup — {agent.name} Room</title>
+  <title>ASCII Mockup v2 — {agent.name} Room</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap");
 
     :root {
       --red: #da4444;
       --white: #ffffff;
-      --white-dim: #999999;
+      --white-dim: #c8c8c8;
       --green: #00cc00;
-      --bg: #0a0a0a;
-      --bg-lighter: #111111;
+      --bg: #050505;
+      --bg-panel: #0a0a0a;
       --border: #222222;
-      --agent-color: #ccaa00;
-      --font-mono: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
+      --font-mono: "JetBrains Mono", ui-monospace, "Courier New", monospace;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -71,12 +64,6 @@ const agent = {
       -webkit-font-smoothing: antialiased;
     }
 
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 16px 48px;
-    }
-
     .mockup-banner {
       font-size: 12px;
       letter-spacing: 0.12em;
@@ -84,6 +71,12 @@ const agent = {
       border-bottom: 1px solid var(--border);
       padding: 10px 16px;
       text-align: center;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px 48px;
     }
 
     .back-link {
@@ -100,71 +93,30 @@ const agent = {
 
     .back-link:hover { color: var(--white); border-color: var(--red); }
 
-    .ascii-box {
-      border: 1px solid var(--border);
-      padding: 16px;
-      background: var(--bg-lighter);
-    }
-
-    .portrait-section {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-    }
-
-    @media (min-width: 768px) {
-      .portrait-section { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
-    }
-
-    .ascii-portrait-wrap {
-      position: relative;
+    .room-header {
       border: 1px solid var(--border);
       background: #000;
+      padding: 12px 8px 8px;
+      margin-bottom: 16px;
       overflow: hidden;
-      min-height: 220px;
     }
 
-    .ascii-portrait {
-      margin: 0;
-      font-family: var(--font-mono);
-      font-size: clamp(4px, 1.7vw, 8px);
-      line-height: 1;
-      letter-spacing: 0;
-      white-space: pre;
-      overflow: hidden;
-      color: var(--agent-color);
-      padding: 8px;
-      max-width: 100%;
+    .room-header :global(.ascii-room) {
+      color: var(--white);
     }
 
-    @media (max-width: 430px) {
-      .ascii-portrait { font-size: clamp(4px, 2.15vw, 7px); }
+    .mit-note {
+      font-size: 11px;
+      color: #888;
+      letter-spacing: 0.04em;
+      padding: 6px 8px 0;
     }
 
-    @keyframes scan {
-      0% { transform: translateY(-100%); }
-      100% { transform: translateY(100%); }
-    }
-
-    .ascii-portrait-wrap::after {
-      content: "";
-      position: absolute;
-      inset: 0 auto auto 0;
-      width: 100%;
-      height: 18%;
-      background: linear-gradient(180deg, transparent, rgba(0, 204, 0, 0.12), transparent);
-      animation: scan 7s linear infinite;
-      pointer-events: none;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .ascii-portrait-wrap::after { animation: none; display: none; }
-    }
-
-    .agent-header {
-      border-bottom: 2px solid var(--agent-color);
-      padding-bottom: 8px;
-      margin-bottom: 12px;
+    .agent-info {
+      border: 1px solid var(--border);
+      padding: 16px;
+      margin-bottom: 16px;
+      background: var(--bg-panel);
     }
 
     .agent-emoji { font-size: 2rem; display: block; margin-bottom: 8px; }
@@ -173,7 +125,7 @@ const agent = {
       font-size: clamp(1.35rem, 5.5vw, 2.25rem);
       font-weight: 800;
       letter-spacing: 0.04em;
-      color: var(--agent-color);
+      color: var(--red);
       line-height: 1.1;
       overflow-wrap: anywhere;
     }
@@ -194,38 +146,29 @@ const agent = {
     }
 
     .agent-quote {
-      border-left: 3px solid var(--agent-color);
+      border-left: 3px solid var(--red);
       padding-left: 12px;
       font-style: italic;
       color: var(--white);
       font-size: 16px;
     }
 
-    .ascii-fit {
-      overflow: hidden;
-      max-width: 100%;
-      margin: 16px 0;
-      color: var(--green);
-    }
-
-    .ascii-fit :global(.ascii-piece) {
-      margin: 0;
-      max-width: 100%;
-      overflow: hidden;
-      font-size: clamp(5px, 1.55vw, 10px);
-      line-height: 1.15;
-      white-space: pre;
-      font-family: var(--font-mono);
-      color: var(--green);
-    }
-
-    @media (max-width: 430px) {
-      .ascii-fit :global(.ascii-piece) { font-size: clamp(4px, 2.2vw, 8px); }
-    }
-
     .chat-container {
       border: 1px solid var(--border);
-      margin-top: 16px;
+      background: var(--bg-panel);
+    }
+
+    .chat-backdrop {
+      background: #000;
+      border-bottom: 1px solid var(--border);
+      padding: 8px 8px 4px;
+      overflow: hidden;
+    }
+
+    .chat-backdrop :global(.ascii-room) {
+      color: var(--green);
+      font-size: clamp(6px, 2.1vw, 11px);
+      opacity: 1;
     }
 
     .chat-header {
@@ -236,14 +179,14 @@ const agent = {
       flex-wrap: wrap;
       padding: 12px 16px;
       border-bottom: 1px solid var(--border);
-      background: var(--bg-lighter);
       font-size: 13px;
+      background: #000;
     }
 
     .chat-status { color: var(--green); letter-spacing: 0.1em; }
     .chat-label { color: var(--white-dim); letter-spacing: 0.08em; }
 
-    .chat-messages { min-height: 180px; padding: 16px; }
+    .chat-messages { min-height: 160px; padding: 16px; }
 
     .msg-name {
       display: block;
@@ -259,7 +202,7 @@ const agent = {
     .msg-text {
       font-size: 16px;
       line-height: 1.7;
-      color: var(--white-dim);
+      color: var(--white);
     }
 
     .chat-input {
@@ -283,7 +226,7 @@ const agent = {
     .chat-input button {
       min-width: 72px;
       min-height: 44px;
-      background: var(--bg-lighter);
+      background: #000;
       border: none;
       border-left: 1px solid var(--border);
       color: var(--red);
@@ -298,67 +241,33 @@ const agent = {
     .chat-note {
       padding: 8px 16px;
       font-size: 12px;
-      color: #555;
+      color: #888;
       border-top: 1px solid var(--border);
-    }
-
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
     }
   </style>
 </head>
 <body>
-  <div class="mockup-banner">DRAFT MOCKUP — NOT LINKED FROM THE SITE — DO NOT MERGE</div>
+  <div class="mockup-banner">DRAFT MOCKUP v2 — AGENT ROOM ONLY — DO NOT MERGE</div>
   <div class="container">
     <a href="/agents" class="back-link">← ALL AGENTS</a>
 
-    <div class="ascii-fit" aria-hidden="true">
-      <AsciiPiece piece="big-text" options={{ text: "WIKTORIA" }} label="Wiktoria Cukt 2.0 in ASCII block letters" />
+    <div class="room-header">
+      <AsciiRoom variant="full" />
+      <p class="mit-note">Look after ascii.rest examples (MIT © bas3line). Custom &lt;pre&gt; scene, not a photo conversion.</p>
     </div>
 
-    <div class="ascii-box">
-      <div class="portrait-section">
-        <div class="ascii-portrait-wrap">
-          <img
-            id="portrait-src"
-            class="sr-only"
-            src={agent.profile}
-            alt={agent.profileAlt}
-            width="400"
-            height="600"
-          />
-          <pre id="ascii-portrait" class="ascii-portrait" aria-hidden="true">loading portrait…</pre>
-        </div>
+    <section class="agent-info">
+      <span class="agent-emoji">{agent.emoji}</span>
+      <h1 class="agent-name">{agent.name}</h1>
+      <div class="agent-role">{agent.role}</div>
+      <p class="agent-desc">{agent.desc}</p>
+      <blockquote class="agent-quote">{agent.quote}</blockquote>
+    </section>
 
-        <div>
-          <div class="agent-header">
-            <span class="agent-emoji">{agent.emoji}</span>
-            <h1 class="agent-name">{agent.name}</h1>
-            <div class="agent-role">{agent.role}</div>
-          </div>
-          <p class="agent-desc">{agent.desc}</p>
-          <blockquote class="agent-quote">{agent.quote}</blockquote>
-        </div>
+    <div class="chat-container" id="chat">
+      <div class="chat-backdrop" aria-hidden="true">
+        <AsciiRoom variant="banner" />
       </div>
-    </div>
-
-    <div class="ascii-fit" aria-hidden="true">
-      <AsciiPiece
-        piece="scramble"
-        options={{ phrases: ["Who controls the taxonomy controls the memory.", "Habeas Mentem", "Wiktoria Cukt 2.0"] }}
-        label="Animated scramble of Wiktoria Cukt 2.0 quotes"
-      />
-    </div>
-
-    <div class="chat-container">
       <div class="chat-header">
         <span class="chat-status">● ONLINE</span>
         <span class="chat-label">TALKING TO {agent.name}</span>
@@ -376,67 +285,5 @@ const agent = {
       <div class="chat-note">{agent.chatNote}</div>
     </div>
   </div>
-
-  <script>
-    const RAMP = " .:-=+*#%@";
-    const pre = document.getElementById("ascii-portrait");
-    const img = document.getElementById("portrait-src");
-    const wrap = pre?.parentElement;
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    function toAscii(source, cols, t) {
-      const canvas = document.createElement("canvas");
-      const ctx = canvas.getContext("2d", { willReadFrequently: true });
-      if (!ctx) return "";
-      const aspect = source.naturalHeight / source.naturalWidth;
-      const rows = Math.max(12, Math.round(cols * aspect * 0.48));
-      canvas.width = cols;
-      canvas.height = rows;
-      ctx.drawImage(source, 0, 0, cols, rows);
-      const { data } = ctx.getImageData(0, 0, cols, rows);
-      const scanRow = reduce ? -1 : Math.floor(((t * 0.35) % 1) * rows);
-      let out = "";
-      for (let y = 0; y < rows; y++) {
-        for (let x = 0; x < cols; x++) {
-          const i = (y * cols + x) * 4;
-          let bright = (data[i] + data[i + 1] + data[i + 2]) / 3;
-          if (y === scanRow) bright = Math.min(255, bright + 70);
-          const idx = Math.min(RAMP.length - 1, Math.floor((bright / 255) * (RAMP.length - 1)));
-          out += RAMP[idx];
-        }
-        if (y < rows - 1) out += "\n";
-      }
-      return out;
-    }
-
-    function colsForWidth() {
-      const w = wrap?.clientWidth || Math.min(window.innerWidth - 32, 520);
-      return Math.max(28, Math.min(72, Math.floor(w / 5.2)));
-    }
-
-    function draw(t = 0) {
-      if (!pre || !img || !img.naturalWidth) return;
-      pre.textContent = toAscii(img, colsForWidth(), t);
-    }
-
-    function start() {
-      draw(0);
-      if (reduce) return;
-      let startTime = 0;
-      const tick = (now) => {
-        if (!startTime) startTime = now;
-        draw((now - startTime) / 1000);
-        requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-    }
-
-    if (img?.complete && img.naturalWidth) start();
-    else img?.addEventListener("load", start);
-
-    img?.addEventListener("error", () => {
-      if (pre) pre.textContent = "[portrait failed to load]";
-    });
-  </script>
 </body>
 </html>
