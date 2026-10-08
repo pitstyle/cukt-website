@@ -336,7 +336,7 @@ def render_bust(w: int = 64, h: int = 84) -> Image.Image:
     return im
 
 
-def render_clerk(w: int = 48, h: int = 56) -> Image.Image:
+def render_clerk(w: int = 48, h: int = 56, hair: str = "clerk") -> Image.Image:
     """Seated clerk, 3/4-ish: head, shoulders, arms toward the keyboard."""
     im = Image.new("L", (w, h), 0)
     d = ImageDraw.Draw(im)
@@ -364,10 +364,34 @@ def render_clerk(w: int = 48, h: int = 56) -> Image.Image:
         ],
         fill=150,
     )
-    # head
-    d.ellipse([cx - 9, 2, cx + 10, 24], fill=185)
-    # hair
-    d.pieslice([cx - 10, 0, cx + 11, 16], 200, 340, fill=250)
+    if hair == "wiktoria":
+        # Campaign photo: 1960s bouffant — high crown, wide sides covering
+        # the ears, jaw-length under-curl, side-swept fringe. Same face oval.
+        d.ellipse([cx - 15, 0, cx + 15, 22], fill=250)
+        d.ellipse([cx - 12, 0, cx + 13, 12], fill=255)
+        d.ellipse([cx - 18, 4, cx - 2, 27], fill=250)
+        d.ellipse([cx + 3, 3, cx + 18, 25], fill=250)
+        d.ellipse([cx - 15, 16, cx - 3, 32], fill=245)
+        d.ellipse([cx + 4, 15, cx + 15, 30], fill=245)
+        d.ellipse([cx - 9, 2, cx + 10, 24], fill=185)
+        # Crown + side-swept fringe painted over the top of the face
+        # so the silhouette reads as a helmet, not a bald crown.
+        d.pieslice([cx - 14, 0, cx + 14, 18], 180, 360, fill=250)
+        d.polygon(
+            [
+                (cx - 14, 2),
+                (cx - 2, 0),
+                (cx + 8, 3),
+                (cx + 3, 9),
+                (cx - 6, 11),
+                (cx - 14, 8),
+            ],
+            fill=250,
+        )
+        d.chord([cx - 13, 0, cx + 12, 14], 200, 340, fill=255)
+    else:
+        d.ellipse([cx - 9, 2, cx + 10, 24], fill=185)
+        d.pieslice([cx - 10, 0, cx + 11, 16], 200, 340, fill=250)
     # eyes
     d.ellipse([cx - 5, 10, cx - 2, 13], fill=25)
     d.ellipse([cx + 3, 10, cx + 6, 13], fill=25)
@@ -426,129 +450,18 @@ def draw_room_shell(g: Grid) -> None:
     g.sline(project_low(XR - 0.15, YF, ZF), project_low(XR - 0.35, YF, ZN + 0.02), ".", ZN)
 
 
-def render_wiktoria_bust(w: int = 64, h: int = 84) -> Image.Image:
-    """Wiktoria: long hair, no tie, open collar. Distinct from the male bust."""
-    im = Image.new("L", (w, h), 0)
-    d = ImageDraw.Draw(im)
-    cx, head_y = w // 2, int(h * 0.28)
-    hr_x, hr_y = int(w * 0.20), int(h * 0.18)
-
-    # jacket / shoulders, open at the chest (no tie)
-    d.polygon(
-        [
-            (int(w * 0.06), h - 1),
-            (int(w * 0.12), int(h * 0.56)),
-            (int(w * 0.32), int(h * 0.50)),
-            (cx, int(h * 0.58)),
-            (int(w * 0.68), int(h * 0.50)),
-            (int(w * 0.88), int(h * 0.56)),
-            (int(w * 0.94), h - 1),
-        ],
-        fill=95,
-    )
-    # shirt / open collar
-    d.polygon(
-        [
-            (int(w * 0.38), int(h * 0.50)),
-            (cx, int(h * 0.46)),
-            (int(w * 0.62), int(h * 0.50)),
-            (int(w * 0.58), h - 1),
-            (int(w * 0.42), h - 1),
-        ],
-        fill=155,
-    )
-    d.polygon(
-        [
-            (cx - int(w * 0.10), int(h * 0.48)),
-            (cx, int(h * 0.56)),
-            (cx - int(w * 0.02), int(h * 0.48)),
-        ],
-        fill=210,
-    )
-    d.polygon(
-        [
-            (cx + int(w * 0.10), int(h * 0.48)),
-            (cx, int(h * 0.56)),
-            (cx + int(w * 0.02), int(h * 0.48)),
-        ],
-        fill=210,
-    )
-    # neck
-    d.rectangle(
-        [cx - int(w * 0.06), int(h * 0.42), cx + int(w * 0.06), int(h * 0.52)],
-        fill=180,
-    )
-    # long hair behind the head (falls to the jacket)
-    d.polygon(
-        [
-            (cx - hr_x - 4, head_y),
-            (cx - hr_x - 2, int(h * 0.62)),
-            (cx - int(w * 0.16), int(h * 0.78)),
-            (cx - int(w * 0.08), int(h * 0.52)),
-            (cx, int(h * 0.44)),
-            (cx + int(w * 0.08), int(h * 0.52)),
-            (cx + int(w * 0.16), int(h * 0.78)),
-            (cx + hr_x + 2, int(h * 0.62)),
-            (cx + hr_x + 4, head_y),
-            (cx + hr_x, head_y - hr_y - 2),
-            (cx - hr_x, head_y - hr_y - 2),
-        ],
-        fill=250,
-    )
-    # face oval (on top of hair)
-    d.ellipse(
-        [cx - hr_x + 2, head_y - hr_y + 2, cx + hr_x - 2, head_y + hr_y + 4],
-        fill=185,
-        outline=220,
-    )
-    # bangs
-    d.pieslice(
-        [cx - hr_x + 1, head_y - hr_y - 1, cx + hr_x - 1, head_y + 6],
-        190,
-        350,
-        fill=250,
-    )
-    # eyes
-    d.ellipse([cx - 9, head_y - 2, cx - 3, head_y + 4], fill=0)
-    d.ellipse([cx + 3, head_y - 2, cx + 9, head_y + 4], fill=0)
-    d.ellipse([cx - 7, head_y, cx - 5, head_y + 2], fill=50)
-    d.ellipse([cx + 5, head_y, cx + 7, head_y + 2], fill=50)
-    d.line([cx - 10, head_y - 5, cx - 3, head_y - 6], fill=30, width=2)
-    d.line([cx + 3, head_y - 6, cx + 10, head_y - 5], fill=30, width=2)
-    d.line([cx, head_y + 3, cx, head_y + 9], fill=40, width=1)
-    d.arc([cx - 6, head_y + 11, cx + 6, head_y + 17], 20, 160, fill=30, width=2)
-    return im
-
-
-def draw_wiktoria_emblem(g: Grid) -> None:
-    """Small hanging banner on the wall between the portrait and the files."""
-    pz = ZF - 0.02
-    x0, x1, y0, y1 = 0.36, 0.64, 1.42, 1.82
-    g.line((x0, y1 + 0.06, pz), (x0, y0, pz), "|")
-    g.polyline([
-        (x0, y1, pz), (x1, y1, pz), (x1, y0, pz), (x0, y0, pz), (x0, y1, pz),
-    ])
-    mid = (y0 + y1) / 2
-    g.line((x0 + 0.04, mid, pz), (x1 - 0.04, mid, pz), "=")
-    g.line((x0 + 0.08, y1 - 0.06, pz), (x1 - 0.08, y1 - 0.06, pz), ".")
-    g.line((x0 + 0.08, y0 + 0.06, pz), (x1 - 0.08, y0 + 0.06, pz), ".")
-
-
-def draw_portrait(g: Grid, kind: str = "default") -> None:
+def draw_portrait(g: Grid) -> None:
     pz = ZF - 0.02
     g.dashed_rect(PX0, PY0, PX1, PY1, pz, dash=".")
     inset = 0.06
-    bust = render_wiktoria_bust() if kind == "wiktoria" else render_bust()
     g.stamp_image(
-        bust,
+        render_bust(),
         PX0 + inset,
         PY0 + inset,
         PX1 - inset,
         PY1 - inset,
         pz - 0.03,
     )
-    if kind == "wiktoria":
-        draw_wiktoria_emblem(g)
 
 
 def draw_filing(g: Grid) -> None:
@@ -714,14 +627,14 @@ def draw_small_gadget(g: Grid) -> None:
     g.plot(*project((x0 + x1) / 2 + 0.06, (y0 + y1) / 2, z0 - 0.02), ":", z0 - 0.03)
 
 
-def draw_clerk(g: Grid, frame: int = 0) -> None:
+def draw_clerk(g: Grid, frame: int = 0, hair: str = "clerk") -> None:
     # Head and shoulders ABOVE the desk; the desk hides the rest.
     # Four-frame x-shift so the figure breathes in the loop.
     shift = [0.0, 0.05, 0.02, -0.03][frame % 4]
     cx0, cx1 = -0.70 + shift, 0.16 + shift
     cy0, cy1 = DY_TOP + 0.02, 1.08
     cz = 3.36
-    g.stamp_image(render_clerk(), cx0, cy0, cx1, cy1, cz)
+    g.stamp_image(render_clerk(hair=hair), cx0, cy0, cx1, cy1, cz)
     g.line((-0.35 + shift, DY_TOP + 0.22, cz), (-0.05, DY_TOP + 0.03, 3.22), "/")
     g.line((-0.10 + shift, DY_TOP + 0.20, cz + 0.04), (0.22, DY_TOP + 0.03, 3.26), "\\")
     left_h, right_h = [("o", "o"), (".", "o"), ("o", "."), (".", ".")][frame % 4]
@@ -729,13 +642,13 @@ def draw_clerk(g: Grid, frame: int = 0) -> None:
     g.plot(*project(0.24, DY_TOP + 0.04, 3.26), right_h, 3.24)
 
 
-def draw_room(clerk: bool, frame: int = 0, portrait: str = "default") -> Grid:
+def draw_room(clerk: bool, frame: int = 0, seated: str = "clerk") -> Grid:
     g = Grid()
     draw_room_shell(g)
-    draw_portrait(g, kind=portrait)
+    draw_portrait(g)
     draw_filing(g)
     if clerk:
-        draw_clerk(g, frame=frame)
+        draw_clerk(g, frame=frame, hair=seated)
     draw_desk(g)
     draw_small_gadget(g)
     draw_crt(g, frame=frame)
@@ -788,9 +701,9 @@ def patch_lit(rows: list) -> str:
 
 
 def main() -> None:
-    clerk_frames = [pad_grid(draw_room(True, frame=i).to_string()) for i in range(4)]
+    clerk_frames = [pad_grid(draw_room(True, frame=i, seated="clerk").to_string()) for i in range(4)]
     wiktoria_frames = [
-        pad_grid(draw_room(True, frame=i, portrait="wiktoria").to_string()) for i in range(4)
+        pad_grid(draw_room(True, frame=i, seated="wiktoria").to_string()) for i in range(4)
     ]
     clerk, wiktoria = clerk_frames[0], wiktoria_frames[0]
     clerk_patches = diff_patches(clerk, clerk_frames)
@@ -823,7 +736,7 @@ def main() -> None:
         "export const CLERK_ALT =",
         '  "ASCII drawing of an agent room in one-point perspective: walls, ceiling and floor, a dotted portrait on the back wall, a desk and CRT, a filing cabinet, and a clerk at the desk.";',
         "export const WIKTORIA_ALT =",
-        '  "The same agent room with a different wall portrait of Wiktoria Cukt and a small hanging banner on the wall.";',
+        '  "The same agent room; the seated figure wears Wiktoria Cukt\'s campaign hairstyle.";',
         "",
     ])
     out.write_text(body)
