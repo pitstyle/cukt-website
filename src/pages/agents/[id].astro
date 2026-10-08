@@ -172,9 +172,9 @@ export function getStaticPaths() {
     -moz-osx-font-smoothing: grayscale;
   }
   .chat-container { border: 1px solid var(--border); }
-  .chat-header { display: flex; justify-content: space-between; align-items: center; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: var(--bg-lighter); }
-  .chat-status { color: var(--green); font-size: 0.75rem; letter-spacing: 0.1em; }
-  .chat-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); }
+  .chat-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: var(--bg-lighter); }
+  .chat-status { color: var(--green); font-size: 0.75rem; letter-spacing: 0.1em; white-space: nowrap; }
+  .chat-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); text-align: right; margin-left: auto; }
 
   .chat-messages { min-height: 300px; max-height: 500px; overflow-y: auto; padding: var(--space-lg); }
   .msg { margin-bottom: var(--space-lg); }
