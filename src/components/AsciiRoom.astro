@@ -39,14 +39,24 @@ const patches = variant === "wiktoria" ? WIKTORIA_PATCHES : CLERK_PATCHES;
 </figure>
 
 <style>
-  .ascii-room-figure { margin: 0; }
+  .ascii-room-figure {
+    margin: 0;
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    container-type: inline-size;
+  }
   .ascii-room {
     margin: 0;
+    box-sizing: border-box;
+    width: 100%;
     max-width: 100%;
+    min-width: 0;
     overflow: hidden;
     white-space: pre;
     font-family: "JetBrains Mono", ui-monospace, "Courier New", monospace;
-    font-size: clamp(5.5px, calc((100vw - 48px) / 64), 9px);
+    /* 108 cols × ~0.6em glyph ≈ 65em; /68 leaves a few px inside the card. */
+    font-size: clamp(3.2px, calc(100cqw / 68), 9px);
     font-weight: 600;
     line-height: 1.05;
     letter-spacing: 0;
