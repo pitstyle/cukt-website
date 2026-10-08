@@ -12,8 +12,8 @@ Piotr rejected the v2 38-column icon box. The room has to look like his SIMPLE O
 
 What v3 does:
 
-- The grids in `ascii-room-frames.ts` are **generated** from a 3D edge list (`scripts/generate-ascii-office.py`): project, fit the 8 room corners to the canvas, rasterize with a z-buffer. Not hand-placed icons.
-- Density: **88×36** characters. Font size is `clamp(6px, calc((100vw - 48px) / 54), 10px)` so the whole room fits inline at 390px (~6.3px) without cropping or a zoom overlay. At that size the desk is ~120px wide.
+- The grids in `ascii-room-frames.ts` are **generated** from a 3D edge list (`scripts/generate-ascii-office.py`): the camera sits close so the **back wall fills the frame**; desk/CRT/keyboard are 3D boxes; portrait and clerk are silhouettes dithered to `. : @`. Not hand-placed icons.
+- Density: **108×46** characters. Font size is `clamp(5.5px, calc((100vw - 48px) / 64), 9px)` so the whole room fits inline at 390px. Furniture fills the middle of the frame (desk in 3/4, CRT with depth, dotted bust, seated clerk).
 - Two drawings on `/mockups/ascii-agent-room`: empty office (`#room-empty`) and clerk (`#room-clerk`). Chat header uses the upper back-wall strip, in green.
 - Animation: **four patches of a few CRT glyphs** (`>_` blink) every 280ms. The whole room is not copied four times. `prefers-reduced-motion: reduce` keeps the first frame.
 - Colours still **red / green / white** only. Spelling still **CUKTAI** (never bare CUKT except “Wiktoria Cukt” and cukt.click).
