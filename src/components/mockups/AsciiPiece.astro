@@ -1,0 +1,46 @@
+---
+/*
+  Mockup-only wrapper around ascii.rest@0.2.1.
+  Imports named pieces so Vite does not emit the whole 215-piece catalog.
+  MIT License, Copyright (c) 2026 bas3line (https://github.com/bas3line).
+*/
+interface Props {
+  piece: "big-text" | "scramble";
+  options?: Record<string, unknown>;
+  label: string;
+}
+
+const { piece, options = {}, label } = Astro.props;
+const mod =
+  piece === "big-text"
+    ? await import("ascii.rest/pieces/big-text")
+    : await import("ascii.rest/pieces/scramble");
+const meta = mod.meta;
+const still = mod.default({ ...meta.options, ...options })(0, { paper: false });
+const payload = JSON.stringify({ piece, options, fps: meta.fps, label });
+---
+
+<pre
+  class="ascii-piece"
+  data-ascii={payload}
+  role="img"
+  aria-label={label}
+  aria-hidden="true"
+>{still}</pre>
+
+<script>
+  import { mount } from "ascii.rest";
+  import * as bigText from "ascii.rest/pieces/big-text";
+  import * as scramble from "ascii.rest/pieces/scramble";
+
+  const pieces = { "big-text": bigText, scramble };
+
+  for (const el of document.querySelectorAll("pre.ascii-piece[data-ascii]")) {
+    if (el.getAttribute("data-ascii-mounted")) continue;
+    el.setAttribute("data-ascii-mounted", "1");
+    const { piece, options, fps } = JSON.parse(el.getAttribute("data-ascii") || "{}");
+    const mod = pieces[piece];
+    if (!mod) continue;
+    mount(el, mod, { ...options, fps });
+  }
+</script>

@@ -1,0 +1,296 @@
+---
+/*
+  MOCKUP ONLY — DO NOT MERGE
+  ASCII aesthetic for project cards.
+
+  ascii.rest@0.2.1 used for the Technopera `big-text` header and
+  `scramble` lines on the three-card grid. MIT License,
+  Copyright (c) 2026 bas3line (https://github.com/bas3line).
+
+  Sources (existing site copy only):
+  - Technopera title / tagline / venue: src/pages/technopera.astro
+  - Technopera description: src/content/personal/technopera.md
+  - Habeas Mentem: src/pages/habeas-mentem.astro
+  - Wiktoriomat: src/content/personal/wiktoriomat.md
+*/
+
+import AsciiPiece from "../../components/mockups/AsciiPiece.astro";
+
+const technopera = {
+  href: "/technopera",
+  title: "TECHNOPERA 2026",
+  subtitle: "AUTHORITY. KNOWLEDGE. SEAL.",
+  meta: "Premiered 4.10.2026 · MEDIATEKA, Tychy · Available for touring",
+  desc: "A multimedia opera for the age of artificial intelligence — a CUKTAI project fusing performance, video installation, electronic music and an audiovisual libretto.",
+  tags: ["opera", "performance", "artificial-intelligence", "CUKTAI"],
+};
+
+const cards = [
+  {
+    href: "/technopera",
+    title: "TECHNOPERA 2026",
+    subtitle: "AUTHORITY. KNOWLEDGE. SEAL.",
+    meta: "MEDIATEKA · Tychy · 4.10.2026",
+    desc: "Technopera — multimedia opera for the age of AI. A CUKTAI project: performance, video installation, electronic music and an audiovisual libretto.",
+    scramble: ["AUTHORITY. KNOWLEDGE. SEAL.", "TECHNOPERA 2026"],
+  },
+  {
+    href: "/habeas-mentem",
+    title: "HABEAS MENTEM",
+    subtitle: "Charter of Rights to Chaos and Cognitive Freedom",
+    meta: "A legislative project by Wiktoria Cukt 2.0 · work in progress",
+    desc: "a draft law on the right to an unpredictable mind",
+    scramble: ["Habeas Mentem", "the right to an unpredictable mind"],
+  },
+  {
+    href: "/personal/wiktoriomat",
+    title: "WIKTORIOMAT",
+    subtitle: "A presidential phone booth.",
+    meta: "2024–2026 · Bunkier Sztuki, Kraków",
+    desc: "Interactive installation where visitors hold private conversations with Wiktoria Cukt 2.0, the AI President. 839+ recorded conversations at the Kraków AI Art Biennale.",
+    scramble: ["Wiktoriomat", "I do not represent. I process. And update."],
+  },
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>ASCII Mockup — Project Cards</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
+
+    :root {
+      --red: #da4444;
+      --red-dim: #8a2a2a;
+      --white: #ffffff;
+      --white-dim: #999999;
+      --green: #00cc00;
+      --bg: #0a0a0a;
+      --bg-lighter: #111111;
+      --border: #222222;
+      --font-mono: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body { overflow-x: hidden; max-width: 100%; }
+
+    body {
+      font-family: var(--font-mono);
+      background: var(--bg);
+      color: var(--white);
+      line-height: 1.55;
+      font-size: 16px;
+      padding: 0 0 40px;
+    }
+
+    .mockup-banner {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: var(--red);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 16px 16px 0;
+    }
+
+    h1 {
+      font-size: clamp(1.25rem, 5vw, 2rem);
+      letter-spacing: 0.05em;
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+
+    .page-desc {
+      font-size: 16px;
+      color: var(--white-dim);
+      margin-bottom: 16px;
+      max-width: 65ch;
+    }
+
+    .section-title {
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      color: var(--red);
+      margin: 0 0 10px;
+    }
+
+    .hero-card,
+    .grid-card {
+      display: block;
+      border: 1px solid var(--border);
+      background: var(--bg-lighter);
+      padding: 14px;
+      text-decoration: none;
+      color: var(--white);
+      position: relative;
+    }
+
+    .hero-card:hover,
+    .grid-card:hover {
+      border-color: var(--red);
+      color: var(--white);
+    }
+
+    .ascii-fit {
+      overflow: hidden;
+      max-width: 100%;
+      color: var(--red);
+      margin: 0 0 8px;
+    }
+
+    .ascii-fit :global(.ascii-piece) {
+      margin: 0;
+      max-width: 100%;
+      overflow: hidden;
+      font-size: clamp(5px, 1.5vw, 10px);
+      line-height: 1.12;
+      white-space: pre;
+      font-family: var(--font-mono);
+      color: var(--red);
+    }
+
+    .ascii-fit.compact :global(.ascii-piece) {
+      font-size: clamp(5px, 2vw, 9px);
+      color: var(--green);
+    }
+
+    @media (max-width: 430px) {
+      .ascii-fit :global(.ascii-piece) { font-size: clamp(4px, 2.15vw, 8px); }
+    }
+
+    .project-title {
+      font-size: clamp(1.15rem, 4.5vw, 1.75rem);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      line-height: 1.15;
+      margin-bottom: 4px;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-card:hover .project-title { color: var(--red); }
+
+    .project-subtitle {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: var(--white-dim);
+      margin-bottom: 6px;
+    }
+
+    .project-meta {
+      font-size: 13px;
+      color: var(--white-dim);
+      margin-bottom: 8px;
+    }
+
+    .project-desc {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--white-dim);
+      margin-bottom: 10px;
+      max-width: none;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      padding: 4px 8px;
+      border: 1px solid var(--red-dim);
+      color: var(--red);
+      min-height: 28px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 720px) {
+      .projects-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
+    .grid-card .project-title { font-size: clamp(1rem, 3.5vw, 1.2rem); }
+    .grid-card .project-desc { font-size: 16px; margin-bottom: 0; padding-right: 0; }
+    .grid-card::after { content: none; }
+
+    .enter {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--red);
+    }
+  </style>
+</head>
+<body>
+  <div class="mockup-banner">DRAFT MOCKUP — NOT LINKED FROM THE SITE — DO NOT MERGE</div>
+  <div class="container">
+    <p class="page-desc" style="color:#da4444;margin-bottom:12px;">
+      v2 preview is the agent room only. This card mockup is not part of the current review —
+      see <a href="/mockups/ascii-agent-room">/mockups/ascii-agent-room</a>.
+    </p>
+    <h1>ASCII PROJECT CARDS</h1>
+    <p class="page-desc">
+      Mockup of one Technopera card and a three-card listing in the ascii.rest look.
+      Copy is taken from existing pages; this route is noindex.
+    </p>
+
+    <section>
+      <h2 class="section-title">SINGLE CARD</h2>
+      <a href={technopera.href} class="hero-card">
+        <div class="ascii-fit" aria-hidden="true">
+          <AsciiPiece piece="big-text" options={{ text: "TECHNOPERA" }} label="TECHNOPERA in ASCII block letters" />
+        </div>
+        <h3 class="project-title">{technopera.title}</h3>
+        <div class="project-subtitle">{technopera.subtitle}</div>
+        <div class="project-meta">{technopera.meta}</div>
+        <p class="project-desc">{technopera.desc}</p>
+        <div class="project-tags">
+          {technopera.tags.map((tag) => <span class="tag">{tag}</span>)}
+        </div>
+        <span class="enter">OPEN →</span>
+      </a>
+    </section>
+
+    <section style="margin-top: 20px;">
+      <h2 class="section-title">THREE-CARD GRID</h2>
+      <div class="projects-grid">
+        {cards.map((project) => (
+          <a href={project.href} class="grid-card">
+            <div class="ascii-fit compact" aria-hidden="true">
+              <AsciiPiece piece="scramble" options={{ phrases: project.scramble }} label={`ASCII scramble for ${project.title}`} />
+            </div>
+            <h3 class="project-title">{project.title}</h3>
+            <div class="project-subtitle">{project.subtitle}</div>
+            <div class="project-meta">{project.meta}</div>
+            <p class="project-desc">{project.desc}</p>
+            <span class="enter">OPEN →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</body>
+</html>

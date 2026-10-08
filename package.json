@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.2",
+    "ascii.rest": "0.2.1",
     "astro": "^6.1.9"
   }
 }
