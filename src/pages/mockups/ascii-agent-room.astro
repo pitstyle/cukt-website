@@ -99,10 +99,16 @@ const agent = {
       padding: 12px 8px 8px;
       margin-bottom: 16px;
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .room-header :global(.ascii-room) {
       color: var(--white);
+      width: max-content;
+      max-width: 100%;
+      font-size: clamp(8px, 2.7vw, 14px);
     }
 
     .mit-note {
@@ -163,12 +169,15 @@ const agent = {
       border-bottom: 1px solid var(--border);
       padding: 8px 8px 4px;
       overflow: hidden;
+      display: flex;
+      justify-content: center;
     }
 
     .chat-backdrop :global(.ascii-room) {
       color: var(--green);
-      font-size: clamp(6px, 2.1vw, 11px);
-      opacity: 1;
+      font-size: clamp(7px, 2.3vw, 12px);
+      width: max-content;
+      max-width: 100%;
     }
 
     .chat-header {
