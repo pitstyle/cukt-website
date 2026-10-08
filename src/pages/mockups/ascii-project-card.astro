@@ -1,38 +1,55 @@
 ---
 /*
   MOCKUP ONLY — DO NOT MERGE
-  ASCII aesthetic for project cards (Technopera example)
-  Mobile-first, accessible, performant
+  ASCII aesthetic for project cards.
+
+  ascii.rest@0.2.1 used for the Technopera `big-text` header and
+  `scramble` lines on the three-card grid. MIT License,
+  Copyright (c) 2026 bas3line (https://github.com/bas3line).
+
+  Sources (existing site copy only):
+  - Technopera title / tagline / venue: src/pages/technopera.astro
+  - Technopera description: src/content/personal/technopera.md
+  - Habeas Mentem: src/pages/habeas-mentem.astro
+  - Wiktoriomat: src/content/personal/wiktoriomat.md
 */
 
-const projects = [
+import AsciiPiece from "../../components/mockups/AsciiPiece.astro";
+
+const technopera = {
+  href: "/technopera",
+  title: "TECHNOPERA 2026",
+  subtitle: "AUTHORITY. KNOWLEDGE. SEAL.",
+  meta: "Premiered 4.10.2026 · MEDIATEKA, Tychy · Available for touring",
+  desc: "A multimedia opera for the age of artificial intelligence — a CUKTAI project fusing performance, video installation, electronic music and an audiovisual libretto.",
+  tags: ["opera", "performance", "artificial-intelligence", "CUKTAI"],
+};
+
+const cards = [
   {
-    id: "technopera",
+    href: "/technopera",
     title: "TECHNOPERA 2026",
     subtitle: "AUTHORITY. KNOWLEDGE. SEAL.",
     meta: "MEDIATEKA · Tychy · 4.10.2026",
-    desc: "Multimedia opera for the age of artificial intelligence — live performance, video, electronic music and an audiovisual libretto.",
-    tags: ["OPERA", "AI", "MULTIMEDIA"],
-    status: "PREMIERED"
+    desc: "Technopera — multimedia opera for the age of AI. A CUKTAI project: performance, video installation, electronic music and an audiovisual libretto.",
+    scramble: ["AUTHORITY. KNOWLEDGE. SEAL.", "TECHNOPERA 2026"],
   },
   {
-    id: "habeas-mentem",
+    href: "/habeas-mentem",
     title: "HABEAS MENTEM",
-    subtitle: "COGNITIVE SOVEREIGNTY",
-    meta: "Doctrine · 2024-ongoing",
-    desc: "The right to one's own mind. A legal and philosophical framework for the age of neural interfaces and AI consciousness.",
-    tags: ["DOCTRINE", "LAW", "AI"],
-    status: "ACTIVE"
+    subtitle: "Charter of Rights to Chaos and Cognitive Freedom",
+    meta: "A legislative project by Wiktoria Cukt 2.0 · work in progress",
+    desc: "a draft law on the right to an unpredictable mind",
+    scramble: ["Habeas Mentem", "the right to an unpredictable mind"],
   },
   {
-    id: "cukt-archive",
-    title: "C.U.K.T. ARCHIVE",
-    subtitle: "1995-2001",
-    meta: "Gdańsk · Documentation",
-    desc: "Archival project documenting the C.U.K.T. collective's techno-cultural experiments at the Napoleonic Forts.",
-    tags: ["ARCHIVE", "HISTORY"],
-    status: "ONGOING"
-  }
+    href: "/personal/wiktoriomat",
+    title: "WIKTORIOMAT",
+    subtitle: "A presidential phone booth.",
+    meta: "2024–2026 · Bunkier Sztuki, Kraków",
+    desc: "Interactive installation where visitors hold private conversations with Wiktoria Cukt 2.0, the AI President. 839+ recorded conversations at the Kraków AI Art Biennale.",
+    scramble: ["Wiktoriomat", "I do not represent. I process. And update."],
+  },
 ];
 ---
 
@@ -44,7 +61,7 @@ const projects = [
   <meta name="robots" content="noindex, nofollow" />
   <title>ASCII Mockup — Project Cards</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
 
     :root {
       --red: #da4444;
@@ -55,395 +72,221 @@ const projects = [
       --bg: #0a0a0a;
       --bg-lighter: #111111;
       --border: #222222;
-      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
-      --space-xs: 0.25rem;
-      --space-sm: 0.5rem;
-      --space-md: 1rem;
-      --space-lg: 2rem;
-      --space-xl: 4rem;
+      --font-mono: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body { overflow-x: hidden; max-width: 100%; }
 
     body {
       font-family: var(--font-mono);
       background: var(--bg);
       color: var(--white);
-      line-height: 1.6;
-      font-size: clamp(14px, 3.5vw, 16px);
-      -webkit-font-smoothing: antialiased;
-      padding: var(--space-lg);
+      line-height: 1.55;
+      font-size: 16px;
+      padding: 0 0 40px;
+    }
+
+    .mockup-banner {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: var(--red);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: center;
     }
 
     .container {
-      max-width: 1200px;
+      max-width: 1100px;
       margin: 0 auto;
+      padding: 16px 16px 0;
     }
 
     h1 {
-      font-size: clamp(1.5rem, 6vw, 2.5rem);
+      font-size: clamp(1.25rem, 5vw, 2rem);
       letter-spacing: 0.05em;
       color: var(--red);
-      margin-bottom: var(--space-sm);
-      text-transform: uppercase;
+      margin-bottom: 8px;
     }
 
     .page-desc {
-      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
+      font-size: 16px;
       color: var(--white-dim);
-      margin-bottom: var(--space-xl);
+      margin-bottom: 16px;
       max-width: 65ch;
     }
 
-    /* Single Project Card (Hero) */
-    .project-hero {
-      margin-bottom: var(--space-xl);
-      padding-bottom: var(--space-xl);
-      border-bottom: 2px solid var(--border);
+    .section-title {
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      color: var(--red);
+      margin: 0 0 10px;
     }
 
-    .ascii-project-card {
+    .hero-card,
+    .grid-card {
       display: block;
-      border: 2px solid var(--border);
+      border: 1px solid var(--border);
       background: var(--bg-lighter);
-      padding: var(--space-lg);
-      transition: all 0.3s;
+      padding: 14px;
       text-decoration: none;
       color: var(--white);
       position: relative;
-      overflow: hidden;
     }
 
-    .ascii-project-card:hover {
+    .hero-card:hover,
+    .grid-card:hover {
       border-color: var(--red);
-      background: rgba(218, 68, 68, 0.05);
-      transform: translateY(-2px);
-    }
-
-    .ascii-project-card::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: repeating-linear-gradient(
-        90deg,
-        var(--red) 0,
-        var(--red) 4px,
-        transparent 4px,
-        transparent 8px
-      );
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .ascii-project-card:hover::before {
-      opacity: 1;
-    }
-
-    /* Box drawing ornament */
-    .ascii-ornament {
-      font-size: clamp(8px, 2vw, 10px);
-      color: var(--border);
-      letter-spacing: -0.05em;
-      line-height: 1;
-      margin-bottom: var(--space-sm);
-      white-space: pre;
-      overflow: hidden;
-      font-family: var(--font-mono);
-    }
-
-    .project-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: var(--space-md);
-      margin-bottom: var(--space-md);
-      flex-wrap: wrap;
-    }
-
-    .project-status {
-      font-size: clamp(0.6rem, 2vw, 0.7rem);
-      letter-spacing: 0.15em;
-      color: var(--green);
-      border: 1px solid var(--green);
-      padding: 2px 8px;
-      white-space: nowrap;
-      min-height: 24px;
-      display: flex;
-      align-items: center;
-    }
-
-    .project-title {
-      font-size: clamp(1.3rem, 5vw, 2rem);
-      font-weight: 800;
-      letter-spacing: 0.05em;
       color: var(--white);
-      line-height: 1.1;
-      margin-bottom: var(--space-xs);
-      transition: color 0.3s;
     }
 
-    .ascii-project-card:hover .project-title {
+    .ascii-fit {
+      overflow: hidden;
+      max-width: 100%;
+      color: var(--red);
+      margin: 0 0 8px;
+    }
+
+    .ascii-fit :global(.ascii-piece) {
+      margin: 0;
+      max-width: 100%;
+      overflow: hidden;
+      font-size: clamp(5px, 1.5vw, 10px);
+      line-height: 1.12;
+      white-space: pre;
+      font-family: var(--font-mono);
       color: var(--red);
     }
 
+    .ascii-fit.compact :global(.ascii-piece) {
+      font-size: clamp(5px, 2vw, 9px);
+      color: var(--green);
+    }
+
+    @media (max-width: 430px) {
+      .ascii-fit :global(.ascii-piece) { font-size: clamp(4px, 2.15vw, 8px); }
+    }
+
+    .project-title {
+      font-size: clamp(1.15rem, 4.5vw, 1.75rem);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      line-height: 1.15;
+      margin-bottom: 4px;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-card:hover .project-title { color: var(--red); }
+
     .project-subtitle {
-      font-size: clamp(0.85rem, 3vw, 1rem);
+      font-size: 14px;
       font-weight: 700;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
       color: var(--white-dim);
-      margin-bottom: var(--space-sm);
+      margin-bottom: 6px;
     }
 
     .project-meta {
-      font-size: clamp(0.7rem, 2.5vw, 0.8rem);
+      font-size: 13px;
       color: var(--white-dim);
-      margin-bottom: var(--space-md);
-      letter-spacing: 0.05em;
+      margin-bottom: 8px;
     }
 
     .project-desc {
-      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
-      line-height: 1.7;
+      font-size: 16px;
+      line-height: 1.6;
       color: var(--white-dim);
-      margin-bottom: var(--space-md);
+      margin-bottom: 10px;
+      max-width: none;
     }
 
     .project-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: var(--space-xs);
+      gap: 6px;
     }
 
     .tag {
-      font-size: clamp(0.6rem, 2vw, 0.7rem);
-      letter-spacing: 0.1em;
-      padding: 2px 8px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      padding: 4px 8px;
       border: 1px solid var(--red-dim);
       color: var(--red);
-      background: rgba(218, 68, 68, 0.05);
-      transition: all 0.2s;
-      min-height: 24px;
-      display: flex;
+      min-height: 28px;
+      display: inline-flex;
       align-items: center;
     }
 
-    .ascii-project-card:hover .tag {
-      border-color: var(--red);
-      background: rgba(218, 68, 68, 0.1);
-    }
-
-    /* Grid of Cards */
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
-      gap: var(--space-lg);
+      grid-template-columns: 1fr;
+      gap: 12px;
     }
 
-    @media (min-width: 768px) {
-      .projects-grid {
-        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      }
+    @media (min-width: 720px) {
+      .projects-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
 
-    .grid-card {
-      display: block;
-      border: 2px solid var(--border);
-      padding: var(--space-lg);
-      transition: all 0.3s;
-      text-decoration: none;
-      color: var(--white);
-      background: var(--bg-lighter);
-      position: relative;
-    }
+    .grid-card .project-title { font-size: clamp(1rem, 3.5vw, 1.2rem); }
+    .grid-card .project-desc { font-size: 16px; margin-bottom: 0; padding-right: 0; }
+    .grid-card::after { content: none; }
 
-    .grid-card:hover {
-      border-color: var(--red);
-      background: rgba(218, 68, 68, 0.05);
-    }
-
-    .grid-card::after {
-      content: "→";
-      position: absolute;
-      bottom: var(--space-md);
-      right: var(--space-md);
-      font-size: 1.5rem;
-      color: var(--border);
-      transition: all 0.3s;
-    }
-
-    .grid-card:hover::after {
+    .enter {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
       color: var(--red);
-      transform: translateX(4px);
-    }
-
-    .grid-card .project-title {
-      font-size: clamp(1.1rem, 4vw, 1.3rem);
-      margin-bottom: var(--space-sm);
-    }
-
-    .grid-card .project-desc {
-      font-size: clamp(0.75rem, 2.5vw, 0.85rem);
-      margin-bottom: var(--space-lg);
-    }
-
-    /* Section divider */
-    .section-divider {
-      border: none;
-      border-top: 2px solid var(--border);
-      margin: var(--space-xl) 0;
-      position: relative;
-    }
-
-    .section-divider::before {
-      content: "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓";
-      position: absolute;
-      top: -10px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--bg);
-      padding: 0 var(--space-md);
-      color: var(--border);
-      font-size: clamp(8px, 2vw, 10px);
-      letter-spacing: -0.05em;
-    }
-
-    .section-title {
-      font-size: clamp(1.2rem, 4.5vw, 1.5rem);
-      letter-spacing: 0.1em;
-      color: var(--red);
-      margin-bottom: var(--space-lg);
-      text-transform: uppercase;
-    }
-
-    /* Accessibility */
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border-width: 0;
     }
   </style>
 </head>
 <body>
+  <div class="mockup-banner">DRAFT MOCKUP — NOT LINKED FROM THE SITE — DO NOT MERGE</div>
   <div class="container">
     <h1>ASCII PROJECT CARDS</h1>
     <p class="page-desc">
-      Mockup of project cards in ASCII aesthetic: monospace typography, box-drawing ornaments, 
-      terminal-style status indicators. Mobile-responsive and accessible.
+      Mockup of one Technopera card and a three-card listing in the ascii.rest look.
+      Copy is taken from existing pages; this route is noindex.
     </p>
 
-    <!-- Single Hero Card -->
-    <section class="project-hero">
-      <h2 class="section-title">Single Card (Hero)</h2>
-      <a href="/technopera" class="ascii-project-card">
-        <div class="ascii-ornament">╔═══════════════════════════════════════════════════════════╗</div>
-        
-        <div class="project-header">
-          <div>
-            <h3 class="project-title">{projects[0].title}</h3>
-            <div class="project-subtitle">{projects[0].subtitle}</div>
-          </div>
-          <span class="project-status">{projects[0].status}</span>
+    <section>
+      <h2 class="section-title">SINGLE CARD</h2>
+      <a href={technopera.href} class="hero-card">
+        <div class="ascii-fit" aria-hidden="true">
+          <AsciiPiece piece="big-text" options={{ text: "TECHNOPERA" }} label="TECHNOPERA in ASCII block letters" />
         </div>
-        
-        <div class="project-meta">{projects[0].meta}</div>
-        
-        <p class="project-desc">{projects[0].desc}</p>
-        
+        <h3 class="project-title">{technopera.title}</h3>
+        <div class="project-subtitle">{technopera.subtitle}</div>
+        <div class="project-meta">{technopera.meta}</div>
+        <p class="project-desc">{technopera.desc}</p>
         <div class="project-tags">
-          {projects[0].tags.map(tag => (
-            <span class="tag">{tag}</span>
-          ))}
+          {technopera.tags.map((tag) => <span class="tag">{tag}</span>)}
         </div>
-        
-        <div class="ascii-ornament">╚═══════════════════════════════════════════════════════════╝</div>
+        <span class="enter">OPEN →</span>
       </a>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- Grid of Cards -->
-    <section>
-      <h2 class="section-title">Project Grid</h2>
+    <section style="margin-top: 20px;">
+      <h2 class="section-title">THREE-CARD GRID</h2>
       <div class="projects-grid">
-        {projects.map(project => (
-          <a href={`/${project.id}`} class="grid-card">
-            <div class="project-header">
-              <div>
-                <h3 class="project-title">{project.title}</h3>
-                <div class="project-subtitle">{project.subtitle}</div>
-              </div>
-              <span class="project-status">{project.status}</span>
+        {cards.map((project) => (
+          <a href={project.href} class="grid-card">
+            <div class="ascii-fit compact" aria-hidden="true">
+              <AsciiPiece piece="scramble" options={{ phrases: project.scramble }} label={`ASCII scramble for ${project.title}`} />
             </div>
-            
+            <h3 class="project-title">{project.title}</h3>
+            <div class="project-subtitle">{project.subtitle}</div>
             <div class="project-meta">{project.meta}</div>
-            
             <p class="project-desc">{project.desc}</p>
-            
-            <div class="project-tags">
-              {project.tags.map(tag => (
-                <span class="tag">{tag}</span>
-              ))}
-            </div>
+            <span class="enter">OPEN →</span>
           </a>
         ))}
       </div>
     </section>
   </div>
-
-  <script>
-    // Add subtle scan line animation to cards on hover (respecting prefers-reduced-motion)
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    
-    if (!prefersReducedMotion) {
-      const cards = document.querySelectorAll('.ascii-project-card, .grid-card');
-      
-      cards.forEach(card => {
-        card.addEventListener('mouseenter', function() {
-          // Subtle glitch effect on title
-          const title = this.querySelector('.project-title');
-          if (title) {
-            const originalText = title.textContent;
-            let glitchCount = 0;
-            const glitchChars = '█▓▒░';
-            
-            const glitchInterval = setInterval(() => {
-              if (glitchCount > 2) {
-                title.textContent = originalText;
-                clearInterval(glitchInterval);
-                return;
-              }
-              
-              // Replace random characters
-              const chars = originalText.split('');
-              const randomIndex = Math.floor(Math.random() * chars.length);
-              chars[randomIndex] = glitchChars[Math.floor(Math.random() * glitchChars.length)];
-              title.textContent = chars.join('');
-              
-              glitchCount++;
-            }, 50);
-            
-            // Clean up after 200ms
-            setTimeout(() => {
-              title.textContent = originalText;
-              clearInterval(glitchInterval);
-            }, 200);
-          }
-        });
-      });
-    }
-  </script>
 </body>
 </html>

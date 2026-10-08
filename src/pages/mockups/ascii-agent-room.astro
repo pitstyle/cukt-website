@@ -1,23 +1,35 @@
 ---
 /*
   MOCKUP ONLY — DO NOT MERGE
-  ASCII aesthetic for Wiktoria Cukt 2.0 agent room
-  Mobile-first, accessible, performant
+  ASCII aesthetic for the Wiktoria Cukt 2.0 agent room.
+
+  ascii.rest@0.2.1 cannot convert a photograph to ASCII (it ships 215
+  pre-authored "pieces"). Portrait: local canvas → <pre> renderer.
+  Titles / scramble: ascii.rest Astro component.
+
+  ascii.rest is MIT License, Copyright (c) 2026 bas3line
+  (https://github.com/bas3line). The copyright notice and permission
+  notice from that LICENSE must be included with copies of the Software.
+
+  Agent copy: src/pages/agents/[id].astro (wiktoria) and
+  src/pages/agents/index.astro.
+  Portrait: /uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg
+  (also on src/content/cukt/wiktoria-cukt.md).
 */
+
+import AsciiPiece from "../../components/mockups/AsciiPiece.astro";
 
 const agent = {
   id: "wiktoria",
   name: "WIKTORIA CUKT 2.0",
-  namePl: "WIKTORIA CUKT 2.0",
   role: "AI PRESIDENT · ANALYST",
-  rolePl: "AI PREZYDENTKA · ANALITYCZKA",
   emoji: "🏛️",
   profile: "/uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg",
+  profileAlt: "Wiktoria Cukt 2.0 — campaign portrait",
   desc: "AI-generated president of the institution. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees.",
-  descPl: "Wygenerowana przez AI prezydentka instytucji. Doktryna Habeas Mentem — prawo do suwerenności poznawczej. Analizuje struktury władzy, kontroluje narrację, wydaje dekrety.",
   quote: "\"Who controls the taxonomy controls the memory.\"",
-  quotePl: "\"Kto kontroluje taksonomię, kontroluje pamięć.\"",
-  color: "#ccaa00"
+  greeting: "Wiktoria Cukt 2.0, protokół. State your business.",
+  chatNote: "The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.",
 };
 ---
 
@@ -29,7 +41,7 @@ const agent = {
   <meta name="robots" content="noindex, nofollow" />
   <title>ASCII Mockup — {agent.name} Room</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
 
     :root {
       --red: #da4444;
@@ -39,19 +51,15 @@ const agent = {
       --bg: #0a0a0a;
       --bg-lighter: #111111;
       --border: #222222;
-      --agent-color: {agent.color};
-      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
-      --space-xs: 0.25rem;
-      --space-sm: 0.5rem;
-      --space-md: 1rem;
-      --space-lg: 2rem;
-      --space-xl: 4rem;
+      --agent-color: #ccaa00;
+      --font-mono: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      overflow-x: hidden;
+      max-width: 100%;
     }
 
     body {
@@ -59,257 +67,187 @@ const agent = {
       background: var(--bg);
       color: var(--white);
       line-height: 1.6;
-      font-size: clamp(14px, 3.5vw, 16px);
+      font-size: 16px;
       -webkit-font-smoothing: antialiased;
     }
 
     .container {
-      max-width: 1200px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 0 clamp(1rem, 4vw, 2rem);
+      padding: 0 16px 48px;
     }
 
-    /* ASCII Box Frame */
-    .ascii-box {
-      border: 2px solid var(--border);
-      border-image: repeating-linear-gradient(
-        90deg,
-        var(--border) 0,
-        var(--border) 8px,
-        transparent 8px,
-        transparent 16px
-      ) 2;
-      padding: var(--space-lg);
-      margin: var(--space-lg) 0;
-      position: relative;
-      background: rgba(17, 17, 17, 0.5);
+    .mockup-banner {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: var(--red);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: center;
     }
 
-    .ascii-box::before {
-      content: "╔═══════════════════════════════════════════════════════════════╗";
-      position: absolute;
-      top: -1px;
-      left: 0;
-      right: 0;
-      font-size: clamp(6px, 1.5vw, 10px);
-      letter-spacing: -0.05em;
-      color: var(--border);
-      white-space: nowrap;
-      overflow: hidden;
-      pointer-events: none;
-      opacity: 0.6;
-    }
-
-    .ascii-box::after {
-      content: "╚═══════════════════════════════════════════════════════════════╝";
-      position: absolute;
-      bottom: -1px;
-      left: 0;
-      right: 0;
-      font-size: clamp(6px, 1.5vw, 10px);
-      letter-spacing: -0.05em;
-      color: var(--border);
-      white-space: nowrap;
-      overflow: hidden;
-      pointer-events: none;
-      opacity: 0.6;
-    }
-
-    /* Back link */
     .back-link {
-      display: inline-block;
-      font-size: 0.75rem;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      font-size: 14px;
       letter-spacing: 0.1em;
       color: var(--white-dim);
-      margin: var(--space-lg) 0;
-      padding: var(--space-sm) var(--space-md);
+      margin: 16px 0;
+      padding: 10px 14px;
       border: 1px solid var(--border);
-      transition: all 0.2s;
     }
 
-    .back-link:hover {
-      color: var(--white);
-      border-color: var(--red);
+    .back-link:hover { color: var(--white); border-color: var(--red); }
+
+    .ascii-box {
+      border: 1px solid var(--border);
+      padding: 16px;
+      background: var(--bg-lighter);
     }
 
-    /* Portrait Section */
     .portrait-section {
       display: grid;
       grid-template-columns: 1fr;
-      gap: var(--space-lg);
-      margin-bottom: var(--space-xl);
+      gap: 16px;
     }
 
     @media (min-width: 768px) {
-      .portrait-section {
-        grid-template-columns: 1fr 1fr;
-      }
+      .portrait-section { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
     }
 
-    .ascii-portrait-wrapper {
+    .ascii-portrait-wrap {
       position: relative;
-      background: var(--bg-lighter);
       border: 1px solid var(--border);
-      padding: var(--space-md);
+      background: #000;
+      overflow: hidden;
+      min-height: 220px;
     }
 
     .ascii-portrait {
-      width: 100%;
-      height: auto;
-      display: block;
-      filter: contrast(1.2) brightness(0.9);
-      image-rendering: pixelated;
+      margin: 0;
+      font-family: var(--font-mono);
+      font-size: clamp(4px, 1.7vw, 8px);
+      line-height: 1;
+      letter-spacing: 0;
+      white-space: pre;
+      overflow: hidden;
+      color: var(--agent-color);
+      padding: 8px;
+      max-width: 100%;
     }
 
-    /* Scan line animation */
+    @media (max-width: 430px) {
+      .ascii-portrait { font-size: clamp(4px, 2.15vw, 7px); }
+    }
+
     @keyframes scan {
-      0%, 100% { transform: translateY(-100%); }
-      50% { transform: translateY(100%); }
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
     }
 
-    .ascii-portrait-wrapper::after {
+    .ascii-portrait-wrap::after {
       content: "";
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, transparent, var(--green), transparent);
-      animation: scan 8s ease-in-out infinite;
+      inset: 0 auto auto 0;
+      width: 100%;
+      height: 18%;
+      background: linear-gradient(180deg, transparent, rgba(0, 204, 0, 0.12), transparent);
+      animation: scan 7s linear infinite;
       pointer-events: none;
-      opacity: 0.3;
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .ascii-portrait-wrapper::after {
-        animation: none;
-        display: none;
-      }
-    }
-
-    /* Agent Info */
-    .agent-info {
-      display: flex;
-      flex-direction: column;
-      gap: var(--space-md);
+      .ascii-portrait-wrap::after { animation: none; display: none; }
     }
 
     .agent-header {
       border-bottom: 2px solid var(--agent-color);
-      padding-bottom: var(--space-sm);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
     }
 
-    .agent-emoji {
-      font-size: clamp(2rem, 8vw, 3rem);
-      display: block;
-      margin-bottom: var(--space-sm);
-    }
+    .agent-emoji { font-size: 2rem; display: block; margin-bottom: 8px; }
 
     .agent-name {
-      font-size: clamp(1.5rem, 6vw, 2.5rem);
+      font-size: clamp(1.35rem, 5.5vw, 2.25rem);
       font-weight: 800;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
       color: var(--agent-color);
       line-height: 1.1;
-      word-break: break-word;
+      overflow-wrap: anywhere;
     }
 
     .agent-role {
-      font-size: clamp(0.7rem, 2.5vw, 0.85rem);
-      letter-spacing: 0.15em;
+      font-size: 13px;
+      letter-spacing: 0.14em;
       color: var(--green);
-      margin-top: var(--space-xs);
+      margin-top: 6px;
     }
 
     .agent-desc {
-      font-size: clamp(0.85rem, 3vw, 0.95rem);
+      font-size: 16px;
       line-height: 1.7;
       color: var(--white-dim);
+      margin: 12px 0;
+      max-width: none;
     }
 
     .agent-quote {
       border-left: 3px solid var(--agent-color);
-      padding-left: var(--space-md);
+      padding-left: 12px;
       font-style: italic;
       color: var(--white);
-      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
-      line-height: 1.6;
+      font-size: 16px;
     }
 
-    /* Terminal Stats */
-    .terminal-stats {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: var(--space-md);
+    .ascii-fit {
+      overflow: hidden;
+      max-width: 100%;
+      margin: 16px 0;
+      color: var(--green);
+    }
+
+    .ascii-fit :global(.ascii-piece) {
+      margin: 0;
+      max-width: 100%;
+      overflow: hidden;
+      font-size: clamp(5px, 1.55vw, 10px);
+      line-height: 1.15;
+      white-space: pre;
       font-family: var(--font-mono);
-      font-size: clamp(0.7rem, 2.5vw, 0.8rem);
       color: var(--green);
-      padding: var(--space-md);
-      background: var(--bg-lighter);
-      border: 1px solid var(--border);
-      margin-bottom: var(--space-xl);
     }
 
-    .stat-item {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
+    @media (max-width: 430px) {
+      .ascii-fit :global(.ascii-piece) { font-size: clamp(4px, 2.2vw, 8px); }
     }
 
-    .stat-label {
-      color: var(--white-dim);
-      font-size: 0.7em;
-      letter-spacing: 0.1em;
-    }
-
-    .stat-value {
-      color: var(--green);
-      font-weight: 700;
-    }
-
-    /* Chat Interface */
     .chat-container {
-      border: 2px solid var(--border);
-      max-width: 900px;
-      margin: 0 auto;
+      border: 1px solid var(--border);
+      margin-top: 16px;
     }
 
     .chat-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: var(--space-md) var(--space-lg);
-      border-bottom: 2px solid var(--border);
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
       background: var(--bg-lighter);
-      font-size: clamp(0.7rem, 2.5vw, 0.8rem);
+      font-size: 13px;
     }
 
-    .chat-status {
-      color: var(--green);
-      letter-spacing: 0.1em;
-    }
+    .chat-status { color: var(--green); letter-spacing: 0.1em; }
+    .chat-label { color: var(--white-dim); letter-spacing: 0.08em; }
 
-    .chat-label {
-      color: var(--white-dim);
-      letter-spacing: 0.1em;
-    }
-
-    .chat-messages {
-      min-height: 300px;
-      max-height: 500px;
-      overflow-y: auto;
-      padding: var(--space-lg);
-      scrollbar-width: thin;
-      scrollbar-color: var(--border) var(--bg);
-    }
-
-    .msg {
-      margin-bottom: var(--space-lg);
-    }
+    .chat-messages { min-height: 180px; padding: 16px; }
 
     .msg-name {
       display: block;
-      font-size: clamp(0.65rem, 2.2vw, 0.75rem);
+      font-size: 12px;
       letter-spacing: 0.1em;
       color: var(--green);
       margin-bottom: 8px;
@@ -318,72 +256,52 @@ const agent = {
       border-bottom: 1px solid var(--border);
     }
 
-    .user-msg .msg-name {
-      color: var(--red);
-    }
-
     .msg-text {
-      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
+      font-size: 16px;
       line-height: 1.7;
-      color: var(--white);
-      display: block;
-    }
-
-    .agent-msg .msg-text {
       color: var(--white-dim);
     }
 
     .chat-input {
       display: flex;
-      border-top: 2px solid var(--border);
+      border-top: 1px solid var(--border);
     }
 
     .chat-input input {
       flex: 1;
+      min-width: 0;
+      min-height: 44px;
       background: var(--bg);
       border: none;
       color: var(--white);
       font-family: var(--font-mono);
-      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
-      padding: var(--space-md) var(--space-lg);
+      font-size: 16px;
+      padding: 12px 16px;
       outline: none;
-      min-width: 0;
-    }
-
-    .chat-input input::placeholder {
-      color: var(--border);
     }
 
     .chat-input button {
+      min-width: 72px;
+      min-height: 44px;
       background: var(--bg-lighter);
       border: none;
-      border-left: 2px solid var(--border);
+      border-left: 1px solid var(--border);
       color: var(--red);
       font-family: var(--font-mono);
-      font-size: clamp(0.75rem, 2.5vw, 0.85rem);
+      font-size: 14px;
       font-weight: 700;
       letter-spacing: 0.1em;
-      padding: var(--space-md) var(--space-lg);
+      padding: 12px 16px;
       cursor: pointer;
-      transition: all 0.2s;
-      min-width: 80px;
-      min-height: 44px;
-    }
-
-    .chat-input button:hover {
-      background: var(--red);
-      color: var(--white);
     }
 
     .chat-note {
-      padding: var(--space-sm) var(--space-lg);
-      font-size: clamp(0.6rem, 2vw, 0.7rem);
-      color: var(--border);
-      letter-spacing: 0.05em;
+      padding: 8px 16px;
+      font-size: 12px;
+      color: #555;
       border-top: 1px solid var(--border);
     }
 
-    /* Accessibility */
     .sr-only {
       position: absolute;
       width: 1px;
@@ -393,60 +311,51 @@ const agent = {
       overflow: hidden;
       clip: rect(0, 0, 0, 0);
       white-space: nowrap;
-      border-width: 0;
-    }
-
-    /* Canvas ASCII Art */
-    #ascii-canvas {
-      width: 100%;
-      height: auto;
-      display: block;
-      image-rendering: pixelated;
+      border: 0;
     }
   </style>
 </head>
 <body>
+  <div class="mockup-banner">DRAFT MOCKUP — NOT LINKED FROM THE SITE — DO NOT MERGE</div>
   <div class="container">
     <a href="/agents" class="back-link">← ALL AGENTS</a>
 
+    <div class="ascii-fit" aria-hidden="true">
+      <AsciiPiece piece="big-text" options={{ text: "WIKTORIA" }} label="Wiktoria Cukt 2.0 in ASCII block letters" />
+    </div>
+
     <div class="ascii-box">
       <div class="portrait-section">
-        <div class="ascii-portrait-wrapper">
-          <canvas id="ascii-canvas" aria-hidden="true"></canvas>
-          <span class="sr-only">ASCII art portrait of {agent.name}</span>
+        <div class="ascii-portrait-wrap">
+          <img
+            id="portrait-src"
+            class="sr-only"
+            src={agent.profile}
+            alt={agent.profileAlt}
+            width="400"
+            height="600"
+          />
+          <pre id="ascii-portrait" class="ascii-portrait" aria-hidden="true">loading portrait…</pre>
         </div>
-        
-        <div class="agent-info">
+
+        <div>
           <div class="agent-header">
             <span class="agent-emoji">{agent.emoji}</span>
             <h1 class="agent-name">{agent.name}</h1>
             <div class="agent-role">{agent.role}</div>
           </div>
-          
           <p class="agent-desc">{agent.desc}</p>
-          
           <blockquote class="agent-quote">{agent.quote}</blockquote>
         </div>
       </div>
     </div>
 
-    <div class="terminal-stats">
-      <div class="stat-item">
-        <span class="stat-label">STATUS</span>
-        <span class="stat-value">● ONLINE</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-label">MEMORY</span>
-        <span class="stat-value">HERMES</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-label">SESSIONS</span>
-        <span class="stat-value">1,247</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-label">UPTIME</span>
-        <span class="stat-value">99.2%</span>
-      </div>
+    <div class="ascii-fit" aria-hidden="true">
+      <AsciiPiece
+        piece="scramble"
+        options={{ phrases: ["Who controls the taxonomy controls the memory.", "Habeas Mentem", "Wiktoria Cukt 2.0"] }}
+        label="Animated scramble of Wiktoria Cukt 2.0 quotes"
+      />
     </div>
 
     <div class="chat-container">
@@ -455,92 +364,79 @@ const agent = {
         <span class="chat-label">TALKING TO {agent.name}</span>
       </div>
       <div class="chat-messages">
-        <div class="msg agent-msg">
+        <div class="msg">
           <span class="msg-name">{agent.emoji} {agent.name}</span>
-          <span class="msg-text">Wiktoria Cukt 2.0, protokół. State your business.</span>
+          <span class="msg-text">{agent.greeting}</span>
         </div>
       </div>
       <form class="chat-input">
         <input type="text" placeholder="Type your message..." autocomplete="off" aria-label="Message input" />
         <button type="submit">SEND</button>
       </form>
-      <div class="chat-note">The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.</div>
+      <div class="chat-note">{agent.chatNote}</div>
     </div>
   </div>
 
   <script>
-    // Simple ASCII art renderer for portrait
-    const canvas = document.getElementById('ascii-canvas');
-    const ctx = canvas.getContext('2d');
-    const img = new Image();
-    
-    img.crossOrigin = 'anonymous';
-    img.src = '{agent.profile}';
-    
-    // ASCII characters from dark to light
-    const ASCII_CHARS = ' .:-=+*#%@';
-    
-    img.onload = function() {
-      // Set canvas size (responsive)
-      const maxWidth = Math.min(400, window.innerWidth - 64);
-      const aspectRatio = img.height / img.width;
-      canvas.width = maxWidth;
-      canvas.height = maxWidth * aspectRatio;
-      
-      // Draw image
-      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-      
-      // Get image data
-      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      
-      // Clear canvas
-      ctx.fillStyle = '#111111';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      
-      // Set font for ASCII
-      const fontSize = Math.max(4, Math.floor(canvas.width / 60));
-      ctx.font = `${fontSize}px 'JetBrains Mono', monospace`;
-      ctx.textBaseline = 'top';
-      
-      // Convert to ASCII
-      const charWidth = fontSize * 0.6;
-      const charHeight = fontSize;
-      
-      for (let y = 0; y < canvas.height; y += charHeight) {
-        for (let x = 0; x < canvas.width; x += charWidth) {
-          const pixelIndex = (Math.floor(y) * canvas.width + Math.floor(x)) * 4;
-          const r = imageData.data[pixelIndex];
-          const g = imageData.data[pixelIndex + 1];
-          const b = imageData.data[pixelIndex + 2];
-          
-          // Calculate brightness
-          const brightness = (r + g + b) / 3;
-          
-          // Map to ASCII character
-          const charIndex = Math.floor((brightness / 255) * (ASCII_CHARS.length - 1));
-          const char = ASCII_CHARS[charIndex];
-          
-          // Draw character with color gradient
-          const hue = 50; // Yellow-ish for Wiktoria
-          const saturation = Math.floor(30 + (brightness / 255) * 20);
-          const lightness = Math.floor(20 + (brightness / 255) * 60);
-          ctx.fillStyle = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
-          ctx.fillText(char, x, y);
+    const RAMP = " .:-=+*#%@";
+    const pre = document.getElementById("ascii-portrait");
+    const img = document.getElementById("portrait-src");
+    const wrap = pre?.parentElement;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function toAscii(source, cols, t) {
+      const canvas = document.createElement("canvas");
+      const ctx = canvas.getContext("2d", { willReadFrequently: true });
+      if (!ctx) return "";
+      const aspect = source.naturalHeight / source.naturalWidth;
+      const rows = Math.max(12, Math.round(cols * aspect * 0.48));
+      canvas.width = cols;
+      canvas.height = rows;
+      ctx.drawImage(source, 0, 0, cols, rows);
+      const { data } = ctx.getImageData(0, 0, cols, rows);
+      const scanRow = reduce ? -1 : Math.floor(((t * 0.35) % 1) * rows);
+      let out = "";
+      for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+          const i = (y * cols + x) * 4;
+          let bright = (data[i] + data[i + 1] + data[i + 2]) / 3;
+          if (y === scanRow) bright = Math.min(255, bright + 70);
+          const idx = Math.min(RAMP.length - 1, Math.floor((bright / 255) * (RAMP.length - 1)));
+          out += RAMP[idx];
         }
+        if (y < rows - 1) out += "\n";
       }
-    };
-    
-    img.onerror = function() {
-      // Fallback: draw a simple ASCII pattern
-      ctx.fillStyle = '#111111';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = '#ccaa00';
-      ctx.font = '14px JetBrains Mono';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText('WIKTORIA CUKT 2.0', canvas.width / 2, canvas.height / 2);
-      ctx.fillText('AI PRESIDENT', canvas.width / 2, canvas.height / 2 + 20);
-    };
+      return out;
+    }
+
+    function colsForWidth() {
+      const w = wrap?.clientWidth || Math.min(window.innerWidth - 32, 520);
+      return Math.max(28, Math.min(72, Math.floor(w / 5.2)));
+    }
+
+    function draw(t = 0) {
+      if (!pre || !img || !img.naturalWidth) return;
+      pre.textContent = toAscii(img, colsForWidth(), t);
+    }
+
+    function start() {
+      draw(0);
+      if (reduce) return;
+      let startTime = 0;
+      const tick = (now) => {
+        if (!startTime) startTime = now;
+        draw((now - startTime) / 1000);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    }
+
+    if (img?.complete && img.naturalWidth) start();
+    else img?.addEventListener("load", start);
+
+    img?.addEventListener("error", () => {
+      if (pre) pre.textContent = "[portrait failed to load]";
+    });
   </script>
 </body>
 </html>

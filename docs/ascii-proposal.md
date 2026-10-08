@@ -1,224 +1,141 @@
 # ASCII Aesthetic Proposal — cukt.click
 
-**Status:** Mockup / Proposal Only  
-**Date:** October 8, 2026  
-**Author:** Cloud Agent
+**Status:** Mockup / proposal only. Do not merge.  
+**Date:** 8 October 2026  
+**Package tried:** `ascii.rest@0.2.1` (pinned exact)
 
 ---
 
-## License Verdict
+## License verdict
 
-The bas3line/ascii repository is licensed under the **MIT License** (Copyright © 2026 bas3line).
+**License name (quoted from the repo `LICENSE` file):** `MIT License`
 
-**Requirements:**
-- "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
-- This means if we use the library code, we must include the MIT license text and copyright notice.
+Copyright line: `Copyright (c) 2026 bas3line (https://github.com/bas3line)`
 
-**Verdict:** ✅ **The library is safe to use.** The MIT license is permissive and allows commercial use, modification, and distribution. Attribution is required only if we copy substantial portions of the code.
+Required notice, quoted:
 
----
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Recommended Approach
+**Where the attribution goes if we ship the library**
 
-**Use the `ascii.rest` npm package for production.**
+- Keep the MIT header in any copied source (already in `src/components/mockups/AsciiPiece.astro`).
+- Add a short `NOTICE` file at the repo root, or a “Third-party” paragraph in the existing about/credits copy, with: `ascii.rest © 2026 bas3line, MIT License`.
+- Do not put it only in a chat message. The notice has to travel with the Software.
 
-### Why This Approach?
-
-1. **Clean Integration**: The package has an Astro component (`ascii.rest/astro`) that server-renders the first frame, then animates client-side. Perfect for cukt.click's static site.
-
-2. **No External API Dependency**: Import pieces as ES modules, bundle them with the site. No runtime dependency on ascii.rest servers.
-
-3. **Small Bundle**: Text pieces are tiny (~1-2 KB each). Colored pieces (scenes, logos) are larger but lazy-loaded.
-
-4. **MIT Licensed**: Permissive, requires only attribution in source code.
-
-5. **Mobile-Optimized**: Works on small screens, respects `prefers-reduced-motion`, accessible.
-
-### For This Mockup
-
-The mockups use a **simple canvas-based ASCII renderer** written from scratch to avoid adding dependencies during the proposal phase. The production version should use `ascii.rest` for better quality and maintainability.
+ascii.rest is safe to use under MIT. It is not an image-to-ASCII converter.
 
 ---
 
-## What Rolling It Out Would Take
+## What ascii.rest actually is
 
-### Option A: All Agent Rooms
+It is a **client-side TypeScript library of 215 pre-authored animated pieces** (donut, big-text, scramble, night-coast, and so on). It is not a server API for converting photographs.
 
-**Scope:**
-- Convert portrait images to ASCII art using the library or canvas renderer
-- Add ASCII box-drawing frames around sections
-- Add terminal-style stats (STATUS, MEMORY, SESSIONS, UPTIME)
-- Preserve existing chat functionality
-- Keep mobile responsive (≥375px width, ≥16px body text, ≥44px tap targets)
-
-**Estimate:**
-- **Agent work:** 3-4 hours
-  - Update agent room template (`/agents/[id].astro`)
-  - Test on all 7 agent rooms
-  - Verify accessibility (screen readers, keyboard nav, contrast)
-  - Verify mobile usability (iPhone 13/14/15 sizes)
-  - Performance check (Lighthouse mobile score)
-- **Review:** 1 hour (Piotr to review aesthetic, usability, consistency)
-
-**Files Changed:**
-- `src/pages/agents/[id].astro` — main template
-- `src/styles/global.css` — possibly add `.ascii-box` utility
-- `package.json` — add `ascii.rest` if using the library
+- **npm:** `ascii.rest@0.2.1` — works in Astro.
+- **ascii.rest the website** can also load a script from `https://ascii.rest/ascii.js` and a 3 KB font from `https://ascii.rest/fonts/…`. That path is an external runtime dependency. We did **not** use it.
+- **No image input.** There is no “give me this JPG as ASCII” piece. Wiktoria’s portrait therefore uses a **small local canvas → `<pre>` renderer** in the mockup.
 
 ---
 
-### Option B: All Project Cards
+## Recommended approach
 
-**Scope:**
-- Add ASCII ornaments (box-drawing `╔═══╗` frames) to project cards
-- Style tags and status badges with terminal look
-- Add subtle hover effects (scan line, glitch)
-- Keep cards responsive and readable
-- Apply to project listing pages (`/personal`, `/archive`, home page cards)
-
-**Estimate:**
-- **Agent work:** 2-3 hours
-  - Update project card component or template
-  - Test on project listing pages
-  - Verify grid layout doesn't break
-  - Mobile responsive check
-  - Lighthouse score check
-- **Review:** 1 hour
-
-**Files Changed:**
-- `src/styles/global.css` — update `.project-card` styles
-- Possibly `src/components/ProjectCard.astro` if one exists
-- Templates that render project grids
+1. **Do not** load `https://ascii.rest/ascii.js` at runtime.
+2. **Do not** use `ascii.rest/astro` as-is for production. That helper imports the full piece catalog; this build then emitted **215 extra JS chunks (~808 KB uncompressed)** into `dist/_astro/` even when the page only needed two pieces.
+3. **Do** pin `ascii.rest@0.2.1` (or whatever version Piotr accepts) and **import only the pieces we use**, as the mockup does (`big-text`, `scramble`) via `src/components/mockups/AsciiPiece.astro`.
+4. **For portraits:** keep the local image-to-ASCII renderer (or pre-render ASCII at build time). ascii.rest cannot do this.
+5. Hold first frame when `prefers-reduced-motion: reduce` is set. ascii.rest’s `mount()` already does this; the portrait renderer does too.
 
 ---
 
-### Both Options (Agent Rooms + Project Cards)
+## Measured bundle size (this build)
 
-**Total Estimate:**
-- **Agent work:** 5-7 hours
-- **Review:** 2 hours
-- **Total:** 7-9 hours
+From `npm run build` output on this branch, files actually referenced by the mockup pages:
+
+| File | Raw | gzip |
+| --- | ---: | ---: |
+| `dist/_astro/AsciiPiece.astro_astro_type_script_index_0_lang.DlWIegUS.js` (mount + `big-text` + `scramble`) | **7,717 bytes** | **3,797 bytes** |
+| Inline portrait renderer on `/mockups/ascii-agent-room` | ~1.6 KB in the HTML | — |
+| Wiktoria portrait JPG (already on the site) | 13 KB | — |
+
+Contrast, if we had used `import Ascii from "ascii.rest/astro"`:
+
+- Runtime JS still ~18 KB gzip ~7 KB, then lazy-loads one piece at a time.
+- **Vite still wrote every piece into `dist/` (~808 KB, 208 JS files).** Those files would go live on Render even if the browser never requested them.
+
+Mobile Safari cost of the recommended path: about **4 KB gzip of JS** plus the existing JetBrains Mono font the mockup already loads from Google Fonts. No ascii.rest font request.
+
+---
+
+## Content sources (nothing invented)
+
+Removed the fake stats row (`Sessions 1,247`, `Uptime 99.2%`). Those numbers are not on the live agent rooms.
+
+| Mockup text | Source |
+| --- | --- |
+| Wiktoria name, role, description, quote, greeting, chat chrome | `src/pages/agents/[id].astro` (`wiktoria`) |
+| Portrait file | `/uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg` (also `src/content/cukt/wiktoria-cukt.md`) |
+| `TECHNOPERA 2026` title | `src/pages/technopera.astro` (`<h1 class="hero-title">`) |
+| `AUTHORITY. KNOWLEDGE. SEAL.` | `src/pages/technopera.astro` (`.triad-primary`) |
+| `Premiered 4.10.2026 · MEDIATEKA, Tychy · Available for touring` | `src/pages/technopera.astro` hero meta when `TECHNOPERA_POST_PREMIERE` is true (`src/data/technopera.ts`) |
+| `MEDIATEKA · Tychy · 4.10.2026` | same file, `imageAlt` / page title `Technopera 2026 · Mediateka Tychy · 4.10` |
+| Technopera body sentence | `src/content/personal/technopera.md` |
+| Habeas Mentem card | `src/pages/habeas-mentem.astro` |
+| Wiktoriomat card | `src/content/personal/wiktoriomat.md` |
+
+---
+
+## Package maturity risk
+
+`ascii.rest` is **0.2.1**. First published recently. One maintainer (`@bas3line`). The public API, piece list, and Astro entry can still change without a 1.x contract. Pin the exact version. Re-test after any bump. Have a fallback (our own `<pre>` frames) if the package stalls.
+
+The Astro helper also injects `@font-face` pointing at `https://ascii.rest/fonts/ascii-rest-mono.woff2`. That is a third-party host. The mockup avoids it by using JetBrains Mono, which the site already uses.
+
+---
+
+## What a rollout would take (honest, includes a real iPhone)
+
+This cloud environment cannot tap a physical iPhone. Any estimate that skips that is incomplete. Safari on iOS is where monospace metrics, 100vh, and `clamp()` font sizes on 66-column ASCII actually break.
+
+**All agent rooms** (7 rooms, shared `[id].astro` template, portraits where a real image exists, chat kept as-is):
+
+- Agent work: **about 1 day** (layout, per-agent images, reduced-motion, contrast, noindex-off for production, wire `AsciiPiece` or equivalent).
+- Real iPhone pass (Safari, 375 and 390, VoiceOver, reduced motion, slow 4G): **2–3 hours**, on a physical phone, not Chrome device mode.
+- Piotr review: **1–2 hours**.
+
+**All project cards** (home/archive/personal listings):
+
+- Agent work: **about half a day to 1 day**.
+- Real iPhone pass on listing + inner pages: **2 hours**.
+- Piotr review: **1 hour**.
+
+**Both:** about **2 days of agent work**, plus **half a day of real-device testing**, plus **2–3 hours of review**. Not “3–4 hours.” The first mockup’s shorter number ignored iPhone Safari.
 
 ---
 
 ## Risks
 
-### 1. Performance on Mobile
-
-**Risk:** ASCII rendering (especially canvas-based) can be CPU-intensive on older phones.
-
-**Mitigation:**
-- Use static pre-rendered ASCII where possible
-- Lazy-load ASCII art (render on scroll or interaction)
-- Respect `prefers-reduced-motion` (show static first frame only)
-- Test on real devices (iPhone 13, Pixel 7)
-- Set performance budget: Lighthouse mobile score ≥85
-
-### 2. Accessibility
-
-**Risk:** ASCII art is decorative noise for screen readers.
-
-**Mitigation:**
-- Use `aria-hidden="true"` on ASCII art elements
-- Provide real alt text for portraits (e.g., "Portrait of Wiktoria Cukt 2.0")
-- Ensure all text content is readable by screen readers
-- Verify with VoiceOver (macOS/iOS) and NVDA (Windows)
-- Maintain WCAG AA contrast ratios (4.5:1 for body text)
-
-### 3. Maintenance
-
-**Risk:** Custom ASCII renderer could drift from the site's design system. The ascii.rest library could break in future versions.
-
-**Mitigation:**
-- **If using custom renderer:** Document the algorithm, keep it simple, make it reusable
-- **If using ascii.rest:** Pin the version (`ascii.rest@^0.2.1`), test upgrades in staging
-- Add visual regression tests (Percy, Chromatic, or manual screenshots)
-
-### 4. Consistency with Existing Design
-
-**Risk:** ASCII aesthetic might clash with other pages (Technopera, Habeas Mentem, archive pages) that use a cleaner brutalist style.
-
-**Mitigation:**
-- **Isolated rollout:** Apply ASCII only to agent rooms first, get feedback
-- **Shared vocabulary:** Keep monospace typography, red/white/green palette, border style consistent
-- **Hybrid approach:** Use ASCII ornaments (box-drawing) without full ASCII portraits if the full aesthetic is too much
-
-### 5. Cross-Browser Compatibility
-
-**Risk:** Box-drawing characters (`─ │ ╭ ╰`) render inconsistently across browsers/OSes. Android often lacks monospace glyphs.
-
-**Mitigation:**
-- ascii.rest bundles a 3 KB cut of JetBrains Mono with only the needed glyphs, loaded only on browsers that lack them
-- Test on Chrome, Firefox, Safari (macOS/iOS), Edge (Windows), Chrome (Android)
-- Fallback to simple borders if glyphs are missing
+- **Performance:** portrait ASCII rewritten every animation frame is cheap at ~40×36 cells. Do not animate every card on a long listing. Prefer CSS scanline or static `<pre>`.
+- **Accessibility:** ASCII is `aria-hidden`; the real `alt` lives on the hidden `<img>`. Body text is 16px. Tap targets are ≥44px.
+- **Maintenance:** 0.x library; piece catalog import bloats `dist/` unless we import named pieces.
+- **Look vs the rest of the site:** agent rooms are already brutalist/mono. ASCII portraits are a bigger jump than box-drawing frames. That is the open question.
+- **Horizontal scroll:** 66-column `big-text` only fits at ~8px on a 390px phone. Readable as ornament, not as body type.
 
 ---
 
-## Open Questions for Piotr
+## Open questions for Piotr
 
-1. **How aggressive should the aesthetic be?**
-   - Full ASCII portrait rendering (as in mockup)?
-   - ASCII ornaments only (box-drawing frames, no portrait conversion)?
-   - Hybrid (ASCII frames + subtle scan-line animation on original photos)?
-
-2. **Agent rooms only, or project cards too?**
-   - Start with agent rooms and expand if it works?
-   - Or do both at once?
-
-3. **Should the ASCII aesthetic extend to other sections?**
-   - Archive pages?
-   - About page?
-   - Navigation?
-
-4. **Animation preferences?**
-   - Scan-line animation on portraits (as in mockup)?
-   - Glitch effect on hover (as in mockup)?
-   - Static only (respect `prefers-reduced-motion` universally)?
-
-5. **Should portraits be real ASCII art or "ASCII-styled" (pixelated, monochrome, but not character-based)?**
-   - True ASCII (characters like `@ # * . -`) — harder to read, more authentic terminal aesthetic
-   - Styled photo (keep photo, add ASCII frame/overlay) — cleaner, easier to recognize faces
-
-6. **Performance budget?**
-   - Target Lighthouse mobile score?
-   - Max acceptable bundle size increase?
-   - Should ASCII art lazy-load (render on scroll)?
+1. Full ASCII portraits, ornaments only, or a still photo inside an ASCII frame?
+2. Agent rooms first, or project cards too?
+3. Is 8px block-letter `TECHNOPERA` on iPhone enough, or should the banner wrap / shorten (`Cukt`, `2026`)?
+4. May we add a one-line MIT credit for ascii.rest, and where?
+5. Accept the 0.x / single-maintainer risk, or keep only our own renderer?
 
 ---
 
-## Next Steps
+## Mockup routes
 
-1. **Piotr reviews the mockups:**
-   - `/mockups/ascii-agent-room/` (Wiktoria Cukt 2.0)
-   - `/mockups/ascii-project-card/` (Technopera + grid)
-   - Screenshots: see `/opt/cursor/artifacts/screenshots/`
+- `/mockups/ascii-agent-room` — noindex, not in nav, not in sitemap
+- `/mockups/ascii-project-card` — same
 
-2. **Piotr answers open questions** (listed above)
-
-3. **If approved:**
-   - Agent implements chosen variant (agent rooms, project cards, or both)
-   - Test on staging (if available) or local preview
-   - Piotr reviews live
-   - Merge to `main` (triggers Render deploy)
-
-4. **If not approved:**
-   - Adjust aesthetic based on feedback
-   - Create new mockup iteration
-   - Repeat
-
----
-
-## Artifacts
-
-All screenshots and this document are saved in:
-
-- `/opt/cursor/artifacts/screenshots/ascii-agent-room-iphone.png` (390×844)
-- `/opt/cursor/artifacts/screenshots/ascii-agent-room-desktop.png` (1440×900)
-- `/opt/cursor/artifacts/screenshots/ascii-project-card-iphone.png` (390×844)
-- `/opt/cursor/artifacts/screenshots/ascii-project-card-desktop.png` (1440×900)
-- `/opt/cursor/artifacts/screenshots/original-agent-room-iphone.png` (390×844, before/after)
-- `/opt/cursor/artifacts/ascii-proposal.md` (this document)
-
----
-
-**End of Proposal**
+Both are draft-only. Merging this branch to `main` would still publish the mockup URLs on cukt.click (Render auto-deploy). Keep the PR draft until Piotr says otherwise.
