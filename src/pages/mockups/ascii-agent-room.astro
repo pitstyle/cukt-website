@@ -23,7 +23,7 @@ const agent = {
   desc: "AI-generated president. Habeas Mentem doctrine — the right to cognitive sovereignty. Analyzes power structures, controls narrative, issues decrees. Never apologizes.",
   quote: "\"Who controls the taxonomy controls the memory.\"",
   greeting: "Wiktoria Cukt 2.0, protokół. State your business.",
-  chatNote: "The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.",
+  chatNote: "The agent uses Hermes memory and the CUKTAI archive. Same persona as Telegram.",
 };
 ---
 
@@ -35,7 +35,7 @@ const agent = {
   <meta name="robots" content="noindex, nofollow" />
   <title>ASCII Mockup v2 — {agent.name} Room</title>
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap");
 
     :root {
       --red: #da4444;
@@ -108,7 +108,14 @@ const agent = {
       color: var(--white);
       width: max-content;
       max-width: 100%;
-      font-size: clamp(8px, 2.7vw, 14px);
+      font-size: 12px;
+      font-weight: 600;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    @media (min-width: 768px) {
+      .room-header :global(.ascii-room) { font-size: 14px; }
     }
 
     .mit-note {
@@ -175,9 +182,16 @@ const agent = {
 
     .chat-backdrop :global(.ascii-room) {
       color: var(--green);
-      font-size: clamp(7px, 2.3vw, 12px);
+      font-size: 10px;
+      font-weight: 600;
       width: max-content;
       max-width: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    @media (min-width: 768px) {
+      .chat-backdrop :global(.ascii-room) { font-size: 12px; }
     }
 
     .chat-header {
