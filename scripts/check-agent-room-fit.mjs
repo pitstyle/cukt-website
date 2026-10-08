@@ -40,10 +40,13 @@ async function measure(page) {
       const dxR = r.right - card.right;
       const dyT = card.top - r.top;
       const dyB = r.bottom - card.bottom;
-      const ok = dxL <= slop && dxR <= slop && dyT <= slop && dyB <= slop;
+      const within = dxL <= slop && dxR <= slop && dyT <= slop && dyB <= slop;
+      const noScroll = Math.abs(el.scrollWidth - el.clientWidth) <= slop;
       rows.push({
         name,
-        ok,
+        ok: within && noScroll,
+        within,
+        noScroll,
         left: r.left,
         right: r.right,
         top: r.top,
@@ -52,11 +55,15 @@ async function measure(page) {
         overflowRight: Math.max(0, dxR),
         overflowTop: Math.max(0, dyT),
         overflowBottom: Math.max(0, dyB),
+        scrollWidth: el.scrollWidth,
+        clientWidth: el.clientWidth,
       });
     }
     return {
       scrollWidth: document.documentElement.scrollWidth,
       clientWidth: document.documentElement.clientWidth,
+      cardScrollWidth: stack.scrollWidth,
+      cardClientWidth: stack.clientWidth,
       card: { left: card.left, right: card.right, top: card.top, bottom: card.bottom, width: card.width },
       rows,
     };
@@ -90,22 +97,25 @@ for (const { path, prefix } of PAGES) {
     await new Promise((r) => setTimeout(r, 300));
 
     const m = await measure(page);
-    const scrollOk = m.scrollWidth === m.clientWidth;
+    const pageScrollOk = m.scrollWidth === m.clientWidth;
+    const cardScrollOk = m.cardScrollWidth === m.cardClientWidth;
     const allIn = m.rows?.every((row) => row.ok);
-    if (!scrollOk || !allIn) failed += 1;
+    if (!pageScrollOk || !cardScrollOk || !allIn) failed += 1;
 
     console.log(`\n${path} @ ${width}px`);
     console.log(
-      `  card  left=${round(m.card?.left)} right=${round(m.card?.right)} width=${round(m.card?.width)}`,
+      `  card  left=${round(m.card?.left)} right=${round(m.card?.right)} width=${round(m.card?.width)}` +
+        `  scrollWidth=${m.cardScrollWidth} clientWidth=${m.cardClientWidth} equal=${cardScrollOk}`,
     );
     console.log(
-      `  scrollWidth=${m.scrollWidth} clientWidth=${m.clientWidth} equal=${scrollOk}`,
+      `  page  scrollWidth=${m.scrollWidth} clientWidth=${m.clientWidth} equal=${pageScrollOk}`,
     );
     for (const row of m.rows || []) {
       console.log(
         `  ${row.name.padEnd(6)} left=${round(row.left)} right=${round(row.right)}` +
           `  overflow L/R/T/B=${round(row.overflowLeft)}/${round(row.overflowRight)}/${round(row.overflowTop)}/${round(row.overflowBottom)}` +
-          `  within=${row.ok}`,
+          `  scrollWidth=${row.scrollWidth} clientWidth=${row.clientWidth}` +
+          `  within=${row.within} noScroll=${row.noScroll} ok=${row.ok}`,
       );
     }
 
@@ -113,7 +123,7 @@ for (const { path, prefix } of PAGES) {
       const stack = await page.$(".ascii-agent-stack");
       if (stack) {
         await stack.screenshot({
-          path: `${OUT}/${prefix}-stack.png`,
+          path: `${OUT}/${prefix}-stack-390.png`,
           type: "png",
           captureBeyondViewport: true,
         });
