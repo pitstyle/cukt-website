@@ -1,0 +1,449 @@
+---
+/*
+  MOCKUP ONLY — DO NOT MERGE
+  ASCII aesthetic for project cards (Technopera example)
+  Mobile-first, accessible, performant
+*/
+
+const projects = [
+  {
+    id: "technopera",
+    title: "TECHNOPERA 2026",
+    subtitle: "AUTHORITY. KNOWLEDGE. SEAL.",
+    meta: "MEDIATEKA · Tychy · 4.10.2026",
+    desc: "Multimedia opera for the age of artificial intelligence — live performance, video, electronic music and an audiovisual libretto.",
+    tags: ["OPERA", "AI", "MULTIMEDIA"],
+    status: "PREMIERED"
+  },
+  {
+    id: "habeas-mentem",
+    title: "HABEAS MENTEM",
+    subtitle: "COGNITIVE SOVEREIGNTY",
+    meta: "Doctrine · 2024-ongoing",
+    desc: "The right to one's own mind. A legal and philosophical framework for the age of neural interfaces and AI consciousness.",
+    tags: ["DOCTRINE", "LAW", "AI"],
+    status: "ACTIVE"
+  },
+  {
+    id: "cukt-archive",
+    title: "C.U.K.T. ARCHIVE",
+    subtitle: "1995-2001",
+    meta: "Gdańsk · Documentation",
+    desc: "Archival project documenting the C.U.K.T. collective's techno-cultural experiments at the Napoleonic Forts.",
+    tags: ["ARCHIVE", "HISTORY"],
+    status: "ONGOING"
+  }
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>ASCII Mockup — Project Cards</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap');
+
+    :root {
+      --red: #da4444;
+      --red-dim: #8a2a2a;
+      --white: #ffffff;
+      --white-dim: #999999;
+      --green: #00cc00;
+      --bg: #0a0a0a;
+      --bg-lighter: #111111;
+      --border: #222222;
+      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 2rem;
+      --space-xl: 4rem;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-mono);
+      background: var(--bg);
+      color: var(--white);
+      line-height: 1.6;
+      font-size: clamp(14px, 3.5vw, 16px);
+      -webkit-font-smoothing: antialiased;
+      padding: var(--space-lg);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 6vw, 2.5rem);
+      letter-spacing: 0.05em;
+      color: var(--red);
+      margin-bottom: var(--space-sm);
+      text-transform: uppercase;
+    }
+
+    .page-desc {
+      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
+      color: var(--white-dim);
+      margin-bottom: var(--space-xl);
+      max-width: 65ch;
+    }
+
+    /* Single Project Card (Hero) */
+    .project-hero {
+      margin-bottom: var(--space-xl);
+      padding-bottom: var(--space-xl);
+      border-bottom: 2px solid var(--border);
+    }
+
+    .ascii-project-card {
+      display: block;
+      border: 2px solid var(--border);
+      background: var(--bg-lighter);
+      padding: var(--space-lg);
+      transition: all 0.3s;
+      text-decoration: none;
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ascii-project-card:hover {
+      border-color: var(--red);
+      background: rgba(218, 68, 68, 0.05);
+      transform: translateY(-2px);
+    }
+
+    .ascii-project-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: repeating-linear-gradient(
+        90deg,
+        var(--red) 0,
+        var(--red) 4px,
+        transparent 4px,
+        transparent 8px
+      );
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .ascii-project-card:hover::before {
+      opacity: 1;
+    }
+
+    /* Box drawing ornament */
+    .ascii-ornament {
+      font-size: clamp(8px, 2vw, 10px);
+      color: var(--border);
+      letter-spacing: -0.05em;
+      line-height: 1;
+      margin-bottom: var(--space-sm);
+      white-space: pre;
+      overflow: hidden;
+      font-family: var(--font-mono);
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: var(--space-md);
+      margin-bottom: var(--space-md);
+      flex-wrap: wrap;
+    }
+
+    .project-status {
+      font-size: clamp(0.6rem, 2vw, 0.7rem);
+      letter-spacing: 0.15em;
+      color: var(--green);
+      border: 1px solid var(--green);
+      padding: 2px 8px;
+      white-space: nowrap;
+      min-height: 24px;
+      display: flex;
+      align-items: center;
+    }
+
+    .project-title {
+      font-size: clamp(1.3rem, 5vw, 2rem);
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: var(--space-xs);
+      transition: color 0.3s;
+    }
+
+    .ascii-project-card:hover .project-title {
+      color: var(--red);
+    }
+
+    .project-subtitle {
+      font-size: clamp(0.85rem, 3vw, 1rem);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--white-dim);
+      margin-bottom: var(--space-sm);
+    }
+
+    .project-meta {
+      font-size: clamp(0.7rem, 2.5vw, 0.8rem);
+      color: var(--white-dim);
+      margin-bottom: var(--space-md);
+      letter-spacing: 0.05em;
+    }
+
+    .project-desc {
+      font-size: clamp(0.8rem, 2.8vw, 0.9rem);
+      line-height: 1.7;
+      color: var(--white-dim);
+      margin-bottom: var(--space-md);
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-xs);
+    }
+
+    .tag {
+      font-size: clamp(0.6rem, 2vw, 0.7rem);
+      letter-spacing: 0.1em;
+      padding: 2px 8px;
+      border: 1px solid var(--red-dim);
+      color: var(--red);
+      background: rgba(218, 68, 68, 0.05);
+      transition: all 0.2s;
+      min-height: 24px;
+      display: flex;
+      align-items: center;
+    }
+
+    .ascii-project-card:hover .tag {
+      border-color: var(--red);
+      background: rgba(218, 68, 68, 0.1);
+    }
+
+    /* Grid of Cards */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+      gap: var(--space-lg);
+    }
+
+    @media (min-width: 768px) {
+      .projects-grid {
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      }
+    }
+
+    .grid-card {
+      display: block;
+      border: 2px solid var(--border);
+      padding: var(--space-lg);
+      transition: all 0.3s;
+      text-decoration: none;
+      color: var(--white);
+      background: var(--bg-lighter);
+      position: relative;
+    }
+
+    .grid-card:hover {
+      border-color: var(--red);
+      background: rgba(218, 68, 68, 0.05);
+    }
+
+    .grid-card::after {
+      content: "→";
+      position: absolute;
+      bottom: var(--space-md);
+      right: var(--space-md);
+      font-size: 1.5rem;
+      color: var(--border);
+      transition: all 0.3s;
+    }
+
+    .grid-card:hover::after {
+      color: var(--red);
+      transform: translateX(4px);
+    }
+
+    .grid-card .project-title {
+      font-size: clamp(1.1rem, 4vw, 1.3rem);
+      margin-bottom: var(--space-sm);
+    }
+
+    .grid-card .project-desc {
+      font-size: clamp(0.75rem, 2.5vw, 0.85rem);
+      margin-bottom: var(--space-lg);
+    }
+
+    /* Section divider */
+    .section-divider {
+      border: none;
+      border-top: 2px solid var(--border);
+      margin: var(--space-xl) 0;
+      position: relative;
+    }
+
+    .section-divider::before {
+      content: "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓";
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--bg);
+      padding: 0 var(--space-md);
+      color: var(--border);
+      font-size: clamp(8px, 2vw, 10px);
+      letter-spacing: -0.05em;
+    }
+
+    .section-title {
+      font-size: clamp(1.2rem, 4.5vw, 1.5rem);
+      letter-spacing: 0.1em;
+      color: var(--red);
+      margin-bottom: var(--space-lg);
+      text-transform: uppercase;
+    }
+
+    /* Accessibility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ASCII PROJECT CARDS</h1>
+    <p class="page-desc">
+      Mockup of project cards in ASCII aesthetic: monospace typography, box-drawing ornaments, 
+      terminal-style status indicators. Mobile-responsive and accessible.
+    </p>
+
+    <!-- Single Hero Card -->
+    <section class="project-hero">
+      <h2 class="section-title">Single Card (Hero)</h2>
+      <a href="/technopera" class="ascii-project-card">
+        <div class="ascii-ornament">╔═══════════════════════════════════════════════════════════╗</div>
+        
+        <div class="project-header">
+          <div>
+            <h3 class="project-title">{projects[0].title}</h3>
+            <div class="project-subtitle">{projects[0].subtitle}</div>
+          </div>
+          <span class="project-status">{projects[0].status}</span>
+        </div>
+        
+        <div class="project-meta">{projects[0].meta}</div>
+        
+        <p class="project-desc">{projects[0].desc}</p>
+        
+        <div class="project-tags">
+          {projects[0].tags.map(tag => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+        
+        <div class="ascii-ornament">╚═══════════════════════════════════════════════════════════╝</div>
+      </a>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- Grid of Cards -->
+    <section>
+      <h2 class="section-title">Project Grid</h2>
+      <div class="projects-grid">
+        {projects.map(project => (
+          <a href={`/${project.id}`} class="grid-card">
+            <div class="project-header">
+              <div>
+                <h3 class="project-title">{project.title}</h3>
+                <div class="project-subtitle">{project.subtitle}</div>
+              </div>
+              <span class="project-status">{project.status}</span>
+            </div>
+            
+            <div class="project-meta">{project.meta}</div>
+            
+            <p class="project-desc">{project.desc}</p>
+            
+            <div class="project-tags">
+              {project.tags.map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // Add subtle scan line animation to cards on hover (respecting prefers-reduced-motion)
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    
+    if (!prefersReducedMotion) {
+      const cards = document.querySelectorAll('.ascii-project-card, .grid-card');
+      
+      cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+          // Subtle glitch effect on title
+          const title = this.querySelector('.project-title');
+          if (title) {
+            const originalText = title.textContent;
+            let glitchCount = 0;
+            const glitchChars = '█▓▒░';
+            
+            const glitchInterval = setInterval(() => {
+              if (glitchCount > 2) {
+                title.textContent = originalText;
+                clearInterval(glitchInterval);
+                return;
+              }
+              
+              // Replace random characters
+              const chars = originalText.split('');
+              const randomIndex = Math.floor(Math.random() * chars.length);
+              chars[randomIndex] = glitchChars[Math.floor(Math.random() * glitchChars.length)];
+              title.textContent = chars.join('');
+              
+              glitchCount++;
+            }, 50);
+            
+            // Clean up after 200ms
+            setTimeout(() => {
+              title.textContent = originalText;
+              clearInterval(glitchInterval);
+            }, 200);
+          }
+        });
+      });
+    }
+  </script>
+</body>
+</html>
