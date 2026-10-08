@@ -107,7 +107,14 @@ export function getStaticPaths() {
 
   <section class="chat-section">
     <div class="container">
-      <div class="chat-container">
+      <div
+        class="chat-container"
+        data-agent-chat
+        data-agent-id={id}
+        data-agent-name={agent.name}
+        data-agent-emoji={agent.emoji}
+        data-chat-api={CHAT_API}
+      >
         <div class="chat-header">
           <span class="chat-status">● ONLINE</span>
           <span class="chat-label" data-en={`TALKING TO ${agent.name}`} data-pl={`ROZMOWA Z ${agent.namePl}`}>TALKING TO {agent.name}</span>
@@ -149,8 +156,10 @@ export function getStaticPaths() {
   .msg { margin-bottom: var(--space-lg); }
   .msg-name, :global(.msg-name) { display: block; font-size: 0.7rem; letter-spacing: 0.1em; color: var(--green); margin-bottom: 8px; font-weight: 700; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
   .user-msg .msg-name, :global(.user-msg .msg-name) { color: var(--red); }
-  .msg-text, :global(.msg-text) { font-size: 0.85rem; line-height: 1.8; color: var(--white); display: block; }
+  .msg-text, :global(.msg-text) { font-size: 0.85rem; line-height: 1.8; color: var(--white); display: block; white-space: pre-wrap; }
   .agent-msg .msg-text, :global(.agent-msg .msg-text) { color: var(--white-dim); }
+  .msg-status, :global(.msg-status) { display: none; font-size: 0.75rem; font-style: italic; color: var(--border); letter-spacing: 0.04em; margin-bottom: 4px; }
+  .msg-status.is-visible, :global(.msg-status.is-visible) { display: block; }
 
   .chat-input { display: flex; border-top: 1px solid var(--border); }
   .chat-input input { flex: 1; background: var(--bg); border: none; color: var(--white); font-family: var(--font-mono); font-size: 0.85rem; padding: var(--space-md) var(--space-lg); outline: none; }
@@ -169,111 +178,7 @@ export function getStaticPaths() {
 </style>
 
 
-<script define:vars={{ agentId: id, agentName: agent.name, agentEmoji: agent.emoji, CHAT_API }}>
-  const messages = document.getElementById('chat-messages');
-  const form = document.getElementById('chat-form');
-  const input = document.getElementById('chat-text');
-  const sendBtn = document.getElementById('chat-send');
-  const greeting = document.getElementById('greeting');
-
-  // Greeting
-  const greetings = {
-    peter: "System online. What do you want to know about C.U.K.T.?",
-    ewa: "Ewa here. Ask me something real — not theory.",
-    mikolaj: "Mikołaj... cicho. I'm listening.",
-    wiktoria: "Wiktoria Cukt 2.0, protokół. State your business.",
-    archiwistka: "Archiwistka here. I have the files. What are you looking for? Over.",
-    coder: "Coder. Mini runtime. What broke?",
-    researcher: "Researcher. Send a lead or ask for open calls.",
-  };
-
-  if (greeting) {
-    greeting.textContent = greetings[agentId] || "Ready.";
-  }
-
-  let sending = false;
-
-  function addMessage(name, text, isUser = false) {
-    const div = document.createElement('div');
-    div.className = `msg ${isUser ? 'user-msg' : 'agent-msg'}`;
-    div.innerHTML = `<span class="msg-name">${isUser ? '👤 YOU' : agentEmoji + ' ' + agentName}</span><span class="msg-text">${text}</span>`;
-    messages?.appendChild(div);
-    messages?.scrollTo(0, messages.scrollHeight);
-  }
-
-  form?.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    if (sending || !input?.value?.trim()) return;
-
-    const text = input.value.trim();
-    input.value = '';
-    addMessage('YOU', text, true);
-
-    sending = true;
-    if (sendBtn) sendBtn.disabled = true;
-
-    // Show typing indicator
-    const typing = document.createElement('div');
-    typing.className = 'msg agent-msg';
-    typing.innerHTML = `<span class="msg-name">${agentEmoji} ${agentName}</span><span class="msg-text" style="color:var(--border)">thinking...</span>`;
-    messages?.appendChild(typing);
-    messages?.scrollTo(0, messages.scrollHeight);
-
-    try {
-      const sidKey = `cuktai-chat-session-${agentId}`;
-      let sid = localStorage.getItem(sidKey);
-      if (!sid) { sid = crypto.randomUUID(); localStorage.setItem(sidKey, sid); }
-      const res = await fetch(CHAT_API + '/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ agent: agentId, message: text, session_id: sid }),
-      });
-
-      typing.remove();
-
-      if (res.ok) {
-        const data = await res.json();
-        addMessage(agentName, data.response || 'No response.');
-        // Play voice audio if available
-        if (data.audio_url) {
-          const audioUrl = CHAT_API + data.audio_url;
-          const lastMsg = messages?.querySelector('.msg:last-child .msg-text');
-          if (lastMsg) {
-            const btn = document.createElement('button');
-            btn.textContent = ' ▶ PLAY';
-            btn.style.cssText = 'background:none;border:1px solid var(--green,#0f0);color:var(--green,#0f0);font-family:monospace;font-size:0.7rem;padding:2px 8px;margin-left:8px;cursor:pointer;letter-spacing:0.1em;';
-            btn.onclick = () => { 
-              const a = new Audio(audioUrl);
-              a.play();
-              btn.textContent = ' ■ PLAYING';
-              a.onended = () => { btn.textContent = ' ▶ REPLAY'; };
-            };
-            lastMsg.appendChild(btn);
-          }
-          // Also try autoplay
-          try { new Audio(audioUrl).play().catch(() => {}); } catch(e) {}
-        }
-      } else {
-        addMessage(agentName, '[System offline — try again later]');
-      }
-    } catch (err) {
-      typing.remove();
-      addMessage(agentName, '[Connection failed — the bureau is temporarily unavailable]');
-    }
-
-    sending = false;
-    if (sendBtn) sendBtn.disabled = false;
-    input?.focus();
-  });
-
-  // Language
-  const lang = localStorage.getItem('cuktai-lang') || 'en';
-  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
-    const v = el.getAttribute(`data-${lang}`);
-    if (v) el.textContent = v;
-  });
-  if (lang === 'pl') {
-    const inp = document.querySelector('[data-pl-placeholder]');
-    if (inp) inp.setAttribute('placeholder', inp.getAttribute('data-pl-placeholder') || '');
-  }
+<script>
+  import { initAgentPageChat } from '../../lib/agent-chat-ui.ts';
+  initAgentPageChat();
 </script>
