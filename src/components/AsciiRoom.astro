@@ -1,0 +1,115 @@
+---
+/*
+  One-point-perspective ASCII office.
+  Generated from scripts/generate-ascii-office.py (3D edges → character grid).
+  Animation: pre-generated glyph patches swapped onto one base <pre> every 280ms.
+  Stops when prefers-reduced-motion is set. Fixed rows/cols.
+*/
+import {
+  CLERK_FRAME_0,
+  WIKTORIA_FRAME_0,
+  CLERK_PATCHES,
+  WIKTORIA_PATCHES,
+  CLERK_ALT,
+  WIKTORIA_ALT,
+  ROOM_COLS,
+  ROOM_ROWS,
+} from "./ascii-room-frames";
+
+interface Props {
+  variant?: "clerk" | "wiktoria";
+}
+
+const { variant = "clerk" } = Astro.props;
+
+const base = variant === "wiktoria" ? WIKTORIA_FRAME_0 : CLERK_FRAME_0;
+const alt = variant === "wiktoria" ? WIKTORIA_ALT : CLERK_ALT;
+const patches = variant === "wiktoria" ? WIKTORIA_PATCHES : CLERK_PATCHES;
+---
+
+<figure class="ascii-room-figure">
+  <pre
+    class="ascii-room"
+    data-ascii-variant={variant}
+    data-ascii-patches={JSON.stringify(patches)}
+    data-ascii-cols={String(ROOM_COLS)}
+    data-ascii-rows={String(ROOM_ROWS)}
+    aria-hidden="true">{base}</pre>
+  <figcaption class="sr-only">{alt}</figcaption>
+</figure>
+
+<style>
+  .ascii-room-figure { margin: 0; }
+  .ascii-room {
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: pre;
+    font-family: "JetBrains Mono", ui-monospace, "Courier New", monospace;
+    font-size: clamp(5.5px, calc((100vw - 48px) / 64), 9px);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: 0;
+    font-kerning: none;
+    font-variant-ligatures: none;
+    tab-size: 1;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+
+<script>
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  for (const pre of document.querySelectorAll("pre.ascii-room")) {
+    if (pre.getAttribute("data-ascii-anim")) continue;
+    pre.setAttribute("data-ascii-anim", "1");
+    pre.setAttribute("data-ascii-frame", "0");
+
+    const base = pre.textContent ?? "";
+    if (reduce) continue;
+
+    let patches: [number, number, string][][] = [];
+    try {
+      patches = JSON.parse(pre.getAttribute("data-ascii-patches") || "[]");
+    } catch {
+      continue;
+    }
+    if (patches.length < 2) continue;
+
+    const apply = (index: number, patch: [number, number, string][]) => {
+      const rows = base.split("\n").map((line) => line.split(""));
+      for (const [r, c, ch] of patch) {
+        if (rows[r] && c < rows[r].length) rows[r][c] = ch;
+      }
+      pre.textContent = rows.map((row) => row.join("")).join("\n");
+      pre.setAttribute("data-ascii-frame", String(index));
+    };
+
+    let i = 0;
+    const id = window.setInterval(() => {
+      i = (i + 1) % patches.length;
+      apply(i, patches[i]);
+    }, 280);
+
+    window.matchMedia("(prefers-reduced-motion: reduce)").addEventListener("change", (ev) => {
+      if (ev.matches) {
+        window.clearInterval(id);
+        pre.textContent = base;
+        pre.setAttribute("data-ascii-frame", "0");
+      }
+    });
+  }
+</script>

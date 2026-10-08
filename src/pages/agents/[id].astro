@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import AsciiRoom from '../../components/AsciiRoom.astro';
 
 const agents: Record<string, {name: string, namePl: string, role: string, rolePl: string, emoji: string, profile: string, desc: string, descPl: string, quote: string, quotePl: string, color: string}> = {
   peter: {
@@ -107,29 +108,34 @@ export function getStaticPaths() {
 
   <section class="chat-section">
     <div class="container">
-      <div
-        class="chat-container"
-        data-agent-chat
-        data-agent-id={id}
-        data-agent-name={agent.name}
-        data-agent-emoji={agent.emoji}
-        data-chat-api={CHAT_API}
-      >
-        <div class="chat-header">
-          <span class="chat-status">● ONLINE</span>
-          <span class="chat-label" data-en={`TALKING TO ${agent.name}`} data-pl={`ROZMOWA Z ${agent.namePl}`}>TALKING TO {agent.name}</span>
+      <div class="ascii-agent-stack">
+        <div class="room-ascii" id="agent-ascii-room">
+          <AsciiRoom variant={id === "wiktoria" ? "wiktoria" : "clerk"} />
         </div>
-        <div class="chat-messages" id="chat-messages">
-          <div class="msg agent-msg">
-            <span class="msg-name">{agent.emoji} {agent.name}</span>
-            <span class="msg-text" id="greeting" data-en="..." data-pl="...">...</span>
+        <div
+          class="chat-container"
+          data-agent-chat
+          data-agent-id={id}
+          data-agent-name={agent.name}
+          data-agent-emoji={agent.emoji}
+          data-chat-api={CHAT_API}
+        >
+          <div class="chat-header">
+            <span class="chat-status">● ONLINE</span>
+            <span class="chat-label" data-en={`TALKING TO ${agent.name}`} data-pl={`ROZMOWA Z ${agent.namePl}`}>TALKING TO {agent.name}</span>
           </div>
+          <div class="chat-messages" id="chat-messages">
+            <div class="msg agent-msg">
+              <span class="msg-name">{agent.emoji} {agent.name}</span>
+              <span class="msg-text" id="greeting" data-en="..." data-pl="...">...</span>
+            </div>
+          </div>
+          <form class="chat-input" id="chat-form">
+            <input type="text" id="chat-text" placeholder="Type your message..." autocomplete="off" data-en-placeholder="Type your message..." data-pl-placeholder="Napisz wiadomość..." />
+            <button type="submit" id="chat-send">SEND</button>
+          </form>
+          <div class="chat-note" data-en="The agent uses Hermes memory and the CUKT archive. Same persona as Telegram." data-pl="Agent korzysta z pamięci Hermes i archiwum CUKT. Ta sama persona co na Telegramie.">The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.</div>
         </div>
-        <form class="chat-input" id="chat-form">
-          <input type="text" id="chat-text" placeholder="Type your message..." autocomplete="off" data-en-placeholder="Type your message..." data-pl-placeholder="Napisz wiadomość..." />
-          <button type="submit" id="chat-send">SEND</button>
-        </form>
-        <div class="chat-note" data-en="The agent uses Hermes memory and the CUKT archive. Same persona as Telegram." data-pl="Agent korzysta z pamięci Hermes i archiwum CUKT. Ta sama persona co na Telegramie.">The agent uses Hermes memory and the CUKT archive. Same persona as Telegram.</div>
       </div>
     </div>
   </section>
@@ -146,8 +152,26 @@ export function getStaticPaths() {
   .room-desc { font-size: 0.9rem; color: var(--white-dim); line-height: 1.8; max-width: 65ch; margin-bottom: var(--space-md); }
   .room-quote { font-size: 0.85rem; color: var(--white-dim); font-style: italic; border-left: 2px solid var(--red-dim); padding-left: var(--space-md); }
 
-  .chat-section { padding: var(--space-xl) 0; }
-  .chat-container { border: 1px solid var(--border); max-width: 800px; }
+  .chat-section { padding: var(--space-xl) 0; overflow-x: hidden; }
+  .ascii-agent-stack { max-width: 800px; }
+  .room-ascii {
+    border: 1px solid var(--border);
+    border-bottom: none;
+    background: #000;
+    padding: 12px 8px 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .room-ascii :global(.ascii-room) {
+    color: var(--white);
+    width: max-content;
+    max-width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .chat-container { border: 1px solid var(--border); }
   .chat-header { display: flex; justify-content: space-between; align-items: center; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: var(--bg-lighter); }
   .chat-status { color: var(--green); font-size: 0.75rem; letter-spacing: 0.1em; }
   .chat-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); }
