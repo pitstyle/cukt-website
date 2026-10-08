@@ -14,7 +14,10 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 COLS = 108
-ROWS = 46
+# Extra rows under the approved 46-row back-wall fit so desk feet
+# meet the floor inside the frame.
+FIT_ROWS = 46
+ROWS = 49
 CHAR_ASPECT = 0.55
 FOCAL = 3.6
 CAM_Y = 2.12  # look down so the desk top is a parallelogram, not an edge
@@ -57,7 +60,8 @@ def fit_from_back_wall():
     minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
     # Inset: 9% left/right, 8% top, 18% bottom (desk lives in the lower third)
     mx0, mx1 = COLS * 0.08, COLS * 0.92
-    my0, my1 = ROWS * 0.07, ROWS * 0.80
+    # Pin the back wall to the approved 46-row layout; ROWS may be taller.
+    my0, my1 = FIT_ROWS * 0.07, FIT_ROWS * 0.80
     sx = (mx1 - mx0) / (maxx - minx)
     sy = (my1 - my0) / (maxy - miny)
     return -minx, -miny, sx, sy, mx0, my0

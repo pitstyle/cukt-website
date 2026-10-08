@@ -3,7 +3,7 @@
  * Do not hand-edit the grids. Mockup only.
  */
 export const ROOM_COLS = 108;
-export const ROOM_ROWS = 46;
+export const ROOM_ROWS = 49;
 export const ROOM_FRAME_0 = `                                                                                                            
                                                                                                             
                                                                                                             
@@ -49,7 +49,10 @@ export const ROOM_FRAME_0 = `
  //    .              |                                                                 |            .    \\\\
 //    .               |                                                                 |             .    \\
     ..                |                                                                 |              ..   
-   ..                 |                                                                 |               ..  `;
+   ..                 |                                                                 |               ..  
+   .                 ___                                                              ____               .  
+------------------------------------------------------------------------------------------------------------
+                                                                                                            `;
 export const CLERK_FRAME_0 = `                                                                                                            
                                                                                                             
                                                                                                             
@@ -95,7 +98,10 @@ export const CLERK_FRAME_0 = `
  //    .              |                                                                 |            .    \\\\
 //    .               |                                                                 |             .    \\
     ..                |                                                                 |              ..   
-   ..                 |                                                                 |               ..  `;
+   ..                 |                                                                 |               ..  
+   .                 ___                                                              ____               .  
+------------------------------------------------------------------------------------------------------------
+                                                                                                            `;
 /** [row, col, char] patches applied onto FRAME_0. */
 export const ROOM_PATCHES: [number, number, string][][] = [
   [[31, 76, '>'], [31, 77, '_'], [31, 78, ' '], [32, 76, ' '], [32, 77, ' ']],
