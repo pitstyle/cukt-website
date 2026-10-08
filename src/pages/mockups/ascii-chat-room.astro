@@ -12,7 +12,6 @@ import AsciiRoom from "../../components/mockups/AsciiRoom.astro";
 
 const agent = {
   name: "MIKOŁAJ",
-  emoji: "🎭",
   quote: "\"Both are right. Two frequencies of the same wave.\"",
   quotePl: "\"Obaj mają rację. Dwie częstotliwości tej samej fali.\"",
   greeting: "Mikołaj... cicho. I'm listening.",
@@ -103,8 +102,13 @@ const agent = {
     }
 
     .chat-ascii {
+      position: absolute;
+      inset: 0;
       display: flex;
       justify-content: center;
+      align-items: flex-start;
+      padding-top: 34px;
+      overflow: hidden;
       pointer-events: none;
     }
 
@@ -117,11 +121,11 @@ const agent = {
     }
 
     .chat-hud {
-      position: absolute;
-      inset: 0;
+      position: relative;
+      z-index: 1;
       display: flex;
       flex-direction: column;
-      padding: 8px 10px 6px;
+      padding: 6px 8px 8px;
       gap: 8px;
     }
 
@@ -131,9 +135,10 @@ const agent = {
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
+      flex-shrink: 0;
       font-size: 12px;
       letter-spacing: 0.1em;
-      background: rgba(0, 0, 0, 0.78);
+      background: rgba(0, 0, 0, 0.82);
       border: 1px solid var(--border);
       padding: 6px 8px;
     }
@@ -142,23 +147,21 @@ const agent = {
     .chat-label { color: var(--white-dim); }
 
     .transcript {
-      flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      gap: 10px;
-      min-height: 0;
+      gap: 8px;
     }
 
     .paper {
-      background: rgba(0, 0, 0, 0.82);
+      background: rgba(0, 0, 0, 0.86);
       border: 1px solid var(--border);
-      padding: 8px 10px;
+      padding: 6px 8px;
       max-width: 100%;
+      flex-shrink: 0;
     }
 
     .paper-agent { align-self: stretch; }
-    .paper-user { align-self: stretch; margin-top: auto; }
+    .paper-user { align-self: stretch; }
 
     .msg-name {
       display: block;
@@ -176,8 +179,9 @@ const agent = {
     .msg-text {
       display: block;
       font-size: 16px;
-      line-height: 1.45;
+      line-height: 1.35;
       color: var(--white);
+      overflow-wrap: anywhere;
     }
 
     .msg-text + .msg-text { margin-top: 8px; }
@@ -186,8 +190,9 @@ const agent = {
     .desk-form {
       display: flex;
       align-items: stretch;
+      flex-shrink: 0;
       gap: 0;
-      background: rgba(0, 0, 0, 0.88);
+      background: rgba(0, 0, 0, 0.92);
       border: 1px solid var(--border);
     }
 
@@ -257,13 +262,13 @@ const agent = {
         </div>
         <div class="transcript">
           <div class="paper paper-agent">
-            <span class="msg-name">{agent.emoji} {agent.name}</span>
+            <span class="msg-name">{agent.name}</span>
             <span class="msg-text">{agent.greeting}</span>
             <span class="msg-text">{agent.quote}</span>
             <span class="msg-text msg-pl">{agent.quotePl}</span>
           </div>
           <div class="paper paper-user">
-            <span class="msg-name">👤 YOU</span>
+            <span class="msg-name">YOU</span>
             <span class="msg-text">{agent.userLine}</span>
           </div>
         </div>
