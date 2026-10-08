@@ -14,10 +14,12 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 COLS = 108
-# Extra rows under the approved 46-row back-wall fit so desk feet
-# meet the floor inside the frame.
+# Back-wall mapping stays on the approved 46-row layout. Extra rows
+# below hold doubled leg length + a lower floor line.
 FIT_ROWS = 46
-ROWS = 49
+ROWS = 57
+# Stretch only y≈floor points so portrait / CRT / desk top do not move.
+FLOOR_STRETCH = 1.75
 CHAR_ASPECT = 0.55
 FOCAL = 3.6
 CAM_Y = 2.12  # look down so the desk top is a parallelogram, not an edge
@@ -75,6 +77,15 @@ def project(x: float, y: float, z: float) -> tuple[float, float]:
     return MX + (rx + OX) * SX, MY + (ry + OY) * SY
 
 
+def project_low(x: float, y: float, z: float) -> tuple[float, float]:
+    """Same as project, but drops the foreground floor so legs read twice as long."""
+    sx, sy = project(x, y, z)
+    back = project(0.0, YF, ZF)[1]
+    if sy > back + 0.2:
+        sy = back + (sy - back) * FLOOR_STRETCH
+    return sx, sy
+
+
 BAYER = [
     [0, 8, 2, 10],
     [12, 4, 14, 6],
@@ -106,6 +117,14 @@ class Grid:
         if 0 <= r < ROWS and 0 <= c < COLS and z <= self.depth[r][c] + 0.015:
             self.depth[r][c] = z
             self.ch[r][c] = ch
+
+    def sline(self, p0, p1, ch: str, z: float) -> None:
+        x0, y0 = p0
+        x1, y1 = p1
+        n = int(max(abs(x1 - x0), abs(y1 - y0), 1) * 1.7) + 1
+        for i in range(n + 1):
+            t = i / n
+            self.plot(x0 + (x1 - x0) * t, y0 + (y1 - y0) * t, ch, z)
 
     def line(self, a, b, ch: str | None = None) -> None:
         pa, pb = project(*a), project(*b)
@@ -388,15 +407,23 @@ def draw_room_shell(g: Grid) -> None:
     ffl, ffr = (XL, YF, ZF), (XR, YF, ZF)
     fcl, fcr = (XL, YC, ZF), (XR, YC, ZF)
 
-    g.polyline([nfl, nfr, ncr, ncl, nfl])
+    # Back wall + ceiling: approved mapping, unstretched.
     g.polyline([ffl, ffr, fcr, fcl, ffl])
-    g.line(nfl, ffl)
-    g.line(nfr, ffr)
     g.line(ncl, fcl)
     g.line(ncr, fcr)
-    # a couple of floor ticks in the corners only
-    g.line((XL + 0.15, YF, ZF), (XL + 0.25, YF, ZN + 0.02), ".")
-    g.line((XR - 0.15, YF, ZF), (XR - 0.25, YF, ZN + 0.02), ".")
+    g.line(ncl, ncr)
+
+    # Foreground floor dropped so legs have room; side walls follow it down.
+    nfl_s, nfr_s = project_low(*nfl), project_low(*nfr)
+    ffl_s, ffr_s = project(*ffl), project(*ffr)
+    ncl_s, ncr_s = project(*ncl), project(*ncr)
+    g.sline(nfl_s, nfr_s, "-", ZN)
+    g.sline(nfl_s, ncl_s, "|", ZN)
+    g.sline(nfr_s, ncr_s, "|", ZN)
+    g.sline(nfl_s, ffl_s, "/", (ZN + ZF) / 2)
+    g.sline(nfr_s, ffr_s, "\\", (ZN + ZF) / 2)
+    g.sline(project_low(XL + 0.15, YF, ZF), project_low(XL + 0.35, YF, ZN + 0.02), ".", ZN)
+    g.sline(project_low(XR - 0.15, YF, ZF), project_low(XR - 0.35, YF, ZN + 0.02), ".", ZN)
 
 
 def draw_portrait(g: Grid) -> None:
@@ -471,18 +498,22 @@ def draw_desk(g: Grid) -> None:
     ])
     g.plot(*project((DX0 + DX1) / 2, DY_TOP - 0.12, DZ0 - 0.01), "o", DZ0 - 0.02)
 
-    # Legs
+    # Legs — twice the previous screen length, feet on the lower floor.
     for lx, lz in (
         (DX0 + 0.10, DZ0 + 0.03),
         (DX1 - 0.10, DZ0 + 0.03),
         (DX1 - 0.08, DZ1 - 0.06),
         (DX0 + 0.12, DZ1 - 0.06),
     ):
-        g.line((lx, yb, lz), (lx, YF + 0.02, lz), "|")
-        g.line((lx - 0.04, YF + 0.02, lz), (lx + 0.04, YF + 0.02, lz), "_")
+        top = project(lx, yb, lz)
+        foot = project_low(lx, YF + 0.02, lz)
+        g.sline(top, foot, "|", lz)
+        g.plot(foot[0] - 1, foot[1], "_", lz)
+        g.plot(foot[0], foot[1], "▀", lz)
+        g.plot(foot[0] + 1, foot[1], "_", lz)
 
 
-def draw_crt(g: Grid) -> None:
+def draw_crt(g: Grid, frame: int = 0) -> None:
     # Occlude through the monitor body
     g.occlude_quad(
         (MX0, MY1, MZ0), (MX1, MY1, MZ0), (MX1, MY0, MZ0), (MX0, MY0, MZ0),
@@ -529,10 +560,19 @@ def draw_crt(g: Grid) -> None:
         (MX0 + 0.12, DY_TOP, MZ0 + 0.12),
         (MX0 + 0.18, DY_TOP, MZ0),
     ])
-    # Cursor on the screen
+    # Cursor on the screen (loop: >_  >   >_  >.) plus a faint glow dither.
     sp = project((sx0 + sx1) / 2, (sy0 + sy1) / 2, MZ0 - 0.04)
-    g.plot(sp[0], sp[1], ">", MZ0 - 0.06)
-    g.plot(sp[0] + 1, sp[1], "_", MZ0 - 0.06)
+    cursor = [">_", "> ", ">_", ">."][frame % 4]
+    g.plot(sp[0], sp[1], cursor[0], MZ0 - 0.06)
+    g.plot(sp[0] + 1, sp[1], cursor[1], MZ0 - 0.06)
+    glow = [
+        [(-1, 1, ":")],
+        [(-1, 1, "."), (2, -1, ":")],
+        [(2, -1, ".")],
+        [(-1, 1, ":"), (2, -1, "."), (2, 1, ".")],
+    ][frame % 4]
+    for dc, dr, ch in glow:
+        g.plot(sp[0] + dc, sp[1] + dr, ch, MZ0 - 0.05)
 
 
 def draw_keyboard(g: Grid) -> None:
@@ -565,29 +605,31 @@ def draw_small_gadget(g: Grid) -> None:
     g.plot(*project((x0 + x1) / 2 + 0.06, (y0 + y1) / 2, z0 - 0.02), ":", z0 - 0.03)
 
 
-def draw_clerk(g: Grid) -> None:
+def draw_clerk(g: Grid, frame: int = 0) -> None:
     # Head and shoulders ABOVE the desk; the desk hides the rest.
-    cx0, cx1 = -0.70, 0.16
+    # Four-frame x-shift so the figure breathes in the loop.
+    shift = [0.0, 0.05, 0.02, -0.03][frame % 4]
+    cx0, cx1 = -0.70 + shift, 0.16 + shift
     cy0, cy1 = DY_TOP + 0.02, 1.08
     cz = 3.36
     g.stamp_image(render_clerk(), cx0, cy0, cx1, cy1, cz)
-    # Arms reaching across the desk to the keyboard (3D, so they sit on the top)
-    g.line((-0.35, DY_TOP + 0.22, cz), (-0.05, DY_TOP + 0.03, 3.22), "/")
-    g.line((-0.10, DY_TOP + 0.20, cz + 0.04), (0.22, DY_TOP + 0.03, 3.26), "\\")
-    g.plot(*project(-0.04, DY_TOP + 0.04, 3.22), "o", 3.20)
-    g.plot(*project(0.24, DY_TOP + 0.04, 3.26), "o", 3.24)
+    g.line((-0.35 + shift, DY_TOP + 0.22, cz), (-0.05, DY_TOP + 0.03, 3.22), "/")
+    g.line((-0.10 + shift, DY_TOP + 0.20, cz + 0.04), (0.22, DY_TOP + 0.03, 3.26), "\\")
+    left_h, right_h = [("o", "o"), (".", "o"), ("o", "."), (".", ".")][frame % 4]
+    g.plot(*project(-0.04, DY_TOP + 0.04, 3.22), left_h, 3.20)
+    g.plot(*project(0.24, DY_TOP + 0.04, 3.26), right_h, 3.24)
 
 
-def draw_room(clerk: bool) -> Grid:
+def draw_room(clerk: bool, frame: int = 0) -> Grid:
     g = Grid()
     draw_room_shell(g)
     draw_portrait(g)
     draw_filing(g)
     if clerk:
-        draw_clerk(g)
+        draw_clerk(g, frame=frame)
     draw_desk(g)
     draw_small_gadget(g)
-    draw_crt(g)
+    draw_crt(g, frame=frame)
     draw_keyboard(g)
     return g
 
@@ -609,42 +651,70 @@ def ts_string(s: str) -> str:
     return "`" + s.replace("\\", "\\\\").replace("`", "\\`") + "`"
 
 
+def pad_grid(s: str) -> str:
+    lines = s.split("\n")
+    return "\n".join(line.ljust(COLS)[:COLS] for line in lines)
+
+
+def diff_patches(base: str, frames: list[str]) -> list[list[list]]:
+    """Per-frame [row, col, char] patches that turn FRAME_0 into that frame."""
+    base_rows = pad_grid(base).split("\n")
+    patches: list[list[list]] = []
+    for fr in frames:
+        rows = pad_grid(fr).split("\n")
+        patch: list[list] = []
+        for r, (a, b) in enumerate(zip(base_rows, rows)):
+            for c, (ca, cb) in enumerate(zip(a, b)):
+                if ca != cb:
+                    patch.append([r, c, cb])
+        patches.append(patch)
+    return patches
+
+
+def patch_lit(rows: list) -> str:
+    if not rows:
+        return "  [],"
+    items = ", ".join(f"[{r}, {c}, {ch!r}]" for r, c, ch in rows)
+    return f"  [{items}],"
+
+
 def main() -> None:
-    empty = draw_room(False).to_string()
-    clerk = draw_room(True).to_string()
-    cells = screen_cells()
+    empty_frames = [pad_grid(draw_room(False, frame=i).to_string()) for i in range(4)]
+    clerk_frames = [pad_grid(draw_room(True, frame=i).to_string()) for i in range(4)]
+    empty, clerk = empty_frames[0], clerk_frames[0]
+    room_patches = diff_patches(empty, empty_frames)
+    clerk_patches = diff_patches(clerk, clerk_frames)
+
+    yb = DY_TOP - APRON
     print("back-wall proj L", project(XL, YF, ZF), "R", project(XR, YC, ZF))
     print("desk front L", project(DX0, DY_TOP, DZ0), "R", project(DX1, DY_TOP, DZ0))
-    print("desk back  L", project(DX0, DY_TOP, DZ1), "R", project(DX1, DY_TOP, DZ1))
+    print("apron", project(DX0, yb, DZ0))
+    print("foot front L", project_low(DX0 + 0.10, YF + 0.02, DZ0 + 0.03))
+    print("near floor", project_low(0.0, YF, ZN))
     print("crt", project(MX0, MY1, MZ0), project(MX1, MY0, MZ0))
-    print("portrait", project(PX0, PY1, ZF), project(PX1, PY0, ZF))
-    print("screen cells", cells)
+    print("empty patches", [len(p) for p in room_patches])
+    print("clerk patches", [len(p) for p in clerk_patches])
     print(empty)
     print("--- CLERK ---")
     print(clerk)
-
-    patch_glyphs = [">_   ", ">_#  ", ">    ", ">#   "]
-    patches = []
-    for glyphs in patch_glyphs:
-        patches.append([[r, c, ch] for (r, c), ch in zip(cells, glyphs)])
-
-    def patch_lit(rows: list) -> str:
-        items = ", ".join(f"[{r}, {c}, {ch!r}]" for r, c, ch in rows)
-        return f"  [{items}],"
 
     out = Path("/workspace/src/components/mockups/ascii-room-frames.ts")
     body = "\n".join([
         "/**",
         " * Generated one-point-perspective office (scripts/generate-ascii-office.py).",
-        " * Do not hand-edit the grids. Mockup only.",
+        " * Do not hand-edit the grids. Animation patches are diffs vs FRAME_0.",
+        " * Mockup only.",
         " */",
         f"export const ROOM_COLS = {COLS};",
         f"export const ROOM_ROWS = {ROWS};",
         "export const ROOM_FRAME_0 = " + ts_string(empty) + ";",
         "export const CLERK_FRAME_0 = " + ts_string(clerk) + ";",
-        "/** [row, col, char] patches applied onto FRAME_0. */",
+        "/** [row, col, char] patches applied onto FRAME_0. Index 0 is the still frame. */",
         "export const ROOM_PATCHES: [number, number, string][][] = [",
-        *[patch_lit(p) for p in patches],
+        *[patch_lit(p) for p in room_patches],
+        "];",
+        "export const CLERK_PATCHES: [number, number, string][][] = [",
+        *[patch_lit(p) for p in clerk_patches],
         "];",
         "export const ROOM_BANNER_LINES = 22;",
         "export const ROOM_ALT =",

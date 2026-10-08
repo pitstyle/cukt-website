@@ -1,0 +1,288 @@
+---
+/*
+  MOCKUP — DO NOT MERGE
+  ASCII office as the chat window for Mikołaj.
+
+  Room drawing: scripts/generate-ascii-office.py (same clerk loop as
+  /mockups/ascii-agent-room). Conversation is a static fake exchange —
+  no network. Copy: src/pages/agents/[id].astro (mikolaj).
+*/
+
+import AsciiRoom from "../../components/mockups/AsciiRoom.astro";
+
+const agent = {
+  name: "MIKOŁAJ",
+  emoji: "🎭",
+  quote: "\"Both are right. Two frequencies of the same wave.\"",
+  quotePl: "\"Obaj mają rację. Dwie częstotliwości tej samej fali.\"",
+  greeting: "Mikołaj... cicho. I'm listening.",
+  userLine: "Peter and Ewa contradict each other. Who is right?",
+  chatNote: "The agent uses Hermes memory and the CUKTAI archive. Same persona as Telegram.",
+};
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>ASCII Mockup — Chat room (Mikołaj)</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap");
+
+    :root {
+      --red: #da4444;
+      --white: #ffffff;
+      --white-dim: #c8c8c8;
+      --green: #00cc00;
+      --bg: #050505;
+      --border: #222222;
+      --font-mono: "JetBrains Mono", ui-monospace, "Courier New", monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+
+    body {
+      font-family: var(--font-mono);
+      background: var(--bg);
+      color: var(--white);
+      line-height: 1.5;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .mockup-banner {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: var(--red);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 12px 32px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      color: var(--white-dim);
+      margin: 12px 0;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+    }
+
+    .back-link:hover { color: var(--white); border-color: var(--red); }
+
+    .agent-quote {
+      border-left: 3px solid var(--red);
+      padding: 4px 0 4px 12px;
+      font-style: italic;
+      color: var(--white-dim);
+      font-size: 16px;
+      margin: 0 4px 16px;
+    }
+
+    .chat-stage {
+      position: relative;
+      background: #000;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .chat-ascii {
+      display: flex;
+      justify-content: center;
+      pointer-events: none;
+    }
+
+    .chat-ascii :global(.ascii-room) {
+      color: var(--white);
+      width: max-content;
+      max-width: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .chat-hud {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 8px 10px 6px;
+      gap: 8px;
+    }
+
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      background: rgba(0, 0, 0, 0.78);
+      border: 1px solid var(--border);
+      padding: 6px 8px;
+    }
+
+    .chat-status { color: var(--green); }
+    .chat-label { color: var(--white-dim); }
+
+    .transcript {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 0;
+    }
+
+    .paper {
+      background: rgba(0, 0, 0, 0.82);
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      max-width: 100%;
+    }
+
+    .paper-agent { align-self: stretch; }
+    .paper-user { align-self: stretch; margin-top: auto; }
+
+    .msg-name {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      margin-bottom: 6px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .paper-agent .msg-name { color: var(--green); }
+    .paper-user .msg-name { color: var(--red); }
+
+    .msg-text {
+      display: block;
+      font-size: 16px;
+      line-height: 1.45;
+      color: var(--white);
+    }
+
+    .msg-text + .msg-text { margin-top: 8px; }
+    .msg-pl { color: var(--white-dim); font-style: italic; }
+
+    .desk-form {
+      display: flex;
+      align-items: stretch;
+      gap: 0;
+      background: rgba(0, 0, 0, 0.88);
+      border: 1px solid var(--border);
+    }
+
+    .desk-field {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      min-width: 0;
+      min-height: 44px;
+      padding: 0 6px;
+      color: var(--white-dim);
+      font-size: 16px;
+    }
+
+    .desk-field input {
+      flex: 1;
+      min-width: 0;
+      min-height: 44px;
+      background: transparent;
+      border: none;
+      color: var(--white);
+      font-family: var(--font-mono);
+      font-size: 16px;
+      outline: none;
+      padding: 8px 4px;
+    }
+
+    .desk-field input::placeholder { color: #666; }
+
+    .desk-send {
+      min-width: 88px;
+      min-height: 44px;
+      background: #000;
+      border: none;
+      border-left: 1px solid var(--border);
+      color: var(--red);
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 8px 10px;
+      cursor: pointer;
+    }
+
+    .chat-note {
+      padding: 8px 4px 0;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="mockup-banner">DRAFT MOCKUP — DO NOT MERGE</div>
+  <div class="container">
+    <a href="/mockups/ascii-agent-room" class="back-link">← AGENT ROOM MOCKUP</a>
+
+    <blockquote class="agent-quote">{agent.quote}</blockquote>
+
+    <div class="chat-stage" id="ascii-chat-room">
+      <div class="chat-ascii" aria-hidden="true">
+        <AsciiRoom variant="clerk" />
+      </div>
+      <div class="chat-hud">
+        <div class="status-row">
+          <span class="chat-status">● ONLINE</span>
+          <span class="chat-label">TALKING TO {agent.name}</span>
+        </div>
+        <div class="transcript">
+          <div class="paper paper-agent">
+            <span class="msg-name">{agent.emoji} {agent.name}</span>
+            <span class="msg-text">{agent.greeting}</span>
+            <span class="msg-text">{agent.quote}</span>
+            <span class="msg-text msg-pl">{agent.quotePl}</span>
+          </div>
+          <div class="paper paper-user">
+            <span class="msg-name">👤 YOU</span>
+            <span class="msg-text">{agent.userLine}</span>
+          </div>
+        </div>
+        <form class="desk-form" id="ascii-chat-form">
+          <label class="desk-field">
+            [
+            <input type="text" placeholder="Type your message..." autocomplete="off" aria-label="Type your message" />
+            _]
+          </label>
+          <button class="desk-send" type="submit">[ SEND ]</button>
+        </form>
+      </div>
+    </div>
+    <p class="chat-note">{agent.chatNote}</p>
+  </div>
+  <script>
+    document.getElementById("ascii-chat-form")?.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+    });
+  </script>
+</body>
+</html>

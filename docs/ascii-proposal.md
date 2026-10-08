@@ -13,9 +13,10 @@ Piotr rejected the v2 38-column icon box. The room has to look like his SIMPLE O
 What v3 does:
 
 - The grids in `ascii-room-frames.ts` are **generated** from a 3D edge list (`scripts/generate-ascii-office.py`): the camera sits close so the **back wall fills the frame**; desk/CRT/keyboard are 3D boxes; portrait and clerk are silhouettes dithered to `. : @`. Not hand-placed icons.
-- Density: **108×46** characters. Font size is `clamp(5.5px, calc((100vw - 48px) / 64), 9px)` so the whole room fits inline at 390px. Furniture fills the middle of the frame (desk in 3/4, CRT with depth, dotted bust, seated clerk).
+- Density: **108×60** characters (back wall still fitted on 46 rows). Extra rows hold **desk legs about twice as long**, `_`/`▀` feet, and a floor line below the feet with a strip of floor under that. Side-wall perspective lines drop with the floor. Portrait, shelves and CRT stay on the approved mapping.
 - Two drawings on `/mockups/ascii-agent-room`: empty office (`#room-empty`) and clerk (`#room-clerk`). Chat header uses the upper back-wall strip, in green.
-- Animation: **four patches of a few CRT glyphs** (`>_` blink) every 280ms. The whole room is not copied four times. `prefers-reduced-motion: reduce` keeps the first frame.
+- Animation: **four pre-generated text frames** as `[row, col, char]` patches vs frame 0 (CRT `>_` blink + glow dither; clerk head/shoulders shift and typing hands). Swapped every 280ms. `prefers-reduced-motion: reduce` keeps the first frame. Fixed rows/cols so the grid does not shift.
+- Separate mockup `/mockups/ascii-chat-room`: the ASCII office **is** the chat window (Mikołaj). Static fake exchange, no network. Overlay copy at 16px so it reads at 390px.
 - Colours still **red / green / white** only. Spelling still **CUKTAI** (never bare CUKT except “Wiktoria Cukt” and cukt.click).
 
 ---
@@ -105,6 +106,7 @@ Removed the fake stats row (`Sessions 1,247`, `Uptime 99.2%`). Those numbers are
 | Mockup text | Source |
 | --- | --- |
 | Wiktoria name, role, description, quote, greeting, chat chrome | `src/pages/agents/[id].astro` (`wiktoria`) |
+| Mikołaj quote, greeting, chat chrome (ascii-chat-room) | `src/pages/agents/[id].astro` (`mikolaj`) |
 | Portrait file | `/uploads/4/6/4/1/4641121/published/wiktoria-2-0-01a-s.jpg` (also `src/content/cukt/wiktoria-cukt.md`) |
 | `TECHNOPERA 2026` title | `src/pages/technopera.astro` (`<h1 class="hero-title">`) |
 | `AUTHORITY. KNOWLEDGE. SEAL.` | `src/pages/technopera.astro` (`.triad-primary`) |
@@ -164,7 +166,8 @@ This cloud environment cannot tap a physical iPhone. Any estimate that skips tha
 
 ## Mockup routes
 
-- `/mockups/ascii-agent-room` — **v2 preview** (noindex, not in nav, not in sitemap)
-- `/mockups/ascii-project-card` — left in the repo, not featured in v2
+- `/mockups/ascii-agent-room` — **v3 preview** (noindex, not in nav, not in sitemap)
+- `/mockups/ascii-chat-room` — ASCII office as the Mikołaj chat window (noindex)
+- `/mockups/ascii-project-card` — left in the repo, not featured in v3
 
 Both are draft-only. Merging this branch to `main` would still publish the mockup URLs on cukt.click (Render auto-deploy). Keep the PR draft until Piotr says otherwise.
