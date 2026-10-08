@@ -1,33 +1,39 @@
 ---
 /*
-  Mockup-only hand-drawn ASCII room. Not an ascii.rest piece.
-  Animation: four <pre> frames swapped on a timer (no canvas).
-  Stops when prefers-reduced-motion is set.
+  Mockup-only one-point-perspective ASCII office.
+  Generated from scripts/generate-ascii-office.py (3D edges → character grid).
+  Animation: a few CRT glyphs patched onto one base <pre> every 280ms.
+  Stops when prefers-reduced-motion is set. No zoom / overlay.
 */
 import {
-  ROOM_FRAMES,
+  ROOM_FRAME_0,
+  CLERK_FRAME_0,
+  ROOM_PATCHES,
   ROOM_BANNER_LINES,
   ROOM_ALT,
+  CLERK_ALT,
 } from "./ascii-room-frames";
 
 interface Props {
-  variant?: "full" | "banner";
+  variant?: "full" | "banner" | "clerk";
 }
 
 const { variant = "full" } = Astro.props;
 
-const frames =
-  variant === "banner"
-    ? ROOM_FRAMES.map((f) => f.split("\n").slice(0, ROOM_BANNER_LINES).join("\n"))
-    : ROOM_FRAMES;
+const base = variant === "clerk" ? CLERK_FRAME_0 : ROOM_FRAME_0;
+const text =
+  variant === "banner" ? base.split("\n").slice(0, ROOM_BANNER_LINES).join("\n") : base;
+const alt = variant === "clerk" ? CLERK_ALT : ROOM_ALT;
 ---
 
 <figure class="ascii-room-figure">
   <pre
     class="ascii-room"
-    data-ascii-frames={JSON.stringify(frames)}
-    aria-hidden="true">{frames[0]}</pre>
-  <figcaption class="sr-only">{ROOM_ALT}</figcaption>
+    data-ascii-patches={JSON.stringify(ROOM_PATCHES)}
+    data-ascii-banner={variant === "banner" ? "1" : "0"}
+    data-ascii-banner-lines={String(ROOM_BANNER_LINES)}
+    aria-hidden="true">{text}</pre>
+  <figcaption class="sr-only">{alt}</figcaption>
 </figure>
 
 <style>
@@ -38,9 +44,9 @@ const frames =
     overflow: hidden;
     white-space: pre;
     font-family: "JetBrains Mono", ui-monospace, "Courier New", monospace;
-    font-size: 12px;
+    font-size: clamp(6px, calc((100vw - 48px) / 54), 10px);
     font-weight: 600;
-    line-height: 1.15;
+    line-height: 1.08;
     letter-spacing: 0;
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
@@ -65,26 +71,40 @@ const frames =
   for (const pre of document.querySelectorAll("pre.ascii-room")) {
     if (pre.getAttribute("data-ascii-anim")) continue;
     pre.setAttribute("data-ascii-anim", "1");
+
+    const base = pre.textContent ?? "";
     if (reduce) continue;
 
-    let frames: string[] = [];
+    let patches: [number, number, string][][] = [];
     try {
-      frames = JSON.parse(pre.getAttribute("data-ascii-frames") || "[]");
+      patches = JSON.parse(pre.getAttribute("data-ascii-patches") || "[]");
     } catch {
       continue;
     }
-    if (frames.length < 2) continue;
+    if (patches.length < 2) continue;
+
+    const banner = pre.getAttribute("data-ascii-banner") === "1";
+    const bannerLines = Number(pre.getAttribute("data-ascii-banner-lines") || "0");
+
+    const apply = (patch: [number, number, string][]) => {
+      const rows = base.split("\n").map((line) => line.split(""));
+      for (const [r, c, ch] of patch) {
+        if (banner && r >= bannerLines) continue;
+        if (rows[r] && c < rows[r].length) rows[r][c] = ch;
+      }
+      pre.textContent = rows.map((row) => row.join("")).join("\n");
+    };
 
     let i = 0;
     const id = window.setInterval(() => {
-      i = (i + 1) % frames.length;
-      pre.textContent = frames[i];
+      i = (i + 1) % patches.length;
+      apply(patches[i]);
     }, 280);
 
     window.matchMedia("(prefers-reduced-motion: reduce)").addEventListener("change", (ev) => {
       if (ev.matches) {
         window.clearInterval(id);
-        pre.textContent = frames[0];
+        pre.textContent = base;
       }
     });
   }

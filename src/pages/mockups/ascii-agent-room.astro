@@ -1,15 +1,10 @@
 ---
 /*
-  MOCKUP v2 — DO NOT MERGE
-  ASCII aesthetic for the Wiktoria Cukt 2.0 agent room.
+  MOCKUP v3 — DO NOT MERGE
+  One-point-perspective ASCII agent room for Wiktoria Cukt 2.0.
 
-  Piotr: readability first; red / green / white only; agent rooms only;
-  hand-drawn room (not photo conversion); cheap <pre> loop; stop on
-  prefers-reduced-motion.
-
-  ascii.rest@0.2.1 has no office/clerk piece, so the room is a custom
-  <pre>. MIT License, Copyright (c) 2026 bas3line — retained because
-  the look is taken from that library’s examples.
+  Generated from a 3D edge description (scripts/generate-ascii-office.py),
+  not a photo conversion and not a 38-column icon box. No zoom overlay.
 
   Copy: src/pages/agents/[id].astro (wiktoria).
 */
@@ -33,7 +28,7 @@ const agent = {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>ASCII Mockup v2 — {agent.name} Room</title>
+  <title>ASCII Mockup v3 — {agent.name} Room</title>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap");
 
@@ -93,7 +88,8 @@ const agent = {
 
     .back-link:hover { color: var(--white); border-color: var(--red); }
 
-    .room-header {
+    .room-header,
+    .room-clerk {
       border: 1px solid var(--border);
       background: #000;
       padding: 12px 8px 8px;
@@ -104,26 +100,24 @@ const agent = {
       align-items: center;
     }
 
-    .room-header :global(.ascii-room) {
+    .room-header :global(.ascii-room),
+    .room-clerk :global(.ascii-room) {
       color: var(--white);
       width: max-content;
       max-width: 100%;
-      font-size: 12px;
-      font-weight: 600;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
 
-    @media (min-width: 768px) {
-      .room-header :global(.ascii-room) { font-size: 14px; }
-    }
-
-    .mit-note {
+    .mit-note,
+    .variant-label {
       font-size: 11px;
       color: #888;
       letter-spacing: 0.04em;
       padding: 6px 8px 0;
     }
+
+    .variant-label { color: var(--green); }
 
     .agent-info {
       border: 1px solid var(--border);
@@ -182,16 +176,10 @@ const agent = {
 
     .chat-backdrop :global(.ascii-room) {
       color: var(--green);
-      font-size: 10px;
-      font-weight: 600;
       width: max-content;
       max-width: 100%;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-    }
-
-    @media (min-width: 768px) {
-      .chat-backdrop :global(.ascii-room) { font-size: 12px; }
     }
 
     .chat-header {
@@ -270,13 +258,19 @@ const agent = {
   </style>
 </head>
 <body>
-  <div class="mockup-banner">DRAFT MOCKUP v2 — AGENT ROOM ONLY — DO NOT MERGE</div>
+  <div class="mockup-banner">DRAFT MOCKUP v3 — AGENT ROOM ONLY — DO NOT MERGE</div>
   <div class="container">
     <a href="/agents" class="back-link">← ALL AGENTS</a>
 
-    <div class="room-header">
+    <div class="room-header" id="room-empty">
       <AsciiRoom variant="full" />
-      <p class="mit-note">Look after ascii.rest examples (MIT © bas3line). Custom &lt;pre&gt; scene, not a photo conversion.</p>
+      <p class="mit-note">Look after ascii.rest examples (MIT © bas3line). One-point perspective office generated from a 3D edge list, not a photo conversion.</p>
+    </div>
+
+    <div class="room-clerk" id="room-clerk">
+      <p class="variant-label">VARIANT — CLERK AT THE DESK</p>
+      <AsciiRoom variant="clerk" />
+      <p class="mit-note">Same room, clerk seated. No zoom overlay — both drawings are inline.</p>
     </div>
 
     <section class="agent-info">

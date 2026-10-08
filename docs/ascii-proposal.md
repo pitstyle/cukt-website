@@ -1,12 +1,26 @@
 # ASCII Aesthetic Proposal — cukt.click
 
 **Status:** Mockup / proposal only. Do not merge.  
-**Date:** 8 October 2026 (v2 same day, after Piotr’s review)  
+**Date:** 8 October 2026 (v3 same day)  
 **Package tried:** `ascii.rest@0.2.1` (pinned exact)
 
 ---
 
-## v2 (this review)
+## v3 (this review)
+
+Piotr rejected the v2 38-column icon box. The room has to look like his SIMPLE OFFICE VIEW reference: **one-point perspective** (wall corners, ceiling, floor), a **dotted portrait on the back wall**, a **desk and CRT in 3/4**, and a **clerk-seated variant**. No tap-to-full-screen, no pinch-zoom — “get closer” meant draw the furniture, not add a zoom UI.
+
+What v3 does:
+
+- The grids in `ascii-room-frames.ts` are **generated** from a 3D edge list (`scripts/generate-ascii-office.py`): project, fit the 8 room corners to the canvas, rasterize with a z-buffer. Not hand-placed icons.
+- Density: **88×36** characters. Font size is `clamp(6px, calc((100vw - 48px) / 54), 10px)` so the whole room fits inline at 390px (~6.3px) without cropping or a zoom overlay. At that size the desk is ~120px wide.
+- Two drawings on `/mockups/ascii-agent-room`: empty office (`#room-empty`) and clerk (`#room-clerk`). Chat header uses the upper back-wall strip, in green.
+- Animation: **four patches of a few CRT glyphs** (`>_` blink) every 280ms. The whole room is not copied four times. `prefers-reduced-motion: reduce` keeps the first frame.
+- Colours still **red / green / white** only. Spelling still **CUKTAI** (never bare CUKT except “Wiktoria Cukt” and cukt.click).
+
+---
+
+## v2 (previous)
 
 Piotr: direction yes; readability first; **red / green / white only**; **agent rooms only**; a **drawn room** (clerk, desk, computer, wall portrait, files), not a muddy photo conversion.
 
