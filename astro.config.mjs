@@ -1,10 +1,15 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { isPublishablePublicPath } from './src/lib/public-teczki.ts';
 
 export default defineConfig({
   site: 'https://cukt.click',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      filter: (page) => isPublishablePublicPath(page),
+    }),
+  ],
   build: {
     format: 'directory',
   },

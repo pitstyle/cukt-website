@@ -30,7 +30,12 @@ const personal = defineCollection({
 });
 
 const archiwistka = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/archiwistka' }),
+  // 120h-kultowa.md is an agent hallucination (Piotr, 2026). Auto-sync of
+  // teczki from Archiwistka can restore the file; keep it out of the collection.
+  loader: glob({
+    pattern: ['**/*.md', '!**/120h-kultowa.md'],
+    base: './src/content/archiwistka',
+  }),
   schema: z.object({
     title: z.string(),
     project: z.string().optional(),

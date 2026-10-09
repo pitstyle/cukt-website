@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
+import { isPublishableArchiveRef } from '../../lib/public-teczki';
 
 export async function getStaticPaths() {
   const episodes = await getCollection('podcasts');
@@ -59,11 +60,11 @@ const epNum = String(ep.data.episode).padStart(3, '0');
     </div>
   )}
 
-  {ep.data.archive_refs && ep.data.archive_refs.length > 0 && (
+  {ep.data.archive_refs && ep.data.archive_refs.filter(isPublishableArchiveRef).length > 0 && (
     <div class="refs">
       <h3>Archive references</h3>
       <ul>
-        {ep.data.archive_refs.map((r: string) => <li>{r}</li>)}
+        {ep.data.archive_refs.filter(isPublishableArchiveRef).map((r: string) => <li>{r}</li>)}
       </ul>
     </div>
   )}

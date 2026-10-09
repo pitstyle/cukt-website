@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { isPublishableTeczka } from '../../lib/public-teczki';
 
-const all = await getCollection('archiwistka');
+const all = await getCollection('archiwistka', isPublishableTeczka);
 const karty = all.filter(d => d.data.type === 'karta').sort((a, b) => b.data.date.localeCompare(a.data.date));
 const teczki = all.filter(d => d.data.type === 'teczka').sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---

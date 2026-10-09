@@ -1,9 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
+import { isPublishableTeczka } from '../../lib/public-teczki';
 
 export async function getStaticPaths() {
-  const docs = await getCollection('archiwistka');
+  const docs = await getCollection('archiwistka', isPublishableTeczka);
   return docs.map((doc) => ({
     params: { id: doc.id },
     props: { doc },
