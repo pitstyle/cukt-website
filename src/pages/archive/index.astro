@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { isPublishableTeczka } from '../../lib/public-teczki';
 
-const docs = await getCollection('archiwistka');
+const docs = await getCollection('archiwistka', isPublishableTeczka);
 // Only show teczka type (not karta), sort by date
 const teczki = docs
   .filter(d => d.data.type === 'teczka')
