@@ -4,6 +4,7 @@ import {
   isPublishableArchiveRef,
   isPublishablePublicPath,
   isPublishableTeczka,
+  unpublishedTeczkaRedirects,
 } from '../src/lib/public-teczki.ts';
 
 describe('public teczki denylist', () => {
@@ -60,5 +61,13 @@ describe('public teczki denylist', () => {
     assert.equal(isPublishablePublicPath('/archive/120h-kultowa/'), false);
     assert.equal(isPublishablePublicPath('/archiwistka/120h-kultowa'), false);
     assert.equal(isPublishablePublicPath('/archive/120h-mega-techno-obecnosci/'), true);
+  });
+
+  it('redirects unpublished slugs to the archive indexes', () => {
+    const redirects = unpublishedTeczkaRedirects();
+    assert.equal(redirects['/archive/120h-kultowa'], '/archive');
+    assert.equal(redirects['/archiwistka/120h-kultowa'], '/archiwistka');
+    assert.equal(redirects['/archive/120h-mega-techno-obecnosci'], undefined);
+    assert.equal(redirects['/archiwistka/120h-mega-techno-obecnosci'], undefined);
   });
 });

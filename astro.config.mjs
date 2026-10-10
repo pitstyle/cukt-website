@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-import { isPublishablePublicPath } from './src/lib/public-teczki.ts';
+import { isPublishablePublicPath, unpublishedTeczkaRedirects } from './src/lib/public-teczki.ts';
 
 export default defineConfig({
   site: 'https://cukt.click',
@@ -16,6 +16,9 @@ export default defineConfig({
   redirects: {
     '/personal/habeas-mentem': '/habeas-mentem',
     '/personal/habeas-mentem/': '/habeas-mentem',
+    // Specific unpublished slugs only — not `/archive/[id]`. Dynamic [id]
+    // routes never emit these paths (isPublishableTeczka), so no collision.
+    ...unpublishedTeczkaRedirects(),
   },
   markdown: {
     shikiConfig: {
