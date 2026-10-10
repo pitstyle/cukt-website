@@ -2,15 +2,26 @@ name: Deploy to Render
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      clearCache:
+        description: Render build cache (clear removes leftover static files from older builds)
+        type: choice
+        options:
+          - clear
+          - do_not_clear
+        default: clear
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Render Deploy
+        env:
+          CLEAR_CACHE: ${{ github.event.inputs.clearCache || 'clear' }}
         run: |
           curl -s -X POST \
             -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
             -H "Content-Type: application/json" \
-            -d '{"clearCache":"do_not_clear"}' \
+            -d "{\"clearCache\":\"${CLEAR_CACHE}\"}" \
             "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys"

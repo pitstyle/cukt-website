@@ -57,3 +57,20 @@ export function isPublishablePublicPath(pathname: string): boolean {
   }
   return true;
 }
+
+/**
+ * Configured Astro redirects for unpublished slugs.
+ *
+ * These are more specific than the dynamic `/archive/[id]` and
+ * `/archiwistka/[id]` routes. `getStaticPaths` already drops denylisted
+ * slugs via `isPublishableTeczka`, so the build emits redirect HTML
+ * instead of a teczka page — overwriting leftover files from older deploys.
+ */
+export function unpublishedTeczkaRedirects(): Record<string, string> {
+  const redirects: Record<string, string> = {};
+  for (const slug of UNPUBLISHABLE_TECZKA_SLUGS) {
+    redirects[`/archive/${slug}`] = '/archive';
+    redirects[`/archiwistka/${slug}`] = '/archiwistka';
+  }
+  return redirects;
+}
