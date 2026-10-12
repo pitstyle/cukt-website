@@ -36,9 +36,9 @@ Technopera powstała na przełomie wieków, pokolenie przed zwrotem AI — jako 
 
 - **Zielona Góra 1996** — premiere
 - **Warszawa, CSW Ujazdowski 1996**
-- **Dessau 1997**
 - **Wrocław, WRO 1997**
 - **Banff, Kanada 1997**
+- **Dessau 1997**
 - **Budapeszt** — wersja wideo pokazywana m.in. na telewizji węgierskiej
 
 The video version was broadcast on Polish television. A premiere planned for Gdańsk (the NOT building) did not materialise; the project was revived in 2024.
