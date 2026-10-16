@@ -1,0 +1,10 @@
+{
+  "name": "habeas-druk",
+  "private": true,
+  "type": "module",
+  "description": "Rebuild Habeas Mentem print variant E3 (A4). Not part of the website npm scripts.",
+  "scripts": {
+    "build": "node build.mjs",
+    "render": "node render.mjs"
+  }
+}

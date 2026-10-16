@@ -1,0 +1,8 @@
+node_modules/
+build.html
+habeas-mentem-ustawa-druk-E3.html
+habeas-mentem-ustawa-druk-E3-A4.pdf
+playwright-report/
+test-results/
+blob-report/
+prev-ustawa*.png

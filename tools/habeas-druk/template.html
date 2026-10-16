@@ -1,0 +1,120 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>HABEAS MENTEM — Karta praw do chaosu i wolności poznawczej (v2.7)</title>
+<style>
+@font-face{font-family:JBM;src:url(data:font/ttf;base64,__FONT__) format("truetype");font-weight:100 800}
+@font-face{font-family:AntonM;src:url(data:font/ttf;base64,__BEBAS__) format("truetype")}
+@font-face{font-family:"Bebas Neue";src:url(data:font/ttf;base64,__BEBAS__) format("truetype")}
+@page{size:A4;margin:0}
+html,body{margin:0;background:#fff;color:#000}
+@media screen{body{background:#ddd}.page{margin:20px auto;box-shadow:0 0 8px #0003}}
+.page{position:relative;width:794px;height:1123px;background:#fff;overflow:hidden;break-after:page;font-family:JBM}
+.mast{position:absolute;left:50px;right:50px;top:38px;height:40px;border-bottom:2.5px solid #000;display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:6px}
+.mast .t{font:800 21px/1 JBM;letter-spacing:.06em}
+.mast .k{font:400 7.5px/1.3 JBM;letter-spacing:.08em;text-transform:uppercase;margin-left:12px;flex:1}
+.mast img{height:26px}
+.foot{position:absolute;left:50px;right:50px;bottom:28px;font:400 7.5px JBM;display:flex;justify-content:space-between;border-top:1px solid #000;padding-top:4px}
+.bar{font:700 10px JBM;letter-spacing:.08em}.hdr{position:absolute;left:50px;right:50px;text-align:center;font-family:JBM}.ht,.hxr.ht{font:800 17px/1.25 JBM;letter-spacing:.06em}.hs{font:400 11px/1.6 JBM;letter-spacing:.12em;margin-bottom:5px}.hxr.ht,.ht{} .hm{font:400 7.4px/1.45 JBM}
+.l{position:absolute;white-space:pre;font:var(--w) var(--fs)/1 JBM;height:var(--lh);line-height:var(--lh)}
+.l.j{white-space:normal;text-align:justify;text-align-last:justify}
+.l.b{font-weight:700!important}.l.hy::after{content:'-'}.l.jh::after{position:absolute;right:calc(-1 * var(--cw1))}.l.p1{font-size:var(--fs);line-height:var(--lh);font-weight:var(--w)}.l.p2{font-size:var(--fs2);line-height:var(--lh2);height:var(--lh2);font-weight:var(--w2)}
+</style></head><body>
+<script>const CFG=__CFG__;const BLOCKS=__BLOCKS__;</script>
+<script>__PRETEXT__</script>
+<script>
+(async()=>{
+const P=Pretext,FS=CFG.fs,LH=FS*(CFG.lh||1.15),W=794,H=1123,ML=50,MR=50,TOP=96,BOT=1123-48,GAP=10,NC=CFG.nc||4;let TOP1=TOP;
+document.documentElement.style.setProperty('--fs',FS+'px');document.documentElement.style.setProperty('--w',CFG.w||600);document.documentElement.style.setProperty('--lh',LH+'px');const _f2=CFG.fs2||7.6;document.documentElement.style.setProperty('--fs2',_f2+'px');document.documentElement.style.setProperty('--lh2',_f2*(CFG.lh2||1.35)+'px');document.documentElement.style.setProperty('--w2',CFG.w2||400);
+await document.fonts.load(`${CFG.w||600} ${FS}px JBM`);await document.fonts.load(`800 ${FS}px JBM`);await document.fonts.load('100px AntonM');await document.fonts.load(CFG.lf);
+const cvs=document.createElement('canvas'),cx=cvs.getContext('2d');cx.font=`${CFG.w||600} ${FS}px JBM`;const CW=cx.measureText('M').width;
+const colW=(W-ML-MR-GAP*(NC-1))/NC, colX=i=>ML+i*(colW+GAP);
+// mask of HABEAS / MENTEM for page 1
+const S=2,m=document.createElement('canvas');m.width=W*S;m.height=H*S;const g=m.getContext('2d');g.scale(S,S);g.fillStyle='#000';
+const words=['HABEAS','MENTEM'],areaW=W-ML-MR,y0=TOP+CFG.top,y1=BOT-4,rowH=(y1-y0)/2;
+if(CFG.diag){const ang=-CFG.ang*Math.PI/180;const cxp=W/2,cyp=(TOP+BOT)/2+CFG.dy;g.save();g.translate(cxp,cyp);g.rotate(ang);
+ const lines=CFG.diag;const L=lines.length;g.font=CFG.lf;let fs=200;
+ const mw=Math.max(...lines.map(t=>g.measureText(t).width));const target=CFG.len;const k=target/mw;g.font=CFG.lf.replace('200px',(200*k)+'px');
+ const lh=200*k*CFG.lsp;lines.forEach((t,i)=>{const w=g.measureText(t).width;g.fillText(t,-w/2,(i-(L-1)/2)*lh+200*k*0.36);});g.restore();}
+else for(let i=0;i<2;i++){const cell=areaW/6;g.font=CFG.lf;
+ for(let j=0;j<6;j++){const ch=words[i][j],mt=g.measureText(ch);const gw=mt.actualBoundingBoxRight+mt.actualBoundingBoxLeft,gh=mt.actualBoundingBoxAscent;
+  const sx=cell*CFG.wf/gw,sy=(rowH-CFG.rg)/gh;g.save();g.translate(ML+j*cell+cell*(1-CFG.wf)/2,y0+i*rowH+CFG.rg/2+gh*sy);g.scale(sx,sy);g.fillText(ch,mt.actualBoundingBoxLeft,0);g.restore();}}
+const md=g.getImageData(0,0,W*S,H*S).data,PAD=CFG.pad,PADY=CFG.pady;
+function blocked(x,ya,yb){ // any ink in [x-PAD,x+PAD] x [ya-PAD,yb+PAD]
+ for(let y=Math.max(0,Math.floor((ya-PADY)*S));y<Math.min(H*S,(yb+PADY)*S);y+=1)for(let xx=Math.max(0,Math.floor((x-PAD)*S));xx<(x+PAD)*S;xx+=2)if(md[(y*W*S+xx)*4+3]>40)return true;return false;}
+function intervals(pg,c,y){const full=pg===0&&CFG.gf;const x0=full?ML:colX(c),n=Math.floor(((full?W-ML-MR:colW)+0.01)/CW);if(pg>0)return[[x0,n]];
+ const free=[];for(let k=0;k<n;k++)free.push(!blocked(x0+k*CW+CW/2,y,y+LH));const out=[];let k=0;
+ while(k<n){if(!free[k]){k++;continue}let s=k;while(k<n&&free[k])k++;if(k-s>=3)out.push([x0+s*CW,k-s]);}return out;}
+
+const M1={fs:FS,lh:LH,w:CFG.w||500},M2={fs:CFG.fs2||7.6,lh:(CFG.fs2||7.6)*(CFG.lh2||1.35),w:CFG.w2||400};
+await document.fonts.load(`${M2.w} ${M2.fs}px JBM`);await document.fonts.load(`700 ${M2.fs}px JBM`);await document.fonts.load(`${M1.w} ${M1.fs}px JBM`);await document.fonts.load(`700 ${M1.fs}px JBM`);
+const cwOf=m=>{cx.font=`${m.w} ${m.fs}px JBM`;return cx.measureText('M').width};M1.cw=cwOf(M1);M2.cw=cwOf(M2);
+const GAP2=CFG.gap2||18,colW2=(W-ML-MR-GAP2*(NC-1))/NC,colX2=i=>ML+i*(colW2+GAP2);
+const Mof=p=>(p===0||CFG.allmask)?M1:M2;
+const pages=[];let pg=-1,c=0,y=0;
+function newPage(){pg++;const d=document.createElement('div');d.className='page';
+ d.innerHTML=`<div class="mast">${CFG.bar?'<span class="bar">CUKTAI // WIKTORIA CUKT 2.0</span><span class="k" style="text-align:right;margin-right:10px">DOKUMENTACJA PROJEKTOWA · V 2.7 · 2026</span>':'<span class="t">HABEAS&nbsp;MENTEM</span><span class="k">Karta praw do chaosu i wolności poznawczej · __KICK__ · wersja 2.7<br>Autonomiczny Urząd Kultury Technicznej CUKTAI</span>'}<img src="data:image/png;base64,__LOGO__"></div><div class="foot"><span>CUKTAI · HABEAS MENTEM · v2.7</span><span>${pg+1} / <b class="np"></b></span></div>`;
+ document.body.appendChild(d);pages.push(d);c=0;y=(pg===0||CFG.hdrall?TOP1:TOP);if(pg>0&&CFG.hdrall&&window.HDR){const h=window.HDR.cloneNode(true);h.innerHTML=h.innerHTML.replace(/class="hx/g,'class="hxr');d.appendChild(h);}}
+const GAP1=CFG.gap1??6,colW1=(W-ML-MR-GAP1*(NC-1))/NC,colX1=i=>ML+i*(colW1+GAP1);
+function ivs(){const m=Mof(pg);if(pg===0||CFG.allmask){const X=CFG.gf?ML:colX1(c),n=Math.floor((CFG.gf?W-ML-MR:colW1)/m.cw),free=[];for(let k=0;k<n;k++)free.push(!blocked(X+k*m.cw+m.cw/2,y,y+m.lh));
+  const out=[];let k=0;while(k<n){if(!free[k]){k++;continue}let s0=k;while(k<n&&free[k])k++;if(k-s0>=(CFG.minc||3))out.push([X+s0*m.cw,k-s0]);}return out;}
+ return [[colX2(c),Math.floor(colW2/m.cw)]];}
+// returns true if page changed
+function adv(dy){y+=dy;if(y+Mof(pg).lh>BOT){if(pg===0&&CFG.gf){newPage();return true}c++;y=(pg===0||CFG.hdrall?TOP1:TOP);if(c>=NC){newPage();return true}}return false}
+const seg=new Intl.Segmenter('pl',{granularity:'grapheme'});
+function restOf(prep,cur){const sg=prep.segments;let r=[...seg.segment(sg[cur.segmentIndex]||'')].slice(cur.graphemeIndex).map(x=>x.segment).join('');return r+sg.slice(cur.segmentIndex+1).join('')}
+newPage();
+if(location.hash=='#dbg'){m.style.cssText='position:absolute;left:0;top:0;width:794px;height:1123px;opacity:.25';pages[0].appendChild(m);}
+
+// group: on page 1, consecutive p blocks become one stream (joined by space) for dense fill
+const Q=BLOCKS.filter(b=>b.k!=='h1').map(b=>({...b}));if(CFG.hdr){const h1=BLOCKS.find(b=>b.k==='h1');const title=Q.shift();const meta=[];while(Q.length&&Q[0].k==='p')meta.push(Q.shift());
+ const hd=document.createElement('div');hd.className='hdr';hd.style.top=TOP+'px';
+ hd.innerHTML=`<div class="hx ht">${title.t.toUpperCase()}</div><div class="hx hs">(<span class="hx">${h1.t.toUpperCase()}</span>)</div>`+meta.map(x=>`<div class="hx hm">${x.t}</div>`).join('');
+ pages[0].appendChild(hd);window.HDR=hd;TOP1=TOP+hd.getBoundingClientRect().height+14;y=TOP1;}
+let first=true;
+function layBlock(text,bold,kind,z){ // z: char-break mode; returns remaining text if page changed out of page 1 mid-block, else null
+ let m=Mof(pg),font=`${bold?700:m.w} ${m.fs}px JBM`;const mk=t=>P.prepareWithSegments(z?[...t].join('\u200B'):t,font);
+ let prep=mk(text),cur={segmentIndex:0,graphemeIndex:0};
+ while(true){let done=false;
+  for(const [x,n] of ivs()){let W0=n*m.cw+0.3;let ln=P.layoutNextLine(prep,W0,cur);if(!ln){done=true;break}
+   let mid=false;
+   if(z&&(pg===0||CFG.allmask)){const T=ln.text.replace(/\u200B/g,'');const nx=restOf(prep,ln.end).replace(/\u200B/g,'');
+     const isL=c=>/[\p{L}\p{N}]/u.test(c||'');
+     if(nx&&isL(T[T.length-1])&&isL(nx[0])){ // mid-word
+       const sp=T.lastIndexOf(' ');
+       if(n>=(CFG.narrow||14)&&sp>n*0.55){W0=(sp+1)*m.cw+0.3;ln=P.layoutNextLine(prep,W0,cur)||ln;}
+       else{W0=(n-1)*m.cw+0.3;ln=P.layoutNextLine(prep,W0,cur)||ln;const T2=ln.text.replace(/\u200B/g,''),n2=restOf(prep,ln.end).replace(/\u200B/g,'');mid=isL(T2[T2.length-1])&&isL(n2[0]);}
+     }}
+   if(CFG.midhy&&ln.end.graphemeIndex>0&&!/-$/.test(ln.text)){W0=(n-1)*m.cw+0.3;ln=P.layoutNextLine(prep,W0,cur)||ln;mid=ln.end.graphemeIndex>0&&!/-$/.test(ln.text);}
+   let t=ln.text.replace(/\u200B/g,'').replace(/\s+$/,'');let hy=t.endsWith('\u00AD');t=t.replace(/\u00AD/g,'');
+   {const ei=ln.end.segmentIndex;const sk=k=>prep.kinds[k]==='soft-hyphen';if(t.endsWith('-')&&(sk(ei-1)||(ln.end.graphemeIndex===0&&sk(ei-1)))){t=t.slice(0,-1);hy=true;}}
+   if(mid)hy=true;
+   const fin=P.layoutNextLine(prep,W0,ln.end)===null;
+   if(pg===0&&CFG.nomid&&!fin&&!hy&&ln.end.graphemeIndex>0&&n<(CFG.nomidmax||40)){continue;}
+   if(t.length){const e=document.createElement('div');e.className='l'+(bold?' b':'')+(hy?' hy':'')+((pg===0||CFG.allmask)?' p1':' p2');e.dataset.n=n;e.style.left=x+'px';e.style.top=y+'px';e.textContent=t;pages[pg].appendChild(e);
+    const L=t.length+(hy?1:0);if((pg===0||CFG.allmask)&&CFG.just&&!fin&&L<n){if(t.includes(' ')&&L>=n*(CFG.jmin??0)){e.classList.add('j');if(hy)e.classList.add('jh');e.style.width=(n*m.cw-(hy?m.cw:0))+'px';}else if(L>1&&(n-L)<=L*0.35)e.style.letterSpacing=((n-L)*m.cw/(L-1))+'px';}}
+   cur=ln.end;if(fin){done=true;break}}
+  const was=pg;const changed=adv(m.lh);
+  if(done)return null;
+  if(changed){const r=restOf(prep,cur).replace(/\u200B/g,'').replace(/^\s+/,'');if(was===0&&!CFG.allmask)return r;m=Mof(pg);font=`${bold?700:m.w} ${m.fs}px JBM`;prep=mk(r);cur={segmentIndex:0,graphemeIndex:0};if(!r)return null;}
+ }}
+let i=0;
+if(CFG.p1rep){layBlock(CFG.p1rep.repeat(400),false,'p',true);first=true;}
+if(CFG.p1end){const grp=Q.slice(0,CFG.p1end);const joined=grp.map(x=>(x.k==='p'?x.t:x.t.toUpperCase()).replace(/\u00AD/g,'')).join('\u00A0 ');
+ const r=layBlock(joined,false,'p',true);i=CFG.p1end;if(r){console.log('OVERFLOW');Q.splice(i,0,{k:'p',t:r});}else{window.P1FILL=y;newPage();}first=true;}
+while(i<Q.length){const b=Q[i];
+ if(!first){const m=Mof(pg);const P1=pg===0||CFG.allmask;const gap=b.k==='h2'?m.lh*(P1?(CFG.h2gap1??1):1.2):(b.k==='h3'?(P1?0:m.lh*0.45):0);if(y>TOP&&gap)adv(gap);} first=false;
+ if(pg===0&&CFG.dense){
+  if(b.k!=='p'){const src=b.k==='h2'?b.t.toUpperCase():b.t;const r=layBlock(src.replace(/\u00AD/g,''),true,b.k,true);if(r!==null){Q[i]={k:b.k,t:r,cont:1};continue}i++;continue;}
+  let j=i;while(j<Q.length&&Q[j].k==='p')j++;const grp=Q.slice(i,j);const joined=grp.map(x=>x.t.replace(/\u00AD/g,'')).join(' ');
+  const r=layBlock(joined,false,'p',true);
+  if(r===null){i=j;continue}
+  // map remaining tail back to blocks
+  let skip=joined.length-r.length;let k=i;const plain=grp.map(x=>x.t.replace(/\u00AD/g,''));let q=0;
+  while(q<plain.length&&skip>=plain[q].length+1){skip-=plain[q].length+1;q++}
+  const nb=[];if(q<plain.length){nb.push({k:'p',t:plain[q].slice(skip).replace(/^\s+/,''),cont:1});for(let t=q+1;t<plain.length;t++)nb.push(grp[t]);}
+  Q.splice(i,j-i,...nb.filter(x=>x.t.length));first=true;continue;
+ }
+ const src=b.k==='h2'?b.t.toUpperCase():b.t;const zz=!!CFG.zw1&&(pg===0||!!CFG.allmask);const r=layBlock(zz?src.replace(/\u00AD/g,''):src,b.k!=='p',b.k,zz);if(r!==null&&r!==undefined&&r.length)layBlock(r,b.k!=='p',b.k,false);i++;
+}
+document.querySelectorAll('.np').forEach(e=>e.textContent=pages.length);
+document.querySelectorAll('script').forEach(s=>s.remove());
+window.DONE=pages.length;})();
+</script></body></html>
