@@ -1,0 +1,108 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Źródła: Wyrzykowski_portfolio_25.pdf, portfolio copy.pdf (ZAiKS 15.10.2026), bio.pdf.
+// Tylko fakty z tych plików. PODGLĄD – nie publikować bez zgody Piotra.
+const works = [
+  { slug: 'ai-wladza-sztuki-csw', title: 'AI Władza Sztuki', year: '2025', place: 'CSW Zamek Ujazdowski, Warszawa · wystawa indywidualna, z grupą Computer Lars (Dania)',
+    desc: 'Wielokanałowa instalacja z interaktywną debatą polityczną prowadzoną na żywo między bytami AI: Wiktorią Cukt 2.0 i Liderem Larsem (The Synthetic Party).' },
+  { slug: 'wiktoriomat-aarhus', title: 'Wiktoriomat', year: '2025', place: 'Synthetic Summit, Kunsthal Aarhus',
+    desc: 'Instalacja w formie budki telefonicznej, w której Wiktoria Cukt 2.0 występuje jako syntetyczna Prezydent Polski; pokazywana też w CCA Zamek Ujazdowski i na AI Art Biennale w Krakowie.' },
+  { slug: 'synthetic-summit-zoriana', title: 'Synthetic Summit – performans otwarcia', year: '2025', place: 'Kunsthal Aarhus',
+    desc: 'Performans z Zorianą Błyskawak, AI‑futurystyczną ukraińską poetką z alternatywnej rzeczywistości; recytowane poematy Zoriany sterowały ruchami artysty.' },
+  { slug: 'ai-wladza-sztuki-patio', title: 'AI Władza Sztuki – seminarium', year: '2024', place: 'PATIO, ASP w Gdańsku',
+    desc: 'Międzynarodowe seminarium naukowe: pierwsza na świecie debata na żywo dwójki AI polityków i odrodzenie Wiktorii Cukt 2.0 jako samodzielnego bota głosowego.' },
+  { slug: 'khoda-transformizm', title: 'KHODA. Transformizm', year: '2024', place: 'PGS, Sopot · wystawa indywidualna',
+    desc: 'Wielokanałowa instalacja wideo i tryptyk fotograficzny dedykowane ukraińskim kobietom i ich dzieciom, które schroniły się przed wojną w Gdańsku.' },
+  { slug: 'technopera', title: 'Technopera', year: '2023', place: 'WL4, Gdańsk',
+    desc: 'Performans multimedialny nawiązujący do wydarzeń grupy C.U.K.T. z lat 1996–1999; reżyseria, libretto (z Arturem Kozdrowskim), scenografia i oprawa wizualna: Piotr Wyrzykowski, muzyka: Michał Jacaszek, NeoQuartet.' },
+  { slug: 'runner-2-0', title: 'Runner 2.0', year: '2022', place: '„Transwspólnoty. Wektory przemian”, Inkubator Sztuki, Uniwersytet Łódzki',
+    desc: 'Nowa wersja performansu z 1993 roku: widzowie podłączeni do technologicznego kieratu napędzają mięśniami multimedialną maszynerię i są przenoszeni w czasie rzeczywistym do cyberprzestrzeni.' },
+  { slug: 'polaka-twarz', title: 'Polaka Twarz – Scenopis v. 1.3', year: '2021', place: 'Muzeum Współczesne Wrocław · wystawa indywidualna',
+    desc: '18‑kanałowa instalacja wideo o NOMADZIE, który po transplantacji otrzymuje twarz artysty; widzowie mogą przez aplikację wstawić własne twarze w miejsce twarzy NOMADY‑ARTYSTY.' },
+  { slug: 'temporary-nation', title: 'Temporary Nation', year: '2019–2021', place: 'Tetramatyka, Teatr Łesia Kurbasa, Lwów; Electronic Arts Cologne; Biennale WRO, Wrocław · z Echo Ho, prod. Instytut Adama Mickiewicza',
+    desc: 'Aplikacja i performans sieciowy: smartfony uczestników stają się źródłami światła i dźwięku sterowanymi gestami, a wspólna symfonia zmienia obcych sobie ludzi w tymczasową społeczność.' },
+  { slug: 'wiktoria-cukt-kampania', title: 'Kampania prezydencka Wiktorii Cukt', year: '1999–2000', place: 'C.U.K.T. · Zachęta (Warszawa), Arsenał (Poznań), NCK (Gdańsk)',
+    desc: 'Wirtualna kandydatka na prezydenta – „Obywatelski Software Wyborczy” – z hasłem „Politycy są zbędni”; postulaty zbierano na imprezach rave otwierających sztaby.' },
+];
+---
+
+<Base
+  title="Portfolio – Piotr Wyrzykowski (Peter Style)"
+  description="Piotr Wyrzykowski / Peter Style – artysta multimedialny, performer, scenograf. Wybrane prace 1999–2025."
+  ogTitle="Piotr Wyrzykowski (Peter Style) – Portfolio"
+  image="/portfolio/ai-wladza-sztuki-csw.jpg"
+  imageAlt="AI Władza Sztuki, CSW Zamek Ujazdowski, 2025"
+  noindex
+>
+
+<section class="pf-hero">
+  <div class="container">
+    <p class="pf-kicker">PORTFOLIO</p>
+    <h1 class="pf-title">PIOTR WYRZYKOWSKI<br /><span>PETER STYLE</span></h1>
+    <p class="pf-role">Artysta multimedialny, performer, scenograf, badacz performatyki władzy</p>
+  </div>
+</section>
+
+<section class="pf-section">
+  <div class="container content">
+    <h2 class="pf-h2">BIO</h2>
+    <div class="pf-bio">
+      <p>Piotr Wyrzykowski, alias Peter Style — doktor sztuki, vj, artysta multimedialny i performer; badacz mechanizmów zgody, biurokracji i algorytmicznej predykcji jako infrastruktury kontroli. Autor filmów wideo, aplikacji mobilnych, instalacji interaktywnych, działań w przestrzeni publicznej, performansów multimedialnych i fotografii.</p>
+      <p>Od trzech dekad rozwija autorską teorię transformizmu — płynnej, procesualnej zmienności tożsamości, mediów i sprawczości — którą dziś konfrontuje z praktyką sztucznej inteligencji: modelami osobowości, syntezą głosu i obrazem generatywnym jako narzędziami władzy.</p>
+      <p>Współzałożyciel i dyrektor artystyczny grupy C.U.K.T. (Centralny Urząd Kultury Technicznej). Od 2026 rozwija <strong>CUKTAI — Autonomiczny Urząd Kultury Technicznej</strong>, wielogłosowy system AI animowany przez syntetyczne persony (Wiktoria Cukt 2.0, Peter Style, Ewa Virus, Mikołaj); w tym kontekście Wiktoria Cukt 2.0 formułuje doktrynę <a href="/habeas-mentem">Habeas Mentem</a> — „prawo do nieprzewidywalnego umysłu”.</p>
+      <p>Absolwent Pracowni Intermedialnej „Pi” prof. Witosława Czerwonki; wykładowca na Wydziale Malarstwa ASP w Gdańsku. Debiut jako performer: 1990, Galeria Wyspa.</p>
+      <p class="pf-coll"><strong>Prace w kolekcjach:</strong> Museum of Modern Art, Nowy Jork · Centre Georges Pompidou, Paryż · Muzeum Sztuki Współczesnej we Wrocławiu · Muzeum Sztuki w Łodzi · NOMUS, Gdańsk · CSW Zamek Ujazdowski, Warszawa · PinchukArtCentre, Kijów (kolekcja prywatna)</p>
+    </div>
+  </div>
+</section>
+
+<section class="pf-section">
+  <div class="container">
+    <h2 class="pf-h2">WYBRANE PRACE</h2>
+    <div class="pf-grid">
+      {works.map((w) => (
+        <article class="pf-work">
+          <img src={`/portfolio/${w.slug}.jpg`} alt={`${w.title}, ${w.year}`} loading="lazy" decoding="async" />
+          <div class="pf-meta">
+            <h3>{w.title}</h3>
+            <p class="pf-yp"><span>{w.year}</span> · {w.place}</p>
+            <p class="pf-desc">{w.desc}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="pf-section">
+  <div class="container content">
+    <h2 class="pf-h2">KONTAKT</h2>
+    <p class="pf-contact"><a href="mailto:peter.style@gmail.com">peter.style@gmail.com</a><br /><a href="http://peterstyle.eu" rel="noopener">peterstyle.eu</a> · <a href="/">cukt.click</a></p>
+  </div>
+</section>
+
+</Base>
+
+<style>
+  .pf-hero { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
+  .pf-kicker { color: var(--green); letter-spacing: .2em; font-size: .8rem; margin-bottom: var(--space-sm); }
+  .pf-title { font-family: 'Bebas Neue', var(--font-sans); font-size: clamp(2.6rem, 8vw, 5.5rem); line-height: .9; letter-spacing: .03em; color: var(--white); margin-bottom: var(--space-md); }
+  .pf-title span { color: var(--green); }
+  .pf-role { color: var(--white-dim); font-size: .95rem; }
+  .pf-section { padding: var(--space-xl) 0; border-bottom: 1px solid var(--border); }
+  .pf-h2 { font-family: 'Bebas Neue', var(--font-sans); font-size: 2rem; letter-spacing: .12em; color: var(--green); margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border); }
+  .pf-bio p { color: var(--white-dim); line-height: 1.8; font-size: .95rem; margin-bottom: var(--space-md); }
+  .pf-bio a, .pf-contact a { color: var(--green); }
+  .pf-coll { font-size: .85rem !important; }
+  .pf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-lg); }
+  .pf-work { border: 1px solid var(--border); background: var(--bg-lighter); display: flex; flex-direction: column; }
+  .pf-work img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+  .pf-meta { padding: var(--space-md); }
+  .pf-meta h3 { font-family: 'Bebas Neue', var(--font-sans); font-size: 1.6rem; letter-spacing: .04em; color: var(--white); line-height: 1; margin-bottom: var(--space-sm); }
+  .pf-yp { font-size: .78rem; color: var(--white-dim); margin-bottom: var(--space-sm); }
+  .pf-yp span { color: var(--green); font-weight: 700; }
+  .pf-desc { font-size: .88rem; line-height: 1.65; color: var(--white-dim); }
+  .pf-contact { font-size: 1.05rem; line-height: 1.9; }
+  @media (max-width: 768px) { .pf-grid { grid-template-columns: 1fr; } }
+</style>
