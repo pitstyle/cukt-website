@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE, TECHNOPERA_TRAILER_YOUTUBE_ID, TECHNOPERA_2024_YOUTUBE_ID, TECHNOPERA_2024_SOURCE_URL, TECHNOPERA_2024_PRESS_URL } from '../data/technopera.ts';
+import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE, TECHNOPERA_TRAILER_VIDEO_SRC, TECHNOPERA_TRAILER_POSTER_SRC, TECHNOPERA_2024_YOUTUBE_ID, TECHNOPERA_2024_SOURCE_URL, TECHNOPERA_2024_PRESS_URL } from '../data/technopera.ts';
 import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 
 const technopera2024Url = `https://youtu.be/${TECHNOPERA_2024_YOUTUBE_ID}`;
@@ -114,21 +114,21 @@ const technopera2024Title = 'Technopera 2024: Czego nie wyjawia nam maszyna i dl
 <!-- TRAILER -->
 <section class="trailer" id="trailer">
   <div class="container content">
-    {TECHNOPERA_TRAILER_YOUTUBE_ID ? (
-      <>
-        <h2 class="trailer-title" data-en="Trailer" data-pl="Trailer">Trailer</h2>
-        <YouTubeEmbed 
-          id={TECHNOPERA_TRAILER_YOUTUBE_ID} 
-          title="Technopera 2026 — AUTHORITY. KNOWLEDGE. SEAL."
-          poster="/og/technopera-2026.jpg"
-        />
-      </>
-    ) : (
-      <div class="trailer-placeholder">
-        <div class="trailer-label" data-en="TRAILER — coming soon" data-pl="TRAILER — wkrótce">TRAILER — coming soon</div>
-        <p class="trailer-caption">Technopera 2026 · MEDIATEKA, Tychy · 4.10.2026</p>
-      </div>
-    )}
+    <h2 class="trailer-title" data-en="Trailer" data-pl="Trailer">Trailer</h2>
+    <div class="trailer-video">
+      <video
+        class="trailer-player"
+        controls
+        playsinline
+        preload="metadata"
+        poster={TECHNOPERA_TRAILER_POSTER_SRC}
+        width="1920"
+        height="1080"
+      >
+        <source src={TECHNOPERA_TRAILER_VIDEO_SRC} type="video/mp4" />
+        <a href={TECHNOPERA_TRAILER_VIDEO_SRC}>Download the Technopera 2026 trailer (MP4)</a>
+      </video>
+    </div>
   </div>
 </section>
 
@@ -738,6 +738,23 @@ const technopera2024Title = 'Technopera 2024: Czego nie wyjawia nam maszyna i dl
   .trailer-caption {
     font-size: 0.85rem;
     color: var(--white-dim);
+  }
+
+  .trailer-video {
+    width: 100%;
+  }
+
+  .trailer-player {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border: 1px solid var(--border);
+  }
+
+  .trailer-player a {
+    color: var(--red);
   }
 
   /* PITCH */

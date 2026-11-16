@@ -12,8 +12,13 @@ describe('technopera 2024 section', () => {
   const page = readFileSync(PAGE, 'utf8');
   const data = readFileSync(DATA, 'utf8');
 
-  it('keeps the 2026 trailer ID untouched', () => {
-    assert.match(data, /TECHNOPERA_TRAILER_YOUTUBE_ID = 'wGgNAnhErss'/);
+  it('keeps the 2026 self-hosted trailer path', () => {
+    assert.match(data, /TECHNOPERA_TRAILER_VIDEO_SRC = '\/video\/technopera-2026-trailer\.mp4'/);
+    assert.match(data, /TECHNOPERA_TRAILER_POSTER_SRC = '\/video\/technopera-2026-trailer-poster\.jpg'/);
+    assert.doesNotMatch(data, /TECHNOPERA_TRAILER_YOUTUBE_ID|wGgNAnhErss/);
+    assert.match(page, /TECHNOPERA_TRAILER_VIDEO_SRC/);
+    assert.match(page, /TECHNOPERA_TRAILER_POSTER_SRC/);
+    assert.doesNotMatch(page, /wGgNAnhErss/);
   });
 
   it('adds the 2024 documentation video id', () => {
