@@ -9,8 +9,10 @@ export const BOOKING_EMAIL = 'peter@cukt.click';
 // Newsletter form URL — leave empty until service is set up
 export const NEWSLETTER_FORM_URL = '';
 
-// YouTube trailer ID — paste the 11-character video ID here (e.g., from youtube.com/watch?v=XXXXXXXXXXX)
-export const TECHNOPERA_TRAILER_YOUTUBE_ID = 'wGgNAnhErss';
+// 2026 trailer hosted as a GitHub Release asset (original file; not in git)
+export const TECHNOPERA_TRAILER_VIDEO_SRC =
+  'https://github.com/pitstyle/cukt-website/releases/download/technopera-2026-trailer/technopera-2026-trailer.mp4';
+export const TECHNOPERA_TRAILER_POSTER_SRC = '/video/technopera-2026-trailer-poster.jpg';
 
 // Technopera 2024 documentation video (Gdańsk Shakespeare Theatre, 06.12.2024)
 // Official event page: https://teatrszekspirowski.pl/event/technopera-2024-czego-nie-wyjawia-nam-maszyna-i-dlaczego/
