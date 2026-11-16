@@ -1,7 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
-import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE, TECHNOPERA_TRAILER_YOUTUBE_ID } from '../data/technopera.ts';
+import { BOOKING_EMAIL, NEWSLETTER_FORM_URL, TECHNOPERA_POST_PREMIERE, TECHNOPERA_TRAILER_YOUTUBE_ID, TECHNOPERA_2024_YOUTUBE_ID, TECHNOPERA_2024_SOURCE_URL, TECHNOPERA_2024_PRESS_URL } from '../data/technopera.ts';
 import YouTubeEmbed from '../components/YouTubeEmbed.astro';
+
+const technopera2024Url = `https://youtu.be/${TECHNOPERA_2024_YOUTUBE_ID}`;
+const technopera2024Title = 'Technopera 2024: Czego nie wyjawia nam maszyna i dlaczego?';
 ---
 
 <Base 
@@ -72,6 +75,7 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
         <div class="hero-cta">
           <a href="#trailer" class="btn" data-en="Watch the trailer" data-pl="Zobacz trailer">Watch the trailer</a>
           <a href="#booking" class="btn" data-en={TECHNOPERA_POST_PREMIERE ? "Book Technopera" : "Press & booking"} data-pl={TECHNOPERA_POST_PREMIERE ? "Zaproś Technoperę" : "Prasa i booking"}>{TECHNOPERA_POST_PREMIERE ? "Book Technopera" : "Press & booking"}</a>
+          <a href="#technopera-2024" class="btn btn-ghost" data-en="2024 edition" data-pl="Wydanie 2024">2024 edition</a>
         </div>
         <div class="hero-info">
           <span data-en="Info: AUKSODRONE / Mediateka" data-pl="Informacje: AUKSODRONE / Mediateka">Info: AUKSODRONE / Mediateka</span>
@@ -94,6 +98,18 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
     </div>
   </div>
 </section>
+
+<!-- EDITION TABS -->
+<nav class="edition-nav" aria-label="Technopera editions">
+  <div class="container">
+    <div class="edition-tabs" role="tablist">
+      <a href="#technopera-2026" class="edition-tab is-active" data-edition="2026" role="tab" aria-selected="true">2026</a>
+      <a href="#technopera-2024" class="edition-tab" data-edition="2024" role="tab" aria-selected="false">2024</a>
+    </div>
+  </div>
+</nav>
+
+<div id="technopera-2026">
 
 <!-- TRAILER -->
 <section class="trailer" id="trailer">
@@ -225,6 +241,83 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
   </div>
 </section>
 
+</div><!-- /#technopera-2026 -->
+
+<!-- TECHNOPERA 2024 — English only (source: Gdańsk Shakespeare Theatre event page) -->
+<section class="edition-2024" id="technopera-2024">
+  <div class="container content">
+    <h2 class="section-title">{technopera2024Title}</h2>
+    <p class="edition-2024-subtitle">What the machine does not reveal to us, and why?</p>
+    <p class="edition-2024-meta">Gdańsk Shakespeare Theatre · Gdańsk · 6.12.2024 · 20:00 · 1h15</p>
+
+    <div class="edition-2024-body">
+      <p>Technopera is a multimedia event combining opera with techno culture, referring to projects of the cult Tricity art group C.U.K.T. from the late 1990s. This futuristic spectacle is built from fragments of popular-science and science-fiction films arranged as a dialogue between characters. Libretto by Podletz (Artur Kozdrowski) and Peter Style (Piotr Wyrzykowski); music by Michał Jacaszek and NeoQuartet; cast: actor Mikołaj Robert Jurkowski, soprano and performer Aleksandra Klimczak, and the Alien, the Machine and the Cyborg generated with artificial intelligence — with the libretto, played live by a VJ, as the choreographic and dramaturgical reference for actors and musicians. The first Technopera took place in 1996; this continuation is a collaboration of C.U.K.T. with NeoQuartet and Jacaszek. The motto of Technopera 2024 is the question “What does the machine not reveal to us, and why?”</p>
+    </div>
+
+    <p class="edition-2024-source">
+      Source:
+      <a href={TECHNOPERA_2024_SOURCE_URL} target="_blank" rel="noopener noreferrer">Gdańsk Shakespeare Theatre event page</a>
+    </p>
+
+    <div class="edition-2024-press">
+      <h3 class="edition-2024-press-title">PRESS</h3>
+      <p class="edition-2024-press-item">
+        <a href={TECHNOPERA_2024_PRESS_URL} target="_blank" rel="noopener noreferrer">Magdalena Raczek, “A może ty też jesteś cyborgiem? Świetne widowisko z pogranicza sztuk. Technopera 2024”, Trojmiasto.pl, 7 December 2024 →</a>
+      </p>
+      <blockquote class="edition-2024-quote">
+        <p class="edition-2024-quote-pl">„Publiczność przyjęła show z entuzjazmem.”</p>
+        <p class="edition-2024-quote-en"><span class="edition-2024-quote-label">Translation:</span> “The audience received the show with enthusiasm.”</p>
+        <cite class="edition-2024-quote-cite">— Magdalena Raczek, Trojmiasto.pl</cite>
+      </blockquote>
+    </div>
+
+    <h3 class="edition-2024-credits-title">CREDITS 2024</h3>
+    <div class="credits-grid edition-2024-credits">
+      <div class="credit-row">
+        <span class="credit-label">Direction</span>
+        <span class="credit-name">Piotr Wyrzykowski</span>
+      </div>
+      <div class="credit-row">
+        <span class="credit-label">Libretto</span>
+        <span class="credit-name">Piotr Wyrzykowski, Artur Kozdrowski</span>
+      </div>
+      <div class="credit-row">
+        <span class="credit-label">Music</span>
+        <span class="credit-name">Michał Jacaszek, NeoQuartet</span>
+      </div>
+      <div class="credit-row">
+        <span class="credit-label">Set design and visuals</span>
+        <span class="credit-name">Piotr Wyrzykowski</span>
+      </div>
+      <div class="credit-row">
+        <span class="credit-label">Choreography / Dance</span>
+        <span class="credit-name">Sayaka Haruna Kondracka, Bartek Kondracki</span>
+      </div>
+      <div class="credit-row">
+        <span class="credit-label">Performers</span>
+        <span class="credit-name">Piotr Wyrzykowski, Filip Popek, Zuzanna Grabowska, Zosia Grabowska, Dylan Wyrzykowski, Aleksandra Klimczak, Mikołaj Robert Jurkowski, Michał Jacaszek, Paulina Mazur, NeoQuartet</span>
+      </div>
+      <div class="credit-row">
+        <span class="credit-label">Costumes</span>
+        <span class="credit-name">Agnieszka Kochańczyk, with Natalia Fierka, Karolina Kaźmierczak, Julia Mazur</span>
+      </div>
+    </div>
+
+    <div class="edition-2024-video">
+      <h3 class="edition-2024-video-title">Video documentation</h3>
+      <YouTubeEmbed
+        id={TECHNOPERA_2024_YOUTUBE_ID}
+        title={technopera2024Title}
+        poster="/og/technopera-2024.jpg"
+      />
+      <p class="edition-2024-link">
+        <a href={technopera2024Url} target="_blank" rel="noopener noreferrer">Open on YouTube →</a>
+        <span class="edition-2024-url">{technopera2024Url}</span>
+      </p>
+    </div>
+  </div>
+</section>
+
 <!-- HISTORY -->
 <section class="history">
   <div class="container">
@@ -255,7 +348,9 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
       <div class="timeline-item">
         <div class="timeline-year">2024</div>
         <div class="timeline-content">
-          <p data-en="Gdańsk Shakespeare Theatre — "Czego nie wyjawia nam Maszyna?", 6.12.2024." data-pl="Gdański Teatr Szekspirowski — „Czego nie wyjawia nam Maszyna?", 6.12.2024.">Gdańsk Shakespeare Theatre — "Czego nie wyjawia nam Maszyna?", 6.12.2024.</p>
+          <p>
+            <a href="#technopera-2024" data-en="Gdańsk Shakespeare Theatre — Technopera 2024: Czego nie wyjawia nam maszyna i dlaczego?, 6.12.2024." data-pl="Gdański Teatr Szekspirowski — Technopera 2024: Czego nie wyjawia nam maszyna i dlaczego?, 6.12.2024.">Gdańsk Shakespeare Theatre — Technopera 2024: Czego nie wyjawia nam maszyna i dlaczego?, 6.12.2024.</a>
+          </p>
         </div>
       </div>
       
@@ -381,6 +476,7 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 
   .hero-cta {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--space-md);
   }
 
@@ -399,6 +495,190 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
   .btn:hover {
     background: var(--red);
     color: var(--bg);
+  }
+
+  .btn-ghost {
+    border-color: var(--border);
+    color: var(--white-dim);
+  }
+
+  .btn-ghost:hover {
+    border-color: var(--red);
+    background: transparent;
+    color: var(--red);
+  }
+
+  /* EDITION TABS */
+  .edition-nav {
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(10, 10, 10, 0.96);
+  }
+
+  .edition-tabs {
+    display: flex;
+    gap: var(--space-sm);
+  }
+
+  .edition-tab {
+    padding: var(--space-sm) var(--space-lg);
+    border: 1px solid var(--border);
+    color: var(--white-dim);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .edition-tab:hover,
+  .edition-tab.is-active {
+    border-color: var(--red);
+    color: var(--red);
+  }
+
+  .edition-tab.is-active {
+    background: rgba(255, 0, 0, 0.08);
+  }
+
+  /* TECHNOPERA 2024 */
+  .edition-2024 {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+    scroll-margin-top: 4.5rem;
+  }
+
+  .edition-2024-subtitle {
+    font-size: 1rem;
+    color: var(--white);
+    letter-spacing: 0.02em;
+    margin-top: calc(var(--space-sm) * -1);
+    margin-bottom: var(--space-sm);
+  }
+
+  .edition-2024-meta {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    margin-bottom: var(--space-lg);
+  }
+
+  .edition-2024-body {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--white-dim);
+    max-width: 72ch;
+  }
+
+  .edition-2024-body p {
+    margin-bottom: var(--space-md);
+  }
+
+  .edition-2024-source {
+    font-size: 0.8rem;
+    color: var(--white-dim);
+    margin: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .edition-2024-source a {
+    color: var(--green);
+  }
+
+  .edition-2024-press {
+    margin: var(--space-xl) 0;
+  }
+
+  .edition-2024-press-title,
+  .edition-2024-credits-title,
+  .edition-2024-video-title {
+    font-size: 1rem;
+    letter-spacing: 0.12em;
+    color: var(--red);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .edition-2024-press-item {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+  }
+
+  .edition-2024-press-item a {
+    color: var(--white);
+  }
+
+  .edition-2024-press-item a:hover {
+    color: var(--red);
+  }
+
+  .edition-2024-quote {
+    margin: 0;
+    padding: var(--space-md) 0 var(--space-md) var(--space-md);
+    border-left: 2px solid var(--red);
+  }
+
+  .edition-2024-quote-pl {
+    font-size: 1rem;
+    color: var(--white);
+    margin-bottom: var(--space-sm);
+  }
+
+  .edition-2024-quote-en {
+    font-size: 0.85rem;
+    color: var(--white-dim);
+    margin-bottom: var(--space-sm);
+  }
+
+  .edition-2024-quote-label {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-right: 0.35em;
+  }
+
+  .edition-2024-quote-cite {
+    display: block;
+    font-size: 0.75rem;
+    font-style: normal;
+    color: var(--white-dim);
+  }
+
+  .edition-2024-credits {
+    margin-bottom: var(--space-xl);
+  }
+
+  .edition-2024-video {
+    margin-top: var(--space-xl);
+  }
+
+  .edition-2024-link {
+    margin-top: var(--space-md);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-md);
+    align-items: baseline;
+  }
+
+  .edition-2024-link a {
+    color: var(--red);
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .edition-2024-url {
+    font-size: 0.8rem;
+    color: var(--white-dim);
+    word-break: break-all;
+  }
+
+  #technopera-2026 {
+    scroll-margin-top: 4.5rem;
   }
 
   .hero-info {
@@ -746,7 +1026,7 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 </style>
 
 <script>
-  // Language toggle handler
+  // Language toggle handler (2026 about blocks; 2024 section is English-only)
   const lang = localStorage.getItem('cuktai-lang') || 'en';
   
   // Show/hide content based on language
@@ -757,4 +1037,23 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
     document.querySelectorAll('.about-en').forEach(el => el.style.display = 'none');
     document.querySelectorAll('.about-pl').forEach(el => el.style.display = 'block');
   }
+
+  // Edition tab active state
+  const editionTabs = document.querySelectorAll('.edition-tab');
+  function setActiveEdition(edition: string) {
+    editionTabs.forEach((tab) => {
+      const isActive = tab.getAttribute('data-edition') === edition;
+      tab.classList.toggle('is-active', isActive);
+      tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+  }
+
+  editionTabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const edition = tab.getAttribute('data-edition');
+      if (edition) setActiveEdition(edition);
+    });
+  });
+
+  if (location.hash === '#technopera-2024') setActiveEdition('2024');
 </script>
