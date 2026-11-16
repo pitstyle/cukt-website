@@ -9,8 +9,9 @@ export const BOOKING_EMAIL = 'peter@cukt.click';
 // Newsletter form URL — leave empty until service is set up
 export const NEWSLETTER_FORM_URL = '';
 
-// Self-hosted 2026 trailer (served from public/video/)
-export const TECHNOPERA_TRAILER_VIDEO_SRC = '/video/technopera-2026-trailer.mp4';
+// 2026 trailer hosted as a GitHub Release asset (original file; not in git)
+export const TECHNOPERA_TRAILER_VIDEO_SRC =
+  'https://github.com/pitstyle/cukt-website/releases/download/technopera-2026-trailer/technopera-2026-trailer.mp4';
 export const TECHNOPERA_TRAILER_POSTER_SRC = '/video/technopera-2026-trailer-poster.jpg';
 
 // Technopera 2024 documentation video (Gdańsk Shakespeare Theatre, 06.12.2024)
