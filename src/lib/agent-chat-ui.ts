@@ -5,6 +5,13 @@ import {
   sendChat,
   withTimeout,
 } from './agent-chat.ts';
+import {
+  HEALTH_POLL_MS,
+  OFFLINE_NOTICE,
+  applyHealthUi,
+  checkAgentHealth,
+  type HealthState,
+} from './agent-health.ts';
 import { appendPlainText, setPlainText } from './plain-text.ts';
 
 const GREETINGS: Record<string, string> = {
@@ -17,8 +24,12 @@ const GREETINGS: Record<string, string> = {
   researcher: 'Researcher. Send a lead or ask for open calls.',
 };
 
+function currentLang(): string {
+  return localStorage.getItem('cuktai-lang') || 'en';
+}
+
 function applyLanguage() {
-  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  const lang = currentLang();
   document.querySelectorAll('[data-pl][data-en]').forEach((el) => {
     const v = el.getAttribute(`data-${lang}`);
     if (v) el.textContent = v;
@@ -100,7 +111,16 @@ function attachAudioButton(body: HTMLElement, audioUrl: string) {
   }
 }
 
-export function initAgentPageChat(root: ParentNode = document) {
+export type InitAgentPageChatOptions = {
+  fetchImpl?: typeof fetch;
+  healthPollMs?: number;
+  documentRef?: Document;
+};
+
+export function initAgentPageChat(
+  root: ParentNode = document,
+  options: InitAgentPageChatOptions = {},
+) {
   const container = root.querySelector<HTMLElement>('[data-agent-chat]');
   if (!container) return;
 
@@ -109,21 +129,69 @@ export function initAgentPageChat(root: ParentNode = document) {
   const agentEmoji = container.dataset.agentEmoji || '';
   const chatApi = (container.dataset.chatApi || '').replace(/\/$/, '');
   const agentLabel = `${agentEmoji} ${agentName}`.trim();
+  const fetchImpl = options.fetchImpl ?? fetch;
+  const healthPollMs = options.healthPollMs ?? HEALTH_POLL_MS;
+  const doc = options.documentRef ?? document;
 
   const messages = root.querySelector<HTMLElement>('#chat-messages');
   const form = root.querySelector<HTMLFormElement>('#chat-form');
   const input = root.querySelector<HTMLInputElement>('#chat-text');
   const sendBtn = root.querySelector<HTMLButtonElement>('#chat-send');
   const greeting = root.querySelector<HTMLElement>('#greeting');
+  const statusEl = root.querySelector<HTMLElement>('#chat-status');
+  const offlineMsg = root.querySelector<HTMLElement>('#chat-offline-msg');
+
+  if (offlineMsg) {
+    offlineMsg.setAttribute('data-en', OFFLINE_NOTICE.en);
+    offlineMsg.setAttribute('data-pl', OFFLINE_NOTICE.pl);
+  }
 
   applyLanguage();
   if (greeting) setPlainText(greeting, GREETINGS[agentId] || 'Ready.');
 
   const session = createAgentSession(agentId);
   let sending = false;
+  let healthState: HealthState = 'connecting';
+  let healthCheckInFlight: Promise<void> | null = null;
+
+  function paintHealth(state: HealthState) {
+    healthState = state;
+    if (!statusEl) return;
+    applyHealthUi(state, {
+      statusEl,
+      input,
+      sendBtn,
+      offlineMsg,
+      sending,
+      lang: currentLang(),
+    });
+  }
+
+  async function refreshHealth() {
+    if (healthCheckInFlight) return healthCheckInFlight;
+    healthCheckInFlight = (async () => {
+      const ok = await checkAgentHealth({ chatApi, fetchImpl });
+      paintHealth(ok ? 'online' : 'offline');
+    })().finally(() => {
+      healthCheckInFlight = null;
+    });
+    return healthCheckInFlight;
+  }
+
+  paintHealth('connecting');
+  void refreshHealth();
+
+  setInterval(() => {
+    void refreshHealth();
+  }, healthPollMs);
+
+  doc.addEventListener('visibilitychange', () => {
+    if (doc.visibilityState === 'visible') void refreshHealth();
+  });
 
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
+    if (healthState !== 'online') return;
     if (sending || !input?.value?.trim() || !messages) return;
 
     const text = input.value.trim();
@@ -144,6 +212,7 @@ export function initAgentPageChat(root: ParentNode = document) {
         message: text,
         sessionId: session.getId(),
         signal: controller.signal,
+        fetchImpl,
         onStatus(statusText) {
           serverStatus = true;
           setPlainText(pending.status, statusText);
@@ -174,10 +243,17 @@ export function initAgentPageChat(root: ParentNode = document) {
           ? err.message
           : MSG_CONNECTION;
       setPlainText(pending.body, message);
+
+      if (
+        err instanceof ChatRequestError &&
+        (err.kind === 'network' || err.kind === 'http')
+      ) {
+        void refreshHealth();
+      }
     } finally {
       dispose();
       sending = false;
-      if (sendBtn) sendBtn.disabled = false;
+      if (sendBtn) sendBtn.disabled = healthState !== 'online';
       input?.focus();
       messages.scrollTo(0, messages.scrollHeight);
     }
