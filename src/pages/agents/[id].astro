@@ -121,7 +121,13 @@ export function getStaticPaths() {
           data-chat-api={CHAT_API}
         >
           <div class="chat-header">
-            <span class="chat-status">● ONLINE</span>
+            <span
+              class="chat-status"
+              id="chat-status"
+              data-state="connecting"
+              data-en="● CONNECTING"
+              data-pl="● łączenie"
+            >● CONNECTING</span>
             <span class="chat-label" data-en={`TALKING TO ${agent.name}`} data-pl={`ROZMOWA Z ${agent.namePl}`}>TALKING TO {agent.name}</span>
           </div>
           <div class="chat-messages" id="chat-messages">
@@ -131,9 +137,16 @@ export function getStaticPaths() {
             </div>
           </div>
           <form class="chat-input" id="chat-form">
-            <input type="text" id="chat-text" placeholder="Type your message..." autocomplete="off" data-en-placeholder="Type your message..." data-pl-placeholder="Napisz wiadomość..." />
-            <button type="submit" id="chat-send">SEND</button>
+            <input type="text" id="chat-text" placeholder="Type your message..." autocomplete="off" data-en-placeholder="Type your message..." data-pl-placeholder="Napisz wiadomość..." disabled />
+            <button type="submit" id="chat-send" disabled>SEND</button>
           </form>
+          <p
+            class="chat-offline-msg"
+            id="chat-offline-msg"
+            hidden
+            data-en="System offline — try again later"
+            data-pl="System offline — spróbuj później"
+          ></p>
         </div>
       </div>
     </div>
@@ -185,6 +198,18 @@ export function getStaticPaths() {
   .chat-container { border: 1px solid var(--border); min-width: 0; box-sizing: border-box; }
   .chat-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: var(--bg-lighter); }
   .chat-status { color: var(--green); font-size: 0.75rem; letter-spacing: 0.1em; white-space: nowrap; }
+  .chat-status[data-state="connecting"] { color: var(--white-dim); opacity: 0.55; }
+  .chat-status[data-state="offline"] { color: var(--red); opacity: 0.85; }
+  .chat-status[data-state="online"] { color: var(--green); opacity: 1; }
+  .chat-offline-msg {
+    margin: 0;
+    padding: var(--space-sm, 8px) var(--space-lg);
+    border-top: 1px solid var(--border);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--red);
+  }
+  .chat-offline-msg[hidden] { display: none; }
   .chat-label { font-size: 0.75rem; letter-spacing: 0.15em; color: var(--white-dim); text-align: right; margin-left: auto; }
 
   .chat-messages { min-height: 300px; max-height: 500px; overflow-y: auto; padding: var(--space-lg); }
