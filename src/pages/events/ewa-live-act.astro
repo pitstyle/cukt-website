@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const titleEn = "EWA (live act) — L'HISTOIRE DE CUKT SELON EWA ou FIABILITÉ DOUTEUSE DE LA MÉMOIRE PROTÉIQUE";
+const titlePl = "EWA (live act) — Historia CUKT-u według Ewy, czyli nierzetelność pamięci białkowej";
+const place = "Pracownia CUKTAI, ul. Angielska Grobla 8/10e, Gdańsk";
+const poster = "/uploads/ewa-live-act-2026-12-05.jpg";
+---
+
+<Base
+  title="EWA (live act) · 05.12.2026"
+  description="EWA (live act) — VIRUS EWA ADAM. 05.12.2026, 18:00 · Pracownia CUKTAI, Gdańsk."
+  ogTitle={titleEn}
+  image={poster}
+  imageAlt="EWA (live act) — VIRUS EWA ADAM · 05.12.2026"
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="back"><a href="/events" data-en="← EVENTS" data-pl="← WYDARZENIA">← EVENTS</a></p>
+      <span class="event-type">LIVE ACT</span>
+      <h1 class="page-title" data-en="EWA (live act)" data-pl="EWA (live act)">EWA (live act)</h1>
+      <p class="poster-line">VIRUS EWA ADAM</p>
+      <p
+        class="page-sub"
+        data-en={titleEn.replace("EWA (live act) — ", "")}
+        data-pl={titlePl.replace("EWA (live act) — ", "")}
+      >
+        {titleEn.replace("EWA (live act) — ", "")}
+      </p>
+    </div>
+  </section>
+
+  <section class="event-detail">
+    <div class="container content">
+      <div class="detail-grid">
+        <figure class="poster">
+          <img
+            src={poster}
+            alt="EWA (live act) — VIRUS EWA ADAM · 05.12.2026 · Pracownia CUKTAI"
+            width="1008"
+            height="1792"
+            loading="eager"
+            decoding="async"
+          />
+        </figure>
+        <div class="detail-body">
+          <dl class="meta">
+            <div>
+              <dt data-en="Date" data-pl="Data">Date</dt>
+              <dd>05.12.2026, 18:00 (Europe/Warsaw)</dd>
+            </div>
+            <div>
+              <dt data-en="Place" data-pl="Miejsce">Place</dt>
+              <dd>{place}</dd>
+            </div>
+          </dl>
+          <!-- TODO: opis Piotra -->
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-hero { padding: 6vw 0 3vw; border-bottom: 1px solid var(--border); }
+  .back { margin-bottom: var(--space-md); }
+  .back a { color: var(--white-dim); font-size: 0.75rem; letter-spacing: 0.15em; text-decoration: none; }
+  .back a:hover { color: var(--red); }
+  .event-type { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--red); display: block; margin-bottom: 8px; }
+  .page-title { font-size: clamp(2.5rem, 8vw, 6rem); font-weight: 800; letter-spacing: 0.05em; color: var(--red); line-height: 0.95; }
+  .poster-line { font-size: 0.85rem; letter-spacing: 0.25em; color: var(--green); margin-top: var(--space-md); font-weight: 700; }
+  .page-sub { font-size: clamp(0.85rem, 1.4vw, 1.1rem); font-weight: 600; letter-spacing: 0.04em; color: var(--white-dim); margin-top: var(--space-sm); max-width: 42rem; line-height: 1.5; }
+
+  .event-detail { padding: var(--space-xl) 0; }
+  .detail-grid { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
+  .poster { margin: 0; border: 1px solid var(--border); }
+  .poster img { display: block; width: 100%; height: auto; }
+  .meta { display: grid; gap: var(--space-lg); margin: 0; }
+  .meta div { border-bottom: 1px solid var(--border); padding-bottom: var(--space-md); }
+  .meta dt { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--red); margin-bottom: 6px; }
+  .meta dd { margin: 0; font-size: 0.95rem; color: var(--white); line-height: 1.6; }
+
+  @media (max-width: 768px) {
+    .detail-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+  document.querySelectorAll('[data-pl][data-en]').forEach(el => {
+    const v = el.getAttribute(`data-${lang}`);
+    if (v) el.textContent = v;
+  });
+</script>
