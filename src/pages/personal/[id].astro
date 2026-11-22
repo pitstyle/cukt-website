@@ -130,6 +130,23 @@ const { Content } = await render(project);
     border: 1px solid var(--border);
   }
 
+  /* Portrait (9:16) documentation video — constrained, centered, not cropped */
+  .project-body :global(video) {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: min(100%, 420px);
+    max-height: 80vh;
+    margin: var(--space-lg) auto;
+    border: 1px solid var(--border);
+    background: #000;
+    object-fit: contain;
+  }
+
+  .project-body :global(video a) {
+    color: var(--red);
+  }
+
   .project-body :global(table) {
     width: 100%;
     border-collapse: collapse;
