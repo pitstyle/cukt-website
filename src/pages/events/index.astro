@@ -26,6 +26,18 @@ const upcoming = [
     audiencePl: "Studenci, artyści, badacze",
     location: "Gdańsk"
   },
+  // <!-- TODO: opis Piotra -->
+  {
+    date: "2026-12-05 · 18:00",
+    title: "EWA (live act) — L'HISTOIRE DE CUKT SELON EWA ou FIABILITÉ DOUTEUSE DE LA MÉMOIRE PROTÉIQUE",
+    titlePl: "EWA (live act) — Historia CUKT-u według Ewy, czyli nierzetelność pamięci białkowej",
+    type: "LIVE ACT",
+    typePl: "LIVE ACT",
+    desc: "",
+    descPl: "",
+    location: "Pracownia CUKTAI, ul. Angielska Grobla 8/10e, Gdańsk",
+    href: "/events/ewa-live-act"
+  },
 ];
 
 const past = [
@@ -96,16 +108,20 @@ const past = [
         <div class="event-card upcoming">
           <div class="event-date">{event.date}</div>
           <div class="event-body">
-            <span class="event-type">{event.type}</span>
+            <span class="event-type" data-en={event.type} data-pl={event.typePl}>{event.type}</span>
             {event.href ? (
               <a href={event.href}><h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3></a>
             ) : (
               <h3 data-en={event.title} data-pl={event.titlePl}>{event.title}</h3>
             )}
-            <p data-en={event.desc} data-pl={event.descPl}>{event.desc}</p>
+            {event.desc ? (
+              <p data-en={event.desc} data-pl={event.descPl}>{event.desc}</p>
+            ) : null}
             <div class="event-meta">
               <span>📍 {event.location}</span>
-              <span data-en={`👥 ${event.audience}`} data-pl={`👥 ${event.audiencePl}`}>👥 {event.audience}</span>
+              {event.audience ? (
+                <span data-en={`👥 ${event.audience}`} data-pl={`👥 ${event.audiencePl}`}>👥 {event.audience}</span>
+              ) : null}
             </div>
           </div>
         </div>
