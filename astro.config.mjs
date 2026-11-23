@@ -17,6 +17,8 @@ export default defineConfig({
   redirects: {
     '/personal/habeas-mentem': '/habeas-mentem',
     '/personal/habeas-mentem/': '/habeas-mentem',
+    '/dziennik': '/habeas-mentem/dziennik',
+
     // Specific unpublished slugs only — not `/archive/[id]`. Dynamic [id]
     // routes never emit these paths (isPublishableTeczka), so no collision.
     ...unpublishedTeczkaRedirects(),

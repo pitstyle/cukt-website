@@ -67,4 +67,28 @@ const podcasts = defineCollection({
   }),
 });
 
-export const collections = { cukt, personal, archiwistka, podcasts };
+const dziennik = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/dziennik' }),
+  schema: z.object({
+    title: z.string(),
+    title_en: z.string().optional(),
+    date: z.string(),
+    kind: z.enum(['feed', 'deepen', 'synthesis']),
+    thesis: z.string().min(1),
+    thesis_en: z.string().optional(),
+    description: z.string().optional(),
+    description_en: z.string().optional(),
+    sources: z
+      .array(
+        z.object({
+          title: z.string(),
+          url: z.string(),
+        }),
+      )
+      .optional(),
+    lang: z.string().default('pl'),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { cukt, personal, archiwistka, podcasts, dziennik };

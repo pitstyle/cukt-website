@@ -1,0 +1,45 @@
+# Checks only — no auto-merge, no deploy.
+# Content-only exclusivity runs on dziennik/* branches (future autonomous entries).
+# Safety tests run whenever dziennik content or its guard scripts change.
+name: Dziennik content guard
+
+on:
+  pull_request:
+    paths:
+      - 'src/content/dziennik/**'
+      - 'scripts/test-dziennik.ts'
+      - 'scripts/check-dziennik-content-only.ts'
+      - '.github/workflows/dziennik-content-guard.yml'
+
+jobs:
+  safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Dziennik content safety
+        run: node --experimental-strip-types --test scripts/test-dziennik.ts
+
+  content-only:
+    if: startsWith(github.head_ref, 'dziennik/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Enforce content-only paths
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          git fetch origin "$BASE_REF"
+          git diff --name-only --diff-filter=ACMRT "origin/${BASE_REF}...HEAD" \
+            | node --experimental-strip-types scripts/check-dziennik-content-only.ts --stdin

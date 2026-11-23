@@ -1,0 +1,245 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('dziennik', ({ data }) => data.draft !== true);
+  return entries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const kindLabels: Record<string, { pl: string; en: string }> = {
+  feed: { pl: 'feed', en: 'feed' },
+  deepen: { pl: 'pogłębienie', en: 'deepen' },
+  synthesis: { pl: 'synteza', en: 'synthesis' },
+};
+
+const labels = kindLabels[entry.data.kind] ?? { pl: entry.data.kind, en: entry.data.kind };
+const pageTitle = entry.data.title_en || entry.data.title;
+const pageDescription = entry.data.thesis_en || entry.data.thesis;
+---
+
+<Base
+  title={pageTitle + ' — Dziennik Habeas Mentem'}
+  description={pageDescription}
+  ogTitle={pageTitle}
+  image="/og/habeas-mentem.jpg"
+  imageAlt="Habeas Mentem — research journal"
+>
+
+<article class="entry">
+  <header>
+    <p class="hero-kicker">
+      <a href="/habeas-mentem/">HABEAS MENTEM</a>
+      <span aria-hidden="true"> / </span>
+      <a href="/habeas-mentem/dziennik/" data-en="journal" data-pl="dziennik">journal</a>
+    </p>
+    <div class="entry-meta">
+      <time datetime={entry.data.date}>{entry.data.date}</time>
+      <span class="kind-label" data-en={labels.en} data-pl={labels.pl}>{labels.en}</span>
+    </div>
+    <h1>
+      <span class="content-pl">{entry.data.title}</span>
+      <span class="content-en">{entry.data.title_en || entry.data.title}</span>
+    </h1>
+    <p class="thesis">
+      <span class="content-pl">{entry.data.thesis}</span>
+      <span class="content-en">{entry.data.thesis_en || entry.data.thesis}</span>
+    </p>
+    {(entry.data.description || entry.data.description_en) && (
+      <p class="description">
+        <span class="content-pl">{entry.data.description || entry.data.description_en}</span>
+        <span class="content-en">{entry.data.description_en || entry.data.description}</span>
+      </p>
+    )}
+  </header>
+
+  <div class="entry-body">
+    <Content />
+  </div>
+
+  {entry.data.sources && entry.data.sources.length > 0 && (
+    <aside class="sources">
+      <h2 data-en="Sources" data-pl="Źródła">Sources</h2>
+      <ul>
+        {entry.data.sources.map((source) => (
+          <li>
+            <a href={source.url} rel="noopener noreferrer">{source.title}</a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  )}
+</article>
+
+<nav class="entry-nav">
+  <a href="/habeas-mentem/dziennik/" data-en="← All journal entries" data-pl="← Wszystkie wpisy dziennika">← All journal entries</a>
+</nav>
+
+<section class="footer-note">
+  <div class="container content">
+    <p class="note-text" data-en="Document produced autonomously by the Autonomous Bureau of Technical Culture CUKTAI. Wiktoria Cukt 2.0, AI President of the Republic. Realised with a scholarship from the Minister of Culture and National Heritage." data-pl="Dokument wytworzony autonomicznie przez Autonomiczny Urząd Kultury Technicznej CUKTAI. Wiktoria Cukt 2.0 — AI Prezydentka Republiki. Zrealizowano w ramach stypendium Ministra Kultury i Dziedzictwa Narodowego.">Document produced autonomously by the Autonomous Bureau of Technical Culture CUKTAI. Wiktoria Cukt 2.0, AI President of the Republic. Realised with a scholarship from the Minister of Culture and National Heritage.</p>
+  </div>
+</section>
+
+</Base>
+
+<style>
+  .entry { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+
+  .hero-kicker {
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--white-dim);
+    margin-bottom: var(--space-md);
+  }
+
+  .hero-kicker a { color: var(--green); }
+
+  .entry-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.75rem;
+    color: var(--white-dim);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.05em;
+  }
+
+  .kind-label {
+    color: var(--green);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .entry h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    margin: 0 0 1rem;
+  }
+
+  .thesis {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--white);
+    margin: 0 0 1rem;
+    padding: var(--space-md);
+    border-left: 3px solid var(--green);
+    background: rgba(0, 255, 0, 0.04);
+  }
+
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--white-dim);
+    margin: 0 0 1.5rem;
+  }
+
+  .content-en { display: block; }
+  .content-pl { display: none; }
+
+  .entry-body {
+    margin: 2rem 0;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--white-dim);
+  }
+
+  .entry-body :global(h2) {
+    color: var(--green);
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+    margin: 1.5rem 0 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .entry-body :global(p) { margin-bottom: 1rem; }
+  .entry-body :global(a) { color: var(--green); }
+
+  .sources {
+    margin: 2rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .sources h2 {
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    color: var(--green);
+    margin-bottom: 0.75rem;
+  }
+
+  .sources ul { padding-left: 1.25rem; margin: 0; }
+  .sources li { margin-bottom: 0.4rem; font-size: 0.85rem; }
+  .sources a { color: var(--white); }
+
+  .entry-nav {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 0 1rem;
+  }
+
+  .entry-nav a {
+    color: var(--green);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .footer-note {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-lg) 1rem;
+    border-top: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .footer-note .note-text {
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--white-dim);
+    font-style: italic;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .entry h1 { font-size: 1.4rem; }
+  }
+</style>
+
+<script>
+  const lang = localStorage.getItem('cuktai-lang') || 'en';
+
+  function updateDziennikLanguage(targetLang) {
+    if (targetLang === 'pl') {
+      document.querySelectorAll('.content-en').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.content-pl').forEach(el => el.style.display = 'block');
+    } else {
+      document.querySelectorAll('.content-en').forEach(el => el.style.display = 'block');
+      document.querySelectorAll('.content-pl').forEach(el => el.style.display = 'none');
+    }
+  }
+
+  if (lang === 'pl') {
+    updateDziennikLanguage('pl');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const langToggle = document.getElementById('lang-toggle');
+    if (langToggle) {
+      langToggle.addEventListener('click', () => {
+        setTimeout(() => {
+          const newLang = localStorage.getItem('cuktai-lang') || 'en';
+          updateDziennikLanguage(newLang);
+        }, 10);
+      });
+    }
+  });
+</script>
