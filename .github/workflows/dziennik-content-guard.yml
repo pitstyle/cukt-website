@@ -1,33 +1,34 @@
-# Checks only — no auto-merge, no deploy.
-# Content-only exclusivity runs on dziennik/* branches (future autonomous entries).
-# Safety tests run whenever dziennik content or its guard scripts change.
+# Dziennik content PRs: safety checks + fail-closed squash auto-merge.
+#
+# Auto-merge only when ALL of:
+#   - head branch starts with dziennik/
+#   - base is main
+#   - PR is same-repo (not a fork)
+#   - author login == repository owner
+#   - every changed file is under src/content/dziennik/**
+#
+# Note: merges performed with GITHUB_TOKEN do not trigger other Actions
+# workflows (e.g. .github/workflows/deploy.yml). Render still deploys from
+# its own GitHub integration on push to main.
 name: Dziennik content guard
 
 on:
   pull_request:
+    branches: [main]
     paths:
       - 'src/content/dziennik/**'
       - 'scripts/test-dziennik.ts'
       - 'scripts/dziennik-forbidden.ts'
       - 'scripts/check-dziennik-content-only.ts'
+      - 'scripts/check-dziennik-automerge-gate.ts'
       - '.github/workflows/dziennik-content-guard.yml'
 
 jobs:
-  safety:
+  verify:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - run: npm ci
-      - name: Dziennik content safety
-        run: node --experimental-strip-types --test scripts/test-dziennik.ts
-
-  content-only:
-    if: startsWith(github.head_ref, 'dziennik/')
-    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,10 +38,55 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Enforce content-only paths
+      - name: Enforce content-only paths (dziennik/* branches)
+        if: startsWith(github.head_ref, 'dziennik/')
         env:
           BASE_REF: ${{ github.event.pull_request.base.ref }}
         run: |
           git fetch origin "$BASE_REF"
           git diff --name-only --diff-filter=ACMRT "origin/${BASE_REF}...HEAD" \
             | node --experimental-strip-types scripts/check-dziennik-content-only.ts --stdin
+      - name: Dziennik content safety + full test suite
+        run: npm test
+      - name: Production build
+        run: npm run build
+
+  auto-merge:
+    needs: verify
+    if: >
+      startsWith(github.head_ref, 'dziennik/') &&
+      github.event.pull_request.base.ref == 'main' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fail-closed eligibility + path re-check
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          HEAD_REF: ${{ github.head_ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.repository }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          git fetch origin "$BASE_REF"
+          CHANGED_FILES="$(git diff --name-only --diff-filter=ACMRT "origin/${BASE_REF}...HEAD")"
+          export CHANGED_FILES
+          node --experimental-strip-types scripts/check-dziennik-automerge-gate.ts
+      - name: Squash-merge with GITHUB_TOKEN
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge "${{ github.event.pull_request.number }}" --squash --delete-branch

@@ -1,6 +1,8 @@
 /**
  * Content-only contract for future autonomous dziennik PRs.
  *
+ * Allowed content path: src/content/dziennik/**
+ *
  * Usage:
  *   node --experimental-strip-types scripts/check-dziennik-content-only.ts <file> [file...]
  *   git diff --name-only ... | node --experimental-strip-types scripts/check-dziennik-content-only.ts --stdin
@@ -12,7 +14,18 @@
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
-const ALLOWED_PREFIX = 'src/content/dziennik/';
+export const DZIENNIK_CONTENT_PREFIX = 'src/content/dziennik/';
+const ALLOWED_PREFIX = DZIENNIK_CONTENT_PREFIX;
+
+export type DziennikAutoMergeContext = {
+  headRef: string;
+  baseRef: string;
+  headRepoFullName: string;
+  baseRepoFullName: string;
+  authorLogin: string;
+  ownerLogin: string;
+  changedFiles: string[];
+};
 
 export function normalizePath(filePath: string): string {
   return filePath.trim().replace(/\\/g, '/').replace(/^\.\//, '');
@@ -52,6 +65,40 @@ export function assertDziennikContentOnly(files: string[]): void {
   if (inside.length === 0) {
     throw new Error(`content-only PR must include at least one file under ${ALLOWED_PREFIX}`);
   }
+}
+
+/**
+ * Fail-closed eligibility for squash auto-merge of Mini-generated journal PRs.
+ * All conditions must hold; any mismatch returns ok: false with a reason.
+ */
+export function evaluateDziennikAutoMerge(
+  ctx: DziennikAutoMergeContext,
+): { ok: true } | { ok: false; reason: string } {
+  if (!ctx.headRef.startsWith('dziennik/')) {
+    return { ok: false, reason: `head branch must start with dziennik/ (got ${ctx.headRef})` };
+  }
+  if (ctx.baseRef !== 'main') {
+    return { ok: false, reason: `base branch must be main (got ${ctx.baseRef})` };
+  }
+  if (ctx.headRepoFullName !== ctx.baseRepoFullName) {
+    return {
+      ok: false,
+      reason: `fork PRs are not auto-merged (${ctx.headRepoFullName} ≠ ${ctx.baseRepoFullName})`,
+    };
+  }
+  if (ctx.authorLogin !== ctx.ownerLogin) {
+    return {
+      ok: false,
+      reason: `author must be repo owner token user (got ${ctx.authorLogin}, owner ${ctx.ownerLogin})`,
+    };
+  }
+  try {
+    assertDziennikContentOnly(ctx.changedFiles);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    return { ok: false, reason: message };
+  }
+  return { ok: true };
 }
 
 function readStdinPaths(): string[] {

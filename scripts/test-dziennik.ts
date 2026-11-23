@@ -5,6 +5,7 @@ import { describe, it } from 'node:test';
 import { fileURLToPath } from 'node:url';
 import {
   assertDziennikContentOnly,
+  evaluateDziennikAutoMerge,
   findNonDziennikPaths,
   isDziennikContentPath,
 } from './check-dziennik-content-only.ts';
@@ -210,6 +211,50 @@ describe('dziennik content-only guard', () => {
       /content-only PR may only touch/,
     );
     assert.throws(() => assertDziennikContentOnly([]), /at least one changed file/);
+  });
+
+  it('auto-merge eligibility is fail-closed', () => {
+    const base = {
+      headRef: 'dziennik/entry-1',
+      baseRef: 'main',
+      headRepoFullName: 'pitstyle/cukt-website',
+      baseRepoFullName: 'pitstyle/cukt-website',
+      authorLogin: 'pitstyle',
+      ownerLogin: 'pitstyle',
+      changedFiles: ['src/content/dziennik/a.md'],
+    };
+    assert.deepEqual(evaluateDziennikAutoMerge(base), { ok: true });
+    assert.equal(evaluateDziennikAutoMerge({ ...base, headRef: 'cursor/x' }).ok, false);
+    assert.equal(evaluateDziennikAutoMerge({ ...base, baseRef: 'develop' }).ok, false);
+    assert.equal(
+      evaluateDziennikAutoMerge({
+        ...base,
+        headRepoFullName: 'other/fork',
+      }).ok,
+      false,
+    );
+    assert.equal(evaluateDziennikAutoMerge({ ...base, authorLogin: 'someone-else' }).ok, false);
+    assert.equal(
+      evaluateDziennikAutoMerge({
+        ...base,
+        changedFiles: ['src/content/dziennik/a.md', 'README.md'],
+      }).ok,
+      false,
+    );
+  });
+});
+
+describe('habeas mentem canon version label', () => {
+  it('marks ustawa version 2.8 on the public page (keeps Art. 3 2.6 amendment markers)', () => {
+    const page = readFileSync(join(ROOT, 'src/pages/habeas-mentem.astro'), 'utf8');
+    assert.match(page, /Work in progress, v2\.8/);
+    assert.match(page, /"version": "2\.8"/);
+    assert.match(page, /Wersja 2\.8 — Kraków AI Art Biennale 09\.03\.2026/);
+    assert.match(page, /Version 2\.8 — Kraków AI Art Biennale 09\.03\.2026/);
+    assert.match(page, /AMENDMENT 2\.6/);
+    assert.match(page, /NOWELIZACJA 2\.6/);
+    assert.equal(page.includes('Work in progress, v2.6'), false);
+    assert.equal(page.includes('"version": "2.6"'), false);
   });
 });
 
