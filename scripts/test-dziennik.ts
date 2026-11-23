@@ -8,55 +8,16 @@ import {
   findNonDziennikPaths,
   isDziennikContentPath,
 } from './check-dziennik-content-only.ts';
+import { findDziennikForbidden } from './dziennik-forbidden.ts';
+import {
+  ENTRY_AVAILABLE_IN_POLISH,
+  needsPolishOnlyNote,
+  normalizeDziennikDate,
+} from '../src/lib/dziennik.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DZIENNIK_DIR = join(ROOT, 'src/content/dziennik');
 const DIST = join(ROOT, 'dist');
-
-const TECHNICAL_PATTERNS: Array<{ name: string; re: RegExp }> = [
-  { name: 'kolejka IG', re: /kolejka\s+IG/i },
-  { name: 'Format:', re: /\bFormat:/ },
-  { name: 'rura N', re: /\brura\s+\d+/i },
-  { name: 'slajd', re: /\bslajd/i },
-  { name: 'Stan:', re: /\bStan:/ },
-  { name: 'DO PUBLIKACJI', re: /DO PUBLIKACJI/i },
-  { name: 'STATUS', re: /\bSTATUS\b/ },
-  { name: 'TODO', re: /\bTODO\b/ },
-];
-
-const PATH_PATTERNS: Array<{ name: string; re: RegExp }> = [
-  { name: '~/', re: /~\// },
-  { name: '/Users/', re: /\/Users\// },
-  { name: '/home/', re: /\/home\// },
-];
-
-const SECRET_PATTERNS: Array<{ name: string; re: RegExp }> = [
-  { name: 'sk-', re: /\bsk-[A-Za-z0-9]/ },
-  { name: 'ghp_', re: /\bghp_[A-Za-z0-9]+/ },
-  { name: 'xox', re: /\bxox[a-z]?-/i },
-  { name: 'API_KEY=', re: /API_KEY\s*=/ },
-  { name: 'tokens', re: /\btokens?\b/i },
-];
-
-const INTERNAL_HOST_PATTERNS: Array<{ name: string; re: RegExp }> = [
-  { name: '100.x tailscale', re: /\b100\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/ },
-  { name: '.ts.net', re: /\.ts\.net\b/i },
-  { name: 'localhost', re: /\blocalhost\b/i },
-];
-
-const MODEL_PATTERNS: Array<{ name: string; re: RegExp }> = [
-  { name: 'GPT', re: /\bGPT\b/i },
-  { name: 'Claude', re: /\bClaude\b/i },
-  { name: 'Gemini', re: /\bGemini\b/i },
-  { name: 'DeepSeek', re: /\bDeepSeek\b/i },
-  { name: 'Llama', re: /\bLlama\b/i },
-  { name: 'Qwen', re: /\bQwen\b/i },
-  { name: 'Bielik', re: /\bBielik\b/i },
-  { name: 'OpenAI', re: /\bOpenAI\b/i },
-  { name: 'Anthropic', re: /\bAnthropic\b/i },
-  { name: 'cheaperinference', re: /\bcheaperinference\b/i },
-  { name: 'OpenRouter', re: /\bOpenRouter\b/i },
-];
 
 function listMarkdownEntries(dir: string): string[] {
   if (!existsSync(dir)) return [];
@@ -99,21 +60,72 @@ function parseFrontmatter(raw: string): { data: Record<string, unknown>; body: s
   return { data, body };
 }
 
-function collectViolations(text: string): string[] {
-  const found: string[] = [];
-  for (const group of [
-    TECHNICAL_PATTERNS,
-    PATH_PATTERNS,
-    SECRET_PATTERNS,
-    INTERNAL_HOST_PATTERNS,
-    MODEL_PATTERNS,
-  ]) {
-    for (const { name, re } of group) {
-      if (re.test(text)) found.push(name);
-    }
-  }
-  return found;
-}
+describe('dziennik date normalisation', () => {
+  it('formats Date and string values as YYYY-MM-DD', () => {
+    assert.equal(normalizeDziennikDate(new Date(Date.UTC(2026, 2, 23))), '2026-03-23');
+    assert.equal(normalizeDziennikDate('2026-03-23'), '2026-03-23');
+    assert.equal(normalizeDziennikDate('2026-03-23T12:00:00.000Z'), '2026-03-23');
+  });
+});
+
+describe('dziennik forbidden patterns', () => {
+  it('blocks kolejka IG, slajd, model names, and relative internal paths', () => {
+    assert.ok(findDziennikForbidden('wrzuć do kolejka IG dziś').includes('kolejka IG'));
+    assert.ok(findDziennikForbidden('zobacz slajd 3').includes('slajd'));
+    assert.ok(findDziennikForbidden('trained with GPT').includes('GPT'));
+    assert.ok(findDziennikForbidden('see publications/habeas/notes.md').includes('publications/'));
+    assert.ok(findDziennikForbidden('open wiki/index.md').includes('wiki/'));
+    assert.ok(findDziennikForbidden('from state/queue.json').includes('state/'));
+    assert.ok(
+      findDziennikForbidden('path research/outline.md').includes('relative .md/.json/.py path'),
+    );
+    assert.ok(findDziennikForbidden('load helper.py').includes('bare .md/.json/.py file'));
+  });
+
+  it('allows ordinary prose "token" but blocks secret-looking contexts', () => {
+    assert.deepEqual(findDziennikForbidden('The legal token of unpredictability.'), []);
+    assert.ok(findDziennikForbidden('token: abc123').includes('token assignment'));
+    assert.ok(findDziennikForbidden('token = abc123').includes('token assignment'));
+    assert.ok(findDziennikForbidden('Authorization: Bearer abc.def').includes('Bearer token'));
+    assert.ok(findDziennikForbidden('sk-abcdefghijklmnop').includes('sk-'));
+    assert.ok(findDziennikForbidden('ghp_abcdefghijklmnop').includes('ghp_'));
+  });
+
+  it('documents sync with cuktai-3.0 dziennik_site.py', () => {
+    const src = readFileSync(join(ROOT, 'scripts/dziennik-forbidden.ts'), 'utf8');
+    assert.match(src, /cuktai\/habeas\/dziennik_site\.py/);
+    assert.match(src, /KEEP IN SYNC/i);
+  });
+});
+
+describe('dziennik EN fallback note', () => {
+  it('flags missing EN fields for the Polish-only note', () => {
+    assert.equal(
+      needsPolishOnlyNote({ title: 'T', thesis: 'Teza' }),
+      true,
+    );
+    assert.equal(
+      needsPolishOnlyNote({
+        title: 'T',
+        title_en: 'Title',
+        thesis: 'Teza',
+        thesis_en: 'Thesis',
+      }),
+      false,
+    );
+    assert.equal(
+      needsPolishOnlyNote({
+        title: 'T',
+        title_en: 'Title',
+        thesis: 'Teza',
+        thesis_en: 'Thesis',
+        description: 'Opis',
+      }),
+      true,
+    );
+    assert.equal(ENTRY_AVAILABLE_IN_POLISH, 'Entry available in Polish');
+  });
+});
 
 describe('dziennik content safety', () => {
   const files = listMarkdownEntries(DZIENNIK_DIR);
@@ -131,15 +143,13 @@ describe('dziennik content safety', () => {
       const thesis = typeof data.thesis === 'string' ? data.thesis.trim() : '';
       assert.ok(thesis.length > 0, `${file}: thesis must be a non-empty string`);
 
-      const violations = collectViolations(raw);
+      const violations = findDziennikForbidden(raw);
       assert.deepEqual(
         violations,
         [],
         `${file}: forbidden content patterns: ${violations.join(', ')}`,
       );
-
-      // Body is also covered by raw, but keep an explicit check for clarity.
-      assert.deepEqual(collectViolations(body), [], `${file}: body has forbidden patterns`);
+      assert.deepEqual(findDziennikForbidden(body), [], `${file}: body has forbidden patterns`);
     }
   });
 
@@ -203,5 +213,14 @@ describe('built dziennik pages', { skip: !distReady }, () => {
       html.includes('/habeas-mentem/dziennik'),
       'redirect should point at /habeas-mentem/dziennik',
     );
+  });
+
+  it('wires the Polish-only EN note into journal templates', () => {
+    const indexSrc = readFileSync(join(ROOT, 'src/pages/habeas-mentem/dziennik/index.astro'), 'utf8');
+    const entrySrc = readFileSync(join(ROOT, 'src/pages/habeas-mentem/dziennik/[id].astro'), 'utf8');
+    assert.match(indexSrc, /ENTRY_AVAILABLE_IN_POLISH/);
+    assert.match(entrySrc, /ENTRY_AVAILABLE_IN_POLISH/);
+    assert.match(indexSrc, /needsPolishOnlyNote/);
+    assert.match(entrySrc, /needsPolishOnlyNote/);
   });
 });

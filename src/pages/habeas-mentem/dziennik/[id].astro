@@ -1,6 +1,10 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
+import {
+  ENTRY_AVAILABLE_IN_POLISH,
+  needsPolishOnlyNote,
+} from '../../../lib/dziennik';
 
 export async function getStaticPaths() {
   const entries = await getCollection('dziennik', ({ data }) => data.draft !== true);
@@ -20,6 +24,7 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
 };
 
 const labels = kindLabels[entry.data.kind] ?? { pl: entry.data.kind, en: entry.data.kind };
+const plOnly = needsPolishOnlyNote(entry.data);
 const pageTitle = entry.data.title_en || entry.data.title;
 const pageDescription = entry.data.thesis_en || entry.data.thesis;
 ---
@@ -43,6 +48,9 @@ const pageDescription = entry.data.thesis_en || entry.data.thesis;
       <time datetime={entry.data.date}>{entry.data.date}</time>
       <span class="kind-label" data-en={labels.en} data-pl={labels.pl}>{labels.en}</span>
     </div>
+    {plOnly && (
+      <p class="lang-note content-en">{ENTRY_AVAILABLE_IN_POLISH}</p>
+    )}
     <h1>
       <span class="content-pl">{entry.data.title}</span>
       <span class="content-en">{entry.data.title_en || entry.data.title}</span>
@@ -116,6 +124,14 @@ const pageDescription = entry.data.thesis_en || entry.data.thesis;
     color: var(--green);
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+  .lang-note {
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    color: var(--green);
+    margin: 0 0 0.75rem;
+    font-style: italic;
   }
 
   .entry h1 {

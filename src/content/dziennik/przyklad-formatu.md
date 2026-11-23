@@ -1,7 +1,7 @@
 ---
 title: "Przykład wpisu — format dziennika (nie publikować)"
 title_en: "Example entry — journal format (do not publish)"
-date: "2026-03-23"
+date: 2026-03-23
 kind: feed
 thesis: "[PRZYKŁAD / EXAMPLE] Placeholder thesis — replace with a real research claim before publishing. This draft demonstrates frontmatter only; it states no facts about the Habeas Mentem bill."
 thesis_en: "[EXAMPLE] Placeholder thesis — replace with a real research claim before publishing. This draft demonstrates frontmatter only; it states no facts about the Habeas Mentem bill."

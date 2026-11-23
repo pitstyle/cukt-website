@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { normalizeDziennikDate } from './lib/dziennik.ts';
 
 const cukt = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/cukt' }),
@@ -67,12 +68,17 @@ const podcasts = defineCollection({
   }),
 });
 
+const dziennikDate = z
+  .union([z.string(), z.date()])
+  .transform((value) => normalizeDziennikDate(value));
+
 const dziennik = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/dziennik' }),
   schema: z.object({
     title: z.string(),
     title_en: z.string().optional(),
-    date: z.string(),
+    // YAML may parse unquoted ISO dates as Date; always store YYYY-MM-DD.
+    date: dziennikDate,
     kind: z.enum(['feed', 'deepen', 'synthesis']),
     thesis: z.string().min(1),
     thesis_en: z.string().optional(),

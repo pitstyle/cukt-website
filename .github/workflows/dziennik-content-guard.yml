@@ -8,6 +8,7 @@ on:
     paths:
       - 'src/content/dziennik/**'
       - 'scripts/test-dziennik.ts'
+      - 'scripts/dziennik-forbidden.ts'
       - 'scripts/check-dziennik-content-only.ts'
       - '.github/workflows/dziennik-content-guard.yml'
 

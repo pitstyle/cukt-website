@@ -1,6 +1,10 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import {
+  ENTRY_AVAILABLE_IN_POLISH,
+  needsPolishOnlyNote,
+} from '../../../lib/dziennik';
 
 const entries = (await getCollection('dziennik', ({ data }) => data.draft !== true)).sort((a, b) =>
   b.data.date.localeCompare(a.data.date),
@@ -43,6 +47,7 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
       <ul class="entry-list">
         {entries.map((entry) => {
           const labels = kindLabels[entry.data.kind] ?? { pl: entry.data.kind, en: entry.data.kind };
+          const plOnly = needsPolishOnlyNote(entry.data);
           return (
             <li class="entry-card">
               <a href={'/habeas-mentem/dziennik/' + entry.id + '/'}>
@@ -50,6 +55,9 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
                   <time datetime={entry.data.date}>{entry.data.date}</time>
                   <span class="kind-label" data-en={labels.en} data-pl={labels.pl}>{labels.en}</span>
                 </div>
+                {plOnly && (
+                  <p class="lang-note content-en">{ENTRY_AVAILABLE_IN_POLISH}</p>
+                )}
                 <h2 class="entry-title">
                   <span class="content-pl">{entry.data.title}</span>
                   <span class="content-en">{entry.data.title_en || entry.data.title}</span>
@@ -142,6 +150,14 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
     color: var(--green);
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+  .lang-note {
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    color: var(--green);
+    margin: 0 0 0.4rem;
+    font-style: italic;
   }
 
   .entry-title {
