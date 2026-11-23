@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import {
   ENTRY_AVAILABLE_IN_POLISH,
   needsPolishOnlyNote,
+  renderInlineMarkdown,
 } from '../../../lib/dziennik';
 
 const entries = (await getCollection('dziennik', ({ data }) => data.draft !== true)).sort((a, b) =>
@@ -63,9 +64,15 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
                   <span class="content-en">{entry.data.title_en || entry.data.title}</span>
                 </h2>
                 <p class="entry-thesis">
-                  <span class="content-pl">{entry.data.thesis}</span>
-                  <span class="content-en">{entry.data.thesis_en || entry.data.thesis}</span>
+                  <span class="content-pl" set:html={renderInlineMarkdown(entry.data.thesis)} />
+                  <span class="content-en" set:html={renderInlineMarkdown(entry.data.thesis_en || entry.data.thesis)} />
                 </p>
+                {(entry.data.description || entry.data.description_en) && (
+                  <p class="entry-desc">
+                    <span class="content-pl" set:html={renderInlineMarkdown(entry.data.description || entry.data.description_en || '')} />
+                    <span class="content-en" set:html={renderInlineMarkdown(entry.data.description_en || entry.data.description || '')} />
+                  </p>
+                )}
               </a>
             </li>
           );
@@ -173,6 +180,20 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
     color: var(--white-dim);
     margin: 0;
   }
+
+  .entry-desc {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--white-dim);
+    margin: 0.5rem 0 0;
+    opacity: 0.85;
+  }
+
+  .entry-thesis :global(strong),
+  .entry-desc :global(strong) { color: var(--white); font-weight: 700; }
+
+  .entry-thesis :global(a),
+  .entry-desc :global(a) { color: var(--green); }
 
   .content-en { display: block; }
   .content-pl { display: none; }

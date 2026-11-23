@@ -4,6 +4,9 @@ import { getCollection, render } from 'astro:content';
 import {
   ENTRY_AVAILABLE_IN_POLISH,
   needsPolishOnlyNote,
+  renderInlineMarkdown,
+  shouldShowDescriptionOnEntry,
+  stripInlineMarkdown,
 } from '../../../lib/dziennik';
 
 export async function getStaticPaths() {
@@ -16,6 +19,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const body = entry.body ?? '';
 
 const kindLabels: Record<string, { pl: string; en: string }> = {
   feed: { pl: 'feed', en: 'feed' },
@@ -26,7 +30,21 @@ const kindLabels: Record<string, { pl: string; en: string }> = {
 const labels = kindLabels[entry.data.kind] ?? { pl: entry.data.kind, en: entry.data.kind };
 const plOnly = needsPolishOnlyNote(entry.data);
 const pageTitle = entry.data.title_en || entry.data.title;
-const pageDescription = entry.data.thesis_en || entry.data.thesis;
+const metaSource =
+  entry.data.description_en ||
+  entry.data.description ||
+  entry.data.thesis_en ||
+  entry.data.thesis;
+const pageDescription = stripInlineMarkdown(metaSource);
+
+const thesisPlHtml = renderInlineMarkdown(entry.data.thesis);
+const thesisEnHtml = renderInlineMarkdown(entry.data.thesis_en || entry.data.thesis);
+
+const descriptionPl = entry.data.description || entry.data.description_en;
+const descriptionEn = entry.data.description_en || entry.data.description;
+const showDescriptionPl = shouldShowDescriptionOnEntry(descriptionPl, body);
+const showDescriptionEn = shouldShowDescriptionOnEntry(descriptionEn, body);
+const showDescription = showDescriptionPl || showDescriptionEn;
 ---
 
 <Base
@@ -56,13 +74,17 @@ const pageDescription = entry.data.thesis_en || entry.data.thesis;
       <span class="content-en">{entry.data.title_en || entry.data.title}</span>
     </h1>
     <p class="thesis">
-      <span class="content-pl">{entry.data.thesis}</span>
-      <span class="content-en">{entry.data.thesis_en || entry.data.thesis}</span>
+      <span class="content-pl" set:html={thesisPlHtml} />
+      <span class="content-en" set:html={thesisEnHtml} />
     </p>
-    {(entry.data.description || entry.data.description_en) && (
+    {showDescription && (
       <p class="description">
-        <span class="content-pl">{entry.data.description || entry.data.description_en}</span>
-        <span class="content-en">{entry.data.description_en || entry.data.description}</span>
+        {showDescriptionPl && descriptionPl && (
+          <span class="content-pl" set:html={renderInlineMarkdown(descriptionPl)} />
+        )}
+        {showDescriptionEn && descriptionEn && (
+          <span class="content-en" set:html={renderInlineMarkdown(descriptionEn)} />
+        )}
       </p>
     )}
   </header>
@@ -151,12 +173,18 @@ const pageDescription = entry.data.thesis_en || entry.data.thesis;
     background: rgba(0, 255, 0, 0.04);
   }
 
+  .thesis :global(strong) { font-weight: 700; }
+  .thesis :global(a) { color: var(--green); }
+
   .description {
     font-size: 0.9rem;
     line-height: 1.7;
     color: var(--white-dim);
     margin: 0 0 1.5rem;
   }
+
+  .description :global(strong) { color: var(--white); font-weight: 700; }
+  .description :global(a) { color: var(--green); }
 
   .content-en { display: block; }
   .content-pl { display: none; }

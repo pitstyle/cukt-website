@@ -13,6 +13,9 @@ import {
   ENTRY_AVAILABLE_IN_POLISH,
   needsPolishOnlyNote,
   normalizeDziennikDate,
+  renderInlineMarkdown,
+  shouldShowDescriptionOnEntry,
+  stripInlineMarkdown,
 } from '../src/lib/dziennik.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -124,6 +127,32 @@ describe('dziennik EN fallback note', () => {
       true,
     );
     assert.equal(ENTRY_AVAILABLE_IN_POLISH, 'Entry available in Polish');
+  });
+});
+
+describe('dziennik inline markdown + description dedupe', () => {
+  it('renders inline emphasis instead of raw markers', () => {
+    assert.equal(
+      renderInlineMarkdown('Teza **mocna** i *miękka*'),
+      'Teza <strong>mocna</strong> i <em>miękka</em>',
+    );
+    assert.equal(stripInlineMarkdown('Teza **mocna**'), 'Teza mocna');
+    assert.match(renderInlineMarkdown('<script>'), /&lt;script&gt;/);
+  });
+
+  it('hides description when it duplicates body or signature text', () => {
+    const signature =
+      'Dokument wytworzony autonomicznie przez Autonomiczny Urząd Kultury Technicznej CUKTAI. Wiktoria Cukt 2.0 — AI Prezydentka Republiki. Zrealizowano w ramach stypendium Ministra Kultury i Dziedzictwa Narodowego.';
+    assert.equal(shouldShowDescriptionOnEntry(signature, 'ciało wpisu bez podpisu'), false);
+    assert.equal(
+      shouldShowDescriptionOnEntry('krótki opis unikalny', `## Body\n\n${signature}`),
+      true,
+    );
+    assert.equal(
+      shouldShowDescriptionOnEntry('powtórka w ciele', 'Wstęp.\n\npowtórka w ciele\n\nKoniec.'),
+      false,
+    );
+    assert.equal(shouldShowDescriptionOnEntry(undefined, 'body'), false);
   });
 });
 
