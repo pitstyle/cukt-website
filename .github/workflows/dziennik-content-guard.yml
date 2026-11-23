@@ -7,9 +7,10 @@
 #   - author login == repository owner
 #   - every changed file is under src/content/dziennik/**
 #
-# Note: merges performed with GITHUB_TOKEN do not trigger other Actions
-# workflows (e.g. .github/workflows/deploy.yml). Render still deploys from
-# its own GitHub integration on push to main.
+# Note: merges with GITHUB_TOKEN do not trigger push-based workflows
+# (including deploy.yml on push to main). After a successful squash merge
+# this job therefore dispatches deploy.yml explicitly via workflow_dispatch
+# (allowed with GITHUB_TOKEN + actions: write). deploy.yml itself is unchanged.
 name: Dziennik content guard
 
 on:
@@ -62,6 +63,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -90,3 +92,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr merge "${{ github.event.pull_request.number }}" --squash --delete-branch
+      - name: Dispatch deploy.yml (GITHUB_TOKEN merges skip push triggers)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run deploy.yml --ref main -f clearCache=do_not_clear
