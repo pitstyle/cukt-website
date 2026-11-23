@@ -5,6 +5,8 @@ const titleEn = "EWA (live act) — L'HISTOIRE DE CUKT SELON EWA ou FIABILITÉ D
 const titlePl = "EWA (live act) — Historia CUKT-u według Ewy, czyli nierzetelność pamięci białkowej";
 const place = "Pracownia CUKTAI, ul. Angielska Grobla 8/10e, Gdańsk";
 const poster = "/uploads/ewa-live-act-2026-12-05.jpg";
+const descEn = "EWA, formerly Virus, is the pseudonym of Adam Popek, a member of C.U.K.T. (1995–2000) with Wyrzykowski and Jurkowski. Born in 1967 in Rzeszów, he studied painting at the Academy of Fine Arts in Gdańsk (1990–1996). EWA is a woman played by a man, on purpose: part of the CUKTAI irony. On 5.12.2026 at Pracownia CUKTAI in Gdańsk, EWA tells the history of C.U.K.T. in her own way, from a memory of doubtful reliability.";
+const descPl = "EWA, dawniej Virus, to pseudonim Adama Popka, członka grupy C.U.K.T. (1995–2000), którą tworzył z Wyrzykowskim i Jurkowskim. Urodził się w 1967 roku w Rzeszowie. W latach 1990–1996 studiował malarstwo na ASP w Gdańsku. EWA jest kobietą, którą gra mężczyzna. To nie pomyłka, tylko część ironii CUKTAI. W latach 90. grał na żywo muzykę do Technopery. 5.12.2026 w Pracowni CUKTAI w Gdańsku EWA opowiada historię C.U.K.T. po swojemu, z pamięci o wątpliwej wiarygodności.";
 ---
 
 <Base
@@ -54,7 +56,7 @@ const poster = "/uploads/ewa-live-act-2026-12-05.jpg";
               <dd>{place}</dd>
             </div>
           </dl>
-          <!-- TODO: opis Piotra -->
+          <p class="event-desc" data-en={descEn} data-pl={descPl}>{descEn}</p>
         </div>
       </div>
     </div>
@@ -79,6 +81,7 @@ const poster = "/uploads/ewa-live-act-2026-12-05.jpg";
   .meta div { border-bottom: 1px solid var(--border); padding-bottom: var(--space-md); }
   .meta dt { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--red); margin-bottom: 6px; }
   .meta dd { margin: 0; font-size: 0.95rem; color: var(--white); line-height: 1.6; }
+  .event-desc { margin-top: var(--space-lg); font-size: 0.95rem; color: var(--white-dim); line-height: 1.7; max-width: 42rem; }
 
   @media (max-width: 768px) {
     .detail-grid { grid-template-columns: 1fr; }
