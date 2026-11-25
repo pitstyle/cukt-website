@@ -4,6 +4,8 @@ interface Props {
   description?: string;
   ogTitle?: string;
   image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   imageAlt?: string;
   noindex?: boolean;
 }
@@ -13,6 +15,8 @@ const {
   description = 'CUKTAI — Autonomous Bureau of Technical Culture. Multi-voice AI system built on the C.U.K.T. archive (1995-2001).',
   ogTitle,
   image = '/og/cuktai-default.jpg',
+  imageWidth = 1280,
+  imageHeight = 720,
   imageAlt = 'CUKTAI — Autonomous Bureau of Technical Culture',
   noindex = false,
 } = Astro.props;
@@ -46,8 +50,8 @@ const finalOgTitle = ogTitle || `${title} | CUKTAI`;
   <meta property="og:locale" content="en_US" />
   <meta property="og:locale:alternate" content="pl_PL" />
   <meta property="og:image" content={ogImage} />
-  <meta property="og:image:width" content="1280" />
-  <meta property="og:image:height" content="720" />
+  <meta property="og:image:width" content={String(imageWidth)} />
+  <meta property="og:image:height" content={String(imageHeight)} />
   <meta property="og:image:alt" content={imageAlt} />
 
   <!-- Twitter -->
