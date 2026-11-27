@@ -1,0 +1,24 @@
+---
+// cukt.click/mgla → MGŁA (głosowa persona Habeas Mentem, działa na Mac mini przez Tailscale Funnel)
+const MGLA = 'https://wiktorias-mac-mini.tail6d1aae.ts.net:8443/?k=2W2vuz2u';
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>MGŁA</title>
+    <meta http-equiv="refresh" content={`0; url=${MGLA}`} />
+    <script is:inline define:vars={{ MGLA }}>location.replace(MGLA);</script>
+    <style>
+      html, body { margin: 0; height: 100%; background: #dcdcd8; color: #2a2a2a;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      a { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);
+        color: inherit; font-style: italic; font-size: 21px; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <a href={MGLA}>wejdź w mgłę</a>
+  </body>
+</html>
